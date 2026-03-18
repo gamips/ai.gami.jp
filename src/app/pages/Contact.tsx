@@ -43,26 +43,6 @@ export function Contact() {
     });
   };
 
-  const openMailFallback = () => {
-    const subject = encodeURIComponent("お問い合わせがありました");
-    const body = encodeURIComponent(
-      [
-        `お名前: ${formData.name}`,
-        `会社名: ${formData.company || "-"}`,
-        `メールアドレス: ${formData.email}`,
-        `電話番号: ${formData.phone || "-"}`,
-        `サービス: ${formData.service || "-"}`,
-        "",
-        "【お問い合わせ内容】",
-        formData.message,
-        "",
-        EMAIL_SIGNATURE,
-      ].join("\n"),
-    );
-    const cc = encodeURIComponent(formData.email);
-    window.location.href = `mailto:${CONTACT_ADMIN_EMAIL}?cc=${cc}&subject=${subject}&body=${body}`;
-  };
-
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
     setSubmitState("submitting");
@@ -75,10 +55,8 @@ export function Contact() {
     }
 
     if (!CONTACT_FORM_ENDPOINT) {
-      openMailFallback();
-      navigate("/contact/thanks");
-      setSubmitState("success");
-      setSubmitMessage("メールアプリを起動しました。内容をご確認の上、送信してください。");
+      setSubmitState("error");
+      setSubmitMessage("メール送信APIの設定が未完了です。管理者にご連絡ください。");
       return;
     }
 
@@ -262,7 +240,7 @@ export function Contact() {
                     className="w-full px-4 py-3 bg-zinc-50 border border-zinc-200 rounded-lg focus:outline-none focus:border-cyan-500 focus:ring-2 focus:ring-cyan-500/20 transition-colors text-zinc-900"
                   >
                     <option value="">選択してください</option>
-                    <option value="saas">AIシステム開発 / SaaS・ERP</option>
+                    <option value="saas">AIシステム開発 / SaaS・DX</option>
                     <option value="marketing">AIマーケティング / AIライティング</option>
                     <option value="web">AI Web制作 / LP・コーポレートサイト</option>
                     <option value="consulting">AI導入支援 / コンサルティング</option>

@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { Outlet, useLocation } from "react-router";
 import { Header } from "./Header";
 import { Footer } from "./Footer";
+import { WindowsInertialScroll } from "./WindowsInertialScroll";
 
 export function Root() {
   const { pathname } = useLocation();
@@ -25,6 +26,7 @@ export function Root() {
 
   return (
     <div className="min-h-screen text-zinc-900">
+      <WindowsInertialScroll />
       <a
         href="#main-content"
         className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:rounded-full focus:bg-zinc-900 focus:px-4 focus:py-2 focus:text-white"

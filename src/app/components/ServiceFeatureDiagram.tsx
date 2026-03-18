@@ -177,7 +177,7 @@ function SaasDecisionDiagram() {
         clipPath="url(#saasDecisionOverlap)"
       />
 
-      <g className="service-feature-spin" style={{ transformOrigin: "116px 112px", animationDuration: "22s" }}>
+      <g>
         <circle
           cx="116"
           cy="112"
@@ -186,9 +186,18 @@ function SaasDecisionDiagram() {
           stroke="#9CA3AF"
           strokeWidth="1.2"
           strokeDasharray="4 5"
-        />
+        >
+          <animateTransform
+            attributeName="transform"
+            type="rotate"
+            from="0 116 112"
+            to="360 116 112"
+            dur="22s"
+            repeatCount="indefinite"
+          />
+        </circle>
       </g>
-      <g className="service-feature-spin-reverse" style={{ transformOrigin: "194px 112px", animationDuration: "22s" }}>
+      <g>
         <circle
           cx="194"
           cy="112"
@@ -197,7 +206,16 @@ function SaasDecisionDiagram() {
           stroke="#111827"
           strokeWidth="1.2"
           strokeDasharray="4 5"
-        />
+        >
+          <animateTransform
+            attributeName="transform"
+            type="rotate"
+            from="0 194 112"
+            to="-360 194 112"
+            dur="22s"
+            repeatCount="indefinite"
+          />
+        </circle>
       </g>
 
       <text x="95" y="115" textAnchor="middle" fontSize="8.2" letterSpacing="2.6" fill="#9CA3AF">SAAS</text>

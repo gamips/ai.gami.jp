@@ -86,7 +86,7 @@ export function Footer() {
             <ul className="space-y-3">
               <li>
                 <ScrollToTopLink to="/services/ai-saas" className={`transition-colors hover:text-cyan-500 ${isDarkFooter ? "text-white/75" : "text-zinc-600"}`}>
-                  AI × SaaS / AI × ERP
+                  AI × SaaS / AI × DX
                 </ScrollToTopLink>
               </li>
               <li>

@@ -92,7 +92,7 @@ const serviceCatalogSchema = {
       url: toAbsoluteUrl("/services/ai-saas"),
       item: {
         "@type": "Service",
-        name: "AI × SaaS / AI × ERP",
+        name: "AI × SaaS / AI × DX",
       },
     },
     {
@@ -129,7 +129,7 @@ const priceCatalogSchema = {
       category: "Monthly",
       itemOffered: {
         "@type": "Service",
-        name: "AI × SaaS / AI × ERP",
+        name: "AI × SaaS / AI × DX",
       },
     },
     {
@@ -193,7 +193,7 @@ export const pageSeoByPath = {
     path: "/",
     title: "GAMI | AI導入支援・AI開発会社 | AI速度、人間品質。",
     description:
-      "AI導入支援とAI開発を一体で進めるGAMI。AI × SaaS / ERP、AI × Growth / Writing、AI × Brand / Site を通じて、業務システム開発、AIマーケティング、AI Web制作をAI基準で再設計します。",
+      "AI導入支援とAI開発を一体で進めるGAMI。AI × SaaS / DX、AI × Growth / Writing、AI × Brand / Site を通じて、業務システム開発、AIマーケティング、AI Web制作をAI基準で再設計します。",
     keywords:
       "AI導入支援,AI開発会社,AI開発,AI実装,AIシステム開発,AIマーケティング,AI Web制作",
     image: "/og/home.png",
@@ -239,7 +239,7 @@ export const pageSeoByPath = {
     path: "/services",
     title: "Services | AI導入支援・AI開発の3領域 | GAMI",
     description:
-      "GAMIが提供するAI導入支援・AI開発の3領域。AI × SaaS / ERP、AI × Growth / Writing、AI × Brand / Site を通じて、業務システム開発、AIマーケティング、AI Web制作をAI基準で再設計します。",
+      "GAMIが提供するAI導入支援・AI開発の3領域。AI × SaaS / DX、AI × Growth / Writing、AI × Brand / Site を通じて、業務システム開発、AIマーケティング、AI Web制作をAI基準で再設計します。",
     keywords: "AI導入支援,AI開発,AIシステム開発,AIマーケティング,AI Web制作,業務システム開発",
     image: "/og/services.png",
     imageAlt: "Services page open graph image",
@@ -262,25 +262,25 @@ export const pageSeoByPath = {
   },
   "/services/ai-saas": {
     path: "/services/ai-saas",
-    title: "AI × SaaS / AI × ERP | AIシステム開発・業務システム開発 | GAMI",
+    title: "AI × SaaS / AI × DX | AIシステム開発・業務システム開発 | GAMI",
     description:
       "業務システム開発・基幹システム開発をAI基準で進めるサービス。自社要件に合わせたAIシステム開発、AI機能の組み込み、既存SaaSとの見極めにも対応します。",
-    keywords: "AIシステム開発,業務システム開発,基幹システム開発,SaaS開発,AI ERP",
+    keywords: "AIシステム開発,業務システム開発,基幹システム開発,SaaS開発,AI DX",
     image: "/og/service-ai-saas.png",
-    imageAlt: "AI SaaS and AI ERP service open graph image",
+    imageAlt: "AI SaaS and AI DX service open graph image",
     ogType: "website",
     schemas: [
       organizationSchema,
       createBaseWebPageSchema({
         path: "/services/ai-saas",
-        title: "AI × SaaS / AI × ERP | GAMI",
+        title: "AI × SaaS / AI × DX | GAMI",
         description:
           "AIシステム開発で業務システムや基幹領域を立ち上げるサービス紹介ページです。",
       }),
       {
         "@context": "https://schema.org",
         "@type": "Service",
-        name: "AI × SaaS / AI × ERP",
+        name: "AI × SaaS / AI × DX",
         serviceType: "AI業務基盤開発",
         provider: {
           "@type": "Organization",
@@ -298,7 +298,7 @@ export const pageSeoByPath = {
       createBreadcrumbSchema([
         { name: "Home", path: "/" },
         { name: "Services", path: "/services" },
-        { name: "AI × SaaS / AI × ERP", path: "/services/ai-saas" },
+        { name: "AI × SaaS / AI × DX", path: "/services/ai-saas" },
       ]),
     ],
   },

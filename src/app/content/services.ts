@@ -66,7 +66,7 @@ export const services: ServiceContent[] = [
     slug: "ai-saas",
     path: "/services/ai-saas",
     number: "SERVICE 01",
-    titleLines: ["AI × SaaS", "AI × ERP"],
+    titleLines: ["AI × SaaS", "AI × DX"],
     overviewDescription:
       "AIシステム開発の力で、自社専用の業務システム開発や基幹システム開発を従来より速く低コストで立ち上げます。必要に応じてAI機能まで組み込み、独自の業務基盤として育てていけます。",
     homeDescriptionLines: [
@@ -136,7 +136,7 @@ export const services: ServiceContent[] = [
     engagement: {
       title: "契約と進め方",
       intro:
-        "AI × SaaS / AI × ERP は、まず動く業務基盤を立ち上げてから現場に合わせて改善を重ねるため、月単位で進める方が無理なく精度を上げられます。",
+        "AI × SaaS / AI × DX は、まず動く業務基盤を立ち上げてから現場に合わせて改善を重ねるため、月単位で進める方が無理なく精度を上げられます。",
       notes: [
         {
           label: "PRICE",
