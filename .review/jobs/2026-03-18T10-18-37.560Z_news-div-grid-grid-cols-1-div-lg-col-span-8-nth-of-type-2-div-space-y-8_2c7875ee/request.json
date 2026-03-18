@@ -1,0 +1,53 @@
+{
+  "id": "2026-03-18T10-18-37.560Z_news-div-grid-grid-cols-1-div-lg-col-span-8-nth-of-type-2-div-space-y-8_2c7875ee",
+  "createdAt": "2026-03-18T10:18:37.391Z",
+  "pageUrl": "http://localhost:5173/",
+  "pageTitle": "GAMI | AI導入支援・AI開発会社 | AI速度、人間品質。",
+  "instruction": "これは別のもので何かいいのありませんか？\nhttps://clickfix.gami.jp/\nClickFixという制作業務改善のWindowsアプリも作っているのでそれでしょうか。",
+  "workspaceRoot": "C:\\Users\\Akira Ishigami\\google_antigravity_project\\ai.gami.jp",
+  "workspaceDetection": {
+    "mode": "explicit",
+    "score": 999,
+    "matchedSignals": [
+      "workspaceRoot"
+    ]
+  },
+  "workspaceProject": null,
+  "agent": {
+    "provider": "codex",
+    "autoRun": true,
+    "mode": "resume",
+    "sessionId": "019ce0f2-2fa5-7de3-ae2f-1e7ceb13d1d2",
+    "sessionName": "ローカルプレビューとxserver対応を確認"
+  },
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) clickfix-workspace/1.0.14 Chrome/146.0.7680.65 Electron/41.0.0 Safari/537.36",
+  "viewport": {
+    "width": 2560,
+    "height": 1343,
+    "scrollX": 0,
+    "scrollY": 9130
+  },
+  "target": {
+    "aiId": "",
+    "selector": "#news > div.grid.grid-cols-1 > div.lg\\:col-span-8:nth-of-type(2) > div.space-y-8 > div:nth-of-type(2) > div.block.border-b > h3.text-xl.font-medium",
+    "tagName": "h3",
+    "text": "新サービス「SaaS × AI 業務自動化プラン」の提供を開始しました。",
+    "html": "<h3 class=\"text-xl font-medium text-zinc-900\">新サービス「SaaS × AI 業務自動化プラン」の提供を開始しました。</h3>",
+    "selectorMatchCount": 0,
+    "selectorMatchIndex": -1,
+    "contextSelector": "#news",
+    "previousHeading": "コーポレートサイトをリニューアルオープンしました。",
+    "sectionHeading": "",
+    "role": "",
+    "ariaLabel": "",
+    "accessibleName": "",
+    "href": "",
+    "src": "",
+    "bounds": {
+      "x": 965,
+      "y": 812,
+      "width": 1325,
+      "height": 28
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "workspaceRoot": "C:\\Users\\Akira Ishigami\\google_antigravity_project\\ai.gami.jp",
+  "status": "completed",
+  "createdAt": "2026-03-18T10:15:40.878Z",
+  "entryCount": 1,
+  "entries": [
+    {
+      "path": "src/app/pages/Home.tsx",
+      "type": "modified"
+    }
+  ]
+}

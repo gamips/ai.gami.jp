@@ -1,0 +1,17 @@
+{
+  "agent": "codex",
+  "bin": "codex",
+  "resolvedCommand": "C:\\Program Files\\nodejs\\codex.cmd",
+  "mode": "resume",
+  "sessionId": "019ce0f2-2fa5-7de3-ae2f-1e7ceb13d1d2",
+  "sessionName": "ローカルプレビューとxserver対応を確認",
+  "status": "completed",
+  "startedAt": "2026-03-18T10:11:46.421Z",
+  "finishedAt": "2026-03-18T10:12:14.493Z",
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "outputPath": "C:\\Users\\Akira Ishigami\\google_antigravity_project\\ai.gami.jp\\.review\\jobs\\2026-03-18T10-11-45.593Z_news-div-mx-auto-px-5-div-grid-grid-cols-1-div-lg-col-span-8-nth-o_ba72448e\\codex-last-message.md",
+  "stdoutPath": "C:\\Users\\Akira Ishigami\\google_antigravity_project\\ai.gami.jp\\.review\\jobs\\2026-03-18T10-11-45.593Z_news-div-mx-auto-px-5-div-grid-grid-cols-1-div-lg-col-span-8-nth-o_ba72448e\\codex-events.jsonl",
+  "stderrPath": "C:\\Users\\Akira Ishigami\\google_antigravity_project\\ai.gami.jp\\.review\\jobs\\2026-03-18T10-11-45.593Z_news-div-mx-auto-px-5-div-grid-grid-cols-1-div-lg-col-span-8-nth-o_ba72448e\\codex-error.log"
+}
