@@ -2,8 +2,11 @@
   RewriteEngine On
   RewriteBase /
 
-  RewriteRule ^index\.html$ - [L]
-  RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteCond %{REQUEST_FILENAME} !-d
-  RewriteRule . /index.html [L]
+  RewriteCond %{REQUEST_FILENAME} -f
+  RewriteRule ^ - [L]
+  RewriteRule ^ index.php [L,QSA]
 </IfModule>
+
+# Contact form environment variables (can be overridden by Xserver panel if needed)
+SetEnv GAMI_CONTACT_TO info@ai.gami.jp
+SetEnv GAMI_MAIL_FROM noreply@ai.gami.jp

@@ -9,14 +9,7 @@ type SubmitState = "idle" | "submitting" | "success" | "error";
 const CONTACT_FORM_ENDPOINT =
   (typeof import.meta !== "undefined" &&
   (import.meta as { env?: { VITE_CONTACT_FORM_ENDPOINT?: string } }).env?.VITE_CONTACT_FORM_ENDPOINT) ||
-  "";
-const CONTACT_ADMIN_EMAIL = "info@gami.jp";
-const EMAIL_SIGNATURE = `━━━━━━━━━━━━━━━━━━━━━━━━━━
-株式会社ガミ
-
-〒393-0000
-長野県諏訪郡下諏訪町社6-21
-info@gami.jp`;
+  "/api/contact.php";
 
 export function Contact() {
   const navigate = useNavigate();
@@ -54,12 +47,6 @@ export function Contact() {
       return;
     }
 
-    if (!CONTACT_FORM_ENDPOINT) {
-      setSubmitState("error");
-      setSubmitMessage("メール送信APIの設定が未完了です。管理者にご連絡ください。");
-      return;
-    }
-
     try {
       const response = await fetch(CONTACT_FORM_ENDPOINT, {
         method: "POST",
@@ -68,16 +55,20 @@ export function Contact() {
         },
         body: JSON.stringify({
           ...formData,
-          to: CONTACT_ADMIN_EMAIL,
-          cc: formData.email,
-          replyTo: formData.email,
-          signature: EMAIL_SIGNATURE,
           submittedAt: new Date().toISOString(),
         }),
       });
 
       if (!response.ok) {
-        throw new Error(`送信に失敗しました (${response.status})`);
+        const errorData = await response.json().catch(() => null);
+        const errorMessage =
+          errorData?.message || `送信に失敗しました (${response.status})`;
+        throw new Error(errorMessage);
+      }
+
+      const data = await response.json().catch(() => null);
+      if (!data?.success) {
+        throw new Error(data?.message || "送信に失敗しました。");
       }
 
       setSubmitState("success");
@@ -296,4 +287,3 @@ export function Contact() {
     </div>
   );
 }
-

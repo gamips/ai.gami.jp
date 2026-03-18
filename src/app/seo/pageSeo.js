@@ -480,6 +480,31 @@ export const pageSeoByPath = {
       ]),
     ],
   },
+  "/contact/thanks": {
+    path: "/contact/thanks",
+    title: "送信完了 | Contact | GAMI",
+    description:
+      "お問い合わせフォームからのお問い合わせを受け付けました。担当者よりご連絡いたします。",
+    keywords: "お問い合わせ 送信完了,AI導入支援 お問い合わせ,AI開発 お問い合わせ,GAMI",
+    image: "/og/contact.png",
+    imageAlt: "Contact thanks page open graph image",
+    ogType: "website",
+    schemas: [
+      organizationSchema,
+      createBaseWebPageSchema({
+        path: "/contact/thanks",
+        title: "送信完了 | GAMI",
+        description:
+          "GAMIへのお問い合わせを受け付けた後のサンクスページです。折り返しご連絡いたします。",
+        type: "WebPage",
+      }),
+      createBreadcrumbSchema([
+        { name: "Home", path: "/" },
+        { name: "Contact", path: "/contact" },
+        { name: "Thanks", path: "/contact/thanks" },
+      ]),
+    ],
+  },
 };
 
 export const staticSeoEntries = Object.values(pageSeoByPath);

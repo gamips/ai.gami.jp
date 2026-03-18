@@ -6,6 +6,8 @@ const distDir = path.resolve(process.cwd(), "dist");
 const templatePath = path.join(distDir, "index.html");
 const markerStart = "<!-- SEO_HEAD_START -->";
 const markerEnd = "<!-- SEO_HEAD_END -->";
+const bodyMarkerStart = "<!-- SEO_FALLBACK_BODY_START -->";
+const bodyMarkerEnd = "<!-- SEO_FALLBACK_BODY_END -->";
 
 function escapeHtml(value) {
   return String(value)
@@ -59,6 +61,74 @@ function buildSeoHead(entry) {
     ${markerEnd}`;
 }
 
+function stripTitleSuffix(title = "") {
+  return String(title)
+    .replace(/\s*\|.*$/, "")
+    .replace(/\s+AI速度、人間品質。$/, "")
+    .trim();
+}
+
+const contactThanksStaticFallback = `
+  <div class="pt-24">
+    <header class="bg-white py-16 md:py-20">
+      <div class="container mx-auto px-6">
+        <p class="text-cyan-500 font-medium tracking-widest mb-6">CONTACT / THANKS</p>
+        <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight text-zinc-900">
+          お問い合わせ
+          <br />
+          <span class="text-cyan-500">送信完了</span>
+        </h1>
+      </div>
+    </header>
+
+    <section class="py-24 bg-zinc-50">
+      <div class="container mx-auto px-6">
+        <div class="mx-auto max-w-6xl">
+          <div class="py-8">
+            <h2 class="text-2xl md:text-3xl font-bold text-zinc-900 leading-tight">
+              送信ありがとうございます。
+              <br />
+              <span class="text-cyan-500">ご連絡を準備しております。</span>
+            </h2>
+            <p class="mt-6 text-lg text-zinc-600 leading-relaxed max-w-4xl">
+              お問い合わせ内容を受け付けました。
+              担当者が内容を確認のうえ、営業日基準でご返信いたします。
+              しばらくお時間がかかる場合は、迷惑メールフィルタをご確認ください。
+            </p>
+            <div class="mt-8">
+              <a href="/" class="inline-flex items-center gap-2 bg-cyan-500 hover:bg-cyan-600 text-white px-6 py-3 rounded-full font-medium transition-colors">トップページへ</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>`;
+
+function stripFallbackBlock(template) {
+  if (!template.includes(bodyMarkerStart) || !template.includes(bodyMarkerEnd)) {
+    return template;
+  }
+
+  return template.replace(
+    new RegExp(`${bodyMarkerStart}[\\s\\S]*?${bodyMarkerEnd}`, "m"),
+    "",
+  );
+}
+
+function replaceRootContent(template, html) {
+  return template.replace('<div id="root"></div>', `<div id="root">${html}</div>`);
+}
+
+function injectSeoBody(template, entry) {
+  const withoutFallback = stripFallbackBlock(template);
+
+  if (entry.path === "/contact/thanks") {
+    return replaceRootContent(withoutFallback, contactThanksStaticFallback);
+  }
+
+  return withoutFallback;
+}
+
 function injectSeoHead(template, entry) {
   return template
     .replace(/<html lang="[^"]*">/i, '<html lang="ja">')
@@ -69,7 +139,8 @@ function injectSeoHead(template, entry) {
 }
 
 async function writeRouteHtml(entry, template) {
-  const html = injectSeoHead(template, entry);
+  const withHead = injectSeoHead(template, entry);
+  const html = injectSeoBody(withHead, entry);
   const outputPath =
     entry.path === "/"
       ? path.join(distDir, "index.html")

@@ -9,7 +9,7 @@ $items = @(
   @{ File = "home.png"; Eyebrow = "GAMI"; Lines = @("AI Speed,", "Human Craft."); AccentSecond = $true },
   @{ File = "concept.png"; Eyebrow = "CONCEPT"; Lines = @("AI Base,", "Human Craft."); AccentSecond = $true },
   @{ File = "services.png"; Eyebrow = "SERVICES"; Lines = @("Three AI Fields", "Solutions"); AccentSecond = $true },
-  @{ File = "service-ai-saas.png"; Eyebrow = "SERVICE 01"; Lines = @("AI × SaaS", "AI × ERP"); AccentSecond = $true },
+  @{ File = "service-ai-saas.png"; Eyebrow = "SERVICE 01"; Lines = @("AI × SaaS", "AI × DX"); AccentSecond = $true },
   @{ File = "service-ai-growth.png"; Eyebrow = "SERVICE 02"; Lines = @("AI × Growth", "AI × Writing"); AccentSecond = $true },
   @{ File = "service-ai-brand.png"; Eyebrow = "SERVICE 03"; Lines = @("AI × Brand", "AI × Site"); AccentSecond = $true },
   @{ File = "price.png"; Eyebrow = "PRICE"; Lines = @("Start Small,", "Move Monthly."); AccentSecond = $true },
@@ -81,3 +81,4 @@ foreach ($item in $items) {
   $graphics.Dispose()
   $bitmap.Dispose()
 }
+

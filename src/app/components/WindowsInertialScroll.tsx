@@ -16,9 +16,9 @@ export function WindowsInertialScroll() {
     let lastFrameTime = 0;
 
     const FRAME_BUDGET_MS = 33;
-    const MAX_VELOCITY = 140;
-    const FRICTION = 0.94;
-    const INPUT_DAMPING = 0.12;
+    const MAX_VELOCITY = 72;
+    const FRICTION = 0.9;
+    const INPUT_DAMPING = 0.08;
 
     const applyScroll = (scrollY: number) => {
       const maxScrollTop = Math.max(

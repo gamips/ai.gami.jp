@@ -186,16 +186,8 @@ function SaasDecisionDiagram() {
           stroke="#9CA3AF"
           strokeWidth="1.2"
           strokeDasharray="4 5"
-        >
-          <animateTransform
-            attributeName="transform"
-            type="rotate"
-            from="0 116 112"
-            to="360 116 112"
-            dur="22s"
-            repeatCount="indefinite"
-          />
-        </circle>
+          className="service-feature-spin"
+        />
       </g>
       <g>
         <circle
@@ -206,16 +198,8 @@ function SaasDecisionDiagram() {
           stroke="#111827"
           strokeWidth="1.2"
           strokeDasharray="4 5"
-        >
-          <animateTransform
-            attributeName="transform"
-            type="rotate"
-            from="0 194 112"
-            to="-360 194 112"
-            dur="22s"
-            repeatCount="indefinite"
-          />
-        </circle>
+          className="service-feature-spin-reverse"
+        />
       </g>
 
       <text x="95" y="115" textAnchor="middle" fontSize="8.2" letterSpacing="2.6" fill="#9CA3AF">SAAS</text>
