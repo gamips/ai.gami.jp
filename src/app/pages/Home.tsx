@@ -4,9 +4,10 @@ import { ArrowRight, Code, TrendingUp, Globe } from "lucide-react";
 import { Link } from "react-router";
 import { DeferredGeometricParticles } from "../components/DeferredGeometricParticles";
 import { useMemo, useState, useEffect, useRef } from "react";
+import type { CSSProperties } from "react";
 import { getServiceBySlug } from "../content/services";
 import { PageSeo } from "../components/PageSeo";
-import { buildShadowClones } from "../lib/shadowClones";
+import { buildShadowClones, type ShadowClone } from "../lib/shadowClones";
 import { newsItems } from "../content/news.js";
 
 type ConceptLine =
@@ -20,6 +21,25 @@ type ConceptLine =
   | {
       type: "spacer";
     };
+
+type HeroCloneStyle = CSSProperties & {
+  "--hero-clone-opacity-1": number;
+  "--hero-clone-opacity-2": number;
+  "--hero-clone-opacity-3": number;
+  "--hero-clone-duration": string;
+  "--hero-clone-delay": string;
+};
+
+function getHeroCloneStyle(clone: ShadowClone): HeroCloneStyle {
+  return {
+    transform: `translate(${clone.x}px, ${clone.y}px)`,
+    "--hero-clone-opacity-1": clone.opacity[1],
+    "--hero-clone-opacity-2": clone.opacity[2],
+    "--hero-clone-opacity-3": clone.opacity[3],
+    "--hero-clone-duration": `${clone.duration + 3.2}s`,
+    "--hero-clone-delay": `${clone.delay}s`,
+  };
+}
 
 const conceptLines: ConceptLine[] = [
   { type: "text", parts: [{ text: "従来の開発工程は、もう古い。" }] },
@@ -262,12 +282,8 @@ export function Home() {
                           ? line1Clones[charIndex].map((clone, cloneIndex) => (
                               <span
                                 key={cloneIndex}
-                                className="absolute inset-0 shadow-clone text-black"
-                                style={{
-                                  opacity: clone.opacity,
-                                  transform: `translate(${clone.x}px, ${clone.y}px)`,
-                                  transition: `opacity ${clone.duration}s ease ${clone.delay}s`,
-                                }}
+                                className="absolute inset-0 hero-shadow-clone shadow-clone text-black"
+                                style={getHeroCloneStyle(clone)}
                               >
                                 {char}
                               </span>
@@ -292,11 +308,9 @@ export function Home() {
                           ? line2Clones[charIndex].map((clone, cloneIndex) => (
                               <span
                                 key={cloneIndex}
-                                className="absolute inset-0"
+                                className="absolute inset-0 hero-shadow-clone"
                                 style={{
-                                  opacity: clone.opacity,
-                                  transform: `translate(${clone.x}px, ${clone.y}px)`,
-                                  transition: `opacity ${clone.duration}s ease ${clone.delay}s`,
+                                  ...getHeroCloneStyle(clone),
                                   WebkitTextStroke: '2px',
                                   WebkitTextStrokeColor: 'rgb(6, 182, 212)',
                                   WebkitTextFillColor: 'transparent',
