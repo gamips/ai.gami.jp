@@ -5,6 +5,7 @@ import { Link } from "react-router";
 import { DeferredGeometricParticles } from "../components/DeferredGeometricParticles";
 import { useMemo, useState, useEffect, useRef } from "react";
 import type { CSSProperties } from "react";
+import { motion } from "motion/react";
 import { getServiceBySlug } from "../content/services";
 import { PageSeo } from "../components/PageSeo";
 import { buildShadowClones, type ShadowClone } from "../lib/shadowClones";
@@ -22,22 +23,22 @@ type ConceptLine =
       type: "spacer";
     };
 
-type HeroCloneStyle = CSSProperties & {
-  "--hero-clone-opacity-1": number;
-  "--hero-clone-opacity-2": number;
-  "--hero-clone-opacity-3": number;
-  "--hero-clone-duration": string;
-  "--hero-clone-delay": string;
-};
+const heroCloneOpacityTimes = [0, 0.16, 0.38, 0.68, 1];
 
-function getHeroCloneStyle(clone: ShadowClone): HeroCloneStyle {
+function getHeroCloneStyle(clone: ShadowClone): CSSProperties {
   return {
     transform: `translate(${clone.x}px, ${clone.y}px)`,
-    "--hero-clone-opacity-1": clone.opacity[1],
-    "--hero-clone-opacity-2": clone.opacity[2],
-    "--hero-clone-opacity-3": clone.opacity[3],
-    "--hero-clone-duration": `${clone.duration + 3.2}s`,
-    "--hero-clone-delay": `${clone.delay}s`,
+  };
+}
+
+function getHeroCloneTransition(clone: ShadowClone) {
+  return {
+    duration: clone.duration,
+    delay: clone.delay,
+    repeat: Infinity,
+    repeatDelay: 3.2,
+    ease: "easeOut",
+    times: heroCloneOpacityTimes,
   };
 }
 
@@ -280,13 +281,16 @@ export function Home() {
                         {/* Shadow clones for each character - outline only */}
                         {shouldRenderHeroClones
                           ? line1Clones[charIndex].map((clone, cloneIndex) => (
-                              <span
+                              <motion.span
                                 key={cloneIndex}
-                                className="absolute inset-0 hero-shadow-clone shadow-clone text-black"
+                                className="absolute inset-0 shadow-clone text-black"
+                                initial={{ opacity: 0 }}
+                                animate={{ opacity: clone.opacity }}
+                                transition={getHeroCloneTransition(clone)}
                                 style={getHeroCloneStyle(clone)}
                               >
                                 {char}
-                              </span>
+                              </motion.span>
                             ))
                           : null}
                         {/* Main character - filled, appears last */}
@@ -306,9 +310,12 @@ export function Home() {
                         {/* Shadow clones for each character - outline only */}
                         {shouldRenderHeroClones
                           ? line2Clones[charIndex].map((clone, cloneIndex) => (
-                              <span
+                              <motion.span
                                 key={cloneIndex}
-                                className="absolute inset-0 hero-shadow-clone"
+                                className="absolute inset-0"
+                                initial={{ opacity: 0 }}
+                                animate={{ opacity: clone.opacity }}
+                                transition={getHeroCloneTransition(clone)}
                                 style={{
                                   ...getHeroCloneStyle(clone),
                                   WebkitTextStroke: '2px',
@@ -318,7 +325,7 @@ export function Home() {
                                 }}
                               >
                                 {char}
-                              </span>
+                              </motion.span>
                             ))
                           : null}
                         {/* Main character - filled, appears last */}
