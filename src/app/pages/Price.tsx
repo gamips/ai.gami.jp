@@ -3,6 +3,7 @@ import { InquiryCta } from "../components/InquiryCta";
 import { PageSeo } from "../components/PageSeo";
 import { ScrollToTopLink } from "../components/ScrollToTopLink";
 import { ScrollReveal } from "../components/ScrollReveal";
+import { pricingFaqItems } from "../content/faqs.js";
 import { getServiceBySlug, type ServiceSlug } from "../content/services";
 
 type PricePlan = {
@@ -16,22 +17,22 @@ type PricePlan = {
 const pricePlans: PricePlan[] = [
   {
     slug: "ai-saas",
-    fee: "50万円 / 月",
+    fee: "30万円 / 月",
     lead: "初期フェーズ目安 3カ月",
     description:
       "AI × SaaS / AI × DX は、要件の学習と改善を回しながら土台を育てる前提のサービスです。まずは使える基盤を立ち上げ、その後に現場運用へ合わせて詰めていくため、初期フェーズは3カ月をひとつの目安にしています。既存データベースへの接続や移行はAIだけでは難易度が上がる場合があるため、基本は新規構築を前提にしつつ、必要に応じて個別相談で整理します。",
   },
   {
     slug: "ai-marketing",
-    fee: "初期導入 10万円",
-    secondaryFee: "AIエージェントのレンタル 月5万円/1体",
-    lead: "初期学習目安 1カ月",
+    fee: "2万円〜 / 月",
+    secondaryFee: "初回ヒアリングで範囲を整理",
+    lead: "導入テーマ・対応範囲に応じて調整",
     description:
-      "AI × Growth / AI × Writing は、まずエージェントにブランド文脈と業務ルールを学習させる初期導入から始めます。約1カ月で初期学習を終えた後は、1エージェントごとの月額レンタルで提供します。SNS運用、SEO記事作成、広報活動全般の下書き支援を標準想定とし、画像生成など負荷の高い追加要件は別途相談です。なお対象は初期学習とレンタルまでで、日々の実運用代行は含みません。",
+      "AI × Growth / AI × Support は、広報・マーケティングや日々の業務にAIをどう入れるかを整理する、月額型のAI導入支援です。まずはヒアリングで、どこまでやりたいのか、今の体制でどこまでできるのか、どの業務から始めるべきかを確認します。そのうえで、プロンプト、テンプレート、運用ルール、ツール選定、レビュー体制など、必要な支援範囲を決めます。特定ツールの単体販売や投稿代行、経理代行ではなく、自社でAIを使い続けられる仕組みづくりが対象です。",
   },
   {
     slug: "ai-web",
-    fee: "50万円 / 月",
+    fee: "30万円 / 月",
     lead: "初回ローンチ目安 1カ月",
     description:
       "AI × Brand / AI × Site は、1カ月をひとつの目安に初回ローンチを狙うサービスです。条件が揃えばそれより早い公開も目指しますが、価値は公開後の改善速度にもあるため、契約は月単位で進めます。最初に出して終わりではなく、ブランド表現や導線の調整まで含めて柔軟に組み替えられる進め方を前提にしています。",
@@ -61,9 +62,9 @@ const monthlyModelPoints = [
 
 const projectNotes = [
   {
-    title: "AI Writing の対象範囲",
+    title: "AI × Growth / AI × Support の対象範囲",
     body:
-      "AI Writing は、エージェントの初期学習と貸し出しまでが対象です。実際の投稿運用や日々のオペレーション代行は含まれません。運用まで必要な場合は、別体制や別プランの相談が必要になります。",
+      "AI × Growth / AI × Support は、特定ツールを単体で販売するサービスではなく、広報・マーケティング、問い合わせ対応、バックオフィス、現場業務などにAIを導入するための支援です。まずはヒアリングで、やりたいこと、できること、社内で対応できる範囲を整理し、必要なプロンプト、テンプレート、ワークフロー、レビュー体制を月額支援の中で整えます。",
   },
   {
     title: "既存データ移行の考え方",
@@ -80,7 +81,6 @@ const projectNotes = [
 function formatDescriptionWithSentenceBreaks(text: string) {
   return text.replaceAll("。", "。\n").trimEnd();
 }
-
 export function Price() {
   return (
     <div className="pt-24">
@@ -109,7 +109,7 @@ export function Price() {
 
       <section className="bg-zinc-50 py-24">
         <div className="container mx-auto px-6">
-          <div className="mx-auto max-w-7xl border-t border-zinc-200">
+          <div className="mx-auto max-w-6xl border-t border-zinc-200">
             {pricePlans.map((plan) => {
               const service = getServiceBySlug(plan.slug);
 
@@ -168,6 +168,33 @@ export function Price() {
         <div className="container mx-auto px-6">
           <div className="mx-auto max-w-6xl">
             <div className="mb-16 max-w-4xl">
+              <p className="mb-4 font-medium tracking-widest text-cyan-500">FAQ</p>
+              <h2 className="text-4xl font-bold leading-tight text-zinc-900 md:text-6xl">
+                AI導入支援・AI開発で
+                <br />
+                よくある質問
+              </h2>
+            </div>
+
+            <div className="border-t border-zinc-200">
+              {pricingFaqItems.map((item) => (
+                <section
+                  key={item.question}
+                  className="grid grid-cols-1 gap-8 border-b border-zinc-200 py-10 xl:grid-cols-[360px_minmax(0,1fr)] xl:gap-10"
+                >
+                  <h3 className="text-2xl font-bold leading-tight text-zinc-900">{item.question}</h3>
+                  <p className="text-lg leading-[2] text-zinc-600">{item.answer}</p>
+                </section>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-zinc-50 py-24">
+        <div className="container mx-auto px-6">
+          <div className="mx-auto max-w-6xl">
+            <div className="mb-16 max-w-4xl">
               <p className="mb-4 font-medium tracking-widest text-cyan-500">HOW WE WORK</p>
               <h2 className="text-5xl font-bold leading-tight text-zinc-900 md:text-7xl">
                 月単位契約で、
@@ -196,7 +223,7 @@ export function Price() {
         </div>
       </section>
 
-      <section className="bg-zinc-50 py-24">
+      <section className="bg-white py-24">
         <div className="container mx-auto px-6">
           <div className="mx-auto max-w-6xl">
             <div className="mb-16 max-w-4xl">

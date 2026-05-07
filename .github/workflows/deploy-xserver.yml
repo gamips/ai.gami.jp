@@ -1,0 +1,45 @@
+name: Deploy to Xserver
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+concurrency:
+  group: xserver-production
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    name: Build and deploy
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Deploy dist to Xserver
+        uses: SamKirkland/FTP-Deploy-Action@v4.4.0
+        with:
+          server: ${{ secrets.XSERVER_FTP_SERVER }}
+          username: ${{ secrets.XSERVER_FTP_USERNAME }}
+          password: ${{ secrets.XSERVER_FTP_PASSWORD }}
+          port: ${{ secrets.XSERVER_FTP_PORT }}
+          protocol: ftp
+          local-dir: ./dist/
+          server-dir: ${{ secrets.XSERVER_FTP_REMOTE_PATH }}
+          state-name: .ftp-deploy-sync-state.json

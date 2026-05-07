@@ -1,6 +1,5 @@
 import { Link } from "react-router";
 import { Home, ArrowLeft } from "lucide-react";
-import { motion } from "motion/react";
 import { PageSeo } from "../components/PageSeo";
 
 export function NotFound() {
@@ -16,11 +15,7 @@ export function NotFound() {
         schemas={[]}
       />
       <div className="container mx-auto px-6 text-center">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-        >
+        <div>
           <h1 className="text-9xl md:text-[200px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-500 mb-8">
             404
           </h1>
@@ -48,7 +43,7 @@ export function NotFound() {
               前のページへ戻る
             </button>
           </div>
-        </motion.div>
+        </div>
       </div>
     </div>
   );

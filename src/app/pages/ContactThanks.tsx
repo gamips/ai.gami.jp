@@ -16,7 +16,7 @@ export function ContactThanks() {
       <header className="bg-white py-16 md:py-20">
         <div className="container mx-auto px-6">
           <ScrollReveal allowOnSubpages>
-            <div className="max-w-5xl">
+            <div className="max-w-6xl">
               <p className="text-cyan-500 font-medium tracking-widest mb-6">CONTACT / THANKS</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight text-zinc-900">
                 お問い合わせ

@@ -83,7 +83,7 @@ export function About() {
       <header className="py-32 bg-white">
         <div className="container mx-auto px-6">
           <ScrollReveal allowOnSubpages>
-            <div className="max-w-5xl">
+            <div className="max-w-6xl">
               <p className="text-cyan-500 font-medium tracking-widest mb-6">ABOUT US</p>
               <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold mb-8 leading-tight text-zinc-900">
                 AIで、

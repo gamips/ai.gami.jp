@@ -1,12 +1,13 @@
-import { motion } from "motion/react";
 import { ScrollReveal } from "../components/ScrollReveal";
 import { ShadowCloneText } from "../components/ShadowCloneText";
 import { ArrowRight, Code, TrendingUp, Globe } from "lucide-react";
 import { Link } from "react-router";
-import { GeometricParticles } from "../components/GeometricParticles";
+import { DeferredGeometricParticles } from "../components/DeferredGeometricParticles";
 import { useMemo, useState, useEffect, useRef } from "react";
 import { getServiceBySlug } from "../content/services";
 import { PageSeo } from "../components/PageSeo";
+import { buildShadowClones } from "../lib/shadowClones";
+import { newsItems } from "../content/news.js";
 
 type ConceptLine =
   | {
@@ -114,13 +115,25 @@ function CenterSweepHighlight({ children }: { children: string }) {
 
 export function Home() {
   const [isConceptSticky, setIsConceptSticky] = useState(false);
-  const [backgroundMode, setBackgroundMode] = useState<"default" | "concept" | "services" | "cta">("default");
+  const [backgroundMode, setBackgroundMode] = useState<"default" | "concept" | "services" | "news" | "cta">("default");
+  const [hasMounted, setHasMounted] = useState(false);
+  const isStaticRender = Boolean(
+    (globalThis as typeof globalThis & { __gamiStaticRender?: boolean }).__gamiStaticRender,
+  );
   const service01 = getServiceBySlug("ai-saas")!;
   const service02 = getServiceBySlug("ai-marketing")!;
   const service03 = getServiceBySlug("ai-web")!;
-  const isDarkMode = backgroundMode === "services";
+  const isServicesMode = backgroundMode === "services";
+  const isNewsMode = backgroundMode === "news";
+  const isDarkMode = isServicesMode;
   const isConceptMode = backgroundMode === "concept";
   const isCtaMode = backgroundMode === "cta";
+  const isNewsSurfaceDark = isServicesMode || isCtaMode;
+  const shouldRenderHeroClones = hasMounted && !isStaticRender;
+
+  useEffect(() => {
+    setHasMounted(true);
+  }, []);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -128,7 +141,7 @@ export function Home() {
       if (conceptSection) {
         const rect = conceptSection.getBoundingClientRect();
         // When the section reaches the top (sticky position), apply blur
-        setIsConceptSticky(rect.top <= 128); // 128px = top-32
+        setIsConceptSticky(rect.top <= -400);
       }
 
       const isSectionCentered = (section: HTMLElement | null) => {
@@ -141,18 +154,27 @@ export function Home() {
       const service1 = document.getElementById('service-1');
       const service2 = document.getElementById('service-2');
       const service3 = document.getElementById('service-3');
+      const newsSection = document.getElementById('news');
       const ctaSection = document.getElementById('cta');
 
       const isConceptInView = isSectionCentered(conceptSection);
+      const isNewsInView = isSectionCentered(newsSection);
       const isCtaInView = isSectionCentered(ctaSection);
+      const viewportMidpoint = window.scrollY + window.innerHeight / 2;
+      const newsTop = newsSection ? newsSection.offsetTop : Number.POSITIVE_INFINITY;
+      const newsLightSwitch = newsSection ? newsSection.offsetTop + newsSection.offsetHeight * 0.35 : Number.POSITIVE_INFINITY;
+      const isNewsIntro = viewportMidpoint >= newsTop && viewportMidpoint < newsLightSwitch;
+      const hasPassedNewsLightSwitch = viewportMidpoint >= newsLightSwitch;
 
       // Check if any service section is in view
       const isServiceInView = [service1, service2, service3].some(isSectionCentered);
 
       if (isCtaInView) {
         setBackgroundMode("cta");
-      } else if (isServiceInView) {
+      } else if (isServiceInView || isNewsIntro) {
         setBackgroundMode("services");
+      } else if (isNewsInView || hasPassedNewsLightSwitch) {
+        setBackgroundMode("news");
       } else if (isConceptInView) {
         setBackgroundMode("concept");
       } else {
@@ -167,7 +189,9 @@ export function Home() {
 
   useEffect(() => {
     document.body.dataset.headerTheme =
-      backgroundMode === "services" || backgroundMode === "cta" ? "dark" : "light";
+      backgroundMode === "services" || backgroundMode === "cta"
+        ? "dark"
+        : "light";
   }, [backgroundMode]);
 
   useEffect(() => {
@@ -176,23 +200,8 @@ export function Home() {
     };
   }, []);
 
-  // Generate random shadow clones data for each character
-  const generateClones = (charCount: number) => {
-    return Array.from({ length: charCount }, (_, charIndex) => {
-      const cloneCount = Math.floor(Math.random() * 5) + 4; // 4-8 clones per character
-      return Array.from({ length: cloneCount }, () => ({
-        x: Math.random() * 60 - 30, // -30 to 30
-        y: Math.random() * 60 - 30, // -30 to 30
-        delay: Math.random() * 0.3,
-        duration: Math.random() * 0.3 + 0.4, // 0.4 to 0.7
-        opacity: [0, Math.random() * 0.3 + 0.7, Math.random() * 0.4 + 0.4, Math.random() * 0.3 + 0.2, 0], // varying peak opacity
-      }));
-    });
-  };
-
-  const line1Clones = useMemo(() => generateClones(5), []); // AI速度、
-  const line2Clones = useMemo(() => generateClones(5), []); // 人間品質。
-
+  const line1Clones = useMemo(() => buildShadowClones("AI速度、", 5), []);
+  const line2Clones = useMemo(() => buildShadowClones("人間品質。", 5), []);
   return (
     <div>
       <PageSeo path="/" />
@@ -230,143 +239,106 @@ export function Home() {
       />
 
       {/* Particle Background */}
-      <GeometricParticles />
+      <DeferredGeometricParticles />
 
       {/* Hero Section - MV */}
       <header id="hero" className="relative min-h-screen flex items-end justify-start bg-transparent pt-24 md:pt-28 lg:pt-32">
         <div className="mx-auto px-[5%] md:px-[8%] lg:px-[10%] z-10 relative w-full pb-28 md:pb-32 lg:pb-36">
           <div className="w-full">
             {/* Left content area */}
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.2 }}
-              className="w-full lg:w-[85%]"
-            >
-              <motion.h1
+            <div className="w-full lg:w-[85%]">
+              <div
+                aria-hidden="true"
                 className="font-bold mb-8 leading-tight text-black"
-                style={{ fontSize: 'clamp(3.5rem, 12vw, 10rem)' }}
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ duration: 0.3, delay: 0.4 }}
+                style={{ fontSize: 'clamp(4rem, 13vw, 10rem)' }}
               >
                 {/* AI速度、 */}
                 <div className="relative">
-                  <motion.div
-                    className="relative"
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    transition={{ duration: 0.6, delay: 0.5 }}
-                  >
+                  <div className="relative">
                     {["A", "I", "速", "度", "、"].map((char, charIndex) => (
                       <span key={charIndex} className="relative inline-block">
                         {/* Shadow clones for each character - outline only */}
-                        {line1Clones[charIndex].map((clone, cloneIndex) => (
-                          <motion.span
-                            key={cloneIndex}
-                            className="absolute inset-0 shadow-clone text-black"
-                            initial={{ opacity: 0 }}
-                            animate={{ opacity: clone.opacity }}
-                            transition={{ duration: clone.duration, delay: 0.5 + clone.delay }}
-                            style={{ transform: `translate(${clone.x}px, ${clone.y}px)` }}
-                          >
-                            {char}
-                          </motion.span>
-                        ))}
+                        {shouldRenderHeroClones
+                          ? line1Clones[charIndex].map((clone, cloneIndex) => (
+                              <span
+                                key={cloneIndex}
+                                className="absolute inset-0 shadow-clone text-black"
+                                style={{
+                                  opacity: clone.opacity,
+                                  transform: `translate(${clone.x}px, ${clone.y}px)`,
+                                  transition: `opacity ${clone.duration}s ease ${clone.delay}s`,
+                                }}
+                              >
+                                {char}
+                              </span>
+                            ))
+                          : null}
                         {/* Main character - filled, appears last */}
-                        <motion.span
-                          className="relative z-10"
-                          initial={{ opacity: 0 }}
-                          animate={{ opacity: [0, 0, 1] }}
-                          transition={{ duration: 0.4, delay: 0.8 + charIndex * 0.05 }}
-                        >
+                        <span className="relative z-10">
                           {char}
-                        </motion.span>
+                        </span>
                       </span>
                     ))}
-                  </motion.div>
+                  </div>
                 </div>
 
                 {/* 人間品質。 */}
                 <div className="relative text-cyan-500">
-                  <motion.div
-                    className="relative"
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    transition={{ duration: 0.65, delay: 0.9 }}
-                  >
+                  <div className="relative">
                     {["人", "間", "品", "質", "。"].map((char, charIndex) => (
                       <span key={charIndex} className="relative inline-block">
                         {/* Shadow clones for each character - outline only */}
-                        {line2Clones[charIndex].map((clone, cloneIndex) => (
-                          <motion.span
-                            key={cloneIndex}
-                            className="absolute inset-0"
-                            initial={{ opacity: 0 }}
-                            animate={{ opacity: clone.opacity }}
-                            transition={{ duration: clone.duration, delay: 0.9 + clone.delay }}
-                            style={{ 
-                              transform: `translate(${clone.x}px, ${clone.y}px)`,
-                              WebkitTextStroke: '2px',
-                              WebkitTextStrokeColor: 'rgb(6, 182, 212)',
-                              WebkitTextFillColor: 'transparent',
-                              color: 'transparent'
-                            }}
-                          >
-                            {char}
-                          </motion.span>
-                        ))}
+                        {shouldRenderHeroClones
+                          ? line2Clones[charIndex].map((clone, cloneIndex) => (
+                              <span
+                                key={cloneIndex}
+                                className="absolute inset-0"
+                                style={{
+                                  opacity: clone.opacity,
+                                  transform: `translate(${clone.x}px, ${clone.y}px)`,
+                                  transition: `opacity ${clone.duration}s ease ${clone.delay}s`,
+                                  WebkitTextStroke: '2px',
+                                  WebkitTextStrokeColor: 'rgb(6, 182, 212)',
+                                  WebkitTextFillColor: 'transparent',
+                                  color: 'transparent'
+                                }}
+                              >
+                                {char}
+                              </span>
+                            ))
+                          : null}
                         {/* Main character - filled, appears last */}
-                        <motion.span
-                          className="relative z-10 text-cyan-500"
-                          initial={{ opacity: 0 }}
-                          animate={{ opacity: [0, 0, 1] }}
-                          transition={{ duration: 0.4, delay: 1.2 + charIndex * 0.06 }}
-                        >
+                        <span className="relative z-10 text-cyan-500">
                           {char}
-                        </motion.span>
+                        </span>
                       </span>
                     ))}
-                  </motion.div>
+                  </div>
                 </div>
-              </motion.h1>
+              </div>
 
-              <motion.p
-                className="text-xl md:text-2xl text-zinc-600 w-full lg:w-[70%] leading-relaxed"
-                initial={{ opacity: 0 }}
-                animate={{ 
-                  opacity: [0, 0, 1],
-                }}
-                transition={{ 
-                  duration: 0.5, 
-                  delay: 2.2,
-                  times: [0, 0.5, 1]
-                }}
-              >
-                AI導入支援からAI開発、AI Web制作まで。
-                <br />
-                ベースをAIで高速生成し、人間の技術で磨き上げる。
-                <br />
-                私たちは、新時代のAIデベロップメントエージェントです。
-              </motion.p>
-            </motion.div>
+              <div className="w-full lg:w-[70%]">
+                <h1
+                  className="text-xl md:text-2xl text-zinc-600 font-bold leading-relaxed"
+                >
+                  AI導入支援からAI開発、AI Web制作まで
+                </h1>
+                <p className="text-xl md:text-2xl text-zinc-600 leading-relaxed">
+                  ベースをAIで高速生成し、人間の技術で磨き上げる。
+                  <br />
+                  私たちは、新時代のAIデベロップメントエージェントです。
+                </p>
+              </div>
+            </div>
           </div>
         </div>
 
         {/* Scroll Indicator */}
-        <motion.div
-          className="absolute bottom-12 left-1/2 transform -translate-x-1/2 z-20"
-          animate={{ y: [0, 10, 0] }}
-          transition={{ duration: 1.5, repeat: Infinity }}
-        >
+        <div className="absolute bottom-12 left-1/2 transform -translate-x-1/2 z-20">
           <div className="w-6 h-10 border-2 border-zinc-300 rounded-full flex items-start justify-center p-2">
-            <motion.div
-              className="w-1 h-2 bg-zinc-400 rounded-full"
-              animate={{ y: [0, 12, 0] }}
-              transition={{ duration: 1.5, repeat: Infinity }}
-            />
+            <div className="w-1 h-2 bg-zinc-400 rounded-full" />
           </div>
-        </motion.div>
+        </div>
       </header>
 
       {/* CONCEPT Section */}
@@ -377,11 +349,16 @@ export function Home() {
               {/* Left: Title - Sticky */}
               <div className={`sticky top-32 self-start z-20 transition-all duration-300 ${isConceptSticky ? 'blur-sm' : ''}`}>
                 <p className={`font-medium tracking-widest mb-6 transition-colors duration-300 ${isConceptSticky ? 'text-[#cccccc]' : 'text-cyan-500'}`}>CONCEPT</p>
-                <h2 className="font-bold leading-tight transition-colors duration-300" style={{ fontSize: 'clamp(3rem, 10vw, 8rem)' }}>
+                <h2 className="sr-only">従来の開発工程は、もう古い。AIをベースに置き、人間の技術と知恵で磨く。</h2>
+                <div
+                  aria-hidden="true"
+                  className="font-bold leading-tight transition-colors duration-300"
+                  style={{ fontSize: 'clamp(3.4rem, 11vw, 8rem)' }}
+                >
                   <ShadowCloneText className={`inline transition-colors duration-300 ${isConceptSticky ? 'text-[#cccccc]' : 'text-black'}`}>AI Base,</ShadowCloneText>
                   <br />
                   <ShadowCloneText className={`inline whitespace-nowrap transition-colors duration-300 ${isConceptSticky ? 'text-[#cccccc]' : 'text-cyan-500'}`}>Human Craft</ShadowCloneText>
-                </h2>
+                </div>
               </div>
 
               {/* Right: Concept Text - Large */}
@@ -410,7 +387,7 @@ export function Home() {
                   </p>
 
                   <Link
-                    to="/concept"
+                    to="/concept/"
                     className="inline-flex items-center gap-2 text-cyan-500 hover:text-cyan-600 transition-colors text-lg font-medium"
                   >
                     More
@@ -439,7 +416,12 @@ export function Home() {
                   <span className={`text-sm font-bold tracking-wider transition-colors duration-600 ${isDarkMode ? 'text-cyan-300' : 'text-cyan-500'}`}>SERVICE 01</span>
                 </div>
                 
-                <h2 className={`font-bold mb-8 leading-tight transition-colors duration-600 ${isDarkMode ? 'text-white' : 'text-black'}`} style={{ fontSize: 'clamp(2.5rem, 8vw, 7rem)' }}>
+                <h2 className="sr-only">{service01.homeDescriptionLines[0]} {service01.homeDescriptionLines[1]}</h2>
+                <div
+                  aria-hidden="true"
+                  className={`font-bold mb-8 leading-tight transition-colors duration-600 ${isDarkMode ? 'text-white' : 'text-black'}`}
+                  style={{ fontSize: 'clamp(2.9rem, 9vw, 7rem)' }}
+                >
                   <ShadowCloneText className="inline-block whitespace-nowrap">{service01.titleLines[0]}</ShadowCloneText>
                   {service01.titleLines[1] ? (
                     <>
@@ -447,7 +429,7 @@ export function Home() {
                       <ShadowCloneText className={`inline-block whitespace-nowrap transition-colors duration-600 ${isDarkMode ? 'text-cyan-300' : 'text-cyan-500'}`}>{service01.titleLines[1]}</ShadowCloneText>
                     </>
                   ) : null}
-                </h2>
+                </div>
                 
                 <p className={`text-xl md:text-2xl mb-12 leading-relaxed transition-colors duration-600 ${isDarkMode ? 'text-zinc-300' : 'text-zinc-600'}`}>
                   {service01.homeDescriptionLines[0]}<br className="hidden lg:block" />
@@ -498,7 +480,12 @@ export function Home() {
                   <span className={`text-sm font-bold tracking-wider transition-colors duration-600 ${isDarkMode ? 'text-cyan-300' : 'text-cyan-500'}`}>SERVICE 02</span>
                 </div>
                 
-                <h2 className={`font-bold mb-8 leading-tight transition-colors duration-600 ${isDarkMode ? 'text-white' : 'text-black'}`} style={{ fontSize: 'clamp(2.5rem, 8vw, 7rem)' }}>
+                <h2 className="sr-only">{service02.homeDescriptionLines[0]} {service02.homeDescriptionLines[1]}</h2>
+                <div
+                  aria-hidden="true"
+                  className={`font-bold mb-8 leading-tight transition-colors duration-600 ${isDarkMode ? 'text-white' : 'text-black'}`}
+                  style={{ fontSize: 'clamp(2.9rem, 9vw, 7rem)' }}
+                >
                   <ShadowCloneText className="inline-block whitespace-nowrap">{service02.titleLines[0]}</ShadowCloneText>
                   {service02.titleLines[1] ? (
                     <>
@@ -506,7 +493,7 @@ export function Home() {
                       <ShadowCloneText className={`inline-block whitespace-nowrap transition-colors duration-600 ${isDarkMode ? 'text-cyan-300' : 'text-cyan-500'}`}>{service02.titleLines[1]}</ShadowCloneText>
                     </>
                   ) : null}
-                </h2>
+                </div>
                 
                 <p className={`text-xl md:text-2xl mb-12 leading-relaxed transition-colors duration-600 ${isDarkMode ? 'text-zinc-300' : 'text-zinc-600'}`}>
                   {service02.homeDescriptionLines[0]}<br className="hidden lg:block" />
@@ -557,7 +544,12 @@ export function Home() {
                   <span className={`text-sm font-bold tracking-wider transition-colors duration-600 ${isDarkMode ? 'text-cyan-300' : 'text-cyan-500'}`}>SERVICE 03</span>
                 </div>
                 
-                <h2 className={`font-bold mb-8 leading-tight transition-colors duration-600 ${isDarkMode ? 'text-white' : 'text-black'}`} style={{ fontSize: 'clamp(2.5rem, 8vw, 7rem)' }}>
+                <h2 className="sr-only">{service03.homeDescriptionLines[0]} {service03.homeDescriptionLines[1]}</h2>
+                <div
+                  aria-hidden="true"
+                  className={`font-bold mb-8 leading-tight transition-colors duration-600 ${isDarkMode ? 'text-white' : 'text-black'}`}
+                  style={{ fontSize: 'clamp(2.9rem, 9vw, 7rem)' }}
+                >
                   <ShadowCloneText className="inline-block whitespace-nowrap">{service03.titleLines[0]}</ShadowCloneText>
                   {service03.titleLines[1] ? (
                     <>
@@ -565,7 +557,7 @@ export function Home() {
                       <ShadowCloneText className={`inline-block whitespace-nowrap transition-colors duration-600 ${isDarkMode ? 'text-cyan-300' : 'text-cyan-500'}`}>{service03.titleLines[1]}</ShadowCloneText>
                     </>
                   ) : null}
-                </h2>
+                </div>
                 
                 <p className={`text-xl md:text-2xl mb-12 leading-relaxed transition-colors duration-600 ${isDarkMode ? 'text-zinc-300' : 'text-zinc-600'}`}>
                   {service03.homeDescriptionLines[0]}<br className="hidden lg:block" />
@@ -601,77 +593,98 @@ export function Home() {
       </section>
 
       {/* News Section */}
-      <section id="news" className="py-32 bg-zinc-50">
-        <div className="mx-auto px-[5%] md:px-[8%] lg:px-[10%] w-full">
+      <section
+        id="news"
+        className="relative z-10 py-32 bg-transparent transition-colors duration-600"
+      >
+        <div className="relative z-10 mx-auto px-[5%] md:px-[8%] lg:px-[10%] w-full">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-24">
             {/* Left: Title and More button */}
             <div className="lg:col-span-4">
               <ScrollReveal direction="up" delay={0} duration={0.6}>
-                <h2 className="font-bold mb-8 text-black" style={{ fontSize: 'clamp(2.25rem, 7vw, 5.5rem)' }}>
+                <h2
+                  className={`font-bold mb-8 transition-colors duration-600 ${isNewsSurfaceDark ? "text-white" : "text-black"}`}
+                  style={{ fontSize: 'clamp(2.25rem, 7vw, 5.5rem)', fontFamily: "inherit", fontWeight: "inherit" }}
+                >
                   News
                 </h2>
               </ScrollReveal>
               <ScrollReveal direction="up" delay={0.1} duration={0.6}>
-                <div className="inline-flex items-center gap-2 text-cyan-500 text-lg font-medium">
+                <Link
+                  to="/news/"
+                  className={`inline-flex items-center gap-2 text-lg font-medium transition-colors duration-600 ${
+                    isNewsSurfaceDark ? "text-cyan-300" : "text-cyan-500"
+                  }`}
+                >
                   More
-                </div>
+                  <ArrowRight size={18} />
+                </Link>
               </ScrollReveal>
             </div>
 
             {/* Right: News List */}
             <div className="lg:col-span-8">
               <div className="space-y-8">
-                {[
-                  {
-                    date: "2026.02.01",
-                    category: "お知らせ",
-                    title: "コーポレートサイトをリニューアルオープンしました。",
-                  },
-                  {
-                    date: "2026.01.15",
-                    category: "サービス",
-                    title: "（制作業務改善向けWindowsアプリ）を公開。",
-                    linkLabel: "ClickFix",
-                    href: "https://clickfix.gami.jp/",
-                  },
-                  {
-                    date: "2026.03.10",
-                    category: "実績",
-                    title: "AI × SaaSとしてAI型業務見積「育つ見積」を展開開始。",
-                    href: "https://sodatsu-mitsumori.net",
-                  },
-                ].map((news, index) => (
+                {newsItems.map((news, index) => (
                   <ScrollReveal key={index} delay={index * 0.1}>
-                    <div className="block border-b border-zinc-200 pb-6">
+                    <div
+                      className={`block border-b pb-6 transition-colors duration-600 ${
+                        isNewsSurfaceDark ? "border-white/10" : "border-zinc-200"
+                      }`}
+                    >
                       <div className="flex items-center gap-3 mb-3">
-                        <span className="text-sm text-zinc-500">{news.date}</span>
-                        <span className="text-xs bg-cyan-500/10 text-cyan-600 px-3 py-1 rounded-full font-medium">
+                        <span
+                          className={`text-sm transition-colors duration-600 ${
+                            isNewsSurfaceDark ? "text-white/60" : "text-zinc-500"
+                          }`}
+                        >
+                          {news.date}
+                        </span>
+                        <span
+                          className={`text-xs px-3 py-1 rounded-full font-medium transition-colors duration-600 ${
+                            isNewsSurfaceDark ? "bg-cyan-400/15 text-cyan-200" : "bg-cyan-500/10 text-cyan-600"
+                          }`}
+                        >
                           {news.category}
                         </span>
                       </div>
                       {news.linkLabel ? (
-                        <h3 className="text-xl font-medium text-zinc-900">
+                        <h3
+                          className={`text-xl font-medium transition-colors duration-600 ${
+                            isNewsSurfaceDark ? "text-white" : "text-zinc-900"
+                          }`}
+                        >
+                          {news.titlePrefix}
                           <a
                             href={news.href}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-xl font-medium text-zinc-900 hover:text-cyan-500 transition-colors"
+                            className={`text-xl font-medium transition-colors ${
+                              isNewsSurfaceDark ? "text-white hover:text-cyan-300" : "text-zinc-900 hover:text-cyan-500"
+                            }`}
                           >
                             {news.linkLabel}
                           </a>
                           {news.title}
+                          {news.titleSuffix}
                         </h3>
                       ) : news.href ? (
                         <a
                           href={news.href}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="text-xl font-medium text-zinc-900 hover:text-cyan-500 transition-colors"
+                          className={`text-xl font-medium transition-colors ${
+                            isNewsSurfaceDark ? "text-white hover:text-cyan-300" : "text-zinc-900 hover:text-cyan-500"
+                          }`}
                         >
                           {news.title}
                         </a>
                       ) : (
-                        <h3 className="text-xl font-medium text-zinc-900">
+                        <h3
+                          className={`text-xl font-medium transition-colors duration-600 ${
+                            isNewsSurfaceDark ? "text-white" : "text-zinc-900"
+                          }`}
+                        >
                           {news.title}
                         </h3>
                       )}
@@ -696,19 +709,22 @@ export function Home() {
         <div className="mx-auto px-[5%] md:px-[8%] lg:px-[10%] relative z-10 w-full">
           <ScrollReveal>
             <div id="cta-content" className="mx-auto w-full max-w-4xl text-center">
-              <h2 className="text-5xl md:text-7xl font-bold mb-8 leading-tight text-white">
+              <h2
+                className="text-4xl md:text-6xl font-bold mb-8 leading-tight text-white"
+                style={{ fontFamily: "inherit", fontWeight: "inherit" }}
+              >
                 開発スピードを、
                 <br />
                 AI速度に上げませんか。
               </h2>
-              <p className="text-xl md:text-2xl mb-12 text-white/90 leading-relaxed">
+              <p className="text-left md:text-center text-xl md:text-2xl mb-12 text-white/90 leading-relaxed">
                 AIベースの高速開発でPDCAサイクルを最速化。
                 <br />
                 まずは現状の開発フローの課題整理からご一緒します。
               </p>
               <div className="flex flex-wrap gap-4 justify-center">
                 <Link
-                  to="/contact"
+                  to="/contact/"
                   className="inline-flex items-center gap-2 rounded-full border border-white/60 bg-transparent px-10 py-5 text-lg font-bold text-white transition-all hover:scale-105 hover:border-white hover:bg-white/8"
                 >
                   無料相談を申し込む
@@ -722,4 +738,3 @@ export function Home() {
     </div>
   );
 }
-

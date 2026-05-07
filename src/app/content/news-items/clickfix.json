@@ -1,0 +1,11 @@
+{
+  "id": "clickfix",
+  "published": true,
+  "date": "2026-03-17",
+  "category": "サービス",
+  "title": "ClickFix（制作業務改善向けWindowsアプリ）を公開しました。",
+  "description": "制作業務の小さな修正依頼や確認作業を軽くするWindowsアプリとして、ClickFixを公開しました。",
+  "body": "制作業務の小さな修正依頼や確認作業を軽くするWindowsアプリとして、ClickFixを公開しました。\n\nWeb制作や資料制作で発生する、スクリーンショットへの指示、確認箇所の共有、軽微な修正依頼のやり取りを整理しやすくするためのツールです。",
+  "href": "https://clickfix.gami.jp/",
+  "hrefLabel": "ClickFixを見る"
+}

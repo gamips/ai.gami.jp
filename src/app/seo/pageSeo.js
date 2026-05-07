@@ -1,3 +1,6 @@
+import { getNewsPath, getNewsTitle, newsItems } from "../content/news.js";
+import { pricingFaqItems } from "../content/faqs.js";
+
 export const SITE_NAME = "GAMI";
 export const SITE_LEGAL_NAME = "株式会社Gami";
 export const SITE_URL = "https://ai.gami.jp";
@@ -17,6 +20,26 @@ export function toAbsoluteUrl(path = "/") {
 
   return new URL(path, SITE_URL).toString();
 }
+export function normalizeSeoPath(path = "/") {
+  if (!path) {
+    return "/";
+  }
+
+  const url = new URL(path, SITE_URL);
+  const normalizedPath = url.pathname.replace(/\/+$/, "");
+
+  return normalizedPath || "/";
+}
+
+export function toCanonicalUrl(path = "/") {
+  const url = new URL(path || "/", SITE_URL);
+
+  if (url.pathname !== "/" && !url.pathname.endsWith("/")) {
+    url.pathname = `${url.pathname}/`;
+  }
+
+  return url.toString();
+}
 
 function createBreadcrumbSchema(items) {
   return {
@@ -26,7 +49,7 @@ function createBreadcrumbSchema(items) {
       "@type": "ListItem",
       position: index + 1,
       name: item.name,
-      item: toAbsoluteUrl(item.path),
+      item: toCanonicalUrl(item.path),
     })),
   };
 }
@@ -37,45 +60,70 @@ function createBaseWebPageSchema({ path, title, description, type = "WebPage" })
     "@type": type,
     name: title,
     description,
-    url: toAbsoluteUrl(path),
+    url: toCanonicalUrl(path),
     inLanguage: "ja-JP",
     isPartOf: {
       "@type": "WebSite",
       name: SITE_NAME,
-      url: SITE_URL,
+      url: toCanonicalUrl("/"),
     },
     about: {
       "@type": "Organization",
       name: SITE_LEGAL_NAME,
       alternateName: SITE_NAME,
-      url: SITE_URL,
+      url: toCanonicalUrl("/"),
     },
   };
 }
 
 const organizationSchema = {
   "@context": "https://schema.org",
-  "@type": "Organization",
+  "@type": ["Organization", "ProfessionalService"],
   name: SITE_LEGAL_NAME,
   alternateName: SITE_NAME,
-  url: SITE_URL,
+  url: toCanonicalUrl("/"),
   image: toAbsoluteUrl("/og/home.png"),
+  logo: toAbsoluteUrl("/favicon.svg"),
+  foundingDate: "2018-04-02",
+  founder: {
+    "@type": "Person",
+    name: "石神暁",
+  },
+  address: {
+    "@type": "PostalAddress",
+    postalCode: "393-0000",
+    addressRegion: "長野県",
+    addressLocality: "諏訪郡下諏訪町",
+    streetAddress: "社6-21",
+    addressCountry: "JP",
+  },
+  contactPoint: {
+    "@type": "ContactPoint",
+    contactType: "sales",
+    email: "info@ai.gami.jp",
+    availableLanguage: ["ja"],
+  },
+  areaServed: {
+    "@type": "Country",
+    name: "Japan",
+  },
+  sameAs: ["https://x.com/GAMI_Freelance"],
   description:
-    "AI導入支援からAI開発、AIマーケティング、AI Web制作までをAI基準で再設計する開発パートナーです。",
+    "AI導入支援からAI開発、広報・マーケティングへのAI導入、業務効率化のAI活用、AI Web制作までをAI基準で再設計する開発パートナーです。",
 };
 
 const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   name: SITE_NAME,
-  url: SITE_URL,
+  url: toCanonicalUrl("/"),
   inLanguage: "ja-JP",
   description:
-    "AI導入支援、AI開発、AIマーケティング、AI Web制作を通じてSaaS、Growth、Brand SiteをAI基準で再設計するGAMIのコーポレートサイト。",
+    "AI導入支援、AI開発、広報・マーケティングへのAI導入、業務効率化のAI活用、AI Web制作を通じてSaaS、Growth、Brand SiteをAI基準で再設計するGAMIのコーポレートサイト。",
   publisher: {
     "@type": "Organization",
     name: SITE_LEGAL_NAME,
-    url: SITE_URL,
+    url: toCanonicalUrl("/"),
   },
 };
 
@@ -89,7 +137,7 @@ const serviceCatalogSchema = {
     {
       "@type": "ListItem",
       position: 1,
-      url: toAbsoluteUrl("/services/ai-saas"),
+      url: toCanonicalUrl("/services/ai-saas"),
       item: {
         "@type": "Service",
         name: "AI × SaaS / AI × DX",
@@ -98,16 +146,16 @@ const serviceCatalogSchema = {
     {
       "@type": "ListItem",
       position: 2,
-      url: toAbsoluteUrl("/services/ai-marketing"),
+      url: toCanonicalUrl("/services/ai-marketing"),
       item: {
         "@type": "Service",
-        name: "AI × Growth / AI × Writing",
+        name: "AI × Growth / AI × Support",
       },
     },
     {
       "@type": "ListItem",
       position: 3,
-      url: toAbsoluteUrl("/services/ai-web"),
+      url: toCanonicalUrl("/services/ai-web"),
       item: {
         "@type": "Service",
         name: "AI × Brand / AI × Site",
@@ -120,12 +168,12 @@ const priceCatalogSchema = {
   "@context": "https://schema.org",
   "@type": "OfferCatalog",
   name: "GAMI Pricing",
-  url: toAbsoluteUrl("/price"),
+  url: toCanonicalUrl("/price"),
   itemListElement: [
     {
       "@type": "Offer",
       priceCurrency: "JPY",
-      price: "600000",
+      price: "300000",
       category: "Monthly",
       itemOffered: {
         "@type": "Service",
@@ -135,27 +183,17 @@ const priceCatalogSchema = {
     {
       "@type": "Offer",
       priceCurrency: "JPY",
-      price: "100000",
-      category: "Initial setup",
+      price: "20000",
+      category: "Monthly AI adoption support",
       itemOffered: {
         "@type": "Service",
-        name: "AI × Growth / AI × Writing",
+        name: "AI × Growth / AI × Support",
       },
     },
     {
       "@type": "Offer",
       priceCurrency: "JPY",
-      price: "50000",
-      category: "Monthly agent rental",
-      itemOffered: {
-        "@type": "Service",
-        name: "AI × Growth / AI × Writing",
-      },
-    },
-    {
-      "@type": "Offer",
-      priceCurrency: "JPY",
-      price: "600000",
+      price: "300000",
       category: "Monthly",
       itemOffered: {
         "@type": "Service",
@@ -165,37 +203,74 @@ const priceCatalogSchema = {
   ],
 };
 
+const pricingFaqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: pricingFaqItems.map((item) => ({
+    "@type": "Question",
+    name: item.question,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: item.answer,
+    },
+  })),
+};
+
 const newsListSchema = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   name: "GAMI News",
-  url: toAbsoluteUrl("/news"),
-  hasPart: [
-    {
-      "@type": "NewsArticle",
-      headline: "コーポレートサイトをリニューアルオープンしました。",
-      datePublished: "2026-02-01",
-      articleSection: "お知らせ",
-      url: toAbsoluteUrl("/news#news-1"),
-    },
-    {
-      "@type": "NewsArticle",
-      headline: "新サービス「SaaS × AI 業務自動化プラン」の提供を開始しました。",
-      datePublished: "2026-01-15",
-      articleSection: "サービス",
-      url: toAbsoluteUrl("/news#news-2"),
-    },
-  ],
+  url: toCanonicalUrl("/news"),
+  hasPart: newsItems.map((item) => ({
+    "@type": "NewsArticle",
+    headline: getNewsTitle(item),
+    datePublished: item.isoDate,
+    articleSection: item.category,
+    url: toCanonicalUrl(getNewsPath(item)),
+  })),
 };
+
+function createNewsArticleSchema(item) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    headline: getNewsTitle(item),
+    description: item.description,
+    datePublished: item.isoDate,
+    dateModified: item.isoDate,
+    articleSection: item.category,
+    inLanguage: "ja-JP",
+    url: toCanonicalUrl(getNewsPath(item)),
+    image: toAbsoluteUrl("/og/news.png"),
+    author: {
+      "@type": "Organization",
+      name: SITE_LEGAL_NAME,
+      url: toCanonicalUrl("/"),
+    },
+    publisher: {
+      "@type": "Organization",
+      name: SITE_LEGAL_NAME,
+      url: toCanonicalUrl("/"),
+      logo: {
+        "@type": "ImageObject",
+        url: toAbsoluteUrl("/favicon.svg"),
+      },
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": toCanonicalUrl(getNewsPath(item)),
+    },
+  };
+}
 
 export const pageSeoByPath = {
   "/": {
     path: "/",
     title: "GAMI | AI導入支援・AI開発会社 | AI速度、人間品質。",
     description:
-      "AI導入支援とAI開発を一体で進めるGAMI。AI × SaaS / DX、AI × Growth / Writing、AI × Brand / Site を通じて、業務システム開発、AIマーケティング、AI Web制作をAI基準で再設計します。",
+      "AI導入支援とAI開発を一体で進めるGAMI。AI × SaaS / DX、AI × Growth / AI × Support、AI × Brand / Site を通じて、業務システム開発、広報・マーケティングへのAI導入、業務効率化、AI Web制作をAI基準で再設計します。",
     keywords:
-      "AI導入支援,AI開発会社,AI開発,AI実装,AIシステム開発,AIマーケティング,AI Web制作",
+      "AI導入支援,AI開発会社,AI開発,AI実装,AIシステム開発,AI業務自動化,AI Web制作",
     image: "/og/home.png",
     imageAlt: "GAMI home open graph image",
     ogType: "website",
@@ -206,7 +281,7 @@ export const pageSeoByPath = {
         path: "/",
         title: "GAMI",
         description:
-          "AI導入支援からAI開発、AIマーケティング、AI Web制作までをAI基準で再設計する開発パートナーです。",
+          "AI導入支援からAI開発、広報・マーケティングへのAI導入、業務効率化、AI Web制作までをAI基準で再設計する開発パートナーです。",
       }),
       serviceCatalogSchema,
     ],
@@ -239,8 +314,8 @@ export const pageSeoByPath = {
     path: "/services",
     title: "Services | AI導入支援・AI開発の3領域 | GAMI",
     description:
-      "GAMIが提供するAI導入支援・AI開発の3領域。AI × SaaS / DX、AI × Growth / Writing、AI × Brand / Site を通じて、業務システム開発、AIマーケティング、AI Web制作をAI基準で再設計します。",
-    keywords: "AI導入支援,AI開発,AIシステム開発,AIマーケティング,AI Web制作,業務システム開発",
+      "GAMIが提供するAI導入支援・AI開発の3領域。AI × SaaS / DX、AI × Growth / AI × Support、AI × Brand / Site を通じて、業務システム開発、広報・マーケティングへのAI導入、業務効率化、AI Web制作をAI基準で再設計します。",
+    keywords: "AI導入支援,AI開発,AIシステム開発,AI業務自動化,AI Web制作,業務システム開発",
     image: "/og/services.png",
     imageAlt: "Services page open graph image",
     ogType: "website",
@@ -291,7 +366,7 @@ export const pageSeoByPath = {
           "@type": "Country",
           name: "Japan",
         },
-        url: toAbsoluteUrl("/services/ai-saas"),
+        url: toCanonicalUrl("/services/ai-saas"),
         description:
           "自社要件に合わせた業務システム開発や基幹システム開発を、AI基準で速く立ち上げるサービスです。",
       },
@@ -304,26 +379,26 @@ export const pageSeoByPath = {
   },
   "/services/ai-marketing": {
     path: "/services/ai-marketing",
-    title: "AI × Growth / AI × Writing | AIマーケティング・AIライティング | GAMI",
+    title: "AI × Growth / AI × Support | 広報・マーケティングAI導入支援・業務効率化 | GAMI",
     description:
-      "AIマーケティングとAIライティングを通じて、SEO記事作成、SNS運用、プレスリリースのドラフト生成と改善ループを回すサービス。初期学習と月額レンタルで運用を支えます。",
-    keywords: "AIマーケティング,AIライティング,SEO記事作成,SNS運用,AI秘書,AI Writing",
+      "AI × Growth / AI × Support は月2万円〜で始められるAI導入支援です。広報・マーケティング、問い合わせ対応、社内FAQ、議事録、営業資料作成など、ヒアリングで対象範囲を整理して進めます。",
+    keywords: "AIマーケティング,AI導入支援,業務効率化,広報AI活用,SEO記事作成,SNS運用,経理効率化,問い合わせ対応AI",
     image: "/og/service-ai-growth.png",
-    imageAlt: "AI Growth and AI Writing service open graph image",
+    imageAlt: "AI Growth and AI Support service open graph image",
     ogType: "website",
     schemas: [
       organizationSchema,
       createBaseWebPageSchema({
         path: "/services/ai-marketing",
-        title: "AI × Growth / AI × Writing | GAMI",
+        title: "AI × Growth / AI × Support | GAMI",
         description:
-          "AIマーケティングとAIライティングで発信・分析・改善を回すサービス紹介ページです。",
+          "AI × Growth で広報・マーケティングへのAI導入を支援し、AI × Support で業務効率化のAI活用を設計するサービス紹介ページです。",
       }),
       {
         "@context": "https://schema.org",
         "@type": "Service",
-        name: "AI × Growth / AI × Writing",
-        serviceType: "AIマーケティング支援",
+        name: "AI × Growth / AI × Support",
+        serviceType: "広報・マーケティングAI導入支援・業務効率化コンサルティング",
         provider: {
           "@type": "Organization",
           name: SITE_LEGAL_NAME,
@@ -333,14 +408,14 @@ export const pageSeoByPath = {
           "@type": "Country",
           name: "Japan",
         },
-        url: toAbsoluteUrl("/services/ai-marketing"),
+        url: toCanonicalUrl("/services/ai-marketing"),
         description:
-          "SEO記事作成やSNS運用を含む発信・分析・改善を回すAIマーケティング支援サービスです。",
+          "SEO記事作成やSNS運用、プレスリリースなどの広報・マーケティング業務に加え、決算処理、問い合わせ対応、議事録、社内FAQ、営業資料作成などを対象に、月2万円〜でAI導入を支援するAI Growth / Support サービスです。",
       },
       createBreadcrumbSchema([
         { name: "Home", path: "/" },
         { name: "Services", path: "/services" },
-        { name: "AI × Growth / AI × Writing", path: "/services/ai-marketing" },
+        { name: "AI × Growth / AI × Support", path: "/services/ai-marketing" },
       ]),
     ],
   },
@@ -375,7 +450,7 @@ export const pageSeoByPath = {
           "@type": "Country",
           name: "Japan",
         },
-        url: toAbsoluteUrl("/services/ai-web"),
+        url: toCanonicalUrl("/services/ai-web"),
         description:
           "LP制作やコーポレートサイト制作をAI基準のフローで高速立ち上げするサービスです。",
       },
@@ -390,7 +465,7 @@ export const pageSeoByPath = {
     path: "/price",
     title: "Price | AI導入支援・AI開発の料金 | GAMI",
     description:
-      "GAMIのAI導入支援・AI開発の料金と契約モデルを紹介。月単位契約を基本に、AIシステム開発、AIマーケティング、AI Web制作の価格目安と進め方を整理しています。",
+      "GAMIのAI導入支援・AI開発の料金と契約モデルを紹介。AI導入支援は月2万円〜、AIシステム開発やAI Web制作は月単位契約を基本に、価格目安と進め方を整理しています。",
     keywords: "AI導入支援 料金,AI開発 料金,AIシステム開発 費用,AI Web制作 料金,AIマーケティング 料金",
     image: "/og/price.png",
     imageAlt: "Price page open graph image",
@@ -404,6 +479,7 @@ export const pageSeoByPath = {
         type: "CollectionPage",
       }),
       priceCatalogSchema,
+      pricingFaqSchema,
       createBreadcrumbSchema([
         { name: "Home", path: "/" },
         { name: "Price", path: "/price" },
@@ -414,7 +490,7 @@ export const pageSeoByPath = {
     path: "/news",
     title: "News | AI導入支援・AI開発のお知らせ | GAMI",
     description:
-      "GAMIのAI導入支援・AI開発に関する最新情報、お知らせ、サービスアップデートを掲載しています。",
+      "GAMIのAI導入支援・AI開発に関する最新情報、お知らせ、サービスアップデート、実装事例の補足を掲載しています。",
     keywords: "AI導入支援,AI開発,お知らせ,サービス更新,GAMI",
     image: "/og/news.png",
     imageAlt: "News page open graph image",
@@ -461,7 +537,7 @@ export const pageSeoByPath = {
     path: "/contact",
     title: "Contact | AI導入支援・AI開発のご相談 | GAMI",
     description:
-      "AI導入支援、AI開発、業務改善、AI Web制作のご相談はこちら。どこにAIを入れるべきか、現場の導線から整理します。",
+      "AI導入支援、AI開発、業務改善、AI Web制作の初回相談はこちら。現場の課題、導入範囲、月額支援の進め方をヒアリングで整理します。",
     keywords: "AI導入相談,AI開発相談,AI導入支援,業務改善相談,AI Web制作 相談",
     image: "/og/contact.png",
     imageAlt: "Contact page open graph image",
@@ -471,7 +547,8 @@ export const pageSeoByPath = {
       createBaseWebPageSchema({
         path: "/contact",
         title: "Contact | GAMI",
-        description: "GAMIへのAI導入支援・AI開発相談のお問い合わせページです。",
+        description:
+          "GAMIへのAI導入支援・AI開発相談のお問い合わせページです。初回ヒアリングで課題、導入範囲、進め方を整理します。",
         type: "ContactPage",
       }),
       createBreadcrumbSchema([
@@ -486,9 +563,10 @@ export const pageSeoByPath = {
     description:
       "お問い合わせフォームからのお問い合わせを受け付けました。担当者よりご連絡いたします。",
     keywords: "お問い合わせ 送信完了,AI導入支援 お問い合わせ,AI開発 お問い合わせ,GAMI",
-    image: "/og/contact.png",
+    image: "/og/home.png",
     imageAlt: "Contact thanks page open graph image",
     ogType: "website",
+    noindex: true,
     schemas: [
       organizationSchema,
       createBaseWebPageSchema({
@@ -505,10 +583,54 @@ export const pageSeoByPath = {
       ]),
     ],
   },
+  "/404": {
+    path: "/404",
+    title: "404 | GAMI",
+    description: "お探しのページは見つかりませんでした。",
+    keywords: "",
+    image: "/og/home.png",
+    imageAlt: "404 page open graph image",
+    ogType: "website",
+    noindex: true,
+    schemas: [],
+  },
 };
 
-export const staticSeoEntries = Object.values(pageSeoByPath);
+const newsSeoEntries = newsItems.map((item) => {
+  const path = getNewsPath(item);
+  const title = `${getNewsTitle(item)} | News | GAMI`;
+
+  return {
+    path,
+    title,
+    description: item.description,
+    keywords: `AI導入支援,AI開発,お知らせ,${item.category},GAMI`,
+    image: "/og/news.png",
+    imageAlt: `${getNewsTitle(item)} open graph image`,
+    ogType: "article",
+    schemas: [
+      organizationSchema,
+      createBaseWebPageSchema({
+        path,
+        title,
+        description: item.description,
+        type: "WebPage",
+      }),
+      createNewsArticleSchema(item),
+      createBreadcrumbSchema([
+        { name: "Home", path: "/" },
+        { name: "News", path: "/news" },
+        { name: getNewsTitle(item), path },
+      ]),
+    ],
+  };
+});
+
+const newsSeoByPath = Object.fromEntries(newsSeoEntries.map((entry) => [entry.path, entry]));
+
+export const staticSeoEntries = [...Object.values(pageSeoByPath), ...newsSeoEntries];
 
 export function getSeoEntry(path) {
-  return pageSeoByPath[path];
+  const normalizedPath = normalizeSeoPath(path);
+  return pageSeoByPath[normalizedPath] ?? newsSeoByPath[normalizedPath];
 }
