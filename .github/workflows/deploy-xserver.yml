@@ -44,7 +44,7 @@ jobs:
           set -euo pipefail
           remote_path="${XSERVER_FTP_REMOTE_PATH#/}"
           remote_path="${remote_path%/}/"
-          remote_base="ftp://${XSERVER_FTP_SERVER}:${XSERVER_FTP_PORT}/${remote_path}"
+          remote_base="ftp://${XSERVER_FTP_SERVER}:${XSERVER_FTP_PORT}//${remote_path}"
 
           while IFS= read -r -d '' file; do
             rel_path="${file#dist/}"
