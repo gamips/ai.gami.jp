@@ -12,7 +12,211 @@ site_url: https://ai.gami.jp
 display_url: https://ai.gami.jp
 locale: ja
 
+singletons:
+  - name: services_page
+    label: サービスページ
+    icon: design_services
+    file: src/app/content/pages/services.json
+    format: json
+    fields:
+      - label: 英字ラベル
+        name: eyebrow
+        widget: string
+      - label: 見出し
+        name: titleLines
+        widget: list
+        min: 1
+        max: 2
+        hint: "2行まで入力できます。2行目はサイト上でアクセントカラーになります。"
+        field:
+          label: 行
+          name: line
+          widget: string
+      - label: 説明文
+        name: descriptionLines
+        widget: list
+        min: 1
+        hint: "1項目ごとに改行して表示されます。"
+        field:
+          label: 行
+          name: line
+          widget: string
+
 collections:
+  - name: services
+    label: サービス詳細
+    label_singular: サービス
+    icon: miscellaneous_services
+    folder: src/app/content/service-items
+    create: false
+    delete: false
+    format: json
+    extension: json
+    identifier_field: adminTitle
+    summary: "{{adminTitle}}"
+    sortable_fields:
+      - sortOrder
+      - adminTitle
+      - slug
+    fields:
+      - label: 管理用タイトル
+        name: adminTitle
+        widget: string
+        hint: "CMS一覧に表示する名前です。サイトには表示されません。"
+      - label: 表示順
+        name: sortOrder
+        widget: number
+        value_type: int
+      - label: スラッグ
+        name: slug
+        widget: string
+        readonly: true
+        hint: "URLに使う値です。変更しないでください。"
+      - label: パス
+        name: path
+        widget: string
+        readonly: true
+        hint: "サイト側のURLです。変更しないでください。"
+      - label: サービス番号
+        name: number
+        widget: string
+      - label: 見出し
+        name: titleLines
+        widget: list
+        min: 1
+        max: 2
+        hint: "2行まで入力できます。2行目はサイト上でアクセントカラーになります。"
+        field:
+          label: 行
+          name: line
+          widget: string
+      - label: 検索向けリード文
+        name: searchLead
+        widget: string
+      - label: 概要説明
+        name: overviewDescription
+        widget: text
+      - label: トップページ用説明
+        name: homeDescriptionLines
+        widget: list
+        min: 1
+        max: 2
+        hint: "トップページのサービス紹介で使います。"
+        field:
+          label: 行
+          name: line
+          widget: string
+      - label: サービス一覧の箇条書き
+        name: homeBullets
+        widget: list
+        min: 1
+        field:
+          label: 項目
+          name: item
+          widget: string
+      - label: 特徴カード
+        name: cards
+        widget: list
+        min: 1
+        fields:
+          - label: タイトル
+            name: title
+            widget: string
+          - label: 説明文
+            name: description
+            widget: text
+            hint: "段落を分ける場合は空行を入れてください。"
+      - label: 導入フロー
+        name: flow
+        widget: object
+        fields:
+          - label: 見出し
+            name: title
+            widget: string
+          - label: 導入文
+            name: intro
+            widget: text
+          - label: ステップ
+            name: steps
+            widget: list
+            min: 1
+            fields:
+              - label: ステップ表記
+                name: step
+                widget: string
+              - label: 英字ラベル
+                name: label
+                widget: string
+              - label: タイトル
+                name: title
+                widget: string
+              - label: 説明文
+                name: description
+                widget: text
+      - label: 契約と進め方
+        name: engagement
+        widget: object
+        fields:
+          - label: 見出し
+            name: title
+            widget: string
+          - label: 導入文
+            name: intro
+            widget: text
+          - label: 補足項目
+            name: notes
+            widget: list
+            min: 1
+            fields:
+              - label: ラベル
+                name: label
+                widget: string
+              - label: タイトル
+                name: title
+                widget: string
+              - label: 説明文
+                name: description
+                widget: text
+      - label: 詳細情報
+        name: detailBox
+        widget: object
+        fields:
+          - label: 表示タイプ
+            name: type
+            widget: select
+            options:
+              - columns
+              - points
+            hint: "columns は見出し付きの複数カラム、points は箇条書きです。"
+          - label: 見出し
+            name: title
+            widget: string
+          - label: カラム
+            name: columns
+            widget: list
+            required: false
+            hint: "表示タイプが columns の場合に使います。"
+            fields:
+              - label: 見出し
+                name: title
+                widget: string
+              - label: 項目
+                name: items
+                widget: list
+                field:
+                  label: 項目
+                  name: item
+                  widget: string
+          - label: 箇条書き
+            name: points
+            widget: list
+            required: false
+            hint: "表示タイプが points の場合に使います。"
+            field:
+              label: 項目
+              name: item
+              widget: string
+
   - name: news
     label: お知らせ
     label_singular: お知らせ

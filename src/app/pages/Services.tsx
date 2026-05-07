@@ -3,6 +3,7 @@ import { ArrowRight } from "lucide-react";
 import { InquiryCta } from "../components/InquiryCta";
 import { PageSeo } from "../components/PageSeo";
 import { ScrollReveal } from "../components/ScrollReveal";
+import { servicePageContent } from "../content/servicePage.js";
 import { services } from "../content/services";
 
 export function Services() {
@@ -13,16 +14,23 @@ export function Services() {
         <div className="container mx-auto px-6">
           <ScrollReveal allowOnSubpages>
             <div className="max-w-6xl">
-              <p className="text-cyan-500 font-medium tracking-widest mb-6">SOLUTIONS</p>
+              <p className="text-cyan-500 font-medium tracking-widest mb-6">{servicePageContent.eyebrow}</p>
               <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold mb-8 leading-tight text-zinc-900">
-                現場に効く、
-                <br />
-                <span className="text-cyan-500">3つの実装領域</span>
+                {servicePageContent.titleLines[0]}
+                {servicePageContent.titleLines[1] ? (
+                  <>
+                    <br />
+                    <span className="text-cyan-500">{servicePageContent.titleLines[1]}</span>
+                  </>
+                ) : null}
               </h1>
               <p className="text-2xl text-zinc-600 leading-relaxed max-w-4xl">
-                GAMIのAI導入支援は、AIを単体で入れるのではなく、
-                <br />
-                業務・ツール・顧客接点のあいだに実装するAI開発です。
+                {servicePageContent.descriptionLines.map((line, index) => (
+                  <span key={line}>
+                    {line}
+                    {index < servicePageContent.descriptionLines.length - 1 ? <br /> : null}
+                  </span>
+                ))}
               </p>
             </div>
           </ScrollReveal>

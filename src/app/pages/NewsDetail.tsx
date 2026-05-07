@@ -5,6 +5,17 @@ import { PageSeo } from "../components/PageSeo";
 import { ScrollReveal } from "../components/ScrollReveal";
 import { getNewsItemById, getNewsPath, getNewsTitle } from "../content/news.js";
 
+function normalizeText(value?: string) {
+  return String(value ?? "").replace(/\s+/g, "");
+}
+
+function shouldShowDescription(description?: string, body?: string) {
+  const normalizedDescription = normalizeText(description);
+  const normalizedBody = normalizeText(body);
+
+  return normalizedDescription.length > 0 && !normalizedBody.includes(normalizedDescription);
+}
+
 export function NewsDetail() {
   const { newsSlug } = useParams();
   const news = newsSlug ? getNewsItemById(newsSlug) : undefined;
@@ -34,6 +45,9 @@ export function NewsDetail() {
     );
   }
 
+  const detailBody = news.body || news.description;
+  const showDescription = shouldShowDescription(news.description, detailBody);
+
   return (
     <div className="pt-24">
       <PageSeo path={getNewsPath(news)} />
@@ -62,9 +76,11 @@ export function NewsDetail() {
                 <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-8 leading-tight text-zinc-900">
                   {getNewsTitle(news)}
                 </h1>
-                <p className="text-xl md:text-2xl text-zinc-600 leading-relaxed">
-                  {news.description}
-                </p>
+                {showDescription ? (
+                  <p className="text-xl md:text-2xl text-zinc-600 leading-relaxed">
+                    {news.description}
+                  </p>
+                ) : null}
               </div>
             </ScrollReveal>
           </div>
@@ -74,7 +90,7 @@ export function NewsDetail() {
           <div className="container mx-auto px-6">
             <div className="max-w-4xl mx-auto">
               <div className="text-lg md:text-xl text-zinc-700 leading-loose whitespace-pre-line">
-                {news.body}
+                {detailBody}
               </div>
               {news.href ? (
                 <a

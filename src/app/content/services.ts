@@ -48,376 +48,118 @@ type ServiceDetailBox =
     };
 
 export type ServiceContent = {
+  adminTitle?: string;
+  sortOrder: number;
   slug: ServiceSlug;
   path: string;
   number: string;
-  titleLines: [string, string?];
+  titleLines: string[];
   searchLead: string;
   overviewDescription: string;
-  homeDescriptionLines: [string, string];
-  homeBullets: [string, string, string];
-  cards: [ServiceCard, ServiceCard, ServiceCard];
+  homeDescriptionLines: string[];
+  homeBullets: string[];
+  cards: ServiceCard[];
   flow: ServiceFlow;
   engagement: ServiceEngagement;
   detailBox: ServiceDetailBox;
 };
 
-export const services: ServiceContent[] = [
-  {
-    slug: "ai-saas",
-    path: "/services/ai-saas/",
-    number: "SERVICE 01",
-    titleLines: ["AI × SaaS", "AI × DX"],
-    searchLead: "AIシステム開発・業務システム開発の導入支援",
-    overviewDescription:
-      "AIシステム開発の力で、自社専用の業務システム開発や基幹システム開発を従来より速く低コストで立ち上げます。必要に応じてAI機能まで組み込み、独自の業務基盤として育てていけます。",
-    homeDescriptionLines: [
-      "自社専用の管理システムをAIで高速開発。",
-      "必要に応じてAI機能まで組み込んだ独自基盤へ育てます。",
-    ],
-    homeBullets: [
-      "自社要件に合わせた業務システム開発",
-      "基幹システム開発と既存SaaS活用の見極めを支援",
-      "OEM・外部パッケージ化も視野に設計",
-    ],
-    cards: [
-      {
-        title: "自社要件に合わせた業務システム開発",
-        description: `既製品では吸収しづらい業務フロー、承認ルール、部門ごとの例外運用を前提に、自社専用の管理システムを設計・実装します。単に画面を置き換えるのではなく、現場の帳票、責任分界、データの流れまで整理しながら、運用に無理なく乗る基盤へ落とし込みます。
+const serviceModules = import.meta.glob("./service-items/*.json", {
+  eager: true,
+  import: "default",
+}) as Record<string, Partial<ServiceContent>>;
 
-部署ごとに微妙に異なる処理や、属人的に回っている判断まで拾い上げて設計するため、導入後に「結局使われないシステム」になりにくいのが特徴です。業務に合わせるのではなく、業務そのものに合う土台を最初からつくります。`,
-      },
-      {
-        title: "AI機能を組み込んだ業務システム開発",
-        description: `業務システムの中にAIを組み込み、入力補助、判断支援、要約、分類、学習機能まで持った運用基盤を設計します。人が毎回ゼロから読む、探す、考える工程を減らし、業務の質と速度を同時に引き上げる設計が可能です。
+function toStringArray(value: unknown) {
+  return Array.isArray(value)
+    ? value.map((item) => String(item ?? "")).filter((item) => item.length > 0)
+    : [];
+}
 
-単なる管理画面ではなく、使うほど精度が上がる仕組みにできるのが大きな違いです。現場で生まれるデータと判断の蓄積を活かしながら、業務にフィットしたAI活用へ育てていけます。`,
-      },
-      {
-        title: "基幹システム開発とDX活用の見極め",
-        description: `独自開発を前提に押し切るのではなく、保守、運用負荷、初期コスト、拡張性まで含めて既存SaaSとの比較を行います。何を自社資産として持つべきか、どこは既製品を使うべきかを整理し、投資対効果の高い構成を見極めます。
+function toCards(value: unknown): ServiceCard[] {
+  return Array.isArray(value)
+    ? value.map((item) => ({
+        title: String(item?.title ?? ""),
+        description: String(item?.description ?? ""),
+      }))
+    : [];
+}
 
-この判断を最初に入れることで、作るべき範囲が明確になり、過剰開発も防げます。長く運用する前提で、開発スピードだけでなく、その後の保守と伸びしろまで含めて設計します。`,
-      },
-    ],
-    flow: {
-      title: "導入フロー",
-      intro:
-        "業務システム開発や基幹システム開発は、ただ作るだけではなく、既存運用との接続と将来の拡張性まで見ながら進めます。",
-      steps: [
-        {
-          step: "Step 01",
-          label: "Define",
-          title: "業務要件と既存環境を整理する",
-          description:
-            "現場の運用、既存SaaS、基幹システムの役割を棚卸しし、独自開発すべき範囲と既製品を使う範囲を切り分けます。",
-        },
-        {
-          step: "Step 02",
-          label: "Build Base",
-          title: "動く業務基盤を先に立ち上げる",
-          description:
-            "画面、権限、承認フロー、データ設計の土台を早期に実装し、まずは現場で触れる状態をつくります。",
-        },
-        {
-          step: "Step 03",
-          label: "Embed AI",
-          title: "必要な箇所にAI機能を組み込む",
-          description:
-            "入力補助、判断支援、学習機能など、AIを効かせるべきポイントを絞って実装し、業務の質と速度を引き上げます。",
-        },
-        {
-          step: "Step 04",
-          label: "Scale",
-          title: "現場運用から拡張まで育てる",
-          description:
-            "運用ログと現場フィードバックをもとに改善を重ね、将来的なOEM化や外部パッケージ化も見据えて基盤を整えます。",
-        },
-      ],
-    },
-    engagement: {
-      title: "契約と進め方",
-      intro:
-        "AI × SaaS / AI × DX は、まず動く業務基盤を立ち上げてから現場に合わせて改善を重ねるため、月単位で進める方が無理なく精度を上げられます。",
-      notes: [
-        {
-          label: "PRICE",
-          title: "30万円 / 月、初期フェーズは3カ月が目安",
-          description:
-            "初期フェーズは3カ月をひとつの目安に、月単位契約で進めます。固定スコープで縛るのではなく、週ごとの目標ラインを共有しながら、必要な改善と実装を前へ積み上げていく進め方です。",
-        },
-        {
-          label: "BUILD",
-          title: "既存移行より、まず新規で成立する形をつくる",
-          description:
-            "既存データベースへの接続や移行は、AIだけでは難易度が高くなる場合があります。そのため基本は新規構築を前提に計画し、既存資産との接続や移行は技術的な現実性を見ながら個別に判断します。",
-        },
-        {
-          label: "GOAL",
-          title: "工数ではなく、使える到達ラインを基準に進める",
-          description:
-            "提供価値は作業時間ではなく、現場で使える基盤へ到達する速度です。AIの特性上、目標への到達が難しい局面はあり得るため、その場合は代替案の提示や継続判断を相談しながら、透明性を持って進めます。",
-        },
-      ],
-    },
-    detailBox: {
-      type: "columns",
-      title: "業務システム開発の導入判断と実績",
-      columns: [
-        {
-          title: "こんな企業に向いています",
-          items: [
-            "自社ならではの要件が多く、既製品では運用が合わない",
-            "AIをシステムに組み込み、独自の業務基盤をつくりたい",
-            "将来的にOEM販売や外部パッケージ化まで視野に入れたい",
-            "一方で既存SaaSの方が良い場合は、その判断も含めて整理したい",
-          ],
-        },
-        {
-          title: "Gamiの実績",
-          items: [
-            "AI学習型SaaS「育つ見積り」を開発・運用中",
-            "TRIALで使われるRetailAI社の「SkipCart」のマネージメントおよび設計開発",
-            "タイヤ市場の業務管理システム「SPAT」の設計開発",
-            "AI/非AIの両面から、業務基盤を現場実装してきた知見を保有",
-          ],
-        },
-      ],
-    },
-  },
-  {
-    slug: "ai-marketing",
-    path: "/services/ai-marketing/",
-    number: "SERVICE 02",
-    titleLines: ["AI × Growth", "AI × Support"],
-    searchLead: "広報・マーケティングAI導入支援と業務効率化",
-    overviewDescription:
-      "AI × Growth / AI × Support は、月2万円〜で始められるAI導入支援です。広報・マーケティング、問い合わせ対応、バックオフィス、社内ナレッジ活用など、どこまでやりたいのか、今の体制でどこまでできるのかをヒアリングし、導入テーマと進め方を一緒に整理します。",
-    homeDescriptionLines: [
-      "広報・マーケティング業務へAIを導入。",
-      "決算処理から問い合わせ対応まで、業務効率化の設計と定着を支援します。",
-    ],
-    homeBullets: [
-      "広報・SEO・SNS・プレスリリースのAI活用設計",
-      "決算処理、経理、総務、人事などバックオフィス効率化",
-      "問い合わせ対応、議事録、社内FAQ、営業資料作成の自動化",
-    ],
-    cards: [
-      {
-        title: "広報・マーケティング業務にAIを導入する",
-        description: `SEO記事、プレスリリース、SNS投稿、メルマガ、営業資料、競合調査、リライト作業など、広報・マーケティングの制作工程へAIを組み込みます。単発で文章を生成するのではなく、テーマ選定、構成作成、下書き、校正、再利用、効果検証までの流れを整理し、チームで使える運用に落とし込みます。
+function toFlow(value: Partial<ServiceFlow> | undefined): ServiceFlow {
+  return {
+    title: String(value?.title ?? ""),
+    intro: String(value?.intro ?? ""),
+    steps: Array.isArray(value?.steps)
+      ? value.steps.map((step) => ({
+          step: String(step?.step ?? ""),
+          label: String(step?.label ?? ""),
+          title: String(step?.title ?? ""),
+          description: String(step?.description ?? ""),
+        }))
+      : [],
+  };
+}
 
-AIライティングを時短ツールで終わらせず、発信量と改善速度を上げるための Growth 基盤として設計するのが特徴です。人間はブランド判断と品質調整に集中し、AIは下書き、要約、比較、一次分析を担う形にします。`,
-      },
-      {
-        title: "業務効率化のAI導入を設計する",
-        description: `AI × Support は、決算処理、経理、総務、人事、営業事務、問い合わせ対応のような日々繰り返す業務を対象にします。たとえば証憑整理、仕訳候補の作成、請求・支払確認、問い合わせの一次分類、メール返信草案、議事録の要約とToDo化、社内FAQ、週報作成、採用応募の一次整理、CRM入力補助などをAI化できます。
+function toEngagement(value: Partial<ServiceEngagement> | undefined): ServiceEngagement {
+  return {
+    title: String(value?.title ?? ""),
+    intro: String(value?.intro ?? ""),
+    notes: Array.isArray(value?.notes)
+      ? value.notes.map((note) => ({
+          label: String(note?.label ?? ""),
+          title: String(note?.title ?? ""),
+          description: String(note?.description ?? ""),
+        }))
+      : [],
+  };
+}
 
-バックオフィスだけでなく、顧客対応、営業、採用、ナレッジ管理まで対象にできるため、現場ごとに効果の出やすい業務を見極めて導入します。作業の抜け漏れを減らしながら、人間は判断が必要な箇所だけに集中できます。`,
-      },
-      {
-        title: "人間が見る場所を残して、実運用に乗せる",
-        description: `Growth でも Support でも、AIに全部を丸投げするのではなく、どこまでをAI化し、どこで人間が確認するかを先に設計します。公開判断、会計処理の最終承認、個人情報を含む対応、例外処理の判断線を明確にすることで、安心して日常業務へ組み込めます。
-
-この前提を置くことで、品質を落とさずに継続運用しやすい体制になります。AI導入で重要なのはツール選びだけではなく、業務ルール、レビュー方法、定着の仕組みまで設計することです。`,
-      },
-    ],
-    flow: {
-      title: "導入フロー",
-      intro:
-        "AI × Growth / AI × Support の導入は、ツールや実装方法を先に決めるのではなく、ヒアリングで目的と現実的な対応範囲を整理するところから始めます。",
-      steps: [
-        {
-          step: "Step 01",
-          label: "Hearing",
-          title: "やりたいことと、できることを整理する",
-          description:
-            "広報、マーケティング、経理、総務、人事、営業事務、問い合わせ対応などの現状を聞き、AIで改善したいことと社内で対応できる範囲を整理します。",
-        },
-        {
-          step: "Step 02",
-          label: "Design",
-          title: "AI活用ワークフローを設計する",
-          description:
-            "どの工程をAI化し、どこで人間が確認するかを決めます。プロンプト、テンプレート、承認フロー、利用ツールまで含めて設計します。",
-        },
-        {
-          step: "Step 03",
-          label: "Implement",
-          title: "小さく導入して運用に乗せる",
-          description:
-            "記事やSNSの下書き、決算補助、問い合わせ分類、議事録作成、社内FAQなど、優先度の高い業務からAI導入を始めます。",
-        },
-        {
-          step: "Step 04",
-          label: "Improve",
-          title: "レビューしながら対象業務を広げる",
-          description:
-            "出力品質、作業削減時間、現場の使いやすさを見直し、導入対象を広げながら社内に定着する形へ改善します。",
-        },
-      ],
-    },
-    engagement: {
-      title: "契約と進め方",
-      intro:
-        "AI × Growth / AI × Support は、ツール単体を販売するサービスではなく、広報・マーケティングと業務効率化へのAI導入を月額で支援するサービスです。",
-      notes: [
-        {
-          label: "PRICE",
-          title: "AI導入支援 2万円〜 / 月",
-          description:
-            "まずはヒアリングで、どこまでやりたいのか、どこまでできるのか、どの業務から始めるべきかを整理します。対象業務の数、ツール連携、社内展開範囲によって費用は変わるため、月2万円〜を入口に、必要な支援範囲を相談しながら決めます。",
-        },
-        {
-          label: "SCOPE",
-          title: "単体機能の販売ではなく、導入支援として進める",
-          description:
-            "このサービスが担うのは、AI活用方針の整理、ワークフロー設計、プロンプト・テンプレート整備、ツール選定、社内運用ルールづくりです。特定の機能をいくつ販売する形ではなく、自社で回せる仕組みをつくります。",
-        },
-        {
-          label: "FOCUS",
-          title: "効果が出やすい業務から段階導入する",
-          description:
-            "決算処理、問い合わせ対応、議事録、社内FAQ、営業資料、SNS運用など、効果が出やすい業務から小さく始めます。導入後はレビューを重ね、削減できた作業と残すべき判断を切り分けながら対象を広げます。",
-        },
-      ],
-    },
-    detailBox: {
+function toDetailBox(value: Partial<ServiceDetailBox> | undefined): ServiceDetailBox {
+  if (value?.type === "points") {
+    return {
       type: "points",
-      title: "AI導入支援で整理するテーマ",
-      points: [
-        "広報・マーケティング: SEO記事、SNS、プレスリリース、メルマガ、営業資料、競合調査の下書きと改善フローを整えます。",
-        "決算・経理: 証憑整理、仕訳候補、請求・支払確認、月次レポート、決算準備のチェックリスト化を支援します。",
-        "問い合わせ対応: メールやフォームの一次分類、返信草案、FAQ化、対応履歴の要約をAIで効率化します。",
-        "会議・ナレッジ: 議事録の要約、ToDo抽出、社内FAQ、マニュアル検索、過去資料の再利用をしやすくします。",
-        "営業・採用・人事: 商談メモ、提案資料、求人票、応募者情報の一次整理、社内連絡文の作成を補助します。",
-      ],
-    },
-  },
-  {
-    slug: "ai-web",
-    path: "/services/ai-web/",
-    number: "SERVICE 03",
-    titleLines: ["AI × Brand", "AI × Site"],
-    searchLead: "AI Web制作・LP制作・コーポレートサイト制作",
-    overviewDescription:
-      "AI Web制作の導入で、LP制作やコーポレートサイト制作は企画設計から実装へ直行できるようになりました。時間もコストも大きかった従来の工程を見直し、公開速度と改善速度を引き上げます。",
-    homeDescriptionLines: [
-      "AI Web制作で企画設計から実装へ直行し、土台を高速構築。",
-      "LP制作やコーポレートサイト制作を、人間の品質で段階的に育てます。",
-    ],
-    homeBullets: [
-      "AI Web制作で企画設計→実装→公開へ再設計",
-      "LP制作とコーポレートサイト制作をAIで高速化",
-      "予算に応じて段階的にスケールアップ",
-    ],
-    cards: [
-      {
-        title: "AI Web制作で\n企画から実装へ直行する",
-        description: `企画設計→デザイン→コーディング→CMS→公開という分業前提の流れを、企画設計→実装→品質改善→公開へ再設計します。成果物になりにくい待ち時間を削り、最初の公開までのスピードを大きく引き上げます。
+      title: String(value.title ?? ""),
+      points: toStringArray(value.points),
+    };
+  }
 
-特にLPやコーポレートサイトでは、まず出すこと自体が価値になる場面が多くあります。初回公開までを短くすることで、社内確認も改善も前倒しでき、事業の動きに合わせてサイトを育てやすくなります。`,
-      },
-      {
-        title: "人間がブランド表現と品質を仕上げる",
-        description: `AIだけで到達できる品質は70%前後と捉え、残りのコピー、ビジュアル、動き、導線設計、細かな体験品質を人間が仕上げます。見た目を整えるだけでなく、ブランドの印象や伝わり方まで含めて、人間が最後の精度を上げます。
+  return {
+    type: "columns",
+    title: String(value?.title ?? ""),
+    columns: Array.isArray(value?.columns)
+      ? value.columns.map((column) => ({
+          title: String(column?.title ?? ""),
+          items: toStringArray(column?.items),
+        }))
+      : [],
+  };
+}
 
-速さを優先しながらも、選ばれるブランドサイトに必要な仕上がりは人間が担保します。AIで土台を一気に作り、人間が仕上げを担うことで、スピードと完成度の両立を現実的に狙えます。`,
-      },
-      {
-        title: "小さく公開し、\n段階的に育てる",
-        description: `AIで残工程を圧縮して高速開発できるからこそ、最初に立ち上げてから段階的に投資しながらサイトを育てる戦略が取れます。最初から大きく作り切るのではなく、必要な範囲から始めて、反応を見ながら次の投資を判断できます。
+function normalizeService(service: Partial<ServiceContent>, index: number): ServiceContent {
+  const slug = String(service.slug ?? "ai-saas") as ServiceSlug;
 
-LPから始めてコーポレート全体へ広げる、採用ページや事例ページを後から足す、といった拡張がしやすいのも強みです。限られた予算の中でも、公開と改善を止めずに進められる設計を取れます。`,
-      },
-    ],
-    flow: {
-      title: "制作フロー",
-      intro:
-        "Brand/Site の実装は、企画から公開までを短く回し、先に立ち上げてから磨き込む前提で進めます。",
-      steps: [
-        {
-          step: "Step 01",
-          label: "Define",
-          title: "目的とサイト構造を整理する",
-          description:
-            "LPなのかコーポレートサイトなのか、誰に何を伝えるかを明確にし、必要なページ構成と導線を決めます。",
-        },
-        {
-          step: "Step 02",
-          label: "Build Fast",
-          title: "AIでサイトの土台を高速に組む",
-          description:
-            "原稿のたたき台、ページ構成、実装ベースをAIで立ち上げ、公開できる最初の形を素早くつくります。",
-        },
-        {
-          step: "Step 03",
-          label: "Craft",
-          title: "ブランド表現と品質を人間が仕上げる",
-          description:
-            "見せ方、コピー、ビジュアル、動き、細かな体験品質を人間が詰め、選ばれるサイトへ引き上げます。",
-        },
-        {
-          step: "Step 04",
-          label: "Launch",
-          title: "公開後に改善しながら育てる",
-          description:
-            "先に公開して反応を見ながら改善を続け、予算と成果に応じて段階的に機能や表現を拡張していきます。",
-        },
-      ],
-    },
-    engagement: {
-      title: "契約と進め方",
-      intro:
-        "AI × Brand / AI × Site は、まず公開ラインへ到達し、その後に改善で密度を上げていく方が価値を出しやすいため、月単位契約で進めます。",
-      notes: [
-        {
-          label: "PRICE",
-          title: "30万円 / 月、初回ローンチは1カ月が目安",
-          description:
-            "まずは1カ月をひとつの目安に初回ローンチを狙います。条件が揃えばそれより早い公開も目指しますが、公開後の改善速度まで含めて価値があるため、契約は月単位を基本にしています。",
-        },
-        {
-          label: "MODEL",
-          title: "固定スコープより、公開後まで見据えて組み替える",
-          description:
-            "固定報酬で範囲を固めるより、月ごとに結果を見ながら次の打ち手を組み替えた方が、ブランドサイトやLPは伸びやすくなります。まず出して、反応を見て、必要な表現や機能を次の月で積む前提です。",
-        },
-        {
-          label: "TARGET",
-          title: "毎週の到達ラインを共有しながら進める",
-          description:
-            "月契約でも、際限なく工数を投下する形ではありません。各週のミーティングでローンチに向けた目標ラインを確認し、AIの生成品質や実装状況に応じて、代替案も含めながら現実的に前へ進めていきます。",
-        },
-      ],
-    },
-    detailBox: {
-      type: "columns",
-      title: "AI Web制作の導入判断と実績",
-      columns: [
-        {
-          title: "こんな企業に向いています",
-          items: [
-            "LPやコーポレートサイトを、まず短期間で公開ラインまで持っていきたい",
-            "最初から作り切るより、小さく出して改善しながら育てたい",
-            "原稿や構成を素早く整理し、企画から実装までを短く回したい",
-            "予算に応じて、段階的にページや機能を拡張していきたい",
-          ],
-        },
-        {
-          title: "Gamiの実績",
-          items: [
-            "GAMIのサイトを、AI × Brand / AI × Site の実装例として公開しています。",
-            "これまでの従来の実績については、フリーランス GAMIのサイトをご覧ください。",
-            "ブランドサイトを高速に立ち上げるための設計・改善ノウハウを、今の実装へ反映しています。",
-          ],
-        },
-      ],
-    },
-  },
-];
+  return {
+    adminTitle: service.adminTitle,
+    sortOrder: Number(service.sortOrder ?? index + 1),
+    slug,
+    path: String(service.path ?? `/services/${slug}/`),
+    number: String(service.number ?? ""),
+    titleLines: toStringArray(service.titleLines),
+    searchLead: String(service.searchLead ?? ""),
+    overviewDescription: String(service.overviewDescription ?? ""),
+    homeDescriptionLines: toStringArray(service.homeDescriptionLines),
+    homeBullets: toStringArray(service.homeBullets),
+    cards: toCards(service.cards),
+    flow: toFlow(service.flow),
+    engagement: toEngagement(service.engagement),
+    detailBox: toDetailBox(service.detailBox),
+  };
+}
+
+export const services: ServiceContent[] = Object.values(serviceModules)
+  .map((service, index) => normalizeService(service, index))
+  .filter((service) => service.slug && service.titleLines.length > 0)
+  .sort((a, b) => a.sortOrder - b.sortOrder);
 
 export function getServiceBySlug(slug?: string) {
   return services.find((service) => service.slug === slug);
 }
-
