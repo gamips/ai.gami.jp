@@ -150,6 +150,25 @@ async function main() {
         2,
       ),
     );
+  } catch (error) {
+    try {
+      const currentDir = await client.pwd();
+      const entries = await client.list();
+      console.error(
+        JSON.stringify(
+          {
+            ftpCurrentDir: currentDir,
+            ftpVisibleEntries: entries.map((entry) => entry.name).slice(0, 30),
+          },
+          null,
+          2,
+        ),
+      );
+    } catch (diagnosticError) {
+      console.error(`FTP diagnostics failed: ${diagnosticError.message}`);
+    }
+
+    throw error;
   } finally {
     client.close();
   }
