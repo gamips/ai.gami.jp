@@ -42,20 +42,10 @@ if (is_file($requestedFilePath) && !$isRouterScript) {
 
 $routeFilePath = $documentRoot . ($normalizedPath === "/" ? "/index.html" : $normalizedPath . "/index.html");
 $defaultHtmlPath = $documentRoot . "/index.html";
-$notFoundHtmlPath = $documentRoot . "/404/index.html";
 $servePath = $defaultHtmlPath;
 
 if (is_file($routeFilePath)) {
   $servePath = $routeFilePath;
-} elseif ($normalizedPath !== "/") {
-  http_response_code(404);
-  if (is_file($notFoundHtmlPath)) {
-    $servePath = $notFoundHtmlPath;
-  } else {
-    header("Content-Type: text/html; charset=UTF-8");
-    echo "<!doctype html><html lang=\"ja\"><head><meta charset=\"UTF-8\"><meta name=\"robots\" content=\"noindex,nofollow\"><title>404 Not Found</title></head><body><h1>404 Not Found</h1><p>ページが見つかりません。</p></body></html>";
-    exit;
-  }
 }
 
 header("Content-Type: text/html; charset=UTF-8");
@@ -73,5 +63,52 @@ if ($routeHtml === false) {
   exit;
 }
 
-echo $routeHtml;
+if (preg_match("/<html([^>]*)>/i", $routeHtml, $htmlTagMatch) === 1) {
+  $htmlAttributes = $htmlTagMatch[1];
+} else {
+  $htmlAttributes = ' lang="ja"';
+}
+
+if (preg_match("/<head>([\\s\\S]*?)<\\/head>/i", $routeHtml, $headMatch) === 1) {
+  $headContent = $headMatch[1];
+} else {
+  $headContent = "";
+}
+
+if (preg_match("/<body([^>]*)>([\\s\\S]*?)<\\/body>/i", $routeHtml, $bodyMatch) === 1) {
+  $bodyAttributes = trim($bodyMatch[1]);
+  $bodyContent = $bodyMatch[2];
+} else {
+  echo $routeHtml;
+  exit;
+}
+
+$bodyAttributes = trim($bodyAttributes);
+if ($bodyAttributes !== "") {
+  $bodyAttributes .= " data-server-shell=\"1\"";
+} else {
+  $bodyAttributes = ' data-server-shell="1"';
+}
+
+echo "<!doctype html>\n";
+echo "<html" . $htmlAttributes . ">\n";
+echo "<head>\n";
+echo $headContent . "\n";
+echo "  <script>window.__gamiServerChrome = true;</script>\n";
+echo "</head>\n";
+echo "<body" . $bodyAttributes . ">\n";
+
+$headerFile = $documentRoot . "/partials/header.php";
+if (is_file($headerFile)) {
+  include $headerFile;
+}
+
+echo $bodyContent . "\n";
+
+$footerFile = $documentRoot . "/partials/footer.php";
+if (is_file($footerFile)) {
+  include $footerFile;
+}
+
+echo "</body>\n</html>";
 exit;

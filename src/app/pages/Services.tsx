@@ -3,7 +3,6 @@ import { ArrowRight } from "lucide-react";
 import { InquiryCta } from "../components/InquiryCta";
 import { PageSeo } from "../components/PageSeo";
 import { ScrollReveal } from "../components/ScrollReveal";
-import { servicePageContent } from "../content/servicePage.js";
 import { services } from "../content/services";
 
 export function Services() {
@@ -13,24 +12,17 @@ export function Services() {
       <header className="py-32 bg-white">
         <div className="container mx-auto px-6">
           <ScrollReveal allowOnSubpages>
-            <div className="max-w-6xl">
-              <p className="text-cyan-500 font-medium tracking-widest mb-6">{servicePageContent.eyebrow}</p>
+            <div className="max-w-5xl">
+              <p className="text-cyan-500 font-medium tracking-widest mb-6">SOLUTIONS</p>
               <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold mb-8 leading-tight text-zinc-900">
-                {servicePageContent.titleLines[0]}
-                {servicePageContent.titleLines[1] ? (
-                  <>
-                    <br />
-                    <span className="text-cyan-500">{servicePageContent.titleLines[1]}</span>
-                  </>
-                ) : null}
+                現場に効く、
+                <br />
+                <span className="text-cyan-500">3つの実装領域</span>
               </h1>
               <p className="text-2xl text-zinc-600 leading-relaxed max-w-4xl">
-                {servicePageContent.descriptionLines.map((line, index) => (
-                  <span key={line}>
-                    {line}
-                    {index < servicePageContent.descriptionLines.length - 1 ? <br /> : null}
-                  </span>
-                ))}
+                GAMIのAI導入支援は、AIを単体で入れるのではなく、
+                <br />
+                業務・ツール・顧客接点のあいだに実装するAI開発です。
               </p>
             </div>
           </ScrollReveal>
@@ -39,7 +31,7 @@ export function Services() {
 
       <section className="py-24 bg-zinc-50">
         <div className="container mx-auto px-6">
-          <div className="max-w-6xl mx-auto border-t border-zinc-200">
+          <div className="max-w-7xl mx-auto border-t border-zinc-200">
             {services.map((service, index) => {
               return (
                 <ScrollReveal key={service.slug} delay={index * 0.06}>
@@ -61,7 +53,6 @@ export function Services() {
                         </h2>
 
                         <p className="text-xl text-zinc-600 leading-relaxed mb-10">
-                          <span className="mb-3 block font-bold text-zinc-900">{service.searchLead}</span>
                           {service.overviewDescription}
                         </p>
 

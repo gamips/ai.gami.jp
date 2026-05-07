@@ -2,67 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://ai.gami.jp/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://ai.gami.jp/concept/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://ai.gami.jp/concept</loc>
   </url>
   <url>
-    <loc>https://ai.gami.jp/services/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://ai.gami.jp/services</loc>
   </url>
   <url>
-    <loc>https://ai.gami.jp/services/ai-saas/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://ai.gami.jp/services/ai-saas</loc>
   </url>
   <url>
-    <loc>https://ai.gami.jp/services/ai-marketing/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://ai.gami.jp/services/ai-marketing</loc>
   </url>
   <url>
-    <loc>https://ai.gami.jp/services/ai-web/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://ai.gami.jp/services/ai-web</loc>
   </url>
   <url>
-    <loc>https://ai.gami.jp/price/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://ai.gami.jp/price</loc>
   </url>
   <url>
-    <loc>https://ai.gami.jp/news/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://ai.gami.jp/news</loc>
   </url>
   <url>
-    <loc>https://ai.gami.jp/about/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://ai.gami.jp/about</loc>
   </url>
   <url>
-    <loc>https://ai.gami.jp/contact/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ai.gami.jp/news/renewal/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai.gami.jp/news/clickfix/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ai.gami.jp/news/sodatsu-mitsumori/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <loc>https://ai.gami.jp/contact</loc>
   </url>
 </urlset>

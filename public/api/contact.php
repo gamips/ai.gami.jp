@@ -120,7 +120,7 @@ if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
 
 $allowedServices = [
   'saas' => ['label' => 'AIシステム開発 / SaaS・DX', 'subject' => 'AI SaaS / DX'],
-  'marketing' => ['label' => 'AI導入支援 / Growth・Support', 'subject' => 'AI Adoption Support'],
+  'marketing' => ['label' => 'AIマーケティング / AIライティング', 'subject' => 'AI Marketing / Writing'],
   'web' => ['label' => 'AI Web制作 / LP・コーポレートサイト', 'subject' => 'AI Web / Brand Site'],
   'consulting' => ['label' => 'AI導入支援 / コンサルティング', 'subject' => 'AI Consulting'],
   'other' => ['label' => 'その他・相談したい', 'subject' => 'Other inquiry'],
@@ -146,8 +146,7 @@ if (!str_contains($adminFromAddress, '@')) {
   $adminFromAddress = "noreply@{$adminFromAddress}";
 }
 
-$adminFromName = encodeHeaderValue('株式会社ガミ');
-$adminFrom = "{$adminFromName} <{$adminFromAddress}>";
+$adminFrom = "Gami Contact <{$adminFromAddress}>";
 
 $subject = "Gami お問い合わせ";
 $mailSubject = encodeHeaderValue($subject);

@@ -6,6 +6,7 @@ import { WindowsInertialScroll } from "./WindowsInertialScroll";
 
 export function Root() {
   const { pathname } = useLocation();
+  const hasServerChrome = typeof window !== "undefined" && (window as any).__gamiServerChrome === true;
 
   useEffect(() => {
     if (!("scrollRestoration" in window.history)) {
@@ -33,11 +34,11 @@ export function Root() {
       >
         コンテンツへスキップ
       </a>
-      <Header />
+      {hasServerChrome ? null : <Header />}
       <main id="main-content">
         <Outlet />
       </main>
-      <Footer />
+      {hasServerChrome ? null : <Footer />}
     </div>
   );
 }

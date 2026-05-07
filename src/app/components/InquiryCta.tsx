@@ -20,7 +20,7 @@ export function InquiryCta({ variant = "dark" }: InquiryCtaProps) {
     >
       <div className="container mx-auto px-6">
         <ScrollReveal>
-          <div className="max-w-6xl mx-auto text-center">
+          <div className="max-w-5xl mx-auto text-center">
             <h2 className={`text-4xl md:text-6xl font-bold mb-8 leading-tight ${isLight ? "text-zinc-900" : "text-white"}`}>
               AIで見直せる工程を、
               <br />
@@ -36,7 +36,7 @@ export function InquiryCta({ variant = "dark" }: InquiryCtaProps) {
               今の事業に合わせて、AIに任せる工程と人間が持つべき判断を整理します。
             </p>
             <ScrollToTopLink
-              to="/contact/"
+              to="/contact"
               className={`inline-flex items-center gap-2 border-2 px-10 py-5 rounded-full font-bold text-lg transition-all ${
                 isLight
                   ? "border-zinc-900/25 bg-white/80 text-zinc-900 hover:bg-white hover:border-zinc-900/40"

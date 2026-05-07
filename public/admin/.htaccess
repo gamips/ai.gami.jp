@@ -1,6 +1,0 @@
-<IfModule mod_headers.c>
-  Header set X-Robots-Tag "noindex, nofollow"
-  <FilesMatch "\.(?:html|yml|yaml)$">
-    Header set Cache-Control "no-store"
-  </FilesMatch>
-</IfModule>

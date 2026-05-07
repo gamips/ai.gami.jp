@@ -26,38 +26,3 @@ Requests are resolved in this order:
 
 This project uses React Router with browser history, and a `.htaccess` file is included in `public/` and copied to `dist/` during build.
 `public/.htaccess` rewrites non-file requests to `index.php` for PHP-side dispatch.
-
-## Sveltia CMS
-
-The news CMS is served from `/admin/index.html`.
-
-- CMS config: `public/admin/config.yml`
-- News entries: `src/app/content/news-items/*.json`
-- Uploaded media: `public/uploads/`
-
-Local editing:
-1. Run `npm run dev`.
-2. Open `http://localhost:5173/admin/index.html` in a Chromium-based browser.
-3. Choose local repository editing and select this project root.
-4. Edit news entries, then run `npm run build` to verify the generated static pages and sitemap.
-
-Production editing:
-Sveltia CMS commits changes to the GitHub repository. Pushes to `master` run `.github/workflows/deploy-xserver.yml`, build the site, and deploy a zip of `dist/` to Xserver through the protected `/api/deploy.php` endpoint.
-
-OAuth login uses the Sveltia CMS Authenticator Worker:
-
-- Worker: `ai-gami-sveltia-cms-auth`
-- URL: `https://ai-gami-sveltia-cms-auth.gamips.workers.dev`
-- GitHub OAuth callback URL: `https://ai-gami-sveltia-cms-auth.gamips.workers.dev/callback`
-
-After creating the GitHub OAuth app, set these Cloudflare Worker secrets:
-
-- `GITHUB_CLIENT_ID`
-- `GITHUB_CLIENT_SECRET`
-- `ALLOWED_DOMAINS=ai.gami.jp`
-
-The GitHub repository also needs this Actions secret for deployment:
-
-- `XSERVER_DEPLOY_TOKEN`
-
-The same token must be stored on Xserver outside the document root at `/gami.jp/.gami-ai-deploy-token`.

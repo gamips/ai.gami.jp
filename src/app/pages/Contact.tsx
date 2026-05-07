@@ -11,21 +11,6 @@ const CONTACT_FORM_ENDPOINT =
   (import.meta as { env?: { VITE_CONTACT_FORM_ENDPOINT?: string } }).env?.VITE_CONTACT_FORM_ENDPOINT) ||
   "/api/contact.php";
 
-const consultationPoints = [
-  {
-    title: "相談の目的",
-    body: "売上づくり、問い合わせ対応、資料作成、社内FAQ、議事録、経理やバックオフィスなど、どの業務でAIを使いたいのかを整理します。",
-  },
-  {
-    title: "導入範囲",
-    body: "月2万円からのAI導入支援で始めるのか、AIシステム開発やAI Web制作まで進めるのか、現場で扱える範囲を一緒に決めます。",
-  },
-  {
-    title: "進め方",
-    body: "初回ヒアリング後に、すぐ試せる運用改善、必要なデータやツール、月ごとの支援内容と優先順位を明確にします。",
-  },
-];
-
 export function Contact() {
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
@@ -88,7 +73,7 @@ export function Contact() {
 
       setSubmitState("success");
       setSubmitMessage("送信が完了しました。担当者よりご連絡いたします。");
-      navigate("/contact/thanks/");
+      navigate("/contact/thanks");
       resetForm();
     } catch (error) {
       setSubmitState("error");
@@ -115,7 +100,7 @@ export function Contact() {
       <header className="py-32 bg-white">
         <div className="container mx-auto px-6">
           <ScrollReveal allowOnSubpages>
-            <div className="max-w-6xl">
+            <div className="max-w-5xl">
               <p className="text-cyan-500 font-medium tracking-widest mb-6">CONTACT</p>
               <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold mb-8 leading-tight text-zinc-900">
                 無料相談
@@ -150,17 +135,6 @@ export function Contact() {
                     検討段階でも問題ありません。まだ要件が固まっていない状態でもご相談いただけます。
                   </p>
                 </div>
-                <div className="border-y border-zinc-200 divide-y divide-zinc-200">
-                  {consultationPoints.map((point) => (
-                    <div
-                      key={point.title}
-                      className="py-6 grid grid-cols-1 xl:grid-cols-[220px_minmax(0,1fr)] gap-4"
-                    >
-                      <h3 className="text-base font-semibold text-zinc-900">{point.title}</h3>
-                      <p className="text-base text-zinc-600 leading-relaxed">{point.body}</p>
-                    </div>
-                  ))}
-                </div>
               </div>
             </ScrollReveal>
 
@@ -170,7 +144,7 @@ export function Contact() {
 
       <section className="py-24 bg-white">
         <div className="container mx-auto px-6">
-          <div className="max-w-6xl mx-auto">
+          <div className="max-w-5xl mx-auto">
             <ScrollReveal>
               <h2 className="text-4xl md:text-5xl font-bold mb-12 text-zinc-900">
                 お問い合わせフォーム
@@ -258,7 +232,7 @@ export function Contact() {
                   >
                     <option value="">選択してください</option>
                     <option value="saas">AIシステム開発 / SaaS・DX</option>
-                    <option value="marketing">AI導入支援 / Growth・Support</option>
+                    <option value="marketing">AIマーケティング / AIライティング</option>
                     <option value="web">AI Web制作 / LP・コーポレートサイト</option>
                     <option value="consulting">AI導入支援 / コンサルティング</option>
                     <option value="other">その他・相談したい</option>

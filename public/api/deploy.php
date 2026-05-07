@@ -11,6 +11,53 @@ function respond(int $statusCode, array $payload): void
   exit;
 }
 
+function removeDeployPath(string $documentRoot, string $relativePath): int
+{
+  $root = realpath($documentRoot);
+  $target = realpath($documentRoot . DIRECTORY_SEPARATOR . str_replace("/", DIRECTORY_SEPARATOR, $relativePath));
+
+  if (
+    $root === false ||
+    $target === false ||
+    $target === $root ||
+    !str_starts_with($target, $root . DIRECTORY_SEPARATOR)
+  ) {
+    return 0;
+  }
+
+  if (is_file($target) || is_link($target)) {
+    return @unlink($target) ? 1 : 0;
+  }
+
+  if (!is_dir($target)) {
+    return 0;
+  }
+
+  $deleted = 0;
+  $iterator = new RecursiveIteratorIterator(
+    new RecursiveDirectoryIterator($target, FilesystemIterator::SKIP_DOTS),
+    RecursiveIteratorIterator::CHILD_FIRST
+  );
+
+  foreach ($iterator as $item) {
+    $itemPath = $item->getPathname();
+
+    if ($item->isDir() && !$item->isLink()) {
+      if (@rmdir($itemPath)) {
+        $deleted++;
+      }
+    } elseif (@unlink($itemPath)) {
+      $deleted++;
+    }
+  }
+
+  if (@rmdir($target)) {
+    $deleted++;
+  }
+
+  return $deleted;
+}
+
 if ($_SERVER["REQUEST_METHOD"] !== "POST") {
   respond(405, ["ok" => false, "error" => "method_not_allowed"]);
 }
@@ -102,6 +149,22 @@ if (is_dir($assetsDir)) {
   }
 }
 
+$stalePaths = [
+  "admin",
+  "uploads",
+  "news/clickfix",
+  "news/renewal",
+  "news/sodatsu-mitsumori",
+  "apple-touch-icon.png",
+  "favicon.ico",
+  "favicon.svg",
+];
+$deletedStalePaths = 0;
+
+foreach ($stalePaths as $stalePath) {
+  $deletedStalePaths += removeDeployPath($documentRoot, $stalePath);
+}
+
 for ($i = 0; $i < $zip->numFiles; $i++) {
   $entryName = $zip->getNameIndex($i);
   if ($entryName === false) {
@@ -139,4 +202,4 @@ for ($i = 0; $i < $zip->numFiles; $i++) {
 $zip->close();
 @unlink($tempZip);
 
-respond(200, ["ok" => true, "extracted" => $extracted]);
+respond(200, ["ok" => true, "extracted" => $extracted, "deletedStalePaths" => $deletedStalePaths]);

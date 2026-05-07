@@ -280,9 +280,6 @@ export function ServiceDetail() {
                   </>
                 ) : null}
               </h1>
-              <p className="mb-6 text-xl font-bold leading-relaxed tracking-wide text-zinc-900 md:text-2xl">
-                {service.searchLead}
-              </p>
               <p className="text-2xl text-zinc-600 leading-relaxed max-w-5xl">
                 {renderSentenceBreaks(service.overviewDescription)}
               </p>
@@ -336,7 +333,7 @@ export function ServiceDetail() {
 
                       <div className={`${isRightAligned ? "order-1 lg:order-2 lg:pl-4 xl:pl-8" : "order-1 lg:order-1 lg:pr-4 xl:pr-8"}`}>
                         <div className="relative mb-10 pt-6 md:mb-12 md:pt-8">
-                          <div className="pointer-events-none absolute -left-12 -top-[5.3rem] z-10 flex h-32 w-32 items-center justify-center md:-left-32 md:-top-[4.5rem] md:h-40 md:w-40">
+                          <div className="pointer-events-none absolute -left-24 -top-14 z-10 flex h-32 w-32 items-center justify-center md:-left-32 md:-top-[4.5rem] md:h-40 md:w-40">
                             <div className="absolute inset-0 rounded-full border border-dashed border-cyan-500/50 animate-spin [animation-duration:18s]" />
                             <div className="relative flex flex-col items-center justify-center">
                               <span className="mb-2 text-[0.6rem] md:text-xs font-bold tracking-[0.26em] text-cyan-500">
