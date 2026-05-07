@@ -52,6 +52,7 @@ jobs:
           set ftp:passive-mode on
           set net:max-retries 3
           set net:timeout 30
+          cd /
           mirror --reverse --verbose=1 ./dist/ "$XSERVER_FTP_REMOTE_PATH"
           mirror --reverse --delete --verbose=1 ./dist/assets/ "$XSERVER_FTP_REMOTE_PATH/assets/"
           bye
