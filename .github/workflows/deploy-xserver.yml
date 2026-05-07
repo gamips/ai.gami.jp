@@ -34,9 +34,13 @@ jobs:
 
       - name: Deploy dist to Xserver
         env:
-          XSERVER_FTP_SERVER: ${{ secrets.XSERVER_FTP_SERVER }}
-          XSERVER_FTP_USERNAME: ${{ secrets.XSERVER_FTP_USERNAME }}
-          XSERVER_FTP_PASSWORD: ${{ secrets.XSERVER_FTP_PASSWORD }}
-          XSERVER_FTP_PORT: ${{ secrets.XSERVER_FTP_PORT }}
-          XSERVER_FTP_REMOTE_PATH: ${{ secrets.XSERVER_FTP_REMOTE_PATH }}
-        run: npm run deploy:xserver
+          XSERVER_DEPLOY_TOKEN: ${{ secrets.XSERVER_DEPLOY_TOKEN }}
+        run: |
+          cd dist
+          zip -qr ../site.zip .
+          cd ..
+          curl --fail --silent --show-error --retry 3 \
+            -H "X-GAMI-DEPLOY-TOKEN: ${XSERVER_DEPLOY_TOKEN}" \
+            -H "Content-Type: application/zip" \
+            --data-binary @site.zip \
+            https://ai.gami.jp/api/deploy.php

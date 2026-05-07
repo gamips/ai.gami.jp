@@ -42,7 +42,7 @@ Local editing:
 4. Edit news entries, then run `npm run build` to verify the generated static pages and sitemap.
 
 Production editing:
-Sveltia CMS commits changes to the GitHub repository. Pushes to `master` run `.github/workflows/deploy-xserver.yml`, build the site, and deploy `dist/` to Xserver by FTP.
+Sveltia CMS commits changes to the GitHub repository. Pushes to `master` run `.github/workflows/deploy-xserver.yml`, build the site, and deploy a zip of `dist/` to Xserver through the protected `/api/deploy.php` endpoint.
 
 OAuth login uses the Sveltia CMS Authenticator Worker:
 
@@ -56,10 +56,8 @@ After creating the GitHub OAuth app, set these Cloudflare Worker secrets:
 - `GITHUB_CLIENT_SECRET`
 - `ALLOWED_DOMAINS=ai.gami.jp`
 
-The GitHub repository also needs these Actions secrets for deployment:
+The GitHub repository also needs this Actions secret for deployment:
 
-- `XSERVER_FTP_SERVER`
-- `XSERVER_FTP_USERNAME`
-- `XSERVER_FTP_PASSWORD`
-- `XSERVER_FTP_PORT`
-- `XSERVER_FTP_REMOTE_PATH`
+- `XSERVER_DEPLOY_TOKEN`
+
+The same token must be stored on Xserver outside the document root at `/gami.jp/.gami-ai-deploy-token`.
