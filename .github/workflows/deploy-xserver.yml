@@ -33,24 +33,10 @@ jobs:
         run: npm run build
 
       - name: Deploy dist to Xserver
-        shell: bash
         env:
           XSERVER_FTP_SERVER: ${{ secrets.XSERVER_FTP_SERVER }}
           XSERVER_FTP_USERNAME: ${{ secrets.XSERVER_FTP_USERNAME }}
           XSERVER_FTP_PASSWORD: ${{ secrets.XSERVER_FTP_PASSWORD }}
           XSERVER_FTP_PORT: ${{ secrets.XSERVER_FTP_PORT }}
           XSERVER_FTP_REMOTE_PATH: ${{ secrets.XSERVER_FTP_REMOTE_PATH }}
-        run: |
-          set -euo pipefail
-          remote_path="${XSERVER_FTP_REMOTE_PATH#/}"
-          remote_path="${remote_path%/}/"
-          remote_base="ftp://${XSERVER_FTP_SERVER}:${XSERVER_FTP_PORT}//${remote_path}"
-
-          while IFS= read -r -d '' file; do
-            rel_path="${file#dist/}"
-            echo "Uploading ${rel_path}"
-            curl --fail --silent --show-error --retry 3 --ftp-create-dirs \
-              --user "${XSERVER_FTP_USERNAME}:${XSERVER_FTP_PASSWORD}" \
-              --upload-file "${file}" \
-              "${remote_base}${rel_path}"
-          done < <(find dist -type f -print0)
+        run: npm run deploy:xserver

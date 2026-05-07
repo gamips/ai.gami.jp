@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "build": "vite build && node scripts/generate-static-seo.mjs",
+    "deploy:xserver": "node scripts/deploy-xserver.mjs",
     "dev": "vite",
     "preview:php": "php -S 127.0.0.1:4173 -t dist dist/index.php"
   },
@@ -69,6 +70,7 @@
   "devDependencies": {
     "@tailwindcss/vite": "4.1.12",
     "@vitejs/plugin-react": "4.7.0",
+    "basic-ftp": "^6.0.1",
     "tailwindcss": "4.1.12",
     "vite": "6.3.5"
   },
