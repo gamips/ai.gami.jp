@@ -7,6 +7,7 @@ import {
   SITE_NAME,
   getSeoEntry,
   toAbsoluteUrl,
+  toCanonicalUrl,
 } from "../seo/pageSeo.js";
 
 type SeoOverride = {
@@ -86,7 +87,7 @@ export function PageSeo({ path, ...override }: SeoOverride) {
       return;
     }
 
-    const canonicalUrl = toAbsoluteUrl(entry.path ?? path ?? "/");
+    const canonicalUrl = toCanonicalUrl(entry.path ?? path ?? "/");
     const imageUrl = toAbsoluteUrl(entry.image ?? "/og/home.png");
     const robots = entry.noindex
       ? "noindex,nofollow"
@@ -150,4 +151,3 @@ export function PageSeo({ path, ...override }: SeoOverride) {
 
   return null;
 }
-

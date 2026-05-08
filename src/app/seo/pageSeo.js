@@ -18,6 +18,16 @@ export function toAbsoluteUrl(path = "/") {
   return new URL(path, SITE_URL).toString();
 }
 
+export function toCanonicalUrl(path = "/") {
+  const url = new URL(toAbsoluteUrl(path));
+
+  if (url.origin === SITE_URL && url.pathname !== "/" && !url.pathname.endsWith("/")) {
+    url.pathname = `${url.pathname}/`;
+  }
+
+  return url.toString();
+}
+
 function createBreadcrumbSchema(items) {
   return {
     "@context": "https://schema.org",
@@ -26,7 +36,7 @@ function createBreadcrumbSchema(items) {
       "@type": "ListItem",
       position: index + 1,
       name: item.name,
-      item: toAbsoluteUrl(item.path),
+      item: toCanonicalUrl(item.path),
     })),
   };
 }
@@ -37,7 +47,7 @@ function createBaseWebPageSchema({ path, title, description, type = "WebPage" })
     "@type": type,
     name: title,
     description,
-    url: toAbsoluteUrl(path),
+    url: toCanonicalUrl(path),
     inLanguage: "ja-JP",
     isPartOf: {
       "@type": "WebSite",
@@ -89,7 +99,7 @@ const serviceCatalogSchema = {
     {
       "@type": "ListItem",
       position: 1,
-      url: toAbsoluteUrl("/services/ai-saas"),
+      url: toCanonicalUrl("/services/ai-saas"),
       item: {
         "@type": "Service",
         name: "AI × SaaS / AI × DX",
@@ -98,7 +108,7 @@ const serviceCatalogSchema = {
     {
       "@type": "ListItem",
       position: 2,
-      url: toAbsoluteUrl("/services/ai-marketing"),
+      url: toCanonicalUrl("/services/ai-marketing"),
       item: {
         "@type": "Service",
         name: "AI × Growth / AI × Writing",
@@ -107,7 +117,7 @@ const serviceCatalogSchema = {
     {
       "@type": "ListItem",
       position: 3,
-      url: toAbsoluteUrl("/services/ai-web"),
+      url: toCanonicalUrl("/services/ai-web"),
       item: {
         "@type": "Service",
         name: "AI × Brand / AI × Site",
@@ -120,7 +130,7 @@ const priceCatalogSchema = {
   "@context": "https://schema.org",
   "@type": "OfferCatalog",
   name: "GAMI Pricing",
-  url: toAbsoluteUrl("/price"),
+  url: toCanonicalUrl("/price"),
   itemListElement: [
     {
       "@type": "Offer",
@@ -169,21 +179,21 @@ const newsListSchema = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   name: "GAMI News",
-  url: toAbsoluteUrl("/news"),
+  url: toCanonicalUrl("/news"),
   hasPart: [
     {
       "@type": "NewsArticle",
       headline: "コーポレートサイトをリニューアルオープンしました。",
       datePublished: "2026-02-01",
       articleSection: "お知らせ",
-      url: toAbsoluteUrl("/news#news-1"),
+      url: toCanonicalUrl("/news#news-1"),
     },
     {
       "@type": "NewsArticle",
       headline: "新サービス「SaaS × AI 業務自動化プラン」の提供を開始しました。",
       datePublished: "2026-01-15",
       articleSection: "サービス",
-      url: toAbsoluteUrl("/news#news-2"),
+      url: toCanonicalUrl("/news#news-2"),
     },
   ],
 };
@@ -291,7 +301,7 @@ export const pageSeoByPath = {
           "@type": "Country",
           name: "Japan",
         },
-        url: toAbsoluteUrl("/services/ai-saas"),
+        url: toCanonicalUrl("/services/ai-saas"),
         description:
           "自社要件に合わせた業務システム開発や基幹システム開発を、AI基準で速く立ち上げるサービスです。",
       },
@@ -333,7 +343,7 @@ export const pageSeoByPath = {
           "@type": "Country",
           name: "Japan",
         },
-        url: toAbsoluteUrl("/services/ai-marketing"),
+        url: toCanonicalUrl("/services/ai-marketing"),
         description:
           "SEO記事作成やSNS運用を含む発信・分析・改善を回すAIマーケティング支援サービスです。",
       },
@@ -375,7 +385,7 @@ export const pageSeoByPath = {
           "@type": "Country",
           name: "Japan",
         },
-        url: toAbsoluteUrl("/services/ai-web"),
+        url: toCanonicalUrl("/services/ai-web"),
         description:
           "LP制作やコーポレートサイト制作をAI基準のフローで高速立ち上げするサービスです。",
       },

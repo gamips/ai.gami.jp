@@ -1,6 +1,6 @@
 import fs from "node:fs/promises";
 import path from "node:path";
-import { staticSeoEntries, toAbsoluteUrl } from "../src/app/seo/pageSeo.js";
+import { staticSeoEntries, toAbsoluteUrl, toCanonicalUrl } from "../src/app/seo/pageSeo.js";
 
 const distDir = path.resolve(process.cwd(), "dist");
 const templatePath = path.join(distDir, "index.html");
@@ -19,7 +19,7 @@ function escapeHtml(value) {
 }
 
 function buildSeoHead(entry) {
-  const canonicalUrl = toAbsoluteUrl(entry.path);
+  const canonicalUrl = toCanonicalUrl(entry.path);
   const imageUrl = toAbsoluteUrl(entry.image ?? "/og/home.png");
   const imageAlt = entry.imageAlt ?? entry.title;
   const robots = entry.noindex
@@ -189,7 +189,7 @@ function buildSitemap(entries) {
   const urls = entries
     .filter((entry) => !entry.noindex)
     .map((entry) => `  <url>
-    <loc>${escapeHtml(toAbsoluteUrl(entry.path))}</loc>
+    <loc>${escapeHtml(toCanonicalUrl(entry.path))}</loc>
     <lastmod>${lastmod}</lastmod>
     <changefreq>${getSitemapChangefreq(entry.path)}</changefreq>
     <priority>${getSitemapPriority(entry.path)}</priority>

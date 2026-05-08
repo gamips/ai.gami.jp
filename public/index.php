@@ -11,19 +11,6 @@ if ($requestPath === false || $requestPath === null || $requestPath === "") {
   $requestPath = "/";
 }
 $requestPath = urldecode($requestPath);
-
-if ($requestPath !== "/" && str_ends_with($requestPath, "/")) {
-  $queryString = parse_url($rawRequestUri, PHP_URL_QUERY);
-  $redirectTo = rtrim($requestPath, "/");
-
-  if (is_string($queryString) && $queryString !== "") {
-    $redirectTo .= "?" . $queryString;
-  }
-
-  header("Location: {$redirectTo}", true, 301);
-  exit;
-}
-
 $normalizedPath = rtrim($requestPath, "/");
 if ($normalizedPath === "") {
   $normalizedPath = "/";
