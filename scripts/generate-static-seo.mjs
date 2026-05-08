@@ -119,6 +119,20 @@ function replaceRootContent(template, html) {
   return template.replace('<div id="root"></div>', `<div id="root">${html}</div>`);
 }
 
+function buildStaticFallbackBody(entry) {
+  const heading = escapeHtml(stripTitleSuffix(entry.title) || "GAMI");
+  const description = escapeHtml(entry.description ?? "");
+
+  return `
+    <main id="seo-fallback" class="pt-24">
+      <section class="container mx-auto px-6 py-20">
+        <p class="text-cyan-500 font-medium tracking-widest mb-6">GAMI</p>
+        <h1 class="text-4xl md:text-6xl font-bold leading-tight text-zinc-900">${heading}</h1>
+        <p class="mt-6 text-lg md:text-xl text-zinc-600 leading-relaxed max-w-4xl">${description}</p>
+      </section>
+    </main>`;
+}
+
 function injectSeoBody(template, entry) {
   const withoutFallback = stripFallbackBlock(template);
 
@@ -126,7 +140,7 @@ function injectSeoBody(template, entry) {
     return replaceRootContent(withoutFallback, contactThanksStaticFallback);
   }
 
-  return withoutFallback;
+  return replaceRootContent(withoutFallback, buildStaticFallbackBody(entry));
 }
 
 function injectSeoHead(template, entry) {
@@ -150,6 +164,45 @@ async function writeRouteHtml(entry, template) {
   await fs.writeFile(outputPath, html, "utf8");
 }
 
+function getSitemapPriority(pathname) {
+  if (pathname === "/") {
+    return "1.0";
+  }
+
+  if (pathname.startsWith("/services/")) {
+    return "0.8";
+  }
+
+  return "0.7";
+}
+
+function getSitemapChangefreq(pathname) {
+  if (pathname === "/" || pathname === "/news") {
+    return "weekly";
+  }
+
+  return "monthly";
+}
+
+function buildSitemap(entries) {
+  const lastmod = new Date().toISOString().slice(0, 10);
+  const urls = entries
+    .filter((entry) => !entry.noindex)
+    .map((entry) => `  <url>
+    <loc>${escapeHtml(toAbsoluteUrl(entry.path))}</loc>
+    <lastmod>${lastmod}</lastmod>
+    <changefreq>${getSitemapChangefreq(entry.path)}</changefreq>
+    <priority>${getSitemapPriority(entry.path)}</priority>
+  </url>`)
+    .join("\n");
+
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${urls}
+</urlset>
+`;
+}
+
 async function main() {
   const template = await fs.readFile(templatePath, "utf8");
 
@@ -160,6 +213,8 @@ async function main() {
   for (const entry of staticSeoEntries) {
     await writeRouteHtml(entry, template);
   }
+
+  await fs.writeFile(path.join(distDir, "sitemap.xml"), buildSitemap(staticSeoEntries), "utf8");
 }
 
 main().catch((error) => {

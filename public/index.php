@@ -11,6 +11,19 @@ if ($requestPath === false || $requestPath === null || $requestPath === "") {
   $requestPath = "/";
 }
 $requestPath = urldecode($requestPath);
+
+if ($requestPath !== "/" && str_ends_with($requestPath, "/")) {
+  $queryString = parse_url($rawRequestUri, PHP_URL_QUERY);
+  $redirectTo = rtrim($requestPath, "/");
+
+  if (is_string($queryString) && $queryString !== "") {
+    $redirectTo .= "?" . $queryString;
+  }
+
+  header("Location: {$redirectTo}", true, 301);
+  exit;
+}
+
 $normalizedPath = rtrim($requestPath, "/");
 if ($normalizedPath === "") {
   $normalizedPath = "/";
@@ -43,12 +56,19 @@ if (is_file($requestedFilePath) && !$isRouterScript) {
 $routeFilePath = $documentRoot . ($normalizedPath === "/" ? "/index.html" : $normalizedPath . "/index.html");
 $defaultHtmlPath = $documentRoot . "/index.html";
 $servePath = $defaultHtmlPath;
+$isKnownHtmlRoute = $normalizedPath === "/";
 
 if (is_file($routeFilePath)) {
   $servePath = $routeFilePath;
+  $isKnownHtmlRoute = true;
 }
 
 header("Content-Type: text/html; charset=UTF-8");
+
+if (!$isKnownHtmlRoute) {
+  http_response_code(404);
+  header("X-Robots-Tag: noindex, nofollow");
+}
 
 if (!is_file($servePath)) {
   http_response_code(404);

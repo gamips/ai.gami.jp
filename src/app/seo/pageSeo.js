@@ -489,6 +489,7 @@ export const pageSeoByPath = {
     image: "/og/contact.png",
     imageAlt: "Contact thanks page open graph image",
     ogType: "website",
+    noindex: true,
     schemas: [
       organizationSchema,
       createBaseWebPageSchema({
