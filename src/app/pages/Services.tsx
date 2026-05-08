@@ -3,7 +3,7 @@ import { ArrowRight } from "lucide-react";
 import { InquiryCta } from "../components/InquiryCta";
 import { PageSeo } from "../components/PageSeo";
 import { ScrollReveal } from "../components/ScrollReveal";
-import { getSubServicesByParentSlug, orderedServices } from "../content/services";
+import { orderedServices } from "../content/services";
 
 export function Services() {
   return (
@@ -33,8 +33,6 @@ export function Services() {
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto border-t border-zinc-200">
             {orderedServices.map((service, index) => {
-              const subServices = getSubServicesByParentSlug(service.slug);
-
               return (
                 <ScrollReveal key={service.slug} delay={index * 0.06}>
                   <section className="py-16 border-b border-zinc-200">
@@ -70,38 +68,27 @@ export function Services() {
                           ))}
                         </ul>
 
-                        {subServices.length > 0 ? (
+                        {service.approaches?.length ? (
                           <div className="mb-10 border-t border-zinc-200">
                             <p className="py-4 text-sm font-bold tracking-widest text-cyan-500">
-                              このカテゴリの相談メニュー
+                              このカテゴリのアプローチ
                             </p>
                             <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-                              {subServices.map((subService) => (
-                                <Link
-                                  key={subService.slug}
-                                  to={subService.path}
-                                  className="group border border-zinc-200 bg-white p-5 transition-colors hover:border-cyan-500/60"
+                              {service.approaches.slice(0, 4).map((approach) => (
+                                <div
+                                  key={approach.title}
+                                  className="border border-zinc-200 bg-white p-5"
                                 >
                                   <p className="mb-2 text-xs font-bold tracking-widest text-cyan-500">
-                                    {subService.number}
+                                    {approach.label}
                                   </p>
                                   <h3 className="text-xl font-bold leading-tight text-zinc-900">
-                                    {subService.titleLines[0]}
-                                    {subService.titleLines[1] ? (
-                                      <>
-                                        <br />
-                                        <span className="text-cyan-500">{subService.titleLines[1]}</span>
-                                      </>
-                                    ) : null}
+                                    {approach.title}
                                   </h3>
                                   <p className="mt-4 text-sm leading-relaxed text-zinc-600">
-                                    {subService.homeDescriptionLines[0]}
+                                    {approach.description}
                                   </p>
-                                  <span className="mt-5 inline-flex items-center gap-2 text-sm font-medium text-cyan-500 transition-all group-hover:gap-3">
-                                    詳細を見る
-                                    <ArrowRight size={16} />
-                                  </span>
-                                </Link>
+                                </div>
                               ))}
                             </div>
                           </div>

@@ -11,11 +11,7 @@ type PricePlan = {
   secondaryFee?: string;
   lead: string;
   description: string;
-  relatedServices?: Array<{
-    slug: ServiceSlug;
-    fee: string;
-    lead: string;
-  }>;
+  approachItems?: string[];
 };
 
 const pricePlans: PricePlan[] = [
@@ -24,18 +20,11 @@ const pricePlans: PricePlan[] = [
     fee: "30万円 / 月",
     lead: "初期フェーズ目安 3カ月",
     description:
-      "AI × SaaS / AI × DX は、要件の学習と改善を回しながら土台を育てる前提のサービスです。まずは使える基盤を立ち上げ、その後に現場運用へ合わせて詰めていくため、初期フェーズは3カ月をひとつの目安にしています。小さく始める場合は、このカテゴリ内のAI導入支援やRAG構築から相談できます。",
-    relatedServices: [
-      {
-        slug: "ai-implementation",
-        fee: "2万円〜 / 月",
-        lead: "初回ヒアリングで支援範囲を決定",
-      },
-      {
-        slug: "rag-chatbot",
-        fee: "2万円〜 / 月",
-        lead: "資料整理と回答範囲の設計から開始",
-      },
+      "AI × SaaS / AI × DX は、要件の学習と改善を回しながら土台を育てる前提のサービスです。まずは使える基盤を立ち上げ、その後に現場運用へ合わせて詰めていくため、初期フェーズは3カ月をひとつの目安にしています。小さく始める場合は、月2万円〜のAI導入支援、RAG整理、業務システム化のどこから入るかを初回ヒアリングで切り分けます。",
+    approachItems: [
+      "月2万円〜のAI導入支援は、このカテゴリの入口として扱う",
+      "RAG構築・社内AIチャットボットは、資料整理と回答範囲から始める",
+      "効果が見えた業務だけ、AI機能付き業務システムへ広げる",
     ],
   },
   {
@@ -44,12 +33,10 @@ const pricePlans: PricePlan[] = [
     lead: "発信・対応業務の導入支援",
     description:
       "AI × Growth / AI × Support は、SEO記事作成、SNS運用、広報、問い合わせ対応などからテーマを絞り、AIで発信と対応を軽くする導入支援です。月2万円〜を目安に、プロンプト、テンプレート、レビュー手順、運用ルールを整えます。AIエージェント化や日々の実運用代行が必要な場合は、初回ヒアリングで範囲と体制を分けて設計します。",
-    relatedServices: [
-      {
-        slug: "ai-agent",
-        fee: "2万円〜 / 月",
-        lead: "業務範囲と権限設計から開始",
-      },
+    approachItems: [
+      "SEO記事作成・AIライティングは、Search Consoleを見ながら改善する",
+      "AIエージェントは、問い合わせ対応や営業下書きの運用アプローチとして扱う",
+      "AI検索対策・LLMOは、会社情報、FAQ、構造化データの整理から始める",
     ],
   },
   {
@@ -58,6 +45,11 @@ const pricePlans: PricePlan[] = [
     lead: "初回ローンチ目安 1カ月",
     description:
       "AI × Brand / AI × Site は、1カ月をひとつの目安に初回ローンチを狙うサービスです。条件が揃えばそれより早い公開も目指しますが、価値は公開後の改善速度にもあるため、契約は月単位で進めます。最初に出して終わりではなく、ブランド表現や導線の調整まで含めて柔軟に組み替えられる進め方を前提にしています。",
+    approachItems: [
+      "LP・コーポレートサイトをまず公開できるラインまで早く作る",
+      "サービスカテゴリと検索意図を整理して、重複しないページ構造にする",
+      "公開後にSearch Consoleと問い合わせ導線を見て改善する",
+    ],
   },
 ];
 
@@ -160,47 +152,19 @@ export function Price() {
                       <p className="text-xl leading-[2] whitespace-pre-line text-zinc-600">
                         {formatDescriptionWithSentenceBreaks(plan.description)}
                       </p>
-                      {plan.relatedServices?.length ? (
+                      {plan.approachItems?.length ? (
                         <div className="mt-8 border-t border-zinc-200 pt-6">
                           <p className="mb-4 text-sm font-bold tracking-widest text-cyan-500">
-                            このカテゴリで小さく始める場合
+                            このカテゴリで含められるアプローチ
                           </p>
-                          <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-                            {plan.relatedServices.map((related) => {
-                              const relatedService = getServiceBySlug(related.slug);
-
-                              if (!relatedService) {
-                                return null;
-                              }
-
-                              return (
-                                <ScrollToTopLink
-                                  key={related.slug}
-                                  to={relatedService.path}
-                                  className="group block border border-zinc-200 bg-white p-5 transition-colors hover:border-cyan-500/60"
-                                >
-                                  <p className="mb-2 text-xs font-bold tracking-widest text-cyan-500">
-                                    {relatedService.number}
-                                  </p>
-                                  <h3 className="text-xl font-bold leading-tight text-zinc-900">
-                                    {relatedService.titleLines[0]}
-                                    {relatedService.titleLines[1] ? (
-                                      <>
-                                        <br />
-                                        <span className="text-cyan-500">{relatedService.titleLines[1]}</span>
-                                      </>
-                                    ) : null}
-                                  </h3>
-                                  <p className="mt-4 text-lg font-bold text-zinc-900">{related.fee}</p>
-                                  <p className="mt-2 text-sm leading-relaxed text-zinc-500">{related.lead}</p>
-                                  <span className="mt-5 inline-flex items-center gap-2 text-sm font-medium text-cyan-500 transition-all group-hover:gap-3">
-                                    詳細を見る
-                                    <ArrowRight size={16} />
-                                  </span>
-                                </ScrollToTopLink>
-                              );
-                            })}
-                          </div>
+                          <ul className="space-y-3 text-zinc-600 leading-relaxed">
+                            {plan.approachItems.map((item) => (
+                              <li key={item} className="flex gap-3">
+                                <span className="text-cyan-500 leading-none">•</span>
+                                <span>{item}</span>
+                              </li>
+                            ))}
+                          </ul>
                         </div>
                       ) : null}
                       <div className="mt-8">

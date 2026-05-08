@@ -2,6 +2,10 @@
   RewriteEngine On
   RewriteBase /
 
+  RewriteRule ^services/ai-implementation/?$ /services/ai-saas/ [R=301,L]
+  RewriteRule ^services/rag-chatbot/?$ /services/ai-saas/ [R=301,L]
+  RewriteRule ^services/ai-agent/?$ /services/ai-marketing/ [R=301,L]
+
   RewriteCond %{REQUEST_FILENAME} -f
   RewriteRule ^ - [L]
   RewriteRule ^ index.php [L,QSA]

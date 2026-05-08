@@ -43,6 +43,13 @@ type ServiceEngagement = {
   notes: ServiceEngagementNote[];
 };
 
+type ServiceApproach = {
+  label: string;
+  title: string;
+  description: string;
+  items: string[];
+};
+
 type ServiceDetailBox =
   | {
       type: "columns";
@@ -64,6 +71,7 @@ export type ServiceContent = {
   overviewDescription: string;
   homeDescriptionLines: [string, string];
   homeBullets: [string, string, string];
+  approaches?: ServiceApproach[];
   cards: [ServiceCard, ServiceCard, ServiceCard];
   flow: ServiceFlow;
   engagement: ServiceEngagement;
@@ -208,6 +216,52 @@ export const services: ServiceContent[] = [
       "自社要件に合わせた業務システム開発",
       "基幹システム開発と既存SaaS活用の見極めを支援",
       "OEM・外部パッケージ化も視野に設計",
+    ],
+    approaches: [
+      {
+        label: "AI IMPLEMENTATION",
+        title: "月2万円〜のAI導入支援から始める",
+        description:
+          "いきなり業務システムを作るのではなく、ChatGPT、Claude、Geminiをどの業務に入れるべきかをヒアリングで整理します。月2万円〜の支援は、このカテゴリの入口として位置づけます。",
+        items: [
+          "業務棚卸しとAIに任せる範囲の決定",
+          "プロンプト、テンプレート、確認手順、社内ルールの整備",
+          "RAG、AIエージェント、業務システム開発へ広げる条件の整理",
+        ],
+      },
+      {
+        label: "RAG / KNOWLEDGE",
+        title: "社内ナレッジをRAG・社内AIチャットボットへつなぐ",
+        description:
+          "マニュアル、FAQ、規程、議事録、問い合わせ履歴などをAIで探せる状態にする前に、読ませる資料、答える質問、答えてはいけない範囲を決めます。",
+        items: [
+          "社内資料の棚卸しと権限・鮮度の確認",
+          "回答範囲、参照元表示、保留条件の設計",
+          "小さな検証から社内AIチャットボットや業務補助へ拡張",
+        ],
+      },
+      {
+        label: "SYSTEM BUILD",
+        title: "業務システム開発・AI機能組み込みへ進める",
+        description:
+          "導入支援やRAG整理で効果が見えた業務は、自社専用の管理画面、承認フロー、データ基盤、AI機能を持つ業務システムとして実装します。",
+        items: [
+          "既存SaaSで足りる範囲と独自開発すべき範囲の切り分け",
+          "権限、承認、ログ、データ連携を含む運用基盤の設計",
+          "使える最小構成から立ち上げて段階的に拡張",
+        ],
+      },
+      {
+        label: "AUTOMATION",
+        title: "AIエージェントや外部ツール連携を必要な範囲で使う",
+        description:
+          "AIエージェントは単体商品として切り出すのではなく、業務システムや社内ナレッジの中で、下書き、分類、確認、通知を担う部品として設計します。",
+        items: [
+          "AIが自律実行してよい作業と人間が止める条件の定義",
+          "外部ツール連携、通知、ログ確認の運用設計",
+          "過剰な自動化を避け、効果が見える作業から導入",
+        ],
+      },
     ],
     cards: [
       {
@@ -574,6 +628,52 @@ export const services: ServiceContent[] = [
       "SNS運用と分析の改善提案を継続学習",
       "問い合わせ対応や社内サポートの一次整理",
     ],
+    approaches: [
+      {
+        label: "SEO / WRITING",
+        title: "AIライティング・SEO記事作成を運用に落とす",
+        description:
+          "競合調査で確認した通り、AI導入支援だけではなく、AIライティング、SEO記事作成、AI検索対策の相談需要があります。Search Consoleを見ながら、書いて終わりではない運用へ整理します。",
+        items: [
+          "検索意図、既存順位、競合ページを踏まえたテーマ設計",
+          "AIで構成案と下書きを作り、人間が事実確認と表現を調整",
+          "公開後の表示回数、クリック、問い合わせ導線を見て改善",
+        ],
+      },
+      {
+        label: "AGENT / SUPPORT",
+        title: "問い合わせ対応・営業下書きをAIエージェント化する",
+        description:
+          "AIエージェント導入支援は独立した料金商品ではなく、発信・対応業務の中でAIに任せる範囲、レビュー、停止条件を決めるアプローチとして扱います。",
+        items: [
+          "問い合わせ一次整理、営業メール、FAQ回答の下書き化",
+          "社外送信や公開前に人間が確認する条件の設計",
+          "ログと失敗例を使ったプロンプト・権限・運用ルールの改善",
+        ],
+      },
+      {
+        label: "AI SEARCH",
+        title: "AI検索対策・LLMOの土台を整える",
+        description:
+          "AI検索対策は過剰に言い切らず、会社情報、サービス情報、FAQ、実績、料金の整理から始めます。検索エンジンにもAIにも理解されやすい情報構造を作ります。",
+        items: [
+          "サービスカテゴリごとの役割、料金、対象業務を明確化",
+          "FAQ、構造化データ、内部リンクで文脈を補強",
+          "曖昧な流行語より、実際に相談される業務語を優先",
+        ],
+      },
+      {
+        label: "LOOP",
+        title: "SNS・PR・問い合わせログを改善ループにする",
+        description:
+          "AIは単発の投稿作成だけでなく、反応の整理、次のテーマ案、問い合わせ内容の分類にも使えます。発信と顧客接点をつないで改善します。",
+        items: [
+          "プレスリリース、SNS、ブログ、事例の下書き作成",
+          "問い合わせや反応データから次の改善テーマを抽出",
+          "ブランド表現は人間が最終調整し、AIは継続作業を軽くする",
+        ],
+      },
+    ],
     cards: [
       {
         title: "AIエージェント導入支援",
@@ -680,6 +780,52 @@ export const services: ServiceContent[] = [
       "AI Web制作で企画設計→実装→公開へ再設計",
       "LP制作とコーポレートサイト制作をAIで高速化",
       "予算に応じて段階的にスケールアップ",
+    ],
+    approaches: [
+      {
+        label: "FAST LAUNCH",
+        title: "LP・コーポレートサイトをAIで早く公開する",
+        description:
+          "AI Web制作は、企画、構成、原稿、実装の待ち時間を圧縮し、まず公開できるラインまで持っていくアプローチです。",
+        items: [
+          "目的、ターゲット、必要ページ、問い合わせ導線を先に整理",
+          "AIで初期構成と実装の土台を作り、公開までの時間を短縮",
+          "公開後に実データを見ながら足りないページや表現を追加",
+        ],
+      },
+      {
+        label: "SERVICE SEO",
+        title: "サービスカテゴリごとの検索意図をページ設計に落とす",
+        description:
+          "今回の整理のように、カテゴリと下層ページが重複しないよう、検索意図、料金、相談範囲、導線を分けて設計します。",
+        items: [
+          "カテゴリページで主要アプローチを整理",
+          "独立ページ化する場合は十分に異なる検索意図と内容を用意",
+          "タイトル、description、内部リンク、構造化データを同時に調整",
+        ],
+      },
+      {
+        label: "HUMAN CRAFT",
+        title: "ブランド表現と信頼要素を人間が仕上げる",
+        description:
+          "AIで作っただけのサイトに見えないよう、コピー、余白、導線、実績、FAQ、問い合わせ前の不安解消を人間が詰めます。",
+        items: [
+          "AIの下書きを事実確認し、会社らしい言葉へ整える",
+          "料金、実績、進め方、よくある不安を見える場所に配置",
+          "モバイル表示、速度、フォーム導線まで公開前に確認",
+        ],
+      },
+      {
+        label: "IMPROVE",
+        title: "公開後にSearch Consoleと問い合わせ導線で改善する",
+        description:
+          "サイトは公開して終わりではなく、表示回数、クリック、問い合わせ、離脱の情報を見ながら、ページ構造と訴求を継続的に更新します。",
+        items: [
+          "Search Consoleで非指名キーワードと弱いページを確認",
+          "問い合わせにつながる見出し、FAQ、CTAを継続改善",
+          "必要になった時点で記事、事例、用途別ページを増やす",
+        ],
+      },
     ],
     cards: [
       {

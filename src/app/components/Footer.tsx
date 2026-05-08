@@ -89,24 +89,9 @@ export function Footer() {
                   AI × SaaS / AI × DX
                 </ScrollToTopLink>
               </li>
-              <li className="pl-4">
-                <ScrollToTopLink to="/services/ai-implementation" className={`text-sm transition-colors hover:text-cyan-500 ${isDarkFooter ? "text-white/60" : "text-zinc-500"}`}>
-                  AI導入支援 月2万円〜
-                </ScrollToTopLink>
-              </li>
-              <li className="pl-4">
-                <ScrollToTopLink to="/services/rag-chatbot" className={`text-sm transition-colors hover:text-cyan-500 ${isDarkFooter ? "text-white/60" : "text-zinc-500"}`}>
-                  RAG構築・社内AIチャットボット
-                </ScrollToTopLink>
-              </li>
               <li>
                 <ScrollToTopLink to="/services/ai-marketing" className={`transition-colors hover:text-cyan-500 ${isDarkFooter ? "text-white/75" : "text-zinc-600"}`}>
                   AI × Growth / AI × Support
-                </ScrollToTopLink>
-              </li>
-              <li className="pl-4">
-                <ScrollToTopLink to="/services/ai-agent" className={`text-sm transition-colors hover:text-cyan-500 ${isDarkFooter ? "text-white/60" : "text-zinc-500"}`}>
-                  AIエージェント導入支援
                 </ScrollToTopLink>
               </li>
               <li>

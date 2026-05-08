@@ -341,7 +341,7 @@ export const pageSeoByPath = {
     path: "/services",
     title: "Services | AI導入支援・AI開発サービス | GAMI",
     description:
-      "GAMIが提供するAI導入支援・AI開発サービス。AI × SaaS / DX、AI × Growth / Support、AI × Brand / Site の3カテゴリに、AI導入支援、AIエージェント導入支援、RAG構築を整理しています。",
+      "GAMIが提供するAI導入支援・AI開発サービス。AI × SaaS / DX、AI × Growth / Support、AI × Brand / Site の3カテゴリごとに、AI導入支援、RAG、AIエージェント、AIライティング、AI Web制作の進め方を整理しています。",
     keywords: "AI導入支援,生成AI導入支援,AIエージェント導入支援,RAG構築,社内AIチャットボット,AI開発,AIシステム開発,AIマーケティング,AI Web制作",
     image: "/og/services.png",
     imageAlt: "Services page open graph image",
@@ -592,20 +592,53 @@ export const pageSeoByPath = {
   },
   "/services/ai-saas": {
     path: "/services/ai-saas",
-    title: "AI × SaaS / AI × DX | AIシステム開発・業務システム開発 | GAMI",
+    title: "AI × SaaS / AI × DX | AI導入支援・RAG・業務システム開発 | GAMI",
     description:
-      "業務システム開発・基幹システム開発をAI基準で進めるサービス。自社要件に合わせたAIシステム開発、AI機能の組み込み、既存SaaSとの見極めにも対応します。",
-    keywords: "AIシステム開発,業務システム開発,基幹システム開発,SaaS開発,AI DX",
+      "月2万円〜のAI導入支援から、RAG構築、社内AIチャットボット、業務システム開発まで、AI × SaaS / DXで扱う導入アプローチを整理します。",
+    keywords: "AI導入支援,生成AI導入支援,RAG構築,社内AIチャットボット,AIシステム開発,業務システム開発,基幹システム開発,SaaS開発,AI DX",
     image: "/og/service-ai-saas.png",
     imageAlt: "AI SaaS and AI DX service open graph image",
     ogType: "website",
+    fallbackLabel: "AI × SaaS / DX APPROACH",
+    fallbackSections: [
+      {
+        title: "月2万円〜のAI導入支援から始める",
+        body:
+          "ChatGPT、Claude、Geminiをどの業務に入れるべきかをヒアリングし、月2万円〜のAI導入支援をこのカテゴリの入口として扱います。",
+        items: [
+          "業務棚卸しとAIに任せる範囲の決定",
+          "プロンプト、テンプレート、確認手順の整備",
+          "RAGや業務システム開発へ広げる条件の整理",
+        ],
+      },
+      {
+        title: "RAG・社内AIチャットボットへつなぐ",
+        body:
+          "社内マニュアル、FAQ、規程、議事録、問い合わせ履歴をAIで探せる状態にする前に、資料、質問範囲、権限、回答ルールを整理します。",
+        items: [
+          "AIに読ませる資料と除外する資料の整理",
+          "回答範囲、参照元表示、保留条件の設計",
+          "社内AIチャットボットや業務補助への段階的拡張",
+        ],
+      },
+      {
+        title: "業務システム開発・AI機能組み込みへ進める",
+        body:
+          "効果が見えた業務は、自社専用の管理画面、承認フロー、データ基盤、AI機能を持つ業務システムとして実装します。",
+        items: [
+          "既存SaaSで足りる範囲と独自開発すべき範囲の切り分け",
+          "権限、承認、ログ、データ連携を含む運用基盤の設計",
+          "使える最小構成から立ち上げて段階的に拡張",
+        ],
+      },
+    ],
     schemas: [
       organizationSchema,
       createBaseWebPageSchema({
         path: "/services/ai-saas",
         title: "AI × SaaS / AI × DX | GAMI",
         description:
-          "AIシステム開発で業務システムや基幹領域を立ち上げるサービス紹介ページです。",
+          "AI導入支援、RAG構築、社内AIチャットボット、業務システム開発をAI × SaaS / DXとして整理するサービス紹介ページです。",
       }),
       {
         "@context": "https://schema.org",
@@ -623,7 +656,7 @@ export const pageSeoByPath = {
         },
         url: toCanonicalUrl("/services/ai-saas"),
         description:
-          "自社要件に合わせた業務システム開発や基幹システム開発を、AI基準で速く立ち上げるサービスです。",
+          "月2万円〜のAI導入支援、RAG構築、社内AIチャットボット、業務システム開発を、AI × SaaS / DXの導入アプローチとして整理するサービスです。",
       },
       createBreadcrumbSchema([
         { name: "Home", path: "/" },
@@ -634,20 +667,53 @@ export const pageSeoByPath = {
   },
   "/services/ai-marketing": {
     path: "/services/ai-marketing",
-    title: "AI × Growth / AI × Support | AIマーケティング・AIサポート | GAMI",
+    title: "AI × Growth / AI × Support | AIマーケティング・AIエージェント導入支援 | GAMI",
     description:
-      "AIマーケティング、AIライティング、AIサポートを通じて、SEO記事作成、SNS運用、プレスリリース、問い合わせ対応の下書きと改善ループを整えるAI導入支援です。",
-    keywords: "AIマーケティング,AIライティング,AIサポート,SEO記事作成,SNS運用,問い合わせ対応 AI,AIエージェント導入支援",
+      "AIマーケティング、AIライティング、SEO記事作成、AIエージェント導入支援、問い合わせ対応、AI検索対策を、発信と対応を軽くする導入アプローチとして整理します。",
+    keywords: "AIマーケティング,AIライティング,SEO記事作成,AI SEO記事作成,AIエージェント導入支援,AIサポート,AI検索対策,LLMO,問い合わせ対応 AI",
     image: "/og/service-ai-growth.png",
     imageAlt: "AI Growth and AI Writing service open graph image",
     ogType: "website",
+    fallbackLabel: "AI × Growth / Support APPROACH",
+    fallbackSections: [
+      {
+        title: "AIライティング・SEO記事作成を運用に落とす",
+        body:
+          "AIライティング、SEO記事作成、AI検索対策は単発の原稿作成ではなく、Search Consoleを見ながら改善する運用として設計します。",
+        items: [
+          "検索意図、既存順位、競合ページを踏まえたテーマ設計",
+          "AIで構成案と下書きを作り、人間が事実確認と表現を調整",
+          "公開後の表示回数、クリック、問い合わせ導線を見て改善",
+        ],
+      },
+      {
+        title: "問い合わせ対応・営業下書きをAIエージェント化する",
+        body:
+          "AIエージェント導入支援は独立した料金商品ではなく、発信・対応業務の中でAIに任せる範囲、レビュー、停止条件を決めるアプローチとして扱います。",
+        items: [
+          "問い合わせ一次整理、営業メール、FAQ回答の下書き化",
+          "社外送信や公開前に人間が確認する条件の設計",
+          "ログと失敗例を使ったプロンプト・権限・運用ルールの改善",
+        ],
+      },
+      {
+        title: "AI検索対策・LLMOの土台を整える",
+        body:
+          "AI検索対策は過剰に言い切らず、会社情報、サービス情報、FAQ、実績、料金を整理し、検索エンジンにもAIにも理解されやすい構造にします。",
+        items: [
+          "サービスカテゴリごとの役割、料金、対象業務を明確化",
+          "FAQ、構造化データ、内部リンクで文脈を補強",
+          "曖昧な流行語より、実際に相談される業務語を優先",
+        ],
+      },
+    ],
     schemas: [
       organizationSchema,
       createBaseWebPageSchema({
         path: "/services/ai-marketing",
         title: "AI × Growth / AI × Support | GAMI",
         description:
-          "AIマーケティングとAIサポートで発信・対応・改善を回すサービス紹介ページです。",
+          "AIマーケティング、AIライティング、AIエージェント導入支援、AI検索対策で発信・対応・改善を回すサービス紹介ページです。",
       }),
       {
         "@context": "https://schema.org",
@@ -665,7 +731,7 @@ export const pageSeoByPath = {
         },
         url: toCanonicalUrl("/services/ai-marketing"),
         description:
-          "SEO記事作成、SNS運用、問い合わせ対応の下書きと改善を回すAI導入支援サービスです。",
+          "SEO記事作成、SNS運用、問い合わせ対応、AIエージェント導入支援、AI検索対策の下書きと改善を回すAI導入支援サービスです。",
       },
       createBreadcrumbSchema([
         { name: "Home", path: "/" },
@@ -678,18 +744,51 @@ export const pageSeoByPath = {
     path: "/services/ai-web",
     title: "AI × Brand / AI × Site | AI Web制作・LP制作・コーポレートサイト制作 | GAMI",
     description:
-      "AI Web制作でLP制作やコーポレートサイト制作を高速立ち上げ。企画設計から実装へ直行し、AIで70%まで進め、人間が品質とブランド表現を仕上げます。",
-    keywords: "AI Web制作,LP制作,コーポレートサイト制作,Webサイト制作,AIサイト開発",
+      "AI Web制作でLP制作やコーポレートサイト制作を高速立ち上げ。サービスカテゴリ設計、SEO導線、公開後改善まで、AI時代のWeb制作アプローチを整理します。",
+    keywords: "AI Web制作,LP制作,コーポレートサイト制作,Webサイト制作,AIサイト開発,サービスページ SEO,SEO導線改善",
     image: "/og/service-ai-brand.png",
     imageAlt: "AI Brand and AI Site service open graph image",
     ogType: "website",
+    fallbackLabel: "AI × Brand / Site APPROACH",
+    fallbackSections: [
+      {
+        title: "LP・コーポレートサイトをAIで早く公開する",
+        body:
+          "AI Web制作は、企画、構成、原稿、実装の待ち時間を圧縮し、まず公開できるラインまで持っていくアプローチです。",
+        items: [
+          "目的、ターゲット、必要ページ、問い合わせ導線を先に整理",
+          "AIで初期構成と実装の土台を作り、公開までの時間を短縮",
+          "公開後に実データを見ながら足りないページや表現を追加",
+        ],
+      },
+      {
+        title: "サービスカテゴリごとの検索意図をページ設計に落とす",
+        body:
+          "カテゴリと下層ページが重複しないよう、検索意図、料金、相談範囲、導線を分けて設計します。",
+        items: [
+          "カテゴリページで主要アプローチを整理",
+          "独立ページ化する場合は十分に異なる検索意図と内容を用意",
+          "title、description、内部リンク、構造化データを同時に調整",
+        ],
+      },
+      {
+        title: "公開後にSearch Consoleと問い合わせ導線で改善する",
+        body:
+          "サイトは公開して終わりではなく、表示回数、クリック、問い合わせ、離脱の情報を見ながら、ページ構造と訴求を継続的に更新します。",
+        items: [
+          "Search Consoleで非指名キーワードと弱いページを確認",
+          "問い合わせにつながる見出し、FAQ、CTAを継続改善",
+          "必要になった時点で記事、事例、用途別ページを増やす",
+        ],
+      },
+    ],
     schemas: [
       organizationSchema,
       createBaseWebPageSchema({
         path: "/services/ai-web",
         title: "AI × Brand / AI × Site | GAMI",
         description:
-          "AI Web制作でLPやコーポレートサイトを高速立ち上げするサービス紹介ページです。",
+          "AI Web制作でLPやコーポレートサイトを高速立ち上げし、サービスカテゴリ設計とSEO導線改善まで扱うサービス紹介ページです。",
       }),
       {
         "@context": "https://schema.org",
@@ -838,7 +937,15 @@ export const pageSeoByPath = {
   },
 };
 
-export const staticSeoEntries = Object.values(pageSeoByPath);
+const retiredSeoPaths = new Set([
+  "/services/ai-implementation",
+  "/services/ai-agent",
+  "/services/rag-chatbot",
+]);
+
+export const staticSeoEntries = Object.values(pageSeoByPath).filter(
+  (entry) => !retiredSeoPaths.has(entry.path),
+);
 
 export function getSeoEntry(path) {
   return pageSeoByPath[path];
