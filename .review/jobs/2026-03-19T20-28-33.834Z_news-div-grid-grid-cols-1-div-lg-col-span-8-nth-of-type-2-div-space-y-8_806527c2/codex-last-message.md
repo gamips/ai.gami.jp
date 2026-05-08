@@ -1,0 +1,3 @@
+トップページの News 3件目は、文全体ではなく「育つ見積り」だけがリンクになるように変更しました。ニュース配列を明示型付きで切り出し、3件目だけ `titlePrefix` / `linkLabel` / `titleSuffix` に分けて描画しています。[Home.tsx](/C:/Users/Akira%20Ishigami/google_antigravity_project/ai.gami.jp/src/app/pages/Home.tsx#L23) [Home.tsx](/C:/Users/Akira%20Ishigami/google_antigravity_project/ai.gami.jp/src/app/pages/Home.tsx#L219) [Home.tsx](/C:/Users/Akira%20Ishigami/google_antigravity_project/ai.gami.jp/src/app/pages/Home.tsx#L727)
+
+確認は `npm run build` を試しましたが、この環境では Vite/esbuild の起動が `spawn EPERM` で失敗し、ビルド完走はできませんでした。コード上は今回の変更範囲だけに留めています。

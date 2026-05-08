@@ -1,0 +1,166 @@
+- generic [ref=e3]:
+  - link "コンテンツへスキップ" [ref=e4] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e5]:
+    - generic [ref=e7]:
+      - link "GAMI" [ref=e8] [cursor=pointer]:
+        - /url: /
+      - navigation "Primary" [ref=e9]:
+        - link "Home" [ref=e11] [cursor=pointer]:
+          - /url: /
+        - link "Concept" [ref=e13] [cursor=pointer]:
+          - /url: /concept/
+        - link "Services" [ref=e15] [cursor=pointer]:
+          - /url: /services/
+        - link "Price" [ref=e17] [cursor=pointer]:
+          - /url: /price/
+        - link "News" [ref=e19] [cursor=pointer]:
+          - /url: /news/
+        - link "About" [ref=e21] [cursor=pointer]:
+          - /url: /about/
+        - link "Contact" [ref=e23] [cursor=pointer]:
+          - /url: /contact/
+  - main [ref=e24]:
+    - generic [ref=e25]:
+      - generic [ref=e29]:
+        - paragraph [ref=e30]: SOLUTIONS
+        - heading "現場に効く、 3つの実装領域" [level=1] [ref=e31]:
+          - text: 現場に効く、
+          - text: 3つの実装領域
+        - paragraph [ref=e32]:
+          - generic [ref=e33]: GAMIのAI導入支援は、AIを単体で入れるのではなく、
+          - text: 業務・ツール・顧客接点のあいだに実装するAI開発です。
+      - generic [ref=e36]:
+        - generic [ref=e39]:
+          - paragraph [ref=e41]: SERVICE 01
+          - generic [ref=e42]:
+            - heading "AI × SaaS AI × DX" [level=2] [ref=e43]:
+              - text: AI × SaaS
+              - text: AI × DX
+            - paragraph [ref=e44]:
+              - generic [ref=e45]: AIシステム開発・業務システム開発の導入支援
+              - text: AIシステム開発の力で、自社専用の業務システム開発や基幹システム開発を従来より速く低コストで立ち上げます。必要に応じてAI機能まで組み込み、独自の業務基盤として育てていけます。
+            - list [ref=e46]:
+              - listitem [ref=e47]:
+                - generic [ref=e48]: •
+                - generic [ref=e49]: 自社要件に合わせた業務システム開発
+              - listitem [ref=e50]:
+                - generic [ref=e51]: •
+                - generic [ref=e52]: 基幹システム開発と既存SaaS活用の見極めを支援
+              - listitem [ref=e53]:
+                - generic [ref=e54]: •
+                - generic [ref=e55]: OEM・外部パッケージ化も視野に設計
+            - link "More" [ref=e56] [cursor=pointer]:
+              - /url: /services/ai-saas/
+              - text: More
+              - img [ref=e57]
+        - generic [ref=e61]:
+          - paragraph [ref=e63]: SERVICE 02
+          - generic [ref=e64]:
+            - heading "AI × Growth AI × Support" [level=2] [ref=e65]:
+              - text: AI × Growth
+              - text: AI × Support
+            - paragraph [ref=e66]:
+              - generic [ref=e67]: 広報・マーケティングAI導入支援と業務効率化
+              - text: AI × Growth / AI × Support は、月2万円〜で始められるAI導入支援です。広報・マーケティング、問い合わせ対応、バックオフィス、社内ナレッジ活用など、どこまでやりたいのか、今の体制でどこまでできるのかをヒアリングし、導入テーマと進め方を一緒に整理します。
+            - list [ref=e68]:
+              - listitem [ref=e69]:
+                - generic [ref=e70]: •
+                - generic [ref=e71]: 広報・SEO・SNS・プレスリリースのAI活用設計
+              - listitem [ref=e72]:
+                - generic [ref=e73]: •
+                - generic [ref=e74]: 決算処理、経理、総務、人事などバックオフィス効率化
+              - listitem [ref=e75]:
+                - generic [ref=e76]: •
+                - generic [ref=e77]: 問い合わせ対応、議事録、社内FAQ、営業資料作成の自動化
+            - link "More" [ref=e78] [cursor=pointer]:
+              - /url: /services/ai-marketing/
+              - text: More
+              - img [ref=e79]
+        - generic [ref=e83]:
+          - paragraph [ref=e85]: SERVICE 03
+          - generic [ref=e86]:
+            - heading "AI × Brand AI × Site" [level=2] [ref=e87]:
+              - text: AI × Brand
+              - text: AI × Site
+            - paragraph [ref=e88]:
+              - generic [ref=e89]: AI Web制作・LP制作・コーポレートサイト制作
+              - text: AI Web制作の導入で、LP制作やコーポレートサイト制作は企画設計から実装へ直行できるようになりました。時間もコストも大きかった従来の工程を見直し、公開速度と改善速度を引き上げます。
+            - list [ref=e90]:
+              - listitem [ref=e91]:
+                - generic [ref=e92]: •
+                - generic [ref=e93]: AI Web制作で企画設計→実装→公開へ再設計
+              - listitem [ref=e94]:
+                - generic [ref=e95]: •
+                - generic [ref=e96]: LP制作とコーポレートサイト制作をAIで高速化
+              - listitem [ref=e97]:
+                - generic [ref=e98]: •
+                - generic [ref=e99]: 予算に応じて段階的にスケールアップ
+            - link "More" [ref=e100] [cursor=pointer]:
+              - /url: /services/ai-web/
+              - text: More
+              - img [ref=e101]
+      - generic [ref=e106]:
+        - heading "AIで見直せる工程を、 一緒に整理しませんか？" [level=2] [ref=e107]:
+          - text: AIで見直せる工程を、
+          - text: 一緒に整理しませんか？
+        - paragraph [ref=e108]:
+          - text: 企画、実装、運用、発信。
+          - text: 今の事業に合わせて、AIに任せる工程と人間が持つべき判断を整理します。
+        - link "お問い合わせ" [ref=e109] [cursor=pointer]:
+          - /url: /contact/
+          - text: お問い合わせ
+          - img [ref=e110]
+  - contentinfo [ref=e112]:
+    - generic [ref=e113]:
+      - generic [ref=e114]:
+        - generic [ref=e115]:
+          - heading "GAMI" [level=3] [ref=e116]
+          - paragraph [ref=e117]:
+            - text: AIを導入する会社ではなく、
+            - text: AIで前に進む会社へ。
+          - link "X" [ref=e119] [cursor=pointer]:
+            - /url: https://x.com/GAMI_Freelance
+            - img [ref=e120]
+        - generic [ref=e122]:
+          - heading "PAGES" [level=4] [ref=e123]
+          - navigation "Footer pages" [ref=e124]:
+            - list [ref=e125]:
+              - listitem [ref=e126]:
+                - link "コンセプト" [ref=e127] [cursor=pointer]:
+                  - /url: /concept/
+              - listitem [ref=e128]:
+                - link "サービス一覧" [ref=e129] [cursor=pointer]:
+                  - /url: /services/
+              - listitem [ref=e130]:
+                - link "料金" [ref=e131] [cursor=pointer]:
+                  - /url: /price/
+              - listitem [ref=e132]:
+                - link "お知らせ" [ref=e133] [cursor=pointer]:
+                  - /url: /news/
+              - listitem [ref=e134]:
+                - link "私たちについて" [ref=e135] [cursor=pointer]:
+                  - /url: /about/
+        - generic [ref=e136]:
+          - heading "SERVICE" [level=4] [ref=e137]
+          - navigation "Footer services" [ref=e138]:
+            - list [ref=e139]:
+              - listitem [ref=e140]:
+                - link "AI × SaaS / AI × DX" [ref=e141] [cursor=pointer]:
+                  - /url: /services/ai-saas/
+              - listitem [ref=e142]:
+                - link "AI × Growth / AI × Support" [ref=e143] [cursor=pointer]:
+                  - /url: /services/ai-marketing/
+              - listitem [ref=e144]:
+                - link "AI × Brand / AI × Site" [ref=e145] [cursor=pointer]:
+                  - /url: /services/ai-web/
+        - generic [ref=e146]:
+          - heading "CONTACT" [level=4] [ref=e147]
+          - navigation "Footer contact" [ref=e148]:
+            - list [ref=e149]:
+              - listitem [ref=e150]:
+                - link "お問い合わせ" [ref=e151] [cursor=pointer]:
+                  - /url: /contact/
+                  - img [ref=e152]
+                  - generic [ref=e155]: お問い合わせ
+      - paragraph [ref=e157]: © 2026 Gami, Inc. All rights reserved.

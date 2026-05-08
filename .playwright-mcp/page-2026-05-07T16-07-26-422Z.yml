@@ -1,0 +1,239 @@
+- generic [ref=e3]:
+  - link "コンテンツへスキップ" [ref=e4] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e5]:
+    - generic [ref=e7]:
+      - link "GAMI" [ref=e8] [cursor=pointer]:
+        - /url: /
+      - navigation "Primary" [ref=e9]:
+        - link "Home" [ref=e11] [cursor=pointer]:
+          - /url: /
+        - link "Concept" [ref=e13] [cursor=pointer]:
+          - /url: /concept/
+        - link "Services" [ref=e15] [cursor=pointer]:
+          - /url: /services/
+        - link "Price" [ref=e17] [cursor=pointer]:
+          - /url: /price/
+        - link "News" [ref=e19] [cursor=pointer]:
+          - /url: /news/
+        - link "About" [ref=e21] [cursor=pointer]:
+          - /url: /about/
+        - link "Contact" [ref=e23] [cursor=pointer]:
+          - /url: /contact/
+  - main [ref=e24]:
+    - generic [ref=e25]:
+      - generic [ref=e29]:
+        - generic [ref=e30]:
+          - generic [ref=e32]:
+            - generic [ref=e33]: A
+            - generic [ref=e34]: I
+            - generic [ref=e35]: 速
+            - generic [ref=e36]: 度
+            - generic [ref=e37]: 、
+          - generic [ref=e39]:
+            - generic [ref=e40]: 人
+            - generic [ref=e41]: 間
+            - generic [ref=e42]: 品
+            - generic [ref=e43]: 質
+            - generic [ref=e44]: 。
+        - generic [ref=e45]:
+          - heading "AI導入支援からAI開発、AI Web制作まで" [level=1] [ref=e46]
+          - paragraph [ref=e47]:
+            - text: ベースをAIで高速生成し、人間の技術で磨き上げる。
+            - text: 私たちは、新時代のAIデベロップメントエージェントです。
+      - generic [ref=e54]:
+        - generic [ref=e55]:
+          - paragraph [ref=e56]: CONCEPT
+          - heading "従来の開発工程は、もう古い。AIをベースに置き、人間の技術と知恵で磨く。" [level=2] [ref=e57]
+          - generic [ref=e58]: AI Base, Human Craft
+        - generic [ref=e60]:
+          - paragraph [ref=e61]:
+            - generic [ref=e62]: 従来の開発工程は、もう古い。
+            - generic [ref=e63]: AIをベースに置き、人間の技術と知恵で磨く。
+            - generic [ref=e64]:
+              - text: これが、
+              - generic [ref=e65]: AI時代の開発サイクル
+              - text: です。
+            - generic [ref=e67]: AIは100点のものを最初から作れない。
+            - generic [ref=e68]:
+              - text: でも、
+              - generic [ref=e69]: 70点のベースを一瞬で生成
+              - text: できる。
+            - generic [ref=e70]:
+              - text: そこに人間のプロフェッショナルが手を加え、
+              - generic [ref=e71]: 100点へ近づける
+              - text: 。
+            - generic [ref=e73]: 企画→実装→検証→改善のPDCAを、AI速度で高速に回し続ける。
+            - generic [ref=e74]: スピードこそが、AI開発の最大のメリットです。
+            - generic [ref=e76]:
+              - generic [ref=e77]: AIを乗りこなし、開発を加速する
+              - text: 。
+            - generic [ref=e78]: それが、Gamiの仕事です。
+          - link "More" [ref=e79] [cursor=pointer]:
+            - /url: /concept/
+            - text: More
+            - img [ref=e80]
+      - generic [ref=e88]:
+        - generic [ref=e89]:
+          - img [ref=e91]
+          - generic [ref=e94]: SERVICE 01
+        - heading "自社専用の管理システムをAIで高速開発。 必要に応じてAI機能まで組み込んだ独自基盤へ育てます。" [level=2] [ref=e95]
+        - generic [ref=e96]:
+          - generic [ref=e97]: AI × SaaS
+          - generic [ref=e98]: AI × DX
+        - paragraph [ref=e99]:
+          - text: 自社専用の管理システムをAIで高速開発。
+          - text: 必要に応じてAI機能まで組み込んだ独自基盤へ育てます。
+        - list [ref=e100]:
+          - listitem [ref=e101]:
+            - generic [ref=e102]: •
+            - generic [ref=e103]: 自社要件に合わせた業務システム開発
+          - listitem [ref=e104]:
+            - generic [ref=e105]: •
+            - generic [ref=e106]: 基幹システム開発と既存SaaS活用の見極めを支援
+          - listitem [ref=e107]:
+            - generic [ref=e108]: •
+            - generic [ref=e109]: OEM・外部パッケージ化も視野に設計
+        - link "More" [ref=e110] [cursor=pointer]:
+          - /url: /services/ai-saas/
+          - text: More
+          - img [ref=e111]
+      - generic [ref=e119]:
+        - generic [ref=e120]:
+          - img [ref=e122]
+          - generic [ref=e125]: SERVICE 02
+        - heading "広報・マーケティング業務へAIを導入。 決算処理から問い合わせ対応まで、業務効率化の設計と定着を支援します。" [level=2] [ref=e126]
+        - generic [ref=e127]:
+          - generic [ref=e128]: AI × Growth
+          - generic [ref=e129]: AI × Support
+        - paragraph [ref=e130]:
+          - text: 広報・マーケティング業務へAIを導入。
+          - text: 決算処理から問い合わせ対応まで、業務効率化の設計と定着を支援します。
+        - list [ref=e131]:
+          - listitem [ref=e132]:
+            - generic [ref=e133]: •
+            - generic [ref=e134]: 広報・SEO・SNS・プレスリリースのAI活用設計
+          - listitem [ref=e135]:
+            - generic [ref=e136]: •
+            - generic [ref=e137]: 決算処理、経理、総務、人事などバックオフィス効率化
+          - listitem [ref=e138]:
+            - generic [ref=e139]: •
+            - generic [ref=e140]: 問い合わせ対応、議事録、社内FAQ、営業資料作成の自動化
+        - link "More" [ref=e141] [cursor=pointer]:
+          - /url: /services/ai-marketing/
+          - text: More
+          - img [ref=e142]
+      - generic [ref=e150]:
+        - generic [ref=e151]:
+          - img [ref=e153]
+          - generic [ref=e156]: SERVICE 03
+        - heading "AI Web制作で企画設計から実装へ直行し、土台を高速構築。 LP制作やコーポレートサイト制作を、人間の品質で段階的に育てます。" [level=2] [ref=e157]
+        - generic [ref=e158]:
+          - generic [ref=e159]: AI × Brand
+          - generic [ref=e160]: AI × Site
+        - paragraph [ref=e161]:
+          - text: AI Web制作で企画設計から実装へ直行し、土台を高速構築。
+          - text: LP制作やコーポレートサイト制作を、人間の品質で段階的に育てます。
+        - list [ref=e162]:
+          - listitem [ref=e163]:
+            - generic [ref=e164]: •
+            - generic [ref=e165]: AI Web制作で企画設計→実装→公開へ再設計
+          - listitem [ref=e166]:
+            - generic [ref=e167]: •
+            - generic [ref=e168]: LP制作とコーポレートサイト制作をAIで高速化
+          - listitem [ref=e169]:
+            - generic [ref=e170]: •
+            - generic [ref=e171]: 予算に応じて段階的にスケールアップ
+        - link "More" [ref=e172] [cursor=pointer]:
+          - /url: /services/ai-web/
+          - text: More
+          - img [ref=e173]
+      - generic [ref=e177]:
+        - generic [ref=e178]:
+          - heading "News" [level=2] [ref=e180]
+          - link "More" [ref=e182] [cursor=pointer]:
+            - /url: /news/
+            - text: More
+            - img [ref=e183]
+        - generic [ref=e186]:
+          - generic [ref=e188]:
+            - generic [ref=e189]:
+              - generic [ref=e190]: 2026.03.24
+              - generic [ref=e191]: お知らせ
+            - heading "コーポレートサイトをリニューアルオープンしました。" [level=3] [ref=e192]
+          - generic [ref=e194]:
+            - generic [ref=e195]:
+              - generic [ref=e196]: 2026.03.17
+              - generic [ref=e197]: サービス
+            - link "ClickFix（制作業務改善向けWindowsアプリ）を公開しました。" [ref=e198] [cursor=pointer]:
+              - /url: https://clickfix.gami.jp/
+          - generic [ref=e200]:
+            - generic [ref=e201]:
+              - generic [ref=e202]: 2026.02.16
+              - generic [ref=e203]: 実績
+            - link "AI型業務見積「育つ見積り」を展開開始しました。" [ref=e204] [cursor=pointer]:
+              - /url: https://sodatsu-mitsumori.net/
+      - generic [ref=e210]:
+        - heading "開発スピードを、 AI速度に上げませんか。" [level=2] [ref=e211]:
+          - text: 開発スピードを、
+          - text: AI速度に上げませんか。
+        - paragraph [ref=e212]:
+          - text: AIベースの高速開発でPDCAサイクルを最速化。
+          - text: まずは現状の開発フローの課題整理からご一緒します。
+        - link "無料相談を申し込む" [ref=e214] [cursor=pointer]:
+          - /url: /contact/
+          - text: 無料相談を申し込む
+          - img [ref=e215]
+  - contentinfo [ref=e217]:
+    - generic [ref=e218]:
+      - generic [ref=e219]:
+        - generic [ref=e220]:
+          - heading "GAMI" [level=3] [ref=e221]
+          - paragraph [ref=e222]:
+            - text: AIを導入する会社ではなく、
+            - text: AIで前に進む会社へ。
+          - link "X" [ref=e224] [cursor=pointer]:
+            - /url: https://x.com/GAMI_Freelance
+            - img [ref=e225]
+        - generic [ref=e227]:
+          - heading "PAGES" [level=4] [ref=e228]
+          - navigation "Footer pages" [ref=e229]:
+            - list [ref=e230]:
+              - listitem [ref=e231]:
+                - link "コンセプト" [ref=e232] [cursor=pointer]:
+                  - /url: /concept/
+              - listitem [ref=e233]:
+                - link "サービス一覧" [ref=e234] [cursor=pointer]:
+                  - /url: /services/
+              - listitem [ref=e235]:
+                - link "料金" [ref=e236] [cursor=pointer]:
+                  - /url: /price/
+              - listitem [ref=e237]:
+                - link "お知らせ" [ref=e238] [cursor=pointer]:
+                  - /url: /news/
+              - listitem [ref=e239]:
+                - link "私たちについて" [ref=e240] [cursor=pointer]:
+                  - /url: /about/
+        - generic [ref=e241]:
+          - heading "SERVICE" [level=4] [ref=e242]
+          - navigation "Footer services" [ref=e243]:
+            - list [ref=e244]:
+              - listitem [ref=e245]:
+                - link "AI × SaaS / AI × DX" [ref=e246] [cursor=pointer]:
+                  - /url: /services/ai-saas/
+              - listitem [ref=e247]:
+                - link "AI × Growth / AI × Support" [ref=e248] [cursor=pointer]:
+                  - /url: /services/ai-marketing/
+              - listitem [ref=e249]:
+                - link "AI × Brand / AI × Site" [ref=e250] [cursor=pointer]:
+                  - /url: /services/ai-web/
+        - generic [ref=e251]:
+          - heading "CONTACT" [level=4] [ref=e252]
+          - navigation "Footer contact" [ref=e253]:
+            - list [ref=e254]:
+              - listitem [ref=e255]:
+                - link "お問い合わせ" [ref=e256] [cursor=pointer]:
+                  - /url: /contact/
+                  - img [ref=e257]
+                  - generic [ref=e260]: お問い合わせ
+      - paragraph [ref=e262]: © 2026 Gami, Inc. All rights reserved.

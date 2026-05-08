@@ -1,0 +1,295 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "GAMI" [ref=e5] [cursor=pointer]:
+        - /url: /
+      - navigation "Primary" [ref=e6]:
+        - link "Home" [ref=e7] [cursor=pointer]:
+          - /url: /
+        - link "Concept" [ref=e8] [cursor=pointer]:
+          - /url: /concept
+        - link "Services" [ref=e9] [cursor=pointer]:
+          - /url: /services
+        - link "Price" [ref=e10] [cursor=pointer]:
+          - /url: /price
+        - link "About" [ref=e11] [cursor=pointer]:
+          - /url: /about
+        - link "Contact" [ref=e12] [cursor=pointer]:
+          - /url: /contact
+  - generic [ref=e14]:
+    - link "コンテンツへスキップ" [ref=e15] [cursor=pointer]:
+      - /url: "#main-content"
+    - main [ref=e16]:
+      - generic [ref=e17]:
+        - generic [ref=e21]:
+          - heading "A A A A A A I I I I I I I I I 速 速 速 速 速 速 速 速 速 度 度 度 度 度 度 、 、 、 、 、 、 、 、 、 人 人 人 人 人 人 間 間 間 間 間 間 間 間 品 品 品 品 品 品 質 質 質 質 質 質 。 。 。 。 。 。 。" [level=1] [ref=e22]:
+            - generic [ref=e24]:
+              - generic [ref=e25]:
+                - generic [ref=e26]: A
+                - generic [ref=e27]: A
+                - generic [ref=e28]: A
+                - generic [ref=e29]: A
+                - generic [ref=e30]: A
+                - text: A
+              - generic [ref=e31]:
+                - generic [ref=e32]: I
+                - generic [ref=e33]: I
+                - generic [ref=e34]: I
+                - generic [ref=e35]: I
+                - generic [ref=e36]: I
+                - generic [ref=e37]: I
+                - generic [ref=e38]: I
+                - generic [ref=e39]: I
+                - text: I
+              - generic [ref=e40]:
+                - generic [ref=e41]: 速
+                - generic [ref=e42]: 速
+                - generic [ref=e43]: 速
+                - generic [ref=e44]: 速
+                - generic [ref=e45]: 速
+                - generic [ref=e46]: 速
+                - generic [ref=e47]: 速
+                - generic [ref=e48]: 速
+                - text: 速
+              - generic [ref=e49]:
+                - generic [ref=e50]: 度
+                - generic [ref=e51]: 度
+                - generic [ref=e52]: 度
+                - generic [ref=e53]: 度
+                - generic [ref=e54]: 度
+                - text: 度
+              - generic [ref=e55]:
+                - generic [ref=e56]: 、
+                - generic [ref=e57]: 、
+                - generic [ref=e58]: 、
+                - generic [ref=e59]: 、
+                - generic [ref=e60]: 、
+                - generic [ref=e61]: 、
+                - generic [ref=e62]: 、
+                - generic [ref=e63]: 、
+                - text: 、
+            - generic [ref=e65]:
+              - generic [ref=e66]:
+                - generic [ref=e67]: 人
+                - generic [ref=e68]: 人
+                - generic [ref=e69]: 人
+                - generic [ref=e70]: 人
+                - generic [ref=e71]: 人
+                - text: 人
+              - generic [ref=e72]:
+                - generic [ref=e73]: 間
+                - generic [ref=e74]: 間
+                - generic [ref=e75]: 間
+                - generic [ref=e76]: 間
+                - generic [ref=e77]: 間
+                - generic [ref=e78]: 間
+                - generic [ref=e79]: 間
+                - text: 間
+              - generic [ref=e80]:
+                - generic [ref=e81]: 品
+                - generic [ref=e82]: 品
+                - generic [ref=e83]: 品
+                - generic [ref=e84]: 品
+                - generic [ref=e85]: 品
+                - text: 品
+              - generic [ref=e86]:
+                - generic [ref=e87]: 質
+                - generic [ref=e88]: 質
+                - generic [ref=e89]: 質
+                - generic [ref=e90]: 質
+                - generic [ref=e91]: 質
+                - text: 質
+              - generic [ref=e92]:
+                - generic [ref=e93]: 。
+                - generic [ref=e94]: 。
+                - generic [ref=e95]: 。
+                - generic [ref=e96]: 。
+                - generic [ref=e97]: 。
+                - generic [ref=e98]: 。
+                - text: 。
+          - paragraph [ref=e99]:
+            - text: AI導入支援からAI開発、AI Web制作まで。
+            - text: ベースをAIで高速生成し、人間の技術で磨き上げる。
+            - text: 私たちは、新時代のAIデベロップメントエージェントです。
+        - generic [ref=e106]:
+          - generic [ref=e107]:
+            - paragraph [ref=e108]: CONCEPT
+            - heading "AI Base, Human Craft" [level=2] [ref=e109]:
+              - generic [ref=e110]: AI Base,
+              - generic [ref=e111]: Human Craft
+          - generic [ref=e113]:
+            - paragraph [ref=e114]:
+              - generic [ref=e115]: 従来の開発工程は、もう古い。
+              - generic [ref=e116]: AIをベースに置き、人間の技術と知恵で磨く。
+              - generic [ref=e117]:
+                - text: これが、
+                - generic [ref=e118]: AI時代の開発サイクル
+                - text: です。
+              - generic [ref=e120]: AIは100点のものを最初から作れない。
+              - generic [ref=e121]:
+                - text: でも、
+                - generic [ref=e122]: 70点のベースを一瞬で生成
+                - text: できる。
+              - generic [ref=e123]:
+                - text: そこに人間のプロフェッショナルが手を加え、
+                - generic [ref=e124]: 100点へ近づける
+                - text: 。
+              - generic [ref=e126]: 企画→実装→検証→改善のPDCAを、AI速度で高速に回し続ける。
+              - generic [ref=e127]: スピードこそが、AI開発の最大のメリットです。
+              - generic [ref=e129]:
+                - generic [ref=e130]: AIを乗りこなし、開発を加速する
+                - text: 。
+              - generic [ref=e131]: それが、Gamiの仕事です。
+            - link "More" [ref=e132] [cursor=pointer]:
+              - /url: /concept
+              - text: More
+              - img [ref=e133]
+        - generic [ref=e141]:
+          - generic [ref=e142]:
+            - img [ref=e144]
+            - generic [ref=e147]: SERVICE 01
+          - heading "AI × SaaS AI × DX" [level=2] [ref=e148]:
+            - generic [ref=e149]: AI × SaaS
+            - generic [ref=e150]: AI × DX
+          - paragraph [ref=e151]:
+            - text: 自社専用の管理システムをAIで高速開発。
+            - text: 必要に応じてAI機能まで組み込んだ独自基盤へ育てます。
+          - list [ref=e152]:
+            - listitem [ref=e153]:
+              - generic [ref=e154]: •
+              - generic [ref=e155]: 自社要件に合わせた業務システム開発
+            - listitem [ref=e156]:
+              - generic [ref=e157]: •
+              - generic [ref=e158]: 基幹システム開発と既存SaaS活用の見極めを支援
+            - listitem [ref=e159]:
+              - generic [ref=e160]: •
+              - generic [ref=e161]: OEM・外部パッケージ化も視野に設計
+          - link "More" [ref=e162] [cursor=pointer]:
+            - /url: /services/ai-saas
+            - text: More
+            - img [ref=e163]
+        - generic [ref=e171]:
+          - generic [ref=e172]:
+            - img [ref=e174]
+            - generic [ref=e177]: SERVICE 02
+          - heading "AI × Growth AI × Writing" [level=2] [ref=e178]:
+            - generic [ref=e179]: AI × Growth
+            - generic [ref=e180]: AI × Writing
+          - paragraph [ref=e181]:
+            - text: AIマーケティングとAIライティングで発信と分析を回す。
+            - text: SEO記事作成やSNS運用の下書きと改善を自動化します。
+          - list [ref=e182]:
+            - listitem [ref=e183]:
+              - generic [ref=e184]: •
+              - generic [ref=e185]: SEO記事作成やプレスリリースのドラフト生成
+            - listitem [ref=e186]:
+              - generic [ref=e187]: •
+              - generic [ref=e188]: SNS運用と分析の改善提案を継続学習
+            - listitem [ref=e189]:
+              - generic [ref=e190]: •
+              - generic [ref=e191]: AIマーケティングを人間が最終仕上げ
+          - link "More" [ref=e192] [cursor=pointer]:
+            - /url: /services/ai-marketing
+            - text: More
+            - img [ref=e193]
+        - generic [ref=e201]:
+          - generic [ref=e202]:
+            - img [ref=e204]
+            - generic [ref=e207]: SERVICE 03
+          - heading "AI × Brand AI × Site" [level=2] [ref=e208]:
+            - generic [ref=e209]: AI × Brand
+            - generic [ref=e210]: AI × Site
+          - paragraph [ref=e211]:
+            - text: AI Web制作で企画設計から実装へ直行し、土台を高速構築。
+            - text: LP制作やコーポレートサイト制作を、人間の品質で段階的に育てます。
+          - list [ref=e212]:
+            - listitem [ref=e213]:
+              - generic [ref=e214]: •
+              - generic [ref=e215]: AI Web制作で企画設計→実装→公開へ再設計
+            - listitem [ref=e216]:
+              - generic [ref=e217]: •
+              - generic [ref=e218]: LP制作とコーポレートサイト制作をAIで高速化
+            - listitem [ref=e219]:
+              - generic [ref=e220]: •
+              - generic [ref=e221]: 予算に応じて段階的にスケールアップ
+          - link "More" [ref=e222] [cursor=pointer]:
+            - /url: /services/ai-web
+            - text: More
+            - img [ref=e223]
+        - generic [ref=e227]:
+          - generic [ref=e228]:
+            - heading "News" [level=2] [ref=e230]
+            - generic [ref=e232]: More
+          - generic [ref=e234]:
+            - generic [ref=e236]:
+              - generic [ref=e237]:
+                - generic [ref=e238]: 2026.02.01
+                - generic [ref=e239]: お知らせ
+              - heading "コーポレートサイトをリニューアルオープンしました。" [level=3] [ref=e240]
+            - generic [ref=e242]:
+              - generic [ref=e243]:
+                - generic [ref=e244]: 2026.01.15
+                - generic [ref=e245]: サービス
+              - heading "ClickFix（制作業務改善向けWindowsアプリ）を公開。" [level=3] [ref=e246]:
+                - link "ClickFix" [ref=e247] [cursor=pointer]:
+                  - /url: https://clickfix.gami.jp/
+                - text: （制作業務改善向けWindowsアプリ）を公開。
+            - generic [ref=e249]:
+              - generic [ref=e250]:
+                - generic [ref=e251]: 2026.03.10
+                - generic [ref=e252]: 実績
+              - link "AI × SaaSとしてAI型業務見積「育つ見積」を展開開始。" [ref=e253] [cursor=pointer]:
+                - /url: https://sodatsu-mitsumori.net
+        - generic [ref=e259]:
+          - heading "開発スピードを、 AI速度に上げませんか。" [level=2] [ref=e260]:
+            - text: 開発スピードを、
+            - text: AI速度に上げませんか。
+          - paragraph [ref=e261]:
+            - text: AIベースの高速開発でPDCAサイクルを最速化。
+            - text: まずは現状の開発フローの課題整理からご一緒します。
+          - link "無料相談を申し込む" [ref=e263] [cursor=pointer]:
+            - /url: /contact
+            - text: 無料相談を申し込む
+            - img [ref=e264]
+  - contentinfo [ref=e266]:
+    - generic [ref=e267]:
+      - generic [ref=e268]:
+        - generic [ref=e269]:
+          - heading "GAMI" [level=3] [ref=e270]
+          - paragraph [ref=e271]:
+            - text: AIを導入する会社ではなく、
+            - text: AIで前に進む会社へ。
+        - generic [ref=e272]:
+          - heading "PAGES" [level=4] [ref=e273]
+          - list [ref=e274]:
+            - listitem [ref=e275]:
+              - link "コンセプト" [ref=e276] [cursor=pointer]:
+                - /url: /concept
+            - listitem [ref=e277]:
+              - link "サービス一覧" [ref=e278] [cursor=pointer]:
+                - /url: /services
+            - listitem [ref=e279]:
+              - link "料金" [ref=e280] [cursor=pointer]:
+                - /url: /price
+            - listitem [ref=e281]:
+              - link "私たちについて" [ref=e282] [cursor=pointer]:
+                - /url: /about
+        - generic [ref=e283]:
+          - heading "SERVICE" [level=4] [ref=e284]
+          - list [ref=e285]:
+            - listitem [ref=e286]:
+              - link "AI × SaaS / AI × DX" [ref=e287] [cursor=pointer]:
+                - /url: /services/ai-saas
+            - listitem [ref=e288]:
+              - link "AI × Growth / AI × Writing" [ref=e289] [cursor=pointer]:
+                - /url: /services/ai-marketing
+            - listitem [ref=e290]:
+              - link "AI × Brand / AI × Site" [ref=e291] [cursor=pointer]:
+                - /url: /services/ai-web
+        - generic [ref=e292]:
+          - heading "CONTACT" [level=4] [ref=e293]
+          - list [ref=e294]:
+            - listitem [ref=e295]:
+              - link "お問い合わせ" [ref=e296] [cursor=pointer]:
+                - /url: /contact
+      - paragraph [ref=e298]: © 2026 Gami, Inc. All rights reserved.

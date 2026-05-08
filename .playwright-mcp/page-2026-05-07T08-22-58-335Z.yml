@@ -1,0 +1,5 @@
+- generic [active]:
+  - heading "Sveltia CMS" [level=1] [ref=e4]
+  - alert [ref=e7]: ログイン中…
+  - status: ⁨Sveltia CMS⁩ へようこそ
+  - alertdialog "アクセストークンを使用してログイン"
