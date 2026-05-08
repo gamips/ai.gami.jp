@@ -372,6 +372,29 @@ export const pageSeoByPath = {
     image: "/og/services.png",
     imageAlt: "AI implementation support service open graph image",
     ogType: "website",
+    fallbackLabel: "AI × SaaS / DX MENU",
+    fallbackSections: [
+      {
+        title: "AI導入支援で最初に決めること",
+        body:
+          "AI導入支援は、ツールを選ぶページではなく、現場のどの業務に生成AIを入れるか、どこまでAIに任せるか、人間が何を確認するかを決める相談メニューです。",
+        items: [
+          "対象業務、作業頻度、利用者を初回ヒアリングで整理",
+          "ChatGPT、Claude、Geminiを業務で使うプロンプトとテンプレートを整備",
+          "AIエージェントやRAG構築へ進む前に、導入範囲と運用ルールを確認",
+        ],
+      },
+      {
+        title: "月2万円〜で始める範囲",
+        body:
+          "月2万円〜の範囲では、大きなシステム開発ではなく、生成AIの使い方、確認手順、禁止事項、改善サイクルを小さく整えます。効果が見えた業務だけ次の実装へ広げます。",
+        items: [
+          "小さな相談、プロンプト改善、業務活用の整理",
+          "確認者、入力データ、出力品質のチェック条件",
+          "定着後に広げる候補業務の優先順位づけ",
+        ],
+      },
+    ],
     schemas: [
       organizationSchema,
       createBaseWebPageSchema({
@@ -425,6 +448,29 @@ export const pageSeoByPath = {
     image: "/og/services.png",
     imageAlt: "AI agent implementation support open graph image",
     ogType: "website",
+    fallbackLabel: "AI × Growth / Support MENU",
+    fallbackSections: [
+      {
+        title: "AIエージェント導入支援で設計すること",
+        body:
+          "AIエージェント導入支援は、AIに何でも任せるページではなく、営業、広報、問い合わせ対応、社内事務の中でAIが進めてよい作業と人間が止める条件を分ける相談メニューです。",
+        items: [
+          "AIに任せる業務、任せない判断、確認者を定義",
+          "社外送信、公開、顧客返信の前に止める条件を設計",
+          "小さな反復業務から試し、効果が出た範囲だけ広げる",
+        ],
+      },
+      {
+        title: "導入前に必要な権限とレビュー",
+        body:
+          "AIエージェントは、プロンプトだけでは安定しません。参照できる情報、出力してよい内容、ログ確認、承認フローを先に決めることで、安全に回る業務自動化へ近づけます。",
+        items: [
+          "参照してよい社内情報と使ってはいけない情報の整理",
+          "レビュー体制、ログ確認、停止条件の明文化",
+          "RAG構築や業務システム連携へ広げる条件の整理",
+        ],
+      },
+    ],
     schemas: [
       organizationSchema,
       createBaseWebPageSchema({
@@ -478,6 +524,29 @@ export const pageSeoByPath = {
     image: "/og/services.png",
     imageAlt: "RAG and internal AI chatbot support open graph image",
     ogType: "website",
+    fallbackLabel: "AI × SaaS / DX MENU",
+    fallbackSections: [
+      {
+        title: "RAG構築で最初に整理すること",
+        body:
+          "RAG構築・社内AIチャットボットは、検索システムを作るだけのページではなく、AIに読ませる資料、答える質問、答えてはいけない質問を先に決める相談メニューです。",
+        items: [
+          "社内マニュアル、FAQ、規程、議事録、過去対応履歴を棚卸し",
+          "AIに参照させる資料と除外する資料を分ける",
+          "回答範囲、参照元表示、保留条件を決める",
+        ],
+      },
+      {
+        title: "社内AIチャットボットの回答品質を保つ条件",
+        body:
+          "RAGでは、正しい回答を返すことだけでなく、根拠を示すこと、分からない時に推測で答えないこと、質問ログから改善することまで設計します。",
+        items: [
+          "対象部署と質問カテゴリを絞った小さな検証",
+          "回答できない時の担当者確認とエスカレーション",
+          "質問ログを使った資料整理、検索対象、回答ルールの改善",
+        ],
+      },
+    ],
     schemas: [
       organizationSchema,
       createBaseWebPageSchema({
