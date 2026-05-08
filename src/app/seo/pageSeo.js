@@ -154,7 +154,7 @@ const priceCatalogSchema = {
     {
       "@type": "Offer",
       priceCurrency: "JPY",
-      price: "600000",
+      price: "300000",
       category: "Monthly",
       itemOffered: {
         "@type": "Service",
@@ -174,7 +174,7 @@ const priceCatalogSchema = {
     {
       "@type": "Offer",
       priceCurrency: "JPY",
-      price: "600000",
+      price: "300000",
       category: "Monthly",
       itemOffered: {
         "@type": "Service",
