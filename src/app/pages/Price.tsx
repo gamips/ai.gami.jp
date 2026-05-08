@@ -11,36 +11,32 @@ type PricePlan = {
   secondaryFee?: string;
   lead: string;
   description: string;
+  relatedServices?: Array<{
+    slug: ServiceSlug;
+    fee: string;
+    lead: string;
+  }>;
 };
 
 const pricePlans: PricePlan[] = [
-  {
-    slug: "ai-implementation",
-    fee: "2万円〜 / 月",
-    lead: "初回ヒアリングで支援範囲を決定",
-    description:
-      "AI導入支援は、まずヒアリングでどこまでやりたいのか、どこまでできるのかを整理するところから始めます。ChatGPT、Claude、Geminiなど既存の生成AIツールを前提に、業務で使えるプロンプト、テンプレート、確認手順、活用ルールを整えます。月2万円〜の範囲では、相談テーマを絞って小さく始め、効果が見えた領域だけAIエージェント導入支援やRAG構築へ広げます。",
-  },
-  {
-    slug: "ai-agent",
-    fee: "2万円〜 / 月",
-    lead: "業務範囲と権限設計から開始",
-    description:
-      "AIエージェント導入支援は、まず任せる業務、任せない判断、権限、レビュー体制、停止条件を整理するところから始めます。月2万円〜の範囲では、1つの業務に絞ってプロンプト、運用ルール、確認導線を設計します。外部ツール連携や自動実行まで含める場合は、実装範囲に応じて個別に見積もります。",
-  },
-  {
-    slug: "rag-chatbot",
-    fee: "2万円〜 / 月",
-    lead: "資料整理と回答範囲の設計から開始",
-    description:
-      "RAG構築・社内AIチャットボット導入支援は、AIに読ませる資料、答える質問、答えない質問、参照元表示、担当者確認の条件を整理するところから始めます。月2万円〜の範囲では、対象資料の棚卸しと導入設計を進めます。チャットボット実装や社内システム連携は、要件に応じて個別に設計します。",
-  },
   {
     slug: "ai-saas",
     fee: "30万円 / 月",
     lead: "初期フェーズ目安 3カ月",
     description:
-      "AI × SaaS / AI × DX は、要件の学習と改善を回しながら土台を育てる前提のサービスです。まずは使える基盤を立ち上げ、その後に現場運用へ合わせて詰めていくため、初期フェーズは3カ月をひとつの目安にしています。既存データベースへの接続や移行はAIだけでは難易度が上がる場合があるため、基本は新規構築を前提にしつつ、必要に応じて個別相談で整理します。",
+      "AI × SaaS / AI × DX は、要件の学習と改善を回しながら土台を育てる前提のサービスです。まずは使える基盤を立ち上げ、その後に現場運用へ合わせて詰めていくため、初期フェーズは3カ月をひとつの目安にしています。小さく始める場合は、このカテゴリ内のAI導入支援やRAG構築から相談できます。",
+    relatedServices: [
+      {
+        slug: "ai-implementation",
+        fee: "2万円〜 / 月",
+        lead: "初回ヒアリングで支援範囲を決定",
+      },
+      {
+        slug: "rag-chatbot",
+        fee: "2万円〜 / 月",
+        lead: "資料整理と回答範囲の設計から開始",
+      },
+    ],
   },
   {
     slug: "ai-marketing",
@@ -48,6 +44,13 @@ const pricePlans: PricePlan[] = [
     lead: "発信・対応業務の導入支援",
     description:
       "AI × Growth / AI × Support は、SEO記事作成、SNS運用、広報、問い合わせ対応などからテーマを絞り、AIで発信と対応を軽くする導入支援です。月2万円〜を目安に、プロンプト、テンプレート、レビュー手順、運用ルールを整えます。AIエージェント化や日々の実運用代行が必要な場合は、初回ヒアリングで範囲と体制を分けて設計します。",
+    relatedServices: [
+      {
+        slug: "ai-agent",
+        fee: "2万円〜 / 月",
+        lead: "業務範囲と権限設計から開始",
+      },
+    ],
   },
   {
     slug: "ai-web",
@@ -157,6 +160,49 @@ export function Price() {
                       <p className="text-xl leading-[2] whitespace-pre-line text-zinc-600">
                         {formatDescriptionWithSentenceBreaks(plan.description)}
                       </p>
+                      {plan.relatedServices?.length ? (
+                        <div className="mt-8 border-t border-zinc-200 pt-6">
+                          <p className="mb-4 text-sm font-bold tracking-widest text-cyan-500">
+                            このカテゴリで小さく始める場合
+                          </p>
+                          <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+                            {plan.relatedServices.map((related) => {
+                              const relatedService = getServiceBySlug(related.slug);
+
+                              if (!relatedService) {
+                                return null;
+                              }
+
+                              return (
+                                <ScrollToTopLink
+                                  key={related.slug}
+                                  to={relatedService.path}
+                                  className="group block border border-zinc-200 bg-white p-5 transition-colors hover:border-cyan-500/60"
+                                >
+                                  <p className="mb-2 text-xs font-bold tracking-widest text-cyan-500">
+                                    {relatedService.number}
+                                  </p>
+                                  <h3 className="text-xl font-bold leading-tight text-zinc-900">
+                                    {relatedService.titleLines[0]}
+                                    {relatedService.titleLines[1] ? (
+                                      <>
+                                        <br />
+                                        <span className="text-cyan-500">{relatedService.titleLines[1]}</span>
+                                      </>
+                                    ) : null}
+                                  </h3>
+                                  <p className="mt-4 text-lg font-bold text-zinc-900">{related.fee}</p>
+                                  <p className="mt-2 text-sm leading-relaxed text-zinc-500">{related.lead}</p>
+                                  <span className="mt-5 inline-flex items-center gap-2 text-sm font-medium text-cyan-500 transition-all group-hover:gap-3">
+                                    詳細を見る
+                                    <ArrowRight size={16} />
+                                  </span>
+                                </ScrollToTopLink>
+                              );
+                            })}
+                          </div>
+                        </div>
+                      ) : null}
                       <div className="mt-8">
                         <ScrollToTopLink
                           to={service.path}

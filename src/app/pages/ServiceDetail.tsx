@@ -7,8 +7,16 @@ import { InquiryCta } from "../components/InquiryCta";
 import { PageSeo } from "../components/PageSeo";
 import { ServiceFeatureDiagram } from "../components/ServiceFeatureDiagram";
 import { ScrollReveal } from "../components/ScrollReveal";
+import { ScrollToTopLink } from "../components/ScrollToTopLink";
 import { NotFound } from "./NotFound";
-import { getServiceBySlug, orderedServices, type ServiceContent } from "../content/services";
+import {
+  categoryServices,
+  getParentService,
+  getServiceBySlug,
+  getSubServicesByParentSlug,
+  type ServiceCategorySlug,
+  type ServiceContent,
+} from "../content/services";
 
 function renderFeatureParagraphs(text: string) {
   return text
@@ -261,7 +269,11 @@ export function ServiceDetail() {
     return <NotFound />;
   }
 
-  const otherServices = orderedServices.filter((entry) => entry.slug !== service.slug);
+  const parentService = getParentService(service);
+  const relatedSubServices = service.parentSlug
+    ? []
+    : getSubServicesByParentSlug(service.slug as ServiceCategorySlug);
+  const otherServices = categoryServices.filter((entry) => entry.slug !== (parentService?.slug ?? service.slug));
 
   return (
     <div className="pt-24">
@@ -432,7 +444,84 @@ export function ServiceDetail() {
         </div>
       </section>
 
-      <section className="py-24 bg-white">
+      {parentService || relatedSubServices.length > 0 ? (
+        <section className="py-24 bg-white">
+          <div className="container mx-auto px-6">
+            <div className="max-w-6xl mx-auto">
+              <ScrollReveal>
+                <div className="mb-12">
+                  <p className="text-cyan-500 font-medium tracking-widest mb-3">CATEGORY</p>
+                  <h2 className="text-4xl md:text-5xl font-bold text-zinc-900">
+                    {parentService ? "このページの親カテゴリ" : "このカテゴリの相談メニュー"}
+                  </h2>
+                </div>
+              </ScrollReveal>
+
+              <div className="border-t border-zinc-200">
+                {parentService ? (
+                  <ScrollReveal>
+                    <ScrollToTopLink
+                      to={parentService.path}
+                      className="group block border-b border-zinc-200 py-10"
+                    >
+                      <div className="grid grid-cols-1 gap-8 xl:grid-cols-[180px_260px_minmax(0,1fr)] xl:gap-10">
+                        <p className="text-sm font-bold tracking-widest text-cyan-500">{parentService.number}</p>
+                        <h3 className="text-2xl font-bold leading-tight text-zinc-900">
+                          {parentService.titleLines[0]}
+                          {parentService.titleLines[1] ? (
+                            <>
+                              <br />
+                              <span className="text-cyan-500">{parentService.titleLines[1]}</span>
+                            </>
+                          ) : null}
+                        </h3>
+                        <div>
+                          <p className="text-zinc-600 leading-relaxed mb-5">{parentService.overviewDescription}</p>
+                          <span className="inline-flex items-center gap-2 text-cyan-500 font-medium group-hover:gap-3 transition-all">
+                            親カテゴリを見る
+                            <ArrowRight size={18} />
+                          </span>
+                        </div>
+                      </div>
+                    </ScrollToTopLink>
+                  </ScrollReveal>
+                ) : null}
+
+                {relatedSubServices.map((entry, index) => (
+                  <ScrollReveal key={entry.slug} delay={index * 0.06}>
+                    <ScrollToTopLink
+                      to={entry.path}
+                      className="group block border-b border-zinc-200 py-10"
+                    >
+                      <div className="grid grid-cols-1 gap-8 xl:grid-cols-[180px_260px_minmax(0,1fr)] xl:gap-10">
+                        <p className="text-sm font-bold tracking-widest text-cyan-500">{entry.number}</p>
+                        <h3 className="text-2xl font-bold leading-tight text-zinc-900">
+                          {entry.titleLines[0]}
+                          {entry.titleLines[1] ? (
+                            <>
+                              <br />
+                              <span className="text-cyan-500">{entry.titleLines[1]}</span>
+                            </>
+                          ) : null}
+                        </h3>
+                        <div>
+                          <p className="text-zinc-600 leading-relaxed mb-5">{entry.overviewDescription}</p>
+                          <span className="inline-flex items-center gap-2 text-cyan-500 font-medium group-hover:gap-3 transition-all">
+                            詳細を見る
+                            <ArrowRight size={18} />
+                          </span>
+                        </div>
+                      </div>
+                    </ScrollToTopLink>
+                  </ScrollReveal>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+      ) : null}
+
+      <section className={`py-24 ${parentService || relatedSubServices.length > 0 ? "bg-zinc-50" : "bg-white"}`}>
         <div className="container mx-auto px-6">
           <div className="max-w-6xl mx-auto">
             <ScrollReveal>

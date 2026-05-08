@@ -6,6 +6,8 @@ export type ServiceSlug =
   | "ai-marketing"
   | "ai-web";
 
+export type ServiceCategorySlug = "ai-saas" | "ai-marketing" | "ai-web";
+
 type ServiceCard = {
   title: string;
   description: string;
@@ -55,6 +57,7 @@ type ServiceDetailBox =
 
 export type ServiceContent = {
   slug: ServiceSlug;
+  parentSlug?: ServiceCategorySlug;
   path: string;
   number: string;
   titleLines: [string, string?];
@@ -70,8 +73,9 @@ export type ServiceContent = {
 export const services: ServiceContent[] = [
   {
     slug: "ai-implementation",
+    parentSlug: "ai-saas",
     path: "/services/ai-implementation",
-    number: "SERVICE 00",
+    number: "AI × SaaS / DX MENU 01",
     titleLines: ["AI導入支援", "月2万円〜"],
     overviewDescription:
       "中小企業向けに、ChatGPTやClaude、Geminiなどの生成AIをどこまで業務に入れるべきかをヒアリングから整理します。いきなり大きな開発に進むのではなく、現場で使えるAI導入支援として、月2万円〜の小さな運用改善から始められます。",
@@ -192,7 +196,7 @@ export const services: ServiceContent[] = [
   {
     slug: "ai-saas",
     path: "/services/ai-saas",
-    number: "SERVICE 03",
+    number: "SERVICE 01",
     titleLines: ["AI × SaaS", "AI × DX"],
     overviewDescription:
       "AIシステム開発の力で、自社専用の業務システム開発や基幹システム開発を従来より速く低コストで立ち上げます。必要に応じてAI機能まで組み込み、独自の業務基盤として育てていけます。",
@@ -312,8 +316,9 @@ export const services: ServiceContent[] = [
   },
   {
     slug: "ai-agent",
+    parentSlug: "ai-marketing",
     path: "/services/ai-agent",
-    number: "SERVICE 01",
+    number: "AI × Growth / Support MENU 01",
     titleLines: ["AIエージェント", "導入支援"],
     overviewDescription:
       "AIエージェント導入支援では、営業、広報、問い合わせ対応、社内事務などの繰り返し業務に対して、AIがどこまで自律的に動けるかを設計します。1エージェント単価で売り切るのではなく、まず業務フローをヒアリングし、任せる範囲、確認ルール、権限、停止条件を決めます。",
@@ -433,8 +438,9 @@ export const services: ServiceContent[] = [
   },
   {
     slug: "rag-chatbot",
+    parentSlug: "ai-saas",
     path: "/services/rag-chatbot",
-    number: "SERVICE 02",
+    number: "AI × SaaS / DX MENU 02",
     titleLines: ["RAG構築", "社内AIチャットボット"],
     overviewDescription:
       "RAG構築・社内AIチャットボット導入支援では、社内マニュアル、FAQ、議事録、規程、ナレッジをAIで探せる状態にします。いきなり全社検索を作るのではなく、どの資料を対象にし、どの質問に答えられるべきかを整理してから、小さく検証します。",
@@ -555,7 +561,7 @@ export const services: ServiceContent[] = [
   {
     slug: "ai-marketing",
     path: "/services/ai-marketing",
-    number: "SERVICE 04",
+    number: "SERVICE 02",
     titleLines: ["AI × Growth", "AI × Support"],
     overviewDescription:
       "AIマーケティング、AIライティング、AIサポートを軸に、発信・分析・問い合わせ対応の下書きを整えます。ブログ、プレスリリース、SNS運用、SEO記事作成、顧客対応の一次整理までを、月2万円〜のAI導入支援として無理なく始めます。",
@@ -662,7 +668,7 @@ export const services: ServiceContent[] = [
   {
     slug: "ai-web",
     path: "/services/ai-web",
-    number: "SERVICE 05",
+    number: "SERVICE 03",
     titleLines: ["AI × Brand", "AI × Site"],
     overviewDescription:
       "AI Web制作の導入で、LP制作やコーポレートサイト制作は企画設計から実装へ直行できるようになりました。時間もコストも大きかった従来の工程を見直し、公開速度と改善速度を引き上げます。",
@@ -785,15 +791,45 @@ export function getServiceBySlug(slug?: string) {
   return services.find((service) => service.slug === slug);
 }
 
-const serviceDisplayOrder: ServiceSlug[] = [
-  "ai-implementation",
-  "ai-agent",
-  "rag-chatbot",
+const serviceDisplayOrder: ServiceCategorySlug[] = [
   "ai-saas",
   "ai-marketing",
   "ai-web",
 ];
 
-export const orderedServices = [...services].sort(
-  (a, b) => serviceDisplayOrder.indexOf(a.slug) - serviceDisplayOrder.indexOf(b.slug),
+export const categoryServices = services
+  .filter((service): service is ServiceContent & { slug: ServiceCategorySlug } => !service.parentSlug)
+  .sort((a, b) => serviceDisplayOrder.indexOf(a.slug) - serviceDisplayOrder.indexOf(b.slug));
+
+export const orderedServices = categoryServices;
+
+const subServiceDisplayOrder: ServiceSlug[] = [
+  "ai-implementation",
+  "rag-chatbot",
+  "ai-agent",
+];
+
+export const subServices = services
+  .filter((service) => service.parentSlug)
+  .sort((a, b) => subServiceDisplayOrder.indexOf(a.slug) - subServiceDisplayOrder.indexOf(b.slug));
+
+export function getSubServicesByParentSlug(parentSlug: ServiceCategorySlug) {
+  return subServices.filter((service) => service.parentSlug === parentSlug);
+}
+
+export function getParentService(service: ServiceContent) {
+  return service.parentSlug ? getServiceBySlug(service.parentSlug) : undefined;
+}
+
+const allServiceDisplayOrder: ServiceSlug[] = [
+  "ai-saas",
+  "ai-implementation",
+  "rag-chatbot",
+  "ai-marketing",
+  "ai-agent",
+  "ai-web",
+];
+
+export const allDisplayServices = [...services].sort(
+  (a, b) => allServiceDisplayOrder.indexOf(a.slug) - allServiceDisplayOrder.indexOf(b.slug),
 );

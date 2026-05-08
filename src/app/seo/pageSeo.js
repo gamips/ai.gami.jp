@@ -94,38 +94,11 @@ const serviceCatalogSchema = {
   "@type": "ItemList",
   name: "GAMI Services",
   itemListOrder: "https://schema.org/ItemListOrderAscending",
-  numberOfItems: 6,
+  numberOfItems: 3,
   itemListElement: [
     {
       "@type": "ListItem",
       position: 1,
-      url: toCanonicalUrl("/services/ai-implementation"),
-      item: {
-        "@type": "Service",
-        name: "AI導入支援 月2万円〜",
-      },
-    },
-    {
-      "@type": "ListItem",
-      position: 2,
-      url: toCanonicalUrl("/services/ai-agent"),
-      item: {
-        "@type": "Service",
-        name: "AIエージェント導入支援",
-      },
-    },
-    {
-      "@type": "ListItem",
-      position: 3,
-      url: toCanonicalUrl("/services/rag-chatbot"),
-      item: {
-        "@type": "Service",
-        name: "RAG構築・社内AIチャットボット",
-      },
-    },
-    {
-      "@type": "ListItem",
-      position: 4,
       url: toCanonicalUrl("/services/ai-saas"),
       item: {
         "@type": "Service",
@@ -134,7 +107,7 @@ const serviceCatalogSchema = {
     },
     {
       "@type": "ListItem",
-      position: 5,
+      position: 2,
       url: toCanonicalUrl("/services/ai-marketing"),
       item: {
         "@type": "Service",
@@ -143,7 +116,7 @@ const serviceCatalogSchema = {
     },
     {
       "@type": "ListItem",
-      position: 6,
+      position: 3,
       url: toCanonicalUrl("/services/ai-web"),
       item: {
         "@type": "Service",
@@ -162,41 +135,11 @@ const priceCatalogSchema = {
     {
       "@type": "Offer",
       priceCurrency: "JPY",
-      price: "20000",
-      category: "Monthly",
-      itemOffered: {
-        "@type": "Service",
-        name: "AI導入支援 月2万円〜",
-      },
-    },
-    {
-      "@type": "Offer",
-      priceCurrency: "JPY",
       price: "300000",
       category: "Monthly",
       itemOffered: {
         "@type": "Service",
         name: "AI × SaaS / AI × DX",
-      },
-    },
-    {
-      "@type": "Offer",
-      priceCurrency: "JPY",
-      price: "20000",
-      category: "Monthly",
-      itemOffered: {
-        "@type": "Service",
-        name: "AIエージェント導入支援",
-      },
-    },
-    {
-      "@type": "Offer",
-      priceCurrency: "JPY",
-      price: "20000",
-      category: "Monthly",
-      itemOffered: {
-        "@type": "Service",
-        name: "RAG構築・社内AIチャットボット",
       },
     },
     {
@@ -398,7 +341,7 @@ export const pageSeoByPath = {
     path: "/services",
     title: "Services | AI導入支援・AI開発サービス | GAMI",
     description:
-      "GAMIが提供するAI導入支援・AI開発サービス。月2万円〜の生成AI導入支援を入口に、AIエージェント導入支援、RAG構築、AIシステム開発、AIマーケティング、AIサポート、AI Web制作へ段階的に広げます。",
+      "GAMIが提供するAI導入支援・AI開発サービス。AI × SaaS / DX、AI × Growth / Support、AI × Brand / Site の3カテゴリに、AI導入支援、AIエージェント導入支援、RAG構築を整理しています。",
     keywords: "AI導入支援,生成AI導入支援,AIエージェント導入支援,RAG構築,社内AIチャットボット,AI開発,AIシステム開発,AIマーケティング,AI Web制作",
     image: "/og/services.png",
     imageAlt: "Services page open graph image",
@@ -409,7 +352,7 @@ export const pageSeoByPath = {
         path: "/services",
         title: "Services | GAMI",
         description:
-          "GAMIが提供するAI導入支援・AI開発サービスを一覧で紹介するページです。",
+          "GAMIが提供するAI導入支援・AI開発サービスを3カテゴリで紹介するページです。",
         type: "CollectionPage",
       }),
       serviceCatalogSchema,
@@ -442,6 +385,7 @@ export const pageSeoByPath = {
         "@type": "Service",
         name: "AI導入支援 月2万円〜",
         serviceType: "生成AI導入支援",
+        category: "AI × SaaS / AI × DX",
         provider: {
           "@type": "Organization",
           name: SITE_LEGAL_NAME,
@@ -466,6 +410,7 @@ export const pageSeoByPath = {
       createBreadcrumbSchema([
         { name: "Home", path: "/" },
         { name: "Services", path: "/services" },
+        { name: "AI × SaaS / AI × DX", path: "/services/ai-saas" },
         { name: "AI導入支援 月2万円〜", path: "/services/ai-implementation" },
       ]),
     ],
@@ -493,6 +438,7 @@ export const pageSeoByPath = {
         "@type": "Service",
         name: "AIエージェント導入支援",
         serviceType: "AI業務自動化支援",
+        category: "AI × Growth / AI × Support",
         provider: {
           "@type": "Organization",
           name: SITE_LEGAL_NAME,
@@ -517,6 +463,7 @@ export const pageSeoByPath = {
       createBreadcrumbSchema([
         { name: "Home", path: "/" },
         { name: "Services", path: "/services" },
+        { name: "AI × Growth / AI × Support", path: "/services/ai-marketing" },
         { name: "AIエージェント導入支援", path: "/services/ai-agent" },
       ]),
     ],
@@ -544,6 +491,7 @@ export const pageSeoByPath = {
         "@type": "Service",
         name: "RAG構築・社内AIチャットボット導入支援",
         serviceType: "RAG構築・社内ナレッジ検索",
+        category: "AI × SaaS / AI × DX",
         provider: {
           "@type": "Organization",
           name: SITE_LEGAL_NAME,
@@ -568,6 +516,7 @@ export const pageSeoByPath = {
       createBreadcrumbSchema([
         { name: "Home", path: "/" },
         { name: "Services", path: "/services" },
+        { name: "AI × SaaS / AI × DX", path: "/services/ai-saas" },
         { name: "RAG構築・社内AIチャットボット", path: "/services/rag-chatbot" },
       ]),
     ],

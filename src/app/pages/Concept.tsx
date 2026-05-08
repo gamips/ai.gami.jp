@@ -4,7 +4,7 @@ import { Link } from "react-router";
 import { InquiryCta } from "../components/InquiryCta";
 import { PageSeo } from "../components/PageSeo";
 import { ScrollReveal } from "../components/ScrollReveal";
-import { getServiceBySlug } from "../content/services";
+import { categoryServices } from "../content/services";
 
 const conceptIdeas = [
   {
@@ -813,14 +813,7 @@ function ImproveLoopIdeaGraphic() {
 }
 
 export function Concept() {
-  const services = [
-    getServiceBySlug("ai-implementation")!,
-    getServiceBySlug("ai-agent")!,
-    getServiceBySlug("rag-chatbot")!,
-    getServiceBySlug("ai-saas")!,
-    getServiceBySlug("ai-marketing")!,
-    getServiceBySlug("ai-web")!,
-  ];
+  const services = categoryServices;
 
   return (
     <div className="pt-24">
