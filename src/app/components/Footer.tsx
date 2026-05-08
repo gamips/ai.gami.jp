@@ -85,13 +85,18 @@ export function Footer() {
             <nav aria-label="Footer services">
             <ul className="space-y-3">
               <li>
+                <ScrollToTopLink to="/services/ai-implementation" className={`transition-colors hover:text-cyan-500 ${isDarkFooter ? "text-white/75" : "text-zinc-600"}`}>
+                  AI導入支援 月2万円〜
+                </ScrollToTopLink>
+              </li>
+              <li>
                 <ScrollToTopLink to="/services/ai-saas" className={`transition-colors hover:text-cyan-500 ${isDarkFooter ? "text-white/75" : "text-zinc-600"}`}>
                   AI × SaaS / AI × DX
                 </ScrollToTopLink>
               </li>
               <li>
                 <ScrollToTopLink to="/services/ai-marketing" className={`transition-colors hover:text-cyan-500 ${isDarkFooter ? "text-white/75" : "text-zinc-600"}`}>
-                  AI × Growth / AI × Writing
+                  AI × Growth / AI × Support
                 </ScrollToTopLink>
               </li>
               <li>

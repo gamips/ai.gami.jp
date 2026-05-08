@@ -94,11 +94,20 @@ const serviceCatalogSchema = {
   "@type": "ItemList",
   name: "GAMI Services",
   itemListOrder: "https://schema.org/ItemListOrderAscending",
-  numberOfItems: 3,
+  numberOfItems: 4,
   itemListElement: [
     {
       "@type": "ListItem",
       position: 1,
+      url: toCanonicalUrl("/services/ai-implementation"),
+      item: {
+        "@type": "Service",
+        name: "AI導入支援 月2万円〜",
+      },
+    },
+    {
+      "@type": "ListItem",
+      position: 2,
       url: toCanonicalUrl("/services/ai-saas"),
       item: {
         "@type": "Service",
@@ -107,16 +116,16 @@ const serviceCatalogSchema = {
     },
     {
       "@type": "ListItem",
-      position: 2,
+      position: 3,
       url: toCanonicalUrl("/services/ai-marketing"),
       item: {
         "@type": "Service",
-        name: "AI × Growth / AI × Writing",
+        name: "AI × Growth / AI × Support",
       },
     },
     {
       "@type": "ListItem",
-      position: 3,
+      position: 4,
       url: toCanonicalUrl("/services/ai-web"),
       item: {
         "@type": "Service",
@@ -135,6 +144,16 @@ const priceCatalogSchema = {
     {
       "@type": "Offer",
       priceCurrency: "JPY",
+      price: "20000",
+      category: "Monthly",
+      itemOffered: {
+        "@type": "Service",
+        name: "AI導入支援 月2万円〜",
+      },
+    },
+    {
+      "@type": "Offer",
+      priceCurrency: "JPY",
       price: "600000",
       category: "Monthly",
       itemOffered: {
@@ -145,21 +164,11 @@ const priceCatalogSchema = {
     {
       "@type": "Offer",
       priceCurrency: "JPY",
-      price: "100000",
-      category: "Initial setup",
+      price: "20000",
+      category: "Monthly",
       itemOffered: {
         "@type": "Service",
-        name: "AI × Growth / AI × Writing",
-      },
-    },
-    {
-      "@type": "Offer",
-      priceCurrency: "JPY",
-      price: "50000",
-      category: "Monthly agent rental",
-      itemOffered: {
-        "@type": "Service",
-        name: "AI × Growth / AI × Writing",
+        name: "AI × Growth / AI × Support",
       },
     },
     {
@@ -170,6 +179,40 @@ const priceCatalogSchema = {
       itemOffered: {
         "@type": "Service",
         name: "AI × Brand / AI × Site",
+      },
+    },
+  ],
+};
+
+const aiImplementationFaqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "AI導入支援は月2万円から相談できますか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text:
+          "相談テーマを絞ったヒアリング、プロンプト改善、テンプレート整備、使い方の整理、定例相談は月2万円〜を目安に始められます。実装や運用代行が必要な場合は範囲を分けて見積もります。",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "ChatGPTやClaudeをすでに使っている状態でも相談できますか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text:
+          "既存のChatGPT、Claude、Geminiなどの利用状況を前提に、業務で使えるプロンプト、テンプレート、確認手順、活用ルールを整えます。",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "AIエージェントやRAG構築まで依頼できますか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text:
+          "AI導入支援で効果が見えた業務は、AIエージェント導入支援、RAG構築、業務システム開発へ段階的に広げられます。",
       },
     },
   ],
@@ -203,7 +246,7 @@ export const pageSeoByPath = {
     path: "/",
     title: "GAMI | AI導入支援・AI開発会社 | AI速度、人間品質。",
     description:
-      "AI導入支援とAI開発を一体で進めるGAMI。AI × SaaS / DX、AI × Growth / Writing、AI × Brand / Site を通じて、業務システム開発、AIマーケティング、AI Web制作をAI基準で再設計します。",
+      "AI導入支援とAI開発を一体で進めるGAMI。月2万円〜の生成AI導入支援から、AI × SaaS / DX、AI × Growth / Support、AI × Brand / Site までをAI基準で再設計します。",
     keywords:
       "AI導入支援,AI開発会社,AI開発,AI実装,AIシステム開発,AIマーケティング,AI Web制作",
     image: "/og/home.png",
@@ -247,10 +290,10 @@ export const pageSeoByPath = {
   },
   "/services": {
     path: "/services",
-    title: "Services | AI導入支援・AI開発の3領域 | GAMI",
+    title: "Services | AI導入支援・AI開発サービス | GAMI",
     description:
-      "GAMIが提供するAI導入支援・AI開発の3領域。AI × SaaS / DX、AI × Growth / Writing、AI × Brand / Site を通じて、業務システム開発、AIマーケティング、AI Web制作をAI基準で再設計します。",
-    keywords: "AI導入支援,AI開発,AIシステム開発,AIマーケティング,AI Web制作,業務システム開発",
+      "GAMIが提供するAI導入支援・AI開発サービス。月2万円〜の生成AI導入支援を入口に、AIシステム開発、AIマーケティング、AIサポート、AI Web制作へ段階的に広げます。",
+    keywords: "AI導入支援,生成AI導入支援,AI開発,AIシステム開発,AIエージェント導入支援,AIマーケティング,AI Web制作",
     image: "/og/services.png",
     imageAlt: "Services page open graph image",
     ogType: "website",
@@ -267,6 +310,57 @@ export const pageSeoByPath = {
       createBreadcrumbSchema([
         { name: "Home", path: "/" },
         { name: "Services", path: "/services" },
+      ]),
+    ],
+  },
+  "/services/ai-implementation": {
+    path: "/services/ai-implementation",
+    title: "AI導入支援 月2万円〜 | 中小企業向け生成AI活用支援 | GAMI",
+    description:
+      "中小企業向けAI導入支援。ChatGPT、Claude、Geminiなどの生成AIを業務でどう使うかをヒアリングし、月2万円〜でプロンプト、テンプレート、運用ルールを整えます。",
+    keywords:
+      "AI導入支援,生成AI導入支援,中小企業 AI導入支援,AI導入支援 月額,AI導入支援 料金,ChatGPT 導入支援,AI活用支援",
+    image: "/og/services.png",
+    imageAlt: "AI implementation support service open graph image",
+    ogType: "website",
+    schemas: [
+      organizationSchema,
+      createBaseWebPageSchema({
+        path: "/services/ai-implementation",
+        title: "AI導入支援 月2万円〜 | GAMI",
+        description:
+          "中小企業向けに、生成AIを業務へどう導入するかをヒアリングから整理するAI導入支援サービスです。",
+      }),
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        name: "AI導入支援 月2万円〜",
+        serviceType: "生成AI導入支援",
+        provider: {
+          "@type": "Organization",
+          name: SITE_LEGAL_NAME,
+          url: SITE_URL,
+        },
+        areaServed: {
+          "@type": "Country",
+          name: "Japan",
+        },
+        offers: {
+          "@type": "Offer",
+          priceCurrency: "JPY",
+          price: "20000",
+          category: "Monthly",
+          availability: "https://schema.org/InStock",
+        },
+        url: toCanonicalUrl("/services/ai-implementation"),
+        description:
+          "ChatGPT、Claude、Geminiなどの生成AIを業務で使える形に整える、中小企業向けAI導入支援です。",
+      },
+      aiImplementationFaqSchema,
+      createBreadcrumbSchema([
+        { name: "Home", path: "/" },
+        { name: "Services", path: "/services" },
+        { name: "AI導入支援 月2万円〜", path: "/services/ai-implementation" },
       ]),
     ],
   },
@@ -314,10 +408,10 @@ export const pageSeoByPath = {
   },
   "/services/ai-marketing": {
     path: "/services/ai-marketing",
-    title: "AI × Growth / AI × Writing | AIマーケティング・AIライティング | GAMI",
+    title: "AI × Growth / AI × Support | AIマーケティング・AIサポート | GAMI",
     description:
-      "AIマーケティングとAIライティングを通じて、SEO記事作成、SNS運用、プレスリリースのドラフト生成と改善ループを回すサービス。初期学習と月額レンタルで運用を支えます。",
-    keywords: "AIマーケティング,AIライティング,SEO記事作成,SNS運用,AI秘書,AI Writing",
+      "AIマーケティング、AIライティング、AIサポートを通じて、SEO記事作成、SNS運用、プレスリリース、問い合わせ対応の下書きと改善ループを整えるAI導入支援です。",
+    keywords: "AIマーケティング,AIライティング,AIサポート,SEO記事作成,SNS運用,問い合わせ対応 AI,AIエージェント導入支援",
     image: "/og/service-ai-growth.png",
     imageAlt: "AI Growth and AI Writing service open graph image",
     ogType: "website",
@@ -325,15 +419,15 @@ export const pageSeoByPath = {
       organizationSchema,
       createBaseWebPageSchema({
         path: "/services/ai-marketing",
-        title: "AI × Growth / AI × Writing | GAMI",
+        title: "AI × Growth / AI × Support | GAMI",
         description:
-          "AIマーケティングとAIライティングで発信・分析・改善を回すサービス紹介ページです。",
+          "AIマーケティングとAIサポートで発信・対応・改善を回すサービス紹介ページです。",
       }),
       {
         "@context": "https://schema.org",
         "@type": "Service",
-        name: "AI × Growth / AI × Writing",
-        serviceType: "AIマーケティング支援",
+        name: "AI × Growth / AI × Support",
+        serviceType: "AIマーケティング・AIサポート導入支援",
         provider: {
           "@type": "Organization",
           name: SITE_LEGAL_NAME,
@@ -345,12 +439,12 @@ export const pageSeoByPath = {
         },
         url: toCanonicalUrl("/services/ai-marketing"),
         description:
-          "SEO記事作成やSNS運用を含む発信・分析・改善を回すAIマーケティング支援サービスです。",
+          "SEO記事作成、SNS運用、問い合わせ対応の下書きと改善を回すAI導入支援サービスです。",
       },
       createBreadcrumbSchema([
         { name: "Home", path: "/" },
         { name: "Services", path: "/services" },
-        { name: "AI × Growth / AI × Writing", path: "/services/ai-marketing" },
+        { name: "AI × Growth / AI × Support", path: "/services/ai-marketing" },
       ]),
     ],
   },
@@ -400,8 +494,8 @@ export const pageSeoByPath = {
     path: "/price",
     title: "Price | AI導入支援・AI開発の料金 | GAMI",
     description:
-      "GAMIのAI導入支援・AI開発の料金と契約モデルを紹介。月単位契約を基本に、AIシステム開発、AIマーケティング、AI Web制作の価格目安と進め方を整理しています。",
-    keywords: "AI導入支援 料金,AI開発 料金,AIシステム開発 費用,AI Web制作 料金,AIマーケティング 料金",
+      "GAMIのAI導入支援・AI開発の料金と契約モデル。月2万円〜の生成AI導入支援から、AIシステム開発、AIマーケティング、AI Web制作の価格目安まで整理しています。",
+    keywords: "AI導入支援 料金,AI導入支援 月額,生成AI導入支援 料金,AI開発 料金,AIシステム開発 費用,AI Web制作 料金,AIマーケティング 料金",
     image: "/og/price.png",
     imageAlt: "Price page open graph image",
     ogType: "website",

@@ -15,14 +15,14 @@ export function Services() {
             <div className="max-w-5xl">
               <p className="text-cyan-500 font-medium tracking-widest mb-6">SOLUTIONS</p>
               <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold mb-8 leading-tight text-zinc-900">
-                現場に効く、
+                導入から、
                 <br />
-                <span className="text-cyan-500">3つの実装領域</span>
+                <span className="text-cyan-500">実装まで。</span>
               </h1>
               <p className="text-2xl text-zinc-600 leading-relaxed max-w-4xl">
-                GAMIのAI導入支援は、AIを単体で入れるのではなく、
+                GAMIのAI導入支援は、まずヒアリングで範囲を決め、
                 <br />
-                業務・ツール・顧客接点のあいだに実装するAI開発です。
+                業務・ツール・顧客接点のあいだに実装するAI開発へつなげます。
               </p>
             </div>
           </ScrollReveal>

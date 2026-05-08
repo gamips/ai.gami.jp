@@ -209,6 +209,72 @@ function SaasDecisionDiagram() {
   );
 }
 
+function ImplementationHearingDiagram() {
+  return (
+    <Frame>
+      <rect x="34" y="54" width="76" height="44" rx="10" fill={DIAGRAM_BG} stroke="#111827" strokeWidth="1.2" />
+      <path d="M48 70 L96 70 M48 82 L86 82" stroke="#111827" strokeWidth="1.1" strokeLinecap="round" />
+      <text x="72" y="118" textAnchor="middle" fontSize="8" letterSpacing="1.6" fill="#111827">HEARING</text>
+
+      <path d="M112 76 C136 76 140 110 160 110" stroke="#111827" strokeWidth="1.1" className="service-feature-dash" />
+      <circle cx="160" cy="110" r="38" fill={DIAGRAM_BG} stroke="#111827" strokeWidth="1.4" />
+      <circle cx="160" cy="110" r="52" stroke="#06B6D4" strokeWidth="1" className="service-feature-dash" />
+      <text x="160" y="104" textAnchor="middle" fontSize="8" letterSpacing="2" fill="#111827">AI</text>
+      <text x="160" y="118" textAnchor="middle" fontSize="8" letterSpacing="1.5" fill="#111827">SCOPE</text>
+
+      <path d="M208 110 C230 110 238 82 260 82" stroke="#111827" strokeWidth="1.1" className="service-feature-dash" />
+      <rect x="232" y="62" width="58" height="40" rx="10" fill={DIAGRAM_BG} stroke="#111827" strokeWidth="1.2" />
+      <path d="M246 78 L276 78 M246 88 L268 88" stroke="#111827" strokeWidth="1.1" strokeLinecap="round" />
+      <text x="261" y="122" textAnchor="middle" fontSize="8" letterSpacing="1.8" fill="#111827">PLAN</text>
+    </Frame>
+  );
+}
+
+function ImplementationMonthlyDiagram() {
+  return (
+    <Frame>
+      <path d="M52 134 C86 78 132 58 160 110 C188 162 234 142 268 86" stroke="#111827" strokeWidth="1.2" className="service-feature-dash" />
+      {[
+        { x: 52, y: 134, label: "2万" },
+        { x: 116, y: 72, label: "USE" },
+        { x: 160, y: 110, label: "RULE" },
+        { x: 220, y: 148, label: "FIX" },
+        { x: 268, y: 86, label: "NEXT" },
+      ].map((node) => (
+        <g key={node.label}>
+          <circle cx={node.x} cy={node.y} r="13" fill={DIAGRAM_BG} stroke="#111827" strokeWidth="1.1" />
+          <text x={node.x} y={node.y + 3} textAnchor="middle" fontSize="6.8" letterSpacing="0.8" fill="#111827">
+            {node.label}
+          </text>
+        </g>
+      ))}
+      <circle cx="52" cy="134" r="24" stroke="#06B6D4" strokeWidth="1" className="service-feature-dash" />
+      <text x="160" y="42" textAnchor="middle" fontSize="8" letterSpacing="2.4" fill="#111827">SMALL START</text>
+    </Frame>
+  );
+}
+
+function ImplementationOperationDiagram() {
+  return (
+    <Frame>
+      <rect x="54" y="56" width="66" height="98" rx="12" fill={DIAGRAM_BG} stroke="#111827" strokeWidth="1.2" />
+      <path d="M70 80 L104 80 M70 100 L98 100 M70 120 L104 120" stroke="#111827" strokeWidth="1.1" strokeLinecap="round" />
+      <text x="87" y="174" textAnchor="middle" fontSize="8" letterSpacing="1.8" fill="#111827">WORK</text>
+
+      <path d="M120 106 L150 106" stroke="#111827" strokeWidth="1.2" className="service-feature-dash" />
+      <circle cx="176" cy="106" r="30" fill={DIAGRAM_BG} stroke="#111827" strokeWidth="1.3" />
+      <text x="176" y="102" textAnchor="middle" fontSize="8" letterSpacing="2" fill="#111827">AI</text>
+      <text x="176" y="116" textAnchor="middle" fontSize="7" letterSpacing="1.4" fill="#111827">DRAFT</text>
+      <circle cx="176" cy="106" r="43" stroke="#06B6D4" strokeWidth="1" className="service-feature-pulse" />
+
+      <path d="M206 106 L238 106" stroke="#111827" strokeWidth="1.2" className="service-feature-dash" />
+      <rect x="238" y="78" width="48" height="56" rx="10" fill={DIAGRAM_BG} stroke="#111827" strokeWidth="1.2" />
+      <path d="M250 102 L260 112 L276 92" stroke="#111827" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" />
+      <text x="262" y="154" textAnchor="middle" fontSize="8" letterSpacing="1.8" fill="#111827">CHECK</text>
+    </Frame>
+  );
+}
+
 function GrowthRoleDiagram() {
   return (
     <Frame>
@@ -432,6 +498,7 @@ function WebScaleDiagram() {
 
 function getDiagram(slug: ServiceSlug, index: number) {
   const diagramMap: Record<ServiceSlug, Array<() => ReactNode>> = {
+    "ai-implementation": [ImplementationHearingDiagram, ImplementationMonthlyDiagram, ImplementationOperationDiagram],
     "ai-saas": [SaasCustomBaseDiagram, SaasAiSystemDiagram, SaasDecisionDiagram],
     "ai-marketing": [GrowthRoleDiagram, GrowthChannelDiagram, GrowthHumanReviewDiagram],
     "ai-web": [WebFastFlowDiagram, WebHumanFinishDiagram, WebScaleDiagram],

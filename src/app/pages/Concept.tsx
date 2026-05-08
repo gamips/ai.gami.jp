@@ -814,6 +814,7 @@ function ImproveLoopIdeaGraphic() {
 
 export function Concept() {
   const services = [
+    getServiceBySlug("ai-implementation")!,
     getServiceBySlug("ai-saas")!,
     getServiceBySlug("ai-marketing")!,
     getServiceBySlug("ai-web")!,
@@ -966,7 +967,7 @@ export function Concept() {
                 WHERE IT <span className="text-cyan-500">WORKS</span>
               </h2>
               <p className="text-xl text-zinc-600 leading-relaxed mb-16 max-w-4xl">
-                {renderSentenceBreaks("この考え方は、現在の3つのAI導入支援サービスにもそのまま反映されています。")}
+                {renderSentenceBreaks("この考え方は、AI導入支援から3つの実装領域まで、そのまま反映されています。")}
               </p>
             </div>
           </ScrollReveal>
