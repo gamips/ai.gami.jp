@@ -71,7 +71,7 @@ const organizationSchema = {
   url: SITE_URL,
   image: toAbsoluteUrl("/og/home.png"),
   description:
-    "AI導入支援からAI開発、AIマーケティング、AI Web制作までをAI基準で再設計する開発パートナーです。",
+    "AI導入支援からAIエージェント導入支援、RAG構築、AI開発、AIマーケティング、AI Web制作までをAI基準で再設計する開発パートナーです。",
 };
 
 const websiteSchema = {
@@ -81,7 +81,7 @@ const websiteSchema = {
   url: SITE_URL,
   inLanguage: "ja-JP",
   description:
-    "AI導入支援、AI開発、AIマーケティング、AI Web制作を通じてSaaS、Growth、Brand SiteをAI基準で再設計するGAMIのコーポレートサイト。",
+    "AI導入支援、AIエージェント導入支援、RAG構築、AI開発、AIマーケティング、AI Web制作をAI基準で再設計するGAMIのコーポレートサイト。",
   publisher: {
     "@type": "Organization",
     name: SITE_LEGAL_NAME,
@@ -94,7 +94,7 @@ const serviceCatalogSchema = {
   "@type": "ItemList",
   name: "GAMI Services",
   itemListOrder: "https://schema.org/ItemListOrderAscending",
-  numberOfItems: 4,
+  numberOfItems: 6,
   itemListElement: [
     {
       "@type": "ListItem",
@@ -108,6 +108,24 @@ const serviceCatalogSchema = {
     {
       "@type": "ListItem",
       position: 2,
+      url: toCanonicalUrl("/services/ai-agent"),
+      item: {
+        "@type": "Service",
+        name: "AIエージェント導入支援",
+      },
+    },
+    {
+      "@type": "ListItem",
+      position: 3,
+      url: toCanonicalUrl("/services/rag-chatbot"),
+      item: {
+        "@type": "Service",
+        name: "RAG構築・社内AIチャットボット",
+      },
+    },
+    {
+      "@type": "ListItem",
+      position: 4,
       url: toCanonicalUrl("/services/ai-saas"),
       item: {
         "@type": "Service",
@@ -116,7 +134,7 @@ const serviceCatalogSchema = {
     },
     {
       "@type": "ListItem",
-      position: 3,
+      position: 5,
       url: toCanonicalUrl("/services/ai-marketing"),
       item: {
         "@type": "Service",
@@ -125,7 +143,7 @@ const serviceCatalogSchema = {
     },
     {
       "@type": "ListItem",
-      position: 4,
+      position: 6,
       url: toCanonicalUrl("/services/ai-web"),
       item: {
         "@type": "Service",
@@ -159,6 +177,26 @@ const priceCatalogSchema = {
       itemOffered: {
         "@type": "Service",
         name: "AI × SaaS / AI × DX",
+      },
+    },
+    {
+      "@type": "Offer",
+      priceCurrency: "JPY",
+      price: "20000",
+      category: "Monthly",
+      itemOffered: {
+        "@type": "Service",
+        name: "AIエージェント導入支援",
+      },
+    },
+    {
+      "@type": "Offer",
+      priceCurrency: "JPY",
+      price: "20000",
+      category: "Monthly",
+      itemOffered: {
+        "@type": "Service",
+        name: "RAG構築・社内AIチャットボット",
       },
     },
     {
@@ -218,6 +256,74 @@ const aiImplementationFaqSchema = {
   ],
 };
 
+const aiAgentFaqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "AIエージェント導入支援では何から始めますか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text:
+          "営業、広報、問い合わせ対応、社内事務などから、AIに任せる業務、任せない判断、権限、レビュー体制、停止条件を整理するところから始めます。",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "AIエージェント導入支援は月2万円から相談できますか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text:
+          "小さな業務設計、プロンプト、運用ルール、レビュー導線の整理は月2万円〜を目安に始められます。外部ツール連携や自動実行は個別見積もりです。",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "AIエージェントを社外返信や公開作業に使えますか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text:
+          "使えますが、社外送信や公開前に人間が確認する条件、AIが止まる条件、ログ確認の方法を先に設計します。",
+      },
+    },
+  ],
+};
+
+const ragChatbotFaqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "RAG構築では最初に何を整理しますか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text:
+          "社内マニュアル、FAQ、規程、議事録、対応履歴などから、AIに読ませる資料、読ませない資料、答える質問、答えない質問を整理します。",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "社内AIチャットボットは月2万円から相談できますか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text:
+          "RAG構築前の資料棚卸し、質問範囲の整理、回答ルール設計は月2万円〜を目安に始められます。実装や社内システム連携は個別見積もりです。",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "RAGで回答できない質問はどう扱いますか？",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text:
+          "推測で回答しないように、参照元表示、回答保留、担当者確認、エスカレーション条件を設計します。",
+      },
+    },
+  ],
+};
+
 const newsListSchema = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
@@ -246,9 +352,9 @@ export const pageSeoByPath = {
     path: "/",
     title: "GAMI | AI導入支援・AI開発会社 | AI速度、人間品質。",
     description:
-      "AI導入支援とAI開発を一体で進めるGAMI。月2万円〜の生成AI導入支援から、AI × SaaS / DX、AI × Growth / Support、AI × Brand / Site までをAI基準で再設計します。",
+      "AI導入支援とAI開発を一体で進めるGAMI。月2万円〜の生成AI導入支援から、AIエージェント導入支援、RAG構築、AI × SaaS / DX、AI × Growth / Support、AI × Brand / Site までをAI基準で再設計します。",
     keywords:
-      "AI導入支援,AI開発会社,AI開発,AI実装,AIシステム開発,AIマーケティング,AI Web制作",
+      "AI導入支援,AIエージェント導入支援,RAG構築,社内AIチャットボット,AI開発会社,AI開発,AIシステム開発,AIマーケティング,AI Web制作",
     image: "/og/home.png",
     imageAlt: "GAMI home open graph image",
     ogType: "website",
@@ -259,7 +365,7 @@ export const pageSeoByPath = {
         path: "/",
         title: "GAMI",
         description:
-          "AI導入支援からAI開発、AIマーケティング、AI Web制作までをAI基準で再設計する開発パートナーです。",
+          "AI導入支援からAIエージェント導入支援、RAG構築、AI開発、AIマーケティング、AI Web制作までをAI基準で再設計する開発パートナーです。",
       }),
       serviceCatalogSchema,
     ],
@@ -292,8 +398,8 @@ export const pageSeoByPath = {
     path: "/services",
     title: "Services | AI導入支援・AI開発サービス | GAMI",
     description:
-      "GAMIが提供するAI導入支援・AI開発サービス。月2万円〜の生成AI導入支援を入口に、AIシステム開発、AIマーケティング、AIサポート、AI Web制作へ段階的に広げます。",
-    keywords: "AI導入支援,生成AI導入支援,AI開発,AIシステム開発,AIエージェント導入支援,AIマーケティング,AI Web制作",
+      "GAMIが提供するAI導入支援・AI開発サービス。月2万円〜の生成AI導入支援を入口に、AIエージェント導入支援、RAG構築、AIシステム開発、AIマーケティング、AIサポート、AI Web制作へ段階的に広げます。",
+    keywords: "AI導入支援,生成AI導入支援,AIエージェント導入支援,RAG構築,社内AIチャットボット,AI開発,AIシステム開発,AIマーケティング,AI Web制作",
     image: "/og/services.png",
     imageAlt: "Services page open graph image",
     ogType: "website",
@@ -303,7 +409,7 @@ export const pageSeoByPath = {
         path: "/services",
         title: "Services | GAMI",
         description:
-          "GAMIが提供するAI導入支援・AI開発の3領域を一覧で紹介するページです。",
+          "GAMIが提供するAI導入支援・AI開発サービスを一覧で紹介するページです。",
         type: "CollectionPage",
       }),
       serviceCatalogSchema,
@@ -361,6 +467,108 @@ export const pageSeoByPath = {
         { name: "Home", path: "/" },
         { name: "Services", path: "/services" },
         { name: "AI導入支援 月2万円〜", path: "/services/ai-implementation" },
+      ]),
+    ],
+  },
+  "/services/ai-agent": {
+    path: "/services/ai-agent",
+    title: "AIエージェント導入支援 | 業務自動化・AI活用支援 | GAMI",
+    description:
+      "AIエージェント導入支援。営業、広報、問い合わせ対応、社内事務などで、AIに任せる業務範囲、権限、レビュー体制、停止条件を設計します。月2万円〜の小さな業務設計から相談できます。",
+    keywords:
+      "AIエージェント導入支援,AIエージェント 業務自動化,AI業務自動化,AI秘書,AI活用支援,生成AI導入支援",
+    image: "/og/services.png",
+    imageAlt: "AI agent implementation support open graph image",
+    ogType: "website",
+    schemas: [
+      organizationSchema,
+      createBaseWebPageSchema({
+        path: "/services/ai-agent",
+        title: "AIエージェント導入支援 | GAMI",
+        description:
+          "AIに任せる業務範囲、権限、レビュー体制、停止条件を整理するAIエージェント導入支援サービスです。",
+      }),
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        name: "AIエージェント導入支援",
+        serviceType: "AI業務自動化支援",
+        provider: {
+          "@type": "Organization",
+          name: SITE_LEGAL_NAME,
+          url: SITE_URL,
+        },
+        areaServed: {
+          "@type": "Country",
+          name: "Japan",
+        },
+        offers: {
+          "@type": "Offer",
+          priceCurrency: "JPY",
+          price: "20000",
+          category: "Monthly",
+          availability: "https://schema.org/InStock",
+        },
+        url: toCanonicalUrl("/services/ai-agent"),
+        description:
+          "営業、広報、問い合わせ対応、社内事務などの反復業務にAIエージェントを導入するための設計支援です。",
+      },
+      aiAgentFaqSchema,
+      createBreadcrumbSchema([
+        { name: "Home", path: "/" },
+        { name: "Services", path: "/services" },
+        { name: "AIエージェント導入支援", path: "/services/ai-agent" },
+      ]),
+    ],
+  },
+  "/services/rag-chatbot": {
+    path: "/services/rag-chatbot",
+    title: "RAG構築・社内AIチャットボット導入支援 | GAMI",
+    description:
+      "RAG構築・社内AIチャットボット導入支援。社内マニュアル、FAQ、規程、議事録、対応履歴をAIで探せる状態にするため、資料整理、回答範囲、参照元表示、エスカレーション条件を設計します。",
+    keywords:
+      "RAG構築,社内AIチャットボット,社内マニュアル AI検索,生成AI 社内ナレッジ,AIチャットボット 導入支援,AI導入支援",
+    image: "/og/services.png",
+    imageAlt: "RAG and internal AI chatbot support open graph image",
+    ogType: "website",
+    schemas: [
+      organizationSchema,
+      createBaseWebPageSchema({
+        path: "/services/rag-chatbot",
+        title: "RAG構築・社内AIチャットボット導入支援 | GAMI",
+        description:
+          "社内マニュアルやFAQをAIで探せる状態にするRAG構築・社内AIチャットボット導入支援サービスです。",
+      }),
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        name: "RAG構築・社内AIチャットボット導入支援",
+        serviceType: "RAG構築・社内ナレッジ検索",
+        provider: {
+          "@type": "Organization",
+          name: SITE_LEGAL_NAME,
+          url: SITE_URL,
+        },
+        areaServed: {
+          "@type": "Country",
+          name: "Japan",
+        },
+        offers: {
+          "@type": "Offer",
+          priceCurrency: "JPY",
+          price: "20000",
+          category: "Monthly",
+          availability: "https://schema.org/InStock",
+        },
+        url: toCanonicalUrl("/services/rag-chatbot"),
+        description:
+          "社内資料をAIで検索・回答できる状態にするためのRAG構築と社内AIチャットボット導入支援です。",
+      },
+      ragChatbotFaqSchema,
+      createBreadcrumbSchema([
+        { name: "Home", path: "/" },
+        { name: "Services", path: "/services" },
+        { name: "RAG構築・社内AIチャットボット", path: "/services/rag-chatbot" },
       ]),
     ],
   },

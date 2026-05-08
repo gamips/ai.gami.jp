@@ -3,7 +3,7 @@ import { ArrowRight } from "lucide-react";
 import { InquiryCta } from "../components/InquiryCta";
 import { PageSeo } from "../components/PageSeo";
 import { ScrollReveal } from "../components/ScrollReveal";
-import { services } from "../content/services";
+import { orderedServices } from "../content/services";
 
 export function Services() {
   return (
@@ -32,7 +32,7 @@ export function Services() {
       <section className="py-24 bg-zinc-50">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto border-t border-zinc-200">
-            {services.map((service, index) => {
+            {orderedServices.map((service, index) => {
               return (
                 <ScrollReveal key={service.slug} delay={index * 0.06}>
                   <section className="py-16 border-b border-zinc-200">

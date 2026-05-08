@@ -8,7 +8,7 @@ import { PageSeo } from "../components/PageSeo";
 import { ServiceFeatureDiagram } from "../components/ServiceFeatureDiagram";
 import { ScrollReveal } from "../components/ScrollReveal";
 import { NotFound } from "./NotFound";
-import { getServiceBySlug, services, type ServiceContent } from "../content/services";
+import { getServiceBySlug, orderedServices, type ServiceContent } from "../content/services";
 
 function renderFeatureParagraphs(text: string) {
   return text
@@ -261,7 +261,7 @@ export function ServiceDetail() {
     return <NotFound />;
   }
 
-  const otherServices = services.filter((entry) => entry.slug !== service.slug);
+  const otherServices = orderedServices.filter((entry) => entry.slug !== service.slug);
 
   return (
     <div className="pt-24">

@@ -90,6 +90,16 @@ export function Footer() {
                 </ScrollToTopLink>
               </li>
               <li>
+                <ScrollToTopLink to="/services/ai-agent" className={`transition-colors hover:text-cyan-500 ${isDarkFooter ? "text-white/75" : "text-zinc-600"}`}>
+                  AIエージェント導入支援
+                </ScrollToTopLink>
+              </li>
+              <li>
+                <ScrollToTopLink to="/services/rag-chatbot" className={`transition-colors hover:text-cyan-500 ${isDarkFooter ? "text-white/75" : "text-zinc-600"}`}>
+                  RAG構築・社内AIチャットボット
+                </ScrollToTopLink>
+              </li>
+              <li>
                 <ScrollToTopLink to="/services/ai-saas" className={`transition-colors hover:text-cyan-500 ${isDarkFooter ? "text-white/75" : "text-zinc-600"}`}>
                   AI × SaaS / AI × DX
                 </ScrollToTopLink>

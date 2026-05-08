@@ -815,6 +815,8 @@ function ImproveLoopIdeaGraphic() {
 export function Concept() {
   const services = [
     getServiceBySlug("ai-implementation")!,
+    getServiceBySlug("ai-agent")!,
+    getServiceBySlug("rag-chatbot")!,
     getServiceBySlug("ai-saas")!,
     getServiceBySlug("ai-marketing")!,
     getServiceBySlug("ai-web")!,

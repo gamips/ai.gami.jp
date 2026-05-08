@@ -20,6 +20,8 @@
         <h4 class="font-bold mb-6 text-lg">SERVICE</h4>
         <ul class="space-y-3">
           <li><a href="/services/ai-implementation" class="transition-colors hover:text-cyan-500 text-zinc-600">AI導入支援 月2万円〜</a></li>
+          <li><a href="/services/ai-agent" class="transition-colors hover:text-cyan-500 text-zinc-600">AIエージェント導入支援</a></li>
+          <li><a href="/services/rag-chatbot" class="transition-colors hover:text-cyan-500 text-zinc-600">RAG構築・社内AIチャットボット</a></li>
           <li><a href="/services/ai-saas" class="transition-colors hover:text-cyan-500 text-zinc-600">AI × SaaS / AI × DX</a></li>
           <li><a href="/services/ai-marketing" class="transition-colors hover:text-cyan-500 text-zinc-600">AI × Growth / AI × Support</a></li>
           <li><a href="/services/ai-web" class="transition-colors hover:text-cyan-500 text-zinc-600">AI × Brand / AI × Site</a></li>

@@ -436,7 +436,7 @@ export function Home() {
                   <div className={`w-12 h-12 rounded-xl flex items-center justify-center transition-colors duration-600 ${isDarkMode ? 'bg-cyan-400/20' : 'bg-cyan-500/10'}`}>
                     <Code size={24} className={`transition-colors duration-600 ${isDarkMode ? 'text-cyan-300' : 'text-cyan-500'}`} />
                   </div>
-                  <span className={`text-sm font-bold tracking-wider transition-colors duration-600 ${isDarkMode ? 'text-cyan-300' : 'text-cyan-500'}`}>SERVICE 01</span>
+                  <span className={`text-sm font-bold tracking-wider transition-colors duration-600 ${isDarkMode ? 'text-cyan-300' : 'text-cyan-500'}`}>{service01.number}</span>
                 </div>
                 
                 <h2 className={`font-bold mb-8 leading-tight transition-colors duration-600 ${isDarkMode ? 'text-white' : 'text-black'}`} style={{ fontSize: 'clamp(2.5rem, 8vw, 7rem)' }}>
@@ -495,7 +495,7 @@ export function Home() {
                   <div className={`w-12 h-12 rounded-xl flex items-center justify-center transition-colors duration-600 ${isDarkMode ? 'bg-cyan-400/20' : 'bg-cyan-500/10'}`}>
                     <TrendingUp size={24} className={`transition-colors duration-600 ${isDarkMode ? 'text-cyan-300' : 'text-cyan-500'}`} />
                   </div>
-                  <span className={`text-sm font-bold tracking-wider transition-colors duration-600 ${isDarkMode ? 'text-cyan-300' : 'text-cyan-500'}`}>SERVICE 02</span>
+                  <span className={`text-sm font-bold tracking-wider transition-colors duration-600 ${isDarkMode ? 'text-cyan-300' : 'text-cyan-500'}`}>{service02.number}</span>
                 </div>
                 
                 <h2 className={`font-bold mb-8 leading-tight transition-colors duration-600 ${isDarkMode ? 'text-white' : 'text-black'}`} style={{ fontSize: 'clamp(2.5rem, 8vw, 7rem)' }}>
@@ -554,7 +554,7 @@ export function Home() {
                   <div className={`w-12 h-12 rounded-xl flex items-center justify-center transition-colors duration-600 ${isDarkMode ? 'bg-cyan-400/20' : 'bg-cyan-500/10'}`}>
                     <Globe size={24} className={`transition-colors duration-600 ${isDarkMode ? 'text-cyan-300' : 'text-cyan-500'}`} />
                   </div>
-                  <span className={`text-sm font-bold tracking-wider transition-colors duration-600 ${isDarkMode ? 'text-cyan-300' : 'text-cyan-500'}`}>SERVICE 03</span>
+                  <span className={`text-sm font-bold tracking-wider transition-colors duration-600 ${isDarkMode ? 'text-cyan-300' : 'text-cyan-500'}`}>{service03.number}</span>
                 </div>
                 
                 <h2 className={`font-bold mb-8 leading-tight transition-colors duration-600 ${isDarkMode ? 'text-white' : 'text-black'}`} style={{ fontSize: 'clamp(2.5rem, 8vw, 7rem)' }}>

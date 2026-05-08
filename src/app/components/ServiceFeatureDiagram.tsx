@@ -499,6 +499,8 @@ function WebScaleDiagram() {
 function getDiagram(slug: ServiceSlug, index: number) {
   const diagramMap: Record<ServiceSlug, Array<() => ReactNode>> = {
     "ai-implementation": [ImplementationHearingDiagram, ImplementationMonthlyDiagram, ImplementationOperationDiagram],
+    "ai-agent": [GrowthRoleDiagram, ImplementationOperationDiagram, GrowthHumanReviewDiagram],
+    "rag-chatbot": [SaasCustomBaseDiagram, SaasDecisionDiagram, ImplementationOperationDiagram],
     "ai-saas": [SaasCustomBaseDiagram, SaasAiSystemDiagram, SaasDecisionDiagram],
     "ai-marketing": [GrowthRoleDiagram, GrowthChannelDiagram, GrowthHumanReviewDiagram],
     "ai-web": [WebFastFlowDiagram, WebHumanFinishDiagram, WebScaleDiagram],
