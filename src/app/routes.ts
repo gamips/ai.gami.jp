@@ -1,31 +1,27 @@
+import { createElement } from "react";
 import { createBrowserRouter } from "react-router";
 import { Root } from "./components/Root";
-import { Home } from "./pages/Home";
-import { Concept } from "./pages/Concept";
-import { About } from "./pages/About";
-import { Services } from "./pages/Services";
-import { ServiceDetail } from "./pages/ServiceDetail";
-import { News } from "./pages/News";
-import { Contact } from "./pages/Contact";
-import { Price } from "./pages/Price";
-import { NotFound } from "./pages/NotFound";
-import { ContactThanks } from "./pages/ContactThanks";
+
+function RouteHydrateFallback() {
+  return null;
+}
 
 export const router = createBrowserRouter([
   {
     path: "/",
     Component: Root,
+    hydrateFallbackElement: createElement(RouteHydrateFallback),
     children: [
-      { index: true, Component: Home },
-      { path: "concept", Component: Concept },
-      { path: "about", Component: About },
-      { path: "services", Component: Services },
-      { path: "services/:serviceSlug", Component: ServiceDetail },
-      { path: "price", Component: Price },
-      { path: "news", Component: News },
-      { path: "contact", Component: Contact },
-      { path: "contact/thanks", Component: ContactThanks },
-      { path: "*", Component: NotFound },
+      { index: true, lazy: async () => ({ Component: (await import("./pages/Home")).Home }) },
+      { path: "concept", lazy: async () => ({ Component: (await import("./pages/Concept")).Concept }) },
+      { path: "about", lazy: async () => ({ Component: (await import("./pages/About")).About }) },
+      { path: "services", lazy: async () => ({ Component: (await import("./pages/Services")).Services }) },
+      { path: "services/:serviceSlug", lazy: async () => ({ Component: (await import("./pages/ServiceDetail")).ServiceDetail }) },
+      { path: "price", lazy: async () => ({ Component: (await import("./pages/Price")).Price }) },
+      { path: "news", lazy: async () => ({ Component: (await import("./pages/News")).News }) },
+      { path: "contact", lazy: async () => ({ Component: (await import("./pages/Contact")).Contact }) },
+      { path: "contact/thanks", lazy: async () => ({ Component: (await import("./pages/ContactThanks")).ContactThanks }) },
+      { path: "*", lazy: async () => ({ Component: (await import("./pages/NotFound")).NotFound }) },
     ],
   },
 ]);

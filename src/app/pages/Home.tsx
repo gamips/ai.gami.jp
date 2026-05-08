@@ -3,7 +3,7 @@ import { ScrollReveal } from "../components/ScrollReveal";
 import { ShadowCloneText } from "../components/ShadowCloneText";
 import { ArrowRight, Code, TrendingUp, Globe } from "lucide-react";
 import { Link } from "react-router";
-import { GeometricParticles } from "../components/GeometricParticles";
+import { DeferredGeometricParticles } from "../components/DeferredGeometricParticles";
 import { useMemo, useState, useEffect, useRef } from "react";
 import { getServiceBySlug } from "../content/services";
 import { PageSeo } from "../components/PageSeo";
@@ -230,7 +230,7 @@ export function Home() {
       />
 
       {/* Particle Background */}
-      <GeometricParticles />
+      <DeferredGeometricParticles />
 
       {/* Hero Section - MV */}
       <header id="hero" className="relative min-h-screen flex items-end justify-start bg-transparent pt-24 md:pt-28 lg:pt-32">
@@ -722,4 +722,3 @@ export function Home() {
     </div>
   );
 }
-

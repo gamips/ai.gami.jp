@@ -1,8 +1,9 @@
-import { useEffect } from "react";
+import { lazy, Suspense, useEffect } from "react";
 import { Outlet, useLocation } from "react-router";
-import { Footer } from "./Footer";
-import { Header } from "./Header";
 import { WindowsInertialScroll } from "./WindowsInertialScroll";
+
+const Header = lazy(() => import("./Header").then((module) => ({ default: module.Header })));
+const Footer = lazy(() => import("./Footer").then((module) => ({ default: module.Footer })));
 
 export function Root() {
   const { pathname } = useLocation();
@@ -34,11 +35,19 @@ export function Root() {
       >
         コンテンツへスキップ
       </a>
-      {hasServerChrome ? null : <Header />}
+      {hasServerChrome ? null : (
+        <Suspense fallback={null}>
+          <Header />
+        </Suspense>
+      )}
       <main id="main-content">
         <Outlet />
       </main>
-      {hasServerChrome ? null : <Footer />}
+      {hasServerChrome ? null : (
+        <Suspense fallback={null}>
+          <Footer />
+        </Suspense>
+      )}
     </div>
   );
 }
