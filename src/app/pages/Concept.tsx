@@ -829,7 +829,7 @@ export function Concept() {
                 <span className="text-cyan-500">Human Craft.</span>
               </h1>
               <p className="text-2xl text-zinc-600 max-w-4xl leading-relaxed">
-                AIで70点の土台を高速に立ち上げ、
+                生成AI導入支援、AI開発、AI Web制作で70点の土台を高速に立ち上げ、
                 <br />
                 人間が品質、判断、表現を仕上げる。
                 <br />

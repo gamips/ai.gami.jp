@@ -103,12 +103,12 @@ export function Contact() {
             <div className="max-w-5xl">
               <p className="text-cyan-500 font-medium tracking-widest mb-6">CONTACT</p>
               <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold mb-8 leading-tight text-zinc-900">
-                無料相談
+                AI導入相談
                 <br />
                 <span className="text-cyan-500">受付中</span>
               </h1>
               <p className="text-2xl text-zinc-600 leading-relaxed max-w-4xl">
-                AI導入支援やAI開発、AI Web制作のどこにAIを入れるべきか、
+                生成AI導入支援、RAG構築、AIエージェント、AI Web制作のどこから始めるべきか、
                 <br />
                 現場の導線から整理しませんか。
               </p>
@@ -131,7 +131,7 @@ export function Contact() {
                 </div>
                 <div className="space-y-6 text-lg text-zinc-700 leading-relaxed">
                   <p>
-                    AI導入の初期相談、業務フロー整理、サイト改善、SaaS連携の相談など、
+                    AI導入の初期相談、業務フロー整理、RAG構築、サイト改善、SaaS連携の相談など、
                     検討段階でも問題ありません。まだ要件が固まっていない状態でもご相談いただけます。
                   </p>
                 </div>
@@ -231,8 +231,8 @@ export function Contact() {
                     className="w-full px-4 py-3 bg-zinc-50 border border-zinc-200 rounded-lg focus:outline-none focus:border-cyan-500 focus:ring-2 focus:ring-cyan-500/20 transition-colors text-zinc-900"
                   >
                     <option value="">選択してください</option>
-                    <option value="saas">AIシステム開発 / SaaS・DX</option>
-                    <option value="marketing">AIマーケティング / AIライティング</option>
+                    <option value="saas">AI導入支援 / RAG・AIシステム開発</option>
+                    <option value="marketing">AIエージェント / AIマーケティング・AIライティング</option>
                     <option value="web">AI Web制作 / LP・コーポレートサイト</option>
                     <option value="consulting">AI導入支援 / コンサルティング</option>
                     <option value="other">その他・相談したい</option>

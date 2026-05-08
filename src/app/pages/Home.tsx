@@ -343,9 +343,9 @@ export function Home() {
                   times: [0, 0.5, 1]
                 }}
               >
-                AI導入支援からAI開発、AI Web制作まで。
+                生成AI導入支援、RAG構築、AIエージェント導入支援、AI Web制作まで。
                 <br />
-                ベースをAIで高速生成し、人間の技術で磨き上げる。
+                AIで業務と顧客接点の土台を高速に整え、人間の技術で磨き上げる。
                 <br />
                 私たちは、新時代のAIデベロップメントエージェントです。
               </motion.p>
@@ -702,9 +702,9 @@ export function Home() {
                 AI速度に上げませんか。
               </h2>
               <p className="text-xl md:text-2xl mb-12 text-white/90 leading-relaxed">
-                AIベースの高速開発でPDCAサイクルを最速化。
+                AI導入支援、AI開発、AI Web制作を、現場の課題に合わせて設計します。
                 <br />
-                まずは現状の開発フローの課題整理からご一緒します。
+                まずは業務、発信、サイト導線のどこにAIを入れるべきかを整理します。
               </p>
               <div className="flex flex-wrap gap-4 justify-center">
                 <Link

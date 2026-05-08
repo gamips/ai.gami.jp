@@ -71,7 +71,7 @@ const organizationSchema = {
   url: SITE_URL,
   image: toAbsoluteUrl("/og/home.png"),
   description:
-    "AI導入支援からAIエージェント導入支援、RAG構築、AI開発、AIマーケティング、AI Web制作までをAI基準で再設計する開発パートナーです。",
+    "中小企業向けの生成AI導入支援、RAG構築、AIエージェント導入支援、AI開発、AIマーケティング、AI Web制作までをAI基準で再設計する開発パートナーです。",
 };
 
 const websiteSchema = {
@@ -81,7 +81,7 @@ const websiteSchema = {
   url: SITE_URL,
   inLanguage: "ja-JP",
   description:
-    "AI導入支援、AIエージェント導入支援、RAG構築、AI開発、AIマーケティング、AI Web制作をAI基準で再設計するGAMIのコーポレートサイト。",
+    "生成AI導入支援、AIエージェント導入支援、RAG構築、AI開発会社、AIマーケティング、AI Web制作の相談窓口となるGAMIのコーポレートサイト。",
   publisher: {
     "@type": "Organization",
     name: SITE_LEGAL_NAME,
@@ -139,7 +139,7 @@ const priceCatalogSchema = {
       category: "Monthly",
       itemOffered: {
         "@type": "Service",
-        name: "AI × SaaS / AI × DX",
+        name: "AI × SaaS / AI × DX（AI導入支援・RAG・業務システム開発）",
       },
     },
     {
@@ -149,7 +149,7 @@ const priceCatalogSchema = {
       category: "Monthly",
       itemOffered: {
         "@type": "Service",
-        name: "AI × Growth / AI × Support",
+        name: "AI × Growth / AI × Support（AIマーケティング・AIエージェント導入支援）",
       },
     },
     {
@@ -159,7 +159,7 @@ const priceCatalogSchema = {
       category: "Monthly",
       itemOffered: {
         "@type": "Service",
-        name: "AI × Brand / AI × Site",
+        name: "AI × Brand / AI × Site（AI Web制作・LP制作）",
       },
     },
   ],
@@ -293,9 +293,9 @@ const newsListSchema = {
 export const pageSeoByPath = {
   "/": {
     path: "/",
-    title: "GAMI | AI導入支援・AI開発会社 | AI速度、人間品質。",
+    title: "GAMI | AI導入支援・生成AI導入支援・AI開発会社",
     description:
-      "AI導入支援とAI開発を一体で進めるGAMI。月2万円〜の生成AI導入支援から、AIエージェント導入支援、RAG構築、AI × SaaS / DX、AI × Growth / Support、AI × Brand / Site までをAI基準で再設計します。",
+      "中小企業向けのAI導入支援・AI開発会社GAMI。月2万円〜の生成AI導入支援、RAG構築、AIエージェント導入支援、AIマーケティング、AI Web制作までをAI基準で再設計します。",
     keywords:
       "AI導入支援,AIエージェント導入支援,RAG構築,社内AIチャットボット,AI開発会社,AI開発,AIシステム開発,AIマーケティング,AI Web制作",
     image: "/og/home.png",
@@ -308,16 +308,16 @@ export const pageSeoByPath = {
         path: "/",
         title: "GAMI",
         description:
-          "AI導入支援からAIエージェント導入支援、RAG構築、AI開発、AIマーケティング、AI Web制作までをAI基準で再設計する開発パートナーです。",
+          "中小企業向けの生成AI導入支援、AIエージェント導入支援、RAG構築、AI開発、AIマーケティング、AI Web制作までをAI基準で再設計する開発パートナーです。",
       }),
       serviceCatalogSchema,
     ],
   },
   "/concept": {
     path: "/concept",
-    title: "Concept | AI導入支援とAI開発の考え方 | GAMI",
+    title: "Concept | 生成AI導入支援とAI開発の進め方 | GAMI",
     description:
-      "AI Base, Human Craft. を軸に、AI導入支援とAI開発をどうAI基準で進めるかを整理したGAMIの開発思想ページです。",
+      "AI Base, Human Craft. を軸に、生成AI導入支援、AI開発、AI Web制作をどうAI基準で進めるかを整理したGAMIの開発思想ページです。",
     keywords: "AI導入支援,AI開発,生成AI導入支援,AI開発思想,AI Base,Human Craft",
     image: "/og/concept.png",
     imageAlt: "Concept page open graph image",
@@ -328,7 +328,7 @@ export const pageSeoByPath = {
         path: "/concept",
         title: "Concept | GAMI",
         description:
-          "AI導入支援とAI開発をAI基準で進めるためのGAMIの開発思想。",
+          "生成AI導入支援とAI開発をAI基準で進めるためのGAMIの開発思想。",
       type: "WebPage",
       }),
       createBreadcrumbSchema([
@@ -339,9 +339,9 @@ export const pageSeoByPath = {
   },
   "/services": {
     path: "/services",
-    title: "Services | AI導入支援・AI開発サービス | GAMI",
+    title: "Services | 生成AI導入支援・AI開発サービス一覧 | GAMI",
     description:
-      "GAMIが提供するAI導入支援・AI開発サービス。AI × SaaS / DX、AI × Growth / Support、AI × Brand / Site の3カテゴリごとに、AI導入支援、RAG、AIエージェント、AIライティング、AI Web制作の進め方を整理しています。",
+      "GAMIが提供する生成AI導入支援・AI開発サービス一覧。AI × SaaS / DX、AI × Growth / Support、AI × Brand / Site の3カテゴリごとに、AI導入支援、RAG構築、AIエージェント、AIライティング、AI Web制作の進め方を整理しています。",
     keywords: "AI導入支援,生成AI導入支援,AIエージェント導入支援,RAG構築,社内AIチャットボット,AI開発,AIシステム開発,AIマーケティング,AI Web制作",
     image: "/og/services.png",
     imageAlt: "Services page open graph image",
@@ -352,7 +352,7 @@ export const pageSeoByPath = {
         path: "/services",
         title: "Services | GAMI",
         description:
-          "GAMIが提供するAI導入支援・AI開発サービスを3カテゴリで紹介するページです。",
+          "GAMIが提供する生成AI導入支援・AI開発サービスを3カテゴリで紹介するページです。",
         type: "CollectionPage",
       }),
       serviceCatalogSchema,
@@ -817,9 +817,9 @@ export const pageSeoByPath = {
   },
   "/price": {
     path: "/price",
-    title: "Price | AI導入支援・AI開発の料金 | GAMI",
+    title: "AI導入支援の料金 | 月2万円〜・AI開発費用 | GAMI",
     description:
-      "GAMIのAI導入支援・AI開発の料金と契約モデル。月2万円〜の生成AI導入支援から、AIシステム開発、AIマーケティング、AI Web制作の価格目安まで整理しています。",
+      "GAMIのAI導入支援料金とAI開発費用。月2万円〜の生成AI導入支援から、RAG構築、AIシステム開発、AIマーケティング、AI Web制作の価格目安まで整理しています。",
     keywords: "AI導入支援 料金,AI導入支援 月額,生成AI導入支援 料金,AI開発 料金,AIシステム開発 費用,AI Web制作 料金,AIマーケティング 料金",
     image: "/og/price.png",
     imageAlt: "Price page open graph image",
@@ -829,7 +829,7 @@ export const pageSeoByPath = {
       createBaseWebPageSchema({
         path: "/price",
         title: "Price | GAMI",
-        description: "GAMIのAI導入支援・AI開発の料金目安と月単位契約の考え方を整理したページです。",
+        description: "GAMIのAI導入支援料金、生成AI導入支援の月額目安、AI開発費用と月単位契約の考え方を整理したページです。",
         type: "CollectionPage",
       }),
       priceCatalogSchema,
@@ -841,9 +841,9 @@ export const pageSeoByPath = {
   },
   "/news": {
     path: "/news",
-    title: "News | AI導入支援・AI開発のお知らせ | GAMI",
+    title: "News | 生成AI導入支援・AI開発のお知らせ | GAMI",
     description:
-      "GAMIのAI導入支援・AI開発に関する最新情報、お知らせ、サービスアップデートを掲載しています。",
+      "GAMIの生成AI導入支援、AI開発、AIマーケティング、AI Web制作に関する最新情報、お知らせ、サービスアップデートを掲載しています。",
     keywords: "AI導入支援,AI開発,お知らせ,サービス更新,GAMI",
     image: "/og/news.png",
     imageAlt: "News page open graph image",
@@ -853,7 +853,7 @@ export const pageSeoByPath = {
       createBaseWebPageSchema({
         path: "/news",
         title: "News | GAMI",
-        description: "GAMIのAI導入支援・AI開発に関する最新情報とサービス更新を掲載するニュース一覧ページです。",
+        description: "GAMIの生成AI導入支援・AI開発に関する最新情報とサービス更新を掲載するニュース一覧ページです。",
         type: "CollectionPage",
       }),
       newsListSchema,
@@ -865,10 +865,10 @@ export const pageSeoByPath = {
   },
   "/about": {
     path: "/about",
-    title: "About | AI導入支援・AI開発会社 GAMIについて",
+    title: "About | AI導入支援会社・AI開発会社 GAMIについて",
     description:
-      "AI導入支援とAI開発を通じて、AIで前に進む会社を増やす。GAMIの考え方、価値観、会社情報を紹介します。",
-    keywords: "AI導入支援 会社,AI開発会社,AI実装パートナー,GAMI,会社情報",
+      "生成AI導入支援とAI開発を通じて、AIで前に進む会社を増やす。AI導入支援会社GAMIの考え方、価値観、会社情報を紹介します。",
+    keywords: "AI導入支援 会社,生成AI導入支援 会社,AI開発会社,AI実装パートナー,GAMI,会社情報",
     image: "/og/about.png",
     imageAlt: "About page open graph image",
     ogType: "website",
@@ -877,7 +877,7 @@ export const pageSeoByPath = {
       createBaseWebPageSchema({
         path: "/about",
         title: "About | GAMI",
-        description: "GAMIのAI導入支援・AI開発に対する考え方、価値観、会社情報を紹介するページです。",
+        description: "AI導入支援会社・AI開発会社GAMIの考え方、価値観、会社情報を紹介するページです。",
         type: "AboutPage",
       }),
       createBreadcrumbSchema([
@@ -888,10 +888,10 @@ export const pageSeoByPath = {
   },
   "/contact": {
     path: "/contact",
-    title: "Contact | AI導入支援・AI開発のご相談 | GAMI",
+    title: "Contact | AI導入相談・AI開発相談 | GAMI",
     description:
-      "AI導入支援、AI開発、業務改善、AI Web制作のご相談はこちら。どこにAIを入れるべきか、現場の導線から整理します。",
-    keywords: "AI導入相談,AI開発相談,AI導入支援,業務改善相談,AI Web制作 相談",
+      "生成AI導入支援、RAG構築、AIエージェント導入支援、AI開発、AI Web制作のご相談はこちら。どこにAIを入れるべきか、現場の導線から整理します。",
+    keywords: "AI導入相談,生成AI導入相談,AI開発相談,RAG構築 相談,AIエージェント 導入相談,AI Web制作 相談",
     image: "/og/contact.png",
     imageAlt: "Contact page open graph image",
     ogType: "website",
@@ -900,7 +900,7 @@ export const pageSeoByPath = {
       createBaseWebPageSchema({
         path: "/contact",
         title: "Contact | GAMI",
-        description: "GAMIへのAI導入支援・AI開発相談のお問い合わせページです。",
+        description: "GAMIへのAI導入相談、生成AI導入支援、AI開発相談のお問い合わせページです。",
         type: "ContactPage",
       }),
       createBreadcrumbSchema([

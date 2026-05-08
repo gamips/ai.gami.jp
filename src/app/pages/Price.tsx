@@ -106,14 +106,14 @@ export function Price() {
             <div className="max-w-6xl">
               <p className="mb-6 font-medium tracking-widest text-cyan-500">PRICE</p>
               <h1 className="mb-8 text-6xl font-bold leading-tight text-zinc-900 md:text-8xl lg:text-9xl">
-                小さく始めて、
+                AI導入支援の
                 <br />
-                <span className="text-cyan-500">月ごとに前へ。</span>
+                <span className="text-cyan-500">料金</span>
               </h1>
               <p className="max-w-5xl text-2xl leading-relaxed text-zinc-600">
-                GAMI のAI導入支援とAI開発は、固定スコープを先に固めるより、
+                月2万円〜の生成AI導入支援から、30万円 / 月のAI開発・AI Web制作まで。
                 <br />
-                まず立ち上げて、学習し、改善しながら精度を上げていく前提です。
+                固定スコープを先に固めるより、まず立ち上げて改善しながら精度を上げます。
                 <br />
                 そのため料金は、柔軟に戦略を組み替えやすい月単位契約を基本にしています。
               </p>

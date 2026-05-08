@@ -34,12 +34,12 @@ export function News() {
             <div className="max-w-5xl">
               <p className="text-cyan-500 font-medium tracking-widest mb-6">NEWS</p>
               <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold mb-8 leading-tight text-zinc-900">
-                最新の
+                AI導入支援の
                 <br />
                 <span className="text-cyan-500">お知らせ</span>
               </h1>
               <p className="text-2xl text-zinc-600 leading-relaxed max-w-4xl">
-                AI導入支援やAI開発に関する、GAMIの最新情報をお届けします
+                生成AI導入支援、AI開発、AI Web制作に関する、GAMIの最新情報をお届けします
               </p>
             </div>
           </ScrollReveal>

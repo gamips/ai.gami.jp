@@ -86,12 +86,12 @@ export function About() {
             <div className="max-w-5xl">
               <p className="text-cyan-500 font-medium tracking-widest mb-6">ABOUT US</p>
               <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold mb-8 leading-tight text-zinc-900">
-                AIで、
+                AI導入支援会社
                 <br />
-                <span className="text-cyan-500">前に進む。</span>
+                <span className="text-cyan-500">GAMI</span>
               </h1>
               <p className="text-2xl text-zinc-600 leading-relaxed max-w-4xl">
-                AI導入支援を売るだけの会社ではなく、
+                生成AI導入支援を売るだけの会社ではなく、
                 <br />
                 AIで前に進む会社を増やす。
                 <br />
