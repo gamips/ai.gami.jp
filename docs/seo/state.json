@@ -7,8 +7,8 @@
     "currentCadenceHours": 3,
     "status": "ACTIVE"
   },
-  "lastActualRunAt": "2026-09-05T04:12:22+09:00",
-  "lastPromptAuditAt": "2026-09-05T04:12:22+09:00",
+  "lastActualRunAt": "2026-09-05T07:01:56+09:00",
+  "lastPromptAuditAt": "2026-09-05T07:01:56+09:00",
   "measurement": {
     "searchConsole": {
       "siteUrl": "sc-domain:ai.gami.jp",
@@ -30,9 +30,9 @@
     "insight-sodatsu-mitsumori-case-study-v1"
   ],
   "deployment": {
-    "lastSuccessfulAt": "2026-09-05T04:10:20+09:00",
-    "commit": "468c25a511968ed690a12d537e90099b0448a370",
-    "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/33909716769",
+    "lastSuccessfulAt": "2026-09-05T06:59:54+09:00",
+    "commit": "eb1c719771f7daec34909c45d613805e68d81c31",
+    "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/33923554862",
     "liveVerification": "passed"
   },
   "observationQueue": [
@@ -104,14 +104,14 @@
       "work": "ブランドfaviconを用意し、headとdeploy保持を確認する"
     },
     {
-      "lane": "internal-link",
+      "lane": "content",
       "priority": 2,
-      "work": "AI × SaaS / AI × DXページから育つ見積の開発事例へ、既存デザイン内で内部リンクを追加する"
+      "work": "RAG構築で最初に整理する社内資料を、資料棚卸しチェック中心の記事にする"
     },
     {
-      "lane": "content",
+      "lane": "internal-link",
       "priority": 3,
-      "work": "RAG構築で最初に整理する社内資料を、資料棚卸しチェック中心の記事にする"
+      "work": "AI導入支援サブサービスからAI導入支援の解説記事へ、既存デザイン内の導線を確認し、不足時に追加する"
     }
   ],
   "blocked": [
