@@ -165,6 +165,12 @@ function buildStaticFallbackBody(entry) {
         const sectionLink = section.link
           ? `<p class="mt-6"><a class="text-cyan-600 underline underline-offset-4" href="${escapeHtml(section.link.href)}">${escapeHtml(section.link.label)}</a></p>`
           : "";
+        const image = section.image
+          ? `<figure class="mt-8">
+              <img src="${escapeHtml(section.image.src)}" alt="${escapeHtml(section.image.alt)}" width="${escapeHtml(section.image.width)}" height="${escapeHtml(section.image.height)}" loading="lazy" decoding="async" class="block h-auto w-full border border-zinc-200 bg-white" />
+              ${section.image.caption ? `<figcaption class="mt-3 text-sm leading-relaxed text-zinc-500">${escapeHtml(section.image.caption)}</figcaption>` : ""}
+            </figure>`
+          : "";
         const title = section.href
           ? `<a href="${escapeHtml(section.href)}">${escapeHtml(section.title)}</a>`
           : escapeHtml(section.title);
@@ -176,6 +182,7 @@ function buildStaticFallbackBody(entry) {
             ${body}
             ${items}
             ${links}
+            ${image}
             ${sectionLink}
           </article>`;
       })

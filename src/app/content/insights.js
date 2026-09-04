@@ -1,5 +1,83 @@
 export const insights = [
   {
+    slug: "sodatsu-mitsumori-case-study",
+    path: "/insights/sodatsu-mitsumori-case-study",
+    category: "開発事例",
+    publishedAt: "2026-09-05",
+    updatedAt: "2026-09-05",
+    dateLabel: "2026.09.05",
+    title: "AI見積書システム「育つ見積」の開発事例",
+    description:
+      "株式会社ガミが企画・開発・運用する「育つ見積」の開発事例です。依頼文や資料からAIが見積案を作り、人が確認・修正した後、発注書・納品書・請求書へつなぐ設計を実際の画面とともに紹介します。",
+    lead:
+      "「育つ見積」は、株式会社ガミが企画・開発・運用する見積書・請求書作成支援サービスです。見積依頼の文章や資料からAIが最初の案を作り、足りない情報は質問します。最後は人が内容を確かめ、次の書類へつなぎます。",
+    sections: [
+      {
+        id: "connected-document-workflow",
+        title: "見積作成から請求までをつなぐ",
+        paragraphs: [
+          "「育つ見積」は、見積依頼から見積書の作成、発注書・納品書・請求書への変換、PDF出力、共有までを一つの流れで扱います。",
+          "最初からすべてを自動化するのではなく、AIが案を作り、人が確かめる工程を同じ流れの中に置きました。",
+        ],
+        link: {
+          label: "「育つ見積」のサービスサイトを見る",
+          href: "https://sodatsu-mitsumori.net/",
+          external: true,
+        },
+      },
+      {
+        id: "input-to-ai-draft",
+        title: "依頼内容から見積案を作る",
+        paragraphs: [
+          "使う人は、見積依頼の文章や資料を入力します。AIはその内容を読み取り、明細、工数、金額の最初の案を整理します。",
+          "AIの案は完成品ではありません。次の確認へ進むための下書きとして、人が見やすい形に並べます。",
+        ],
+        image: {
+          src: "/assets/images/insights/sodatsu-mitsumori/athanor-input.png",
+          alt: "育つ見積で見積依頼の文章を入力し、生成内容を調整する画面",
+          caption: "見積依頼を入力し、生成内容を調整する画面（サンプル）。",
+          width: 1090,
+          height: 720,
+        },
+      },
+      {
+        id: "ai-questions-human-review",
+        title: "足りない情報をAIが質問する",
+        paragraphs: [
+          "入力だけでは決められない内容があると、AIが不足している点を質問します。人が回答すると、その内容をもとに見積案を整えます。",
+          "編集画面では、摘要、数量、単価、税率、金額を確認し、必要なところを修正してから書類へ進めます。",
+        ],
+        image: {
+          src: "/assets/images/insights/sodatsu-mitsumori/quote-editor-qa.png",
+          alt: "育つ見積の見積明細とAIからの確認事項を同じ画面で確認する編集画面",
+          caption: "見積明細とAIからの確認事項を確認する画面（サンプル）。",
+          width: 1265,
+          height: 712,
+        },
+      },
+      {
+        id: "quote-to-documents",
+        title: "確認した内容を次の書類へつなぐ",
+        paragraphs: [
+          "人が確認した見積書の内容は、発注書、納品書、請求書へ引き継げます。それぞれの書類を、同じ情報をもとに作成します。",
+          "仕上げた書類はPDFで出力でき、共有リンクでも渡せます。見積後の作業も分断せず、一つの流れとして設計しています。",
+        ],
+      },
+      {
+        id: "human-in-the-loop",
+        title: "AIと人の役割を分けて設計する",
+        paragraphs: [
+          "AIに任せるのは、最初の案と不足情報の整理です。数量、単価、税率、金額は、人が確認・修正できる工程を残しています。",
+          "GAMIでは、こうしたAIと人の役割を分けた業務システムを、企画から開発、運用まで一緒に整えます。",
+        ],
+        link: {
+          label: "AI × SaaS / AI × DXを見る",
+          href: "/services/ai-saas/",
+        },
+      },
+    ],
+  },
+  {
     slug: "chatgpt-workplace-adoption-checklist",
     path: "/insights/chatgpt-workplace-adoption-checklist",
     category: "AI活用",

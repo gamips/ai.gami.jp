@@ -101,14 +101,43 @@ export function InsightDetail() {
                         )
                       ) : null}
 
+                      {section.image ? (
+                        <figure className="mt-10">
+                          <img
+                            src={section.image.src}
+                            alt={section.image.alt}
+                            width={section.image.width}
+                            height={section.image.height}
+                            loading="lazy"
+                            decoding="async"
+                            className="block h-auto w-full border border-zinc-200 bg-white"
+                          />
+                          {section.image.caption ? (
+                            <figcaption className="mt-3 text-sm leading-relaxed text-zinc-500">
+                              {section.image.caption}
+                            </figcaption>
+                          ) : null}
+                        </figure>
+                      ) : null}
+
                       {section.link ? (
-                        <ScrollToTopLink
-                          to={section.link.href}
-                          className="mt-8 inline-flex items-center gap-2 font-medium text-cyan-600 transition-all hover:gap-3 hover:text-cyan-700"
-                        >
-                          {section.link.label}
-                          <ArrowRight size={18} aria-hidden="true" />
-                        </ScrollToTopLink>
+                        section.link.external ? (
+                          <a
+                            href={section.link.href}
+                            className="mt-8 inline-flex items-center gap-2 font-medium text-cyan-600 transition-all hover:gap-3 hover:text-cyan-700"
+                          >
+                            {section.link.label}
+                            <ArrowRight size={18} aria-hidden="true" />
+                          </a>
+                        ) : (
+                          <ScrollToTopLink
+                            to={section.link.href}
+                            className="mt-8 inline-flex items-center gap-2 font-medium text-cyan-600 transition-all hover:gap-3 hover:text-cyan-700"
+                          >
+                            {section.link.label}
+                            <ArrowRight size={18} aria-hidden="true" />
+                          </ScrollToTopLink>
+                        )
                       ) : null}
                     </div>
                   </section>

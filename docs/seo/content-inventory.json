@@ -119,8 +119,10 @@
       "url": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/",
       "type": "insight",
       "intent": "自社開発・運用するAI見積書・請求書システムの実装事例",
-      "status": "brief_ready",
+      "status": "ready_for_deploy",
+      "lastModified": "2026-09-05",
       "schema": "Article",
+      "experimentId": "insight-sodatsu-mitsumori-case-study-v1",
       "evidencePath": "docs/seo/case-studies/sodatsu-mitsumori-evidence.md",
       "relatedService": "https://ai.gami.jp/services/ai-saas/",
       "externalProduct": "https://sodatsu-mitsumori.net/"
