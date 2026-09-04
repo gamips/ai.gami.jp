@@ -1,4 +1,4 @@
-import { ArrowLeft, ArrowRight, ExternalLink } from "lucide-react";
+import { ArrowLeft, ArrowRight } from "lucide-react";
 import { useParams } from "react-router";
 import { getInsightBySlug } from "../content/insights.js";
 import { InquiryCta } from "../components/InquiryCta";
@@ -114,32 +114,6 @@ export function InsightDetail() {
                   </section>
                 </ScrollReveal>
               ))}
-
-              <ScrollReveal>
-                <section className="grid gap-6 border-t border-zinc-300 py-12 md:grid-cols-[72px_minmax(0,1fr)] md:gap-10 md:py-16">
-                  <span className="text-sm font-bold tracking-widest text-cyan-600" aria-hidden="true">
-                    REF
-                  </span>
-                  <div>
-                    <h2 className="text-2xl font-bold text-zinc-900">参考資料</h2>
-                    <ul className="mt-6 space-y-4">
-                      {insight.sources.map((source) => (
-                        <li key={source.href}>
-                          <a
-                            href={source.href}
-                            target="_blank"
-                            rel="noreferrer"
-                            className="inline-flex items-start gap-2 text-zinc-600 underline decoration-zinc-300 underline-offset-4 transition-colors hover:text-cyan-600"
-                          >
-                            <span>{source.label}</span>
-                            <ExternalLink size={15} className="mt-1 shrink-0" aria-hidden="true" />
-                          </a>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                </section>
-              </ScrollReveal>
             </div>
           </div>
         </div>

@@ -78,16 +78,6 @@ export const insights = [
         },
       },
     ],
-    sources: [
-      {
-        label: "中小企業基盤整備機構「中小企業における生成AIの活用実態と今後の展望」",
-        href: "https://www.smrj.go.jp/research_case/questionnaire/fbrion0000002pjw-att/202603_AI_report.pdf",
-      },
-      {
-        label: "経済産業省「AI事業者ガイドライン 第1.2版」",
-        href: "https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/20260331_report.html",
-      },
-    ],
   },
 ];
 

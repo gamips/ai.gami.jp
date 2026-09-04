@@ -1050,19 +1050,13 @@ for (const insight of insights) {
     publishedAt: insight.publishedAt,
     updatedAt: insight.updatedAt,
     category: insight.category,
-    fallbackSections: [
-      ...insight.sections.map((section) => ({
-        title: section.title,
-        paragraphs: section.paragraphs,
-        items: section.items,
-        ordered: section.ordered,
-        link: section.link,
-      })),
-      {
-        title: "参考資料",
-        links: insight.sources,
-      },
-    ],
+    fallbackSections: insight.sections.map((section) => ({
+      title: section.title,
+      paragraphs: section.paragraphs,
+      items: section.items,
+      ordered: section.ordered,
+      link: section.link,
+    })),
     schemas: createInsightSchemas(insight),
   };
 }
