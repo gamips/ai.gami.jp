@@ -19,3 +19,13 @@
   - 信頼度: high
   - 適用範囲: Insightsと事例の制作基盤
   - 見直し条件: 別CMSまたはSSGへ移行したとき
+- 学び: このrepoではpush remote名を`origin`と仮定しない。
+  - 根拠: 2026-09-04時点の設定済みremoteは`gamips`だけだった。
+  - 信頼度: high
+  - 適用範囲: heartbeat開始時の同期確認と本番push
+  - 見直し条件: remote構成を変更したとき
+- 学び: static HTMLのschemaには所有マーカーを付け、画面起動後に同じ集合へ置き換える。
+  - 根拠: マーカーのない旧実装は画面起動後に同じJSON-LDを追加していた。`data-seo-schema`で置換後、記事のschema数はraw/画面起動後とも4件で一致した。
+  - 信頼度: high
+  - 適用範囲: 現行のstatic shellとReact PageSeo
+  - 見直し条件: SSRまたは別head管理へ移行したとき

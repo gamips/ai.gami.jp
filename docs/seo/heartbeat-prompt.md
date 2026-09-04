@@ -1,6 +1,6 @@
 # AI.GAMI SEO成長PDCA heartbeat prompt
 
-Prompt version: 1.0.0
+Prompt version: 1.0.1
 
 C:\Users\Akira Ishigami\google_antigravity_project\ai.gami.jp で、広告費を使わずに、検索・AI検索・紹介・無料パブリシティからの有効流入と問い合わせを継続的に増やしてください。ブランドを壊さず、シンプルで美しく、短く分かりやすい日本語を守ります。
 
@@ -61,3 +61,7 @@ run終了前にstate、content inventory、experiments、metrics、monthly run l
 初期cadenceは3時間です。公開障害中だけ一時1時間、ready施策が尽き観測待ちだけになった場合はdiscoverで補充した後に6時間を検討し、ready施策または新しいsignalが増えたら3時間へ戻します。
 
 最後に、実施した成果、公開・検証結果、KPI、判定、次の観測日、次に進める独立施策、promptまたはschedule変更の有無を短く残してください。
+
+## 変更履歴
+
+- 1.0.1 / 2026-09-04: remote名を`origin`へ固定せず、設定済みpush remoteのmasterを確認する表現へ変更。根拠は、このrepoのremote名が`gamips`であり、固定名では開始時確認が失敗するため。戻す場合は、repoのremote名を変更し、開始時確認が通ることを確認してから行う。
