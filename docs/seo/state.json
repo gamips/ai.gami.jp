@@ -25,7 +25,8 @@
   },
   "activeExperimentIds": [
     "insight-ai-introduction-support-v1",
-    "insight-ai-introduction-support-pricing-v1"
+    "insight-ai-introduction-support-pricing-v1",
+    "insight-chatgpt-adoption-checklist-v1"
   ],
   "deployment": {
     "lastSuccessfulAt": "2026-09-04T16:03:12+09:00",
@@ -63,23 +64,38 @@
           "check": "28 finalized days or minimum evidence"
         }
       ]
+    },
+    {
+      "experimentId": "insight-chatgpt-adoption-checklist-v1",
+      "status": "ready_for_deploy",
+      "startedAt": null,
+      "nextChecks": [
+        {
+          "onOrAfter": "2026-09-11",
+          "check": "index and first page/query signal"
+        },
+        {
+          "onOrAfter": "2026-10-02",
+          "check": "28 finalized days or minimum evidence"
+        }
+      ]
     }
   ],
   "readyQueue": [
     {
-      "lane": "content",
-      "priority": 1,
-      "work": "ChatGPTを社内導入しても使われない理由を、定着チェック中心の記事にする"
-    },
-    {
       "lane": "case-study",
-      "priority": 2,
+      "priority": 1,
       "work": "育つ見積の確認済み実装事実と画面を集め、事例ページの一次資料を作る"
     },
     {
       "lane": "technical",
-      "priority": 3,
+      "priority": 2,
       "work": "ブランドfaviconを用意し、headとdeploy保持を確認する"
+    },
+    {
+      "lane": "content",
+      "priority": 3,
+      "work": "RAG構築で最初に整理する社内資料を、資料棚卸しチェック中心の記事にする"
     }
   ],
   "blocked": [
