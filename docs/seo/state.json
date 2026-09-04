@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "promptVersion": "1.0.1",
+  "promptVersion": "1.0.2",
   "automation": {
     "name": "AI.GAMI SEO成長PDCA",
     "id": "ai-gami-seo-pdca",
     "currentCadenceHours": 3,
     "status": "ACTIVE"
   },
-  "lastActualRunAt": "2026-09-04T09:57:28+09:00",
-  "lastPromptAuditAt": "2026-09-04T09:57:28+09:00",
+  "lastActualRunAt": "2026-09-04T10:46:36+09:00",
+  "lastPromptAuditAt": "2026-09-04T10:46:36+09:00",
   "measurement": {
     "searchConsole": {
       "siteUrl": "sc-domain:ai.gami.jp",
@@ -27,16 +27,16 @@
     "insight-ai-introduction-support-v1"
   ],
   "deployment": {
-    "lastSuccessfulAt": "2026-09-04T09:55:06+09:00",
-    "commit": "3a9c0f1d3b249f84199b9964c9aa1eee34624b70",
-    "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/33823591766",
+    "lastSuccessfulAt": "2026-09-04T10:46:03+09:00",
+    "commit": "0745d8d209e82bc26e407f539af41a57ae4c3cab",
+    "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/33826776824",
     "liveVerification": "passed"
   },
   "observationQueue": [
     {
       "experimentId": "insight-ai-introduction-support-v1",
       "status": "observing",
-      "startedAt": "2026-09-04T09:55:06+09:00",
+      "startedAt": "2026-09-04T10:46:03+09:00",
       "nextChecks": [
         {
           "onOrAfter": "2026-09-11",

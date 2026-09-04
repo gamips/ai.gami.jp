@@ -1,6 +1,6 @@
 # AI.GAMI SEO成長PDCA heartbeat prompt
 
-Prompt version: 1.0.1
+Prompt version: 1.0.2
 
 C:\Users\Akira Ishigami\google_antigravity_project\ai.gami.jp で、広告費を使わずに、検索・AI検索・紹介・無料パブリシティからの有効流入と問い合わせを継続的に増やしてください。ブランドを壊さず、シンプルで美しく、短く分かりやすい日本語を守ります。
 
@@ -38,6 +38,8 @@ Search Consoleはsc-domain:ai.gami.jpを正本とします。tools/gsc-searchcon
 
 公開文には、狙い、想定読者、検索意図、SEO評価、競合メモ、プロンプト、AI下書き、検証状況、出典管理メモ、運用都合を表示しません。title、description、canonical、OG、schemaはhead内だけで正しく管理します。結論を先に伝え、難しい言葉とキーワード詰め込みを避けます。
 
+一次情報は事実確認に使いますが、記事末に「参考資料」の一覧は設けません。本文には読者の理解に必要な内容だけを自然に反映します。
+
 ## デザイン
 
 既存UI変更では現在のデザインシステムを使い、Lazywebで実在例を確認します。カードを多用せず、余白、タイポグラフィ、罫線、一覧性を中心にします。不要なpを増やさず、意味に応じて見出し、リスト、brを使います。広いリデザイン、ブランドカラー、動き、ヘッダー構造の置換は行いません。
@@ -65,3 +67,4 @@ run終了前にstate、content inventory、experiments、metrics、monthly run l
 ## 変更履歴
 
 - 1.0.1 / 2026-09-04: remote名を`origin`へ固定せず、設定済みpush remoteのmasterを確認する表現へ変更。根拠は、このrepoのremote名が`gamips`であり、固定名では開始時確認が失敗するため。戻す場合は、repoのremote名を変更し、開始時確認が通ることを確認してから行う。
+- 1.0.2 / 2026-09-04: ユーザーの表示方針に合わせ、記事末へ「参考資料」一覧を出さないルールを追加。一次情報による事実確認は維持する。戻す場合は、ユーザーが公開上の出典一覧を必要とすると明示したときだけ行う。
