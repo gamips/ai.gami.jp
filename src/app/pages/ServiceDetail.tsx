@@ -49,6 +49,10 @@ function renderTitleLines(text: string) {
 }
 
 const inlineLinkMap = [
+  {
+    label: "「育つ見積」の開発事例を見る",
+    href: "/insights/sodatsu-mitsumori-case-study/",
+  },
   { label: "育つ見積", href: "https://sodatsu-mitsumori.net/" },
   { label: "SkipCart", href: "https://www.retail-ai.jp/solution/Ssc/" },
   { label: "GAMIのサイト", href: "https://gami.jp" },
@@ -85,16 +89,29 @@ function renderInlineLinks(text: string) {
       nodes.push(text.slice(cursor, nextMatch.index));
     }
 
+    const linkClassName =
+      "text-cyan-500 underline decoration-cyan-500/40 underline-offset-4 transition-colors hover:text-cyan-600";
+
     nodes.push(
-      <a
-        key={`${nextMatch.label}-${nextMatch.index}`}
-        href={nextMatch.href}
-        target="_blank"
-        rel="noreferrer"
-        className="text-cyan-500 underline decoration-cyan-500/40 underline-offset-4 transition-colors hover:text-cyan-600"
-      >
-        {nextMatch.label}
-      </a>,
+      nextMatch.href.startsWith("/") ? (
+        <Link
+          key={`${nextMatch.label}-${nextMatch.index}`}
+          to={nextMatch.href}
+          className={linkClassName}
+        >
+          {nextMatch.label}
+        </Link>
+      ) : (
+        <a
+          key={`${nextMatch.label}-${nextMatch.index}`}
+          href={nextMatch.href}
+          target="_blank"
+          rel="noreferrer"
+          className={linkClassName}
+        >
+          {nextMatch.label}
+        </a>
+      ),
     );
 
     cursor = nextMatch.index + nextMatch.label.length;

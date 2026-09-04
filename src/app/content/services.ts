@@ -360,6 +360,7 @@ export const services: ServiceContent[] = [
           title: "Gamiの実績",
           items: [
             "AI学習型SaaS「育つ見積」を開発・運用中",
+            "「育つ見積」の開発事例を見る",
             "TRIALで使われるRetailAI社の「SkipCart」のマネージメントおよび設計開発",
             "タイヤ市場の業務管理システム「SPAT」の設計開発",
             "AI/非AIの両面から、業務基盤を現場実装してきた知見を保有",

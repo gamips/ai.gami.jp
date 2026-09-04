@@ -650,6 +650,7 @@ export const pageSeoByPath = {
   },
   "/services/ai-saas": {
     path: "/services/ai-saas",
+    lastModified: "2026-09-05",
     fallbackHeading: "AI導入支援から業務システム開発まで",
     title: "AI × SaaS / AI × DX | AI導入支援・RAG・業務システム開発 | GAMI",
     description:
@@ -689,6 +690,10 @@ export const pageSeoByPath = {
           "権限、承認、ログ、データ連携を含む運用基盤の設計",
           "使える最小構成から立ち上げて段階的に拡張",
         ],
+        link: {
+          label: "「育つ見積」の開発事例を見る",
+          href: "/insights/sodatsu-mitsumori-case-study/",
+        },
       },
     ],
     schemas: [
