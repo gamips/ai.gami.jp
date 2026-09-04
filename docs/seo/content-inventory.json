@@ -81,7 +81,7 @@
       "type": "insight-index",
       "intent": "AI導入と生成AI活用の実践ガイド一覧",
       "status": "published",
-      "lastModified": "2026-09-04"
+      "lastModified": "2026-09-05"
     },
     {
       "url": "https://ai.gami.jp/insights/ai-introduction-support/",
@@ -119,7 +119,7 @@
       "url": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/",
       "type": "insight",
       "intent": "自社開発・運用するAI見積書・請求書システムの実装事例",
-      "status": "ready_for_deploy",
+      "status": "published",
       "lastModified": "2026-09-05",
       "schema": "Article",
       "experimentId": "insight-sodatsu-mitsumori-case-study-v1",

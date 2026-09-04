@@ -7,8 +7,8 @@
     "currentCadenceHours": 3,
     "status": "ACTIVE"
   },
-  "lastActualRunAt": "2026-09-05T01:58:55+09:00",
-  "lastPromptAuditAt": "2026-09-05T01:58:55+09:00",
+  "lastActualRunAt": "2026-09-05T04:12:22+09:00",
+  "lastPromptAuditAt": "2026-09-05T04:12:22+09:00",
   "measurement": {
     "searchConsole": {
       "siteUrl": "sc-domain:ai.gami.jp",
@@ -26,12 +26,13 @@
   "activeExperimentIds": [
     "insight-ai-introduction-support-v1",
     "insight-ai-introduction-support-pricing-v1",
-    "insight-chatgpt-adoption-checklist-v1"
+    "insight-chatgpt-adoption-checklist-v1",
+    "insight-sodatsu-mitsumori-case-study-v1"
   ],
   "deployment": {
-    "lastSuccessfulAt": "2026-09-05T01:57:56+09:00",
-    "commit": "7850300480b8053f2cd200e58ee5c61c2a665cf3",
-    "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/33897962617",
+    "lastSuccessfulAt": "2026-09-05T04:10:20+09:00",
+    "commit": "468c25a511968ed690a12d537e90099b0448a370",
+    "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/33909716769",
     "liveVerification": "passed"
   },
   "observationQueue": [
@@ -79,18 +80,33 @@
           "check": "28 finalized days or minimum evidence"
         }
       ]
+    },
+    {
+      "experimentId": "insight-sodatsu-mitsumori-case-study-v1",
+      "status": "observing",
+      "startedAt": "2026-09-05T04:10:20+09:00",
+      "nextChecks": [
+        {
+          "onOrAfter": "2026-09-12",
+          "check": "index and first page/query signal"
+        },
+        {
+          "onOrAfter": "2026-10-06",
+          "check": "28 finalized days or minimum evidence"
+        }
+      ]
     }
   ],
   "readyQueue": [
     {
-      "lane": "case-study",
+      "lane": "technical",
       "priority": 1,
-      "work": "確認済み一次資料と安全な画面2点を使い、育つ見積の事例原稿とページpackageを作る"
+      "work": "ブランドfaviconを用意し、headとdeploy保持を確認する"
     },
     {
-      "lane": "technical",
+      "lane": "internal-link",
       "priority": 2,
-      "work": "ブランドfaviconを用意し、headとdeploy保持を確認する"
+      "work": "AI × SaaS / AI × DXページから育つ見積の開発事例へ、既存デザイン内で内部リンクを追加する"
     },
     {
       "lane": "content",
