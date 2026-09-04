@@ -49,7 +49,7 @@ function renderTitleLines(text: string) {
 }
 
 const inlineLinkMap = [
-  { label: "育つ見積り", href: "https://sodatsu-mitsumori.net/" },
+  { label: "育つ見積", href: "https://sodatsu-mitsumori.net/" },
   { label: "SkipCart", href: "https://www.retail-ai.jp/solution/Ssc/" },
   { label: "GAMIのサイト", href: "https://gami.jp" },
   { label: "フリーランス GAMIのサイト", href: "https://gami.jp" },

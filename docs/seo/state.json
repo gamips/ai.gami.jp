@@ -13,9 +13,9 @@
     "searchConsole": {
       "siteUrl": "sc-domain:ai.gami.jp",
       "status": "connected",
-      "latestFinalizedDate": "2026-09-01",
-      "lastRecordedAt": "2026-09-03T23:38:55+09:00",
-      "latestMetricsPath": "reports/seo/metrics/2026-09-03.json"
+      "latestFinalizedDate": "2026-09-02",
+      "lastRecordedAt": "2026-09-05T01:39:09+09:00",
+      "latestMetricsPath": "reports/seo/metrics/2026-09-05.json"
     },
     "ga4": {
       "status": "not_configured",
@@ -85,7 +85,7 @@
     {
       "lane": "case-study",
       "priority": 1,
-      "work": "育つ見積の確認済み実装事実と画面を集め、事例ページの一次資料を作る"
+      "work": "確認済み一次資料と安全な画面2点を使い、育つ見積の事例原稿とページpackageを作る"
     },
     {
       "lane": "technical",

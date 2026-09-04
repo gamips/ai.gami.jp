@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-09-05",
   "rules": {
     "oneOwnerUrlPerIntent": true,
     "publicCopyExcludesOperationalMetadata": true
@@ -114,6 +114,16 @@
       "experimentId": "insight-chatgpt-adoption-checklist-v1",
       "relatedArticle": "https://ai.gami.jp/insights/ai-introduction-support/",
       "relatedService": "https://ai.gami.jp/services/ai-saas/"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/",
+      "type": "insight",
+      "intent": "自社開発・運用するAI見積書・請求書システムの実装事例",
+      "status": "brief_ready",
+      "schema": "Article",
+      "evidencePath": "docs/seo/case-studies/sodatsu-mitsumori-evidence.md",
+      "relatedService": "https://ai.gami.jp/services/ai-saas/",
+      "externalProduct": "https://sodatsu-mitsumori.net/"
     }
   ]
 }
