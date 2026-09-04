@@ -194,7 +194,7 @@ export function Home() {
   const line2Clones = useMemo(() => generateClones(5), []); // 人間品質。
 
   return (
-    <div>
+    <div className="overflow-x-clip">
       <PageSeo path="/" />
       <div
         aria-hidden="true"
@@ -264,14 +264,14 @@ export function Home() {
                         {line1Clones[charIndex].map((clone, cloneIndex) => (
                           <motion.span
                             key={cloneIndex}
-                            className="absolute inset-0 shadow-clone text-black"
+                            aria-hidden="true"
+                            data-char={char}
+                            className="absolute inset-0 shadow-clone shadow-clone-glyph text-black"
                             initial={{ opacity: 0 }}
                             animate={{ opacity: clone.opacity }}
                             transition={{ duration: clone.duration, delay: 0.5 + clone.delay }}
                             style={{ transform: `translate(${clone.x}px, ${clone.y}px)` }}
-                          >
-                            {char}
-                          </motion.span>
+                          />
                         ))}
                         {/* Main character - filled, appears last */}
                         <motion.span
@@ -301,7 +301,9 @@ export function Home() {
                         {line2Clones[charIndex].map((clone, cloneIndex) => (
                           <motion.span
                             key={cloneIndex}
-                            className="absolute inset-0"
+                            aria-hidden="true"
+                            data-char={char}
+                            className="absolute inset-0 shadow-clone-glyph"
                             initial={{ opacity: 0 }}
                             animate={{ opacity: clone.opacity }}
                             transition={{ duration: clone.duration, delay: 0.9 + clone.delay }}
@@ -312,9 +314,7 @@ export function Home() {
                               WebkitTextFillColor: 'transparent',
                               color: 'transparent'
                             }}
-                          >
-                            {char}
-                          </motion.span>
+                          />
                         ))}
                         {/* Main character - filled, appears last */}
                         <motion.span
@@ -410,7 +410,7 @@ export function Home() {
                   </p>
 
                   <Link
-                    to="/concept"
+                    to="/concept/"
                     className="inline-flex items-center gap-2 text-cyan-500 hover:text-cyan-600 transition-colors text-lg font-medium"
                   >
                     More
@@ -612,9 +612,10 @@ export function Home() {
                 </h2>
               </ScrollReveal>
               <ScrollReveal direction="up" delay={0.1} duration={0.6}>
-                <div className="inline-flex items-center gap-2 text-cyan-500 text-lg font-medium">
+                <Link to="/news/" className="inline-flex items-center gap-2 text-cyan-500 text-lg font-medium hover:text-cyan-600 transition-colors">
                   More
-                </div>
+                  <ArrowRight size={20} />
+                </Link>
               </ScrollReveal>
             </div>
 
@@ -708,7 +709,7 @@ export function Home() {
               </p>
               <div className="flex flex-wrap gap-4 justify-center">
                 <Link
-                  to="/contact"
+                  to="/contact/"
                   className="inline-flex items-center gap-2 rounded-full border border-white/60 bg-transparent px-10 py-5 text-lg font-bold text-white transition-all hover:scale-105 hover:border-white hover:bg-white/8"
                 >
                   無料相談を申し込む

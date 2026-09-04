@@ -31,11 +31,12 @@ export function Header() {
 
   const navItems = [
     { name: "Home", path: "/" },
-    { name: "Concept", path: "/concept" },
-    { name: "Services", path: "/services" },
-    { name: "Price", path: "/price" },
-    { name: "About", path: "/about" },
-    { name: "Contact", path: "/contact" },
+    { name: "Concept", path: "/concept/" },
+    { name: "Services", path: "/services/" },
+    { name: "Price", path: "/price/" },
+    { name: "Insights", path: "/insights/" },
+    { name: "About", path: "/about/" },
+    { name: "Contact", path: "/contact/" },
   ];
 
   const isActivePath = (path: string) => {

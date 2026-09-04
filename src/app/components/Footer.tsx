@@ -56,22 +56,32 @@ export function Footer() {
             <nav aria-label="Footer pages">
             <ul className="space-y-3">
               <li>
-                <ScrollToTopLink to="/concept" className={`transition-colors hover:text-cyan-500 ${isDarkFooter ? "text-white/75" : "text-zinc-600"}`}>
+                <ScrollToTopLink to="/concept/" className={`transition-colors hover:text-cyan-500 ${isDarkFooter ? "text-white/75" : "text-zinc-600"}`}>
                   コンセプト
                 </ScrollToTopLink>
               </li>
               <li>
-                <ScrollToTopLink to="/services" className={`transition-colors hover:text-cyan-500 ${isDarkFooter ? "text-white/75" : "text-zinc-600"}`}>
+                <ScrollToTopLink to="/services/" className={`transition-colors hover:text-cyan-500 ${isDarkFooter ? "text-white/75" : "text-zinc-600"}`}>
                   サービス一覧
                 </ScrollToTopLink>
               </li>
               <li>
-                <ScrollToTopLink to="/price" className={`transition-colors hover:text-cyan-500 ${isDarkFooter ? "text-white/75" : "text-zinc-600"}`}>
+                <ScrollToTopLink to="/price/" className={`transition-colors hover:text-cyan-500 ${isDarkFooter ? "text-white/75" : "text-zinc-600"}`}>
                   料金
                 </ScrollToTopLink>
               </li>
               <li>
-                <ScrollToTopLink to="/about" className={`transition-colors hover:text-cyan-500 ${isDarkFooter ? "text-white/75" : "text-zinc-600"}`}>
+                <ScrollToTopLink to="/insights/" className={`transition-colors hover:text-cyan-500 ${isDarkFooter ? "text-white/75" : "text-zinc-600"}`}>
+                  Insights
+                </ScrollToTopLink>
+              </li>
+              <li>
+                <ScrollToTopLink to="/news/" className={`transition-colors hover:text-cyan-500 ${isDarkFooter ? "text-white/75" : "text-zinc-600"}`}>
+                  お知らせ
+                </ScrollToTopLink>
+              </li>
+              <li>
+                <ScrollToTopLink to="/about/" className={`transition-colors hover:text-cyan-500 ${isDarkFooter ? "text-white/75" : "text-zinc-600"}`}>
                   私たちについて
                 </ScrollToTopLink>
               </li>
@@ -85,17 +95,17 @@ export function Footer() {
             <nav aria-label="Footer services">
             <ul className="space-y-3">
               <li>
-                <ScrollToTopLink to="/services/ai-saas" className={`transition-colors hover:text-cyan-500 ${isDarkFooter ? "text-white/75" : "text-zinc-600"}`}>
+                <ScrollToTopLink to="/services/ai-saas/" className={`transition-colors hover:text-cyan-500 ${isDarkFooter ? "text-white/75" : "text-zinc-600"}`}>
                   AI × SaaS / AI × DX
                 </ScrollToTopLink>
               </li>
               <li>
-                <ScrollToTopLink to="/services/ai-marketing" className={`transition-colors hover:text-cyan-500 ${isDarkFooter ? "text-white/75" : "text-zinc-600"}`}>
+                <ScrollToTopLink to="/services/ai-marketing/" className={`transition-colors hover:text-cyan-500 ${isDarkFooter ? "text-white/75" : "text-zinc-600"}`}>
                   AI × Growth / AI × Support
                 </ScrollToTopLink>
               </li>
               <li>
-                <ScrollToTopLink to="/services/ai-web" className={`transition-colors hover:text-cyan-500 ${isDarkFooter ? "text-white/75" : "text-zinc-600"}`}>
+                <ScrollToTopLink to="/services/ai-web/" className={`transition-colors hover:text-cyan-500 ${isDarkFooter ? "text-white/75" : "text-zinc-600"}`}>
                   AI × Brand / AI × Site
                 </ScrollToTopLink>
               </li>
@@ -110,7 +120,7 @@ export function Footer() {
             <ul className="space-y-4">
               <li>
                 <ScrollToTopLink
-                  to="/contact"
+                  to="/contact/"
                   className={`inline-flex items-center gap-2 transition-colors hover:text-cyan-500 ${
                     isDarkFooter ? "text-white/75" : "text-zinc-600"
                   }`}

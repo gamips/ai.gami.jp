@@ -1,3 +1,5 @@
+import { insights } from "../content/insights.js";
+
 export const SITE_NAME = "GAMI";
 export const SITE_LEGAL_NAME = "株式会社Gami";
 export const SITE_URL = "https://ai.gami.jp";
@@ -290,9 +292,63 @@ const newsListSchema = {
   ],
 };
 
+const insightsListSchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  name: "GAMI Insights",
+  itemListOrder: "https://schema.org/ItemListOrderDescending",
+  numberOfItems: insights.length,
+  itemListElement: insights.map((insight, index) => ({
+    "@type": "ListItem",
+    position: index + 1,
+    url: toCanonicalUrl(insight.path),
+    name: insight.title,
+  })),
+};
+
+function createInsightSchemas(insight) {
+  return [
+    organizationSchema,
+    createBaseWebPageSchema({
+      path: insight.path,
+      title: insight.title,
+      description: insight.description,
+      type: "Article",
+    }),
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      headline: insight.title,
+      description: insight.description,
+      datePublished: insight.publishedAt,
+      dateModified: insight.updatedAt,
+      articleSection: insight.category,
+      inLanguage: "ja-JP",
+      mainEntityOfPage: toCanonicalUrl(insight.path),
+      image: toAbsoluteUrl("/og/news.png"),
+      author: {
+        "@type": "Organization",
+        name: SITE_LEGAL_NAME,
+        url: SITE_URL,
+      },
+      publisher: {
+        "@type": "Organization",
+        name: SITE_LEGAL_NAME,
+        url: SITE_URL,
+      },
+    },
+    createBreadcrumbSchema([
+      { name: "Home", path: "/" },
+      { name: "Insights", path: "/insights" },
+      { name: insight.title, path: insight.path },
+    ]),
+  ];
+}
+
 export const pageSeoByPath = {
   "/": {
     path: "/",
+    fallbackHeading: "AI速度、人間品質。",
     title: "GAMI | AI導入支援・生成AI導入支援・AI開発会社",
     description:
       "中小企業向けのAI導入支援・AI開発会社GAMI。月2万円〜の生成AI導入支援、RAG構築、AIエージェント導入支援、AIマーケティング、AI Web制作までをAI基準で再設計します。",
@@ -315,6 +371,7 @@ export const pageSeoByPath = {
   },
   "/concept": {
     path: "/concept",
+    fallbackHeading: "AI Base, Human Craft.",
     title: "Concept | 生成AI導入支援とAI開発の進め方 | GAMI",
     description:
       "AI Base, Human Craft. を軸に、生成AI導入支援、AI開発、AI Web制作をどうAI基準で進めるかを整理したGAMIの開発思想ページです。",
@@ -339,6 +396,7 @@ export const pageSeoByPath = {
   },
   "/services": {
     path: "/services",
+    fallbackHeading: "生成AI導入支援・AI開発サービス",
     title: "Services | 生成AI導入支援・AI開発サービス一覧 | GAMI",
     description:
       "GAMIが提供する生成AI導入支援・AI開発サービス一覧。AI × SaaS / DX、AI × Growth / Support、AI × Brand / Site の3カテゴリごとに、AI導入支援、RAG構築、AIエージェント、AIライティング、AI Web制作の進め方を整理しています。",
@@ -592,6 +650,7 @@ export const pageSeoByPath = {
   },
   "/services/ai-saas": {
     path: "/services/ai-saas",
+    fallbackHeading: "AI導入支援から業務システム開発まで",
     title: "AI × SaaS / AI × DX | AI導入支援・RAG・業務システム開発 | GAMI",
     description:
       "月2万円〜のAI導入支援から、RAG構築、社内AIチャットボット、業務システム開発まで、AI × SaaS / DXで扱う導入アプローチを整理します。",
@@ -667,6 +726,8 @@ export const pageSeoByPath = {
   },
   "/services/ai-marketing": {
     path: "/services/ai-marketing",
+    fallbackHeading: "AIマーケティングとAIサポート",
+    lastModified: "2026-09-04",
     title: "AI × Growth / AI × Support | AIマーケティング・AIエージェント導入支援 | GAMI",
     description:
       "AIマーケティング、AIライティング、SEO記事作成、AIエージェント導入支援、問い合わせ対応、AI検索対策を、発信と対応を軽くする導入アプローチとして整理します。",
@@ -679,9 +740,9 @@ export const pageSeoByPath = {
       {
         title: "AIライティング・SEO記事作成を運用に落とす",
         body:
-          "AIライティング、SEO記事作成、AI検索対策は単発の原稿作成ではなく、Search Consoleを見ながら改善する運用として設計します。",
+          "AIライティング、SEO記事作成、AI検索対策を、単発の原稿作成ではなく、公開後も反応を見ながら続けられる運用へ整えます。",
         items: [
-          "検索意図、既存順位、競合ページを踏まえたテーマ設計",
+          "読者が知りたいことと既存ページを踏まえたテーマ設計",
           "AIで構成案と下書きを作り、人間が事実確認と表現を調整",
           "公開後の表示回数、クリック、問い合わせ導線を見て改善",
         ],
@@ -742,6 +803,8 @@ export const pageSeoByPath = {
   },
   "/services/ai-web": {
     path: "/services/ai-web",
+    fallbackHeading: "AI Web制作で速く、美しく",
+    lastModified: "2026-09-04",
     title: "AI × Brand / AI × Site | AI Web制作・LP制作・コーポレートサイト制作 | GAMI",
     description:
       "AI Web制作でLP制作やコーポレートサイト制作を高速立ち上げ。サービスカテゴリ設計、SEO導線、公開後改善まで、AI時代のWeb制作アプローチを整理します。",
@@ -762,21 +825,21 @@ export const pageSeoByPath = {
         ],
       },
       {
-        title: "サービスカテゴリごとの検索意図をページ設計に落とす",
+        title: "サービスごとの役割をページ設計に落とす",
         body:
-          "カテゴリと下層ページが重複しないよう、検索意図、料金、相談範囲、導線を分けて設計します。",
+          "複数のページが同じ説明を繰り返さないよう、料金、相談範囲、次に進む導線を分けて設計します。",
         items: [
           "カテゴリページで主要アプローチを整理",
-          "独立ページ化する場合は十分に異なる検索意図と内容を用意",
-          "title、description、内部リンク、構造化データを同時に調整",
+          "個別ページでは、そのページだけで分かる具体的な内容を用意",
+          "ページ名、要約、内部リンク、構造化データを同時に調整",
         ],
       },
       {
-        title: "公開後にSearch Consoleと問い合わせ導線で改善する",
+        title: "公開後の反応と問い合わせ導線で改善する",
         body:
           "サイトは公開して終わりではなく、表示回数、クリック、問い合わせ、離脱の情報を見ながら、ページ構造と訴求を継続的に更新します。",
         items: [
-          "Search Consoleで非指名キーワードと弱いページを確認",
+          "表示回数とクリックから、伝わりにくいページを確認",
           "問い合わせにつながる見出し、FAQ、CTAを継続改善",
           "必要になった時点で記事、事例、用途別ページを増やす",
         ],
@@ -817,6 +880,7 @@ export const pageSeoByPath = {
   },
   "/price": {
     path: "/price",
+    fallbackHeading: "AI導入支援・AI開発の料金",
     title: "AI導入支援の料金 | 月2万円〜・AI開発費用 | GAMI",
     description:
       "GAMIのAI導入支援料金とAI開発費用。月2万円〜の生成AI導入支援から、RAG構築、AIシステム開発、AIマーケティング、AI Web制作の価格目安まで整理しています。",
@@ -841,6 +905,7 @@ export const pageSeoByPath = {
   },
   "/news": {
     path: "/news",
+    fallbackHeading: "GAMIのお知らせ",
     title: "News | 生成AI導入支援・AI開発のお知らせ | GAMI",
     description:
       "GAMIの生成AI導入支援、AI開発、AIマーケティング、AI Web制作に関する最新情報、お知らせ、サービスアップデートを掲載しています。",
@@ -865,6 +930,7 @@ export const pageSeoByPath = {
   },
   "/about": {
     path: "/about",
+    fallbackHeading: "AI導入支援会社 GAMIについて",
     title: "About | AI導入支援会社・AI開発会社 GAMIについて",
     description:
       "生成AI導入支援とAI開発を通じて、AIで前に進む会社を増やす。AI導入支援会社GAMIの考え方、価値観、会社情報を紹介します。",
@@ -888,6 +954,7 @@ export const pageSeoByPath = {
   },
   "/contact": {
     path: "/contact",
+    fallbackHeading: "AI導入・AI開発のご相談",
     title: "Contact | AI導入相談・AI開発相談 | GAMI",
     description:
       "生成AI導入支援、RAG構築、AIエージェント導入支援、AI開発、AI Web制作のご相談はこちら。どこにAIを入れるべきか、現場の導線から整理します。",
@@ -937,6 +1004,83 @@ export const pageSeoByPath = {
   },
 };
 
+pageSeoByPath["/insights"] = {
+  path: "/insights",
+  fallbackHeading: "AI導入を、わかりやすく。",
+  fallbackLabel: "INSIGHTS",
+  lastModified: "2026-09-04",
+  title: "Insights | AI導入・生成AI活用の実践ガイド | GAMI",
+  description:
+    "中小企業のAI導入、生成AI活用、RAG、AIエージェント、AI Web制作について、仕事で使うための考え方と手順を短く具体的に紹介します。",
+  image: "/og/news.png",
+  imageAlt: "GAMI Insights open graph image",
+  ogType: "website",
+  fallbackSections: insights.map((insight) => ({
+    title: insight.title,
+    body: insight.description,
+    href: `${insight.path}/`,
+  })),
+  schemas: [
+    organizationSchema,
+    createBaseWebPageSchema({
+      path: "/insights",
+      title: "Insights | GAMI",
+      description: "AI導入と生成AI活用を仕事で進めるための実践ガイドです。",
+      type: "CollectionPage",
+    }),
+    insightsListSchema,
+    createBreadcrumbSchema([
+      { name: "Home", path: "/" },
+      { name: "Insights", path: "/insights" },
+    ]),
+  ],
+};
+
+for (const insight of insights) {
+  pageSeoByPath[insight.path] = {
+    path: insight.path,
+    fallbackHeading: insight.title,
+    fallbackLabel: `INSIGHTS / ${insight.category}`,
+    lastModified: insight.updatedAt,
+    title: `${insight.title} | GAMI`,
+    description: insight.description,
+    image: "/og/news.png",
+    imageAlt: `${insight.title} - GAMI Insights`,
+    ogType: "article",
+    publishedAt: insight.publishedAt,
+    updatedAt: insight.updatedAt,
+    category: insight.category,
+    fallbackSections: [
+      ...insight.sections.map((section) => ({
+        title: section.title,
+        paragraphs: section.paragraphs,
+        items: section.items,
+        ordered: section.ordered,
+        link: section.link,
+      })),
+      {
+        title: "参考資料",
+        links: insight.sources,
+      },
+    ],
+    schemas: createInsightSchemas(insight),
+  };
+}
+
+pageSeoByPath["/404"] = {
+  path: "/404",
+  fallbackHeading: "404",
+  fallbackLabel: "PAGE NOT FOUND",
+  title: "404 | GAMI",
+  description: "お探しのページは見つかりませんでした。",
+  image: "/og/home.png",
+  imageAlt: "404 page open graph image",
+  ogType: "website",
+  noindex: true,
+  canonical: null,
+  schemas: [],
+};
+
 const retiredSeoPaths = new Set([
   "/services/ai-implementation",
   "/services/ai-agent",
@@ -948,5 +1092,7 @@ export const staticSeoEntries = Object.values(pageSeoByPath).filter(
 );
 
 export function getSeoEntry(path) {
-  return pageSeoByPath[path];
+  const pathname = String(path || "/").split(/[?#]/, 1)[0];
+  const normalizedPath = pathname === "/" ? "/" : pathname.replace(/\/$/, "");
+  return pageSeoByPath[normalizedPath];
 }

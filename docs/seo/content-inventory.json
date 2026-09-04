@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-09-04",
+  "rules": {
+    "oneOwnerUrlPerIntent": true,
+    "publicCopyExcludesOperationalMetadata": true
+  },
+  "entries": [
+    {
+      "url": "https://ai.gami.jp/",
+      "type": "home",
+      "intent": "GAMIのAI導入支援・AI開発全体",
+      "status": "published",
+      "lastModified": "2026-05-08"
+    },
+    {
+      "url": "https://ai.gami.jp/concept/",
+      "type": "brand",
+      "intent": "AI Base, Human Craftの開発思想",
+      "status": "published",
+      "lastModified": "2026-05-08"
+    },
+    {
+      "url": "https://ai.gami.jp/services/",
+      "type": "service-index",
+      "intent": "GAMIのサービス全体比較",
+      "status": "published",
+      "lastModified": "2026-05-08"
+    },
+    {
+      "url": "https://ai.gami.jp/services/ai-saas/",
+      "type": "service",
+      "intent": "AI導入支援、RAG、業務システム開発",
+      "status": "published",
+      "lastModified": "2026-05-08"
+    },
+    {
+      "url": "https://ai.gami.jp/services/ai-marketing/",
+      "type": "service",
+      "intent": "AIマーケティング、AIライティング、AIサポート",
+      "status": "modified_pending_deploy",
+      "lastModified": "2026-09-04"
+    },
+    {
+      "url": "https://ai.gami.jp/services/ai-web/",
+      "type": "service",
+      "intent": "AI Web制作とブランド品質",
+      "status": "modified_pending_deploy",
+      "lastModified": "2026-09-04"
+    },
+    {
+      "url": "https://ai.gami.jp/price/",
+      "type": "pricing",
+      "intent": "GAMIの支援料金と契約単位",
+      "status": "published",
+      "lastModified": "2026-05-08"
+    },
+    {
+      "url": "https://ai.gami.jp/news/",
+      "type": "news-index",
+      "intent": "GAMIからのお知らせ",
+      "status": "modified_pending_deploy",
+      "lastModified": "2026-05-08"
+    },
+    {
+      "url": "https://ai.gami.jp/about/",
+      "type": "company",
+      "intent": "GAMIの会社情報と価値観",
+      "status": "published",
+      "lastModified": "2026-05-08"
+    },
+    {
+      "url": "https://ai.gami.jp/contact/",
+      "type": "conversion",
+      "intent": "AI導入・AI開発相談",
+      "status": "published",
+      "lastModified": "2026-05-08"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/",
+      "type": "insight-index",
+      "intent": "AI導入と生成AI活用の実践ガイド一覧",
+      "status": "pending_deploy",
+      "lastModified": "2026-09-04"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-introduction-support/",
+      "type": "insight",
+      "intent": "AI導入支援で何を整理し、どう小さく始めるか",
+      "status": "pending_deploy",
+      "lastModified": "2026-09-04",
+      "schema": "Article",
+      "experimentId": "insight-ai-introduction-support-v1",
+      "relatedService": "https://ai.gami.jp/services/ai-saas/"
+    }
+  ]
+}

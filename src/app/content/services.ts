@@ -82,7 +82,7 @@ export const services: ServiceContent[] = [
   {
     slug: "ai-implementation",
     parentSlug: "ai-saas",
-    path: "/services/ai-implementation",
+    path: "/services/ai-implementation/",
     number: "AI × SaaS / DX MENU 01",
     titleLines: ["AI導入支援", "月2万円〜"],
     overviewDescription:
@@ -203,7 +203,7 @@ export const services: ServiceContent[] = [
   },
   {
     slug: "ai-saas",
-    path: "/services/ai-saas",
+    path: "/services/ai-saas/",
     number: "SERVICE 01",
     titleLines: ["AI × SaaS", "AI × DX"],
     overviewDescription:
@@ -371,7 +371,7 @@ export const services: ServiceContent[] = [
   {
     slug: "ai-agent",
     parentSlug: "ai-marketing",
-    path: "/services/ai-agent",
+    path: "/services/ai-agent/",
     number: "AI × Growth / Support MENU 01",
     titleLines: ["AIエージェント", "導入支援"],
     overviewDescription:
@@ -493,7 +493,7 @@ export const services: ServiceContent[] = [
   {
     slug: "rag-chatbot",
     parentSlug: "ai-saas",
-    path: "/services/rag-chatbot",
+    path: "/services/rag-chatbot/",
     number: "AI × SaaS / DX MENU 02",
     titleLines: ["RAG構築", "社内AIチャットボット"],
     overviewDescription:
@@ -614,7 +614,7 @@ export const services: ServiceContent[] = [
   },
   {
     slug: "ai-marketing",
-    path: "/services/ai-marketing",
+    path: "/services/ai-marketing/",
     number: "SERVICE 02",
     titleLines: ["AI × Growth", "AI × Support"],
     overviewDescription:
@@ -633,9 +633,9 @@ export const services: ServiceContent[] = [
         label: "SEO / WRITING",
         title: "AIライティング・SEO記事作成を運用に落とす",
         description:
-          "競合調査で確認した通り、AI導入支援だけではなく、AIライティング、SEO記事作成、AI検索対策の相談需要があります。Search Consoleを見ながら、書いて終わりではない運用へ整理します。",
+          "AIライティング、SEO記事作成、AI検索対策を、単発の原稿作成ではなく、公開後も反応を見ながら続けられる運用へ整えます。",
         items: [
-          "検索意図、既存順位、競合ページを踏まえたテーマ設計",
+          "読者が知りたいことと既存ページを踏まえたテーマ設計",
           "AIで構成案と下書きを作り、人間が事実確認と表現を調整",
           "公開後の表示回数、クリック、問い合わせ導線を見て改善",
         ],
@@ -691,7 +691,7 @@ export const services: ServiceContent[] = [
         title: "AIサポートを人間との協業で仕上げる",
         description: `現状はAI単独で100点には届かないため、問い合わせ対応、社内ヘルプ、文章作成の下書きと一次整理をAI、人間が最終判断と品質調整を担う体制を前提にします。ブランドの温度感、言葉の強弱、出してはいけない表現など、人間が見るべきポイントを明確にしたうえで分業します。
 
-この前提を置くことで、品質を落とさずに50%以上の効率化を狙える運用へ近づけます。AIに全部任せるのではなく、人間が介入する場所を設計することで、実際に回るチーム運用へ落とし込みます。`,
+この分担を決めることで、品質を保ちながら継続作業の負担を軽くできます。AIに全部任せるのではなく、人間が見る場所を明確にし、実際に回るチーム運用へ落とし込みます。`,
       },
     ],
     flow: {
@@ -758,16 +758,16 @@ export const services: ServiceContent[] = [
       type: "points",
       title: "AIエージェント導入時の前提",
       points: [
-        "まずはドラフト作成までをAIに任せ、完成度60%前後を起点に人間が100%へ仕上げる前提で進めます。",
-        "それでも50%以上の効率化を目指せ、簡単な業務であればほぼ100%任せられる領域も作れます。",
+        "まずはドラフト作成までをAIに任せ、人間が内容を確認して仕上げる前提で進めます。",
+        "繰り返しやすい作業から試し、結果を確認できた範囲だけAIへ任せます。",
         "AIエージェント化する場合は、与える権限と公開・返信前の確認ルールを制限します。",
-        "AIが業務を覚えるまでに、まずは約1カ月の初期学習期間を確保して育てていきます。",
+        "実際の出力と失敗例を見ながら、使い方と確認手順を少しずつ整えます。",
       ],
     },
   },
   {
     slug: "ai-web",
-    path: "/services/ai-web",
+    path: "/services/ai-web/",
     number: "SERVICE 03",
     titleLines: ["AI × Brand", "AI × Site"],
     overviewDescription:
@@ -795,13 +795,13 @@ export const services: ServiceContent[] = [
       },
       {
         label: "SERVICE SEO",
-        title: "サービスカテゴリごとの検索意図をページ設計に落とす",
+        title: "サービスごとの役割をページ設計に落とす",
         description:
-          "今回の整理のように、カテゴリと下層ページが重複しないよう、検索意図、料金、相談範囲、導線を分けて設計します。",
+          "複数のページが同じ説明を繰り返さないよう、料金、相談範囲、次に進む導線を分けて設計します。",
         items: [
           "カテゴリページで主要アプローチを整理",
-          "独立ページ化する場合は十分に異なる検索意図と内容を用意",
-          "タイトル、description、内部リンク、構造化データを同時に調整",
+          "個別ページでは、そのページだけで分かる具体的な内容を用意",
+          "ページ名、要約、内部リンク、構造化データを同時に調整",
         ],
       },
       {
@@ -821,7 +821,7 @@ export const services: ServiceContent[] = [
         description:
           "サイトは公開して終わりではなく、表示回数、クリック、問い合わせ、離脱の情報を見ながら、ページ構造と訴求を継続的に更新します。",
         items: [
-          "Search Consoleで非指名キーワードと弱いページを確認",
+          "表示回数とクリックから、伝わりにくいページを確認",
           "問い合わせにつながる見出し、FAQ、CTAを継続改善",
           "必要になった時点で記事、事例、用途別ページを増やす",
         ],
@@ -836,7 +836,7 @@ export const services: ServiceContent[] = [
       },
       {
         title: "人間がブランド表現と品質を仕上げる",
-        description: `AIだけで到達できる品質は70%前後と捉え、残りのコピー、ビジュアル、動き、導線設計、細かな体験品質を人間が仕上げます。見た目を整えるだけでなく、ブランドの印象や伝わり方まで含めて、人間が最後の精度を上げます。
+        description: `AIで作った土台をもとに、コピー、ビジュアル、動き、導線設計、細かな体験品質を人間が仕上げます。見た目を整えるだけでなく、ブランドの印象や伝わり方まで含めて、人間が最後の精度を上げます。
 
 速さを優先しながらも、選ばれるブランドサイトに必要な仕上がりは人間が担保します。AIで土台を一気に作り、人間が仕上げを担うことで、スピードと完成度の両立を現実的に狙えます。`,
       },

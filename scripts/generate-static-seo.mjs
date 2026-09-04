@@ -19,7 +19,6 @@ function escapeHtml(value) {
 }
 
 function buildSeoHead(entry) {
-  const canonicalUrl = toCanonicalUrl(entry.path);
   const imageUrl = toAbsoluteUrl(entry.image ?? "/og/home.png");
   const imageAlt = entry.imageAlt ?? entry.title;
   const robots = entry.noindex
@@ -28,22 +27,40 @@ function buildSeoHead(entry) {
   const schemaTags = (entry.schemas ?? [])
     .map(
       (schema) =>
-        `<script type="application/ld+json">${JSON.stringify(schema).replace(/</g, "\\u003c")}</script>`,
+        `<script type="application/ld+json" data-seo-schema="true">${JSON.stringify(schema).replace(/</g, "\\u003c")}</script>`,
     )
     .join("\n    ");
+  const canonicalTag = entry.canonical === null
+    ? ""
+    : `<link rel="canonical" href="${escapeHtml(toCanonicalUrl(entry.canonical ?? entry.path))}" />`;
+  const ogUrlTag = entry.canonical === null
+    ? ""
+    : `<meta property="og:url" content="${escapeHtml(toCanonicalUrl(entry.canonical ?? entry.path))}" />`;
+  const articleTags = entry.ogType === "article"
+    ? [
+        entry.publishedAt
+          ? `<meta property="article:published_time" content="${escapeHtml(entry.publishedAt)}" />`
+          : "",
+        entry.updatedAt
+          ? `<meta property="article:modified_time" content="${escapeHtml(entry.updatedAt)}" />`
+          : "",
+        entry.category
+          ? `<meta property="article:section" content="${escapeHtml(entry.category)}" />`
+          : "",
+      ].filter(Boolean).join("\n    ")
+    : "";
 
   return `${markerStart}
     <title>${escapeHtml(entry.title)}</title>
     <meta name="description" content="${escapeHtml(entry.description)}" />
-    <meta name="keywords" content="${escapeHtml(entry.keywords ?? "")}" />
     <meta name="robots" content="${robots}" />
     <meta name="author" content="GAMI" />
     <meta name="application-name" content="GAMI" />
-    <link rel="canonical" href="${canonicalUrl}" />
+    ${canonicalTag}
     <meta property="og:locale" content="ja_JP" />
     <meta property="og:site_name" content="GAMI" />
     <meta property="og:type" content="${entry.ogType ?? "website"}" />
-    <meta property="og:url" content="${canonicalUrl}" />
+    ${ogUrlTag}
     <meta property="og:title" content="${escapeHtml(entry.title)}" />
     <meta property="og:description" content="${escapeHtml(entry.description)}" />
     <meta property="og:image" content="${imageUrl}" />
@@ -57,6 +74,7 @@ function buildSeoHead(entry) {
     <meta name="twitter:description" content="${escapeHtml(entry.description)}" />
     <meta name="twitter:image" content="${imageUrl}" />
     <meta name="twitter:image:alt" content="${escapeHtml(imageAlt)}" />
+    ${articleTags}
     ${schemaTags}
     ${markerEnd}`;
 }
@@ -120,24 +138,45 @@ function replaceRootContent(template, html) {
 }
 
 function buildStaticFallbackBody(entry) {
-  const heading = escapeHtml(stripTitleSuffix(entry.title) || "GAMI");
+  const heading = escapeHtml(entry.fallbackHeading ?? stripTitleSuffix(entry.title) ?? "GAMI");
   const description = escapeHtml(entry.description ?? "");
 
   if (Array.isArray(entry.fallbackSections) && entry.fallbackSections.length > 0) {
     const sections = entry.fallbackSections
       .map((section, index) => {
+        const paragraphs = Array.isArray(section.paragraphs)
+          ? section.paragraphs
+          : section.body
+            ? [section.body]
+            : [];
+        const body = paragraphs
+          .map((paragraph) => `<p class="mt-5 text-lg text-zinc-600 leading-relaxed">${escapeHtml(paragraph)}</p>`)
+          .join("");
         const items = Array.isArray(section.items)
-          ? `<ul class="mt-6 space-y-3 text-zinc-600 leading-relaxed">${section.items
+          ? `<${section.ordered ? "ol" : "ul"} class="mt-6 space-y-3 text-zinc-600 leading-relaxed">${section.items
               .map((item) => `<li>${escapeHtml(item)}</li>`)
+              .join("")}</${section.ordered ? "ol" : "ul"}>`
+          : "";
+        const links = Array.isArray(section.links)
+          ? `<ul class="mt-6 space-y-3 text-zinc-600 leading-relaxed">${section.links
+              .map((link) => `<li><a class="underline underline-offset-4" href="${escapeHtml(link.href)}">${escapeHtml(link.label)}</a></li>`)
               .join("")}</ul>`
           : "";
+        const sectionLink = section.link
+          ? `<p class="mt-6"><a class="text-cyan-600 underline underline-offset-4" href="${escapeHtml(section.link.href)}">${escapeHtml(section.link.label)}</a></p>`
+          : "";
+        const title = section.href
+          ? `<a href="${escapeHtml(section.href)}">${escapeHtml(section.title)}</a>`
+          : escapeHtml(section.title);
 
         return `
           <article class="border-t border-zinc-200 py-10">
             <p class="text-sm font-bold tracking-widest text-cyan-500">SECTION ${String(index + 1).padStart(2, "0")}</p>
-            <h2 class="mt-3 text-2xl md:text-3xl font-bold leading-tight text-zinc-900">${escapeHtml(section.title)}</h2>
-            <p class="mt-5 text-lg text-zinc-600 leading-relaxed">${escapeHtml(section.body)}</p>
+            <h2 class="mt-3 text-2xl md:text-3xl font-bold leading-tight text-zinc-900">${title}</h2>
+            ${body}
             ${items}
+            ${links}
+            ${sectionLink}
           </article>`;
       })
       .join("");
@@ -211,7 +250,7 @@ function getSitemapPriority(pathname) {
 }
 
 function getSitemapChangefreq(pathname) {
-  if (pathname === "/" || pathname === "/news") {
+  if (pathname === "/" || pathname === "/news" || pathname === "/insights") {
     return "weekly";
   }
 
@@ -219,12 +258,11 @@ function getSitemapChangefreq(pathname) {
 }
 
 function buildSitemap(entries) {
-  const lastmod = new Date().toISOString().slice(0, 10);
   const urls = entries
     .filter((entry) => !entry.noindex)
     .map((entry) => `  <url>
     <loc>${escapeHtml(toCanonicalUrl(entry.path))}</loc>
-    <lastmod>${lastmod}</lastmod>
+    <lastmod>${escapeHtml(entry.lastModified ?? "2026-05-08")}</lastmod>
     <changefreq>${getSitemapChangefreq(entry.path)}</changefreq>
     <priority>${getSitemapPriority(entry.path)}</priority>
   </url>`)

@@ -8,4 +8,6 @@ output/
 .env.*
 
 .idea/
+.lazyweb/
+.playwright-mcp/
 

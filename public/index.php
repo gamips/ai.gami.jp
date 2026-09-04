@@ -80,6 +80,13 @@ if (is_file($routeFilePath)) {
   $isKnownHtmlRoute = true;
 }
 
+if (!$isKnownHtmlRoute) {
+  $notFoundHtmlPath = $documentRoot . "/404/index.html";
+  if (is_file($notFoundHtmlPath)) {
+    $servePath = $notFoundHtmlPath;
+  }
+}
+
 header("Content-Type: text/html; charset=UTF-8");
 
 if (!$isKnownHtmlRoute) {

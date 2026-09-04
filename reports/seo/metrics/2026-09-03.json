@@ -1,0 +1,99 @@
+{
+  "observedAt": "2026-09-03T23:38:55+09:00",
+  "source": "Google Search Console API and Search Console UI",
+  "siteUrl": "sc-domain:ai.gami.jp",
+  "latestReturnedDate": "2026-09-01",
+  "lagDays": 2,
+  "windows": {
+    "current28d": {
+      "startDate": "2026-08-05",
+      "endDate": "2026-09-01",
+      "clicks": 1,
+      "impressions": 19,
+      "ctr": 0.0526315789,
+      "position": 16.47
+    },
+    "previous28d": {
+      "startDate": "2026-07-08",
+      "endDate": "2026-08-04",
+      "clicks": 2,
+      "impressions": 35,
+      "ctr": 0.0571428571,
+      "position": 7.37
+    },
+    "recent90d": {
+      "startDate": "2026-06-02",
+      "endDate": "2026-09-01",
+      "clicks": 4,
+      "impressions": 96,
+      "ctr": 0.0416666667,
+      "position": 6.9
+    }
+  },
+  "current28dDisclosedQueries": [
+    {
+      "query": "gami ai",
+      "clicks": 0,
+      "impressions": 8,
+      "position": 2
+    },
+    {
+      "query": "ai 導入 相談 窓口",
+      "clicks": 0,
+      "impressions": 3,
+      "position": 48
+    },
+    {
+      "query": "ai 開発 導入支援",
+      "clicks": 0,
+      "impressions": 2,
+      "position": 64.5
+    }
+  ],
+  "current28dPages": [
+    {
+      "page": "https://ai.gami.jp/about/",
+      "clicks": 1,
+      "impressions": 10,
+      "position": 8.6
+    },
+    {
+      "page": "https://ai.gami.jp/",
+      "clicks": 0,
+      "impressions": 10,
+      "position": 2
+    },
+    {
+      "page": "https://ai.gami.jp/concept/",
+      "clicks": 0,
+      "impressions": 7,
+      "position": 6.71
+    },
+    {
+      "page": "https://ai.gami.jp/contact/",
+      "clicks": 0,
+      "impressions": 4,
+      "position": 38
+    },
+    {
+      "page": "https://ai.gami.jp/services/",
+      "clicks": 0,
+      "impressions": 3,
+      "position": 45
+    }
+  ],
+  "indexingSnapshot": {
+    "lastUpdated": "2026-08-28",
+    "indexed": 10,
+    "excluded": 7,
+    "excludedReasons": {
+      "redirect": 6,
+      "crawledCurrentlyNotIndexed": 1
+    },
+    "note": "The crawled-not-indexed example was a retired service URL that now returns a 301. The report may be stale."
+  },
+  "interpretation": {
+    "result": "inconclusive",
+    "reason": "The sample is too small and disclosed query rows are anonymized. Current and previous period averages are strongly affected by branded queries."
+  }
+}

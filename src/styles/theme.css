@@ -198,6 +198,11 @@
     text-fill-color: transparent;
   }
 
+  .shadow-clone-glyph::before {
+    content: attr(data-char);
+    display: block;
+  }
+
   .shadow-clone-gradient {
     -webkit-text-stroke: 2px transparent;
     -webkit-text-fill-color: transparent;

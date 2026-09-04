@@ -85,7 +85,9 @@ export function ShadowCloneText({
               {clones[charIndex].map((clone, cloneIndex) => (
                 <motion.span
                   key={cloneIndex}
-                  className={`absolute inset-0 ${gradient ? '' : 'shadow-clone'}`}
+                  aria-hidden="true"
+                  data-char={char}
+                  className={`absolute inset-0 shadow-clone-glyph ${gradient ? '' : 'shadow-clone'}`}
                   initial={{ opacity: 0 }}
                   animate={{ opacity: clone.opacity }}
                   transition={{ duration: clone.duration, delay: delay + clone.delay }}
@@ -98,9 +100,7 @@ export function ShadowCloneText({
                       color: 'transparent'
                     } : {})
                   }}
-                >
-                  {char}
-                </motion.span>
+                />
               ))}
               {/* Main character - filled, appears last */}
               <motion.span

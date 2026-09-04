@@ -383,7 +383,7 @@ export function ServiceDetail() {
                 <ServiceSectionHeader
                   eyebrow="APPROACH"
                   title="このカテゴリで取れるアプローチ"
-                  intro="独立した小ページとして分ける前に、まずカテゴリの中で相談範囲と進め方を切り分けます。初回ヒアリングでは、ここから現実的に始められる入口を決めます。"
+                  intro="相談内容をいくつかの入口に分けています。初回ヒアリングでは、ここから現実的に始められる方法を一緒に決めます。"
                 />
               </ScrollReveal>
 

@@ -12,6 +12,7 @@ export function NotFound() {
         description="お探しのページは見つかりませんでした。"
         image="/og/home.png"
         imageAlt="404 page open graph image"
+        canonical={null}
         noindex
         schemas={[]}
       />

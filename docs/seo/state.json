@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "promptVersion": "1.0.0",
+  "automation": {
+    "name": "AI.GAMI SEO成長PDCA",
+    "id": "ai-gami-seo-pdca",
+    "currentCadenceHours": 3,
+    "status": "ACTIVE"
+  },
+  "lastActualRunAt": "2026-09-04T09:34:34+09:00",
+  "lastPromptAuditAt": "2026-09-04T09:34:34+09:00",
+  "measurement": {
+    "searchConsole": {
+      "siteUrl": "sc-domain:ai.gami.jp",
+      "status": "connected",
+      "latestFinalizedDate": "2026-09-01",
+      "lastRecordedAt": "2026-09-03T23:38:55+09:00",
+      "latestMetricsPath": "reports/seo/metrics/2026-09-03.json"
+    },
+    "ga4": {
+      "status": "not_configured",
+      "checkedAt": "2026-09-03",
+      "reason": "Accessible Analytics accounts did not contain an identifiable ai.gami.jp property. Search Console remains the measurement SSOT while account ownership is unresolved."
+    }
+  },
+  "activeExperimentIds": [
+    "insight-ai-introduction-support-v1"
+  ],
+  "observationQueue": [
+    {
+      "experimentId": "insight-ai-introduction-support-v1",
+      "status": "ready_for_deploy",
+      "nextChecks": [
+        {
+          "onOrAfter": "2026-09-11",
+          "check": "index and first page/query signal"
+        },
+        {
+          "onOrAfter": "2026-10-02",
+          "check": "28 finalized days or minimum evidence"
+        }
+      ]
+    }
+  ],
+  "readyQueue": [
+    {
+      "lane": "content",
+      "priority": 1,
+      "work": "生成AI導入支援の料金はどう決まるかを、既存priceページと重複しない記事にする"
+    },
+    {
+      "lane": "content",
+      "priority": 2,
+      "work": "ChatGPTを社内導入しても使われない理由を、定着チェック中心の記事にする"
+    },
+    {
+      "lane": "case-study",
+      "priority": 3,
+      "work": "育つ見積の確認済み実装事実と画面を集め、事例ページの一次資料を作る"
+    },
+    {
+      "lane": "technical",
+      "priority": 4,
+      "work": "ブランドfaviconを用意し、headとdeploy保持を確認する"
+    }
+  ],
+  "blocked": [
+    {
+      "lane": "analytics",
+      "item": "GA4 property and data stream",
+      "reason": "The correct Analytics account could not be identified without creating or selecting persistent external account state.",
+      "doesNotBlock": [
+        "Search Console measurement",
+        "content publishing",
+        "technical SEO",
+        "internal linking"
+      ]
+    }
+  ],
+  "promptAudit": {
+    "duplicateObservation": false,
+    "singleWriterConflict": false,
+    "verificationGap": false,
+    "cadenceChangeNeeded": false,
+    "nextFullAuditAfterCompletedRuns": 4
+  }
+}

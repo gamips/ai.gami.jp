@@ -9,26 +9,28 @@
       <div>
         <h4 class="font-bold mb-6 text-lg">PAGES</h4>
         <ul class="space-y-3">
-          <li><a href="/concept" class="transition-colors hover:text-cyan-500 text-zinc-600">コンセプト</a></li>
-          <li><a href="/services" class="transition-colors hover:text-cyan-500 text-zinc-600">サービス一覧</a></li>
-          <li><a href="/price" class="transition-colors hover:text-cyan-500 text-zinc-600">料金</a></li>
-          <li><a href="/about" class="transition-colors hover:text-cyan-500 text-zinc-600">私たちについて</a></li>
+          <li><a href="/concept/" class="transition-colors hover:text-cyan-500 text-zinc-600">コンセプト</a></li>
+          <li><a href="/services/" class="transition-colors hover:text-cyan-500 text-zinc-600">サービス一覧</a></li>
+          <li><a href="/price/" class="transition-colors hover:text-cyan-500 text-zinc-600">料金</a></li>
+          <li><a href="/insights/" class="transition-colors hover:text-cyan-500 text-zinc-600">Insights</a></li>
+          <li><a href="/news/" class="transition-colors hover:text-cyan-500 text-zinc-600">お知らせ</a></li>
+          <li><a href="/about/" class="transition-colors hover:text-cyan-500 text-zinc-600">私たちについて</a></li>
         </ul>
       </div>
 
       <div>
         <h4 class="font-bold mb-6 text-lg">SERVICE</h4>
         <ul class="space-y-3">
-          <li><a href="/services/ai-saas" class="transition-colors hover:text-cyan-500 text-zinc-600">AI × SaaS / AI × DX</a></li>
-          <li><a href="/services/ai-marketing" class="transition-colors hover:text-cyan-500 text-zinc-600">AI × Growth / AI × Support</a></li>
-          <li><a href="/services/ai-web" class="transition-colors hover:text-cyan-500 text-zinc-600">AI × Brand / AI × Site</a></li>
+          <li><a href="/services/ai-saas/" class="transition-colors hover:text-cyan-500 text-zinc-600">AI × SaaS / AI × DX</a></li>
+          <li><a href="/services/ai-marketing/" class="transition-colors hover:text-cyan-500 text-zinc-600">AI × Growth / AI × Support</a></li>
+          <li><a href="/services/ai-web/" class="transition-colors hover:text-cyan-500 text-zinc-600">AI × Brand / AI × Site</a></li>
         </ul>
       </div>
 
       <div>
         <h4 class="font-bold mb-6 text-lg">CONTACT</h4>
         <ul class="space-y-4">
-          <li><a href="/contact" class="inline-flex items-center gap-2 transition-colors hover:text-cyan-500 text-zinc-600">お問い合わせ</a></li>
+          <li><a href="/contact/" class="inline-flex items-center gap-2 transition-colors hover:text-cyan-500 text-zinc-600">お問い合わせ</a></li>
         </ul>
       </div>
     </div>

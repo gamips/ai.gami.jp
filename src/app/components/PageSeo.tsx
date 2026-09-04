@@ -18,6 +18,10 @@ type SeoOverride = {
   image?: string;
   imageAlt?: string;
   ogType?: string;
+  publishedAt?: string;
+  updatedAt?: string;
+  category?: string;
+  canonical?: string | null;
   noindex?: boolean;
   schemas?: Record<string, unknown>[];
 };
@@ -87,7 +91,9 @@ export function PageSeo({ path, ...override }: SeoOverride) {
       return;
     }
 
-    const canonicalUrl = toCanonicalUrl(entry.path ?? path ?? "/");
+    const canonicalUrl = entry.canonical === null
+      ? undefined
+      : toCanonicalUrl(entry.canonical ?? entry.path ?? path ?? "/");
     const imageUrl = toAbsoluteUrl(entry.image ?? "/og/home.png");
     const robots = entry.noindex
       ? "noindex,nofollow"
@@ -97,7 +103,6 @@ export function PageSeo({ path, ...override }: SeoOverride) {
     document.title = entry.title;
 
     upsertMeta("name", "description", entry.description);
-    upsertMeta("name", "keywords", entry.keywords);
     upsertMeta("name", "robots", robots);
     upsertMeta("name", "author", SITE_NAME);
     upsertMeta("name", "application-name", SITE_NAME);
@@ -116,6 +121,9 @@ export function PageSeo({ path, ...override }: SeoOverride) {
     upsertMeta("property", "og:image:width", String(DEFAULT_OG_IMAGE_WIDTH));
     upsertMeta("property", "og:image:height", String(DEFAULT_OG_IMAGE_HEIGHT));
     upsertMeta("property", "og:image:alt", entry.imageAlt ?? entry.title);
+    upsertMeta("property", "article:published_time", entry.ogType === "article" ? entry.publishedAt : undefined);
+    upsertMeta("property", "article:modified_time", entry.ogType === "article" ? entry.updatedAt : undefined);
+    upsertMeta("property", "article:section", entry.ogType === "article" ? entry.category : undefined);
 
     upsertMeta("name", "twitter:card", "summary_large_image");
     upsertMeta("name", "twitter:title", entry.title);
@@ -138,14 +146,18 @@ export function PageSeo({ path, ...override }: SeoOverride) {
     }
   }, [
     entry.description,
+    entry.canonical,
+    entry.category,
     entry.image,
     entry.imageAlt,
     entry.keywords,
     entry.noindex,
     entry.ogType,
     entry.path,
+    entry.publishedAt,
     entry.schemas,
     entry.title,
+    entry.updatedAt,
     path,
   ]);
 
