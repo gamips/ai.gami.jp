@@ -108,7 +108,7 @@
       "url": "https://ai.gami.jp/insights/chatgpt-workplace-adoption-checklist/",
       "type": "insight",
       "intent": "ChatGPT導入後に使われない状態の定着診断",
-      "status": "pending_deploy",
+      "status": "published",
       "lastModified": "2026-09-04",
       "schema": "Article",
       "experimentId": "insight-chatgpt-adoption-checklist-v1",
