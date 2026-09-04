@@ -7,8 +7,8 @@
     "currentCadenceHours": 3,
     "status": "ACTIVE"
   },
-  "lastActualRunAt": "2026-09-04T10:46:36+09:00",
-  "lastPromptAuditAt": "2026-09-04T10:46:36+09:00",
+  "lastActualRunAt": "2026-09-04T16:04:14+09:00",
+  "lastPromptAuditAt": "2026-09-04T16:04:14+09:00",
   "measurement": {
     "searchConsole": {
       "siteUrl": "sc-domain:ai.gami.jp",
@@ -28,9 +28,9 @@
     "insight-ai-introduction-support-pricing-v1"
   ],
   "deployment": {
-    "lastSuccessfulAt": "2026-09-04T10:46:03+09:00",
-    "commit": "0745d8d209e82bc26e407f539af41a57ae4c3cab",
-    "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/33826776824",
+    "lastSuccessfulAt": "2026-09-04T16:03:12+09:00",
+    "commit": "b51d598d7d4c29262c2e44b607958d271691fae6",
+    "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/33846630778",
     "liveVerification": "passed"
   },
   "observationQueue": [
@@ -51,8 +51,8 @@
     },
     {
       "experimentId": "insight-ai-introduction-support-pricing-v1",
-      "status": "ready_for_deploy",
-      "startedAt": null,
+      "status": "observing",
+      "startedAt": "2026-09-04T16:03:12+09:00",
       "nextChecks": [
         {
           "onOrAfter": "2026-09-11",

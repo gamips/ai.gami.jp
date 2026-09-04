@@ -97,7 +97,7 @@
       "url": "https://ai.gami.jp/insights/ai-introduction-support-pricing/",
       "type": "insight",
       "intent": "AI導入支援の費用を左右する条件と見積もり前の整理",
-      "status": "pending_deploy",
+      "status": "published",
       "lastModified": "2026-09-04",
       "schema": "Article",
       "experimentId": "insight-ai-introduction-support-pricing-v1",
