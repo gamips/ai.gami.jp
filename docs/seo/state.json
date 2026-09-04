@@ -7,8 +7,8 @@
     "currentCadenceHours": 3,
     "status": "ACTIVE"
   },
-  "lastActualRunAt": "2026-09-04T21:51:56+09:00",
-  "lastPromptAuditAt": "2026-09-04T21:51:56+09:00",
+  "lastActualRunAt": "2026-09-05T01:58:55+09:00",
+  "lastPromptAuditAt": "2026-09-05T01:58:55+09:00",
   "measurement": {
     "searchConsole": {
       "siteUrl": "sc-domain:ai.gami.jp",
@@ -29,9 +29,9 @@
     "insight-chatgpt-adoption-checklist-v1"
   ],
   "deployment": {
-    "lastSuccessfulAt": "2026-09-04T21:50:06+09:00",
-    "commit": "6aa58656c1b040958efdf1acaac2a28e7092db81",
-    "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/33874741008",
+    "lastSuccessfulAt": "2026-09-05T01:57:56+09:00",
+    "commit": "7850300480b8053f2cd200e58ee5c61c2a665cf3",
+    "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/33897962617",
     "liveVerification": "passed"
   },
   "observationQueue": [
@@ -112,6 +112,7 @@
     }
   ],
   "promptAudit": {
+    "lastFullAuditAt": "2026-09-05T01:58:55+09:00",
     "duplicateObservation": false,
     "singleWriterConflict": false,
     "verificationGap": false,
