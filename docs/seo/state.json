@@ -7,8 +7,8 @@
     "currentCadenceHours": 3,
     "status": "ACTIVE"
   },
-  "lastActualRunAt": "2026-09-05T18:41:51+09:00",
-  "lastPromptAuditAt": "2026-09-05T18:41:51+09:00",
+  "lastActualRunAt": "2026-09-05T21:46:09+09:00",
+  "lastPromptAuditAt": "2026-09-05T21:46:09+09:00",
   "measurement": {
     "searchConsole": {
       "siteUrl": "sc-domain:ai.gami.jp",
@@ -31,9 +31,9 @@
     "insight-rag-document-inventory-checklist-v1"
   ],
   "deployment": {
-    "lastSuccessfulAt": "2026-09-05T18:40:00+09:00",
-    "commit": "c125b84c16287009a0f5c63700f32479726f51f8",
-    "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/33958574969",
+    "lastSuccessfulAt": "2026-09-05T21:43:56+09:00",
+    "commit": "aecd8fb39479c47514ec32f06adb82dc70b6cbc8",
+    "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/33966848889",
     "liveVerification": "passed"
   },
   "observationQueue": [
@@ -115,14 +115,9 @@
   ],
   "readyQueue": [
     {
-      "lane": "owned-publicity",
-      "priority": 1,
-      "work": "既存Newsとホームの行に育つ見積開発事例を1件紹介。事例のタイトル・日付・URLをinsights.jsから再利用し、共通の案内データで動的表示と静的本文を合わせる。既存のお知らせは保持し、新規詳細ページやカードを作らない。"
-    },
-    {
       "lane": "content",
-      "priority": 2,
-      "work": "AI Web制作の公開前チェックを実際に確かめられる項目に絞って記事化する。既存のAI導入・料金・ChatGPT定着・RAG資料整理とは重複させず、スマホ表示、リンク、フォーム、検索で読める本文などを公式情報と実確認で裏付ける。"
+      "priority": 1,
+      "work": "AIで作ったサイトの公開前チェックを記事化。確定原稿と画像、スマホ操作、必要なページへのリンク、問い合わせの送信と受信、検索で読める本文、公開版と計測の6項目に絞る。既存5記事と重複させず、公式資料と実確認で裏付け、Claudeサブスクリプションで起草する。本番フォームの実送信は受信先とテスト方法を確定してから扱う。"
     }
   ],
   "blocked": [
@@ -158,6 +153,6 @@
     "nextFullAuditAfterCompletedRuns": 4,
     "actualPromptReadback": "passed",
     "changeApplied": false,
-    "changeReason": "The actual replayed prompt follows the current canonical file. No repeated operating issue, verification gap, writer conflict or cadence condition requires a change this run."
+    "changeReason": "One independently verified owned-news improvement completed while GSC data was unchanged. No repeated blocker, duplication, writer conflict or verification gap requires a prompt change; the next content task remains ready."
   }
 }

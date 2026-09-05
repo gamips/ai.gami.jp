@@ -11,7 +11,8 @@
       "type": "home",
       "intent": "GAMIのAI導入支援・AI開発全体",
       "status": "published",
-      "lastModified": "2026-05-08"
+      "lastModified": "2026-09-05",
+      "featuredCaseStudy": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/"
     },
     {
       "url": "https://ai.gami.jp/favicon.ico",
@@ -72,7 +73,8 @@
       "type": "news-index",
       "intent": "GAMIからのお知らせ",
       "status": "published",
-      "lastModified": "2026-05-08"
+      "lastModified": "2026-09-05",
+      "featuredCaseStudy": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/"
     },
     {
       "url": "https://ai.gami.jp/about/",
