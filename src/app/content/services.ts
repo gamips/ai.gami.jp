@@ -801,6 +801,10 @@ export const services: ServiceContent[] = [
           "AIで初期構成と実装の土台を作り、公開までの時間を短縮",
           "公開後に実データを見ながら足りないページや表現を追加",
         ],
+        link: {
+          label: "公開前に確認する6項目を見る",
+          href: "/insights/ai-website-launch-checklist/",
+        },
       },
       {
         label: "SERVICE SEO",
