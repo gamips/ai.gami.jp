@@ -7,8 +7,8 @@
     "currentCadenceHours": 3,
     "status": "ACTIVE"
   },
-  "lastActualRunAt": "2026-09-05T07:01:56+09:00",
-  "lastPromptAuditAt": "2026-09-05T07:01:56+09:00",
+  "lastActualRunAt": "2026-09-05T12:44:30+09:00",
+  "lastPromptAuditAt": "2026-09-05T12:44:30+09:00",
   "measurement": {
     "searchConsole": {
       "siteUrl": "sc-domain:ai.gami.jp",
@@ -30,9 +30,9 @@
     "insight-sodatsu-mitsumori-case-study-v1"
   ],
   "deployment": {
-    "lastSuccessfulAt": "2026-09-05T06:59:54+09:00",
-    "commit": "eb1c719771f7daec34909c45d613805e68d81c31",
-    "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/33923554862",
+    "lastSuccessfulAt": "2026-09-05T12:42:56+09:00",
+    "commit": "b7f35b7adaf2995b69586b9558f9b91c251d41ed",
+    "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/33942592891",
     "liveVerification": "passed"
   },
   "observationQueue": [
@@ -99,19 +99,19 @@
   ],
   "readyQueue": [
     {
-      "lane": "technical",
-      "priority": 1,
-      "work": "ブランドfaviconを用意し、headとdeploy保持を確認する"
-    },
-    {
       "lane": "content",
-      "priority": 2,
+      "priority": 1,
       "work": "RAG構築で最初に整理する社内資料を、資料棚卸しチェック中心の記事にする"
     },
     {
       "lane": "internal-link",
+      "priority": 2,
+      "work": "canonical親のAI × SaaSページからAI導入支援の解説記事へ、既存デザイン内で内部リンクを追加する"
+    },
+    {
+      "lane": "owned-publicity",
       "priority": 3,
-      "work": "AI導入支援サブサービスからAI導入支援の解説記事へ、既存デザイン内の導線を確認し、不足時に追加する"
+      "work": "公開済みの育つ見積開発事例をNewsとホームから自然に紹介し、重複ページを作らず内部流入を増やす"
     }
   ],
   "blocked": [
@@ -123,6 +123,17 @@
         "Search Console measurement",
         "content publishing",
         "technical SEO",
+        "internal linking"
+      ]
+    },
+    {
+      "lane": "tooling",
+      "item": "Gemini subscription CLI for new SVG generation",
+      "reason": "The official Gemini CLI rejected the connected individual subscription client as UNSUPPORTED_CLIENT. Existing brand assets remain usable; new SVG generation stays isolated until an Antigravity-compatible subscription connection is available.",
+      "doesNotBlock": [
+        "existing brand asset reuse",
+        "content publishing",
+        "technical SEO without new SVG artwork",
         "internal linking"
       ]
     }

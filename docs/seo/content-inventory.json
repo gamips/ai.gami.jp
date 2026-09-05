@@ -14,6 +14,16 @@
       "lastModified": "2026-05-08"
     },
     {
+      "url": "https://ai.gami.jp/favicon.ico",
+      "type": "site-icon",
+      "intent": "GAMIブランドのサイトアイコン",
+      "status": "published",
+      "indexable": false,
+      "lastModified": "2026-09-05",
+      "mimeType": "image/vnd.microsoft.icon",
+      "sha256": "FD5AD0CCB4822775A86B970A95F7A51886FB327E515E3659C5F0442299EB28D1"
+    },
+    {
       "url": "https://ai.gami.jp/concept/",
       "type": "brand",
       "intent": "AI Base, Human Craftの開発思想",
