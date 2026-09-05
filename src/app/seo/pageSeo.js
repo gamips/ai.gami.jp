@@ -670,6 +670,10 @@ export const pageSeoByPath = {
           "プロンプト、テンプレート、確認手順の整備",
           "RAGや業務システム開発へ広げる条件の整理",
         ],
+        link: {
+          label: "AI導入前に整理する5項目を見る",
+          href: "/insights/ai-introduction-support/",
+        },
       },
       {
         title: "RAG・社内AIチャットボットへつなぐ",

@@ -7,6 +7,7 @@ import { InquiryCta } from "../components/InquiryCta";
 import { PageSeo } from "../components/PageSeo";
 import { ServiceFeatureDiagram } from "../components/ServiceFeatureDiagram";
 import { ScrollReveal } from "../components/ScrollReveal";
+import { ScrollToTopLink } from "../components/ScrollToTopLink";
 import { NotFound } from "./NotFound";
 import {
   categoryServices,
@@ -424,6 +425,15 @@ export function ServiceDetail() {
                             </li>
                           ))}
                         </ul>
+                        {approach.link ? (
+                          <ScrollToTopLink
+                            to={approach.link.href}
+                            className="mt-6 inline-flex items-center gap-2 font-medium text-cyan-600 transition-all hover:gap-3 hover:text-cyan-700"
+                          >
+                            {approach.link.label}
+                            <ArrowRight size={18} aria-hidden="true" />
+                          </ScrollToTopLink>
+                        ) : null}
                       </div>
                     </article>
                   </ScrollReveal>

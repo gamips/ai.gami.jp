@@ -48,6 +48,10 @@ type ServiceApproach = {
   title: string;
   description: string;
   items: string[];
+  link?: {
+    label: string;
+    href: string;
+  };
 };
 
 type ServiceDetailBox =
@@ -228,6 +232,10 @@ export const services: ServiceContent[] = [
           "プロンプト、テンプレート、確認手順、社内ルールの整備",
           "RAG、AIエージェント、業務システム開発へ広げる条件の整理",
         ],
+        link: {
+          label: "AI導入前に整理する5項目を見る",
+          href: "/insights/ai-introduction-support/",
+        },
       },
       {
         label: "RAG / KNOWLEDGE",
