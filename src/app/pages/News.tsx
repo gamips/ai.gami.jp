@@ -2,9 +2,12 @@ import { Calendar, Tag } from "lucide-react";
 import { InquiryCta } from "../components/InquiryCta";
 import { PageSeo } from "../components/PageSeo";
 import { ScrollReveal } from "../components/ScrollReveal";
+import { ScrollToTopLink } from "../components/ScrollToTopLink";
+import { featuredNews } from "../content/news.js";
 
 export function News() {
   const newsItems = [
+    ...featuredNews,
     {
       id: 1,
       date: "2026.02.01",
@@ -54,7 +57,7 @@ export function News() {
                     <div>
                       <div className="flex items-center gap-3 text-zinc-500 mb-3">
                         <Calendar size={16} />
-                        <time className="text-sm">{news.date}</time>
+                        <time dateTime={news.date.replaceAll(".", "-")} className="text-sm">{news.date}</time>
                       </div>
                       <div className="inline-flex items-center gap-2 text-cyan-600 text-xs font-medium tracking-wide">
                         <Tag size={14} />
@@ -64,7 +67,11 @@ export function News() {
 
                     <div className="max-w-4xl">
                       <h2 className="text-2xl md:text-3xl font-bold mb-4 text-zinc-900">
-                        {news.title}
+                        {"href" in news && news.href ? (
+                          <ScrollToTopLink to={news.href} className="hover:text-cyan-500 transition-colors">
+                            {news.title}
+                          </ScrollToTopLink>
+                        ) : news.title}
                       </h2>
                       <p className="text-zinc-600 leading-relaxed">{news.description}</p>
                     </div>

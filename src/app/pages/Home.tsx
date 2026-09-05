@@ -7,6 +7,8 @@ import { DeferredGeometricParticles } from "../components/DeferredGeometricParti
 import { useMemo, useState, useEffect, useRef } from "react";
 import { getServiceBySlug } from "../content/services";
 import { PageSeo } from "../components/PageSeo";
+import { ScrollToTopLink } from "../components/ScrollToTopLink";
+import { featuredNews } from "../content/news.js";
 
 type ConceptLine =
   | {
@@ -623,6 +625,7 @@ export function Home() {
             <div className="lg:col-span-8">
               <div className="space-y-8">
                 {[
+                  ...featuredNews,
                   {
                     date: "2026.02.01",
                     category: "お知らせ",
@@ -650,7 +653,16 @@ export function Home() {
                           {news.category}
                         </span>
                       </div>
-                      {news.linkLabel ? (
+                      {news.href?.startsWith("/") ? (
+                        <h3 className="text-xl font-medium text-zinc-900">
+                          <ScrollToTopLink
+                            to={news.href}
+                            className="hover:text-cyan-500 transition-colors"
+                          >
+                            {news.title}
+                          </ScrollToTopLink>
+                        </h3>
+                      ) : "linkLabel" in news && news.linkLabel ? (
                         <h3 className="text-xl font-medium text-zinc-900">
                           <a
                             href={news.href}

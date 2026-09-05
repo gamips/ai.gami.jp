@@ -1,4 +1,5 @@
 import { insights } from "../content/insights.js";
+import { featuredNews } from "../content/news.js";
 
 export const SITE_NAME = "GAMI";
 export const SITE_LEGAL_NAME = "株式会社Gami";
@@ -275,6 +276,13 @@ const newsListSchema = {
   name: "GAMI News",
   url: toCanonicalUrl("/news"),
   hasPart: [
+    ...featuredNews.map((news) => ({
+      "@type": "Article",
+      headline: news.title,
+      datePublished: news.publishedAt,
+      articleSection: news.category,
+      url: toCanonicalUrl(news.href),
+    })),
     {
       "@type": "NewsArticle",
       headline: "コーポレートサイトをリニューアルオープンしました。",
@@ -291,6 +299,12 @@ const newsListSchema = {
     },
   ],
 };
+
+const featuredNewsSections = featuredNews.map((news) => ({
+  title: news.title,
+  body: news.description,
+  href: news.href,
+}));
 
 const insightsListSchema = {
   "@context": "https://schema.org",
@@ -348,7 +362,9 @@ function createInsightSchemas(insight) {
 export const pageSeoByPath = {
   "/": {
     path: "/",
+    lastModified: "2026-09-05",
     fallbackHeading: "AI速度、人間品質。",
+    fallbackSections: featuredNewsSections,
     title: "GAMI | AI導入支援・生成AI導入支援・AI開発会社",
     description:
       "中小企業向けのAI導入支援・AI開発会社GAMI。月2万円〜の生成AI導入支援、RAG構築、AIエージェント導入支援、AIマーケティング、AI Web制作までをAI基準で再設計します。",
@@ -914,7 +930,9 @@ export const pageSeoByPath = {
   },
   "/news": {
     path: "/news",
+    lastModified: "2026-09-05",
     fallbackHeading: "GAMIのお知らせ",
+    fallbackSections: featuredNewsSections,
     title: "News | 生成AI導入支援・AI開発のお知らせ | GAMI",
     description:
       "GAMIの生成AI導入支援、AI開発、AIマーケティング、AI Web制作に関する最新情報、お知らせ、サービスアップデートを掲載しています。",
