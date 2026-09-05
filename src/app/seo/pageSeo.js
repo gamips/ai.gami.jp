@@ -1035,7 +1035,7 @@ pageSeoByPath["/insights"] = {
   path: "/insights",
   fallbackHeading: "AI導入を、わかりやすく。",
   fallbackLabel: "INSIGHTS",
-  lastModified: "2026-09-05",
+  lastModified: "2026-09-06",
   title: "Insights | AI導入・生成AI活用の実践ガイド | GAMI",
   description:
     "中小企業のAI導入、生成AI活用、RAG、AIエージェント、AI Web制作について、仕事で使うための考え方と手順を短く具体的に紹介します。",
