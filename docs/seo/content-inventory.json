@@ -161,6 +161,16 @@
       "schema": "Article",
       "experimentId": "insight-ai-website-launch-checklist-v1",
       "relatedService": "https://ai.gami.jp/services/ai-web/"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-customer-reply-template/",
+      "type": "insight",
+      "intent": "問い合わせ一通を整理してAIで返信案を作る記入式テンプレート",
+      "status": "published",
+      "lastModified": "2026-09-06",
+      "schema": "Article",
+      "experimentId": "insight-ai-customer-reply-template-v1",
+      "relatedService": "https://ai.gami.jp/services/ai-marketing/"
     }
   ]
 }

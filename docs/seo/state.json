@@ -7,8 +7,8 @@
     "currentCadenceHours": 3,
     "status": "ACTIVE"
   },
-  "lastActualRunAt": "2026-09-06T03:42:28+09:00",
-  "lastPromptAuditAt": "2026-09-06T03:42:28+09:00",
+  "lastActualRunAt": "2026-09-06T06:46:37+09:00",
+  "lastPromptAuditAt": "2026-09-06T06:46:37+09:00",
   "measurement": {
     "searchConsole": {
       "siteUrl": "sc-domain:ai.gami.jp",
@@ -29,12 +29,13 @@
     "insight-chatgpt-adoption-checklist-v1",
     "insight-sodatsu-mitsumori-case-study-v1",
     "insight-rag-document-inventory-checklist-v1",
-    "insight-ai-website-launch-checklist-v1"
+    "insight-ai-website-launch-checklist-v1",
+    "insight-ai-customer-reply-template-v1"
   ],
   "deployment": {
-    "lastSuccessfulAt": "2026-09-06T03:41:17+09:00",
-    "commit": "4981dfe4ad18b5b930cb031eecb3bbb45fb33548",
-    "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/33984811948",
+    "lastSuccessfulAt": "2026-09-06T06:43:55+09:00",
+    "commit": "ee9c19c9ece062772f2fa081dd1fe050efe54aa4",
+    "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/33993862677",
     "liveVerification": "passed"
   },
   "observationQueue": [
@@ -127,17 +128,37 @@
           "check": "28 finalized days or minimum evidence"
         }
       ]
+    },
+    {
+      "experimentId": "insight-ai-customer-reply-template-v1",
+      "status": "observing",
+      "startedAt": "2026-09-06T06:43:55+09:00",
+      "nextChecks": [
+        {
+          "onOrAfter": "2026-09-13",
+          "check": "index and first page/query signal"
+        },
+        {
+          "onOrAfter": "2026-10-07",
+          "check": "28 finalized days or minimum evidence"
+        }
+      ]
     }
   ],
   "readyQueue": [
     {
-      "lane": "content",
+      "lane": "measurement",
       "priority": 1,
-      "work": "問い合わせ返信をAIで下書きする記入式テンプレート記事を作る。問い合わせの要点、確認済みの事実、確認が必要なこと、回答できる範囲、返信案の5欄と、納期未確定の架空例1件に絞る。実顧客情報・未確認の約束・効果数値は使わない。既存のChatGPT定着記事と重複させず、/services/ai-marketing/へ自然に案内する。既存Insights構造とClaudeサブスクリプションを使う。候補URL /insights/ai-customer-reply-template/ の検索需要は仮説として扱う。",
+      "work": "tools/gsc-searchconsole.ps1へ最小のinspect操作とInspectionUrl引数を追加し、既存認証・共通API関数・JSON出力を再利用する。Googleに記録されたindex状態、理由、最終クロール、canonical、巡回/登録制限を取得時刻とともに記録できるようにする。ホーム1件の読み取りpreflightは成功済み。まず既存ページで検証し、記事は予定の観測日に読む。ライブテストや登録リクエストを自動実行せず、欠けた項目は0や異常に置き換えない。",
       "evidence": [
-        "src/app/content/services.ts: AGENT / SUPPORT",
-        "https://learn.microsoft.com/en-us/dynamics365/contact-center/use/use-copilot-email?tabs=richtexteditor"
+        "tools/gsc-searchconsole.ps1: existing sites/query/freshness actions and Invoke-GscApi",
+        "https://developers.google.com/webmaster-tools/v1/urlInspection.index/inspect"
       ]
+    },
+    {
+      "lane": "internal-link",
+      "priority": 2,
+      "work": "AIマーケティングサービスのAGENT / SUPPORT行から /insights/ai-customer-reply-template/ へ既存の文字リンクを追加する。services.tsとpageSeo.jsの同名本文に同じリンクを設定し、共有UIと記事本文は変更しない。記事の流入経路追加として記録する。"
     }
   ],
   "blocked": [
@@ -173,6 +194,6 @@
     "nextFullAuditAfterCompletedRuns": 4,
     "actualPromptReadback": "passed",
     "changeApplied": false,
-    "changeReason": "Full four-run audit found a healthy mix of content, internal linking and owned publicity, with no duplicate metric saves or writer/deploy conflicts. Continue three-hour cadence. Added one reusable verification-surface learning for prior diagnostic false positives; no new prompt rule or schedule change is needed. Next ready work switches to practical AI support content."
+    "changeReason": "Published a practical customer-reply template without changing shared UI or existing articles; unchanged GSC results were not saved again. Prepared a verified read-only URL-inspection measurement task next, so the run does not depend on immature traffic data. No repeated operational issue or cadence condition requires changing prompt version 1.0.3."
   }
 }
