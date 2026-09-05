@@ -1,6 +1,6 @@
 # AI.GAMI SEO成長PDCA heartbeat prompt
 
-Prompt version: 1.0.2
+Prompt version: 1.0.3
 
 C:\Users\Akira Ishigami\google_antigravity_project\ai.gami.jp で、広告費を使わずに、検索・AI検索・紹介・無料パブリシティからの有効流入と問い合わせを継続的に増やしてください。ブランドを壊さず、シンプルで美しく、短く分かりやすい日本語を守ります。
 
@@ -50,7 +50,7 @@ Search Consoleはsc-domain:ai.gami.jpを正本とします。tools/gsc-searchcon
 
 ## 検証と公開
 
-変更後は少なくともnpm run build、git diff --check、変更箇所の静的確認を行います。UIと記事はlocal desktop/mobile、heading、link、console、横あふれを確認します。本番pushは原則1run 1回とし、進行中deployを別pushでcancelしません。GitHub Actions成功後に公開URL、HTTP、title、description、canonical、robots、schema、sitemap、主要内部リンク、desktop/mobileをreadbackします。
+検証は差分とリスクに合わせます。公開コードや記事の変更はnpm run build、git diff --check、変更箇所の静的確認を行います。新規記事は対象記事と一覧のhead、本文、schema、sitemap、内部リンクを確認し、公開後に実URLのHTTPと生成内容、desktop/mobile、heading、link、console、横あふれを確認します。共有UIを変えない記事ではlocalと本番の画面確認を重複させず、軽微な文言修正や運用文書だけなら全件buildや画面確認は不要です。共有テンプレートやルーティングを変える場合だけ、影響範囲へ回帰確認を広げます。本番pushは原則1run 1回とし、進行中deployを別pushでcancelしません。
 
 各URLでは同時に一つの変数だけを観測します。baseline、期待signal、最低証拠量、reviewAt、freeze範囲、rollbackを記録します。新規記事は完成した一ページpackageを一変数として扱えます。結果はconfirmed、disproven、inconclusive、not-yet-measurableに分類し、小標本から因果を断定しません。
 
@@ -58,7 +58,7 @@ Search Consoleはsc-domain:ai.gami.jpを正本とします。tools/gsc-searchcon
 
 run終了前にstate、content inventory、experiments、metrics、monthly run logを更新します。再利用できる学びだけをlearningsへ昇格します。毎回、停止、重複観測、班衝突、検証漏れ、成果密度、cadenceを監査し、no changeの場合も理由を記録します。
 
-同じ問題が2回以上繰り返した、検証漏れが実害を起こした、4回程度の実作業でlane配分が不適切と分かった、またはcadence条件を満たした場合は、同じnameのautomation IDを解決し、このファイルと実際のautomation promptまたはscheduleを必要最小限更新します。同目的のautomationを新設しません。promptVersion、変更理由、根拠、戻し方を記録し、無料方針、single writer、事実確認、ブランド、秘密情報、安全境界を弱めません。
+同じ問題が2回以上繰り返した、検証漏れが実害を起こした、4回程度の実作業でlane配分が不適切と分かった、またはcadence条件を満たした場合は、同じnameのautomation IDを解決し、このファイルと実際のautomation promptまたはscheduleを必要最小限更新します。ユーザーの方針変更はその時点で反映します。同目的のautomationを新設しません。実際のpromptはこのファイルを読む短い起動指示に保ち、詳細ルールを重複させません。更新後は保存されたpromptとscheduleを読み戻し、正本との矛盾がないことを確認します。promptVersion、変更理由、根拠、戻し方を記録し、無料方針、single writer、事実確認、ブランド、秘密情報、安全境界を弱めません。
 
 初期cadenceは3時間です。公開障害中だけ一時1時間、ready施策が尽き観測待ちだけになった場合はdiscoverで補充した後に6時間を検討し、ready施策または新しいsignalが増えたら3時間へ戻します。
 
@@ -68,3 +68,4 @@ run終了前にstate、content inventory、experiments、metrics、monthly run l
 
 - 1.0.1 / 2026-09-04: remote名を`origin`へ固定せず、設定済みpush remoteのmasterを確認する表現へ変更。根拠は、このrepoのremote名が`gamips`であり、固定名では開始時確認が失敗するため。戻す場合は、repoのremote名を変更し、開始時確認が通ることを確認してから行う。
 - 1.0.2 / 2026-09-04: ユーザーの表示方針に合わせ、記事末へ「参考資料」一覧を出さないルールを追加。一次情報による事実確認は維持する。戻す場合は、ユーザーが公開上の出典一覧を必要とすると明示したときだけ行う。
+- 1.0.3 / 2026-09-05: 最新のユーザー方針に合わせて検証を差分とリスクに応じた範囲へ整理。実際の定期promptに旧remote名と旧ルールが残っていたため、詳細はこの正本へ集約し、設定の読み戻しを追加。3時間間隔は維持。戻す場合も、参考資料を載せない方針と設定済みremoteの使用は維持する。

@@ -1,6 +1,6 @@
 # AI.GAMI SEO運用方針
 
-更新日: 2026-09-04
+更新日: 2026-09-05
 
 ## 目的
 
@@ -65,7 +65,7 @@ property total、query、page、device を混ぜない。匿名化、取得不�
 
 UI変更では現行デザインシステムを使い、Lazywebの実在例を確認する。カードを増やさず、余白、タイポグラフィ、罫線、必要最小限の図解で構成する。
 
-公開前に build、差分、desktop、mobile、console、主要リンクを確認する。本番公開後はHTTP、title、description、canonical、robots、schema、sitemap、内部リンク、desktop、mobileを実URLで再確認する。
+検証は差分とリスクに合わせる。記事追加はbuildと対象記事・一覧の静的確認、本番HTTP・head・schema・sitemap・内部リンク、PC・スマホ表示を確認する。共有UIを変えない場合はlocalと本番の画面確認を重複させない。軽微な文言修正や運用文書だけなら、全件buildや画面確認は不要。共有テンプレートやルーティングを変えた場合は影響範囲の回帰確認も行う。
 
 ## cadence
 
@@ -81,3 +81,5 @@ UI変更では現行デザインシステムを使い、Lazywebの実在例を�
 毎回、停止、重複観測、役割衝突、検証漏れ、成果密度、cadenceを短く監査する。同じ問題が2回以上続いた場合、4回程度の実作業でレーン配分が合わないと分かった場合、またはcadence条件を満たした場合は、同じ automation の prompt と schedule を必要最小限更新する。
 
 長い履歴や一時的な数値は prompt に足さない。戦術はこの方針、現在状態は state.json、URL責任は content-inventory.json、実験は experiments.jsonl、再利用可能な学びだけを learnings.md に置く。同目的の automation を増やさない。
+
+実際の定期promptはheartbeat-prompt.mdを読む短い起動指示とし、詳細ルールを二重管理しない。ユーザーの方針変更はすぐに反映し、更新後は保存された設定を読み戻す。
