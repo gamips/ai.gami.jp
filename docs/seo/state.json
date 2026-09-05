@@ -7,15 +7,15 @@
     "currentCadenceHours": 3,
     "status": "ACTIVE"
   },
-  "lastActualRunAt": "2026-09-05T15:45:53+09:00",
-  "lastPromptAuditAt": "2026-09-05T15:45:53+09:00",
+  "lastActualRunAt": "2026-09-05T18:41:51+09:00",
+  "lastPromptAuditAt": "2026-09-05T18:41:51+09:00",
   "measurement": {
     "searchConsole": {
       "siteUrl": "sc-domain:ai.gami.jp",
       "status": "connected",
-      "latestFinalizedDate": "2026-09-02",
-      "lastRecordedAt": "2026-09-05T01:39:09+09:00",
-      "latestMetricsPath": "reports/seo/metrics/2026-09-05.json"
+      "latestFinalizedDate": "2026-09-03",
+      "lastRecordedAt": "2026-09-05T18:37:15+09:00",
+      "latestMetricsPath": "reports/seo/metrics/2026-09-05-1837.json"
     },
     "ga4": {
       "status": "not_configured",
@@ -31,9 +31,9 @@
     "insight-rag-document-inventory-checklist-v1"
   ],
   "deployment": {
-    "lastSuccessfulAt": "2026-09-05T15:43:26+09:00",
-    "commit": "5de5cd587e8d6a91b86d7457efb2d8e609cc99aa",
-    "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/33950543869",
+    "lastSuccessfulAt": "2026-09-05T18:40:00+09:00",
+    "commit": "c125b84c16287009a0f5c63700f32479726f51f8",
+    "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/33958574969",
     "liveVerification": "passed"
   },
   "observationQueue": [
@@ -115,14 +115,14 @@
   ],
   "readyQueue": [
     {
-      "lane": "internal-link",
+      "lane": "owned-publicity",
       "priority": 1,
-      "work": "AI × SaaSのAPPROACH最初の箇条書き直下から /insights/ai-introduction-support/ へ既存のテキストリンクを追加。services.ts、ServiceDetail.tsx、pageSeo.jsの静的本文を合わせ、既存事例リンクは保持する"
+      "work": "既存Newsとホームの行に育つ見積開発事例を1件紹介。事例のタイトル・日付・URLをinsights.jsから再利用し、共通の案内データで動的表示と静的本文を合わせる。既存のお知らせは保持し、新規詳細ページやカードを作らない。"
     },
     {
-      "lane": "owned-publicity",
+      "lane": "content",
       "priority": 2,
-      "work": "公開済みの育つ見積開発事例をNewsとホームから自然に紹介し、重複ページを作らず内部流入を増やす"
+      "work": "AI Web制作の公開前チェックを実際に確かめられる項目に絞って記事化する。既存のAI導入・料金・ChatGPT定着・RAG資料整理とは重複させず、スマホ表示、リンク、フォーム、検索で読める本文などを公式情報と実確認で裏付ける。"
     }
   ],
   "blocked": [
@@ -157,7 +157,7 @@
     "cadenceChangeNeeded": false,
     "nextFullAuditAfterCompletedRuns": 4,
     "actualPromptReadback": "passed",
-    "changeApplied": true,
-    "changeReason": "Applied the user's proportional-verification and no-reference-list policy to the actual automation; removed duplicated detailed rules that retained the old origin remote."
+    "changeApplied": false,
+    "changeReason": "The actual replayed prompt follows the current canonical file. No repeated operating issue, verification gap, writer conflict or cadence condition requires a change this run."
   }
 }

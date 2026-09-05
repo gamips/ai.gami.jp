@@ -43,7 +43,8 @@
       "intent": "AI導入支援、RAG、業務システム開発",
       "status": "published",
       "lastModified": "2026-09-05",
-      "relatedCaseStudy": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/"
+      "relatedCaseStudy": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/",
+      "relatedGuide": "https://ai.gami.jp/insights/ai-introduction-support/"
     },
     {
       "url": "https://ai.gami.jp/services/ai-marketing/",
