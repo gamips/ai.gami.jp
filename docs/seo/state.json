@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "promptVersion": "1.0.2",
+  "promptVersion": "1.0.3",
   "automation": {
     "name": "AI.GAMI SEO成長PDCA",
     "id": "ai-gami-seo-pdca",
     "currentCadenceHours": 3,
     "status": "ACTIVE"
   },
-  "lastActualRunAt": "2026-09-05T12:44:30+09:00",
-  "lastPromptAuditAt": "2026-09-05T12:44:30+09:00",
+  "lastActualRunAt": "2026-09-05T15:45:53+09:00",
+  "lastPromptAuditAt": "2026-09-05T15:45:53+09:00",
   "measurement": {
     "searchConsole": {
       "siteUrl": "sc-domain:ai.gami.jp",
@@ -27,12 +27,13 @@
     "insight-ai-introduction-support-v1",
     "insight-ai-introduction-support-pricing-v1",
     "insight-chatgpt-adoption-checklist-v1",
-    "insight-sodatsu-mitsumori-case-study-v1"
+    "insight-sodatsu-mitsumori-case-study-v1",
+    "insight-rag-document-inventory-checklist-v1"
   ],
   "deployment": {
-    "lastSuccessfulAt": "2026-09-05T12:42:56+09:00",
-    "commit": "b7f35b7adaf2995b69586b9558f9b91c251d41ed",
-    "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/33942592891",
+    "lastSuccessfulAt": "2026-09-05T15:43:26+09:00",
+    "commit": "5de5cd587e8d6a91b86d7457efb2d8e609cc99aa",
+    "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/33950543869",
     "liveVerification": "passed"
   },
   "observationQueue": [
@@ -95,22 +96,32 @@
           "check": "28 finalized days or minimum evidence"
         }
       ]
+    },
+    {
+      "experimentId": "insight-rag-document-inventory-checklist-v1",
+      "status": "observing",
+      "startedAt": "2026-09-05T15:43:26+09:00",
+      "nextChecks": [
+        {
+          "onOrAfter": "2026-09-12",
+          "check": "index and first page/query signal"
+        },
+        {
+          "onOrAfter": "2026-10-06",
+          "check": "28 finalized days or minimum evidence"
+        }
+      ]
     }
   ],
   "readyQueue": [
     {
-      "lane": "content",
-      "priority": 1,
-      "work": "RAG構築で最初に整理する社内資料を、資料棚卸しチェック中心の記事にする"
-    },
-    {
       "lane": "internal-link",
-      "priority": 2,
-      "work": "canonical親のAI × SaaSページからAI導入支援の解説記事へ、既存デザイン内で内部リンクを追加する"
+      "priority": 1,
+      "work": "AI × SaaSのAPPROACH最初の箇条書き直下から /insights/ai-introduction-support/ へ既存のテキストリンクを追加。services.ts、ServiceDetail.tsx、pageSeo.jsの静的本文を合わせ、既存事例リンクは保持する"
     },
     {
       "lane": "owned-publicity",
-      "priority": 3,
+      "priority": 2,
       "work": "公開済みの育つ見積開発事例をNewsとホームから自然に紹介し、重複ページを作らず内部流入を増やす"
     }
   ],
@@ -139,11 +150,14 @@
     }
   ],
   "promptAudit": {
-    "lastFullAuditAt": "2026-09-05T01:58:55+09:00",
+    "lastFullAuditAt": "2026-09-05T15:45:53+09:00",
     "duplicateObservation": false,
     "singleWriterConflict": false,
     "verificationGap": false,
     "cadenceChangeNeeded": false,
-    "nextFullAuditAfterCompletedRuns": 4
+    "nextFullAuditAfterCompletedRuns": 4,
+    "actualPromptReadback": "passed",
+    "changeApplied": true,
+    "changeReason": "Applied the user's proportional-verification and no-reference-list policy to the actual automation; removed duplicated detailed rules that retained the old origin remote."
   }
 }

@@ -137,6 +137,16 @@
       "evidencePath": "docs/seo/case-studies/sodatsu-mitsumori-evidence.md",
       "relatedService": "https://ai.gami.jp/services/ai-saas/",
       "externalProduct": "https://sodatsu-mitsumori.net/"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/rag-document-inventory-checklist/",
+      "type": "insight",
+      "intent": "RAG導入前の社内資料整理と棚卸しの実務チェック",
+      "status": "published",
+      "lastModified": "2026-09-05",
+      "schema": "Article",
+      "experimentId": "insight-rag-document-inventory-checklist-v1",
+      "relatedService": "https://ai.gami.jp/services/ai-saas/"
     }
   ]
 }
