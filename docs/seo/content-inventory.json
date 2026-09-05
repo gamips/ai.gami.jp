@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-05",
+  "updatedAt": "2026-09-06",
   "rules": {
     "oneOwnerUrlPerIntent": true,
     "publicCopyExcludesOperationalMetadata": true
@@ -95,7 +95,7 @@
       "type": "insight-index",
       "intent": "AI導入と生成AI活用の実践ガイド一覧",
       "status": "published",
-      "lastModified": "2026-09-05"
+      "lastModified": "2026-09-06"
     },
     {
       "url": "https://ai.gami.jp/insights/ai-introduction-support/",
@@ -150,6 +150,16 @@
       "schema": "Article",
       "experimentId": "insight-rag-document-inventory-checklist-v1",
       "relatedService": "https://ai.gami.jp/services/ai-saas/"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-website-launch-checklist/",
+      "type": "insight",
+      "intent": "AIで作ったWebサイトの公開前確認と公開後の初期確認",
+      "status": "published",
+      "lastModified": "2026-09-06",
+      "schema": "Article",
+      "experimentId": "insight-ai-website-launch-checklist-v1",
+      "relatedService": "https://ai.gami.jp/services/ai-web/"
     }
   ]
 }
