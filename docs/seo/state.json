@@ -7,8 +7,8 @@
     "currentCadenceHours": 3,
     "status": "ACTIVE"
   },
-  "lastActualRunAt": "2026-09-06T00:50:18+09:00",
-  "lastPromptAuditAt": "2026-09-06T00:50:18+09:00",
+  "lastActualRunAt": "2026-09-06T03:42:28+09:00",
+  "lastPromptAuditAt": "2026-09-06T03:42:28+09:00",
   "measurement": {
     "searchConsole": {
       "siteUrl": "sc-domain:ai.gami.jp",
@@ -32,9 +32,9 @@
     "insight-ai-website-launch-checklist-v1"
   ],
   "deployment": {
-    "lastSuccessfulAt": "2026-09-06T00:46:42+09:00",
-    "commit": "695bdcda73727e0d3b999e6e442977526b64c6ca",
-    "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/33975797060",
+    "lastSuccessfulAt": "2026-09-06T03:41:17+09:00",
+    "commit": "4981dfe4ad18b5b930cb031eecb3bbb45fb33548",
+    "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/33984811948",
     "liveVerification": "passed"
   },
   "observationQueue": [
@@ -131,9 +131,13 @@
   ],
   "readyQueue": [
     {
-      "lane": "internal-link",
+      "lane": "content",
       "priority": 1,
-      "work": "AI Web制作サービスの既存FAST LAUNCH行に公開前チェック記事への文字リンクを追加する。services.tsの任意linkとpageSeo.jsの同じ静的本文をそろえ、既存コンポーネントを再利用する。記事本文は凍結を保ち、流入経路追加として実験へ記録。リンク1件、PC・スマホ、同一タブで記事先頭への移動を検証する。"
+      "work": "問い合わせ返信をAIで下書きする記入式テンプレート記事を作る。問い合わせの要点、確認済みの事実、確認が必要なこと、回答できる範囲、返信案の5欄と、納期未確定の架空例1件に絞る。実顧客情報・未確認の約束・効果数値は使わない。既存のChatGPT定着記事と重複させず、/services/ai-marketing/へ自然に案内する。既存Insights構造とClaudeサブスクリプションを使う。候補URL /insights/ai-customer-reply-template/ の検索需要は仮説として扱う。",
+      "evidence": [
+        "src/app/content/services.ts: AGENT / SUPPORT",
+        "https://learn.microsoft.com/en-us/dynamics365/contact-center/use/use-copilot-email?tabs=richtexteditor"
+      ]
     }
   ],
   "blocked": [
@@ -161,7 +165,7 @@
     }
   ],
   "promptAudit": {
-    "lastFullAuditAt": "2026-09-05T15:45:53+09:00",
+    "lastFullAuditAt": "2026-09-06T03:42:28+09:00",
     "duplicateObservation": false,
     "singleWriterConflict": false,
     "verificationGap": false,
@@ -169,6 +173,6 @@
     "nextFullAuditAfterCompletedRuns": 4,
     "actualPromptReadback": "passed",
     "changeApplied": false,
-    "changeReason": "Published one distinct practical checklist while measurement stayed unchanged; prepared a scoped service-to-guide link next. No repeated operating blocker, writer conflict, material verification gap or cadence condition warrants changing version 1.0.3. Actual ACTIVE three-hour automation still reads the canonical prompt and excludes public reference lists."
+    "changeReason": "Full four-run audit found a healthy mix of content, internal linking and owned publicity, with no duplicate metric saves or writer/deploy conflicts. Continue three-hour cadence. Added one reusable verification-surface learning for prior diagnostic false positives; no new prompt rule or schedule change is needed. Next ready work switches to practical AI support content."
   }
 }

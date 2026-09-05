@@ -59,7 +59,8 @@
       "type": "service",
       "intent": "AI Web制作とブランド品質",
       "status": "published",
-      "lastModified": "2026-09-04"
+      "lastModified": "2026-09-06",
+      "relatedGuide": "https://ai.gami.jp/insights/ai-website-launch-checklist/"
     },
     {
       "url": "https://ai.gami.jp/price/",
