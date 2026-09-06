@@ -1,0 +1,49 @@
+{
+  "repository": "gamips/ai.gami.jp",
+  "url": "https://github.com/gamips/ai.gami.jp",
+  "observedAt": "2026-09-07T08:07:39.6296584+09:00",
+  "before": {
+    "visibility": "PUBLIC",
+    "viewerPermission": "ADMIN",
+    "description": "AI GAMI website",
+    "homepageUrl": "",
+    "readmeTitle": "オリジナルデザイン作成",
+    "readmeOfficialSiteLinkCount": 0,
+    "traffic": {
+      "source": "GitHub traffic/views API",
+      "returnedWindowStart": "2026-08-23",
+      "returnedWindowEnd": "2026-09-05",
+      "count": 0,
+      "uniques": 0
+    }
+  },
+  "after": {
+    "visibility": "PUBLIC",
+    "description": "AI GAMI website",
+    "homepageUrl": "https://ai.gami.jp/",
+    "readmeTitle": "GAMI",
+    "readmeOfficialSiteLinkCount": 1,
+    "readmeCommit": "4cfd135f0926139cb408e77fd96a0093e006d140",
+    "readmeBlob": "03f78e68fe378036742b55de14b0e12f2df1856e",
+    "readmeUrl": "https://github.com/gamips/ai.gami.jp/blob/master/README.md",
+    "readmeReadback": "exact match",
+    "readmeVerifiedAt": "2026-09-07T08:05:57.6659090+09:00",
+    "originalFigmaAndDevelopmentInstructionsPreserved": true,
+    "siteHttpStatus": 200,
+    "siteSelfCanonical": true
+  },
+  "verification": {
+    "claudeSubscriptionDraft": "passed",
+    "codexReview": "passed",
+    "independentReadmeReview": "passed",
+    "diffCheck": "passed",
+    "websiteDeployment": "not run: README commit uses [skip ci]",
+    "websiteSourceUnchanged": true
+  },
+  "interpretation": {
+    "publication": "confirmed",
+    "trafficEffect": "not-yet-measurable",
+    "referralAttribution": "unavailable until a correct analytics property is available",
+    "note": "Repository views are not clicks to the website. No search-ranking or traffic increase is claimed."
+  }
+}

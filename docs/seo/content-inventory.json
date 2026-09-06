@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-06",
+  "updatedAt": "2026-09-07",
   "rules": {
     "oneOwnerUrlPerIntent": true,
     "publicCopyExcludesOperationalMetadata": true
@@ -172,6 +172,16 @@
       "schema": "Article",
       "experimentId": "insight-ai-customer-reply-template-v1",
       "relatedService": "https://ai.gami.jp/services/ai-marketing/"
+    },
+    {
+      "url": "https://github.com/gamips/ai.gami.jp",
+      "type": "owned-repository",
+      "intent": "GAMI公式サイトの公開コードとサイトへの案内",
+      "status": "published",
+      "lastModified": "2026-09-07",
+      "relatedWebsite": "https://ai.gami.jp/",
+      "readmeUrl": "https://github.com/gamips/ai.gami.jp/blob/master/README.md",
+      "experimentId": "github-project-site-intro-v1"
     }
   ]
 }

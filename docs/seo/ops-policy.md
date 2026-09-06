@@ -1,6 +1,6 @@
 # AI.GAMI SEO運用方針
 
-更新日: 2026-09-06
+更新日: 2026-09-07
 
 ## 目的
 
@@ -80,9 +80,9 @@ UI変更では現行デザインシステムを使い、Lazywebの実在例を�
 ## cadence
 
 - 現在の実行時刻はautomationの保存設定を正本とする。3時間は初期値であり、別途変更された最新設定を初期値で上書きしない。
-- ready施策が3件以上ある間は3時間を維持する。
+- 初期の3時間運用では、ready施策が3件以上ある間はその間隔を維持する。
 - 3回連続で observe または meta のみで、discover後も ready施策が2件未満なら6時間を検討する。
-- ready施策、新しいSearch Console signal、公開直後の確認が増えたら3時間へ戻す。
+- 自動で間隔を延ばした後にready施策、新しいSearch Console signal、公開直後の確認が増えたら、変更前の設定へ戻す。
 - 誤noindex、canonical異常、公開障害、deploy失敗時のみ一時1時間とし、24時間以内に再評価する。
 - cadence変更時は理由、期間、復帰条件を state と同じ automation に記録する。
 

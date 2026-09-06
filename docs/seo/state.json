@@ -7,11 +7,11 @@
     "currentCadenceHours": 24,
     "status": "ACTIVE",
     "currentSchedule": "毎日8:00（Asia/Tokyo）",
-    "scheduleObservedAt": "2026-09-06T20:16:12.1827233+09:00",
+    "scheduleObservedAt": "2026-09-07T08:07:39.6296584+09:00",
     "scheduleSource": "Existing app setting changed outside this run; preserved."
   },
-  "lastActualRunAt": "2026-09-06T20:16:12.1827233+09:00",
-  "lastPromptAuditAt": "2026-09-06T20:16:12.1827233+09:00",
+  "lastActualRunAt": "2026-09-07T08:07:39.6296584+09:00",
+  "lastPromptAuditAt": "2026-09-07T08:07:39.6296584+09:00",
   "measurement": {
     "searchConsole": {
       "siteUrl": "sc-domain:ai.gami.jp",
@@ -47,7 +47,8 @@
     "insight-sodatsu-mitsumori-case-study-v1",
     "insight-rag-document-inventory-checklist-v1",
     "insight-ai-website-launch-checklist-v1",
-    "insight-ai-customer-reply-template-v1"
+    "insight-ai-customer-reply-template-v1",
+    "github-project-site-intro-v1"
   ],
   "deployment": {
     "lastSuccessfulAt": "2026-09-06T20:12:17+09:00",
@@ -160,23 +161,28 @@
           "check": "28 finalized days or minimum evidence"
         }
       ]
+    },
+    {
+      "experimentId": "github-project-site-intro-v1",
+      "status": "observing",
+      "startedAt": "2026-09-07T08:05:57.6659090+09:00",
+      "nextChecks": [
+        {
+          "onOrAfter": "2026-09-21",
+          "check": "GitHub repository audience only; do not treat repository views as website referrals. Referral impact remains unmeasurable without analytics."
+        }
+      ]
     }
   ],
   "readyQueue": [
     {
-      "lane": "owned-publicity",
+      "lane": "content",
       "priority": 1,
-      "work": "公開GitHubリポジトリ gamips/ai.gami.jp のREADME冒頭を短い正確な紹介と公開サイトへのリンクで整え、AboutのWebサイト欄を https://ai.gami.jp/ に設定する。Claudeサブスクリプションで文言を作成・確認し、Figma元情報と開発・公開手順は保持する。サイト本体と観測中の記事は変えない。文書だけのcommitは[skip ci]を使い、GitHubのREADME・About読み戻しとリンク先200で検証する。",
-      "baseline": {
-        "repositoryVisibility": "PUBLIC",
-        "viewerPermission": "ADMIN",
-        "homepageUrl": "",
-        "readmeTitle": "オリジナルデザイン作成",
-        "github14dViews": 0,
-        "github14dUniques": 0,
-        "observedOn": "2026-09-06"
-      },
-      "expectedValue": "Short, free owned-publicity setup; existing readers and referral lift are not established. GA4 referral measurement remains unavailable."
+      "work": "既存SaaSか独自開発かを、一つの業務で比較する記入式ガイドを作る。対象業務、外せない手順、権限・承認、入出力・連携、変更担当、保守・費用の確認事項の6欄と、架空の承認業務1例に絞る。候補URL /insights/saas-or-custom-system-checklist/ は404確認済み。候補製品の料金比較や断定的な採点、未確認の成果は入れない。既存の導入費用記事とは要件の適合判断で区別する。Claudeサブスクリプションで起草しCodexがレビュー、既存Insights構造で制作して /services/ai-saas/ へ自然に案内する。観測中の記事と共有UIは変更しない。",
+      "evidence": [
+        "src/app/content/services.ts: SYSTEM BUILD, existing SaaS comparison, maintenance and integration scope"
+      ],
+      "searchDemand": "hypothesis: no supporting disclosed query observed"
     }
   ],
   "blocked": [
@@ -215,16 +221,16 @@
     }
   ],
   "promptAudit": {
-    "lastFullAuditAt": "2026-09-06T03:42:28+09:00",
+    "lastFullAuditAt": "2026-09-07T08:07:39.6296584+09:00",
     "duplicateObservation": false,
     "singleWriterConflict": false,
     "verificationGap": false,
     "cadenceChangeNeeded": false,
     "nextFullAuditAfterCompletedRuns": 4,
     "actualPromptReadback": "passed",
-    "changeApplied": true,
-    "changeReason": "Published and verified the support-to-template link while article observations mature. The saved app schedule was externally changed to daily 08:00 during this run; preserved it and updated both prompt sources to treat the current saved schedule as authoritative rather than mechanically restoring the three-hour initial value. New finalized GSC data was saved once. A bounded owned-publicity task is ready next.",
+    "changeApplied": false,
+    "changeReason": "Completed the four-run audit: content, measurement tooling, internal linking and owned publicity progressed without waiting on immature metrics or duplicate saves. Kept prompt1.0.4 and the saved daily08:00 schedule. Clarified the two older three-hour examples in ops-policy so a temporary cadence adjustment returns to its prior setting. README/About publication was verified; a distinct practical SaaS-versus-custom guide is ready next.",
     "operatingPolicyUpdated": true,
-    "externalScheduleChangeObserved": true
+    "externalScheduleChangeObserved": false
   }
 }
