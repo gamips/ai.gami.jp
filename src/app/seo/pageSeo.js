@@ -752,7 +752,7 @@ export const pageSeoByPath = {
   "/services/ai-marketing": {
     path: "/services/ai-marketing",
     fallbackHeading: "AIマーケティングとAIサポート",
-    lastModified: "2026-09-04",
+    lastModified: "2026-09-06",
     title: "AI × Growth / AI × Support | AIマーケティング・AIエージェント導入支援 | GAMI",
     description:
       "AIマーケティング、AIライティング、SEO記事作成、AIエージェント導入支援、問い合わせ対応、AI検索対策を、発信と対応を軽くする導入アプローチとして整理します。",
@@ -781,6 +781,10 @@ export const pageSeoByPath = {
           "社外送信や公開前に人間が確認する条件の設計",
           "ログと失敗例を使ったプロンプト・権限・運用ルールの改善",
         ],
+        link: {
+          label: "問い合わせ返信のテンプレートを見る",
+          href: "/insights/ai-customer-reply-template/",
+        },
       },
       {
         title: "AI検索対策・LLMOの土台を整える",

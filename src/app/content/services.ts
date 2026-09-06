@@ -659,6 +659,10 @@ export const services: ServiceContent[] = [
           "社外送信や公開前に人間が確認する条件の設計",
           "ログと失敗例を使ったプロンプト・権限・運用ルールの改善",
         ],
+        link: {
+          label: "問い合わせ返信のテンプレートを見る",
+          href: "/insights/ai-customer-reply-template/",
+        },
       },
       {
         label: "AI SEARCH",
