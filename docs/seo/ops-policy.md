@@ -1,6 +1,6 @@
 # AI.GAMI SEO運用方針
 
-更新日: 2026-09-05
+更新日: 2026-09-06
 
 ## 目的
 
@@ -36,6 +36,14 @@
 ## 計測
 
 Search Console の sc-domain:ai.gami.jp を当面の正本とする。最初に freshness を確認し、latestReturnedDate を確定境界として比較期間を作る。同一確定日・同一結果は24時間以内に重複保存しない。
+
+記事の観測日には、登録状況も読み取る。
+
+```powershell
+./tools/gsc-searchconsole.ps1 -Action inspect -InspectionUrl 'https://ai.gami.jp/'
+```
+
+対象URLを指定し、取得結果を `reports/seo/inspections/` へ日付付きで残す。`source: google-index` はGoogleに記録された状態で、現在のページのライブテストではない。取得時刻と最終クロール日時を分け、欠損の `null` やAPIの不明値から異常を推測しない。`-Raw` は同じ結果をPowerShellオブジェクトで返す。
 
 主KPI:
 

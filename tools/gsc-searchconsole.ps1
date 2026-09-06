@@ -1,8 +1,9 @@
 param(
-    [ValidateSet('sites', 'query', 'freshness')]
+    [ValidateSet('sites', 'query', 'freshness', 'inspect')]
     [string] $Action = 'query',
 
     [string] $SiteUrl = 'sc-domain:ai.gami.jp',
+    [string] $InspectionUrl,
     [string] $QuotaProject,
     [string] $StartDate,
     [string] $EndDate,
@@ -157,6 +158,44 @@ function Write-Result($Value) {
 switch ($Action) {
     'sites' {
         Write-Result (Invoke-GscApi -Method 'GET' -Uri 'https://searchconsole.googleapis.com/webmasters/v3/sites')
+    }
+
+    'inspect' {
+        if ([string]::IsNullOrWhiteSpace($InspectionUrl)) {
+            throw 'InspectionUrl is required for inspect.'
+        }
+
+        $Result = Invoke-GscApi -Method 'POST' -Uri 'https://searchconsole.googleapis.com/v1/urlInspection/index:inspect' -Body @{
+            inspectionUrl = $InspectionUrl
+            siteUrl = $SiteUrl
+            languageCode = 'ja-JP'
+        }
+
+        $Inspection = $null
+        $IndexStatus = $null
+        if ($Result.PSObject.Properties['inspectionResult']) {
+            $Inspection = $Result.inspectionResult
+        }
+        if ($Inspection -and $Inspection.PSObject.Properties['indexStatusResult']) {
+            $IndexStatus = $Inspection.indexStatusResult
+        }
+
+        $Output = [ordered]@{
+            siteUrl = $SiteUrl
+            inspectionUrl = $InspectionUrl
+            fetchedAt = [DateTimeOffset]::UtcNow.ToString('o')
+            source = 'google-index'
+            inspectionResultLink = if ($Inspection -and $Inspection.PSObject.Properties['inspectionResultLink']) {
+                $Inspection.inspectionResultLink
+            } else { $null }
+        }
+        foreach ($Field in @('verdict', 'coverageState', 'robotsTxtState', 'indexingState', 'lastCrawlTime', 'pageFetchState', 'googleCanonical', 'userCanonical')) {
+            $Output[$Field] = if ($IndexStatus -and $IndexStatus.PSObject.Properties[$Field]) {
+                $IndexStatus.$Field
+            } else { $null }
+        }
+
+        Write-Result ([pscustomobject] $Output)
     }
 
     'query' {
