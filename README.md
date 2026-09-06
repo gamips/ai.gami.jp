@@ -1,4 +1,8 @@
-# オリジナルデザイン作成
+# GAMI
+
+GAMIの公式サイトのソースコードです。AI導入支援、AIを活用した業務システム開発、Web制作を紹介しています。
+
+[公開サイトを見る](https://ai.gami.jp/)
 
 This is a code bundle for オリジナルデザイン作成. The original project is available at https://www.figma.com/design/jwq4Z7Kuu1RVwqxPrQsH4Q/%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E4%BD%9C%E6%88%90.
 
