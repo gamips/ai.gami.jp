@@ -1,0 +1,66 @@
+{
+  "siteUrl": "sc-domain:ai.gami.jp",
+  "sitemapUrl": "https://ai.gami.jp/sitemap.xml",
+  "attemptedAt": "2026-09-06T00:49:35.3912710+00:00",
+  "before": {
+    "path": "https://ai.gami.jp/sitemap.xml",
+    "lastSubmitted": "2026-05-07T06:44:37.462Z",
+    "isPending": false,
+    "isSitemapsIndex": false,
+    "type": "sitemap",
+    "lastDownloaded": "2026-05-07T06:44:39.118Z",
+    "warnings": "0",
+    "errors": "0",
+    "contents": [
+      {
+        "type": "web",
+        "submitted": "10",
+        "indexed": "0"
+      }
+    ]
+  },
+  "submission": {
+    "status": "not_confirmed",
+    "httpStatus": 403,
+    "scopeEscalated": false,
+    "retryPerformed": false
+  },
+  "readbackAt": "2026-09-06T00:49:36.6981034+00:00",
+  "after": {
+    "path": "https://ai.gami.jp/sitemap.xml",
+    "lastSubmitted": "2026-05-07T06:44:37.462Z",
+    "isPending": false,
+    "isSitemapsIndex": false,
+    "type": "sitemap",
+    "lastDownloaded": "2026-05-07T06:44:39.118Z",
+    "warnings": "0",
+    "errors": "0",
+    "contents": [
+      {
+        "type": "web",
+        "submitted": "10",
+        "indexed": "0"
+      }
+    ]
+  },
+  "live": {
+    "httpStatus": 200,
+    "validXml": true,
+    "urlCount": 18,
+    "containsCustomerReplyArticle": true,
+    "robotsTxtSitemapReference": true
+  },
+  "assessment": {
+    "resubmission": "blocked",
+    "reason": "The existing-credential PUT returned HTTP 403. The exact authorization cause was not established; GET still succeeds.",
+    "indexing": "not_inferred",
+    "deprecatedField": "contents[].indexed is retained only as raw API evidence and must not be interpreted.",
+    "nextReadOnlyCheckOnOrAfter": "2026-09-08",
+    "scopeEscalated": false,
+    "retryPerformed": false
+  },
+  "sourceDocs": [
+    "https://developers.google.com/webmaster-tools/v1/sitemaps/submit",
+    "https://developers.google.com/webmaster-tools/v1/sitemaps"
+  ]
+}

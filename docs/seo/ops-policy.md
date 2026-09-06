@@ -45,6 +45,8 @@ Search Console の sc-domain:ai.gami.jp を当面の正本とする。最初に 
 
 対象URLを指定し、取得結果を `reports/seo/inspections/` へ日付付きで残す。`source: google-index` はGoogleに記録された状態で、現在のページのライブテストではない。取得時刻と最終クロール日時を分け、欠損の `null` やAPIの不明値から異常を推測しない。`-Raw` は同じ結果をPowerShellオブジェクトで返す。
 
+sitemap API の `contents[].indexed` は廃止済みなので使わない。送信受付、sitemapの取得、個々のページの登録は別々に確認する。
+
 主KPI:
 
 - 非指名 organic clicks
