@@ -1,21 +1,24 @@
 {
   "schemaVersion": 1,
-  "promptVersion": "1.0.3",
+  "promptVersion": "1.0.4",
   "automation": {
     "name": "AI.GAMI SEO成長PDCA",
     "id": "ai-gami-seo-pdca",
-    "currentCadenceHours": 3,
-    "status": "ACTIVE"
+    "currentCadenceHours": 24,
+    "status": "ACTIVE",
+    "currentSchedule": "毎日8:00（Asia/Tokyo）",
+    "scheduleObservedAt": "2026-09-06T20:16:12.1827233+09:00",
+    "scheduleSource": "Existing app setting changed outside this run; preserved."
   },
-  "lastActualRunAt": "2026-09-06T09:50:03+09:00",
-  "lastPromptAuditAt": "2026-09-06T09:50:03+09:00",
+  "lastActualRunAt": "2026-09-06T20:16:12.1827233+09:00",
+  "lastPromptAuditAt": "2026-09-06T20:16:12.1827233+09:00",
   "measurement": {
     "searchConsole": {
       "siteUrl": "sc-domain:ai.gami.jp",
       "status": "connected",
-      "latestFinalizedDate": "2026-09-03",
-      "lastRecordedAt": "2026-09-05T18:37:15+09:00",
-      "latestMetricsPath": "reports/seo/metrics/2026-09-05-1837.json",
+      "latestFinalizedDate": "2026-09-04",
+      "lastRecordedAt": "2026-09-06T20:07:59.2669280+09:00",
+      "latestMetricsPath": "reports/seo/metrics/2026-09-06-2007.json",
       "urlInspection": {
         "status": "available",
         "source": "google-index",
@@ -47,9 +50,9 @@
     "insight-ai-customer-reply-template-v1"
   ],
   "deployment": {
-    "lastSuccessfulAt": "2026-09-06T06:43:55+09:00",
-    "commit": "ee9c19c9ece062772f2fa081dd1fe050efe54aa4",
-    "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/33993862677",
+    "lastSuccessfulAt": "2026-09-06T20:12:17+09:00",
+    "commit": "4eea1996a012652d1a49764e56e12faafab0762c",
+    "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/34029540872",
     "liveVerification": "passed"
   },
   "observationQueue": [
@@ -161,9 +164,19 @@
   ],
   "readyQueue": [
     {
-      "lane": "internal-link",
+      "lane": "owned-publicity",
       "priority": 1,
-      "work": "AIマーケティングサービスのAGENT / SUPPORT行から /insights/ai-customer-reply-template/ へ既存の文字リンクを追加する。services.tsとpageSeo.jsの同名本文に同じリンクを設定し、共有UIと記事本文は変更しない。記事の流入経路追加として記録する。"
+      "work": "公開GitHubリポジトリ gamips/ai.gami.jp のREADME冒頭を短い正確な紹介と公開サイトへのリンクで整え、AboutのWebサイト欄を https://ai.gami.jp/ に設定する。Claudeサブスクリプションで文言を作成・確認し、Figma元情報と開発・公開手順は保持する。サイト本体と観測中の記事は変えない。文書だけのcommitは[skip ci]を使い、GitHubのREADME・About読み戻しとリンク先200で検証する。",
+      "baseline": {
+        "repositoryVisibility": "PUBLIC",
+        "viewerPermission": "ADMIN",
+        "homepageUrl": "",
+        "readmeTitle": "オリジナルデザイン作成",
+        "github14dViews": 0,
+        "github14dUniques": 0,
+        "observedOn": "2026-09-06"
+      },
+      "expectedValue": "Short, free owned-publicity setup; existing readers and referral lift are not established. GA4 referral measurement remains unavailable."
     }
   ],
   "blocked": [
@@ -209,8 +222,9 @@
     "cadenceChangeNeeded": false,
     "nextFullAuditAfterCompletedRuns": 4,
     "actualPromptReadback": "passed",
-    "changeApplied": false,
-    "changeReason": "Completed the read-only URL Inspection capability with null-safe fixture coverage and a real home-page result. Added concise usage guidance to the operating policy. A sitemap resubmission returned HTTP 403 and is isolated from successful read-only measurement and ready internal-link work. Unchanged metrics were not duplicated; no repeated issue or cadence condition requires a launcher prompt change.",
-    "operatingPolicyUpdated": true
+    "changeApplied": true,
+    "changeReason": "Published and verified the support-to-template link while article observations mature. The saved app schedule was externally changed to daily 08:00 during this run; preserved it and updated both prompt sources to treat the current saved schedule as authoritative rather than mechanically restoring the three-hour initial value. New finalized GSC data was saved once. A bounded owned-publicity task is ready next.",
+    "operatingPolicyUpdated": true,
+    "externalScheduleChangeObserved": true
   }
 }

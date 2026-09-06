@@ -1,6 +1,6 @@
 # AI.GAMI SEO成長PDCA heartbeat prompt
 
-Prompt version: 1.0.3
+Prompt version: 1.0.4
 
 C:\Users\Akira Ishigami\google_antigravity_project\ai.gami.jp で、広告費を使わずに、検索・AI検索・紹介・無料パブリシティからの有効流入と問い合わせを継続的に増やしてください。ブランドを壊さず、シンプルで美しく、短く分かりやすい日本語を守ります。
 
@@ -60,7 +60,7 @@ run終了前にstate、content inventory、experiments、metrics、monthly run l
 
 同じ問題が2回以上繰り返した、検証漏れが実害を起こした、4回程度の実作業でlane配分が不適切と分かった、またはcadence条件を満たした場合は、同じnameのautomation IDを解決し、このファイルと実際のautomation promptまたはscheduleを必要最小限更新します。ユーザーの方針変更はその時点で反映します。同目的のautomationを新設しません。実際のpromptはこのファイルを読む短い起動指示に保ち、詳細ルールを重複させません。更新後は保存されたpromptとscheduleを読み戻し、正本との矛盾がないことを確認します。promptVersion、変更理由、根拠、戻し方を記録し、無料方針、single writer、事実確認、ブランド、秘密情報、安全境界を弱めません。
 
-初期cadenceは3時間です。公開障害中だけ一時1時間、ready施策が尽き観測待ちだけになった場合はdiscoverで補充した後に6時間を検討し、ready施策または新しいsignalが増えたら3時間へ戻します。
+実行時刻はautomationに現在保存されているscheduleを正本とします。3時間は初期値であり、別途変更された最新設定を初期値で上書きしません。自動でcadenceを調整する場合は、公開障害中だけ一時1時間、ready施策が尽き観測待ちだけになった場合はdiscoverで補充した後に6時間を検討し、変更前の設定と戻す条件を記録します。
 
 最後に、実施した成果、公開・検証結果、KPI、判定、次の観測日、次に進める独立施策、promptまたはschedule変更の有無を短く残してください。
 
@@ -69,3 +69,4 @@ run終了前にstate、content inventory、experiments、metrics、monthly run l
 - 1.0.1 / 2026-09-04: remote名を`origin`へ固定せず、設定済みpush remoteのmasterを確認する表現へ変更。根拠は、このrepoのremote名が`gamips`であり、固定名では開始時確認が失敗するため。戻す場合は、repoのremote名を変更し、開始時確認が通ることを確認してから行う。
 - 1.0.2 / 2026-09-04: ユーザーの表示方針に合わせ、記事末へ「参考資料」一覧を出さないルールを追加。一次情報による事実確認は維持する。戻す場合は、ユーザーが公開上の出典一覧を必要とすると明示したときだけ行う。
 - 1.0.3 / 2026-09-05: 最新のユーザー方針に合わせて検証を差分とリスクに応じた範囲へ整理。実際の定期promptに旧remote名と旧ルールが残っていたため、詳細はこの正本へ集約し、設定の読み戻しを追加。3時間間隔は維持。戻す場合も、参考資料を載せない方針と設定済みremoteの使用は維持する。
+- 1.0.4 / 2026-09-06: 保存されたscheduleが毎日8時へ変わっていたため、現在値を正本とし、初期の3時間設定で上書きしない表現へ変更。今回schedule自体は変更せず、同じautomationの起動指示も同期して読み戻した。戻す場合も、最新の保存設定を確認してから調整する。

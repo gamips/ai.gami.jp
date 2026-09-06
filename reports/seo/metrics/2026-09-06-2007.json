@@ -1,0 +1,246 @@
+{
+  "observedAt": "2026-09-06T20:07:59.2669280+09:00",
+  "source": "Google Search Console API",
+  "siteUrl": "sc-domain:ai.gami.jp",
+  "searchType": "web",
+  "dataState": "final",
+  "latestReturnedDate": "2026-09-04",
+  "lagDays": 2,
+  "windows": {
+    "current28d": {
+      "startDate": "2026-08-08",
+      "endDate": "2026-09-04",
+      "clicks": 1,
+      "impressions": 23,
+      "ctr": 0.043478260869565216,
+      "position": 15.217391304347826
+    },
+    "previous28d": {
+      "startDate": "2026-07-11",
+      "endDate": "2026-08-07",
+      "clicks": 2,
+      "impressions": 38,
+      "ctr": 0.05263157894736842,
+      "position": 6.947368421052632
+    }
+  },
+  "current28dDisclosedQueries": [
+    {
+      "query": "gami ai",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0,
+      "position": 2.875
+    },
+    {
+      "query": "ai 導入 相談 窓口",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 48
+    },
+    {
+      "query": "ai 開発 導入支援",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 67
+    }
+  ],
+  "previous28dDisclosedQueries": [
+    {
+      "query": "gami ai",
+      "clicks": 2,
+      "impressions": 25,
+      "ctr": 0.08,
+      "position": 1.96
+    },
+    {
+      "query": "ai 導入 支援 サービス内容",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 61
+    },
+    {
+      "query": "ai 開発 導入支援",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 61
+    }
+  ],
+  "current28dPages": [
+    {
+      "page": "https://ai.gami.jp/about/",
+      "clicks": 1,
+      "impressions": 12,
+      "ctr": 0.08333333333333333,
+      "position": 6.916666666666667
+    },
+    {
+      "page": "https://ai.gami.jp/",
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": 0,
+      "position": 3.5
+    },
+    {
+      "page": "https://ai.gami.jp/concept/",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 6.8
+    },
+    {
+      "page": "https://ai.gami.jp/contact/",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 32
+    },
+    {
+      "page": "https://ai.gami.jp/services/",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 46.666666666666664
+    },
+    {
+      "page": "https://ai.gami.jp/news/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "page": "https://ai.gami.jp/price/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5
+    }
+  ],
+  "previous28dPages": [
+    {
+      "page": "https://ai.gami.jp/",
+      "clicks": 2,
+      "impressions": 33,
+      "ctr": 0.06060606060606061,
+      "position": 2.242424242424242
+    },
+    {
+      "page": "https://ai.gami.jp/concept/",
+      "clicks": 0,
+      "impressions": 27,
+      "ctr": 0,
+      "position": 6.296296296296297
+    },
+    {
+      "page": "https://ai.gami.jp/about/",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 8.428571428571429
+    },
+    {
+      "page": "https://ai.gami.jp/services/",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 41.5
+    },
+    {
+      "page": "https://ai.gami.jp/contact/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 24
+    },
+    {
+      "page": "https://ai.gami.jp/price/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "page": "https://ai.gami.jp/services/ai-saas/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    }
+  ],
+  "current28dDevices": [
+    {
+      "device": "MOBILE",
+      "clicks": 0,
+      "impressions": 12,
+      "ctr": 0,
+      "position": 15.25
+    },
+    {
+      "device": "DESKTOP",
+      "clicks": 1,
+      "impressions": 11,
+      "ctr": 0.09090909090909091,
+      "position": 15.181818181818182
+    }
+  ],
+  "previous28dDevices": [
+    {
+      "device": "MOBILE",
+      "clicks": 0,
+      "impressions": 23,
+      "ctr": 0,
+      "position": 2.1304347826086953
+    },
+    {
+      "device": "DESKTOP",
+      "clicks": 1,
+      "impressions": 14,
+      "ctr": 0.07142857142857142,
+      "position": 15.285714285714286
+    },
+    {
+      "device": "TABLET",
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 1
+    }
+  ],
+  "current28dDisclosedNonBrand": {
+    "clicks": 0,
+    "impressions": 5,
+    "brandClassification": {
+      "method": "exact query match",
+      "brandQueries": [
+        "gami ai"
+      ],
+      "otherDisclosedQueries": "non-brand"
+    },
+    "note": "Query rows requested with rowLimit 1000; 3 returned. Anonymized queries are omitted, so these are disclosed-query counts only."
+  },
+  "previous28dDisclosedNonBrand": {
+    "clicks": 0,
+    "impressions": 2,
+    "brandClassification": {
+      "method": "exact query match",
+      "brandQueries": [
+        "gami ai"
+      ],
+      "otherDisclosedQueries": "non-brand"
+    },
+    "note": "Query rows requested with rowLimit 1000; 3 returned. Anonymized queries are omitted, so these are disclosed-query counts only."
+  },
+  "activeExperimentVisibility": {
+    "result": "not-yet-measurable",
+    "reason": "The seven Insights publications have not accumulated sufficient finalized post-publication observations. Their URLs were absent from the returned page rows; this does not establish zero traffic or indexing failure."
+  },
+  "interpretation": {
+    "result": "inconclusive",
+    "reason": "Small sample. Property, query, page and device aggregations were fetched separately and are not interchangeable. The latest finalized date has advanced, but the article observation periods are still immature."
+  }
+}
