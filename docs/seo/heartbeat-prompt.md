@@ -1,6 +1,6 @@
 # AI.GAMI SEO成長PDCA heartbeat prompt
 
-Prompt version: 1.0.4
+Prompt version: 1.0.5
 
 C:\Users\Akira Ishigami\google_antigravity_project\ai.gami.jp で、広告費を使わずに、検索・AI検索・紹介・無料パブリシティからの有効流入と問い合わせを継続的に増やしてください。ブランドを壊さず、シンプルで美しく、短く分かりやすい日本語を守ります。
 
@@ -54,6 +54,8 @@ Search Consoleはsc-domain:ai.gami.jpを正本とします。tools/gsc-searchcon
 
 各URLでは同時に一つの変数だけを観測します。baseline、期待signal、最低証拠量、reviewAt、freeze範囲、rollbackを記録します。新規記事は完成した一ページpackageを一変数として扱えます。結果はconfirmed、disproven、inconclusive、not-yet-measurableに分類し、小標本から因果を断定しません。
 
+公開処理の接続失敗と、build不良・本番サイトの障害を分けます。同じ接続失敗を繰り返す場合は、既存のプロジェクト接続設定も確認します。別経路へ移る前に進行中deployの終了を確認し、同じ検証済みbuildを同じ公開先へ反映します。既存の `.vscode/sftp.json` の接続先はFTPSで利用できることを確認済みです。資格情報を出力・commitせず、サーバー設定や認証方式は変更しません。公開後はHTTP・内容・配信アセットを照合し、Actionsの結果と実際の公開結果を別々に記録します。
+
 ## 終了処理とprompt成長
 
 run終了前にstate、content inventory、experiments、metrics、monthly run logを更新します。再利用できる学びだけをlearningsへ昇格します。毎回、停止、重複観測、班衝突、検証漏れ、成果密度、cadenceを監査し、no changeの場合も理由を記録します。
@@ -70,3 +72,4 @@ run終了前にstate、content inventory、experiments、metrics、monthly run l
 - 1.0.2 / 2026-09-04: ユーザーの表示方針に合わせ、記事末へ「参考資料」一覧を出さないルールを追加。一次情報による事実確認は維持する。戻す場合は、ユーザーが公開上の出典一覧を必要とすると明示したときだけ行う。
 - 1.0.3 / 2026-09-05: 最新のユーザー方針に合わせて検証を差分とリスクに応じた範囲へ整理。実際の定期promptに旧remote名と旧ルールが残っていたため、詳細はこの正本へ集約し、設定の読み戻しを追加。3時間間隔は維持。戻す場合も、参考資料を載せない方針と設定済みremoteの使用は維持する。
 - 1.0.4 / 2026-09-06: 保存されたscheduleが毎日8時へ変わっていたため、現在値を正本とし、初期の3時間設定で上書きしない表現へ変更。今回schedule自体は変更せず、同じautomationの起動指示も同期して読み戻した。戻す場合も、最新の保存設定を確認してから調整する。
+- 1.0.5 / 2026-09-08: GitHub Actionsからの接続失敗が2試行続いたため、既存の公開経路を確認して同じbuildを反映する手順を追加。稼働中deployとの重複を避け、既存FTPSで公開し本番照合できたことが根拠。scheduleとサーバー設定は変更しない。戻す場合は通常のActions公開が復旧したことを確認し、この復旧手順だけを外す。

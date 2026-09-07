@@ -1,0 +1,328 @@
+{
+  "sourceCommit": "16d762e87914f64913c0f21078b5db5b3b7850b3",
+  "articleCommit": "d9ab86dab83fd16c2dc495cdd4a85d318842ca11",
+  "method": "FTPS via existing project connection",
+  "firstPublishedAt": "2026-09-08T08:27:16.2517786+09:00",
+  "finalBuildPublishedAt": "2026-09-08T08:30:53.3553253+09:00",
+  "verifiedAt": "2026-09-08T08:35:24.2559522+09:00",
+  "build": "passed locally; Actions build passed before connection failures",
+  "workflowAttempts": [
+    {
+      "run": "https://github.com/gamips/ai.gami.jp/actions/runs/34169142365",
+      "attempt": 1,
+      "completedAt": "2026-09-08T08:20:12+09:00",
+      "stage": "Deploy dist to Xserver",
+      "build": "passed",
+      "error": "curl (28): Failed to connect to ai.gami.jp port 443",
+      "failedConnections": 4,
+      "connectionWaitMs": [
+        136446,
+        134165,
+        133164,
+        135260
+      ],
+      "uploadStarted": false,
+      "siteHealthy": true,
+      "retry": "Same commit, failed job re-run after first attempt completed; no overlapping deployment."
+    },
+    {
+      "run": "https://github.com/gamips/ai.gami.jp/actions/runs/34169142365",
+      "attempt": 2,
+      "status": "cancelled",
+      "observedError": "curl (28): Failed to connect to ai.gami.jp port443 after133927ms",
+      "cancelledAt": "2026-09-08T08:25:28+09:00",
+      "reason": "Same connection failure recurred; confirmed existing project FTPS access and waited for workflow completion before manual publishing."
+    },
+    {
+      "run": "https://github.com/gamips/ai.gami.jp/actions/runs/34170213575",
+      "attempt": 1,
+      "status": "cancelled",
+      "completedAt": "2026-09-08T08:29:55+09:00",
+      "deployStep": "skipped",
+      "reason": "Used the verified existing manual route for the metadata fix; cancellation completed before FTPS started."
+    }
+  ],
+  "upload": {
+    "startedAt": "2026-09-08T08:30:23.9450991+09:00",
+    "completedAt": "2026-09-08T08:30:53.3553253+09:00",
+    "count": 46,
+    "files": [
+      {
+        "path": "assets/About-37D-aQ-X.js",
+        "bytes": 9373,
+        "sha256": "73B203BD8AAE5159E25DECBADBB17DEAC49B51BE16923D0570A3D1238C299F11"
+      },
+      {
+        "path": "assets/arrow-right-DK8xvDpK.js",
+        "bytes": 349,
+        "sha256": "8C0E719D1BD45343BD7B098941157F4E7295BF9B5296C95E5811D181563CC123"
+      },
+      {
+        "path": "assets/Concept-BnRoJIjI.js",
+        "bytes": 30897,
+        "sha256": "494F9F9274E7616F44EC8023FC47DC29C9B67B6935BA29F2646437B27F5BEE74"
+      },
+      {
+        "path": "assets/Contact-DEtGK9KX.js",
+        "bytes": 8828,
+        "sha256": "F0A4ED0A1C112D481D85608D5C53B58695B96DCF525A62D1896B2CF6F46CB533"
+      },
+      {
+        "path": "assets/ContactThanks-BePddLs3.js",
+        "bytes": 2051,
+        "sha256": "AAA90294C2CB32BBDC03D47CADCE656B21CBC915CE69923D477CFD41710A8359"
+      },
+      {
+        "path": "assets/createLucideIcon-BfucX6Jp.js",
+        "bytes": 1737,
+        "sha256": "F0D4BEF04D61BCADE9858B4F6D704D57D79723F17580A073F27A2F8282A7116A"
+      },
+      {
+        "path": "assets/Footer-CcWxQyCo.js",
+        "bytes": 4883,
+        "sha256": "FA2D65E1BC1D05454D701740381C21CDDCB3016EAFDFD1597EE07A240904A1C2"
+      },
+      {
+        "path": "assets/GeometricParticles-CZ0A8fso.js",
+        "bytes": 496731,
+        "sha256": "900D72E1E058336B1FFA4EED9FAF5E963AEB07A27B239DDAF42E8724B35A4C43"
+      },
+      {
+        "path": "assets/Header-B0txITfs.js",
+        "bytes": 7033,
+        "sha256": "B2EE8E4FE4467DBC9C42037F5E319EE71785A8E6E1097B90F92FDE1C6F7EF232"
+      },
+      {
+        "path": "assets/Home-Codi4faR.js",
+        "bytes": 26226,
+        "sha256": "B702C24430C240D9B1C358A949F0071991AB78C8522938674966CB8C61D35CF4"
+      },
+      {
+        "path": "assets/index-CRZF3C4Y.js",
+        "bytes": 238401,
+        "sha256": "59D07C8FE448EE6F2094A357A72B68934785345AE3F1D936819AE0442C053E7E"
+      },
+      {
+        "path": "assets/InquiryCta-AcMpAFmW.js",
+        "bytes": 1473,
+        "sha256": "1FCF1DDA7F9D810947EA4A07584B132C529C3BAA784FD41DC01FD7F0CF2DB4E7"
+      },
+      {
+        "path": "assets/InsightDetail-B2HBGByu.js",
+        "bytes": 3836,
+        "sha256": "8430A8E5A7CBF226A5731202F13B93DC74FB67A45282383A4BE8C2CDDB4585D0"
+      },
+      {
+        "path": "assets/Insights-CJqw_2UI.js",
+        "bytes": 2337,
+        "sha256": "EF69F15DF5EF0B8B443520DB2B0DD7DDB65F7F6BD80D99990E3D3B7C2166FB1C"
+      },
+      {
+        "path": "assets/News-BR2pueaJ.js",
+        "bytes": 3915,
+        "sha256": "BF7A7E8DF946803A92E06CBF143DDF8B7C018345B3EDF51AB8D17B28E7110EE4"
+      },
+      {
+        "path": "assets/NotFound-BU4TO1el.js",
+        "bytes": 2602,
+        "sha256": "315C105A50EF4AFE1B1813581E60E8E244F883C36FC7627EAFCD82ACDF1E5B62"
+      },
+      {
+        "path": "assets/PageSeo-Mc0sV321.js",
+        "bytes": 71695,
+        "sha256": "54110F54F053C4D9F6602671B2808B0104FDBD2A5954F35980FE3E6B52CA55F0"
+      },
+      {
+        "path": "assets/Price-Df-sZgFY.js",
+        "bytes": 11045,
+        "sha256": "2C9FA9332A6CDFE88EAB93D106DA6F2A4D2E8A6B91252FD38BD320BC988DA192"
+      },
+      {
+        "path": "assets/proxy-BwBSJrn4.js",
+        "bytes": 122123,
+        "sha256": "03213C963B07CF2A0F9D9E1B0DFDC2331DA96192233352633A5244458ADAB350"
+      },
+      {
+        "path": "assets/ScrollReveal-BLoeSw-Y.js",
+        "bytes": 720,
+        "sha256": "B6C327EC1CC99A476096ECD73B10FA4BF1607A485214A1E6F1F0D4F02179F29A"
+      },
+      {
+        "path": "assets/ScrollToTopLink-DYZGiHIR.js",
+        "bytes": 436,
+        "sha256": "7D29F379D9AD5E263475E306FC0F7BB946AD029BEB405E83D31EAE79015B561F"
+      },
+      {
+        "path": "assets/ServiceDetail-CGNZ6jj6.js",
+        "bytes": 33644,
+        "sha256": "84E72C8908E01F086B6CF90C4F2D721E858768075978FC9B18E2713B4416E360"
+      },
+      {
+        "path": "assets/Services-CkcO_QJz.js",
+        "bytes": 3446,
+        "sha256": "282767106E507C97FB094C2A85658774215F1D19014D870B9456CD0406A3C24A"
+      },
+      {
+        "path": "assets/services-CN6rUMAS.js",
+        "bytes": 43479,
+        "sha256": "3AF2020F704FEC826A762869E4A8741C5994986059271752E5A45E01007681C3"
+      },
+      {
+        "path": "insights/saas-or-custom-system-checklist/index.html",
+        "bytes": 11884,
+        "sha256": "77E4A7DA4CD53C87F58AEDB13D6C5F2699522BD2F67A939D567EF1977F5AD652"
+      },
+      {
+        "path": "404/index.html",
+        "bytes": 2420,
+        "sha256": "F396059155792995BA8C36C289597328C31A4C438AC446BE0AA269DA2A272F89"
+      },
+      {
+        "path": "about/index.html",
+        "bytes": 4522,
+        "sha256": "1DAA85414F2D284D37325FF58FDD0831B1B1F08B2099D1DAF9D0C5C7190454FC"
+      },
+      {
+        "path": "concept/index.html",
+        "bytes": 4476,
+        "sha256": "2A8762CD6CA89C7321C5BDE1DC44BB37CFE485546DA01350D9DB645B20383054"
+      },
+      {
+        "path": "contact/index.html",
+        "bytes": 4592,
+        "sha256": "59CB0B580998C0E0706CB2D23F54E5966BD29F9FD3D7996B5A07E00A5856EAAB"
+      },
+      {
+        "path": "contact/thanks/index.html",
+        "bytes": 5354,
+        "sha256": "DBA4716E3A2E0A9888FFA1383FDA555519A5C36A584343A4486E7F0DA7F703F3"
+      },
+      {
+        "path": "insights/ai-customer-reply-template/index.html",
+        "bytes": 12375,
+        "sha256": "FD4AE3B7CE8182277C58A2242EFBB20C720C36262A16F5CCE4CB54002F2440EE"
+      },
+      {
+        "path": "insights/ai-introduction-support-pricing/index.html",
+        "bytes": 13501,
+        "sha256": "1633911FE32C0A7587606E91D6F1113A0925FB99C1E10903CEE65469C6247739"
+      },
+      {
+        "path": "insights/ai-introduction-support/index.html",
+        "bytes": 12246,
+        "sha256": "BA91ED846EB25F61EF20F7B0E8EF0B9E365A4C31FA5E7ABD787668AD8F05F59C"
+      },
+      {
+        "path": "insights/ai-website-launch-checklist/index.html",
+        "bytes": 13028,
+        "sha256": "845B76C8A6111E11572F205056354D0A963C11C14C3307170E19C4DCF2848418"
+      },
+      {
+        "path": "insights/chatgpt-workplace-adoption-checklist/index.html",
+        "bytes": 12858,
+        "sha256": "A20BF42179C38758A88A13140C079F582519B9AAF4FC58BBE2FF549BA8240571"
+      },
+      {
+        "path": "insights/rag-document-inventory-checklist/index.html",
+        "bytes": 12858,
+        "sha256": "A08E0FD83049A82F60FFB22ACBE060E62F9B96DF9060FE9B47B7CF5E8B5AC19E"
+      },
+      {
+        "path": "insights/sodatsu-mitsumori-case-study/index.html",
+        "bytes": 12093,
+        "sha256": "EDBC10F2F093419473924FFFCE8388444715169090D5C395872E4DC9AAF03ECB"
+      },
+      {
+        "path": "news/index.html",
+        "bytes": 6194,
+        "sha256": "2326B99A4DF95D73CDA6F6443C6906E64BF43A33D6FE4EE01417BCDD1E429A99"
+      },
+      {
+        "path": "price/index.html",
+        "bytes": 5515,
+        "sha256": "17D70B8E2C8246D28B65B518FBE172EF67DCE449D1EC5973777BD6E474F8FD3C"
+      },
+      {
+        "path": "services/ai-marketing/index.html",
+        "bytes": 8943,
+        "sha256": "343A98F980A7E467239AB684FC64F2C1100F49F6E1341F284463978CF370742A"
+      },
+      {
+        "path": "services/ai-saas/index.html",
+        "bytes": 8606,
+        "sha256": "7917EA1EC28A9AA87F60242138D5CF055CAB1C28595A8DE47660B48D433D2DE1"
+      },
+      {
+        "path": "services/ai-web/index.html",
+        "bytes": 8631,
+        "sha256": "59B708132C05CF6CA76F91E515A15F1E0AA19E535CEF74F05343443AEC9D30E1"
+      },
+      {
+        "path": "services/index.html",
+        "bytes": 5725,
+        "sha256": "89D7836C5E5BCE303D3A30A348B9A47400E06EAF3EDC3602F62BB1BFFCC4F22A"
+      },
+      {
+        "path": "insights/index.html",
+        "bytes": 12383,
+        "sha256": "F009BA42A0B1A51724F8CDFE882E1E11914C3C37EE9B5CD348310D17BB1DB852"
+      },
+      {
+        "path": "index.html",
+        "bytes": 6416,
+        "sha256": "0D41A917EC3EBC9683A256125E5A7F08050467C43C392E3233307653C1EB335C"
+      },
+      {
+        "path": "sitemap.xml",
+        "bytes": 3415,
+        "sha256": "9CEC8625DC5AE0850297282EDCA57CA91E2B69AFD58AD4F87A9AE899E8F4856A"
+      }
+    ],
+    "remoteFilesDeleted": 0,
+    "unchangedServerFilesPreserved": true,
+    "credentialsOrServerConfigurationChanged": false
+  },
+  "verification": {
+    "httpStatus": 200,
+    "selfCanonical": true,
+    "articleSchema": true,
+    "seoHeadMatchesBuild": true,
+    "initialSectionsAndItemsMatch": true,
+    "renderedLeadMatches": true,
+    "sitemap": true,
+    "sitemapUrls": 19,
+    "indexLink": true,
+    "serviceTargetStatus": 200,
+    "spaNavigation": true,
+    "indexToArticleNavigation": true,
+    "targetScrollY": 0,
+    "desktop": true,
+    "mobile": true,
+    "horizontalOverflow": false,
+    "consoleErrors": 0,
+    "h1Count": 1,
+    "sections": 4,
+    "worksheetFields": 6,
+    "exampleFields": 6,
+    "publicReferenceHeadingAbsent": true,
+    "operationalMetadataAbsent": true,
+    "sharedLayoutUnchanged": true,
+    "existingArticlesUnchanged": true,
+    "allSitemapUrlsChecked": 19,
+    "allPageSeoHeadsMatchBuild": true,
+    "javascriptAssetsHashMatched": 24,
+    "indexLastModified": "2026-09-08"
+  },
+  "review": {
+    "claudeSubscriptionDraft": "passed: claude.ai pro; ANTHROPIC_API_KEY unset",
+    "codexReview": "passed",
+    "independentCopyReview": "passed",
+    "independentMetricsReadback": "passed",
+    "independentIndexDateReview": "passed"
+  },
+  "notes": [
+    "Actions success was not claimed. The same reviewed source was built locally, published through the existing project FTPS path and checked against production.",
+    "The first pre-completion404 probe was not counted as a live-site regression.",
+    "The initial post-upload check found a fixed index sitemap date; the one-line derivation fix was built, published and rechecked. No existing article dates or copy changed."
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-07",
+  "updatedAt": "2026-09-08",
   "rules": {
     "oneOwnerUrlPerIntent": true,
     "publicCopyExcludesOperationalMetadata": true
@@ -97,7 +97,7 @@
       "type": "insight-index",
       "intent": "AI導入と生成AI活用の実践ガイド一覧",
       "status": "published",
-      "lastModified": "2026-09-06"
+      "lastModified": "2026-09-08"
     },
     {
       "url": "https://ai.gami.jp/insights/ai-introduction-support/",
@@ -182,6 +182,16 @@
       "relatedWebsite": "https://ai.gami.jp/",
       "readmeUrl": "https://github.com/gamips/ai.gami.jp/blob/master/README.md",
       "experimentId": "github-project-site-intro-v1"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/saas-or-custom-system-checklist/",
+      "type": "insight",
+      "intent": "一つの業務で既存SaaSと独自開発の適合を比較する記入式ガイド",
+      "status": "published",
+      "lastModified": "2026-09-08",
+      "schema": "Article",
+      "experimentId": "insight-saas-or-custom-system-checklist-v1",
+      "relatedService": "https://ai.gami.jp/services/ai-saas/"
     }
   ]
 }

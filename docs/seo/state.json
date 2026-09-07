@@ -1,24 +1,24 @@
 {
   "schemaVersion": 1,
-  "promptVersion": "1.0.4",
+  "promptVersion": "1.0.5",
   "automation": {
     "name": "AI.GAMI SEO成長PDCA",
     "id": "ai-gami-seo-pdca",
     "currentCadenceHours": 24,
     "status": "ACTIVE",
     "currentSchedule": "毎日8:00（Asia/Tokyo）",
-    "scheduleObservedAt": "2026-09-07T08:07:39.6296584+09:00",
+    "scheduleObservedAt": "2026-09-08T08:37:15.5278700+09:00",
     "scheduleSource": "Existing app setting changed outside this run; preserved."
   },
-  "lastActualRunAt": "2026-09-07T08:07:39.6296584+09:00",
-  "lastPromptAuditAt": "2026-09-07T08:07:39.6296584+09:00",
+  "lastActualRunAt": "2026-09-08T08:37:15.5278700+09:00",
+  "lastPromptAuditAt": "2026-09-08T08:37:15.5278700+09:00",
   "measurement": {
     "searchConsole": {
       "siteUrl": "sc-domain:ai.gami.jp",
       "status": "connected",
-      "latestFinalizedDate": "2026-09-04",
-      "lastRecordedAt": "2026-09-06T20:07:59.2669280+09:00",
-      "latestMetricsPath": "reports/seo/metrics/2026-09-06-2007.json",
+      "latestFinalizedDate": "2026-09-05",
+      "lastRecordedAt": "2026-09-08T08:02:26.7621240+09:00",
+      "latestMetricsPath": "reports/seo/metrics/2026-09-08-0802.json",
       "urlInspection": {
         "status": "available",
         "source": "google-index",
@@ -28,10 +28,12 @@
       },
       "sitemap": {
         "status": "readable_resubmission_blocked",
-        "lastCheckedAt": "2026-09-06T09:50:03+09:00",
-        "latestEvidencePath": "reports/seo/inspections/2026-09-06-sitemap.json",
-        "liveUrlCount": 18,
-        "nextReadOnlyCheckOnOrAfter": "2026-09-08"
+        "lastCheckedAt": "2026-09-08T08:02:31.9954793+09:00",
+        "latestEvidencePath": "reports/seo/inspections/2026-09-08-sitemap.json",
+        "liveUrlCount": 19,
+        "nextReadOnlyCheckOnOrAfter": "2026-09-11",
+        "liveVerifiedAt": "2026-09-08T08:35:24.2559522+09:00",
+        "liveEvidencePath": "reports/seo/deployments/2026-09-08-saas-checklist.json"
       }
     },
     "ga4": {
@@ -48,13 +50,18 @@
     "insight-rag-document-inventory-checklist-v1",
     "insight-ai-website-launch-checklist-v1",
     "insight-ai-customer-reply-template-v1",
-    "github-project-site-intro-v1"
+    "github-project-site-intro-v1",
+    "insight-saas-or-custom-system-checklist-v1"
   ],
   "deployment": {
-    "lastSuccessfulAt": "2026-09-06T20:12:17+09:00",
-    "commit": "4eea1996a012652d1a49764e56e12faafab0762c",
-    "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/34029540872",
-    "liveVerification": "passed"
+    "lastSuccessfulAt": "2026-09-08T08:30:53.3553253+09:00",
+    "commit": "16d762e87914f64913c0f21078b5db5b3b7850b3",
+    "workflowRun": null,
+    "method": "FTPS via existing project connection",
+    "evidencePath": "reports/seo/deployments/2026-09-08-saas-checklist.json",
+    "liveVerification": "passed",
+    "actionsStatus": "GitHub-to-Xserver connection failed in two attempts; workflows completed/cancelled before manual publication.",
+    "lastSuccessfulActionsRun": "https://github.com/gamips/ai.gami.jp/actions/runs/34029540872"
   },
   "observationQueue": [
     {
@@ -172,17 +179,33 @@
           "check": "GitHub repository audience only; do not treat repository views as website referrals. Referral impact remains unmeasurable without analytics."
         }
       ]
+    },
+    {
+      "experimentId": "insight-saas-or-custom-system-checklist-v1",
+      "status": "observing",
+      "startedAt": "2026-09-08T08:27:16.2517786+09:00",
+      "nextChecks": [
+        {
+          "onOrAfter": "2026-09-15",
+          "check": "index and first page/query signal"
+        },
+        {
+          "onOrAfter": "2026-10-09",
+          "check": "28 finalized post-publication days and at least30 page impressions; otherwise insufficient evidence"
+        }
+      ]
     }
   ],
   "readyQueue": [
     {
-      "lane": "content",
+      "lane": "internal-linking",
       "priority": 1,
-      "work": "既存SaaSか独自開発かを、一つの業務で比較する記入式ガイドを作る。対象業務、外せない手順、権限・承認、入出力・連携、変更担当、保守・費用の確認事項の6欄と、架空の承認業務1例に絞る。候補URL /insights/saas-or-custom-system-checklist/ は404確認済み。候補製品の料金比較や断定的な採点、未確認の成果は入れない。既存の導入費用記事とは要件の適合判断で区別する。Claudeサブスクリプションで起草しCodexがレビュー、既存Insights構造で制作して /services/ai-saas/ へ自然に案内する。観測中の記事と共有UIは変更しない。",
+      "work": "/services/ai-saas/ の RAG / KNOWLEDGE 行から /insights/rag-document-inventory-checklist/ へ、既存の文字リンク形式で案内を追加する。services.ts と pageSeo.js の対象行はリンク未設定。静的HTMLと画面側を揃え、導入ガイド、育つ見積事例、製品サイトへの既存リンクを保持する。SYSTEM BUILD の静的HTMLには育つ見積事例リンクがあるため上書きしない。RAG記事の本文と共有UIは変更しない。公開後は対象リンクとPC・スマホでの遷移だけを確認し、観測には流入経路追加として記録する。",
       "evidence": [
-        "src/app/content/services.ts: SYSTEM BUILD, existing SaaS comparison, maintenance and integration scope"
+        "src/app/content/services.ts: RAG / KNOWLEDGE approach has no link",
+        "src/app/seo/pageSeo.js: RAG / KNOWLEDGE static fallback has no link"
       ],
-      "searchDemand": "hypothesis: no supporting disclosed query observed"
+      "searchDemand": "Existing article discovery path; no measured acquisition lift yet."
     }
   ],
   "blocked": [
@@ -211,12 +234,22 @@
     {
       "lane": "technical-seo",
       "item": "Existing sitemap API resubmission",
-      "reason": "A single PUT using existing credentials returned HTTP 403; exact authorization cause is unconfirmed. GET remains available, and the live sitemap is valid with 18 URLs and a robots.txt reference. No retry or scope escalation was performed.",
+      "reason": "A single PUT using existing credentials returned HTTP403 on September6; exact authorization cause is unconfirmed. September8 GET metadata is unchanged. The live sitemap now has19 valid URLs and a robots.txt reference. No retry or scope escalation was performed.",
       "doesNotBlock": [
         "Search Console measurement and URL Inspection",
         "content publishing",
         "internal linking",
         "Google discovering the existing public sitemap"
+      ]
+    },
+    {
+      "lane": "deployment",
+      "item": "GitHub Actions connection to Xserver",
+      "reason": "curl(28) connection timeouts recurred in two Actions attempts. Existing site remained healthy; the reviewed build was published and verified using the existing project FTPS configuration after the Actions jobs ended. Root cause of the runner-to-server connection failure remains unconfirmed.",
+      "doesNotBlock": [
+        "Existing project FTPS publication with no overlapping deploy",
+        "Search Console measurement",
+        "Content and internal-link work"
       ]
     }
   ],
@@ -226,11 +259,12 @@
     "singleWriterConflict": false,
     "verificationGap": false,
     "cadenceChangeNeeded": false,
-    "nextFullAuditAfterCompletedRuns": 4,
+    "nextFullAuditAfterCompletedRuns": 3,
     "actualPromptReadback": "passed",
-    "changeApplied": false,
-    "changeReason": "Completed the four-run audit: content, measurement tooling, internal linking and owned publicity progressed without waiting on immature metrics or duplicate saves. Kept prompt1.0.4 and the saved daily08:00 schedule. Clarified the two older three-hour examples in ops-policy so a temporary cadence adjustment returns to its prior setting. README/About publication was verified; a distinct practical SaaS-versus-custom guide is ready next.",
-    "operatingPolicyUpdated": true,
-    "externalScheduleChangeObserved": false
+    "changeApplied": true,
+    "changeReason": "Two Actions attempts stalled on connection timeouts while the public site stayed healthy. Prompt1.0.5 records the verified existing-route recovery, non-overlapping publication and separate Actions/live outcomes. The index date bug was caught during live validation and fixed from article dates. Saved daily08:00 schedule preserved; public package and metrics independently checked.",
+    "operatingPolicyUpdated": false,
+    "externalScheduleChangeObserved": false,
+    "launcherPromptUpdated": true
   }
 }
