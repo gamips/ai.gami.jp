@@ -1,0 +1,40 @@
+{
+  "fetchedAt": "2026-09-08T08:02:31.9954793+09:00",
+  "siteUrl": "sc-domain:ai.gami.jp",
+  "sitemapUrl": "https://ai.gami.jp/sitemap.xml",
+  "method": "GET",
+  "api": {
+    "path": "https://ai.gami.jp/sitemap.xml",
+    "lastSubmitted": "2026-05-07T06:44:37.462Z",
+    "isPending": false,
+    "isSitemapsIndex": false,
+    "type": "sitemap",
+    "lastDownloaded": "2026-05-07T06:44:39.118Z",
+    "warnings": "0",
+    "errors": "0",
+    "contents": [
+      {
+        "type": "web",
+        "submitted": "10",
+        "indexed": "0"
+      }
+    ]
+  },
+  "live": {
+    "httpStatus": 200,
+    "validXml": true,
+    "urlCount": 18,
+    "containsReplyArticle": true,
+    "robotsTxtSitemapReference": true
+  },
+  "assessment": {
+    "apiMetadataChangedSincePreviousCheck": false,
+    "previousEvidencePath": "reports/seo/inspections/2026-09-06-sitemap.json",
+    "indexing": "not_inferred",
+    "deprecatedField": "contents[].indexed is retained only as raw API evidence and must not be interpreted.",
+    "note": "Google-held sitemap timestamps remain May 7 with 10 submitted URLs; the live sitemap is valid with 18 URLs before today's planned article publication. This difference alone does not prove a current fetch failure.",
+    "resubmissionAttempted": false,
+    "scopeEscalated": false,
+    "nextReadOnlyCheckOnOrAfter": "2026-09-11"
+  }
+}
