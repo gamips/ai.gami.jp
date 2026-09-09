@@ -7,18 +7,18 @@
     "currentCadenceHours": 24,
     "status": "ACTIVE",
     "currentSchedule": "毎日8:00（Asia/Tokyo）",
-    "scheduleObservedAt": "2026-09-08T08:37:15.5278700+09:00",
-    "scheduleSource": "Existing app setting changed outside this run; preserved."
+    "scheduleObservedAt": "2026-09-09T09:39:37.9834599+09:00",
+    "scheduleSource": "Read back existing automation.toml; daily08:00 Asia/Tokyo preserved."
   },
-  "lastActualRunAt": "2026-09-08T08:37:15.5278700+09:00",
-  "lastPromptAuditAt": "2026-09-08T08:37:15.5278700+09:00",
+  "lastActualRunAt": "2026-09-09T09:39:37.9834599+09:00",
+  "lastPromptAuditAt": "2026-09-09T09:39:37.9834599+09:00",
   "measurement": {
     "searchConsole": {
       "siteUrl": "sc-domain:ai.gami.jp",
       "status": "connected",
-      "latestFinalizedDate": "2026-09-05",
-      "lastRecordedAt": "2026-09-08T08:02:26.7621240+09:00",
-      "latestMetricsPath": "reports/seo/metrics/2026-09-08-0802.json",
+      "latestFinalizedDate": "2026-09-06",
+      "lastRecordedAt": "2026-09-09T09:30:05.3339184+09:00",
+      "latestMetricsPath": "reports/seo/metrics/2026-09-09-0930.json",
       "urlInspection": {
         "status": "available",
         "source": "google-index",
@@ -32,8 +32,8 @@
         "latestEvidencePath": "reports/seo/inspections/2026-09-08-sitemap.json",
         "liveUrlCount": 19,
         "nextReadOnlyCheckOnOrAfter": "2026-09-11",
-        "liveVerifiedAt": "2026-09-08T08:35:24.2559522+09:00",
-        "liveEvidencePath": "reports/seo/deployments/2026-09-08-saas-checklist.json"
+        "liveVerifiedAt": "2026-09-09T09:39:37.9834599+09:00",
+        "liveEvidencePath": "reports/seo/deployments/2026-09-09-rag-link.json"
       }
     },
     "ga4": {
@@ -54,14 +54,14 @@
     "insight-saas-or-custom-system-checklist-v1"
   ],
   "deployment": {
-    "lastSuccessfulAt": "2026-09-08T08:30:53.3553253+09:00",
-    "commit": "16d762e87914f64913c0f21078b5db5b3b7850b3",
-    "workflowRun": null,
-    "method": "FTPS via existing project connection",
-    "evidencePath": "reports/seo/deployments/2026-09-08-saas-checklist.json",
+    "lastSuccessfulAt": "2026-09-09T00:37:26Z",
+    "commit": "753f79f1125ade75f73311e3112c96f9b7a8710a",
+    "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/34295758106",
+    "method": "GitHub Actions",
+    "evidencePath": "reports/seo/deployments/2026-09-09-rag-link.json",
     "liveVerification": "passed",
-    "actionsStatus": "GitHub-to-Xserver connection failed in two attempts; workflows completed/cancelled before manual publication.",
-    "lastSuccessfulActionsRun": "https://github.com/gamips/ai.gami.jp/actions/runs/34029540872"
+    "actionsStatus": "Completed/success. Normal publication route recovered without configuration changes; no alternate deployment performed.",
+    "lastSuccessfulActionsRun": "https://github.com/gamips/ai.gami.jp/actions/runs/34295758106"
   },
   "observationQueue": [
     {
@@ -198,14 +198,15 @@
   ],
   "readyQueue": [
     {
-      "lane": "internal-linking",
+      "lane": "content",
       "priority": 1,
-      "work": "/services/ai-saas/ の RAG / KNOWLEDGE 行から /insights/rag-document-inventory-checklist/ へ、既存の文字リンク形式で案内を追加する。services.ts と pageSeo.js の対象行はリンク未設定。静的HTMLと画面側を揃え、導入ガイド、育つ見積事例、製品サイトへの既存リンクを保持する。SYSTEM BUILD の静的HTMLには育つ見積事例リンクがあるため上書きしない。RAG記事の本文と共有UIは変更しない。公開後は対象リンクとPC・スマホでの遷移だけを確認し、観測には流入経路追加として記録する。",
+      "work": "/insights/ai-article-fact-check-template/ に、AIの記事下書きを一文ずつ確認する実務テンプレートを作る。確認する文、確かめる場所、日付と対象条件、直し方・未確認の扱いの4欄と、架空の紹介文1例に絞る。確認できた機能だけ残し、未確認の効果数値は公開しない。既存のサイト公開6項目や問い合わせ返信とは別の意図を維持する。Claudeサブスクリプションで原稿を起草またはレビューし、既存8記事・サービス本文・共有UIは変えず、新記事から /services/ai-marketing/ へ案内する。参考資料一覧や制作メモは載せない。",
       "evidence": [
-        "src/app/content/services.ts: RAG / KNOWLEDGE approach has no link",
-        "src/app/seo/pageSeo.js: RAG / KNOWLEDGE static fallback has no link"
+        "src/app/content/services.ts: SEO / WRITING, human fact and expression review",
+        "https://developers.google.com/search/docs/fundamentals/using-gen-ai-content",
+        "Candidate URL returned404 on2026-09-09; distinct from existing eight Insights"
       ],
-      "searchDemand": "Existing article discovery path; no measured acquisition lift yet."
+      "searchDemand": "Hypothesis, not measured demand; check current inventory and search intent before drafting."
     }
   ],
   "blocked": [
@@ -241,16 +242,6 @@
         "internal linking",
         "Google discovering the existing public sitemap"
       ]
-    },
-    {
-      "lane": "deployment",
-      "item": "GitHub Actions connection to Xserver",
-      "reason": "curl(28) connection timeouts recurred in two Actions attempts. Existing site remained healthy; the reviewed build was published and verified using the existing project FTPS configuration after the Actions jobs ended. Root cause of the runner-to-server connection failure remains unconfirmed.",
-      "doesNotBlock": [
-        "Existing project FTPS publication with no overlapping deploy",
-        "Search Console measurement",
-        "Content and internal-link work"
-      ]
     }
   ],
   "promptAudit": {
@@ -259,12 +250,12 @@
     "singleWriterConflict": false,
     "verificationGap": false,
     "cadenceChangeNeeded": false,
-    "nextFullAuditAfterCompletedRuns": 3,
+    "nextFullAuditAfterCompletedRuns": 2,
     "actualPromptReadback": "passed",
-    "changeApplied": true,
-    "changeReason": "Two Actions attempts stalled on connection timeouts while the public site stayed healthy. Prompt1.0.5 records the verified existing-route recovery, non-overlapping publication and separate Actions/live outcomes. The index date bug was caught during live validation and fixed from article dates. Saved daily08:00 schedule preserved; public package and metrics independently checked.",
+    "changeApplied": false,
+    "changeReason": "Existing prompt1.0.5 covered non-overlapping publication and recovery. Normal Actions succeeded today; no workaround was needed. Measurement and next distinct article discovery ran alongside the link release. First page/query signals remain insufficient for acquisition judgment, and observation dates stay unchanged. Daily08:00 and the no-reference-list rule already match saved settings.",
     "operatingPolicyUpdated": false,
     "externalScheduleChangeObserved": false,
-    "launcherPromptUpdated": true
+    "launcherPromptUpdated": false
   }
 }

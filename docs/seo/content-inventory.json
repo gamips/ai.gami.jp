@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-08",
+  "updatedAt": "2026-09-09",
   "rules": {
     "oneOwnerUrlPerIntent": true,
     "publicCopyExcludesOperationalMetadata": true
@@ -43,9 +43,10 @@
       "type": "service",
       "intent": "AI導入支援、RAG、業務システム開発",
       "status": "published",
-      "lastModified": "2026-09-05",
+      "lastModified": "2026-09-09",
       "relatedCaseStudy": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/",
-      "relatedGuide": "https://ai.gami.jp/insights/ai-introduction-support/"
+      "relatedGuide": "https://ai.gami.jp/insights/ai-introduction-support/",
+      "relatedRagGuide": "https://ai.gami.jp/insights/rag-document-inventory-checklist/"
     },
     {
       "url": "https://ai.gami.jp/services/ai-marketing/",

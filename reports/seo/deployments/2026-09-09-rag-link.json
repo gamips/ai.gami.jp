@@ -1,0 +1,81 @@
+{
+  "commit": "753f79f1125ade75f73311e3112c96f9b7a8710a",
+  "publishedAt": "2026-09-09T00:37:26Z",
+  "verifiedAt": "2026-09-09T09:39:37.9834599+09:00",
+  "method": "GitHub Actions",
+  "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/34295758106",
+  "actions": {
+    "status": "completed",
+    "conclusion": "success",
+    "build": "success",
+    "deploy": "success",
+    "completedAt": "2026-09-09T00:37:28Z"
+  },
+  "ftpsUsed": false,
+  "previousConnectionIssue": "The normal route succeeded in this run without settings or credential changes. Earlier curl(28) root cause remains unconfirmed.",
+  "scope": [
+    "src/app/content/services.ts: RAG / KNOWLEDGE optional link",
+    "src/app/seo/pageSeo.js: same fallback link and truthful service lastModified"
+  ],
+  "review": {
+    "claudeAuth": "claude.ai subscription Pro; ANTHROPIC_API_KEY removed",
+    "claudeLabel": "社内資料の棚卸しチェックリストを見る",
+    "codex": "passed",
+    "independentDiffReview": "passed",
+    "build": "passed",
+    "diffCheck": "passed",
+    "lazyweb": "Tool unavailable in current tool inventory. Reused existing text-link component; no new design or reference artifact."
+  },
+  "baseline": {
+    "checkedAt": "2026-09-09T09:34:41.4363573+09:00",
+    "sourceStatus": 200,
+    "targetStatus": 200,
+    "targetLinkCount": 0,
+    "sourceSelfCanonical": true,
+    "targetSelfCanonical": true
+  },
+  "verification": {
+    "checkedAt": "2026-09-09T00:37:46.380Z",
+    "mode": "live",
+    "sourceStatus": 200,
+    "targetStatus": 200,
+    "sourceSelfCanonical": true,
+    "targetSelfCanonical": true,
+    "rawExactLinkCount": 1,
+    "rawLabelMatches": true,
+    "existingGuideAndCaseLinksPreserved": true,
+    "sitemapUrls": 19,
+    "serviceLastModified": "2026-09-09",
+    "articleLastModified": "2026-09-05",
+    "allSitemapSeoHeadsChecked": 19,
+    "javascriptAssetsHashMatched": 24,
+    "hydratedExactLinkCount": 1,
+    "rawAndDynamicLabelsMatch": true,
+    "articleContentUnchanged": true,
+    "existingArticlesUnchanged": 8,
+    "sharedLayoutUnchanged": true,
+    "otherServicesUnchanged": true,
+    "existingProductLinkPreserved": true,
+    "desktop": true,
+    "mobile": true,
+    "desktopViewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "mobileViewport": {
+      "width": 390,
+      "height": 844
+    },
+    "horizontalOverflow": false,
+    "consoleErrors": 0,
+    "desktopSameTabNavigation": true,
+    "mobileSameTabNavigation": true,
+    "targetScrollY": 0
+  },
+  "browserEvidence": {
+    "desktop": "output/playwright/2026-09-09-rag-link/desktop.png",
+    "mobile": "output/playwright/2026-09-09-rag-link/mobile.png",
+    "console": "0 errors on desktop and mobile link navigation"
+  },
+  "acquisitionEffect": "not-yet-measurable"
+}
