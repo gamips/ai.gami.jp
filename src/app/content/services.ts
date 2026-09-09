@@ -247,6 +247,10 @@ export const services: ServiceContent[] = [
           "回答範囲、参照元表示、保留条件の設計",
           "小さな検証から社内AIチャットボットや業務補助へ拡張",
         ],
+        link: {
+          label: "社内資料の棚卸しチェックリストを見る",
+          href: "/insights/rag-document-inventory-checklist/",
+        },
       },
       {
         label: "SYSTEM BUILD",

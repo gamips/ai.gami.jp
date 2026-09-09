@@ -666,7 +666,7 @@ export const pageSeoByPath = {
   },
   "/services/ai-saas": {
     path: "/services/ai-saas",
-    lastModified: "2026-09-05",
+    lastModified: "2026-09-09",
     fallbackHeading: "AI導入支援から業務システム開発まで",
     title: "AI × SaaS / AI × DX | AI導入支援・RAG・業務システム開発 | GAMI",
     description:
@@ -700,6 +700,10 @@ export const pageSeoByPath = {
           "回答範囲、参照元表示、保留条件の設計",
           "社内AIチャットボットや業務補助への段階的拡張",
         ],
+        link: {
+          label: "社内資料の棚卸しチェックリストを見る",
+          href: "/insights/rag-document-inventory-checklist/",
+        },
       },
       {
         title: "業務システム開発・AI機能組み込みへ進める",
