@@ -1,0 +1,60 @@
+{
+  "fetchedAt": "2026-09-11T08:04:16.0714439+09:00",
+  "siteUrl": "sc-domain:ai.gami.jp",
+  "sitemapUrl": "https://ai.gami.jp/sitemap.xml",
+  "method": "GET",
+  "api": {
+    "path": "https://ai.gami.jp/sitemap.xml",
+    "lastSubmitted": "2026-05-07T06:44:37.462Z",
+    "isPending": false,
+    "isSitemapsIndex": false,
+    "type": "sitemap",
+    "lastDownloaded": "2026-05-07T06:44:39.118Z",
+    "warnings": "0",
+    "errors": "0",
+    "contents": [
+      {
+        "type": "web",
+        "submitted": "10",
+        "indexed": "0"
+      }
+    ]
+  },
+  "live": {
+    "httpStatus": 200,
+    "validXml": true,
+    "urlCount": 19,
+    "robotsTxtSitemapReference": true,
+    "locs": [
+      "https://ai.gami.jp/",
+      "https://ai.gami.jp/concept/",
+      "https://ai.gami.jp/services/",
+      "https://ai.gami.jp/services/ai-saas/",
+      "https://ai.gami.jp/services/ai-marketing/",
+      "https://ai.gami.jp/services/ai-web/",
+      "https://ai.gami.jp/price/",
+      "https://ai.gami.jp/news/",
+      "https://ai.gami.jp/about/",
+      "https://ai.gami.jp/contact/",
+      "https://ai.gami.jp/insights/",
+      "https://ai.gami.jp/insights/saas-or-custom-system-checklist/",
+      "https://ai.gami.jp/insights/ai-customer-reply-template/",
+      "https://ai.gami.jp/insights/ai-website-launch-checklist/",
+      "https://ai.gami.jp/insights/rag-document-inventory-checklist/",
+      "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/",
+      "https://ai.gami.jp/insights/chatgpt-workplace-adoption-checklist/",
+      "https://ai.gami.jp/insights/ai-introduction-support-pricing/",
+      "https://ai.gami.jp/insights/ai-introduction-support/"
+    ]
+  },
+  "assessment": {
+    "apiMetadataChangedSincePreviousCheck": false,
+    "previousEvidencePath": "reports/seo/inspections/2026-09-08-sitemap.json",
+    "indexing": "not_inferred_from_sitemap_metadata",
+    "deprecatedField": "contents[].indexed is retained only as raw API evidence and must not be interpreted.",
+    "note": "Google-held sitemap timestamps remain May7 with 10 submitted URLs. The live sitemap is valid with 19 URLs before today's planned article publication. All three separately scheduled article URL inspections returned PASS. Old sitemap metadata alone does not establish a current fetch failure.",
+    "resubmissionAttempted": false,
+    "scopeEscalated": false,
+    "nextReadOnlyCheckOnOrAfter": "2026-09-18"
+  }
+}

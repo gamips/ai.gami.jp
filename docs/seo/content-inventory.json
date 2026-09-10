@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-09",
+  "updatedAt": "2026-09-11",
   "rules": {
     "oneOwnerUrlPerIntent": true,
     "publicCopyExcludesOperationalMetadata": true
@@ -98,7 +98,7 @@
       "type": "insight-index",
       "intent": "AI導入と生成AI活用の実践ガイド一覧",
       "status": "published",
-      "lastModified": "2026-09-08"
+      "lastModified": "2026-09-11"
     },
     {
       "url": "https://ai.gami.jp/insights/ai-introduction-support/",
@@ -193,6 +193,16 @@
       "schema": "Article",
       "experimentId": "insight-saas-or-custom-system-checklist-v1",
       "relatedService": "https://ai.gami.jp/services/ai-saas/"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-article-fact-check-template/",
+      "type": "insight",
+      "intent": "AIが書いた記事を一文ずつ事実確認する4欄の記入式テンプレート",
+      "status": "published",
+      "lastModified": "2026-09-11",
+      "schema": "Article",
+      "experimentId": "insight-ai-article-fact-check-template-v1",
+      "relatedService": "https://ai.gami.jp/services/ai-marketing/"
     }
   ]
 }

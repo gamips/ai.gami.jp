@@ -1,0 +1,62 @@
+{
+  "siteUrl": "sc-domain:ai.gami.jp",
+  "source": "google-index",
+  "purpose": "Scheduled September11 first index and query/page check for three September4 Insights",
+  "results": [
+    {
+      "siteUrl": "sc-domain:ai.gami.jp",
+      "inspectionUrl": "https://ai.gami.jp/insights/ai-introduction-support/",
+      "fetchedAt": "2026-09-10T23:03:25.1901153+00:00",
+      "source": "google-index",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:ai.gami.jp&id=oDfTQxxvdg7Tw3OT-V8geQ&utm_medium=link&utm_source=api",
+      "verdict": "PASS",
+      "coverageState": "送信して登録されました",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-09-04T20:00:33Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://ai.gami.jp/insights/ai-introduction-support/",
+      "userCanonical": "https://ai.gami.jp/insights/ai-introduction-support/"
+    },
+    {
+      "siteUrl": "sc-domain:ai.gami.jp",
+      "inspectionUrl": "https://ai.gami.jp/insights/ai-introduction-support-pricing/",
+      "fetchedAt": "2026-09-10T23:03:32.4955426+00:00",
+      "source": "google-index",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:ai.gami.jp&id=LaMUeafAhCxJGZ9mxwVOkQ&utm_medium=link&utm_source=api",
+      "verdict": "PASS",
+      "coverageState": "送信して登録されました",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-09-04T21:15:37Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://ai.gami.jp/insights/ai-introduction-support-pricing/",
+      "userCanonical": "https://ai.gami.jp/insights/ai-introduction-support-pricing/"
+    },
+    {
+      "siteUrl": "sc-domain:ai.gami.jp",
+      "inspectionUrl": "https://ai.gami.jp/insights/chatgpt-workplace-adoption-checklist/",
+      "fetchedAt": "2026-09-10T23:03:39.8282192+00:00",
+      "source": "google-index",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:ai.gami.jp&id=uf3fVxA46foHjXYkrwn_lQ&utm_medium=link&utm_source=api",
+      "verdict": "PASS",
+      "coverageState": "送信して登録されました",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-09-04T21:53:06Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://ai.gami.jp/insights/chatgpt-workplace-adoption-checklist/",
+      "userCanonical": "https://ai.gami.jp/insights/chatgpt-workplace-adoption-checklist/"
+    }
+  ],
+  "assessment": {
+    "indexResult": "confirmed",
+    "checkedUrls": 3,
+    "passUrls": 3,
+    "canonicalMatches": 3,
+    "liveTest": false,
+    "effectResult": "not-yet-measurable",
+    "nextEffectReviewOnOrAfter": "2026-10-02",
+    "note": "Google-held index status is positive for all three scheduled URLs. Retrieval time and last crawl time are separate. No article content or observation start date changed."
+  }
+}

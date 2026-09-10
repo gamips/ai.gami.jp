@@ -1,0 +1,91 @@
+{
+  "commit": "6332b9301d9372ab61c04285606225d45471d9da",
+  "publishedAt": "2026-09-10T23:09:04Z",
+  "verifiedAt": "2026-09-11T08:12:35.2705320+09:00",
+  "method": "GitHub Actions",
+  "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/34540798299",
+  "actions": {
+    "status": "completed",
+    "conclusion": "success",
+    "build": "success",
+    "deploy": "success",
+    "completedAt": "2026-09-10T23:09:06Z"
+  },
+  "ftpsUsed": false,
+  "scope": [
+    "src/app/content/insights.js: one new article entry; existing eight articles unchanged"
+  ],
+  "review": {
+    "claudeAuth": "claude.ai subscription Pro; ANTHROPIC_API_KEY removed",
+    "codex": "passed after removing unsupported first-person usage and production metadata from initial draft",
+    "independentCopyReview": "passed",
+    "build": "passed",
+    "diffCheck": "passed",
+    "lazyweb": "Not applicable: prose added through the unchanged existing template; no UI design change."
+  },
+  "baseline": {
+    "checkedAt": "2026-09-11T08:03:01.0642215+09:00",
+    "urlExisted": false,
+    "httpStatus": 404,
+    "sitemapUrls": 19
+  },
+  "verification": {
+    "checkedAt": "2026-09-10T23:10:12.605Z",
+    "mode": "live",
+    "articles": 9,
+    "existingArticlesUnchanged": 8,
+    "sections": 4,
+    "worksheetFields": 4,
+    "exampleFields": 4,
+    "sitemapUrls": 20,
+    "articleSchema": true,
+    "breadcrumbSchema": true,
+    "selfCanonical": true,
+    "indexLink": true,
+    "serviceLink": true,
+    "initialContentMatches": true,
+    "seoHeadMatchesBuild": true,
+    "publicReferenceHeadingAbsent": true,
+    "operationalMetadataAbsent": true,
+    "staticChecks": "passed",
+    "httpStatus": 200,
+    "indexStatus": 200,
+    "serviceTargetStatus": 200,
+    "entryScriptsHttpStatus": 200,
+    "indexSelfCanonical": true,
+    "noNoindex": true,
+    "indexLastModified": "2026-09-11",
+    "articleLastModified": "2026-09-11",
+    "olderArticleDatesUnchanged": true,
+    "sharedLayoutUnchanged": true,
+    "renderedLeadMatches": true,
+    "renderedExampleMatches": true,
+    "desktop": true,
+    "mobile": true,
+    "desktopViewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "mobileViewport": {
+      "width": 390,
+      "height": 844
+    },
+    "horizontalOverflow": false,
+    "consoleErrors": 0,
+    "desktopIndexToArticleNavigation": true,
+    "mobileArticleToServiceNavigation": true,
+    "targetScrollY": 0,
+    "scopeNote": "Scoped article/index/service HTTP, new article and index heads, new article body/schema/links, sitemap contents and entry script HTTP checks. No claim of checking all20 page heads or all asset hashes."
+  },
+  "browserEvidence": {
+    "directory": "output/playwright/2026-09-11-fact-check/",
+    "screenshots": [
+      "desktop-top.png",
+      "desktop-fields.png",
+      "mobile-top.png",
+      "mobile-fields.png",
+      "desktop-index.png"
+    ]
+  },
+  "acquisitionEffect": "not-yet-measurable"
+}

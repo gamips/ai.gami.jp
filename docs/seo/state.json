@@ -7,33 +7,33 @@
     "currentCadenceHours": 24,
     "status": "ACTIVE",
     "currentSchedule": "毎日8:00（Asia/Tokyo）",
-    "scheduleObservedAt": "2026-09-09T09:39:37.9834599+09:00",
+    "scheduleObservedAt": "2026-09-11T08:18:59.7281479+09:00",
     "scheduleSource": "Read back existing automation.toml; daily08:00 Asia/Tokyo preserved."
   },
-  "lastActualRunAt": "2026-09-09T09:39:37.9834599+09:00",
-  "lastPromptAuditAt": "2026-09-09T09:39:37.9834599+09:00",
+  "lastActualRunAt": "2026-09-11T08:18:59.7281479+09:00",
+  "lastPromptAuditAt": "2026-09-11T08:18:59.7281479+09:00",
   "measurement": {
     "searchConsole": {
       "siteUrl": "sc-domain:ai.gami.jp",
       "status": "connected",
-      "latestFinalizedDate": "2026-09-06",
-      "lastRecordedAt": "2026-09-09T09:30:05.3339184+09:00",
-      "latestMetricsPath": "reports/seo/metrics/2026-09-09-0930.json",
+      "latestFinalizedDate": "2026-09-08",
+      "lastRecordedAt": "2026-09-11T08:02:25.7962476+09:00",
+      "latestMetricsPath": "reports/seo/metrics/2026-09-11-0802.json",
       "urlInspection": {
         "status": "available",
         "source": "google-index",
-        "verifiedAt": "2026-09-06T09:42:08+09:00",
-        "latestInspectionPath": "reports/seo/inspections/2026-09-06-home.json",
+        "verifiedAt": "2026-09-10T23:03:39.8282192+00:00",
+        "latestInspectionPath": "reports/seo/inspections/2026-09-11-initial-articles.json",
         "implementationCommit": "6ea352c25bb87684a0b337ad0a51ba66d5f48bd4"
       },
       "sitemap": {
         "status": "readable_resubmission_blocked",
-        "lastCheckedAt": "2026-09-08T08:02:31.9954793+09:00",
-        "latestEvidencePath": "reports/seo/inspections/2026-09-08-sitemap.json",
-        "liveUrlCount": 19,
-        "nextReadOnlyCheckOnOrAfter": "2026-09-11",
-        "liveVerifiedAt": "2026-09-09T09:39:37.9834599+09:00",
-        "liveEvidencePath": "reports/seo/deployments/2026-09-09-rag-link.json"
+        "lastCheckedAt": "2026-09-11T08:04:16.0714439+09:00",
+        "latestEvidencePath": "reports/seo/inspections/2026-09-11-sitemap.json",
+        "liveUrlCount": 20,
+        "nextReadOnlyCheckOnOrAfter": "2026-09-18",
+        "liveVerifiedAt": "2026-09-10T23:10:12.605Z",
+        "liveEvidencePath": "reports/seo/deployments/2026-09-11-fact-check-template.json"
       }
     },
     "ga4": {
@@ -51,17 +51,18 @@
     "insight-ai-website-launch-checklist-v1",
     "insight-ai-customer-reply-template-v1",
     "github-project-site-intro-v1",
-    "insight-saas-or-custom-system-checklist-v1"
+    "insight-saas-or-custom-system-checklist-v1",
+    "insight-ai-article-fact-check-template-v1"
   ],
   "deployment": {
-    "lastSuccessfulAt": "2026-09-09T00:37:26Z",
-    "commit": "753f79f1125ade75f73311e3112c96f9b7a8710a",
-    "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/34295758106",
+    "lastSuccessfulAt": "2026-09-10T23:09:04Z",
+    "commit": "6332b9301d9372ab61c04285606225d45471d9da",
+    "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/34540798299",
     "method": "GitHub Actions",
-    "evidencePath": "reports/seo/deployments/2026-09-09-rag-link.json",
+    "evidencePath": "reports/seo/deployments/2026-09-11-fact-check-template.json",
     "liveVerification": "passed",
-    "actionsStatus": "Completed/success. Normal publication route recovered without configuration changes; no alternate deployment performed.",
-    "lastSuccessfulActionsRun": "https://github.com/gamips/ai.gami.jp/actions/runs/34295758106"
+    "actionsStatus": "Completed/success. Build and deploy succeeded; no alternate deployment or settings changes.",
+    "lastSuccessfulActionsRun": "https://github.com/gamips/ai.gami.jp/actions/runs/34540798299"
   },
   "observationQueue": [
     {
@@ -70,12 +71,19 @@
       "startedAt": "2026-09-04T10:46:03+09:00",
       "nextChecks": [
         {
-          "onOrAfter": "2026-09-11",
-          "check": "index and first page/query signal"
-        },
-        {
           "onOrAfter": "2026-10-02",
           "check": "28 finalized days or minimum evidence"
+        }
+      ],
+      "completedChecks": [
+        {
+          "onOrAfter": "2026-09-11",
+          "check": "index and first page/query signal",
+          "checkedAt": "2026-09-10T23:03:25.1901153+00:00",
+          "indexResult": "confirmed",
+          "queryPageEffect": "not-yet-measurable",
+          "inspectionEvidencePath": "reports/seo/inspections/2026-09-11-initial-articles.json",
+          "metricsEvidencePath": "reports/seo/metrics/2026-09-11-0802.json"
         }
       ]
     },
@@ -85,12 +93,19 @@
       "startedAt": "2026-09-04T16:03:12+09:00",
       "nextChecks": [
         {
-          "onOrAfter": "2026-09-11",
-          "check": "index and first page/query signal"
-        },
-        {
           "onOrAfter": "2026-10-02",
           "check": "28 finalized days or minimum evidence"
+        }
+      ],
+      "completedChecks": [
+        {
+          "onOrAfter": "2026-09-11",
+          "check": "index and first page/query signal",
+          "checkedAt": "2026-09-10T23:03:32.4955426+00:00",
+          "indexResult": "confirmed",
+          "queryPageEffect": "not-yet-measurable",
+          "inspectionEvidencePath": "reports/seo/inspections/2026-09-11-initial-articles.json",
+          "metricsEvidencePath": "reports/seo/metrics/2026-09-11-0802.json"
         }
       ]
     },
@@ -100,12 +115,19 @@
       "startedAt": "2026-09-04T21:50:06+09:00",
       "nextChecks": [
         {
-          "onOrAfter": "2026-09-11",
-          "check": "index and first page/query signal"
-        },
-        {
           "onOrAfter": "2026-10-02",
           "check": "28 finalized days or minimum evidence"
+        }
+      ],
+      "completedChecks": [
+        {
+          "onOrAfter": "2026-09-11",
+          "check": "index and first page/query signal",
+          "checkedAt": "2026-09-10T23:03:39.8282192+00:00",
+          "indexResult": "confirmed",
+          "queryPageEffect": "not-yet-measurable",
+          "inspectionEvidencePath": "reports/seo/inspections/2026-09-11-initial-articles.json",
+          "metricsEvidencePath": "reports/seo/metrics/2026-09-11-0802.json"
         }
       ]
     },
@@ -194,19 +216,34 @@
           "check": "28 finalized post-publication days and at least30 page impressions; otherwise insufficient evidence"
         }
       ]
+    },
+    {
+      "experimentId": "insight-ai-article-fact-check-template-v1",
+      "status": "observing",
+      "startedAt": "2026-09-10T23:09:04Z",
+      "nextChecks": [
+        {
+          "onOrAfter": "2026-09-18",
+          "check": "index and first page/query signal"
+        },
+        {
+          "onOrAfter": "2026-10-12",
+          "check": "28 finalized post-publication days and at least30 page impressions; otherwise insufficient evidence"
+        }
+      ]
     }
   ],
   "readyQueue": [
     {
-      "lane": "content",
+      "lane": "technical-seo",
       "priority": 1,
-      "work": "/insights/ai-article-fact-check-template/ に、AIの記事下書きを一文ずつ確認する実務テンプレートを作る。確認する文、確かめる場所、日付と対象条件、直し方・未確認の扱いの4欄と、架空の紹介文1例に絞る。確認できた機能だけ残し、未確認の効果数値は公開しない。既存のサイト公開6項目や問い合わせ返信とは別の意図を維持する。Claudeサブスクリプションで原稿を起草またはレビューし、既存8記事・サービス本文・共有UIは変えず、新記事から /services/ai-marketing/ へ案内する。参考資料一覧や制作メモは載せない。",
+      "work": "/price/ の既存表示内容を正本として、金額・対象範囲・契約説明・注意事項・サービスリンクが初期HTMLでも読めるようにする。既存文言とデザインは変えず、料金データを最小限共用する。料金記事・他記事・共通描画処理・CTA・計測定義には触れない。buildと初期HTML／表示内容の一致を確認し、公開後にHTTP・canonical・schema・既存表示を検証する。参考資料一覧や制作メモは載せない。",
       "evidence": [
-        "src/app/content/services.ts: SEO / WRITING, human fact and expression review",
-        "https://developers.google.com/search/docs/fundamentals/using-gen-ai-content",
-        "Candidate URL returned404 on2026-09-09; distinct from existing eight Insights"
+        "src/app/pages/Price.tsx: 月2万円〜で始めるAI導入支援の対象範囲",
+        "src/app/seo/pageSeo.js: /price currently has no fallbackSections",
+        "September11 live /price/ HTTP200; scope heading absent from initial HTML; fallback section count0"
       ],
-      "searchDemand": "Hypothesis, not measured demand; check current inventory and search intent before drafting."
+      "searchDemand": "Technical content parity, not a claimed cause of low traffic. Keep /insights/ai-introduction-support-pricing/ article and its October2 observation unchanged."
     }
   ],
   "blocked": [
@@ -235,7 +272,7 @@
     {
       "lane": "technical-seo",
       "item": "Existing sitemap API resubmission",
-      "reason": "A single PUT using existing credentials returned HTTP403 on September6; exact authorization cause is unconfirmed. September8 GET metadata is unchanged. The live sitemap now has19 valid URLs and a robots.txt reference. No retry or scope escalation was performed.",
+      "reason": "A single PUT using existing credentials returned HTTP403 on September6; exact authorization cause is unconfirmed. September11 GET metadata is unchanged. Post-publication live sitemap has20 valid URLs; three separately inspected September4 articles are indexed. No retry or scope escalation was performed. Old sitemap metadata alone does not establish a current fetch failure.",
       "doesNotBlock": [
         "Search Console measurement and URL Inspection",
         "content publishing",
@@ -250,10 +287,10 @@
     "singleWriterConflict": false,
     "verificationGap": false,
     "cadenceChangeNeeded": false,
-    "nextFullAuditAfterCompletedRuns": 2,
+    "nextFullAuditAfterCompletedRuns": 1,
     "actualPromptReadback": "passed",
     "changeApplied": false,
-    "changeReason": "Existing prompt1.0.5 covered non-overlapping publication and recovery. Normal Actions succeeded today; no workaround was needed. Measurement and next distinct article discovery ran alongside the link release. First page/query signals remain insufficient for acquisition judgment, and observation dates stay unchanged. Daily08:00 and the no-reference-list rule already match saved settings.",
+    "changeReason": "Prompt1.0.5 already prevents observation waits from blocking independent work and excludes public reference lists. Today's user reaffirmed the no-reference-list policy; published article and saved launcher comply. Three due index checks are completed with evidence; future effect dates remain unchanged. No recurring operational failure or cadence trigger was found, so detailed prompt and saved daily08:00 schedule are preserved.",
     "operatingPolicyUpdated": false,
     "externalScheduleChangeObserved": false,
     "launcherPromptUpdated": false
