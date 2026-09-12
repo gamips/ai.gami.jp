@@ -1,5 +1,6 @@
 import { insights } from "../content/insights.js";
 import { featuredNews } from "../content/news.js";
+import { pricePlans, monthlyModelPoints, projectNotes } from "../content/pricing.js";
 
 export const SITE_NAME = "GAMI";
 export const SITE_LEGAL_NAME = "株式会社Gami";
@@ -917,7 +918,32 @@ export const pageSeoByPath = {
   },
   "/price": {
     path: "/price",
+    lastModified: "2026-09-12",
     fallbackHeading: "AI導入支援・AI開発の料金",
+    fallbackLabel: "PRICE",
+    fallbackSections: [
+      ...pricePlans.map((plan) => {
+        const servicePath = `/services/${plan.slug}`;
+        const service = serviceCatalogSchema.itemListElement.find(
+          (item) => item.url === toCanonicalUrl(servicePath),
+        );
+
+        return {
+          title: service.item.name,
+          paragraphs: [plan.fee, plan.lead, plan.description],
+          items: plan.approachItems,
+          link: { label: "サービス詳細を見る", href: `${servicePath}/` },
+        };
+      }),
+      ...monthlyModelPoints.map((point) => ({
+        title: point.title,
+        body: point.description,
+      })),
+      ...projectNotes.map((note) => ({
+        title: note.title,
+        body: note.body,
+      })),
+    ],
     title: "AI導入支援の料金 | 月2万円〜・AI開発費用 | GAMI",
     description:
       "GAMIのAI導入支援料金とAI開発費用。月2万円〜の生成AI導入支援から、RAG構築、AIシステム開発、AIマーケティング、AI Web制作の価格目安まで整理しています。",
