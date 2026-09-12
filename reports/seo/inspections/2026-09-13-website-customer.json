@@ -1,0 +1,32 @@
+[
+  {
+    "siteUrl": "sc-domain:ai.gami.jp",
+    "inspectionUrl": "https://ai.gami.jp/insights/ai-website-launch-checklist/",
+    "fetchedAt": "2026-09-12T23:02:43.5552608+00:00",
+    "source": "google-index",
+    "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:ai.gami.jp&id=AnjWIJloQ4uPYz-W6QM4MQ&utm_medium=link&utm_source=api",
+    "verdict": "PASS",
+    "coverageState": "送信して登録されました",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-09-10T09:42:13Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://ai.gami.jp/insights/ai-website-launch-checklist/",
+    "userCanonical": "https://ai.gami.jp/insights/ai-website-launch-checklist/"
+  },
+  {
+    "siteUrl": "sc-domain:ai.gami.jp",
+    "inspectionUrl": "https://ai.gami.jp/insights/ai-customer-reply-template/",
+    "fetchedAt": "2026-09-12T23:02:51.0074886+00:00",
+    "source": "google-index",
+    "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:ai.gami.jp&id=CPPks3C6wKFEF9tjBDvjNA&utm_medium=link&utm_source=api",
+    "verdict": "PASS",
+    "coverageState": "送信して登録されました",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-09-07T21:42:58Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://ai.gami.jp/insights/ai-customer-reply-template/",
+    "userCanonical": "https://ai.gami.jp/insights/ai-customer-reply-template/"
+  }
+]

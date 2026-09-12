@@ -1,0 +1,125 @@
+{
+  "recordedAt": "2026-09-13T08:16:38.7173074+09:00",
+  "url": "https://ai.gami.jp/insights/ai-website-brief-template/",
+  "articleTitle": "AIでサイトを作る前に｜制作依頼をまとめる5つの欄",
+  "baseline": {
+    "observedAt": "2026-09-13T08:06:53.5503138+09:00",
+    "articleStatus": 404,
+    "sitemapStatus": 200,
+    "sitemapUrls": 20
+  },
+  "publication": {
+    "commit": "c233a74670cab930862c0cfe1ec65019a747eb07",
+    "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/34724603977",
+    "method": "GitHub Actions",
+    "status": "success",
+    "deployedAt": "2026-09-12T23:08:35Z"
+  },
+  "schemaCorrection": {
+    "commit": "fcd387267a86fd0f074de10bc8fc0b84b707745a",
+    "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/34724895099",
+    "method": "GitHub Actions",
+    "status": "success",
+    "deployedAt": "2026-09-12T23:15:00Z",
+    "scope": "All ten Insights page entities changed Article to WebPage; article body/date/Article entity unchanged. Non-article SEO objects unchanged.",
+    "reason": "Existing shared schema declared the page entity as Article. Headline-filtered assertion missed the second Article. Not a hydration or navigation duplication.",
+    "secondProductionPushReason": "Verified SEO data defect found during publication verification. First Actions run finished before correction push; no overlap.",
+    "baseline": {
+      "types": [
+        "Organization",
+        "Article",
+        "Article",
+        "BreadcrumbList"
+      ],
+      "affectedArticles": 10
+    },
+    "final": {
+      "types": [
+        "Organization",
+        "WebPage",
+        "Article",
+        "BreadcrumbList"
+      ]
+    }
+  },
+  "staticVerification": {
+    "checkedAt": "2026-09-12T23:15:52.525Z",
+    "mode": "live",
+    "articles": 10,
+    "existingArticlesUnchanged": 9,
+    "sections": 4,
+    "worksheetFields": 5,
+    "exampleFields": 5,
+    "sitemapUrls": 21,
+    "articleSchema": true,
+    "breadcrumbSchema": true,
+    "selfCanonical": true,
+    "indexLink": true,
+    "serviceLink": true,
+    "initialContentMatches": true,
+    "seoHeadMatchesBuild": true,
+    "publicReferenceHeadingAbsent": true,
+    "operationalMetadataAbsent": true,
+    "staticChecks": "passed"
+  },
+  "sharedSchemaVerification": {
+    "checkedAt": "2026-09-12T23:15:52.992Z",
+    "mode": "live",
+    "changedArticles": 10,
+    "unchangedOtherPages": 13,
+    "onlyPageSchemaTypeChanged": true,
+    "oneArticlePerPage": true
+  },
+  "browserVerification": {
+    "verifiedAt": "2026-09-13T08:16:38.7173074+09:00",
+    "desktop": {
+      "width": 1440,
+      "height": 1000,
+      "h1": 1,
+      "articleH2": 4,
+      "worksheetAndExampleItems": 10,
+      "horizontalOverflow": 0
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "h1": 1,
+      "articleH2": 4,
+      "worksheetAndExampleItems": 10,
+      "horizontalOverflow": 0
+    },
+    "index": {
+      "articles": 10,
+      "horizontalOverflow": 0
+    },
+    "renderedContentMatches": true,
+    "serviceLink": {
+      "destination": "https://ai.gami.jp/services/ai-web/",
+      "scrollY": 0
+    },
+    "indexToArticle": {
+      "destination": "https://ai.gami.jp/insights/ai-website-brief-template/",
+      "scrollY": 0
+    },
+    "articleSchemaCountAfterCorrection": 1,
+    "existingArticleSample": "https://ai.gami.jp/insights/ai-introduction-support/",
+    "serviceArticleSchemaCount": 0,
+    "returnedArticleSchemaCount": 1,
+    "consoleErrors": 0,
+    "referenceListAbsent": true,
+    "visualReview": "Existing layout retained; desktop/mobile screenshots reviewed. One-line schema-only correction has no visual effect; no duplicate screenshot pass.",
+    "screenshotDirectory": "output/playwright/2026-09-13-brief"
+  },
+  "contentReview": {
+    "draftModel": "gpt-6-astra",
+    "independentReview": "passed",
+    "rootReview": "Five fields and matching fictional example; pre-production brief distinct from launch/fact-check guides. No references or operational notes. Minor wording simplified.",
+    "internalFactCheck": [
+      "src/app/content/services.ts: FAST LAUNCH and Define/Build Fast/Craft/Launch",
+      "https://developers.google.com/search/docs/fundamentals/using-gen-ai-content",
+      "https://developers.google.com/search/docs/appearance/structured-data/article"
+    ]
+  },
+  "effect": "not-yet-measurable",
+  "scopeNote": "Article/index/service HTTP and article entry scripts checked; all ten article heads/schemas checked. No claim of complete site asset crawling."
+}

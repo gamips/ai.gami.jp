@@ -1,6 +1,6 @@
 # AI.GAMI SEO成長PDCA heartbeat prompt
 
-Prompt version: 1.0.6
+Prompt version: 1.0.7
 
 C:\Users\Akira Ishigami\google_antigravity_project\ai.gami.jp で、広告費を使わずに、検索・AI検索・紹介・無料パブリシティからの有効流入と問い合わせを継続的に増やしてください。ブランドを壊さず、シンプルで美しく、短く分かりやすい日本語を守ります。
 
@@ -52,6 +52,8 @@ Search Consoleはsc-domain:ai.gami.jpを正本とします。tools/gsc-searchcon
 
 検証は差分とリスクに合わせます。公開コードや記事の変更はnpm run build、git diff --check、変更箇所の静的確認を行います。新規記事は対象記事と一覧のhead、本文、schema、sitemap、内部リンクを確認し、公開後に実URLのHTTPと生成内容、desktop/mobile、heading、link、console、横あふれを確認します。共有UIを変えない記事ではlocalと本番の画面確認を重複させず、軽微な文言修正や運用文書だけなら全件buildや画面確認は不要です。共有テンプレートやルーティングを変える場合だけ、影響範囲へ回帰確認を広げます。本番pushは原則1run 1回とし、進行中deployを別pushでcancelしません。
 
+記事のschemaは見出し一致だけでなく型別の総数も確認します。ページ用WebPageと記事用Articleを分け、初期HTMLと画面起動後のどちらでもArticleが1件であることを確かめます。
+
 各URLでは同時に一つの変数だけを観測します。baseline、期待signal、最低証拠量、reviewAt、freeze範囲、rollbackを記録します。新規記事は完成した一ページpackageを一変数として扱えます。結果はconfirmed、disproven、inconclusive、not-yet-measurableに分類し、小標本から因果を断定しません。
 
 公開処理の接続失敗と、build不良・本番サイトの障害を分けます。同じ接続失敗を繰り返す場合は、既存のプロジェクト接続設定も確認します。別経路へ移る前に進行中deployの終了を確認し、同じ検証済みbuildを同じ公開先へ反映します。既存の `.vscode/sftp.json` の接続先はFTPSで利用できることを確認済みです。資格情報を出力・commitせず、サーバー設定や認証方式は変更しません。公開後はHTTP・内容・配信アセットを照合し、Actionsの結果と実際の公開結果を別々に記録します。
@@ -74,3 +76,4 @@ run終了前にstate、content inventory、experiments、metrics、monthly run l
 - 1.0.4 / 2026-09-06: 保存されたscheduleが毎日8時へ変わっていたため、現在値を正本とし、初期の3時間設定で上書きしない表現へ変更。今回schedule自体は変更せず、同じautomationの起動指示も同期して読み戻した。戻す場合も、最新の保存設定を確認してから調整する。
 - 1.0.5 / 2026-09-08: GitHub Actionsからの接続失敗が2試行続いたため、既存の公開経路を確認して同じbuildを反映する手順を追加。稼働中deployとの重複を避け、既存FTPSで公開し本番照合できたことが根拠。scheduleとサーバー設定は変更しない。戻す場合は通常のActions公開が復旧したことを確認し、この復旧手順だけを外す。
 - 1.0.6 / 2026-09-12: 最新のユーザー方針に合わせ、原稿を最新モデルのサブエージェントで作る運用へ変更。旧Claude CLI・Gemini固定の指定を外し、「、」でのbr改行をしないルールを追加。実際の起動指示も同期し、毎日8時は維持する。戻す場合はユーザーが執筆経路を再指定したときだけ行う。
+- 1.0.7 / 2026-09-13: 記事のschema検証に型別総数を追加。見出し付きArticleだけを数える検証では、ページ用schemaもArticleになっていた既存の重複を検出できなかったため。WebPageとArticleを分けて確認し、本文・日付・デザインは変えない。起動指示は正本を読む既存設定で整合し、毎日8時を維持する。別のschema設計へ移行した場合だけ、その設計に合う確認へ置き換える。

@@ -1,40 +1,41 @@
 {
   "schemaVersion": 1,
-  "promptVersion": "1.0.6",
+  "promptVersion": "1.0.7",
   "automation": {
     "name": "AI.GAMI SEO成長PDCA",
     "id": "ai-gami-seo-pdca",
     "currentCadenceHours": 24,
     "status": "ACTIVE",
     "currentSchedule": "毎日8:00（Asia/Tokyo）",
-    "scheduleObservedAt": "2026-09-12T18:50:37.8175713+09:00",
-    "scheduleSource": "Read back existing automation.toml after prompt update; daily08:00 Asia/Tokyo preserved. Actual trigger2026-09-12T09:39:45.278Z recorded separately; no inference about scheduler delay."
+    "scheduleObservedAt": "2026-09-13T08:16:38.7173074+09:00",
+    "scheduleSource": "Existing automation.toml read back; daily08:00 Asia/Tokyo and launcher reading heartbeat-prompt.md preserved. No schedule or launcher mutation."
   },
-  "lastActualRunAt": "2026-09-12T18:50:37.8175713+09:00",
-  "lastPromptAuditAt": "2026-09-12T18:50:37.8175713+09:00",
+  "lastActualRunAt": "2026-09-13T08:16:38.7173074+09:00",
+  "lastPromptAuditAt": "2026-09-13T08:16:38.7173074+09:00",
   "measurement": {
     "searchConsole": {
       "siteUrl": "sc-domain:ai.gami.jp",
       "status": "connected",
-      "latestFinalizedDate": "2026-09-09",
-      "lastRecordedAt": "2026-09-12T18:42:10.5751491+09:00",
-      "latestMetricsPath": "reports/seo/metrics/2026-09-12-1842.json",
+      "latestFinalizedDate": "2026-09-10",
+      "lastRecordedAt": "2026-09-13T08:03:15.7588581+09:00",
+      "latestMetricsPath": "reports/seo/metrics/2026-09-13-0803.json",
       "urlInspection": {
         "status": "available",
         "source": "google-index",
-        "verifiedAt": "2026-09-12T09:42:26.2905566+00:00",
-        "latestInspectionPath": "reports/seo/inspections/2026-09-12-case-rag.json",
+        "verifiedAt": "2026-09-12T23:02:51.0074886+00:00",
+        "latestInspectionPath": "reports/seo/inspections/2026-09-13-website-customer.json",
         "implementationCommit": "6ea352c25bb87684a0b337ad0a51ba66d5f48bd4"
       },
       "sitemap": {
         "status": "readable_resubmission_blocked",
         "lastCheckedAt": "2026-09-11T08:04:16.0714439+09:00",
         "latestEvidencePath": "reports/seo/inspections/2026-09-11-sitemap.json",
-        "liveUrlCount": 20,
+        "liveUrlCount": 21,
         "nextReadOnlyCheckOnOrAfter": "2026-09-18",
-        "liveVerifiedAt": "2026-09-12T09:48:19.697Z",
-        "liveEvidencePath": "reports/seo/deployments/2026-09-12-price-html.json"
-      }
+        "liveVerifiedAt": "2026-09-12T23:15:52.525Z",
+        "liveEvidencePath": "reports/seo/deployments/2026-09-13-website-brief.json"
+      },
+      "attributionCaveat": "All Insights received a shared WebPage schema-type correction on2026-09-13. Article copy/dates and observation dates are unchanged, but later before/after signals cannot isolate content-only effects. See current deployment evidence and experiments log."
     },
     "ga4": {
       "status": "not_configured",
@@ -53,17 +54,18 @@
     "github-project-site-intro-v1",
     "insight-saas-or-custom-system-checklist-v1",
     "insight-ai-article-fact-check-template-v1",
-    "price-initial-html-parity-v1"
+    "price-initial-html-parity-v1",
+    "insight-ai-website-brief-template-v1"
   ],
   "deployment": {
-    "lastSuccessfulAt": "2026-09-12T09:46:58Z",
-    "commit": "f9c44f1496d0c8dad294c8b978a62cd29b958fe3",
-    "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/34686711430",
+    "lastSuccessfulAt": "2026-09-12T23:15:00Z",
+    "commit": "fcd387267a86fd0f074de10bc8fc0b84b707745a",
+    "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/34724895099",
     "method": "GitHub Actions",
-    "evidencePath": "reports/seo/deployments/2026-09-12-price-html.json",
+    "evidencePath": "reports/seo/deployments/2026-09-13-website-brief.json",
     "liveVerification": "passed",
-    "actionsStatus": "Completed/success; no alternate deployment or settings changes.",
-    "lastSuccessfulActionsRun": "https://github.com/gamips/ai.gami.jp/actions/runs/34686711430"
+    "actionsStatus": "Both article publication and one-line SEO correction completed/success. No overlapping deploys or alternate release.",
+    "lastSuccessfulActionsRun": "https://github.com/gamips/ai.gami.jp/actions/runs/34724895099"
   },
   "observationQueue": [
     {
@@ -182,12 +184,19 @@
       "startedAt": "2026-09-06T00:46:42+09:00",
       "nextChecks": [
         {
-          "onOrAfter": "2026-09-13",
-          "check": "index and first page/query signal"
-        },
-        {
           "onOrAfter": "2026-10-07",
           "check": "28 finalized days or minimum evidence"
+        }
+      ],
+      "completedChecks": [
+        {
+          "onOrAfter": "2026-09-13",
+          "check": "index and first page/query signal",
+          "checkedAt": "2026-09-12T23:02:43.5552608+00:00",
+          "indexResult": "confirmed",
+          "queryPageEffect": "not-yet-measurable",
+          "inspectionEvidencePath": "reports/seo/inspections/2026-09-13-website-customer.json",
+          "metricsEvidencePath": "reports/seo/metrics/2026-09-13-0803.json"
         }
       ]
     },
@@ -197,12 +206,19 @@
       "startedAt": "2026-09-06T06:43:55+09:00",
       "nextChecks": [
         {
-          "onOrAfter": "2026-09-13",
-          "check": "index and first page/query signal"
-        },
-        {
           "onOrAfter": "2026-10-07",
           "check": "28 finalized days or minimum evidence"
+        }
+      ],
+      "completedChecks": [
+        {
+          "onOrAfter": "2026-09-13",
+          "check": "index and first page/query signal",
+          "checkedAt": "2026-09-12T23:02:51.0074886+00:00",
+          "indexResult": "confirmed",
+          "queryPageEffect": "not-yet-measurable",
+          "inspectionEvidencePath": "reports/seo/inspections/2026-09-13-website-customer.json",
+          "metricsEvidencePath": "reports/seo/metrics/2026-09-13-0803.json"
         }
       ]
     },
@@ -261,26 +277,35 @@
           "check": "28 finalized post-change days and at least30 page impressions; otherwise insufficient evidence."
         }
       ]
+    },
+    {
+      "experimentId": "insight-ai-website-brief-template-v1",
+      "status": "observing",
+      "startedAt": "2026-09-12T23:08:35Z",
+      "nextChecks": [
+        {
+          "onOrAfter": "2026-09-20",
+          "check": "index and first page/query signal"
+        },
+        {
+          "onOrAfter": "2026-10-14",
+          "check": "28 finalized post-publication days and at least30 page impressions; otherwise insufficient evidence"
+        }
+      ]
     }
   ],
   "readyQueue": [
     {
-      "lane": "content",
+      "lane": "technical-seo",
       "priority": 1,
-      "work": "/insights/ai-website-brief-template/ に「AIでサイトを作る前に｜制作依頼をまとめる5つの欄」を作る。制作前の依頼メモに絞り、読んでほしい人・その人が知りたいこと・載せられる材料・ページごとの役割・次に取ってほしい行動の5欄と、架空の店舗向け家具工房1例を示す。未確定の納期や実績数は埋めない。既存の公開前チェック・記事の事実確認とは別の意図を維持する。利用可能な最新モデルのサブエージェントで短く簡単な原稿を作り、統括がレビューする。既存9記事と共有UIは変えず、/services/ai-web/ へ案内する。参考資料一覧や制作メモは載せない。",
-      "proposedSections": [
-        "読者と目的を決める",
-        "コピーして使う5つの欄",
-        "記入例：店舗向け家具工房のサイト",
-        "メモをAIと制作担当へ渡す"
-      ],
+      "work": "/about/ の既存会社情報5項目を初期HTMLにも含める。現在の会社名・代表取締役・設立・所在地・事業内容を共有データ化し、About画面と既存静的生成の両方から参照する。新しい事実・説明・UIは追加せず、文言・値・デザインを維持。記事・料金は変更しない。",
       "evidence": [
-        "src/app/content/services.ts: FAST LAUNCH and steps Define/Build Fast/Craft/Launch",
-        "Candidate URL returned404 at2026-09-12T18:50:13.2306082+09:00",
-        "Current nine Insights inventory reviewed; pre-production brief is distinct from post-build launch checks"
+        "src/app/pages/About.tsx: company information definition list",
+        "src/app/seo/pageSeo.js: /about lacks fallbackSections",
+        "Live /about/ returned200 at2026-09-13T08:10:48.7783772+09:00; initialHTML company/address labels absent"
       ],
-      "briefModel": "gpt-6-astra",
-      "searchDemand": "Search intent and useful workflow hypothesis, not measured query volume. Recheck inventory and current primary evidence before publication."
+      "verification": "Build, exact company information in initialHTML, before/after displayed values unchanged, HTTP/head/canonical/sitemap and representative desktop/mobile check. Recheck state for conflicts before implementation.",
+      "effect": "Technical completeness; ranking or acquisition improvement remains a hypothesis."
     }
   ],
   "blocked": [
@@ -298,7 +323,7 @@
     {
       "lane": "technical-seo",
       "item": "Existing sitemap API resubmission",
-      "reason": "A single PUT using existing credentials returned HTTP403 on September6; exact authorization cause is unconfirmed. September11 GET metadata is unchanged. Post-publication live sitemap has20 valid URLs; three separately inspected September4 articles are indexed. No retry or scope escalation was performed. Old sitemap metadata alone does not establish a current fetch failure.",
+      "reason": "A single PUT using existing credentials returned HTTP403 on September6; exact cause unconfirmed. September11 GET metadata is unchanged; next API check September18. Live sitemap has21 URLs after September13 publication. Seven separately inspected articles are indexed. No retry or scope escalation today; old metadata alone does not prove fetch failure.",
       "doesNotBlock": [
         "Search Console measurement and URL Inspection",
         "content publishing",
@@ -311,17 +336,18 @@
     "lastFullAuditAt": "2026-09-12T18:50:37.8175713+09:00",
     "duplicateObservation": false,
     "singleWriterConflict": false,
-    "verificationGap": false,
+    "verificationGap": true,
+    "verificationGapResolved": true,
     "cadenceChangeNeeded": false,
-    "nextFullAuditAfterCompletedRuns": 4,
+    "nextFullAuditAfterCompletedRuns": 3,
     "actualPromptReadback": "passed",
     "changeApplied": true,
-    "changeReason": "Replacement user instructions require latest-model subagents for copy and no comma-based br breaks. Prompt1.0.6, ops policy and same automation launcher were synchronized. Four-run audit covered September8/9/11/12: independent content/link/technical lanes and measurement progressed without observation stalls; current daily08:00 remains appropriate. Historical Claude/Gemini evidence stays historical.",
-    "operatingPolicyUpdated": true,
+    "changeReason": "Article count filtered by headline missed the page entity also being Article. One-line shared type correction, all ten static schemas and representative hydrated pages checked; prompt1.0.7 adds total-type counts. Existing launcher already reads this canonical file. No traffic impact claimed.",
+    "operatingPolicyUpdated": false,
     "externalScheduleChangeObserved": false,
-    "launcherPromptUpdated": true,
+    "launcherPromptUpdated": false,
     "writingModelObserved": "gpt-6-astra",
-    "formattingNote": "New shared-data file has one harmless extra blank line at EOF. No user-facing defect; no additional production deploy solely for formatting."
+    "fullAudit": false
   },
   "retiredBlockers": [
     {
