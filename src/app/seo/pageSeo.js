@@ -328,7 +328,6 @@ function createInsightSchemas(insight) {
       path: insight.path,
       title: insight.title,
       description: insight.description,
-      type: "Article",
     }),
     {
       "@context": "https://schema.org",
