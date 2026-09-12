@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-11",
+  "updatedAt": "2026-09-12",
   "rules": {
     "oneOwnerUrlPerIntent": true,
     "publicCopyExcludesOperationalMetadata": true
@@ -69,7 +69,9 @@
       "type": "pricing",
       "intent": "GAMIの支援料金と契約単位",
       "status": "published",
-      "lastModified": "2026-05-08"
+      "lastModified": "2026-09-12",
+      "experimentId": "price-initial-html-parity-v1",
+      "contentSource": "src/app/content/pricing.js"
     },
     {
       "url": "https://ai.gami.jp/news/",

@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "promptVersion": "1.0.5",
+  "promptVersion": "1.0.6",
   "automation": {
     "name": "AI.GAMI SEO成長PDCA",
     "id": "ai-gami-seo-pdca",
     "currentCadenceHours": 24,
     "status": "ACTIVE",
     "currentSchedule": "毎日8:00（Asia/Tokyo）",
-    "scheduleObservedAt": "2026-09-11T08:18:59.7281479+09:00",
-    "scheduleSource": "Read back existing automation.toml; daily08:00 Asia/Tokyo preserved."
+    "scheduleObservedAt": "2026-09-12T18:50:37.8175713+09:00",
+    "scheduleSource": "Read back existing automation.toml after prompt update; daily08:00 Asia/Tokyo preserved. Actual trigger2026-09-12T09:39:45.278Z recorded separately; no inference about scheduler delay."
   },
-  "lastActualRunAt": "2026-09-11T08:18:59.7281479+09:00",
-  "lastPromptAuditAt": "2026-09-11T08:18:59.7281479+09:00",
+  "lastActualRunAt": "2026-09-12T18:50:37.8175713+09:00",
+  "lastPromptAuditAt": "2026-09-12T18:50:37.8175713+09:00",
   "measurement": {
     "searchConsole": {
       "siteUrl": "sc-domain:ai.gami.jp",
       "status": "connected",
-      "latestFinalizedDate": "2026-09-08",
-      "lastRecordedAt": "2026-09-11T08:02:25.7962476+09:00",
-      "latestMetricsPath": "reports/seo/metrics/2026-09-11-0802.json",
+      "latestFinalizedDate": "2026-09-09",
+      "lastRecordedAt": "2026-09-12T18:42:10.5751491+09:00",
+      "latestMetricsPath": "reports/seo/metrics/2026-09-12-1842.json",
       "urlInspection": {
         "status": "available",
         "source": "google-index",
-        "verifiedAt": "2026-09-10T23:03:39.8282192+00:00",
-        "latestInspectionPath": "reports/seo/inspections/2026-09-11-initial-articles.json",
+        "verifiedAt": "2026-09-12T09:42:26.2905566+00:00",
+        "latestInspectionPath": "reports/seo/inspections/2026-09-12-case-rag.json",
         "implementationCommit": "6ea352c25bb87684a0b337ad0a51ba66d5f48bd4"
       },
       "sitemap": {
@@ -32,8 +32,8 @@
         "latestEvidencePath": "reports/seo/inspections/2026-09-11-sitemap.json",
         "liveUrlCount": 20,
         "nextReadOnlyCheckOnOrAfter": "2026-09-18",
-        "liveVerifiedAt": "2026-09-10T23:10:12.605Z",
-        "liveEvidencePath": "reports/seo/deployments/2026-09-11-fact-check-template.json"
+        "liveVerifiedAt": "2026-09-12T09:48:19.697Z",
+        "liveEvidencePath": "reports/seo/deployments/2026-09-12-price-html.json"
       }
     },
     "ga4": {
@@ -52,17 +52,18 @@
     "insight-ai-customer-reply-template-v1",
     "github-project-site-intro-v1",
     "insight-saas-or-custom-system-checklist-v1",
-    "insight-ai-article-fact-check-template-v1"
+    "insight-ai-article-fact-check-template-v1",
+    "price-initial-html-parity-v1"
   ],
   "deployment": {
-    "lastSuccessfulAt": "2026-09-10T23:09:04Z",
-    "commit": "6332b9301d9372ab61c04285606225d45471d9da",
-    "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/34540798299",
+    "lastSuccessfulAt": "2026-09-12T09:46:58Z",
+    "commit": "f9c44f1496d0c8dad294c8b978a62cd29b958fe3",
+    "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/34686711430",
     "method": "GitHub Actions",
-    "evidencePath": "reports/seo/deployments/2026-09-11-fact-check-template.json",
+    "evidencePath": "reports/seo/deployments/2026-09-12-price-html.json",
     "liveVerification": "passed",
-    "actionsStatus": "Completed/success. Build and deploy succeeded; no alternate deployment or settings changes.",
-    "lastSuccessfulActionsRun": "https://github.com/gamips/ai.gami.jp/actions/runs/34540798299"
+    "actionsStatus": "Completed/success; no alternate deployment or settings changes.",
+    "lastSuccessfulActionsRun": "https://github.com/gamips/ai.gami.jp/actions/runs/34686711430"
   },
   "observationQueue": [
     {
@@ -137,12 +138,19 @@
       "startedAt": "2026-09-05T04:10:20+09:00",
       "nextChecks": [
         {
-          "onOrAfter": "2026-09-12",
-          "check": "index and first page/query signal"
-        },
-        {
           "onOrAfter": "2026-10-06",
           "check": "28 finalized days or minimum evidence"
+        }
+      ],
+      "completedChecks": [
+        {
+          "onOrAfter": "2026-09-12",
+          "check": "index and first page/query signal",
+          "checkedAt": "2026-09-12T09:42:18.3501298+00:00",
+          "indexResult": "confirmed",
+          "queryPageEffect": "not-yet-measurable",
+          "inspectionEvidencePath": "reports/seo/inspections/2026-09-12-case-rag.json",
+          "metricsEvidencePath": "reports/seo/metrics/2026-09-12-1842.json"
         }
       ]
     },
@@ -152,12 +160,19 @@
       "startedAt": "2026-09-05T15:43:26+09:00",
       "nextChecks": [
         {
-          "onOrAfter": "2026-09-12",
-          "check": "index and first page/query signal"
-        },
-        {
           "onOrAfter": "2026-10-06",
           "check": "28 finalized days or minimum evidence"
+        }
+      ],
+      "completedChecks": [
+        {
+          "onOrAfter": "2026-09-12",
+          "check": "index and first page/query signal",
+          "checkedAt": "2026-09-12T09:42:26.2905566+00:00",
+          "indexResult": "confirmed",
+          "queryPageEffect": "not-yet-measurable",
+          "inspectionEvidencePath": "reports/seo/inspections/2026-09-12-case-rag.json",
+          "metricsEvidencePath": "reports/seo/metrics/2026-09-12-1842.json"
         }
       ]
     },
@@ -231,19 +246,41 @@
           "check": "28 finalized post-publication days and at least30 page impressions; otherwise insufficient evidence"
         }
       ]
+    },
+    {
+      "experimentId": "price-initial-html-parity-v1",
+      "status": "observing",
+      "startedAt": "2026-09-12T09:46:58Z",
+      "nextChecks": [
+        {
+          "onOrAfter": "2026-09-19",
+          "check": "Google crawl/index state and first post-change page/query signal; do not infer causality."
+        },
+        {
+          "onOrAfter": "2026-10-13",
+          "check": "28 finalized post-change days and at least30 page impressions; otherwise insufficient evidence."
+        }
+      ]
     }
   ],
   "readyQueue": [
     {
-      "lane": "technical-seo",
+      "lane": "content",
       "priority": 1,
-      "work": "/price/ の既存表示内容を正本として、金額・対象範囲・契約説明・注意事項・サービスリンクが初期HTMLでも読めるようにする。既存文言とデザインは変えず、料金データを最小限共用する。料金記事・他記事・共通描画処理・CTA・計測定義には触れない。buildと初期HTML／表示内容の一致を確認し、公開後にHTTP・canonical・schema・既存表示を検証する。参考資料一覧や制作メモは載せない。",
-      "evidence": [
-        "src/app/pages/Price.tsx: 月2万円〜で始めるAI導入支援の対象範囲",
-        "src/app/seo/pageSeo.js: /price currently has no fallbackSections",
-        "September11 live /price/ HTTP200; scope heading absent from initial HTML; fallback section count0"
+      "work": "/insights/ai-website-brief-template/ に「AIでサイトを作る前に｜制作依頼をまとめる5つの欄」を作る。制作前の依頼メモに絞り、読んでほしい人・その人が知りたいこと・載せられる材料・ページごとの役割・次に取ってほしい行動の5欄と、架空の店舗向け家具工房1例を示す。未確定の納期や実績数は埋めない。既存の公開前チェック・記事の事実確認とは別の意図を維持する。利用可能な最新モデルのサブエージェントで短く簡単な原稿を作り、統括がレビューする。既存9記事と共有UIは変えず、/services/ai-web/ へ案内する。参考資料一覧や制作メモは載せない。",
+      "proposedSections": [
+        "読者と目的を決める",
+        "コピーして使う5つの欄",
+        "記入例：店舗向け家具工房のサイト",
+        "メモをAIと制作担当へ渡す"
       ],
-      "searchDemand": "Technical content parity, not a claimed cause of low traffic. Keep /insights/ai-introduction-support-pricing/ article and its October2 observation unchanged."
+      "evidence": [
+        "src/app/content/services.ts: FAST LAUNCH and steps Define/Build Fast/Craft/Launch",
+        "Candidate URL returned404 at2026-09-12T18:50:13.2306082+09:00",
+        "Current nine Insights inventory reviewed; pre-production brief is distinct from post-build launch checks"
+      ],
+      "briefModel": "gpt-6-astra",
+      "searchDemand": "Search intent and useful workflow hypothesis, not measured query volume. Recheck inventory and current primary evidence before publication."
     }
   ],
   "blocked": [
@@ -255,17 +292,6 @@
         "Search Console measurement",
         "content publishing",
         "technical SEO",
-        "internal linking"
-      ]
-    },
-    {
-      "lane": "tooling",
-      "item": "Gemini subscription CLI for new SVG generation",
-      "reason": "The official Gemini CLI rejected the connected individual subscription client as UNSUPPORTED_CLIENT. Existing brand assets remain usable; new SVG generation stays isolated until an Antigravity-compatible subscription connection is available.",
-      "doesNotBlock": [
-        "existing brand asset reuse",
-        "content publishing",
-        "technical SEO without new SVG artwork",
         "internal linking"
       ]
     },
@@ -282,17 +308,26 @@
     }
   ],
   "promptAudit": {
-    "lastFullAuditAt": "2026-09-07T08:07:39.6296584+09:00",
+    "lastFullAuditAt": "2026-09-12T18:50:37.8175713+09:00",
     "duplicateObservation": false,
     "singleWriterConflict": false,
     "verificationGap": false,
     "cadenceChangeNeeded": false,
-    "nextFullAuditAfterCompletedRuns": 1,
+    "nextFullAuditAfterCompletedRuns": 4,
     "actualPromptReadback": "passed",
-    "changeApplied": false,
-    "changeReason": "Prompt1.0.5 already prevents observation waits from blocking independent work and excludes public reference lists. Today's user reaffirmed the no-reference-list policy; published article and saved launcher comply. Three due index checks are completed with evidence; future effect dates remain unchanged. No recurring operational failure or cadence trigger was found, so detailed prompt and saved daily08:00 schedule are preserved.",
-    "operatingPolicyUpdated": false,
+    "changeApplied": true,
+    "changeReason": "Replacement user instructions require latest-model subagents for copy and no comma-based br breaks. Prompt1.0.6, ops policy and same automation launcher were synchronized. Four-run audit covered September8/9/11/12: independent content/link/technical lanes and measurement progressed without observation stalls; current daily08:00 remains appropriate. Historical Claude/Gemini evidence stays historical.",
+    "operatingPolicyUpdated": true,
     "externalScheduleChangeObserved": false,
-    "launcherPromptUpdated": false
-  }
+    "launcherPromptUpdated": true,
+    "writingModelObserved": "gpt-6-astra",
+    "formattingNote": "New shared-data file has one harmless extra blank line at EOF. No user-facing defect; no additional production deploy solely for formatting."
+  },
+  "retiredBlockers": [
+    {
+      "item": "Gemini subscription CLI for new SVG generation",
+      "retiredAt": "2026-09-12T18:50:37.8175713+09:00",
+      "reason": "The replacement user instructions no longer require Gemini CLI for SVG. Retire the mandatory-route blocker, not claim the connection is repaired. No new SVG or paid tool use in this run."
+    }
+  ]
 }

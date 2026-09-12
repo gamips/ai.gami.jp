@@ -1,0 +1,51 @@
+{
+  "siteUrl": "sc-domain:ai.gami.jp",
+  "source": "google-index",
+  "observedAt": "2026-09-12T18:42:09.9796920+09:00",
+  "completedAt": "2026-09-12T18:42:26.2912444+09:00",
+  "purpose": "Scheduled September12 first index and page/query check",
+  "results": [
+    {
+      "siteUrl": "sc-domain:ai.gami.jp",
+      "inspectionUrl": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/",
+      "fetchedAt": "2026-09-12T09:42:18.3501298+00:00",
+      "source": "google-index",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:ai.gami.jp&id=p299QbcFzJGkQPP3qPb5UQ&utm_medium=link&utm_source=api",
+      "verdict": "PASS",
+      "coverageState": "送信して登録されました",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-09-10T01:21:27Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/",
+      "userCanonical": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/"
+    },
+    {
+      "siteUrl": "sc-domain:ai.gami.jp",
+      "inspectionUrl": "https://ai.gami.jp/insights/rag-document-inventory-checklist/",
+      "fetchedAt": "2026-09-12T09:42:26.2905566+00:00",
+      "source": "google-index",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:ai.gami.jp&id=sbDqnVMyJdYlb8qiZu6lJA&utm_medium=link&utm_source=api",
+      "verdict": "PASS",
+      "coverageState": "送信して登録されました",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-09-10T00:27:45Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://ai.gami.jp/insights/rag-document-inventory-checklist/",
+      "userCanonical": "https://ai.gami.jp/insights/rag-document-inventory-checklist/"
+    }
+  ],
+  "assessment": {
+    "indexResult": "confirmed",
+    "checkedUrls": 2,
+    "passUrls": 2,
+    "canonicalMatches": 2,
+    "liveTest": false,
+    "effectResult": "not-yet-measurable",
+    "pageRowsReturned": false,
+    "pageMetrics": null,
+    "nextEffectReviewOnOrAfter": "2026-10-06",
+    "note": "Google-held index state is confirmed. Absent page/query-page rows do not establish zero traffic. Complete the initial check without changing article content, observation start or effect review date."
+  }
+}

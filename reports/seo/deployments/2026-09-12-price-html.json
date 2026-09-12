@@ -1,0 +1,86 @@
+{
+  "commit": "f9c44f1496d0c8dad294c8b978a62cd29b958fe3",
+  "publishedAt": "2026-09-12T09:46:58Z",
+  "verifiedAt": "2026-09-12T18:50:37.8175713+09:00",
+  "method": "GitHub Actions",
+  "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/34686711430",
+  "actions": {
+    "status": "completed",
+    "conclusion": "success",
+    "build": "success",
+    "deploy": "success",
+    "completedAt": "2026-09-12T09:47:01Z"
+  },
+  "ftpsUsed": false,
+  "scope": [
+    "src/app/content/pricing.js: unchanged existing pricing data shared with static generation",
+    "src/app/pages/Price.tsx: import shared data; JSX unchanged",
+    "src/app/seo/pageSeo.js: /price fallback sections and actual lastModified"
+  ],
+  "baseline": {
+    "checkedAt": "2026-09-12T18:43:55.0422416+09:00",
+    "httpStatus": 200,
+    "scopeHeadingInInitialHtml": false,
+    "monthlyHeadingInInitialHtml": false,
+    "sections": 0
+  },
+  "review": {
+    "build": "passed",
+    "independentDiffReview": "passed",
+    "priceDataComparison": "all three arrays deep-equal to previous Price.tsx",
+    "diffCheck": "Tracked diff check passed. Staged new pricing.js reported one extra blank line at EOF; non-functional formatting warning retained, not a runtime or data defect.",
+    "lazyweb": "Not applicable to unchanged UI: data extraction and existing static generator only; no new design."
+  },
+  "verification": {
+    "checkedAt": "2026-09-12T09:48:19.697Z",
+    "mode": "live",
+    "httpStatus": 200,
+    "sections": 9,
+    "serviceLinks": 3,
+    "priceDataUnchanged": true,
+    "jsxUnchanged": true,
+    "otherSeoEntriesUnchanged": true,
+    "priceSchemasUnchanged": true,
+    "selfCanonical": true,
+    "initialBodyMatchesSharedContent": true,
+    "sitemapUrls": 20,
+    "priceLastModified": "2026-09-12",
+    "allInsightDatesUnchanged": true,
+    "entryScriptsChecked": 1,
+    "renderedTextUnchangedDesktop": true,
+    "renderedTextUnchangedMobile": true,
+    "desktopViewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "mobileViewport": {
+      "width": 390,
+      "height": 844
+    },
+    "horizontalOverflow": false,
+    "h1Count": 1,
+    "renderedSchemaCount": 4,
+    "renderedServiceLinks": [
+      "/services/ai-saas/",
+      "/services/ai-marketing/",
+      "/services/ai-web/"
+    ],
+    "mobileServiceNavigation": true,
+    "targetScrollY": 0,
+    "consoleErrors": 0,
+    "visualReview": "Existing layout retained in scoped desktop/mobile pricing and notes screenshots. No shared UI/CSS or article changes.",
+    "scopeNote": "Initial /price HTTP, head/body, all pricing data, unchanged non-price SEO entries, sitemap and entry-script HTTP were verified. No claim of auditing every live URL or hashing every asset."
+  },
+  "browserEvidence": {
+    "directory": "output/playwright/2026-09-12-price/",
+    "screenshots": [
+      "desktop-plan.png",
+      "desktop-notes.png",
+      "mobile-plan.png",
+      "mobile-notes.png"
+    ],
+    "baseline": "output/seo/2026-09-12/browser-baseline.json"
+  },
+  "technicalResult": "confirmed",
+  "acquisitionEffect": "not-yet-measurable"
+}
