@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-13",
+  "updatedAt": "2026-09-20",
   "rules": {
     "oneOwnerUrlPerIntent": true,
     "publicCopyExcludesOperationalMetadata": true
@@ -86,7 +86,9 @@
       "type": "company",
       "intent": "GAMIの会社情報と価値観",
       "status": "published",
-      "lastModified": "2026-05-08"
+      "lastModified": "2026-09-20",
+      "experimentId": "about-initial-html-parity-v1",
+      "contentSource": "src/app/content/company.js"
     },
     {
       "url": "https://ai.gami.jp/contact/",

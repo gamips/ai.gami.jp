@@ -1,0 +1,68 @@
+{
+  "observedAt": "2026-09-20T08:08:00+09:00",
+  "timePrecision": "minute",
+  "source": "Read-only live HTTP and initial HTML inspection by independent review subagent",
+  "urls": [
+    {
+      "url": "https://ai.gami.jp/insights/saas-or-custom-system-checklist/",
+      "httpStatus": 200,
+      "allSourceHeadingsParagraphsItemsInInitialHtml": true,
+      "h1Count": 1,
+      "titleDescriptionMatchSource": true,
+      "selfCanonical": true,
+      "robots": "index,follow",
+      "xRobotsTag": null,
+      "robotsTxtAllows": true,
+      "articleCount": 1,
+      "webPageCount": 1,
+      "linkedFromInsightsInitialHtml": true,
+      "inSitemap": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-article-fact-check-template/",
+      "httpStatus": 200,
+      "allSourceHeadingsParagraphsItemsInInitialHtml": true,
+      "h1Count": 1,
+      "titleDescriptionMatchSource": true,
+      "selfCanonical": true,
+      "robots": "index,follow",
+      "xRobotsTag": null,
+      "robotsTxtAllows": true,
+      "articleCount": 1,
+      "webPageCount": 1,
+      "linkedFromInsightsInitialHtml": true,
+      "inSitemap": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-website-brief-template/",
+      "httpStatus": 200,
+      "allSourceHeadingsParagraphsItemsInInitialHtml": true,
+      "h1Count": 1,
+      "titleDescriptionMatchSource": true,
+      "selfCanonical": true,
+      "robots": "index,follow",
+      "xRobotsTag": null,
+      "robotsTxtAllows": true,
+      "articleCount": 1,
+      "webPageCount": 1,
+      "linkedFromInsightsInitialHtml": true,
+      "inSitemap": true
+    }
+  ],
+  "priceVariants": [
+    {
+      "url": "https://ai.gami.jp/price",
+      "initialStatus": 301,
+      "location": "https://ai.gami.jp/price/",
+      "finalStatus": 200,
+      "canonical": "https://ai.gami.jp/price/"
+    },
+    {
+      "url": "https://ai.gami.jp/price/",
+      "initialStatus": 200,
+      "canonical": "https://ai.gami.jp/price/"
+    }
+  ],
+  "result": "confirmed",
+  "scope": "No technical fault found in these checks; not evidence of Google registration or a ranking explanation."
+}

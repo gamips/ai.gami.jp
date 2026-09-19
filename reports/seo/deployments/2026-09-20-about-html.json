@@ -1,0 +1,104 @@
+{
+  "commit": "8d03f4e6691a960838f100dadc4c247f94bd5d97",
+  "publishedAt": "2026-09-20T08:18:40.7259541+09:00",
+  "verifiedAt": "2026-09-19T23:21:50.792Z",
+  "method": "FTPS using existing project connection",
+  "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/35475256560",
+  "actions": {
+    "status": "completed",
+    "conclusion": "failure",
+    "build": "success",
+    "deploy": "failure",
+    "completedAt": "2026-09-19T23:17:37Z",
+    "error": "curl28: failed to connect to ai.gami.jp port443 in all four configured attempts. Not a build or live-site failure."
+  },
+  "ftpsUsed": true,
+  "fallback": {
+    "startedAt": "2026-09-20T08:18:09.8930473+09:00",
+    "completedAt": "2026-09-20T08:18:40.7259541+09:00",
+    "method": "FTPS using existing project connection",
+    "target": "sv90.xserver.jp/gami.jp/public_html/ai.gami.jp/",
+    "count": 48,
+    "unchangedServerFilesPreserved": true,
+    "remoteFilesDeleted": 0
+  },
+  "scope": [
+    "src/app/content/company.js: existing company information shared with static generation",
+    "src/app/pages/About.tsx: existing values reference shared data; DOM/classes unchanged",
+    "src/app/seo/pageSeo.js: /about fallback sections and actual lastModified"
+  ],
+  "baseline": {
+    "observedAt": "2026-09-20T08:02:26.6696445+09:00",
+    "status": 200,
+    "companyNamePresent": false,
+    "directorPresent": false,
+    "foundedPresent": false,
+    "addressPresent": false,
+    "servicePresent": false,
+    "sitemapUrls": 21
+  },
+  "review": {
+    "build": "passed",
+    "independentDiffReview": "passed",
+    "dataAndDomComparison": "All five existing field values and order retained; rendered definition-list innerHTML and innerText exactly match before change on desktop and mobile.",
+    "diffCheck": "passed",
+    "lazyweb": "Not applicable to unchanged UI: data extraction and existing static generation only."
+  },
+  "verification": {
+    "checkedAt": "2026-09-19T23:18:58.900Z",
+    "mode": "live",
+    "companyFields": 5,
+    "allCompanyValuesPresent": true,
+    "otherSeoEntriesUnchanged": 22,
+    "aboutHeadUnchanged": true,
+    "aboutSchemaTypes": [
+      "Organization",
+      "AboutPage",
+      "BreadcrumbList"
+    ],
+    "sitemapUrls": 21,
+    "aboutLastModified": "2026-09-20",
+    "selfCanonical": true,
+    "singleH1": true,
+    "liveMatchesBuild": true,
+    "passed": true,
+    "httpStatus": 200,
+    "assetsChecked": 24,
+    "assetHashesMatch": true,
+    "headsChecked": 23,
+    "allStaticSeoHeadsMatch": true,
+    "scope": "All generated SEO heads and built JavaScript hashes after fallback upload; not a full UI audit.",
+    "renderedDomUnchangedDesktop": true,
+    "renderedDomUnchangedMobile": true,
+    "desktopViewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "mobileViewport": {
+      "width": 390,
+      "height": 844
+    },
+    "horizontalOverflow": false,
+    "renderedH1Count": 1,
+    "renderedSchemaTypes": [
+      "Organization",
+      "AboutPage",
+      "BreadcrumbList"
+    ],
+    "consoleErrors": 0,
+    "consoleWarnings": 0,
+    "visualReview": "Existing company table/list retained. Mobile page captures confirm all five fields and services without horizontal overflow.",
+    "css": "Unchanged existing index-BSUbwp1T.css reused."
+  },
+  "browserEvidence": {
+    "directory": "output/playwright/2026-09-20-about/",
+    "screenshots": [
+      "desktop-company.png",
+      "mobile-company-top.png",
+      "mobile-company-bottom.png"
+    ],
+    "note": "First element-only mobile screenshot included the fixed header; full viewport captures were then checked."
+  },
+  "technicalResult": "confirmed",
+  "acquisitionEffect": "not-yet-measurable"
+}

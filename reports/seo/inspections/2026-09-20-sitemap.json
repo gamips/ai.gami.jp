@@ -1,0 +1,29 @@
+{
+  "observedAt": "2026-09-20T08:03:15.9489625+09:00",
+  "completedAt": "2026-09-20T08:03:16.8709140+09:00",
+  "source": "Google Search Console Sitemaps API",
+  "siteUrl": "sc-domain:ai.gami.jp",
+  "sitemapUrl": "https://ai.gami.jp/sitemap.xml",
+  "method": "GET",
+  "response": {
+    "path": "https://ai.gami.jp/sitemap.xml",
+    "lastSubmitted": "2026-05-07T06:44:37.462Z",
+    "isPending": false,
+    "isSitemapsIndex": false,
+    "type": "sitemap",
+    "lastDownloaded": "2026-05-07T06:44:39.118Z",
+    "warnings": "0",
+    "errors": "0",
+    "contents": [
+      {
+        "type": "web",
+        "submitted": "10",
+        "indexed": "0"
+      }
+    ]
+  },
+  "metadataChanged": false,
+  "resubmissionAttempted": false,
+  "note": "Deprecated indexed count excluded from decisions. Old API metadata does not prove live failure; individual index checks are separate.",
+  "nextReadOnlyCheckOnOrAfter": "2026-09-27"
+}
