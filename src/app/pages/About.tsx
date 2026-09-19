@@ -1,6 +1,7 @@
 import { InquiryCta } from "../components/InquiryCta";
 import { PageSeo } from "../components/PageSeo";
 import { ScrollReveal } from "../components/ScrollReveal";
+import { companyInfo } from "../content/company.js";
 
 type ValueIllustration = "speed" | "quality" | "continuity";
 
@@ -203,32 +204,30 @@ export function About() {
               <dl>
                 <div className="py-8 grid grid-cols-1 md:grid-cols-[220px_minmax(0,1fr)] gap-6 border-b border-zinc-200">
                   <dt className="text-zinc-500">会社名</dt>
-                  <dd className="font-medium text-zinc-900">株式会社Gami（Gami, Inc.）</dd>
+                  <dd className="font-medium text-zinc-900">{companyInfo.name}</dd>
                 </div>
                 <div className="py-8 grid grid-cols-1 md:grid-cols-[220px_minmax(0,1fr)] gap-6 border-b border-zinc-200">
                   <dt className="text-zinc-500">代表取締役</dt>
-                  <dd className="font-medium text-zinc-900">石神暁</dd>
+                  <dd className="font-medium text-zinc-900">{companyInfo.representative}</dd>
                 </div>
                 <div className="py-8 grid grid-cols-1 md:grid-cols-[220px_minmax(0,1fr)] gap-6 border-b border-zinc-200">
                   <dt className="text-zinc-500">設立</dt>
-                  <dd className="font-medium text-zinc-900">2018年4月2日</dd>
+                  <dd className="font-medium text-zinc-900">{companyInfo.established}</dd>
                 </div>
                 <div className="py-8 grid grid-cols-1 md:grid-cols-[220px_minmax(0,1fr)] gap-6 border-b border-zinc-200">
                   <dt className="text-zinc-500">所在地</dt>
                   <dd className="font-medium text-zinc-900">
-                    〒393-0000
+                    {companyInfo.address[0]}
                     <br />
-                    長野県諏訪郡下諏訪町社6-21
+                    {companyInfo.address[1]}
                   </dd>
                 </div>
                 <div className="py-8 grid grid-cols-1 md:grid-cols-[220px_minmax(0,1fr)] gap-6">
                   <dt className="text-zinc-500">事業内容</dt>
                   <dd className="font-medium text-zinc-900 space-y-2">
-                    <p>・AI実装コンサルティング</p>
-                    <p>・SaaS連携による社内AI基盤の構築</p>
-                    <p>・AIマーケティング基盤の実装</p>
-                    <p>・AI運用型Web制作</p>
-                    <p>・業務フロー改善支援</p>
+                    {companyInfo.services.map((service) => (
+                      <p key={service}>・{service}</p>
+                    ))}
                   </dd>
                 </div>
               </dl>

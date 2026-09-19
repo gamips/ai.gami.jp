@@ -1,6 +1,7 @@
 import { insights } from "../content/insights.js";
 import { featuredNews } from "../content/news.js";
 import { pricePlans, monthlyModelPoints, projectNotes } from "../content/pricing.js";
+import { companyInfo } from "../content/company.js";
 
 export const SITE_NAME = "GAMI";
 export const SITE_LEGAL_NAME = "株式会社Gami";
@@ -994,6 +995,7 @@ export const pageSeoByPath = {
   },
   "/about": {
     path: "/about",
+    lastModified: "2026-09-20",
     fallbackHeading: "AI導入支援会社 GAMIについて",
     title: "About | AI導入支援会社・AI開発会社 GAMIについて",
     description:
@@ -1002,6 +1004,13 @@ export const pageSeoByPath = {
     image: "/og/about.png",
     imageAlt: "About page open graph image",
     ogType: "website",
+    fallbackSections: [
+      { title: "会社名", body: companyInfo.name },
+      { title: "代表取締役", body: companyInfo.representative },
+      { title: "設立", body: companyInfo.established },
+      { title: "所在地", paragraphs: companyInfo.address },
+      { title: "事業内容", items: companyInfo.services },
+    ],
     schemas: [
       organizationSchema,
       createBaseWebPageSchema({
