@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-20",
+  "updatedAt": "2026-09-21",
   "rules": {
     "oneOwnerUrlPerIntent": true,
     "publicCopyExcludesOperationalMetadata": true
@@ -102,7 +102,7 @@
       "type": "insight-index",
       "intent": "AI導入と生成AI活用の実践ガイド一覧",
       "status": "published",
-      "lastModified": "2026-09-13"
+      "lastModified": "2026-09-21"
     },
     {
       "url": "https://ai.gami.jp/insights/ai-introduction-support/",
@@ -217,6 +217,16 @@
       "schema": "Article",
       "experimentId": "insight-ai-website-brief-template-v1",
       "relatedService": "https://ai.gami.jp/services/ai-web/"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-meeting-action-items-template/",
+      "type": "insight",
+      "intent": "会議メモの決定・提案・未決を分け、担当・期限・根拠・確認事項を整理する5欄テンプレート",
+      "status": "published",
+      "lastModified": "2026-09-21",
+      "schema": "Article",
+      "experimentId": "insight-ai-meeting-action-items-template-v1",
+      "relatedService": "https://ai.gami.jp/services/ai-saas/"
     }
   ]
 }

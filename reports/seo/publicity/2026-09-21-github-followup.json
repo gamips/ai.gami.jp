@@ -1,0 +1,199 @@
+{
+  "repository": "gamips/ai.gami.jp",
+  "url": "https://github.com/gamips/ai.gami.jp",
+  "observedOn": "2026-09-21",
+  "observationTimezone": "Asia/Tokyo",
+  "observedAt": null,
+  "observationTimeNote": "Collection timestamps were not captured; no later analysis timestamp substituted.",
+  "source": "GitHub REST API: repositories, readme, traffic/views, traffic/clones, traffic/popular/referrers",
+  "baselineEvidencePath": "reports/seo/publicity/2026-09-07-github-intro.json",
+  "repositoryState": {
+    "visibility": "public",
+    "homepageUrl": "https://ai.gami.jp/",
+    "readmeBlob": "03f78e68fe378036742b55de14b0e12f2df1856e",
+    "readmeUnchangedFromPublication": true,
+    "officialSiteLinkPresent": true,
+    "developmentInstructionsPreserved": true
+  },
+  "traffic": {
+    "timezone": "UTC",
+    "returnedWindowStart": "2026-09-06",
+    "returnedWindowEnd": "2026-09-19",
+    "days": 14,
+    "views": {
+      "count": 0,
+      "uniques": 0,
+      "views": [
+        {
+          "timestamp": "2026-09-06T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-09-07T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-09-08T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-09-09T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-09-10T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-09-11T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-09-12T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-09-13T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-09-14T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-09-15T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-09-16T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-09-17T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-09-18T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-09-19T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        }
+      ]
+    },
+    "clones": {
+      "count": 180,
+      "uniques": 85,
+      "clones": [
+        {
+          "timestamp": "2026-09-06T00:00:00Z",
+          "count": 31,
+          "uniques": 14
+        },
+        {
+          "timestamp": "2026-09-07T00:00:00Z",
+          "count": 36,
+          "uniques": 17
+        },
+        {
+          "timestamp": "2026-09-08T00:00:00Z",
+          "count": 21,
+          "uniques": 12
+        },
+        {
+          "timestamp": "2026-09-09T00:00:00Z",
+          "count": 19,
+          "uniques": 11
+        },
+        {
+          "timestamp": "2026-09-10T00:00:00Z",
+          "count": 10,
+          "uniques": 7
+        },
+        {
+          "timestamp": "2026-09-11T00:00:00Z",
+          "count": 8,
+          "uniques": 4
+        },
+        {
+          "timestamp": "2026-09-12T00:00:00Z",
+          "count": 31,
+          "uniques": 14
+        },
+        {
+          "timestamp": "2026-09-13T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-09-14T00:00:00Z",
+          "count": 3,
+          "uniques": 3
+        },
+        {
+          "timestamp": "2026-09-15T00:00:00Z",
+          "count": 1,
+          "uniques": 1
+        },
+        {
+          "timestamp": "2026-09-16T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-09-17T00:00:00Z",
+          "count": 2,
+          "uniques": 2
+        },
+        {
+          "timestamp": "2026-09-18T00:00:00Z",
+          "count": 0,
+          "uniques": 0
+        },
+        {
+          "timestamp": "2026-09-19T00:00:00Z",
+          "count": 18,
+          "uniques": 9
+        }
+      ]
+    },
+    "referrers": []
+  },
+  "validation": {
+    "dailyRows": 14,
+    "noMissingDates": true,
+    "viewCountSumMatches": true,
+    "cloneCountSumMatches": true,
+    "uniquesTakenFromTopLevelNotDailySum": true
+  },
+  "interpretation": {
+    "repositoryViewSignal": "no increase observed versus zero-view baseline",
+    "repositoryAudienceResult": "inconclusive",
+    "websiteReferralClicks": null,
+    "websiteReferralEffect": "not-yet-measurable",
+    "reason": "Repository views/clones/referrers are not clicks to the website. Clone comparison baseline and human-versus-automated use are unavailable; qualified visits and enquiries need analytics.",
+    "cohortCaveat": "Publication was2026-09-06T23:05:57Z, so September6 mixes before and after. September20 is not returned and GitHub has no final-data flag. This is not a clean14-day post-publication cohort.",
+    "fullPostPublicationCalendarDays": {
+      "startDate": "2026-09-07",
+      "endDate": "2026-09-19",
+      "days": 13,
+      "clones": 149,
+      "uniques": null
+    }
+  }
+}

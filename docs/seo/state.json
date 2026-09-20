@@ -1,24 +1,24 @@
 {
   "schemaVersion": 1,
-  "promptVersion": "1.0.7",
+  "promptVersion": "1.0.8",
   "automation": {
     "name": "AI.GAMI SEO成長PDCA",
     "id": "ai-gami-seo-pdca",
     "currentCadenceHours": 24,
     "status": "ACTIVE",
     "currentSchedule": "毎日8:00（Asia/Tokyo）",
-    "scheduleObservedAt": "2026-09-19T23:21:50.792Z",
-    "scheduleSource": "Existing automation.toml read back; daily08:00 Asia/Tokyo ACTIVE and canonical-file launcher unchanged. No schedule or launcher mutation."
+    "scheduleObservedAt": "2026-09-20T23:12:45.423Z",
+    "scheduleSource": "Saved automation.toml read back unchanged: ACTIVE, daily08:00 Asia/Tokyo, launcher reads canonical heartbeat-prompt.md. Automation view resolved the same id; no new automation or cadence mutation."
   },
-  "lastActualRunAt": "2026-09-19T23:21:50.792Z",
-  "lastPromptAuditAt": "2026-09-19T23:21:50.792Z",
+  "lastActualRunAt": "2026-09-20T23:12:45.423Z",
+  "lastPromptAuditAt": "2026-09-20T23:12:45.423Z",
   "measurement": {
     "searchConsole": {
       "siteUrl": "sc-domain:ai.gami.jp",
       "status": "connected",
-      "latestFinalizedDate": "2026-09-16",
-      "lastRecordedAt": "2026-09-20T08:02:36.5883991+09:00",
-      "latestMetricsPath": "reports/seo/metrics/2026-09-20-0802.json",
+      "latestFinalizedDate": "2026-09-18",
+      "lastRecordedAt": "2026-09-21T08:03:14.4630782+09:00",
+      "latestMetricsPath": "reports/seo/metrics/2026-09-21-0803.json",
       "urlInspection": {
         "status": "available",
         "source": "google-index",
@@ -30,12 +30,22 @@
         "status": "readable_resubmission_blocked",
         "lastCheckedAt": "2026-09-20T08:03:15.9489625+09:00",
         "latestEvidencePath": "reports/seo/inspections/2026-09-20-sitemap.json",
-        "liveUrlCount": 21,
+        "liveUrlCount": 22,
         "nextReadOnlyCheckOnOrAfter": "2026-09-27",
-        "liveVerifiedAt": "2026-09-19T23:18:57.802Z",
-        "liveEvidencePath": "reports/seo/deployments/2026-09-20-about-html.json"
+        "liveVerifiedAt": "2026-09-20T23:05:24.846Z",
+        "liveEvidencePath": "reports/seo/deployments/2026-09-21-meeting-template.json"
       },
-      "attributionCaveat": "All Insights received a shared WebPage schema-type correction on2026-09-13. Article copy/dates and observation dates are unchanged, but later before/after signals cannot isolate content-only effects. See current deployment evidence and experiments log."
+      "attributionCaveat": "All Insights received a shared WebPage schema-type correction on2026-09-13. Article copy/dates and observation dates are unchanged, but later before/after signals cannot isolate content-only effects. See current deployment evidence and experiments log.",
+      "nonBrandDefinition": {
+        "method": "exact query exclusion",
+        "brandQueries": [
+          "gami ai",
+          "gami"
+        ],
+        "effectiveDate": "2026-09-21",
+        "note": "New exact query gami classified as brand. Both current and previous windows use the same rule; original snapshots unchanged.",
+        "evidencePath": "reports/seo/metrics/2026-09-21-0803.json"
+      }
     },
     "ga4": {
       "status": "not_configured",
@@ -51,22 +61,25 @@
     "insight-rag-document-inventory-checklist-v1",
     "insight-ai-website-launch-checklist-v1",
     "insight-ai-customer-reply-template-v1",
-    "github-project-site-intro-v1",
     "insight-saas-or-custom-system-checklist-v1",
     "insight-ai-article-fact-check-template-v1",
     "price-initial-html-parity-v1",
     "insight-ai-website-brief-template-v1",
-    "about-initial-html-parity-v1"
+    "about-initial-html-parity-v1",
+    "insight-ai-meeting-action-items-template-v1"
   ],
   "deployment": {
-    "lastSuccessfulAt": "2026-09-20T08:18:40.7259541+09:00",
-    "commit": "8d03f4e6691a960838f100dadc4c247f94bd5d97",
-    "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/35475256560",
+    "lastSuccessfulAt": "2026-09-21T08:05:06.8299556+09:00",
+    "commit": "04620a1e21ea507e73256c387b3550c9f6eaa83b",
+    "workflowRun": null,
     "method": "FTPS using existing project connection",
-    "evidencePath": "reports/seo/deployments/2026-09-20-about-html.json",
+    "evidencePath": "reports/seo/deployments/2026-09-21-meeting-template.json",
     "liveVerification": "passed",
-    "actionsStatus": "Completed/failure: connection timeout. After Actions ended, existing FTPS published the same verified build. Live head/body/sitemap and all24 JavaScript hashes match; no overlapping deploy.",
-    "lastSuccessfulActionsRun": "https://github.com/gamips/ai.gami.jp/actions/runs/34724895099"
+    "actionsStatus": "This publication commit intentionally uses [skip ci]. No running or queued deployment before/after push. Existing workflow remains enabled.",
+    "priorFailedActionsRun": "https://github.com/gamips/ai.gami.jp/actions/runs/35475256560",
+    "lastSuccessfulActionsRun": "https://github.com/gamips/ai.gami.jp/actions/runs/34724895099",
+    "normalPathRecheckOnOrAfter": "2026-09-28",
+    "returnToNormalCondition": "Resume normal Actions after a successful normal-route build/deploy and live verification."
   },
   "observationQueue": [
     {
@@ -225,12 +238,23 @@
     },
     {
       "experimentId": "github-project-site-intro-v1",
-      "status": "observing",
+      "status": "completed",
       "startedAt": "2026-09-07T08:05:57.6659090+09:00",
-      "nextChecks": [
+      "nextChecks": [],
+      "completedChecks": [
         {
           "onOrAfter": "2026-09-21",
-          "check": "GitHub repository audience only; do not treat repository views as website referrals. Referral impact remains unmeasurable without analytics."
+          "check": "GitHub repository audience only; do not treat repository views as website referrals. Referral impact remains unmeasurable without analytics.",
+          "checkedOn": "2026-09-21",
+          "checkedAt": null,
+          "repositoryViews": 0,
+          "repositoryViewUniques": 0,
+          "repositoryClones": 180,
+          "repositoryCloneUniques": 85,
+          "websiteReferralClicks": null,
+          "evidencePath": "reports/seo/publicity/2026-09-21-github-followup.json",
+          "result": "inconclusive",
+          "note": "Recorded repository audience follow-up completed, not a website traffic outcome. Reopen attribution only when analytics becomes available."
         }
       ]
     },
@@ -356,26 +380,36 @@
           "check": "28 finalized post-change days and at least30 page impressions; otherwise insufficient evidence. Date assumes observed four-day data lag."
         }
       ]
+    },
+    {
+      "experimentId": "insight-ai-meeting-action-items-template-v1",
+      "status": "observing",
+      "startedAt": "2026-09-21T08:05:06.8299556+09:00",
+      "nextChecks": [
+        {
+          "onOrAfter": "2026-09-28",
+          "check": "index and first page/query signal"
+        },
+        {
+          "onOrAfter": "2026-10-22",
+          "check": "28 finalized post-publication days and at least30 page impressions; otherwise insufficient evidence. Date assumes observed three-day data lag."
+        }
+      ]
     }
   ],
   "readyQueue": [
     {
-      "lane": "content",
+      "lane": "technical-seo",
       "priority": 1,
-      "url": "https://ai.gami.jp/insights/ai-meeting-action-items-template/",
-      "work": "会議メモから次の作業を整理する5欄テンプレートを公開する。決定・提案・未決と、担当・期限の未確認を区別する。架空の勉強会の例を使い、既存10記事や共有UIは変えない。日付は実際の公開日に設定し、既存記事形式・Article1件・一覧・sitemap・サービス導線を確認する。",
-      "draftPath": "docs/seo/drafts/ai-meeting-action-items-template.json",
-      "draftStatus": "reviewed, not published",
-      "draftModel": "gpt-6-astra",
-      "distinctIntent": "会議後の実行項目と未決事項の整理。一般的なAI定着診断、問い合わせ返信、記事の事実確認とは別。",
-      "demandEvidence": "Reader-intent hypothesis, not measured search volume.",
+      "url": "https://ai.gami.jp/concept/",
+      "work": "Conceptの既存3項目「AI Base」「Human Craft」「Improve Loop」を共有データ化し、初期HTMLにも含める。本文・順序・アイコン・改行・画面構造は維持し、新しい主張や説明は足さない。観測中の記事・料金・会社情報は変更しない。",
       "evidence": [
-        "10 current article intents checked against inventory and insights.js.",
-        "Candidate URL returned404 at2026-09-20T08:10:45.5212662+09:00.",
-        "/services/ai-saas/ returned200 and confirms template/review procedure support; do not use retired /services/ai-agent/."
+        "src/app/pages/Concept.tsx:9 conceptIdeas already contains all3 descriptions.",
+        "src/app/seo/pageSeo.js:389 /concept has no fallbackSections.",
+        "Read-only live check on2026-09-21:200/self-canonical; all3 descriptions absent from initialHTML. Analysis timestamp2026-09-20T23:04:33.020Z."
       ],
-      "verification": "Recheck conflicts, concise copy and no unsupported service claims; source-integrated page package, build, static/live head/body/schema/sitemap/links and scoped desktop/mobile checks.",
-      "effect": "Index and qualified non-brand acquisition remain hypotheses."
+      "verification": "Recheck conflicts; share text only, leave icon mapping in UI. Build, unchanged source/DOM comparison, initial content/head/canonical/sitemap and representative desktop/mobile.",
+      "effect": "Technical completeness; search acquisition lift is a hypothesis."
     }
   ],
   "blocked": [
@@ -393,7 +427,7 @@
     {
       "lane": "technical-seo",
       "item": "Existing sitemap API resubmission",
-      "reason": "A single PUT using existing credentials returned HTTP403 on September6; exact cause unconfirmed. September20 GET still returns May7/10-URL metadata; next read-only check September27. Live sitemap has21 URLs. Earlier seven article inspections passed; three newer due articles are unknown to Google on September20 but live HTTP/head/body/links/sitemap checks pass. No PUT retry or scope escalation.",
+      "reason": "A single PUT using existing credentials returned HTTP403 on September6; exact cause unconfirmed. September20 GET still returns May7/10-URL metadata; next read-only check September27. Live sitemap has22 URLs after September21 publication. Earlier seven article inspections passed; three newer due articles are unknown to Google on September20 but live HTTP/head/body/links/sitemap checks pass. No PUT retry or scope escalation.",
       "doesNotBlock": [
         "Search Console measurement and URL Inspection",
         "content publishing",
@@ -409,10 +443,10 @@
     "verificationGap": false,
     "verificationGapResolved": true,
     "cadenceChangeNeeded": false,
-    "nextFullAuditAfterCompletedRuns": 2,
+    "nextFullAuditAfterCompletedRuns": 1,
     "actualPromptReadback": "passed",
-    "changeApplied": false,
-    "changeReason": "Due checks caught up from recorded state while an independent About improvement and next article draft progressed. No new policy or repeated material verification gap requiring another rule. September14–19 lack execution evidence in repo; do not fabricate completed runs or infer scheduler cause. Known Actions connectivity issue recurred; existing1.0.5 recovery procedure worked after completion, so no duplicate rule or schedule change.",
+    "changeApplied": true,
+    "changeReason": "Repeated Actions connection failures had already been verified on September8 and20; the latter consumed about9minutes. Prompt1.0.8 permits the verified existing FTPS route without re-waiting, while preventing overlapping release and preserving build/live checks. Normal-route review September28, daily08:00 unchanged.",
     "operatingPolicyUpdated": false,
     "externalScheduleChangeObserved": false,
     "launcherPromptUpdated": false,

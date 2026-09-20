@@ -1,6 +1,6 @@
 # AI.GAMI SEO成長PDCA heartbeat prompt
 
-Prompt version: 1.0.7
+Prompt version: 1.0.8
 
 C:\Users\Akira Ishigami\google_antigravity_project\ai.gami.jp で、広告費を使わずに、検索・AI検索・紹介・無料パブリシティからの有効流入と問い合わせを継続的に増やしてください。ブランドを壊さず、シンプルで美しく、短く分かりやすい日本語を守ります。
 
@@ -58,6 +58,8 @@ Search Consoleはsc-domain:ai.gami.jpを正本とします。tools/gsc-searchcon
 
 公開処理の接続失敗と、build不良・本番サイトの障害を分けます。同じ接続失敗を繰り返す場合は、既存のプロジェクト接続設定も確認します。別経路へ移る前に進行中deployの終了を確認し、同じ検証済みbuildを同じ公開先へ反映します。既存の `.vscode/sftp.json` の接続先はFTPSで利用できることを確認済みです。資格情報を出力・commitせず、サーバー設定や認証方式は変更しません。公開後はHTTP・内容・配信アセットを照合し、Actionsの結果と実際の公開結果を別々に記録します。
 
+直近の同じ接続失敗とFTPSでの本番照合が記録され、通常経路の復旧が未確認なら、毎回同じ失敗を待ち直さず既存FTPSを選べます。この場合は公開commitの自動Actionsだけを起動させず、進行中deployがないことを確認します。buildと公開前後の検証は省きません。根拠と通常経路の再確認日をstateへ残し、復旧確認後は通常のActionsへ戻します。workflow全体の無効化やサーバー設定変更はしません。
+
 ## 終了処理とprompt成長
 
 run終了前にstate、content inventory、experiments、metrics、monthly run logを更新します。再利用できる学びだけをlearningsへ昇格します。毎回、停止、重複観測、班衝突、検証漏れ、成果密度、cadenceを監査し、no changeの場合も理由を記録します。
@@ -77,3 +79,4 @@ run終了前にstate、content inventory、experiments、metrics、monthly run l
 - 1.0.5 / 2026-09-08: GitHub Actionsからの接続失敗が2試行続いたため、既存の公開経路を確認して同じbuildを反映する手順を追加。稼働中deployとの重複を避け、既存FTPSで公開し本番照合できたことが根拠。scheduleとサーバー設定は変更しない。戻す場合は通常のActions公開が復旧したことを確認し、この復旧手順だけを外す。
 - 1.0.6 / 2026-09-12: 最新のユーザー方針に合わせ、原稿を最新モデルのサブエージェントで作る運用へ変更。旧Claude CLI・Gemini固定の指定を外し、「、」でのbr改行をしないルールを追加。実際の起動指示も同期し、毎日8時は維持する。戻す場合はユーザーが執筆経路を再指定したときだけ行う。
 - 1.0.7 / 2026-09-13: 記事のschema検証に型別総数を追加。見出し付きArticleだけを数える検証では、ページ用schemaもArticleになっていた既存の重複を検出できなかったため。WebPageとArticleを分けて確認し、本文・日付・デザインは変えない。起動指示は正本を読む既存設定で整合し、毎日8時を維持する。別のschema設計へ移行した場合だけ、その設計に合う確認へ置き換える。
+- 1.0.8 / 2026-09-21: 9月8日と20日に同じActions接続失敗があり、20日は約9分の再試行後に既存FTPSで公開できた。確認済みの失敗を毎回待ち直さないよう、記録を根拠に既存経路を選ぶ手順と通常経路の再確認日を追加。検証・single writer・毎日8時は維持。通常経路の復旧確認後はこの選択をやめ、Actionsへ戻す。

@@ -1,0 +1,121 @@
+{
+  "commit": "04620a1e21ea507e73256c387b3550c9f6eaa83b",
+  "publishedAt": "2026-09-21T08:05:06.8299556+09:00",
+  "verifiedAt": "2026-09-20T23:12:45.423Z",
+  "method": "FTPS using existing project connection",
+  "actions": {
+    "status": "not_started",
+    "reason": "This publication commit intentionally uses [skip ci]. No running or queued deployment before/after push. Existing workflow remains enabled.",
+    "priorFailedRun": "https://github.com/gamips/ai.gami.jp/actions/runs/35475256560",
+    "priorFailure": "curl28 connection timeout on September20, following the same September8 issue. Recovery not verified.",
+    "normalPathRecheckOnOrAfter": "2026-09-28",
+    "returnCondition": "Resume normal Actions after a successful normal-route build/deploy and live verification.",
+    "skipMechanismReference": "https://docs.github.com/en/actions/how-tos/manage-workflow-runs/skip-workflow-runs"
+  },
+  "fallback": {
+    "startedAt": "2026-09-21T08:04:35.4984141+09:00",
+    "completedAt": "2026-09-21T08:05:06.8299556+09:00",
+    "count": 49,
+    "remoteFilesDeleted": 0,
+    "unchangedServerFilesPreserved": true
+  },
+  "scope": [
+    "One new entry in src/app/content/insights.js; previous10 entries unchanged.",
+    "Existing article/list layout, head/schema and sitemap generators reused; no shared UI/CSS change."
+  ],
+  "baseline": {
+    "observedAt": "2026-09-21T08:03:23.6834987+09:00",
+    "articleStatus": 404,
+    "sitemapUrls": 21,
+    "articleInSitemap": false,
+    "aboutStatus": 200,
+    "aboutCompanyPresent": true
+  },
+  "review": {
+    "draftModel": "gpt-6-astra",
+    "publicCopyReview": "passed",
+    "build": "passed",
+    "diffCheck": "passed",
+    "articleAndExampleConsistency": "passed",
+    "noNewFactsOrOutcomes": "No performance figures, tool capability claims, or real customer outcomes.",
+    "lazyweb": "Not required for content-only publication in unchanged existing UI."
+  },
+  "verification": {
+    "checkedAt": "2026-09-20T23:05:25.323Z",
+    "mode": "live",
+    "articles": 11,
+    "existingArticlesUnchanged": 10,
+    "sections": 4,
+    "worksheetFields": 5,
+    "exampleFields": 5,
+    "sitemapUrls": 22,
+    "articleSchema": true,
+    "breadcrumbSchema": true,
+    "selfCanonical": true,
+    "indexLink": true,
+    "serviceLink": true,
+    "initialContentMatches": true,
+    "seoHeadMatchesBuild": true,
+    "publicReferenceHeadingAbsent": true,
+    "operationalMetadataAbsent": true,
+    "staticChecks": "passed",
+    "assetsChecked": 24,
+    "assetHashesMatch": true,
+    "headsChecked": 24,
+    "allStaticSeoHeadsMatch": true,
+    "passed": true,
+    "desktop": {
+      "h1": 1,
+      "articleSections": 4,
+      "articleTextMatches": true,
+      "width": 1440,
+      "scrollWidth": 1425,
+      "schemas": [
+        "Organization",
+        "WebPage",
+        "Article",
+        "BreadcrumbList"
+      ],
+      "hasCommaBr": false,
+      "canonical": "https://ai.gami.jp/insights/ai-meeting-action-items-template/"
+    },
+    "mobile": {
+      "h1": 1,
+      "articleSections": 4,
+      "articleTextMatches": true,
+      "width": 390,
+      "scrollWidth": 375,
+      "schemas": [
+        "Organization",
+        "WebPage",
+        "Article",
+        "BreadcrumbList"
+      ],
+      "hasCommaBr": false,
+      "canonical": "https://ai.gami.jp/insights/ai-meeting-action-items-template/"
+    },
+    "initialArticleCount": 1,
+    "initialWebPageCount": 1,
+    "indexToArticleNavigation": true,
+    "articleToServiceNavigation": true,
+    "linkTargetScrollY": 0,
+    "consoleErrors": 0,
+    "consoleWarnings": 0,
+    "ogImage": "https://ai.gami.jp/og/news.png",
+    "ogStatus": 200,
+    "ogContentType": "image/png",
+    "visualReview": "Desktop and mobile article header and worksheet plus mobile index row reviewed; existing one-column layout retained, no horizontal overflow."
+  },
+  "browserEvidence": {
+    "directory": "output/playwright/2026-09-21-meeting/",
+    "screenshots": [
+      "desktop-top.png",
+      "desktop-fields.png",
+      "mobile-top.png",
+      "mobile-fields.png",
+      "mobile-index.png"
+    ]
+  },
+  "technicalResult": "confirmed",
+  "acquisitionEffect": "not-yet-measurable"
+}
