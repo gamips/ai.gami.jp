@@ -2,6 +2,7 @@ import { insights } from "../content/insights.js";
 import { featuredNews } from "../content/news.js";
 import { pricePlans, monthlyModelPoints, projectNotes } from "../content/pricing.js";
 import { companyInfo } from "../content/company.js";
+import { conceptIdeas } from "../content/concept.js";
 
 export const SITE_NAME = "GAMI";
 export const SITE_LEGAL_NAME = "株式会社Gami";
@@ -388,7 +389,9 @@ export const pageSeoByPath = {
   },
   "/concept": {
     path: "/concept",
+    lastModified: "2026-09-22",
     fallbackHeading: "AI Base, Human Craft.",
+    fallbackSections: conceptIdeas.map(({ title, description }) => ({ title, body: description })),
     title: "Concept | 生成AI導入支援とAI開発の進め方 | GAMI",
     description:
       "AI Base, Human Craft. を軸に、生成AI導入支援、AI開発、AI Web制作をどうAI基準で進めるかを整理したGAMIの開発思想ページです。",
