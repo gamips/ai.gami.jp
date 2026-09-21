@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-21",
+  "updatedAt": "2026-09-22",
   "rules": {
     "oneOwnerUrlPerIntent": true,
     "publicCopyExcludesOperationalMetadata": true
@@ -29,7 +29,9 @@
       "type": "brand",
       "intent": "AI Base, Human Craftの開発思想",
       "status": "published",
-      "lastModified": "2026-05-08"
+      "lastModified": "2026-09-22",
+      "experimentId": "concept-initial-html-parity-v1",
+      "contentSource": "src/app/content/concept.js"
     },
     {
       "url": "https://ai.gami.jp/services/",

@@ -1,0 +1,450 @@
+{
+  "publishedAt": "2026-09-22T08:10:21.6542972+09:00",
+  "verifiedAt": "2026-09-21T23:14:29Z",
+  "commit": "84420395bf9b7abb9cd370ab537c1ce821de97fd",
+  "scope": "Existing Concept text into initial HTML, unchanged public copy and hydrated UI.",
+  "method": "FTPS using existing project connection",
+  "actions": {
+    "currentPublication": "not_started_intentionally",
+    "reason": "Prompt1.0.8 verified FTPS reuse; scoped [skip ci] commit only. No active deployment before/after push; workflow remains enabled.",
+    "priorFailedRun": "https://github.com/gamips/ai.gami.jp/actions/runs/35475256560",
+    "normalPathRecheckOnOrAfter": "2026-09-28"
+  },
+  "build": {
+    "command": "npm run build",
+    "result": "passed"
+  },
+  "diffCheck": "passed",
+  "sourceAndLive": {
+    "checkedAt": "2026-09-21T23:10:45.401Z",
+    "baselineCommit": "7cdc4f3",
+    "unchangedExistingText": true,
+    "unchangedConceptRenderSource": true,
+    "iconOrderPreserved": true,
+    "otherSeoEntriesUnchanged": true,
+    "allElevenArticlesUnchanged": true,
+    "initialDescriptions": 3,
+    "schemaTypes": [
+      "Organization",
+      "WebPage",
+      "BreadcrumbList"
+    ],
+    "sitemapUrls": 22,
+    "conceptLastModified": "2026-09-22",
+    "staticSeoEntries": 24,
+    "live200": true,
+    "liveHeadAndMainMatch": true,
+    "liveSitemapMatches": true,
+    "liveCssFilesMatch": [
+      "index-BSUbwp1T.css"
+    ],
+    "og200": true,
+    "liveCheckedAt": "2026-09-21T23:10:45.616Z",
+    "passed": true
+  },
+  "releaseAssets": {
+    "checkedAt": "2026-09-21T23:10:46.087Z",
+    "assetsChecked": 24,
+    "assetHashesMatch": true,
+    "headsChecked": 24,
+    "allStaticSeoHeadsMatch": true,
+    "scope": "All generated SEO heads and built JavaScript hashes after fallback upload; not a full UI audit.",
+    "passed": true
+  },
+  "browser": {
+    "verifiedAt": "2026-09-21T23:14:29Z",
+    "before": {
+      "url": "https://ai.gami.jp/concept/",
+      "title": "Concept | 生成AI導入支援とAI開発の進め方 | GAMI",
+      "h1": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "scrollWidth": 1425
+      },
+      "ideas": [
+        {
+          "title": "AI Base",
+          "html": "<h3 class=\"text-2xl font-bold text-zinc-900\">AI Base</h3><p class=\"text-zinc-600 leading-[1.9]\">仕様のたたき台、画面構成、原稿ドラフト、ワークフローの骨格をAIで高速に立ち上げます。<br>ゼロから考え始める時間を減らし、まず動くベースを短時間でつくることで、その後の意思決定と実装速度を大きく引き上げます。</p>",
+          "class": "space-y-4",
+          "paragraphClass": "text-zinc-600 leading-[1.9]",
+          "breaks": 1,
+          "description": "仕様のたたき台、画面構成、原稿ドラフト、ワークフローの骨格をAIで高速に立ち上げます。ゼロから考え始める時間を減らし、まず動くベースを短時間でつくることで、その後の意思決定と実装速度を大きく引き上げます。"
+        },
+        {
+          "title": "Human Craft",
+          "html": "<h3 class=\"text-2xl font-bold text-zinc-900\">Human Craft</h3><p class=\"text-zinc-600 leading-[1.9]\">要件の優先順位、ブランド表現、業務判断、例外対応、最終品質は人間が責任を持って仕上げます。<br>AIが出した案をそのまま使うのではなく、事業文脈と現場感覚を踏まえて、人間が最後の精度と説得力を与えることを重視します。</p>",
+          "class": "space-y-4",
+          "paragraphClass": "text-zinc-600 leading-[1.9]",
+          "breaks": 1,
+          "description": "要件の優先順位、ブランド表現、業務判断、例外対応、最終品質は人間が責任を持って仕上げます。AIが出した案をそのまま使うのではなく、事業文脈と現場感覚を踏まえて、人間が最後の精度と説得力を与えることを重視します。"
+        },
+        {
+          "title": "Improve Loop",
+          "html": "<h3 class=\"text-2xl font-bold text-zinc-900\">Improve Loop</h3><p class=\"text-zinc-600 leading-[1.9]\">作って終わりではなく、公開後の反応や運用ログを見ながら、プロンプト、UI、フロー全体を継続改善します。<br>成果や運用実態を反映しながら更新を回し続けることで、AIも人間の設計も同時に育っていく状態をつくります。</p>",
+          "class": "space-y-4",
+          "paragraphClass": "text-zinc-600 leading-[1.9]",
+          "breaks": 1,
+          "description": "作って終わりではなく、公開後の反応や運用ログを見ながら、プロンプト、UI、フロー全体を継続改善します。成果や運用実態を反映しながら更新を回し続けることで、AIも人間の設計も同時に育っていく状態をつくります。"
+        }
+      ],
+      "schemaTypes": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList"
+      ]
+    },
+    "desktop": {
+      "url": "https://ai.gami.jp/concept/",
+      "title": "Concept | 生成AI導入支援とAI開発の進め方 | GAMI",
+      "h1": 1,
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "scrollWidth": 1425
+      },
+      "ideas": [
+        {
+          "title": "AI Base",
+          "html": "<h3 class=\"text-2xl font-bold text-zinc-900\">AI Base</h3><p class=\"text-zinc-600 leading-[1.9]\">仕様のたたき台、画面構成、原稿ドラフト、ワークフローの骨格をAIで高速に立ち上げます。<br>ゼロから考え始める時間を減らし、まず動くベースを短時間でつくることで、その後の意思決定と実装速度を大きく引き上げます。</p>",
+          "class": "space-y-4",
+          "paragraphClass": "text-zinc-600 leading-[1.9]",
+          "breaks": 1,
+          "description": "仕様のたたき台、画面構成、原稿ドラフト、ワークフローの骨格をAIで高速に立ち上げます。ゼロから考え始める時間を減らし、まず動くベースを短時間でつくることで、その後の意思決定と実装速度を大きく引き上げます。"
+        },
+        {
+          "title": "Human Craft",
+          "html": "<h3 class=\"text-2xl font-bold text-zinc-900\">Human Craft</h3><p class=\"text-zinc-600 leading-[1.9]\">要件の優先順位、ブランド表現、業務判断、例外対応、最終品質は人間が責任を持って仕上げます。<br>AIが出した案をそのまま使うのではなく、事業文脈と現場感覚を踏まえて、人間が最後の精度と説得力を与えることを重視します。</p>",
+          "class": "space-y-4",
+          "paragraphClass": "text-zinc-600 leading-[1.9]",
+          "breaks": 1,
+          "description": "要件の優先順位、ブランド表現、業務判断、例外対応、最終品質は人間が責任を持って仕上げます。AIが出した案をそのまま使うのではなく、事業文脈と現場感覚を踏まえて、人間が最後の精度と説得力を与えることを重視します。"
+        },
+        {
+          "title": "Improve Loop",
+          "html": "<h3 class=\"text-2xl font-bold text-zinc-900\">Improve Loop</h3><p class=\"text-zinc-600 leading-[1.9]\">作って終わりではなく、公開後の反応や運用ログを見ながら、プロンプト、UI、フロー全体を継続改善します。<br>成果や運用実態を反映しながら更新を回し続けることで、AIも人間の設計も同時に育っていく状態をつくります。</p>",
+          "class": "space-y-4",
+          "paragraphClass": "text-zinc-600 leading-[1.9]",
+          "breaks": 1,
+          "description": "作って終わりではなく、公開後の反応や運用ログを見ながら、プロンプト、UI、フロー全体を継続改善します。成果や運用実態を反映しながら更新を回し続けることで、AIも人間の設計も同時に育っていく状態をつくります。"
+        }
+      ],
+      "schemaTypes": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList"
+      ]
+    },
+    "mobile": {
+      "url": "https://ai.gami.jp/concept/",
+      "title": "Concept | 生成AI導入支援とAI開発の進め方 | GAMI",
+      "h1": 1,
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 375
+      },
+      "ideas": [
+        {
+          "title": "AI Base",
+          "html": "<h3 class=\"text-2xl font-bold text-zinc-900\">AI Base</h3><p class=\"text-zinc-600 leading-[1.9]\">仕様のたたき台、画面構成、原稿ドラフト、ワークフローの骨格をAIで高速に立ち上げます。<br>ゼロから考え始める時間を減らし、まず動くベースを短時間でつくることで、その後の意思決定と実装速度を大きく引き上げます。</p>",
+          "class": "space-y-4",
+          "paragraphClass": "text-zinc-600 leading-[1.9]",
+          "breaks": 1,
+          "description": "仕様のたたき台、画面構成、原稿ドラフト、ワークフローの骨格をAIで高速に立ち上げます。ゼロから考え始める時間を減らし、まず動くベースを短時間でつくることで、その後の意思決定と実装速度を大きく引き上げます。"
+        },
+        {
+          "title": "Human Craft",
+          "html": "<h3 class=\"text-2xl font-bold text-zinc-900\">Human Craft</h3><p class=\"text-zinc-600 leading-[1.9]\">要件の優先順位、ブランド表現、業務判断、例外対応、最終品質は人間が責任を持って仕上げます。<br>AIが出した案をそのまま使うのではなく、事業文脈と現場感覚を踏まえて、人間が最後の精度と説得力を与えることを重視します。</p>",
+          "class": "space-y-4",
+          "paragraphClass": "text-zinc-600 leading-[1.9]",
+          "breaks": 1,
+          "description": "要件の優先順位、ブランド表現、業務判断、例外対応、最終品質は人間が責任を持って仕上げます。AIが出した案をそのまま使うのではなく、事業文脈と現場感覚を踏まえて、人間が最後の精度と説得力を与えることを重視します。"
+        },
+        {
+          "title": "Improve Loop",
+          "html": "<h3 class=\"text-2xl font-bold text-zinc-900\">Improve Loop</h3><p class=\"text-zinc-600 leading-[1.9]\">作って終わりではなく、公開後の反応や運用ログを見ながら、プロンプト、UI、フロー全体を継続改善します。<br>成果や運用実態を反映しながら更新を回し続けることで、AIも人間の設計も同時に育っていく状態をつくります。</p>",
+          "class": "space-y-4",
+          "paragraphClass": "text-zinc-600 leading-[1.9]",
+          "breaks": 1,
+          "description": "作って終わりではなく、公開後の反応や運用ログを見ながら、プロンプト、UI、フロー全体を継続改善します。成果や運用実態を反映しながら更新を回し続けることで、AIも人間の設計も同時に育っていく状態をつくります。"
+        }
+      ],
+      "schemaTypes": [
+        "Organization",
+        "WebPage",
+        "BreadcrumbList"
+      ]
+    },
+    "desktopDescriptionDomMatchesBaseline": true,
+    "mobileDescriptionDomMatchesBaseline": true,
+    "horizontalOverflow": false,
+    "consoleErrors": 0,
+    "visualReview": "passed",
+    "screenshots": [
+      "output/playwright/2026-09-22-concept/desktop.png",
+      "output/playwright/2026-09-22-concept/mobile.png",
+      "output/playwright/2026-09-22-concept/desktop-viewport.png",
+      "output/playwright/2026-09-22-concept/mobile-viewport.png"
+    ],
+    "note": "Section screenshots include the fixed header at capture position; additional viewport captures checked unobscured text. No product-layout modification."
+  },
+  "upload": {
+    "startedAt": "2026-09-22T08:09:50.0719338+09:00",
+    "completedAt": "2026-09-22T08:10:21.6542972+09:00",
+    "method": "FTPS using existing project connection",
+    "target": "sv90.xserver.jp/gami.jp/public_html/ai.gami.jp/",
+    "count": 49,
+    "files": [
+      {
+        "path": "assets/About-DtDDxC3U.js",
+        "bytes": 9072,
+        "sha256": "69140240D61D02175BEA0A80610B5D346A0B9DB9091F93D6586D7A80C15899AD"
+      },
+      {
+        "path": "assets/arrow-right-05xao9Oo.js",
+        "bytes": 349,
+        "sha256": "693B636F2C1A044DFAC65371613E132F1E3AF746EB6E062733F83F16387C4490"
+      },
+      {
+        "path": "assets/Concept-BEQzy8U6.js",
+        "bytes": 29902,
+        "sha256": "B49E6C6F9E3885CC4142A7A509052EE4051F6076C93058CB0924E51044CAD64F"
+      },
+      {
+        "path": "assets/Contact-xMRKMn4j.js",
+        "bytes": 8828,
+        "sha256": "2415AA12A10885EBFBD62293E185D7201CE5EB00885CCC6EA21D61805B5F0B54"
+      },
+      {
+        "path": "assets/ContactThanks-BB4VrtgL.js",
+        "bytes": 2051,
+        "sha256": "FEB461415DF1D98C655C36E03619142B6F1E821B06CAB708E8DCBDCF2C62E5A2"
+      },
+      {
+        "path": "assets/createLucideIcon-DvCZfxjB.js",
+        "bytes": 1737,
+        "sha256": "F3485C1F3E7AAFF1BA0EC089967935B8A86AB1DFEEF71657E1EF302E1FE50933"
+      },
+      {
+        "path": "assets/Footer-BhGmR_zL.js",
+        "bytes": 4883,
+        "sha256": "28AD26E23CE4E0064D60E0DFF06D378D5FA3A5F895C01B150739A93FFDC01EAF"
+      },
+      {
+        "path": "assets/GeometricParticles-C7Shw2Q6.js",
+        "bytes": 496731,
+        "sha256": "81C89E70377CEB920785510849B56CE6286D5A59A5EB98DBA4218B4CA91CABC5"
+      },
+      {
+        "path": "assets/Header-DV7pu2eG.js",
+        "bytes": 7033,
+        "sha256": "36714F1D71CA1675084BD8BD3078EADAA0D4B4FF92C0A0A335831EDFE1E0CBA5"
+      },
+      {
+        "path": "assets/Home-_gqKPsnX.js",
+        "bytes": 26226,
+        "sha256": "2AB4835BC964A9E2FD26B211ECA5F29DFAB874A368B581BDCB9CE047DCE0227F"
+      },
+      {
+        "path": "assets/index-DgaEkypM.js",
+        "bytes": 238401,
+        "sha256": "7104E331DDFC859E35E893D9C9869594D66B4258429887F73500E8FA69251799"
+      },
+      {
+        "path": "assets/InquiryCta-CrQb7M-g.js",
+        "bytes": 1473,
+        "sha256": "10AC991ED6D8C8F1E900E442F1C7EEE8BDEED04F1F83EFFCED99466F59E1EB65"
+      },
+      {
+        "path": "assets/InsightDetail-CNnvGQj5.js",
+        "bytes": 3836,
+        "sha256": "F04F5995DB757AA5C5F745FEC6D3ECA3D645E651F57BD715108C2D20AAD4AAC1"
+      },
+      {
+        "path": "assets/Insights-Xb6-P21P.js",
+        "bytes": 2337,
+        "sha256": "07131FFAEBD10888CE84DB830388BA2183EDC56F4F87060E37F52F242CC9044E"
+      },
+      {
+        "path": "assets/News-B-yKgk2D.js",
+        "bytes": 3915,
+        "sha256": "F05DBE6DE184F55B168BC36FB84598632A785FE471D0C09C2D25B54CBA4EFFB9"
+      },
+      {
+        "path": "assets/NotFound-DtK8nVIU.js",
+        "bytes": 2602,
+        "sha256": "C0CE80B18FDCAF501E0AE6EE07EA591D98478E0AC7B4B95C193527D8B9D581AE"
+      },
+      {
+        "path": "assets/PageSeo-C3-pO5Qe.js",
+        "bytes": 91645,
+        "sha256": "19A58BAB0D0AA13783D12DD3AAB01021ECB2791AD01C5EA14576262F46650DF7"
+      },
+      {
+        "path": "assets/Price-CGy2D7jN.js",
+        "bytes": 5691,
+        "sha256": "14E1CB6E8F209BC0021BBFB3FC6CC1C0EF2A8BFB49AF969A61A8153D72501087"
+      },
+      {
+        "path": "assets/proxy-ClDn-gM1.js",
+        "bytes": 122123,
+        "sha256": "49AA518EDFF91C986CD7367FC87DE564A33F2659FACA6B3C479832A1A769878E"
+      },
+      {
+        "path": "assets/ScrollReveal-ClCAEZgy.js",
+        "bytes": 720,
+        "sha256": "EDC56664535B6FB9B6CF336E03BA62A686B02F2527A757901D01734FE883E3E9"
+      },
+      {
+        "path": "assets/ScrollToTopLink-B5xQWoiO.js",
+        "bytes": 436,
+        "sha256": "C3811D3CA1ED2094FCFC6B012D059E0FB346C2C3D8951540A2ACA17B5BA38F4D"
+      },
+      {
+        "path": "assets/ServiceDetail-iVtAwDMf.js",
+        "bytes": 33644,
+        "sha256": "47ABB837D695BB537A2B8B74E574B1ACB30E231B470F0604EF7FEF1A4F4A8B1F"
+      },
+      {
+        "path": "assets/Services-DCl__kv5.js",
+        "bytes": 3446,
+        "sha256": "8A6425F86153D7B3CCFEB039C337CA93AA8EB68680118AF34DA5066ACD2EED5B"
+      },
+      {
+        "path": "assets/services-DmL55NWC.js",
+        "bytes": 43600,
+        "sha256": "AC9E5A335FD9C1FB1E992B7D9D0D8F2C47591AD2F70D335D97F074F80EB00F88"
+      },
+      {
+        "path": "insights/saas-or-custom-system-checklist/index.html",
+        "bytes": 11884,
+        "sha256": "4DF3A55C46D5595AF1601AC7940CF827448499162B241555B26D3EAB1BAFC184"
+      },
+      {
+        "path": "404/index.html",
+        "bytes": 2420,
+        "sha256": "3640CF2C4B3B232DB9AD6338CF5776412730AA2F647E3AC8F24F8EA44E6B77C1"
+      },
+      {
+        "path": "about/index.html",
+        "bytes": 7010,
+        "sha256": "B5116DAAB7531F44AB2A8E2FD245881DB30EC74EFD3BE5B468A1A4E03A4FED82"
+      },
+      {
+        "path": "concept/index.html",
+        "bytes": 6721,
+        "sha256": "2A857BD9DF4A28CCBEF25374C006FEDECDEAAEA40E51B5730CEC93283EA532BC"
+      },
+      {
+        "path": "contact/index.html",
+        "bytes": 4592,
+        "sha256": "801C506FB5BFB93CA37FC22AFFD5DCDBE6C2E4CAF48255DEBDB1D7E39C640E02"
+      },
+      {
+        "path": "contact/thanks/index.html",
+        "bytes": 5354,
+        "sha256": "5AF550E80BE9B03B99DD84746E0CD796ADD34B58DD562050B28EC49ADA447D90"
+      },
+      {
+        "path": "insights/ai-article-fact-check-template/index.html",
+        "bytes": 11485,
+        "sha256": "7D9B763FF9497BEBB201257B1140A98D4C386887A61B08F4DE544B9CEE47C730"
+      },
+      {
+        "path": "insights/ai-customer-reply-template/index.html",
+        "bytes": 12375,
+        "sha256": "16667E95524045967952A1B91141A6A1B0D9D6DEA1338370B398413DD2DC1EC0"
+      },
+      {
+        "path": "insights/ai-introduction-support-pricing/index.html",
+        "bytes": 13501,
+        "sha256": "52D0827752FE80673D4AFA39C700AFA2C11D8BCED47DD83E574B335592C5FE50"
+      },
+      {
+        "path": "insights/ai-introduction-support/index.html",
+        "bytes": 12246,
+        "sha256": "EED59BA199F5F556BF4E86B153F39B9EBEB53E2A479A6BEC717993607D56B1A4"
+      },
+      {
+        "path": "insights/ai-meeting-action-items-template/index.html",
+        "bytes": 11949,
+        "sha256": "3E7E1A05E111D7C8B610486832C81FFD807A67EABC1B460A20DE28F86CDE223E"
+      },
+      {
+        "path": "insights/ai-website-brief-template/index.html",
+        "bytes": 12112,
+        "sha256": "474249F9829E4EAEE56045BC7EE1606F15639437038DE359EBC5EE27120151B1"
+      },
+      {
+        "path": "insights/ai-website-launch-checklist/index.html",
+        "bytes": 13028,
+        "sha256": "603F29CE3715AF99438CA309FC781754C9281F86A9506F1F7DD16A37885466A2"
+      },
+      {
+        "path": "insights/chatgpt-workplace-adoption-checklist/index.html",
+        "bytes": 12858,
+        "sha256": "AB9C32E9B51A0576F10F3A17795BAF2B6AC90B05DA872D0FD32E301399DD9797"
+      },
+      {
+        "path": "insights/rag-document-inventory-checklist/index.html",
+        "bytes": 12858,
+        "sha256": "C02FEFAD449906AADDAA65EB7B548ED47CD0D3DADFA91722B257437A34C46610"
+      },
+      {
+        "path": "insights/sodatsu-mitsumori-case-study/index.html",
+        "bytes": 12093,
+        "sha256": "4D953A3C59BD9EC2918E90B52E6CD1AC5DFF33E8A88F088DD0D7620CF400C00A"
+      },
+      {
+        "path": "news/index.html",
+        "bytes": 6194,
+        "sha256": "2AC51FAF4EA4811D121B74BD22E707985319CBEF56E89E5CDD906CE09E3AD135"
+      },
+      {
+        "path": "price/index.html",
+        "bytes": 15141,
+        "sha256": "FDB7F750200127BEBEB7F3CA6140B6C8ECA9E662AE79D4F098E511510BEAEAA1"
+      },
+      {
+        "path": "services/ai-marketing/index.html",
+        "bytes": 8943,
+        "sha256": "C1C57A9BCD222ADED5FA0942EDADEE8C44AB987EC37531F337E3583E8B02E01F"
+      },
+      {
+        "path": "services/ai-saas/index.html",
+        "bytes": 8789,
+        "sha256": "55F17557A88809493C42BADBDA1C3B718D1A4DDAD9D55E55CB7442404C41B11F"
+      },
+      {
+        "path": "services/ai-web/index.html",
+        "bytes": 8631,
+        "sha256": "ED93079EF93D792927A8D39E2BC528DA2654EF30DAE35D90A2C8EF4A92F14BEC"
+      },
+      {
+        "path": "services/index.html",
+        "bytes": 5725,
+        "sha256": "581DD2EC7FC5A6BB7902BB365E570750F8E59FD80EEA8E00F5A08898E9811296"
+      },
+      {
+        "path": "insights/index.html",
+        "bytes": 15202,
+        "sha256": "5E5808FDF3341262FF132E10C2814F1F2B5615E931F941F78B229F0C88CE5A70"
+      },
+      {
+        "path": "index.html",
+        "bytes": 6416,
+        "sha256": "9ADF2E663764AD162C3BDB92980309F7EA59D2D462172CC110B922C3FC4BAE65"
+      },
+      {
+        "path": "sitemap.xml",
+        "bytes": 3988,
+        "sha256": "A4F640424460B52DF54942EF4AF3A02966850B29FA9FE0162C385648A6B2670A"
+      }
+    ],
+    "unchangedServerFilesPreserved": true,
+    "remoteFilesDeleted": 0
+  },
+  "result": "verified",
+  "acquisitionEffect": "not-yet-measurable"
+}
