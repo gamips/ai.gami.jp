@@ -1,0 +1,406 @@
+{
+  "publishedAt": "2026-09-25T08:12:21.5059012+09:00",
+  "verifiedAt": "2026-09-24T23:16:53Z",
+  "commit": "796e2154f90882eee23fbd8a9585e1f78663507b",
+  "url": "https://ai.gami.jp/services/",
+  "method": "FTPS using existing project connection",
+  "workflowRun": null,
+  "actionsStatus": "Publication commit uses [skip ci] under prompt1.0.8; no active/queued deployment before or after push. Existing workflow and server configuration unchanged.",
+  "priorFailedActionsRun": "https://github.com/gamips/ai.gami.jp/actions/runs/35475256560",
+  "normalPathRecheckOnOrAfter": "2026-09-28",
+  "baseline": {
+    "at": "2026-09-24T23:09:18.755Z",
+    "httpStatus": 200,
+    "descriptionsPresent": [
+      false,
+      false,
+      false
+    ],
+    "initialMain": "<main id=\"seo-fallback\" class=\"pt-24\">\n      <section class=\"container mx-auto px-6 py-20\">\n        <p class=\"text-cyan-500 font-medium tracking-widest mb-6\">GAMI</p>\n        <h1 class=\"text-4xl md:text-6xl font-bold leading-tight text-zinc-900\">生成AI導入支援・AI開発サービス</h1>\n        <p class=\"mt-6 text-lg md:text-xl text-zinc-600 leading-relaxed max-w-4xl\">GAMIが提供する生成AI導入支援・AI開発サービス一覧。AI × SaaS / DX、AI × Growth / Support、AI × Brand / Site の3カテゴリごとに、AI導入支援、RAG構築、AIエージェント、AIライティング、AI Web制作の進め方を整理しています。</p>\n      </section>\n    </main>",
+    "canonical": "<link rel=\"canonical\" href=\"https://ai.gami.jp/services/\" />"
+  },
+  "build": {
+    "node22PipelinePassed": true,
+    "npmBuildPassed": true,
+    "diffCheckPassed": true
+  },
+  "staticProof": {
+    "at": "2026-09-24T23:10:34.915Z",
+    "baselineCommit": "0268fa4",
+    "allSixServiceValuesUnchanged": true,
+    "allOrdersUnchanged": true,
+    "renderSourceUnchanged": true,
+    "allTwelveArticlesUnchanged": true,
+    "otherSeoEntriesUnchanged": true,
+    "initialCategories": 3,
+    "initialBullets": 9,
+    "existingLinks": 3,
+    "sitemapUrls": 23,
+    "staticEntries": 25,
+    "unchangedLiveCss": [
+      "index-BSUbwp1T.css"
+    ],
+    "passed": true
+  },
+  "live": {
+    "at": "2026-09-24T23:13:06.154Z",
+    "baselineCommit": "0268fa4",
+    "allSixServiceValuesUnchanged": true,
+    "allOrdersUnchanged": true,
+    "renderSourceUnchanged": true,
+    "allTwelveArticlesUnchanged": true,
+    "otherSeoEntriesUnchanged": true,
+    "initialCategories": 3,
+    "initialBullets": 9,
+    "existingLinks": 3,
+    "sitemapUrls": 23,
+    "staticEntries": 25,
+    "unchangedLiveCss": [
+      "index-BSUbwp1T.css"
+    ],
+    "liveHeadAndMainMatch": true,
+    "liveSitemapMatches": true,
+    "og200": true,
+    "liveCheckedAt": "2026-09-24T23:13:06.427Z",
+    "passed": true
+  },
+  "assets": {
+    "checkedAt": "2026-09-24T23:13:06.640Z",
+    "assetsChecked": 24,
+    "assetHashesMatch": true,
+    "headsChecked": 25,
+    "allStaticSeoHeadsMatch": true,
+    "scope": "All generated SEO heads and built JavaScript hashes after fallback upload; not a full UI audit.",
+    "passed": true
+  },
+  "upload": {
+    "startedAt": "2026-09-25T08:11:49.6903483+09:00",
+    "completedAt": "2026-09-25T08:12:21.5059012+09:00",
+    "method": "FTPS using existing project connection",
+    "target": "sv90.xserver.jp/gami.jp/public_html/ai.gami.jp/",
+    "count": 50,
+    "files": [
+      {
+        "path": "assets/About-Cm6GMuPB.js",
+        "bytes": 9072,
+        "sha256": "72CF9EDF27465BFCC4D47971EC4FE077AB0A8DC8852C93EFE709A0833A7C97A5"
+      },
+      {
+        "path": "assets/arrow-right-Co2744FQ.js",
+        "bytes": 349,
+        "sha256": "09254119C3B5E654AD4DF91A552311F2E0D214E0C4D707C65B1720290FF362F0"
+      },
+      {
+        "path": "assets/Concept-GoNgDTS3.js",
+        "bytes": 29902,
+        "sha256": "8D8772F9A0266E66A9A03F1204D1EB46AC891138773280741E631F137DFA5593"
+      },
+      {
+        "path": "assets/Contact-BVP4ZpGR.js",
+        "bytes": 8828,
+        "sha256": "E327621626F1ED7ACA974BF6230C87A9E844ACCBB9C32CCA68068D769065F3D1"
+      },
+      {
+        "path": "assets/ContactThanks-QkmXSsGw.js",
+        "bytes": 2051,
+        "sha256": "EF63E73550DCC041744B7BEB80A2AE06DF37C5D2971298F67292E19996DCB47E"
+      },
+      {
+        "path": "assets/createLucideIcon-DmJ9yV6S.js",
+        "bytes": 1737,
+        "sha256": "869DAF1E01EFB1BF5FB9F0979C2C6E7CA582A03A04860BB40AAA0ED7F7753F15"
+      },
+      {
+        "path": "assets/Footer-BwsFDZ4F.js",
+        "bytes": 4883,
+        "sha256": "6EA9A71C0699AD03275B4138ACBF2717D53B9F18045EBBC90D5CF783D24F9AD2"
+      },
+      {
+        "path": "assets/GeometricParticles-C41sX4YK.js",
+        "bytes": 496731,
+        "sha256": "E34ED03BA783F0098FC5772CA6FC398C196690D34C36CC8C1063273CB14203B9"
+      },
+      {
+        "path": "assets/Header-NyxjNrOe.js",
+        "bytes": 7033,
+        "sha256": "55787F83EE5CF613B806A48CE505E92839E2B7DDB342B9446B79FF913F43EFEF"
+      },
+      {
+        "path": "assets/Home-CQzVi6lk.js",
+        "bytes": 26226,
+        "sha256": "74430D1BC6D343FC2B3022957BFA3A612F366EB74CC7576CEE5CA6EA1E11A67C"
+      },
+      {
+        "path": "assets/index-N9vyk05i.js",
+        "bytes": 238401,
+        "sha256": "549DD21F6C46539B87B97796874A103EBE2C6A6A5E565E80406DA0B695F9F4EE"
+      },
+      {
+        "path": "assets/InquiryCta-B3apsxLh.js",
+        "bytes": 1473,
+        "sha256": "F8CFD4F1A200BC70C9D00B70C50D3FBCB9FE82E7B52DC2F715CC95F6D538E4B7"
+      },
+      {
+        "path": "assets/InsightDetail-D5REv1Td.js",
+        "bytes": 3836,
+        "sha256": "A9F0D174A7FED557B8C62518836DFA23062CCB6008CABCDBEC0DF80A15C9C4D4"
+      },
+      {
+        "path": "assets/Insights-CWjAauXU.js",
+        "bytes": 2337,
+        "sha256": "1EF4292A49589D85EE3115790A03E12DA9D06D4A79F833AA073F228E4E5DD2AF"
+      },
+      {
+        "path": "assets/News-DtPWQK5X.js",
+        "bytes": 3915,
+        "sha256": "B04A081DBA71D152F11EE2FBE0B432B0D8BBFBB47B7E064F4BE7FD4A847697CD"
+      },
+      {
+        "path": "assets/NotFound-V6Qur8N6.js",
+        "bytes": 2602,
+        "sha256": "BD8045A363F83D44EE8DF57C37024F6417A492A6D651F5E42AF578A17AB67C1C"
+      },
+      {
+        "path": "assets/PageSeo-B-OUR0vx.js",
+        "bytes": 97096,
+        "sha256": "6CB0A43B11D23AA8643F5BB61B49BC02FCE9EC7AE93FF657E54F17C3EA41152E"
+      },
+      {
+        "path": "assets/Price-DyqVVxzq.js",
+        "bytes": 5691,
+        "sha256": "110AC315DC04B5DD1DA181F6CA52E18DB5EEBB2F9888766AE363D16A82B6E2E4"
+      },
+      {
+        "path": "assets/proxy-DaegZ5gm.js",
+        "bytes": 122123,
+        "sha256": "E53C988609B26DE7B1CE2C04F9DBD55286E53F90CB587BEC361532B51FA26372"
+      },
+      {
+        "path": "assets/ScrollReveal-D3g8lsKx.js",
+        "bytes": 720,
+        "sha256": "CF2AD7F928BED3AF65848CE3AF1E561445E8F94977742240E0C4F102821FC3B9"
+      },
+      {
+        "path": "assets/ScrollToTopLink-DAMDqzof.js",
+        "bytes": 436,
+        "sha256": "ED1966FAEEF3C66B9C3D9A374B5593FFE59340AFA97BE1BB96A05AB3FB715097"
+      },
+      {
+        "path": "assets/ServiceDetail-CCmxkq-g.js",
+        "bytes": 33644,
+        "sha256": "F7B1C28C6E792BB941043E1B2E4FD627869F110E8BC7092C29ED47E8BA49E315"
+      },
+      {
+        "path": "assets/services-BTODDQsT.js",
+        "bytes": 42020,
+        "sha256": "F2619CDB149A51966B1248F7E84D5B56DA75B8CC29DC0E13ADF02A8D6D07A9E5"
+      },
+      {
+        "path": "assets/Services-DpZXQSHI.js",
+        "bytes": 3446,
+        "sha256": "A1ABEC21BE54A5BE04FF8EFF35B4E309DFCF7CDD04FBF8D1F85FC17BEA1C3158"
+      },
+      {
+        "path": "insights/saas-or-custom-system-checklist/index.html",
+        "bytes": 11884,
+        "sha256": "2C452473DDEC812213BF1B7D41EDBB9760260970D45965CD4D0C35726F05C56F"
+      },
+      {
+        "path": "404/index.html",
+        "bytes": 2420,
+        "sha256": "E59F5C84BB1A677C4EC56B2D45DC0DB2C86428596C3821FB1006CC78E4CCA7CC"
+      },
+      {
+        "path": "about/index.html",
+        "bytes": 7010,
+        "sha256": "B36FAD1C642457B616869E232B5D28EB2482577170D6FFA34699FCD5D8FD8A28"
+      },
+      {
+        "path": "concept/index.html",
+        "bytes": 6721,
+        "sha256": "FB7CC864796A6336195E0C877A3542040405E9FEF5CC73F153FDF2FA981F4236"
+      },
+      {
+        "path": "contact/index.html",
+        "bytes": 4592,
+        "sha256": "AB328058710A3FD6F6840A222862E09FC2C4C08C87B7686ADB77D0D3A7805940"
+      },
+      {
+        "path": "contact/thanks/index.html",
+        "bytes": 5354,
+        "sha256": "B227D6D027249498DF3E7768B9CA28F201F4E68DCD6FE339509043070BA9406D"
+      },
+      {
+        "path": "insights/ai-article-fact-check-template/index.html",
+        "bytes": 11485,
+        "sha256": "50EDB9E212CCBCB5E04E04A4CE20587192B9C9A548D9A7E90853C7E4F507E236"
+      },
+      {
+        "path": "insights/ai-customer-reply-template/index.html",
+        "bytes": 12375,
+        "sha256": "9427751A44E897A4C4BBE1EDBA5629E8C5702997B3B1FDF08C401D8FAC778EFA"
+      },
+      {
+        "path": "insights/ai-introduction-support-pricing/index.html",
+        "bytes": 13501,
+        "sha256": "66B8A716FA8689432CC7069C1C45EBD5D059FE1FDD789F8BCF378F089BB3A7B1"
+      },
+      {
+        "path": "insights/ai-introduction-support/index.html",
+        "bytes": 12246,
+        "sha256": "CE727060914196DBE81F2B68A80DA934625CB646953AB96AE4C096048BB3D9A4"
+      },
+      {
+        "path": "insights/ai-meeting-action-items-template/index.html",
+        "bytes": 11949,
+        "sha256": "4E86BD04C2EEAB0DE0B60877C0490AD36202D26AE0E5F25EB2FCF19630C42D17"
+      },
+      {
+        "path": "insights/ai-website-brief-template/index.html",
+        "bytes": 12112,
+        "sha256": "24BA58EDE0039AC28F9437D3BE6F1BC740DBA1A1DF34C60F86CB2622079FAB87"
+      },
+      {
+        "path": "insights/ai-website-launch-checklist/index.html",
+        "bytes": 13028,
+        "sha256": "04DD775D1F24545B0F5860C01C1C4CACB265A30D5C1BB52AFD243D6866F8AACF"
+      },
+      {
+        "path": "insights/chatgpt-workplace-adoption-checklist/index.html",
+        "bytes": 12858,
+        "sha256": "DD771F5F47429585DFF7A16ACFD472DCB6B5F3B36C8FC8AFF3FA7B6F8776566C"
+      },
+      {
+        "path": "insights/rag-answer-review-sheet/index.html",
+        "bytes": 11137,
+        "sha256": "C36D92449008B4C54DD57EAB92D2578DD0DB8EC574E1B205333C2D7479F09864"
+      },
+      {
+        "path": "insights/rag-document-inventory-checklist/index.html",
+        "bytes": 12858,
+        "sha256": "B122F3002C1BF8D6B6E4A3D4E7EF798A40999D86BE1929F835338F4641FEA707"
+      },
+      {
+        "path": "insights/sodatsu-mitsumori-case-study/index.html",
+        "bytes": 12093,
+        "sha256": "952C7267FB713648910625ED38FC4D388C2FEFAE2AC8C48DB59231B82049DDBE"
+      },
+      {
+        "path": "news/index.html",
+        "bytes": 6194,
+        "sha256": "E21B36723587E4EFE265A2252432839A39CC45336C0B54E66092A5CAF288A61C"
+      },
+      {
+        "path": "price/index.html",
+        "bytes": 15141,
+        "sha256": "7D80A17AEBEB00BD3F87C2BD2EAAEB67DF765490A38B2880B86B7493FEF1E8F6"
+      },
+      {
+        "path": "services/ai-marketing/index.html",
+        "bytes": 8943,
+        "sha256": "4C422793A9091C4648703C61F9707C6974FA8CEB6915B16E67467A079989109F"
+      },
+      {
+        "path": "services/ai-saas/index.html",
+        "bytes": 8789,
+        "sha256": "271E9AD31AFAA590578B3359394B64F892F66AD9ED8D54DFA2B83057FD0787B8"
+      },
+      {
+        "path": "services/ai-web/index.html",
+        "bytes": 8631,
+        "sha256": "762903F0D52E0813CB3F3243A52D8073EAEDEE04BA178A3D7DF373913F90C73B"
+      },
+      {
+        "path": "services/index.html",
+        "bytes": 9022,
+        "sha256": "E2E80CEAEDD3D02E8B78B7E551A0CD14D3FDAC21913564ADFF6F4D9DB6D2E3FF"
+      },
+      {
+        "path": "insights/index.html",
+        "bytes": 16101,
+        "sha256": "3FCC890B92CC729FE84BD10E82F068FA53845E7A9FFC43FDC460A5354DEACCB5"
+      },
+      {
+        "path": "index.html",
+        "bytes": 6416,
+        "sha256": "65AD2BA88DDCCAAF7C12CBD40F157639B405E71921CF5142A42A21554907FB3A"
+      },
+      {
+        "path": "sitemap.xml",
+        "bytes": 4173,
+        "sha256": "28199F3384CFA6E35CA8520EBD2186B1A7CBF99148B145AA6590A302C85A2A82"
+      }
+    ],
+    "unchangedServerFilesPreserved": true,
+    "remoteFilesDeleted": 0
+  },
+  "browser": {
+    "beforeAfterMainTextHeadingsLinksSchemaUnchanged": true,
+    "desktop": {
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1425,
+      "h1": 1,
+      "schemaTypes": [
+        "Organization",
+        "CollectionPage",
+        "ItemList",
+        "BreadcrumbList"
+      ]
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 375,
+      "h1": 1,
+      "sameMainText": true
+    },
+    "navigation": [
+      {
+        "path": "/services/ai-saas/",
+        "actual": "https://ai.gami.jp/services/ai-saas/",
+        "h1": 1,
+        "heading": "AI × SaaS\nAI × DX",
+        "scrollY": 0,
+        "width": 390,
+        "overflow": false
+      },
+      {
+        "path": "/services/ai-marketing/",
+        "actual": "https://ai.gami.jp/services/ai-marketing/",
+        "h1": 1,
+        "heading": "AI × Growth\nAI × Support",
+        "scrollY": 0,
+        "width": 390,
+        "overflow": false
+      },
+      {
+        "path": "/services/ai-web/",
+        "actual": "https://ai.gami.jp/services/ai-web/",
+        "h1": 1,
+        "heading": "AI × Brand\nAI × Site",
+        "scrollY": 0,
+        "width": 390,
+        "overflow": false
+      }
+    ],
+    "consoleErrors": 0,
+    "consoleWarnings": 0,
+    "visualReview": "Desktop and mobile viewport screenshots inspected. Existing design preserved; category text wraps without horizontal overflow.",
+    "screenshots": [
+      "output/playwright/2026-09-25-services/desktop.png",
+      "output/playwright/2026-09-25-services/desktop-category.png",
+      "output/playwright/2026-09-25-services/mobile-category.png"
+    ],
+    "ownSessionClosed": true,
+    "logsMovedToIgnoredEvidence": true
+  },
+  "review": {
+    "singleWriter": "root",
+    "independentCodeReviewer": "sep25_scope",
+    "findings": [],
+    "uiScope": "Existing data extraction only. No UI, CSS, component or public-copy edits; Lazyweb not required."
+  },
+  "technicalResult": "confirmed",
+  "acquisitionResult": "not-yet-measurable"
+}
