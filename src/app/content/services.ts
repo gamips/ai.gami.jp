@@ -1,3 +1,5 @@
+import { serviceSummaries } from "./serviceSummaries.js";
+
 export type ServiceSlug =
   | "ai-implementation"
   | "ai-agent"
@@ -207,19 +209,11 @@ export const services: ServiceContent[] = [
   },
   {
     slug: "ai-saas",
-    path: "/services/ai-saas/",
+    ...serviceSummaries["ai-saas"],
     number: "SERVICE 01",
-    titleLines: ["AI × SaaS", "AI × DX"],
-    overviewDescription:
-      "AIシステム開発の力で、自社専用の業務システム開発や基幹システム開発を従来より速く低コストで立ち上げます。必要に応じてAI機能まで組み込み、独自の業務基盤として育てていけます。",
     homeDescriptionLines: [
       "自社専用の管理システムをAIで高速開発。",
       "必要に応じてAI機能まで組み込んだ独自基盤へ育てます。",
-    ],
-    homeBullets: [
-      "自社要件に合わせた業務システム開発",
-      "基幹システム開発と既存SaaS活用の見極めを支援",
-      "OEM・外部パッケージ化も視野に設計",
     ],
     approaches: [
       {
@@ -627,19 +621,11 @@ export const services: ServiceContent[] = [
   },
   {
     slug: "ai-marketing",
-    path: "/services/ai-marketing/",
+    ...serviceSummaries["ai-marketing"],
     number: "SERVICE 02",
-    titleLines: ["AI × Growth", "AI × Support"],
-    overviewDescription:
-      "AIマーケティング、AIライティング、AIサポートを軸に、発信・分析・問い合わせ対応の下書きを整えます。ブログ、プレスリリース、SNS運用、SEO記事作成、顧客対応の一次整理までを、月2万円〜のAI導入支援として無理なく始めます。",
     homeDescriptionLines: [
       "AIマーケティングとAIサポートで発信と対応を軽くする。",
       "SEO記事作成、SNS、問い合わせ対応の下書きと改善を支援します。",
-    ],
-    homeBullets: [
-      "SEO記事作成やプレスリリースのドラフト生成",
-      "SNS運用と分析の改善提案を継続学習",
-      "問い合わせ対応や社内サポートの一次整理",
     ],
     approaches: [
       {
@@ -784,19 +770,11 @@ export const services: ServiceContent[] = [
   },
   {
     slug: "ai-web",
-    path: "/services/ai-web/",
+    ...serviceSummaries["ai-web"],
     number: "SERVICE 03",
-    titleLines: ["AI × Brand", "AI × Site"],
-    overviewDescription:
-      "AI Web制作の導入で、LP制作やコーポレートサイト制作は企画設計から実装へ直行できるようになりました。時間もコストも大きかった従来の工程を見直し、公開速度と改善速度を引き上げます。",
     homeDescriptionLines: [
       "AI Web制作で企画設計から実装へ直行し、土台を高速構築。",
       "LP制作やコーポレートサイト制作を、人間の品質で段階的に育てます。",
-    ],
-    homeBullets: [
-      "AI Web制作で企画設計→実装→公開へ再設計",
-      "LP制作とコーポレートサイト制作をAIで高速化",
-      "予算に応じて段階的にスケールアップ",
     ],
     approaches: [
       {

@@ -3,6 +3,7 @@ import { featuredNews } from "../content/news.js";
 import { pricePlans, monthlyModelPoints, projectNotes } from "../content/pricing.js";
 import { companyInfo } from "../content/company.js";
 import { conceptIdeas } from "../content/concept.js";
+import { serviceSummaries } from "../content/serviceSummaries.js";
 
 export const SITE_NAME = "GAMI";
 export const SITE_LEGAL_NAME = "株式会社Gami";
@@ -416,7 +417,14 @@ export const pageSeoByPath = {
   },
   "/services": {
     path: "/services",
+    lastModified: "2026-09-25",
     fallbackHeading: "生成AI導入支援・AI開発サービス",
+    fallbackSections: Object.values(serviceSummaries).map((service) => ({
+      title: service.titleLines.join(" / "),
+      body: service.overviewDescription,
+      items: service.homeBullets,
+      link: { label: "More", href: service.path },
+    })),
     title: "Services | 生成AI導入支援・AI開発サービス一覧 | GAMI",
     description:
       "GAMIが提供する生成AI導入支援・AI開発サービス一覧。AI × SaaS / DX、AI × Growth / Support、AI × Brand / Site の3カテゴリごとに、AI導入支援、RAG構築、AIエージェント、AIライティング、AI Web制作の進め方を整理しています。",
