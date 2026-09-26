@@ -1,0 +1,449 @@
+{
+  "publishedAt": "2026-09-27T08:04:45.6861843+09:00",
+  "verifiedAt": "2026-09-26T23:11:19Z",
+  "commit": "bece067489fe00075ece1da729b821e4a9f0cb84",
+  "url": "https://ai.gami.jp/insights/ai-website-change-request-template/",
+  "method": "FTPS using existing project connection",
+  "workflowRun": null,
+  "actionsStatus": "Publication commit uses [skip ci] under prompt1.0.8 release recovery (unchanged in1.0.9); no active/queued deployment before or after push. Workflow/server/auth settings unchanged.",
+  "priorFailedActionsRun": "https://github.com/gamips/ai.gami.jp/actions/runs/35475256560",
+  "normalPathRecheckOnOrAfter": "2026-09-28",
+  "baseline": {
+    "observedAt": "2026-09-26T23:02:36.382Z",
+    "url": "https://ai.gami.jp/insights/ai-website-change-request-template/",
+    "httpStatus": 404,
+    "sitemapUrls": 23,
+    "inSitemap": false
+  },
+  "build": {
+    "passed": true,
+    "diffCheckPassed": true,
+    "sharedUiUnchanged": true
+  },
+  "staticProof": {
+    "checkedAt": "2026-09-26T23:03:54.906Z",
+    "mode": "build",
+    "articles": 13,
+    "existingArticlesUnchanged": 12,
+    "sections": 4,
+    "worksheetFields": 5,
+    "exampleFields": 5,
+    "sitemapUrls": 24,
+    "articleSchema": true,
+    "breadcrumbSchema": true,
+    "selfCanonical": true,
+    "indexLink": true,
+    "serviceLink": true,
+    "ogImage": "/og/news.png",
+    "initialContentMatches": true,
+    "seoHeadMatchesBuild": false,
+    "publicReferenceHeadingAbsent": true,
+    "operationalMetadataAbsent": true,
+    "staticChecks": "passed"
+  },
+  "live": {
+    "checkedAt": "2026-09-26T23:05:29.365Z",
+    "mode": "live",
+    "articles": 13,
+    "existingArticlesUnchanged": 12,
+    "sections": 4,
+    "worksheetFields": 5,
+    "exampleFields": 5,
+    "sitemapUrls": 24,
+    "articleSchema": true,
+    "breadcrumbSchema": true,
+    "selfCanonical": true,
+    "indexLink": true,
+    "serviceLink": true,
+    "ogImage": "/og/news.png",
+    "initialContentMatches": true,
+    "seoHeadMatchesBuild": true,
+    "publicReferenceHeadingAbsent": true,
+    "operationalMetadataAbsent": true,
+    "staticChecks": "passed"
+  },
+  "assets": {
+    "checkedAt": "2026-09-26T23:05:29.468Z",
+    "assetsChecked": 24,
+    "assetHashesMatch": true,
+    "headsChecked": 26,
+    "allStaticSeoHeadsMatch": true,
+    "scope": "All generated SEO heads and built JavaScript hashes after fallback upload; not a full UI audit.",
+    "passed": true
+  },
+  "unchangedCss": {
+    "file": "index-BSUbwp1T.css",
+    "liveHashMatchedBeforeUpload": true
+  },
+  "upload": {
+    "startedAt": "2026-09-27T08:04:13.0698340+09:00",
+    "completedAt": "2026-09-27T08:04:45.6861843+09:00",
+    "method": "FTPS using existing project connection",
+    "target": "sv90.xserver.jp/gami.jp/public_html/ai.gami.jp/",
+    "count": 51,
+    "files": [
+      {
+        "path": "assets/About-BP4z9zlh.js",
+        "bytes": 9072,
+        "sha256": "68886054AB45F2E689CB162B6517DD5FE213E1D9AA73CB937DE323D86376DCE1"
+      },
+      {
+        "path": "assets/arrow-right-BMfH4Y5V.js",
+        "bytes": 349,
+        "sha256": "421211F173793D8D272A962F182966A16BEB67D7DCC401692ED6F07754778B36"
+      },
+      {
+        "path": "assets/Concept-7J_UpRVM.js",
+        "bytes": 29902,
+        "sha256": "AE1A8421FA99C1C2FDF53FE21581067B42F37150CDDB55022496454054D38345"
+      },
+      {
+        "path": "assets/Contact-Dn9tlDPS.js",
+        "bytes": 8828,
+        "sha256": "32CCC5725EFD82F05485CF3DCA968FC9303860F2302BF2766D1D1C2A37D6A0EC"
+      },
+      {
+        "path": "assets/ContactThanks-CLnhuBfQ.js",
+        "bytes": 2051,
+        "sha256": "E0578486E5D52AE2AC3528E8462963261B3BB3CE75DE1A0D2C10F9D22F8A68B2"
+      },
+      {
+        "path": "assets/createLucideIcon-DhzyNjlD.js",
+        "bytes": 1737,
+        "sha256": "2BB4BE3E7C2D69E36DDDB5D250FC944B14CB1F57B13529C87D240462C1C29066"
+      },
+      {
+        "path": "assets/Footer-CN2OmD4B.js",
+        "bytes": 4883,
+        "sha256": "B9D5A7F34A9C506B88C375101B19669D9C4076C95E7B3E2A3B51F4AA42E08CEF"
+      },
+      {
+        "path": "assets/GeometricParticles-CRf7s3IW.js",
+        "bytes": 496731,
+        "sha256": "2C9AC96009ECF383219A2177A9293736FAFD839BFB2711A33B536E09517D59F8"
+      },
+      {
+        "path": "assets/Header-VYNY0PZ7.js",
+        "bytes": 7033,
+        "sha256": "8DCB6029601478C161D7CD12B0F7D0C6B42E2CC528C71AB6695ECE584C1BBEE0"
+      },
+      {
+        "path": "assets/Home-BjngU24r.js",
+        "bytes": 26226,
+        "sha256": "1D869E578203EDC97A7E203368DD3061DAF889932E8D245A893634048C4B80C1"
+      },
+      {
+        "path": "assets/index-D7QK-oq_.js",
+        "bytes": 238401,
+        "sha256": "F082CA72D75DDB125EE7B9B337F47BC026CA144C6BA043FE9CFD1F7A7310CA38"
+      },
+      {
+        "path": "assets/InquiryCta-tmu6BAek.js",
+        "bytes": 1473,
+        "sha256": "331D647D9715737147ED85929E893EA323BB787EBBA83FFA350BA680DFFFCB0F"
+      },
+      {
+        "path": "assets/InsightDetail-C08FAUb9.js",
+        "bytes": 3836,
+        "sha256": "66FF0A1F190C0BCC7D271793667530464B842E9D902D717D62798BB5968D9BE3"
+      },
+      {
+        "path": "assets/Insights-eKM-p3HT.js",
+        "bytes": 2337,
+        "sha256": "EDAAC206EEF385C42A59769A3657E6BFC7907BED9E337D2EDB9B81F469FF1161"
+      },
+      {
+        "path": "assets/News-BkALyOO5.js",
+        "bytes": 3915,
+        "sha256": "6B645A5E4F9F44692644237DC95C5E0161CD9DC223F9208CC01A95528E1C1128"
+      },
+      {
+        "path": "assets/NotFound-Qvw4VEbw.js",
+        "bytes": 2602,
+        "sha256": "E49455815138E0FEBC573F6F2F344B55B9ECE3A4F4D8B1C1CBAB44C6456386B8"
+      },
+      {
+        "path": "assets/PageSeo-1TAh0jMv.js",
+        "bytes": 100317,
+        "sha256": "3A89EE6A44C64F0CD94FAAC8FC5F6F6E8166005BA83686F20B65B722656E78F0"
+      },
+      {
+        "path": "assets/Price-hxGRM3ve.js",
+        "bytes": 5691,
+        "sha256": "DC5EFD440DB8ACCCF71EF67DC33DC86F0D7F2658B60C3A1537A7E813FBCFEF5A"
+      },
+      {
+        "path": "assets/proxy-DtKHdvOI.js",
+        "bytes": 122123,
+        "sha256": "B120E3BF6760607091541B8D6E391853DD5A5FB3548E344AAFDBDCC9BFCCB05A"
+      },
+      {
+        "path": "assets/ScrollReveal-CNTB6P2X.js",
+        "bytes": 720,
+        "sha256": "3C3C4768AEDFB9C9808486ED4AC11244A8A47AB1D7A8A4B5B8DC288D5229E0A2"
+      },
+      {
+        "path": "assets/ScrollToTopLink-BAlcBere.js",
+        "bytes": 436,
+        "sha256": "83F3088684D3BDA407BB1B57BA8283777E7479EB1195851CF9BF958A479F2DF4"
+      },
+      {
+        "path": "assets/ServiceDetail-D2dVd_D9.js",
+        "bytes": 33644,
+        "sha256": "480E0C1B58F04C3330AA3E02C12AE1E1555AA53DBDBB43B400C7A66F692D7280"
+      },
+      {
+        "path": "assets/services-C0QEKCdS.js",
+        "bytes": 42020,
+        "sha256": "B664C13D0111571FC11C490DA64A987F4370D3CC73065230FA39178D7E19EBD0"
+      },
+      {
+        "path": "assets/Services-hK8njqwC.js",
+        "bytes": 3446,
+        "sha256": "F72ED876CBA5B297BB0539DF2D55DF08EDB426176390271B3ABCD5E4CB021CAE"
+      },
+      {
+        "path": "insights/saas-or-custom-system-checklist/index.html",
+        "bytes": 11884,
+        "sha256": "9EB81E033244968E3865F97B8A4ECC9E89DA8A8D136399E308B92DAFBCF157F1"
+      },
+      {
+        "path": "404/index.html",
+        "bytes": 2420,
+        "sha256": "DE9096F2F775807A2A931977EBC762AAC0DB9A7E3061B1D0D462E9BC69BF1C78"
+      },
+      {
+        "path": "about/index.html",
+        "bytes": 7010,
+        "sha256": "ACA06E8C8A3A17CE978BAC0D6B101BC24F4D29973244A38E5448F47BA96EB0C3"
+      },
+      {
+        "path": "concept/index.html",
+        "bytes": 6721,
+        "sha256": "3C24D5DFD79AEBEA15A12D5C21388CC9EE5CA107B36558708CC4B3B3ADE7C68E"
+      },
+      {
+        "path": "contact/index.html",
+        "bytes": 4592,
+        "sha256": "FA960015A2BD6A2B335D283765A80AC7162E8DDB6BE42AF6611BA7380264E6CA"
+      },
+      {
+        "path": "contact/thanks/index.html",
+        "bytes": 5354,
+        "sha256": "8B76AE984B7FAF4E9073307ADF6BAC3592E9484F3E1E3C1F26980EA7F59D8955"
+      },
+      {
+        "path": "insights/ai-article-fact-check-template/index.html",
+        "bytes": 11485,
+        "sha256": "0844E375768939DF1C0FFA11F809BC1BF45550DB9F16D978697B5F948196C3BF"
+      },
+      {
+        "path": "insights/ai-customer-reply-template/index.html",
+        "bytes": 12375,
+        "sha256": "4B04EA423CF64D978EFCAC866D9CBC072259CAFFB2777B355DC070D32F66B433"
+      },
+      {
+        "path": "insights/ai-introduction-support-pricing/index.html",
+        "bytes": 13501,
+        "sha256": "CFF112D7D7A948AF221819B5732332BA7515C399E29F8B10CD1164708B8AB64E"
+      },
+      {
+        "path": "insights/ai-introduction-support/index.html",
+        "bytes": 12246,
+        "sha256": "8B2E728476824EA83CA1E98CCC2E3B6192B15201E30C464FACD7A0C6E14A8550"
+      },
+      {
+        "path": "insights/ai-meeting-action-items-template/index.html",
+        "bytes": 11949,
+        "sha256": "C731CB7A583C0159110A2CBF43317E9C29648911A2FB4718C96339051E727341"
+      },
+      {
+        "path": "insights/ai-website-brief-template/index.html",
+        "bytes": 12112,
+        "sha256": "C80BB81FC76C2E33B607B6E36B28BC26A33CB7D74EA8544B00F736B3976300FB"
+      },
+      {
+        "path": "insights/ai-website-change-request-template/index.html",
+        "bytes": 10704,
+        "sha256": "C2393CABDB6B232C393850E7CC37BD5BCEAC5962E8C3A463C1E510F401DA1A93"
+      },
+      {
+        "path": "insights/ai-website-launch-checklist/index.html",
+        "bytes": 13028,
+        "sha256": "321164BC6057FA534EE3B984AF8538477FC09D1DE4F8B571211E59912937E794"
+      },
+      {
+        "path": "insights/chatgpt-workplace-adoption-checklist/index.html",
+        "bytes": 12858,
+        "sha256": "47642F4C8E0BAD3481A0E8ADA680FEE40635A2D7ED61AC53DBE1BEA5898D3687"
+      },
+      {
+        "path": "insights/rag-answer-review-sheet/index.html",
+        "bytes": 11137,
+        "sha256": "F78D93CCC858181003A87E1E25DE649E5C5872E891D2049DEACFEF96462BC021"
+      },
+      {
+        "path": "insights/rag-document-inventory-checklist/index.html",
+        "bytes": 12858,
+        "sha256": "867BD34A7B0546E4B4A30A1AAA4C1E5553D232A074041BE360A9A439202FE6C8"
+      },
+      {
+        "path": "insights/sodatsu-mitsumori-case-study/index.html",
+        "bytes": 12093,
+        "sha256": "6F09FC4A5FAF934B078F0731C56BFE5F9FB33EDDD7A90A933EAFECD6897C0D32"
+      },
+      {
+        "path": "news/index.html",
+        "bytes": 6194,
+        "sha256": "08D2617D93E82B439C85073D5D78F79A8155278FF01356B3A2F75401B6E68A45"
+      },
+      {
+        "path": "price/index.html",
+        "bytes": 15141,
+        "sha256": "24ACF5D880003B989EC22282C2F7E9D5E8CAC6DE4168CF068DBF49665B4D4B52"
+      },
+      {
+        "path": "services/ai-marketing/index.html",
+        "bytes": 8943,
+        "sha256": "E600AAA07DB1FA41F3158F698BAB1CF2EFF8D7357B81441283329ECC08219D73"
+      },
+      {
+        "path": "services/ai-saas/index.html",
+        "bytes": 8789,
+        "sha256": "A958E6EE3241C30361596C077AE40CCCE0EACB7F47648FB0E85ADE4EC75165CC"
+      },
+      {
+        "path": "services/ai-web/index.html",
+        "bytes": 8631,
+        "sha256": "856A43A34B79E5A5E6B19D787D3900721BAF66F9539B6D6F91FFDCBF4BC6E193"
+      },
+      {
+        "path": "services/index.html",
+        "bytes": 9022,
+        "sha256": "8640B2730A69D459CC2B01D861FBC3A1F95CD46F8B5DB8BC22182B9B1E8963E6"
+      },
+      {
+        "path": "insights/index.html",
+        "bytes": 17023,
+        "sha256": "20293DA7B4B17F179933E1467E916AD196932E139A99AF6780BD923E45BC5742"
+      },
+      {
+        "path": "index.html",
+        "bytes": 6416,
+        "sha256": "3F61CE19BEDFA3AB5CC118E15DB9089A51276AA0142434BD9FB7074B25601F9C"
+      },
+      {
+        "path": "sitemap.xml",
+        "bytes": 4369,
+        "sha256": "997889AC79BBF32E9D492F3BE21C7C2ED52C1C794438B627DF2B90B0D907749D"
+      }
+    ],
+    "unchangedServerFilesPreserved": true,
+    "remoteFilesDeleted": 0
+  },
+  "browser": {
+    "desktop": {
+      "url": "https://ai.gami.jp/insights/ai-website-change-request-template/",
+      "title": "AIで作ったサイトの修正を頼む｜変更内容をまとめるメモ | GAMI",
+      "canonical": "https://ai.gami.jp/insights/ai-website-change-request-template/",
+      "h1": 1,
+      "sections": 4,
+      "date": "2026-09-27",
+      "width": 1440,
+      "scrollWidth": 1425,
+      "missing": [],
+      "schemaTypes": [
+        "Organization",
+        "WebPage",
+        "Article",
+        "BreadcrumbList"
+      ],
+      "articleLinks": [
+        {
+          "text": "Insights",
+          "href": "/insights/"
+        },
+        {
+          "text": "AI Web制作の支援内容を見る",
+          "href": "/services/ai-web/"
+        }
+      ],
+      "commaBr": false
+    },
+    "mobile": {
+      "url": "https://ai.gami.jp/insights/ai-website-change-request-template/",
+      "title": "AIで作ったサイトの修正を頼む｜変更内容をまとめるメモ | GAMI",
+      "canonical": "https://ai.gami.jp/insights/ai-website-change-request-template/",
+      "h1": 1,
+      "sections": 4,
+      "date": "2026-09-27",
+      "width": 390,
+      "scrollWidth": 375,
+      "missing": [],
+      "schemaTypes": [
+        "Organization",
+        "WebPage",
+        "Article",
+        "BreadcrumbList"
+      ],
+      "articleLinks": [
+        {
+          "text": "Insights",
+          "href": "/insights/"
+        },
+        {
+          "text": "AI Web制作の支援内容を見る",
+          "href": "/services/ai-web/"
+        }
+      ],
+      "commaBr": false
+    },
+    "navigation": {
+      "indexToArticle": {
+        "url": "https://ai.gami.jp/insights/ai-website-change-request-template/",
+        "h1": "AIで作ったサイトの修正を頼む｜変更内容をまとめるメモ",
+        "scrollY": 0
+      },
+      "articleToService": {
+        "url": "https://ai.gami.jp/services/ai-web/",
+        "h1": "AI × Brand\nAI × Site",
+        "scrollY": 0
+      }
+    },
+    "index": {
+      "url": "https://ai.gami.jp/insights/",
+      "h1": "AI導入を、わかりやすく。",
+      "scrollY": 0,
+      "schemaItemCount": 13,
+      "newArticleLink": "/insights/ai-website-change-request-template/"
+    },
+    "consoleErrors": 0,
+    "consoleWarnings": 0,
+    "visualReview": "Desktop1440x1000/mobile390x844 article header and mobile worksheet inspected. Existing typography/layout preserved; all body text rendered with no horizontal overflow.",
+    "screenshots": [
+      "output/playwright/2026-09-27-change-request/desktop.png",
+      "output/playwright/2026-09-27-change-request/mobile.png",
+      "output/playwright/2026-09-27-change-request/mobile-fields.png"
+    ],
+    "ownSessionClosed": true,
+    "logsMovedToIgnoredEvidence": true
+  },
+  "copyReview": {
+    "draftModelConfigured": "gpt-6-astra",
+    "reviewModelConfigured": "gpt-6-astra",
+    "reviewers": [
+      "root",
+      "sep27_review"
+    ],
+    "verdict": "ready",
+    "requiredCopyChanges": [],
+    "fictionalExampleExplicit": true,
+    "distinctFrom": [
+      "ai-website-brief-template",
+      "ai-website-launch-checklist"
+    ],
+    "publicReferencesOrOperationalMetadata": false
+  },
+  "technicalResult": "confirmed",
+  "acquisitionResult": "not-yet-measurable"
+}

@@ -1,0 +1,154 @@
+{
+  "source": "Unauthenticated HTTP GET; initial server HTML, not Google index or hydrated browser",
+  "normalizedSelectedFields": true,
+  "sourceCommit": "343f551",
+  "sitemap": {
+    "requestedAt": "2026-09-26T23:03:06.692Z",
+    "fetchedAt": "2026-09-26T23:03:06.804Z",
+    "url": "https://ai.gami.jp/sitemap.xml",
+    "status": 200,
+    "urlCount": 23,
+    "sha256": "28199f3384cfa6e35ca8520ebd2186b1a7cbf99148b145aa6590a302c85a2a82",
+    "phase": "before September27 publication"
+  },
+  "robots": {
+    "requestedAt": "2026-09-26T23:03:06.731Z",
+    "fetchedAt": "2026-09-26T23:03:06.806Z",
+    "url": "https://ai.gami.jp/robots.txt",
+    "status": 200,
+    "body": "User-agent: *\nAllow: /\nDisallow: /api/\n\nSitemap: https://ai.gami.jp/sitemap.xml\n"
+  },
+  "list": {
+    "requestedAt": "2026-09-26T23:03:06.732Z",
+    "fetchedAt": "2026-09-26T23:03:06.809Z",
+    "url": "https://ai.gami.jp/insights/",
+    "status": 200
+  },
+  "pages": [
+    {
+      "requestedAt": "2026-09-26T23:03:06.732Z",
+      "fetchedAt": "2026-09-26T23:03:06.806Z",
+      "url": "https://ai.gami.jp/insights/saas-or-custom-system-checklist/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "titleMatchesSource": true,
+      "canonical": "https://ai.gami.jp/insights/saas-or-custom-system-checklist/",
+      "canonicalSelf": true,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "xRobotsTag": null,
+      "h1Count": 1,
+      "mainLength": 3742,
+      "mainSha256": "0e4c00e61701aa55291c2399d1580dfe89f14171caee5fcc86fc665bec4a441e",
+      "expectedBodyStringCount": 24,
+      "missingExpectedBodyStrings": [],
+      "outboundMainLinks": [
+        "/services/ai-saas/"
+      ],
+      "inSitemap": true,
+      "linkedFromInsights": true,
+      "linkedFromInsightsScope": "Article link in list",
+      "schemaCheckedAt": "2026-09-26T23:03:35.654Z",
+      "schemaTypes": [
+        "Organization",
+        "WebPage",
+        "Article",
+        "BreadcrumbList"
+      ],
+      "articleCount": 1,
+      "webPageCount": 1
+    },
+    {
+      "requestedAt": "2026-09-26T23:03:06.733Z",
+      "fetchedAt": "2026-09-26T23:03:06.805Z",
+      "url": "https://ai.gami.jp/insights/ai-article-fact-check-template/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "titleMatchesSource": true,
+      "canonical": "https://ai.gami.jp/insights/ai-article-fact-check-template/",
+      "canonicalSelf": true,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "xRobotsTag": null,
+      "h1Count": 1,
+      "mainLength": 3702,
+      "mainSha256": "9671f42f4c77a80aac9445d1aeb10de52dc2d7596b2342b03a2de9266f150c64",
+      "expectedBodyStringCount": 22,
+      "missingExpectedBodyStrings": [],
+      "outboundMainLinks": [
+        "/services/ai-marketing/"
+      ],
+      "inSitemap": true,
+      "linkedFromInsights": true,
+      "linkedFromInsightsScope": "Article link in list",
+      "schemaCheckedAt": "2026-09-26T23:03:35.654Z",
+      "schemaTypes": [
+        "Organization",
+        "WebPage",
+        "Article",
+        "BreadcrumbList"
+      ],
+      "articleCount": 1,
+      "webPageCount": 1
+    },
+    {
+      "requestedAt": "2026-09-26T23:03:06.734Z",
+      "fetchedAt": "2026-09-26T23:03:06.803Z",
+      "url": "https://ai.gami.jp/insights/ai-website-brief-template/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "titleMatchesSource": true,
+      "canonical": "https://ai.gami.jp/insights/ai-website-brief-template/",
+      "canonicalSelf": true,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "xRobotsTag": null,
+      "h1Count": 1,
+      "mainLength": 3832,
+      "mainSha256": "ed457f30aa110e9e0b71001eb08fe96265c7b46388b29178eee517f9bf427f1e",
+      "expectedBodyStringCount": 23,
+      "missingExpectedBodyStrings": [],
+      "outboundMainLinks": [
+        "/services/ai-web/"
+      ],
+      "inSitemap": true,
+      "linkedFromInsights": true,
+      "linkedFromInsightsScope": "Article link in list",
+      "schemaCheckedAt": "2026-09-26T23:03:35.654Z",
+      "schemaTypes": [
+        "Organization",
+        "WebPage",
+        "Article",
+        "BreadcrumbList"
+      ],
+      "articleCount": 1,
+      "webPageCount": 1
+    },
+    {
+      "requestedAt": "2026-09-26T23:03:06.734Z",
+      "fetchedAt": "2026-09-26T23:03:06.805Z",
+      "url": "https://ai.gami.jp/about/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "titleMatchesSource": true,
+      "canonical": "https://ai.gami.jp/about/",
+      "canonicalSelf": true,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "xRobotsTag": null,
+      "h1Count": 1,
+      "mainLength": 2757,
+      "mainSha256": "d56f7e01598bda2a9a8d56813bda6e42d3585807c9c1840490a8d0f114b3d446",
+      "expectedBodyStringCount": 16,
+      "missingExpectedBodyStrings": [],
+      "outboundMainLinks": [],
+      "inSitemap": true,
+      "linkedFromInsights": true,
+      "linkedFromInsightsScope": "Navigation/footer link; not an article card",
+      "schemaCheckedAt": "2026-09-26T23:03:35.652Z",
+      "schemaTypes": [
+        "Organization",
+        "AboutPage",
+        "BreadcrumbList"
+      ],
+      "aboutPageCount": 1
+    }
+  ],
+  "interpretation": "All85 selected heading/section strings from current page SEO source are in initialHTML. An overly narrow temporary script-tag parser was corrected before recording these schema counts; this was not a product defect."
+}
