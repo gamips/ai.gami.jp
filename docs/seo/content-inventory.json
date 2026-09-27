@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-27",
+  "updatedAt": "2026-09-28",
   "rules": {
     "oneOwnerUrlPerIntent": true,
     "publicCopyExcludesOperationalMetadata": true
@@ -65,8 +65,10 @@
       "type": "service",
       "intent": "AI Web制作とブランド品質",
       "status": "published",
-      "lastModified": "2026-09-06",
-      "relatedGuide": "https://ai.gami.jp/insights/ai-website-launch-checklist/"
+      "lastModified": "2026-09-28",
+      "relatedGuide": "https://ai.gami.jp/insights/ai-website-launch-checklist/",
+      "relatedBriefGuide": "https://ai.gami.jp/insights/ai-website-brief-template/",
+      "experimentId": "service-ai-web-brief-link-v1"
     },
     {
       "url": "https://ai.gami.jp/price/",

@@ -1,0 +1,66 @@
+{
+  "inspection": {
+    "siteUrl": "sc-domain:ai.gami.jp",
+    "inspectionUrl": "https://ai.gami.jp/insights/ai-meeting-action-items-template/",
+    "fetchedAt": "2026-09-27T23:05:59.4781743+00:00",
+    "source": "google-index",
+    "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:ai.gami.jp&id=7T9nZjOONRS-7vQ-gPqFyg&utm_medium=link&utm_source=api",
+    "verdict": "NEUTRAL",
+    "coverageState": "URL が Google に認識されていません",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "lastCrawlTime": null,
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "googleCanonical": null,
+    "userCanonical": null
+  },
+  "live": {
+    "observedAt": "2026-09-27T23:06:29.286Z",
+    "bodyVerificationAt": "2026-09-27T23:06:57.584Z",
+    "url": "https://ai.gami.jp/insights/ai-meeting-action-items-template/",
+    "httpStatus": 200,
+    "finalUrl": "https://ai.gami.jp/insights/ai-meeting-action-items-template/",
+    "title": "AI議事録から次の作業を整理する｜担当・期限・未決事項の記入例 | GAMI",
+    "canonical": "https://ai.gami.jp/insights/ai-meeting-action-items-template/",
+    "description": "議事録や会議メモから、次に行う作業を整理する記入式テンプレートです。決定・提案・未決を分け、担当や期限を推測せずに記入する方法を、架空の勉強会の準備会議で紹介します。",
+    "robotsMeta": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+    "xRobotsTag": null,
+    "h1Count": 1,
+    "contentStringsChecked": 26,
+    "missingContentStrings": [],
+    "initialHtmlExpectedBodySource": "pageSeo uses article description as intro; section headings, paragraphs, items and link label come from insights",
+    "schemaTypeCounts": {
+      "Organization": 1,
+      "WebPage": 1,
+      "Article": 1,
+      "BreadcrumbList": 1
+    },
+    "article": {
+      "datePublished": "2026-09-21",
+      "dateModified": "2026-09-21"
+    },
+    "sitemap": {
+      "httpStatus": 200,
+      "presence": true,
+      "urlCount": 24
+    },
+    "robots": {
+      "httpStatus": 200,
+      "body": "User-agent: *\nAllow: /\nDisallow: /api/\n\nSitemap: https://ai.gami.jp/sitemap.xml\n"
+    },
+    "insightsIndex": {
+      "httpStatus": 200,
+      "hasArticleHref": true
+    },
+    "hasServiceLink": true,
+    "browserHydrationChecked": false
+  },
+  "assessment": {
+    "result": "not-yet-measurable",
+    "reason": "Google index inspection reports unknown URL; live HTTP, initial HTML, search permission, schema and discovery links pass. Null crawl and canonical fields are not evidence of a fetch failure.",
+    "nextIndexCheck": "2026-10-05",
+    "originalEffectReviewAt": "2026-10-22",
+    "preservePublishedAt": "2026-09-21",
+    "preserveArticleContent": true
+  }
+}
