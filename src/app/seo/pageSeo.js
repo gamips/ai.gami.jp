@@ -849,7 +849,7 @@ export const pageSeoByPath = {
   "/services/ai-web": {
     path: "/services/ai-web",
     fallbackHeading: "AI Web制作で速く、美しく",
-    lastModified: "2026-09-06",
+    lastModified: "2026-09-28",
     title: "AI × Brand / AI × Site | AI Web制作・LP制作・コーポレートサイト制作 | GAMI",
     description:
       "AI Web制作でLP制作やコーポレートサイト制作を高速立ち上げ。サービスカテゴリ設計、SEO導線、公開後改善まで、AI時代のWeb制作アプローチを整理します。",
@@ -882,6 +882,10 @@ export const pageSeoByPath = {
           "個別ページでは、そのページだけで分かる具体的な内容を用意",
           "ページ名、要約、内部リンク、構造化データを同時に調整",
         ],
+        link: {
+          label: "サイト制作の依頼をまとめる5つの欄を見る",
+          href: "/insights/ai-website-brief-template/",
+        },
       },
       {
         title: "公開後の反応と問い合わせ導線で改善する",

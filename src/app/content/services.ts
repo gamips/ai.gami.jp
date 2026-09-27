@@ -802,6 +802,10 @@ export const services: ServiceContent[] = [
           "個別ページでは、そのページだけで分かる具体的な内容を用意",
           "ページ名、要約、内部リンク、構造化データを同時に調整",
         ],
+        link: {
+          label: "サイト制作の依頼をまとめる5つの欄を見る",
+          href: "/insights/ai-website-brief-template/",
+        },
       },
       {
         label: "HUMAN CRAFT",
