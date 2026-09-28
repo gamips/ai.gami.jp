@@ -638,6 +638,10 @@ export const services: ServiceContent[] = [
           "AIで構成案と下書きを作り、人間が事実確認と表現を調整",
           "公開後の表示回数、クリック、問い合わせ導線を見て改善",
         ],
+        link: {
+          label: "AI記事の事実確認に使う4つの欄を見る",
+          href: "/insights/ai-article-fact-check-template/",
+        },
       },
       {
         label: "AGENT / SUPPORT",

@@ -768,7 +768,7 @@ export const pageSeoByPath = {
   "/services/ai-marketing": {
     path: "/services/ai-marketing",
     fallbackHeading: "AIマーケティングとAIサポート",
-    lastModified: "2026-09-06",
+    lastModified: "2026-09-29",
     title: "AI × Growth / AI × Support | AIマーケティング・AIエージェント導入支援 | GAMI",
     description:
       "AIマーケティング、AIライティング、SEO記事作成、AIエージェント導入支援、問い合わせ対応、AI検索対策を、発信と対応を軽くする導入アプローチとして整理します。",
@@ -787,6 +787,10 @@ export const pageSeoByPath = {
           "AIで構成案と下書きを作り、人間が事実確認と表現を調整",
           "公開後の表示回数、クリック、問い合わせ導線を見て改善",
         ],
+        link: {
+          label: "AI記事の事実確認に使う4つの欄を見る",
+          href: "/insights/ai-article-fact-check-template/",
+        },
       },
       {
         title: "問い合わせ対応・営業下書きをAIエージェント化する",
