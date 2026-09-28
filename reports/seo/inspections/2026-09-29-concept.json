@@ -1,0 +1,77 @@
+{
+  "inspection": {
+    "siteUrl": "sc-domain:ai.gami.jp",
+    "inspectionUrl": "https://ai.gami.jp/concept/",
+    "fetchedAt": "2026-09-28T23:01:32.9015650+00:00",
+    "source": "google-index",
+    "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:ai.gami.jp&id=QQhC7oP5B90GaNm2BLcXiA&utm_medium=link&utm_source=api",
+    "verdict": "PASS",
+    "coverageState": "送信して登録されました",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-09-04T15:32:11Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://ai.gami.jp/concept/",
+    "userCanonical": "https://ai.gami.jp/concept/"
+  },
+  "live": {
+    "observedAt": "2026-09-28T23:02:08.436Z",
+    "url": "https://ai.gami.jp/concept/",
+    "httpStatus": 200,
+    "finalUrl": "https://ai.gami.jp/concept/",
+    "title": "Concept | 生成AI導入支援とAI開発の進め方 | GAMI",
+    "canonical": "https://ai.gami.jp/concept/",
+    "description": "AI Base, Human Craft. を軸に、生成AI導入支援、AI開発、AI Web制作をどうAI基準で進めるかを整理したGAMIの開発思想ページです。",
+    "robotsMeta": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+    "xRobotsTag": null,
+    "h1Count": 1,
+    "contentStringsChecked": 6,
+    "missingContentStrings": [],
+    "schemaTypeCounts": {
+      "Organization": 1,
+      "WebPage": 1,
+      "BreadcrumbList": 1
+    },
+    "expectedHeadTitleMatches": true,
+    "currentInitialSeoHeadMatchesBuilt": true,
+    "currentInitialMainMatchesBuilt": true,
+    "conceptLastModified": "2026-09-22",
+    "sourceFiles": [
+      {
+        "path": "src/app/content/concept.js",
+        "unchangedSincePublication": true
+      },
+      {
+        "path": "src/app/pages/Concept.tsx",
+        "unchangedSincePublication": true
+      }
+    ],
+    "sourceComparisonCommit": "84420395bf9b7abb9cd370ab537c1ce821de97fd",
+    "robots": {
+      "httpStatus": 200,
+      "body": "User-agent: *\nAllow: /\nDisallow: /api/\n\nSitemap: https://ai.gami.jp/sitemap.xml\n"
+    },
+    "browserHydrationChecked": false
+  },
+  "assessment": {
+    "indexResult": "confirmed",
+    "selfCanonical": true,
+    "postChangeRecrawl": "not-confirmed",
+    "changePublishedAt": "2026-09-22T08:10:21.6542972+09:00",
+    "result": "not-yet-measurable",
+    "reason": "Google reports indexed and self-canonical, but its last crawl predates the September22 change. Live initial HTML contains all three complete explanations from current source and matches built head/main. Index registration alone does not confirm recrawl of the changed page.",
+    "nextIndexCheckOnOrAfter": "2026-10-06",
+    "originalEffectReviewAt": "2026-10-23",
+    "preservePublishedAt": true,
+    "preserveConceptContent": true,
+    "metricsEvidencePath": "reports/seo/metrics/2026-09-29-0801.json",
+    "current28dPage": {
+      "page": "https://ai.gami.jp/concept/",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 8.2
+    },
+    "pageQueryMeasurement": "Concept query-page breakdown was not collected; Insights-only query-page rows do not describe this URL."
+  }
+}

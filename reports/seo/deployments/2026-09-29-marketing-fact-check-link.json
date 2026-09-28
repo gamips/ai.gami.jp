@@ -1,0 +1,381 @@
+{
+  "schemaVersion": 1,
+  "sourceCommit": "30a4527c44e3a5bf447c2964f52f9f11031239d8",
+  "baselineCommit": "4a23814",
+  "verifiedAt": "2026-09-28T23:11:31Z",
+  "url": "https://ai.gami.jp/services/ai-marketing/",
+  "targetUrl": "https://ai.gami.jp/insights/ai-article-fact-check-template/",
+  "change": "One existing-format SEO / WRITING text link and source lastModified only.",
+  "build": {
+    "local": "npm run build passed",
+    "diffCheck": "passed",
+    "reviewModelConfigured": "gpt-6-astra",
+    "review": "No blocking findings; all13 article bodies/dates, existing links, shared renderer and CSS preserved."
+  },
+  "actions": {
+    "status": "not_started",
+    "reason": "Canonical1.0.8 recovery: September28 normal-route build passed but four curl28 connection attempts failed. Production commit uses skip ci; no active deployment before FTPS.",
+    "priorFailedRun": "https://github.com/gamips/ai.gami.jp/actions/runs/36357667097",
+    "normalRouteRecovered": false,
+    "nextNormalRouteCheckOnOrAfter": "2026-10-05"
+  },
+  "publication": {
+    "startedAt": "2026-09-29T08:03:56.9396648+09:00",
+    "completedAt": "2026-09-29T08:04:30.2703158+09:00",
+    "method": "FTPS using existing project connection",
+    "target": "sv90.xserver.jp/gami.jp/public_html/ai.gami.jp/",
+    "count": 51,
+    "files": [
+      {
+        "path": "assets/About-skyGcjp2.js",
+        "bytes": 9072,
+        "sha256": "0CF3132A343584FEB6DD2D9D2207FCE927FEE5F03913FAB61BEC37C72D49821F"
+      },
+      {
+        "path": "assets/arrow-right-COw7INaR.js",
+        "bytes": 349,
+        "sha256": "818CC5459BC8CA8CE8E7D864CFD9263F922DA09AB6AD7545A489A3791DD8FC71"
+      },
+      {
+        "path": "assets/Concept-FLakqkgq.js",
+        "bytes": 29902,
+        "sha256": "1BDC9EDBA2B74823A767A5A7E2B72535E7A83061BE402EBD231F7FC66797D978"
+      },
+      {
+        "path": "assets/Contact-Dp6SdExj.js",
+        "bytes": 8828,
+        "sha256": "0E039CECD42618086962E5548C7FA8E022CD2B7E27AE7248357765AA3633311D"
+      },
+      {
+        "path": "assets/ContactThanks-B53T2hk2.js",
+        "bytes": 2051,
+        "sha256": "D82EFF4A29811C97CF4D8B0B17ADA72029AD3CEAA2EAA16B0557DEE95B75FB08"
+      },
+      {
+        "path": "assets/createLucideIcon-DE27DXUe.js",
+        "bytes": 1737,
+        "sha256": "84AFE38F7AA8898FD80C1783AEF993F662F648C6F08F4E3172A879DAD112A340"
+      },
+      {
+        "path": "assets/Footer-Bu0AajFr.js",
+        "bytes": 4883,
+        "sha256": "A7FDE0C0BFFD81AEFEC393B5C5B4F42AE498F2E4FF12FF9C3D108536C175AC7B"
+      },
+      {
+        "path": "assets/GeometricParticles-BOZhR45k.js",
+        "bytes": 496731,
+        "sha256": "F143B8AB9B53947E4C465FAE21C00BF9FC8B61B3F70E8E044952A62EEA3EC794"
+      },
+      {
+        "path": "assets/Header-_FmCjFWs.js",
+        "bytes": 7033,
+        "sha256": "84A9BA662A6FECDB8D17D41E999D8FB30168307B1F37FE3754137B9A1E1DEFA6"
+      },
+      {
+        "path": "assets/Home-Bvivd3_R.js",
+        "bytes": 26226,
+        "sha256": "185BF26AEEB1107C37234B22E6032F46C613246E8B40B7AF6A39E5DCF78E5F7A"
+      },
+      {
+        "path": "assets/index-tdX_1bvh.js",
+        "bytes": 238401,
+        "sha256": "79C344EECF7429B4F862D3E74C1CDC419AA24EB2061AE6FE6AC96F37C89CDCFF"
+      },
+      {
+        "path": "assets/InquiryCta-Cw7dWdX3.js",
+        "bytes": 1473,
+        "sha256": "9A4A8DCEBFD6C8C3C3B0E63B385D5B5BAB2C220F54554F251BE653F5A87B08B5"
+      },
+      {
+        "path": "assets/InsightDetail-CHQlTrRV.js",
+        "bytes": 3836,
+        "sha256": "C81AD0B0B7EB6B362116E380EA7B5FCBB4051B7B3A576B1E3F78A3A186485FFB"
+      },
+      {
+        "path": "assets/Insights-B5jJPTpE.js",
+        "bytes": 2337,
+        "sha256": "39080D55AFC0C9518FDEA33ABA6ACEC2692054DE1DCB539AE888F6DD077EEBDE"
+      },
+      {
+        "path": "assets/News-JTNH81GF.js",
+        "bytes": 3915,
+        "sha256": "607EEC3C8CFFD13AB216D2E096E7BCC161F27D60649B3F343C19FA5303512475"
+      },
+      {
+        "path": "assets/NotFound-CAfRPE5Y.js",
+        "bytes": 2602,
+        "sha256": "2D7F87F5E19DA173B5C594DBC468B8D482BB4B8CC6A6DC00515292069CF2DE91"
+      },
+      {
+        "path": "assets/PageSeo-BGA0GQPS.js",
+        "bytes": 100551,
+        "sha256": "FCB356E2B0546A3D6FC5498FB2FF56DFBAED122D4EA469C812F4D1A7A63D2FD6"
+      },
+      {
+        "path": "assets/Price-DUR73MGM.js",
+        "bytes": 5691,
+        "sha256": "8C351821538C4BCBAE632379455D50DBA0EBE913899FA0B53DCD8FA919665F66"
+      },
+      {
+        "path": "assets/proxy-v-eyGkjP.js",
+        "bytes": 122123,
+        "sha256": "78EC5DEFFBCA21FF35849831BF5139EFE842D82D3467A8ED60F3005B5F5F00C9"
+      },
+      {
+        "path": "assets/ScrollReveal-BqnBtQwN.js",
+        "bytes": 720,
+        "sha256": "6E23071B025543205B27E398B6A5A0849DC64475C21E5C553F22EE7E2843283C"
+      },
+      {
+        "path": "assets/ScrollToTopLink-BDBHN8XR.js",
+        "bytes": 436,
+        "sha256": "C15D40FECFF6945CBF80C916CEE95D885E1C78FD9CE760BD89B8F71113B2D971"
+      },
+      {
+        "path": "assets/ServiceDetail-BC1TfG92.js",
+        "bytes": 33644,
+        "sha256": "2DBB5B20895E5C7052556C4244C7C1EDD724FEDBB5A7B213269C2B15A3C32363"
+      },
+      {
+        "path": "assets/services-CLppvDvi.js",
+        "bytes": 42259,
+        "sha256": "02C7511B0954284BB50E6651F0F6039E9DF775D5D31B20418072F4C57CEB36F4"
+      },
+      {
+        "path": "assets/Services-D8nk5whL.js",
+        "bytes": 3446,
+        "sha256": "1CE81D52C0C70349E65E68FA3D371FE0680B17C2BFBA2FB7C27E3AC2675FF07D"
+      },
+      {
+        "path": "insights/saas-or-custom-system-checklist/index.html",
+        "bytes": 11884,
+        "sha256": "5188D498D02086C9BE757D438F2DC42310353BAB3D8FD5AD1F0A36CA7B0C58EC"
+      },
+      {
+        "path": "404/index.html",
+        "bytes": 2420,
+        "sha256": "CC9E8A9464E460C90F9664CF527AE7469FE5F42B3B9846485DF4E05FB3B8BC03"
+      },
+      {
+        "path": "about/index.html",
+        "bytes": 7010,
+        "sha256": "F44991F8C437BB7914DFD3395AEB19ED6A4C20C4FDE5058258006F4775325CE1"
+      },
+      {
+        "path": "concept/index.html",
+        "bytes": 6721,
+        "sha256": "00B5AEA490CCBED9DC60D1C1FD98812D35245205014B5CCC28C657D149CAADD7"
+      },
+      {
+        "path": "contact/index.html",
+        "bytes": 4592,
+        "sha256": "BBE59152046EB1D076219FEBDE683B2516DCAB738DFB8A4D014D2951BF19C987"
+      },
+      {
+        "path": "contact/thanks/index.html",
+        "bytes": 5354,
+        "sha256": "0FB6F0B5872E4A1DCBF1A63A8904525919A0A4074C1ED49C8D67902798D3A7A1"
+      },
+      {
+        "path": "insights/ai-article-fact-check-template/index.html",
+        "bytes": 11485,
+        "sha256": "EC306B4F6F90F11261F3ADEA238B18E246291395CE42B907F031342F6786E070"
+      },
+      {
+        "path": "insights/ai-customer-reply-template/index.html",
+        "bytes": 12375,
+        "sha256": "06E6C2818ED671C1D89539E772C5245A362B088DA0501EAB76A8EDCC7A8D9D00"
+      },
+      {
+        "path": "insights/ai-introduction-support-pricing/index.html",
+        "bytes": 13501,
+        "sha256": "50D2326A1336F2DD7BE5584222B52049EC5399320903FF7862F740A2EE392749"
+      },
+      {
+        "path": "insights/ai-introduction-support/index.html",
+        "bytes": 12246,
+        "sha256": "73D514815DA6E25F13870A3F286DFEC688201057A081EDF54AB19EDA8D21FB9D"
+      },
+      {
+        "path": "insights/ai-meeting-action-items-template/index.html",
+        "bytes": 11949,
+        "sha256": "D9FA6706E0B5B71F075F636731B9752EFEB3DF0EE63ABC5C634A33A68161845F"
+      },
+      {
+        "path": "insights/ai-website-brief-template/index.html",
+        "bytes": 12112,
+        "sha256": "18C8DBECA95710694548F7B625C969ED1DBFD61571D85DBE9B1A81108C3B66E2"
+      },
+      {
+        "path": "insights/ai-website-change-request-template/index.html",
+        "bytes": 10704,
+        "sha256": "BC7FB92C63B0366C8F313B12A52E9C894F852261603ECDE4D6A66A7515584FA4"
+      },
+      {
+        "path": "insights/ai-website-launch-checklist/index.html",
+        "bytes": 13028,
+        "sha256": "35F91B7EE7444AF10083A53CF4CAD0354ABDFFC11988B7FBEA130C7F18448CAA"
+      },
+      {
+        "path": "insights/chatgpt-workplace-adoption-checklist/index.html",
+        "bytes": 12858,
+        "sha256": "50E8EFC80A6A77403363AF79E0BE68669A3A41173E515C642A7C74093409106A"
+      },
+      {
+        "path": "insights/rag-answer-review-sheet/index.html",
+        "bytes": 11137,
+        "sha256": "4140EBA41558D21E1D635FC2BEF5D355057F3D366F7C35D6EFB734E7A209C4C5"
+      },
+      {
+        "path": "insights/rag-document-inventory-checklist/index.html",
+        "bytes": 12858,
+        "sha256": "998F29B14DD1AE297ACCCC0B03736343E7D53DDF716B1546B1C6B5DE7CC345F8"
+      },
+      {
+        "path": "insights/sodatsu-mitsumori-case-study/index.html",
+        "bytes": 12093,
+        "sha256": "F7CA1963825E269129A718457111317FB3E5FBE2DCD9FDD0C3EEE5DFDBF3D067"
+      },
+      {
+        "path": "news/index.html",
+        "bytes": 6194,
+        "sha256": "CEEA7634B728C743075E5DCDE759676480E3D0177902316B39C5FC7BB771C906"
+      },
+      {
+        "path": "price/index.html",
+        "bytes": 15141,
+        "sha256": "8469FCFAC75097C6FA9606AF0244822471A79B0679DFD6F2C520DCB0164DC325"
+      },
+      {
+        "path": "services/ai-marketing/index.html",
+        "bytes": 9121,
+        "sha256": "1B75C1425D057FF4023CBB2486D466839A3408842715A7718FF962B5AFECB4E9"
+      },
+      {
+        "path": "services/ai-saas/index.html",
+        "bytes": 8789,
+        "sha256": "7B7DC892156F93477437538A9F88D58A8337247045F4FEFFD3A2831132AE06B6"
+      },
+      {
+        "path": "services/ai-web/index.html",
+        "bytes": 8811,
+        "sha256": "1E87C4169E4987E49375EC3CDEB9BE287FB5EC4DE36D5D6F170D822F2899F6CD"
+      },
+      {
+        "path": "services/index.html",
+        "bytes": 9022,
+        "sha256": "644D73B01ABCA5595C7BDE7EC0BEDED21B767E7B9513A8A02F03FFE8F227B94F"
+      },
+      {
+        "path": "insights/index.html",
+        "bytes": 17023,
+        "sha256": "99D445D227981AB7CEA5FADCF92A7C16D3280F3E5098434321EA31AF7A364877"
+      },
+      {
+        "path": "index.html",
+        "bytes": 6416,
+        "sha256": "245E6FDBEE43AF1DD0CDAE2AB2A184076006534685BD0AA3724CD8FBB559248D"
+      },
+      {
+        "path": "sitemap.xml",
+        "bytes": 4369,
+        "sha256": "45D2A978ED1E29E691BBB2C8E566170CABE085E99F68F314371F305F355FDA29"
+      }
+    ],
+    "unchangedServerFilesPreserved": true,
+    "remoteFilesDeleted": 0
+  },
+  "liveVerification": {
+    "checkedAt": "2026-09-28T23:05:10.303Z",
+    "baselineCommit": "4a23814",
+    "singleLinkVariable": true,
+    "allOtherServiceContentUnchanged": true,
+    "allOtherSeoEntriesUnchanged": true,
+    "all13ArticlesUnchanged": true,
+    "sharedRendererUnchanged": true,
+    "exactInitialLinkCount": 1,
+    "existingReplyLinkPreserved": true,
+    "sitemapUrls": 24,
+    "staticEntries": 26,
+    "unchangedCss": [
+      "index-BSUbwp1T.css"
+    ],
+    "liveSourceStatus": 200,
+    "liveTargetStatus": 200,
+    "liveHeadAndMainMatch": true,
+    "liveSitemapMatches": true,
+    "passed": true
+  },
+  "assetVerification": {
+    "checkedAt": "2026-09-28T23:05:10.949Z",
+    "assetsChecked": 24,
+    "assetHashesMatch": true,
+    "headsChecked": 26,
+    "allStaticSeoHeadsMatch": true,
+    "scope": "All generated SEO heads and built JavaScript hashes after fallback upload; not a full UI audit.",
+    "passed": true
+  },
+  "browser": {
+    "desktop": {
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "scrollWidth": 1425,
+      "h1Count": 1,
+      "visualReview": "passed",
+      "screenshot": "output/playwright/2026-09-29-link/desktop.png"
+    },
+    "mobile": {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollWidth": 375,
+      "h1Count": 1,
+      "visualReview": "passed",
+      "screenshot": "output/playwright/2026-09-29-link/mobile.png"
+    },
+    "fullRenderedMainPreservedExceptNewLink": true,
+    "allPriorRenderedLinksPreserved": true,
+    "exactNewLinkCount": 1,
+    "rawAndRenderedLabelMatch": true,
+    "navigation": {
+      "url": "https://ai.gami.jp/insights/ai-article-fact-check-template/",
+      "h1": "AI記事の事実確認｜コピーして使える4つの欄",
+      "h1Count": 1,
+      "scrollY": 0,
+      "width": 390,
+      "scrollWidth": 375,
+      "canonical": "https://ai.gami.jp/insights/ai-article-fact-check-template/",
+      "schemaTypes": [
+        "Organization",
+        "WebPage",
+        "Article",
+        "BreadcrumbList"
+      ]
+    },
+    "consoleErrors": 0,
+    "consoleWarnings": 0,
+    "sessionClosed": true
+  },
+  "design": {
+    "existingLinkComponentAndCssUnchanged": true,
+    "lazywebQuery": "content marketing related resources",
+    "coverage": "moderate",
+    "decision": "Observed examples are resource catalogs, not a reason to redesign. Preserve existing contextual text-link pattern; no new grid/cards or paid report.",
+    "privateSearchUrl": "https://www.lazyweb.com/agentic-search/5e44f3cf-08d2-4a20-a8a9-c59d39af104d"
+  },
+  "measurementValidation": "Saved report compared in full to held raw-derived expected data: no differences. Root independently checked windows, CTR, device totals/weighted position and exact brand exclusion.",
+  "recordValidation": {
+    "passed": true,
+    "activeExperiments": 19,
+    "observationQueue": 20,
+    "priorHistoryAndOriginalObservationDatesPreserved": true,
+    "otherInventoryEntriesUnchanged": true,
+    "promptAndScheduleUnchanged": true,
+    "independentReadOnlyReview": "No errors found in state, inventory, experiments, monthly log, deployment or Concept inspection records."
+  },
+  "acquisitionEffect": "not-yet-measurable",
+  "note": "Production verified independently of unavailable normal deployment route. GSC cannot measure this internal link's clickthrough. Article body/dates and original observation/effect dates remain unchanged."
+}
