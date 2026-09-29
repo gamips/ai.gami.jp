@@ -256,6 +256,10 @@ export const services: ServiceContent[] = [
           "権限、承認、ログ、データ連携を含む運用基盤の設計",
           "使える最小構成から立ち上げて段階的に拡張",
         ],
+        link: {
+          label: "既存SaaSと独自開発を比べる6つの欄を見る",
+          href: "/insights/saas-or-custom-system-checklist/",
+        },
       },
       {
         label: "AUTOMATION",
