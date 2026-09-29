@@ -1,0 +1,145 @@
+{
+  "experimentId": "insight-rag-answer-review-sheet-v1",
+  "url": "https://ai.gami.jp/insights/rag-answer-review-sheet/",
+  "scheduledCheckOnOrAfter": "2026-09-30",
+  "originalStartedAt": "2026-09-23T08:06:22.8197618+09:00",
+  "originalPublishedAt": "2026-09-23",
+  "originalUpdatedAt": "2026-09-23",
+  "originalEffectReviewOnOrAfter": "2026-10-24",
+  "inspection": {
+    "siteUrl": "sc-domain:ai.gami.jp",
+    "inspectionUrl": "https://ai.gami.jp/insights/rag-answer-review-sheet/",
+    "fetchedAt": "2026-09-29T23:02:32.9378934+00:00",
+    "source": "google-index",
+    "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:ai.gami.jp&id=Ich_GSmEs2GsDH8K7_1PZw&utm_medium=link&utm_source=api",
+    "verdict": "NEUTRAL",
+    "coverageState": "URL が Google に認識されていません",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "lastCrawlTime": null,
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "googleCanonical": null,
+    "userCanonical": null,
+    "selfCanonical": null,
+    "postPublicationRecrawl": null,
+    "indexResult": "not-confirmed",
+    "inspectionCalls": 1
+  },
+  "live": {
+    "observedAt": "2026-09-29T23:03:26.301Z",
+    "source": "live-http-not-google-index",
+    "httpStatus": 200,
+    "finalUrl": "https://ai.gami.jp/insights/rag-answer-review-sheet/",
+    "contentType": "text/html; charset=UTF-8",
+    "xRobotsTag": null,
+    "canonical": [
+      "https://ai.gami.jp/insights/rag-answer-review-sheet/"
+    ],
+    "selfCanonical": true,
+    "title": "RAGの回答を確かめる｜質問ごとに残す5つの欄 | GAMI",
+    "description": "社内資料を使うAIの回答を、元資料と比べて確認する記入式シートです。質問、期待する回答、実際の回答、根拠、違いを残し、修正後に同じ質問で確かめる手順を紹介します。",
+    "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+    "ogTitle": "RAGの回答を確かめる｜質問ごとに残す5つの欄 | GAMI",
+    "ogDescriptionMatchesDescription": true,
+    "ogUrl": "https://ai.gami.jp/insights/rag-answer-review-sheet/",
+    "ogType": "article",
+    "ogImage": "https://ai.gami.jp/og/news.png",
+    "ogImageHttpChecked": false,
+    "h1Count": 1,
+    "h1": "RAGの回答を確かめる｜質問ごとに残す5つの欄",
+    "schemaTypeCountsTopLevel": {
+      "Organization": 1,
+      "WebPage": 1,
+      "Article": 1,
+      "BreadcrumbList": 1
+    },
+    "schemaTypeCountsIncludingNested": {
+      "Organization": 4,
+      "WebPage": 1,
+      "WebSite": 1,
+      "Article": 1,
+      "BreadcrumbList": 1,
+      "ListItem": 3
+    },
+    "articleSchema": {
+      "headline": "RAGの回答を確かめる｜質問ごとに残す5つの欄",
+      "datePublished": "2026-09-23",
+      "dateModified": "2026-09-23",
+      "mainEntityOfPage": "https://ai.gami.jp/insights/rag-answer-review-sheet/",
+      "headlineMatchesSource": true,
+      "datesMatchSource": true
+    },
+    "initialHtmlBody": {
+      "verifiedAt": "2026-09-29T23:04:33.491Z",
+      "sourceFile": "src/app/content/insights.js",
+      "expectedTemplate": "title + description + section headings/paragraphs/items/link labels",
+      "expectedTextCount": 25,
+      "allExpectedTemplateTextPresent": true,
+      "missingText": [],
+      "sections": 4,
+      "paragraphs": 7,
+      "listItems": 10,
+      "sourceLinks": 2,
+      "sourceDescriptionPresent": true,
+      "sourceLeadPresent": false,
+      "templateNote": "Existing generator uses insight.description as its initial introduction; React uses insight.lead. This is existing rendering behavior, not evidence of an indexing cause.",
+      "templateReferences": [
+        "src/app/seo/pageSeo.js:1138",
+        "scripts/generate-static-seo.mjs:142",
+        "scripts/generate-static-seo.mjs:196",
+        "src/app/pages/InsightDetail.tsx:44"
+      ]
+    },
+    "articleLinks": [
+      {
+        "href": "/insights/rag-document-inventory-checklist/",
+        "label": "RAGに使う社内資料を整理する",
+        "present": true
+      },
+      {
+        "href": "/services/ai-saas/",
+        "label": "社内AIの導入支援を見る",
+        "present": true
+      }
+    ],
+    "robotsTxt": {
+      "observedAt": "2026-09-29T23:03:26.300Z",
+      "httpStatus": 200,
+      "content": "User-agent: *\nAllow: /\nDisallow: /api/\n\nSitemap: https://ai.gami.jp/sitemap.xml\n",
+      "targetAllowed": true
+    },
+    "sitemap": {
+      "observedAt": "2026-09-29T23:03:26.297Z",
+      "source": "public-xml-not-gsc-sitemap-api",
+      "httpStatus": 200,
+      "urlCount": 24,
+      "targetCount": 1
+    },
+    "insightsIndex": {
+      "observedAt": "2026-09-29T23:03:26.303Z",
+      "httpStatus": 200,
+      "targetLinkCount": 1,
+      "targetLink": {
+        "href": "/insights/rag-answer-review-sheet/",
+        "label": "RAGの回答を確かめる｜質問ごとに残す5つの欄"
+      }
+    },
+    "technicalResult": "confirmed",
+    "scope": "Direct HTTP and initial HTML only; no fresh hydrated-browser inspection."
+  },
+  "assessment": {
+    "status": "observing",
+    "indexResult": "not-confirmed",
+    "effectResult": "not-yet-measurable",
+    "nextIndexCheckOnOrAfter": "2026-10-07",
+    "nextEffectReviewOnOrAfter": "2026-10-24",
+    "observationRestarted": false,
+    "contentChangeRecommended": false,
+    "reason": "First scheduled Google inspection is unknown. Current retrieval, head, search permission, existing generated body, schema counts, sitemap inclusion and index link pass. Unknown Google state alone does not justify article edits.",
+    "metricsEvidencePath": "reports/seo/metrics/2026-09-30-0802.json",
+    "page28d": null,
+    "disclosedQueryPages": [],
+    "pageQuerySignals": "No returned page or Insights query-page rows; unobserved, not zero.",
+    "minimumEffectEvidence": "28 finalized post-publication days and at least 30 page impressions; otherwise insufficient evidence."
+  }
+}
