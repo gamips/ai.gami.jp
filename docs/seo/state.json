@@ -7,18 +7,18 @@
     "currentCadenceHours": 24,
     "status": "ACTIVE",
     "currentSchedule": "毎日8:00（Asia/Tokyo）",
-    "scheduleObservedAt": "2026-09-29T23:08:52Z",
+    "scheduleObservedAt": "2026-09-30T23:15:16Z",
     "scheduleSource": "Existing automation viewed and saved toml read back: ACTIVE daily08:00 Asia/Tokyo. Canonical1.0.9 and launcher/cadence unchanged."
   },
-  "lastActualRunAt": "2026-09-29T23:08:52Z",
-  "lastPromptAuditAt": "2026-09-29T23:08:52Z",
+  "lastActualRunAt": "2026-09-30T23:15:16Z",
+  "lastPromptAuditAt": "2026-09-30T23:15:16Z",
   "measurement": {
     "searchConsole": {
       "siteUrl": "sc-domain:ai.gami.jp",
       "status": "connected",
-      "latestFinalizedDate": "2026-09-27",
-      "lastRecordedAt": "2026-09-30T08:02:53.7972221+09:00",
-      "latestMetricsPath": "reports/seo/metrics/2026-09-30-0802.json",
+      "latestFinalizedDate": "2026-09-28",
+      "lastRecordedAt": "2026-10-01T08:03:04.4757782+09:00",
+      "latestMetricsPath": "reports/seo/metrics/2026-10-01-0803.json",
       "urlInspection": {
         "status": "available",
         "source": "google-index",
@@ -32,8 +32,8 @@
         "latestEvidencePath": "reports/seo/inspections/2026-09-27-sitemap.json",
         "liveUrlCount": 24,
         "nextReadOnlyCheckOnOrAfter": "2026-10-04",
-        "liveVerifiedAt": "2026-09-29T23:05:02.481Z",
-        "liveEvidencePath": "reports/seo/deployments/2026-09-30-saas-comparison-link.json"
+        "liveVerifiedAt": "2026-09-30T23:10:26.205Z",
+        "liveEvidencePath": "reports/seo/deployments/2026-10-01-contact-parity.json"
       },
       "attributionCaveat": "All Insights received a shared WebPage schema-type correction on2026-09-13. Article copy/dates and observation dates are unchanged, but later before/after signals cannot isolate content-only effects. See current deployment evidence and experiments log.",
       "nonBrandDefinition": {
@@ -73,14 +73,15 @@
     "insight-ai-website-change-request-template-v1",
     "service-ai-web-brief-link-v1",
     "service-ai-marketing-fact-check-link-v1",
-    "service-ai-saas-comparison-link-v1"
+    "service-ai-saas-comparison-link-v1",
+    "contact-initial-html-parity-v1"
   ],
   "deployment": {
-    "lastSuccessfulAt": "2026-09-30T08:05:01.6146930+09:00",
-    "commit": "bb2c297dc3b333820a55c6194ab96ccc936c619a",
+    "lastSuccessfulAt": "2026-10-01T08:09:01.6572165+09:00",
+    "commit": "34346c693e51d2fb4f31af7458fce7ecb344421b",
     "workflowRun": null,
     "method": "FTPS using existing project connection",
-    "evidencePath": "reports/seo/deployments/2026-09-30-saas-comparison-link.json",
+    "evidencePath": "reports/seo/deployments/2026-10-01-contact-parity.json",
     "liveVerification": "passed",
     "actionsStatus": "Not started under canonical1.0.8 recovery. September28 normal route repeated four curl28 timeouts after successful build. No active deploy before existing FTPS publication; server/auth/workflow unchanged. Next normal-route recheckOctober5 retained.",
     "priorFailedActionsRun": "https://github.com/gamips/ai.gami.jp/actions/runs/36357667097",
@@ -608,26 +609,39 @@
           "check": "28 finalized full post-link days (October1–28; latest final at leastOctober28) and at least30 targetpage impressions. Descriptive only; no direct linkclick or causal attribution without analytics."
         }
       ]
+    },
+    {
+      "experimentId": "contact-initial-html-parity-v1",
+      "status": "observing",
+      "startedAt": "2026-10-01T08:09:01.6572165+09:00",
+      "nextChecks": [
+        {
+          "onOrAfter": "2026-10-08",
+          "check": "Google crawl/index state after Contact consultation scope became available in initial HTML; no causal claim."
+        },
+        {
+          "onOrAfter": "2026-11-01",
+          "check": "28 finalized full post-change days (October2–29; latest final at leastOctober29) and at least30 page impressions; otherwise insufficient evidence. Inquiries and qualified visits remain unavailable without analytics."
+        }
+      ]
     }
   ],
   "readyQueue": [
     {
-      "lane": "technical-seo",
+      "lane": "content",
       "priority": 1,
-      "url": "https://ai.gami.jp/contact/",
-      "work": "既存の相談範囲の見出し・説明を小さなcontent正本へ移し、Contact.tsxとpageSeoの初期HTMLで共有する。新しい宣伝文は増やさず、フォーム・送信処理・既存画面は変えない。",
-      "copy": {
-        "heading": "まずはお気軽にご相談ください",
-        "paragraph": "AI導入の初期相談、業務フロー整理、RAG構築、サイト改善、SaaS連携の相談など、検討段階でも問題ありません。まだ要件が固まっていない状態でもご相談いただけます。"
-      },
+      "url": "https://ai.gami.jp/insights/ai-work-handoff-template/",
+      "work": "AIの作業を人へ引き継ぐ記入式メモを、新規記事一式として確認・公開する。準備済み原稿を使い、公開日は実日付へ合わせる。",
+      "draftPath": "docs/seo/drafts/ai-work-handoff-template.json",
       "copyModelConfigured": "gpt-6-astra",
+      "distinctIntent": "AIを使った一件の作業の完了・未着手・判断待ちと、成果物の場所、引き継ぎ後の開始点を渡す。",
       "evidence": [
-        "September30 reviewer confirmed live200 and selfcanonical; initial main contains heading and description but not the existing React consultation scope.",
-        "Root read Contact.tsx consultation heading/paragraph and pageSeo.js /contact entry. No active experiment or observation freeze on /contact/.",
-        "Three older unknown articles now have relevant service discovery links. Their articles and source link experiments remain frozen; Contact is an independent URL and lane."
+        "13 existing articles reviewed; distinct from customer reply, meeting plans and RAG answer checking.",
+        "Five fill-in fields and a clearly fictional12-record example; no unverified implementation or outcome claims.",
+        "Search demand and expected traffic unconfirmed; publish for distinct practical value, not volume alone."
       ],
-      "verification": "Capture baseline, then share only the existing heading/paragraph without changing rendered text, DOM layout, form fields, validation or submission. Verify initial HTML contains the same consultation scope, selfcanonical, ContactPage schema, updated sitemap lastmod, build and proportional desktop/mobile checks. No real form submission.",
-      "effect": "Makes existing consultation information available in initial HTML; does not guarantee ranking or inquiries."
+      "freezeBoundary": "Do not edit existing13 articles or their frozen source services. Limit change to new article, list, head/schema and sitemap; outbound service link is in new article only.",
+      "verification": "Coordinator rereview for distinct intent and simple copy; build, diff, initial/rendered Article1+WebPage1, internal links, sitemap and proportional PC/mobile/console checks. No public references or operational metadata."
     }
   ],
   "blocked": [
@@ -661,10 +675,10 @@
     "verificationGap": false,
     "verificationGapResolved": true,
     "cadenceChangeNeeded": false,
-    "nextFullAuditAfterCompletedRuns": 2,
+    "nextFullAuditAfterCompletedRuns": 1,
     "actualPromptReadback": "passed",
     "changeApplied": false,
-    "changeReason": "Second actual completed run after September28 full audit. All three previously unknown target guides now have contextual service links; keep their observation periods and proceed to independent Contact initialHTML parity. Fresh measurement, one due inspection and verified publication completed without duplicate checks or writer collision. Existing1.0.9 prioritization permits this lane change; no new rule or cadence change is needed. Normal-route recheckOctober5 and daily08:00 retained.",
+    "changeReason": "Third completed run after September28 full audit. Shifted from three service links to independent Contact initialHTML parity and prepared a distinct handoff article. No due URL inspections today, duplicated observation, writer collision or publication blocker. Existing1.0.9 supports this lane change; no new rule or cadence change is justified. Tomorrow's scheduled article reviews must assess finalized days and impression minimums, not calendar date alone.",
     "operatingPolicyUpdated": false,
     "externalScheduleChangeObserved": false,
     "launcherPromptUpdated": false,
@@ -676,7 +690,7 @@
       "2026-09-27",
       "2026-09-28"
     ],
-    "newReusableLearning": "No new canonical rule. Initial article HTML uses description while React uses lead; record actual template coverage and do not infer an index cause or change shared templates during article observation.",
+    "newReusableLearning": "No new canonical rule. Exact rendered paragraph comparison preserved the existing JSX newline as one ASCII space; existing baseline-parity verification was sufficient.",
     "normalRouteRecheckCompleted": false
   },
   "retiredBlockers": [

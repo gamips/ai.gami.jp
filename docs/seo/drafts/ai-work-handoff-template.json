@@ -1,0 +1,92 @@
+{
+  "status": "draft-not-published",
+  "preparedAt": "2026-10-01",
+  "copyModelConfigured": "gpt-6-astra",
+  "intent": "AIが進めた一件の作業を、別の担当者が引き受けられる状態にまとめる。",
+  "distinctValue": "完了済み・未着手・判断待ちを分け、成果物の場所と引き継ぎ後の開始点を残す記入式メモ。",
+  "demandEvidence": "Search demand and expected traffic are unconfirmed. This is a useful-content candidate, not a proven-volume keyword.",
+  "overlapReview": {
+    "reviewedPublishedArticles": 13,
+    "customerReply": "相手へ送る返信案ではなく、社内担当者に渡す作業状況を扱う。",
+    "meetingActionItems": "会議後の予定ではなく、実際に進めた後の完了状態と引き継ぎ地点を扱う。",
+    "ragAnswerReview": "回答の正誤に限らない、作業全体の受け渡しを扱う。",
+    "otherGuides": "導入前の選定、制作依頼、資料準備、公開確認とは別の一件の運用記録。"
+  },
+  "implementationScope": "New article package, Insights listing, head/schema and sitemap only. Preserve all13 existing articles and frozen service pages; no new service backlink during their observation.",
+  "evidence": [
+    {
+      "type": "repository",
+      "path": "src/app/content/services.ts",
+      "note": "AIエージェント、AUTOMATION、AGENT / SUPPORTの運用設計と接続。自動停止・通知機能の実装保証は主張しない。"
+    },
+    {
+      "type": "primary-source",
+      "url": "https://www.anthropic.com/engineering/building-effective-agents",
+      "checkedBy": "oct01_editorial",
+      "note": "実行結果の確認と人の判断への引き継ぎという設計上の背景。本文は独自の記入方法で、引用・製品機能・効果統計を主張しない。"
+    }
+  ],
+  "review": "Coordinator reviewed for concise factual copy and different intent. No public references, internal metadata, claims of implemented automation, or unverified statistics. Dates are placeholders for the next run and must be replaced with actual publication date.",
+  "article": {
+    "slug": "ai-work-handoff-template",
+    "path": "/insights/ai-work-handoff-template",
+    "category": "AI活用",
+    "publishedAt": "2026-10-02",
+    "updatedAt": "2026-10-02",
+    "dateLabel": "2026.10.02",
+    "title": "AIの作業を人へ引き継ぐ｜済んだこと・残ったことの記入メモ",
+    "description": "AIを使った作業を別の担当者へ引き継ぐための記入メモです。済んだ作業、未着手の作業、判断してほしい点、成果物の場所を整理し、次にどこから進めるかを架空の例で紹介します。",
+    "lead": "AIを使った作業を人へ渡すときは、できあがった文章や表と一緒に、済んだことと残ったことを伝えます。「確認をお願いします」に、何を判断してほしいかと、その後の作業を添えましょう。",
+    "sections": [
+      {
+        "id": "record-actual-progress",
+        "title": "予定と、実際に済んだことを分ける",
+        "paragraphs": [
+          "「一覧を作る予定」と「一覧を作った」は別の状態です。AIの返答だけで判断せず、渡すファイルや実際の処理結果を確認してから、済んだ作業を書きます。",
+          "途中まで進んだ場合は、対象の件数や範囲も残します。未着手の作業と、確認できずに保留した作業を分けると、次の担当者が開始点を選べます。"
+        ]
+      },
+      {
+        "id": "handoff-fields",
+        "title": "コピーして使う引き継ぎメモ",
+        "paragraphs": [
+          "一件の作業について、次の欄を埋めます。成果物や元資料は、引き継ぐ相手が開ける場所を添えてください。"
+        ],
+        "items": [
+          "対象：［何の作業か／今回扱った範囲］",
+          "済んだこと：［完了した作業／確認した成果物の場所］",
+          "残ったこと：［未着手の作業／保留した作業と理由］",
+          "判断してほしいこと：［決めてほしい点／判断に使う元資料の場所］",
+          "引き継ぎ先と次の作業：［担当者／確認後に誰がどこから進めるか］"
+        ]
+      },
+      {
+        "id": "registration-example",
+        "title": "記入例：申込一覧に同じ名前がある",
+        "paragraphs": [
+          "架空の社内勉強会の例です。担当者がAIで申込内容を表に整理したところ、12件のうち2件に同じ名前がありました。同じ人の重複申込か、別の人かは分かっていません。"
+        ],
+        "items": [
+          "対象：社内勉強会の申込12件を参加者一覧にまとめる。",
+          "済んだこと：10件を一覧に整理し、元の申込と照合した。一覧は共有フォルダの「参加者一覧・作業中」。",
+          "残ったこと：同じ名前の2件は保留欄に残した。統合・削除と、参加者数の確定は行っていない。",
+          "判断してほしいこと：2件が同じ人の申込かを確認してほしい。元資料は申込番号11と12。",
+          "引き継ぎ先と次の作業：受付担当が2件を確認する。その結果を受け、一覧の作成担当が保留欄を直して参加者数を確定する。"
+        ]
+      },
+      {
+        "id": "continue-after-handoff",
+        "title": "確認結果を追記して、残った作業へ進む",
+        "paragraphs": [
+          "この例で受付担当に尋ねるのは、同じ名前の2件をどう扱うかです。確認結果には「誰が、何を確かめ、どう判断したか」を追記します。",
+          "一覧の作成担当は、その結果を見て保留した2件の整理から進めます。最後に、更新した一覧の場所と、参加者数を確定したことを同じメモへ残します。",
+          "引き継ぎを試すときは、受け取った人がメモから成果物を開き、判断する点と次の作業を説明できるかを確かめてください。足りない情報があれば、その欄だけ補います。"
+        ],
+        "link": {
+          "label": "AIを使った業務の運用設計を見る",
+          "href": "/services/ai-marketing/"
+        }
+      }
+    ]
+  }
+}

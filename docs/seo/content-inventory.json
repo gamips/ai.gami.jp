@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-30",
+  "updatedAt": "2026-10-01",
   "rules": {
     "oneOwnerUrlPerIntent": true,
     "publicCopyExcludesOperationalMetadata": true
@@ -105,7 +105,9 @@
       "type": "conversion",
       "intent": "AI導入・AI開発相談",
       "status": "published",
-      "lastModified": "2026-05-08"
+      "lastModified": "2026-10-01",
+      "experimentId": "contact-initial-html-parity-v1",
+      "contentSource": "src/app/content/contact.js"
     },
     {
       "url": "https://ai.gami.jp/insights/",

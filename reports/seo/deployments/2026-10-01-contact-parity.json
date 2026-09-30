@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "sourceCommit": "34346c693e51d2fb4f31af7458fce7ecb344421b",
+  "baselineCommit": "38943cd",
+  "verifiedAt": "2026-09-30T23:15:16Z",
+  "url": "https://ai.gami.jp/contact/",
+  "change": "Existing consultation heading/paragraph moved to a small content source and exposed once in initialHTML. React text, DOM, form, CSS and shared renderers unchanged.",
+  "build": {
+    "local": "npm run build passed",
+    "diffCheck": "passed",
+    "reviewModelConfigured": "gpt-6-astra",
+    "review": "Independent read-only review found no issues; existing ASCII space, headings, br/span/classes, form/submit logic and all other SEO entries preserved."
+  },
+  "actions": {
+    "status": "not_started",
+    "reason": "Canonical1.0.8 recovery; September28 normal-route build passed but four curl28 connections failed. Production commit uses skip ci; no active deploy before FTPS.",
+    "priorFailedRun": "https://github.com/gamips/ai.gami.jp/actions/runs/36357667097",
+    "normalRouteRecovered": false,
+    "nextNormalRouteCheckOnOrAfter": "2026-10-05"
+  },
+  "publication": {
+    "startedAt": "2026-10-01T08:08:28.2880320+09:00",
+    "completedAt": "2026-10-01T08:09:01.6572165+09:00",
+    "method": "FTPS using existing project connection",
+    "target": "sv90.xserver.jp/gami.jp/public_html/ai.gami.jp/",
+    "count": 51,
+    "unchangedServerFilesPreserved": true,
+    "remoteFilesDeleted": 0
+  },
+  "staticVerification": {
+    "checkedAt": "2026-09-30T23:08:11.207Z",
+    "baselineCommit": "38943cd",
+    "renderedCopyMatchesBaseline": true,
+    "allOtherContactCodeUnchanged": true,
+    "formCodeUnchanged": true,
+    "allOtherSeoEntriesUnchanged": true,
+    "all13ArticlesUnchanged": true,
+    "servicesUnchanged": true,
+    "sharedRenderersUnchanged": true,
+    "sitemapUrls": 24,
+    "staticEntries": 26,
+    "unchangedCss": [
+      "index-BSUbwp1T.css"
+    ],
+    "h1": 1,
+    "contactPageSchema": 1,
+    "articleSchema": 0,
+    "consultationHeadingAndParagraphCount": 1,
+    "liveBaselineStatus": 200,
+    "baselineInitialMainMissingScope": true,
+    "existingSeoHeadUnchanged": true,
+    "passed": true
+  },
+  "liveVerification": {
+    "checkedAt": "2026-09-30T23:10:26.205Z",
+    "baselineCommit": "38943cd",
+    "renderedCopyMatchesBaseline": true,
+    "allOtherContactCodeUnchanged": true,
+    "formCodeUnchanged": true,
+    "allOtherSeoEntriesUnchanged": true,
+    "all13ArticlesUnchanged": true,
+    "servicesUnchanged": true,
+    "sharedRenderersUnchanged": true,
+    "sitemapUrls": 24,
+    "staticEntries": 26,
+    "unchangedCss": [
+      "index-BSUbwp1T.css"
+    ],
+    "h1": 1,
+    "contactPageSchema": 1,
+    "articleSchema": 0,
+    "consultationHeadingAndParagraphCount": 1,
+    "liveStatus": 200,
+    "liveHeadAndMainMatch": true,
+    "liveSitemapMatches": true,
+    "passed": true
+  },
+  "assetVerification": {
+    "checkedAt": "2026-09-30T23:10:27.205Z",
+    "assetsChecked": 24,
+    "assetHashesMatch": true,
+    "headsChecked": 26,
+    "allStaticSeoHeadsMatch": true,
+    "scope": "All generated SEO heads and built JavaScript hashes after fallback upload; not a full UI audit.",
+    "passed": true
+  },
+  "browser": {
+    "desktop": {
+      "mainTextUnchanged": true,
+      "mainHtmlUnchanged": true,
+      "formHtmlUnchanged": true,
+      "headingsUnchanged": true,
+      "descriptionUnchanged": true,
+      "controlsUnchanged": true,
+      "layout": {
+        "width": 1440,
+        "scrollWidth": 1425,
+        "height": 1000,
+        "schemas": [
+          "Organization",
+          "ContactPage",
+          "BreadcrumbList"
+        ],
+        "canonical": "https://ai.gami.jp/contact/"
+      },
+      "visualReview": "passed",
+      "screenshot": "output/playwright/2026-10-01-contact/desktop-scope.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 375,
+      "mainTextUnchanged": true,
+      "mainHtmlUnchanged": true,
+      "formHtmlUnchanged": true,
+      "headingsUnchanged": true,
+      "descriptionUnchanged": true,
+      "controlsUnchanged": true,
+      "visualReview": "passed",
+      "screenshot": "output/playwright/2026-10-01-contact/mobile-scope.png"
+    },
+    "consoleErrors": 0,
+    "consoleWarnings": 0,
+    "network": "30 captured GET responses including baseline and two post-release loads were200. Post-release loads served current index/Contact/PageSeo bundles. No POST requests.",
+    "realFormSubmission": false,
+    "sessionClosed": true,
+    "note": "Screenshots can leave empty style attributes on inputs. Final mobile DOM equality was captured after reload and before screenshot; exact main/form/controls equality passed."
+  },
+  "design": {
+    "existingLayoutAndCssUnchanged": true,
+    "lazywebQuery": "contact sales introduction",
+    "coverage": "moderate",
+    "decision": "Contact-sales examples reviewed; retain current simple intro and form. No extra fields/cards or reference report.",
+    "privateSearchUrl": "https://www.lazyweb.com/agentic-search/1ab023f5-6bbd-4fa8-81c3-84f78ead6d36"
+  },
+  "measurementValidation": "Root independently checked contiguous28-day windows, query/page/device CTRs, device totals/weighted position and brand exclusions. All23 top-level fields/332 leaf values and all row order match held raw-derived expected; differences0 and no refetch.",
+  "recordValidation": {
+    "checkedAt": "2026-09-30T23:16:33.370Z",
+    "passed": true,
+    "activeExperiments": 21,
+    "observationQueue": 22,
+    "priorHistoryAndOriginalObservationDatesPreserved": true,
+    "otherInventoryEntriesUnchanged": true,
+    "promptAndScheduleUnchanged": true,
+    "draftNotPublished": true,
+    "sourceCommit": "34346c693e51d2fb4f31af7458fce7ecb344421b",
+    "independentReadOnlyReview": "No errors found in state, inventory, experiments, October log, deployment, metrics references or unpublished handoff draft. Existing observations, original October2 reviews and prior history preserved."
+  },
+  "acquisitionEffect": "not-yet-measurable",
+  "note": "Publication is verified independently of the failed normal Actions route. This change is after the latest finalized GSC date; no causal search or inquiry result."
+}
