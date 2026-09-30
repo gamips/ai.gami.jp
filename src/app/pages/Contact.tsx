@@ -3,6 +3,7 @@ import { ChangeEvent, FormEvent, useState } from "react";
 import { useNavigate } from "react-router";
 import { PageSeo } from "../components/PageSeo";
 import { ScrollReveal } from "../components/ScrollReveal";
+import { contactIntro } from "../content/contact.js";
 
 type SubmitState = "idle" | "submitting" | "success" | "error";
 
@@ -124,15 +125,14 @@ export function Contact() {
               <div className="py-12 space-y-10">
                 <div>
                   <h2 className="text-4xl md:text-5xl font-bold text-zinc-900 leading-tight">
-                    まずは
+                    {contactIntro.titleLines[0]}
                     <br />
-                    <span className="text-cyan-500">お気軽にご相談ください</span>
+                    <span className="text-cyan-500">{contactIntro.titleLines[1]}</span>
                   </h2>
                 </div>
                 <div className="space-y-6 text-lg text-zinc-700 leading-relaxed">
                   <p>
-                    AI導入の初期相談、業務フロー整理、RAG構築、サイト改善、SaaS連携の相談など、
-                    検討段階でも問題ありません。まだ要件が固まっていない状態でもご相談いただけます。
+                    {contactIntro.description}
                   </p>
                 </div>
               </div>

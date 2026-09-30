@@ -4,6 +4,7 @@ import { pricePlans, monthlyModelPoints, projectNotes } from "../content/pricing
 import { companyInfo } from "../content/company.js";
 import { conceptIdeas } from "../content/concept.js";
 import { serviceSummaries } from "../content/serviceSummaries.js";
+import { contactIntro } from "../content/contact.js";
 
 export const SITE_NAME = "GAMI";
 export const SITE_LEGAL_NAME = "株式会社Gami";
@@ -1052,6 +1053,7 @@ export const pageSeoByPath = {
   },
   "/contact": {
     path: "/contact",
+    lastModified: "2026-10-01",
     fallbackHeading: "AI導入・AI開発のご相談",
     title: "Contact | AI導入相談・AI開発相談 | GAMI",
     description:
@@ -1060,6 +1062,12 @@ export const pageSeoByPath = {
     image: "/og/contact.png",
     imageAlt: "Contact page open graph image",
     ogType: "website",
+    fallbackSections: [
+      {
+        title: contactIntro.titleLines.join(""),
+        body: contactIntro.description,
+      },
+    ],
     schemas: [
       organizationSchema,
       createBaseWebPageSchema({
