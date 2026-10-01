@@ -1,0 +1,62 @@
+[
+  {
+    "siteUrl": "sc-domain:ai.gami.jp",
+    "inspectionUrl": "https://ai.gami.jp/insights/ai-introduction-support/",
+    "fetchedAt": "2026-10-01T23:04:41.3306575+00:00",
+    "source": "google-index",
+    "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:ai.gami.jp&id=7C3KoXS54rDTUmFKTIOEkA&utm_medium=link&utm_source=api",
+    "verdict": "PASS",
+    "coverageState": "送信して登録されました",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-09-04T20:00:33Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://ai.gami.jp/insights/ai-introduction-support/",
+    "userCanonical": "https://ai.gami.jp/insights/ai-introduction-support/"
+  },
+  {
+    "siteUrl": "sc-domain:ai.gami.jp",
+    "inspectionUrl": "https://ai.gami.jp/insights/ai-introduction-support-pricing/",
+    "fetchedAt": "2026-10-01T23:04:48.7959901+00:00",
+    "source": "google-index",
+    "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:ai.gami.jp&id=srzVjSWTjLJphdwdN4oDLg&utm_medium=link&utm_source=api",
+    "verdict": "PASS",
+    "coverageState": "送信して登録されました",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-09-04T21:15:37Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://ai.gami.jp/insights/ai-introduction-support-pricing/",
+    "userCanonical": "https://ai.gami.jp/insights/ai-introduction-support-pricing/"
+  },
+  {
+    "siteUrl": "sc-domain:ai.gami.jp",
+    "inspectionUrl": "https://ai.gami.jp/insights/chatgpt-workplace-adoption-checklist/",
+    "fetchedAt": "2026-10-01T23:04:56.1899639+00:00",
+    "source": "google-index",
+    "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:ai.gami.jp&id=eQtrSQCA3rMad01MtnhS9Q&utm_medium=link&utm_source=api",
+    "verdict": "PASS",
+    "coverageState": "送信して登録されました",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-09-04T21:53:06Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://ai.gami.jp/insights/chatgpt-workplace-adoption-checklist/",
+    "userCanonical": "https://ai.gami.jp/insights/chatgpt-workplace-adoption-checklist/"
+  },
+  {
+    "siteUrl": "sc-domain:ai.gami.jp",
+    "inspectionUrl": "https://ai.gami.jp/services/",
+    "fetchedAt": "2026-10-01T23:05:03.5716192+00:00",
+    "source": "google-index",
+    "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:ai.gami.jp&id=pSROsQ3BBXpVxCe5x-qGTw&utm_medium=link&utm_source=api",
+    "verdict": "PASS",
+    "coverageState": "送信して登録されました",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-06-26T11:33:06Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://ai.gami.jp/services/",
+    "userCanonical": "https://ai.gami.jp/services/"
+  }
+]

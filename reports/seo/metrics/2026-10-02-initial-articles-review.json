@@ -1,0 +1,105 @@
+{
+  "observedAt": "2026-10-02T08:04:32.2119398+09:00",
+  "completedAt": "2026-10-02T08:04:33.2600876+09:00",
+  "source": "Google Search Console API",
+  "siteUrl": "sc-domain:ai.gami.jp",
+  "searchType": "web",
+  "dataState": "final",
+  "originalEffectReviewOnOrAfter": "2026-10-02",
+  "window": {
+    "startDate": "2026-09-05",
+    "endDate": "2026-09-28",
+    "fullFinalDays": 24
+  },
+  "minimumEvidence": {
+    "finalDays": 28,
+    "pageImpressions": 30
+  },
+  "collection": {
+    "dimensions": [
+      "page"
+    ],
+    "queryPageDimensions": [
+      "query",
+      "page"
+    ],
+    "filter": {
+      "dimension": "page",
+      "operator": "contains",
+      "expression": "/insights/"
+    },
+    "rowLimit": 1000
+  },
+  "articles": [
+    {
+      "experimentId": "insight-ai-introduction-support-v1",
+      "url": "https://ai.gami.jp/insights/ai-introduction-support/",
+      "originalStartedAt": "2026-09-04T10:46:03+09:00",
+      "page": {
+        "page": "https://ai.gami.jp/insights/ai-introduction-support/",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 79
+      },
+      "disclosedQueryPages": [
+        {
+          "query": "ai導入 運用支援",
+          "page": "https://ai.gami.jp/insights/ai-introduction-support/",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 79
+        }
+      ],
+      "finalDaysThresholdMet": false,
+      "pageImpressionsThresholdMet": false,
+      "result": "not-yet-measurable",
+      "nextEffectCheckOnOrAfter": "2026-10-06"
+    },
+    {
+      "experimentId": "insight-ai-introduction-support-pricing-v1",
+      "url": "https://ai.gami.jp/insights/ai-introduction-support-pricing/",
+      "originalStartedAt": "2026-09-04T16:03:12+09:00",
+      "page": {
+        "page": "https://ai.gami.jp/insights/ai-introduction-support-pricing/",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 71.33333333333333
+      },
+      "disclosedQueryPages": [],
+      "finalDaysThresholdMet": false,
+      "pageImpressionsThresholdMet": false,
+      "result": "not-yet-measurable",
+      "nextEffectCheckOnOrAfter": "2026-10-06"
+    },
+    {
+      "experimentId": "insight-chatgpt-adoption-checklist-v1",
+      "url": "https://ai.gami.jp/insights/chatgpt-workplace-adoption-checklist/",
+      "originalStartedAt": "2026-09-04T21:50:06+09:00",
+      "page": {
+        "page": "https://ai.gami.jp/insights/chatgpt-workplace-adoption-checklist/",
+        "clicks": 0,
+        "impressions": 17,
+        "ctr": 0,
+        "position": 18.352941176470587
+      },
+      "disclosedQueryPages": [
+        {
+          "query": "chatgpt 社内 定着しない",
+          "page": "https://ai.gami.jp/insights/chatgpt-workplace-adoption-checklist/",
+          "clicks": 0,
+          "impressions": 13,
+          "ctr": 0,
+          "position": 21.076923076923077
+        }
+      ],
+      "finalDaysThresholdMet": false,
+      "pageImpressionsThresholdMet": false,
+      "result": "not-yet-measurable",
+      "nextEffectCheckOnOrAfter": "2026-10-06"
+    }
+  ],
+  "note": "The 24 days are the inclusive selected GSC final-date window, not a count of days with impressions. Missing query-page rows are unobserved, not zero. October 6 is a proposed follow-up using the current four-day lag, not a guaranteed freshness date; require latest final at least October 2. Preserve original starts and the completed October 2 scheduled review. September 13 shared schema correction prevents content-only attribution."
+}

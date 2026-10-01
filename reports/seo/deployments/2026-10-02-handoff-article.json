@@ -1,0 +1,280 @@
+{
+  "schemaVersion": 1,
+  "sourceCommit": "22e6c89e5ddbdd04f3bb0e7e229ba3b21f6c68cd",
+  "baselineCommit": "a02cdeb",
+  "verifiedAt": "2026-10-01T23:17:05Z",
+  "url": "https://ai.gami.jp/insights/ai-work-handoff-template/",
+  "change": "One new article entry using the existing single-source Insights renderer; no changes to13 existing article objects/dates, service pages, shared templates or CSS.",
+  "build": {
+    "local": "npm run build passed",
+    "diffCheck": "passed",
+    "copyModelConfigured": "gpt-6-astra",
+    "review": "Latest-model editorial review and coordinator review passed. Five handoff fields, a clearly fictional12-record example,10completed+2pending, explicit source-document location and service link."
+  },
+  "actions": {
+    "status": "not_started",
+    "reason": "Canonical1.0.8 recovery; September28 build passed but four curl28 connections failed. Production commit uses skip ci; no active deploy before FTPS.",
+    "priorFailedRun": "https://github.com/gamips/ai.gami.jp/actions/runs/36357667097",
+    "normalRouteRecovered": false,
+    "nextNormalRouteCheckOnOrAfter": "2026-10-05"
+  },
+  "publication": {
+    "startedAt": "2026-10-02T08:07:01.0153427+09:00",
+    "completedAt": "2026-10-02T08:07:34.6590549+09:00",
+    "method": "FTPS using existing project connection",
+    "target": "sv90.xserver.jp/gami.jp/public_html/ai.gami.jp/",
+    "count": 52,
+    "unchangedServerFilesPreserved": true,
+    "remoteFilesDeleted": 0
+  },
+  "staticVerification": {
+    "checkedAt": "2026-10-01T23:06:46.018Z",
+    "baselineCommit": "a02cdeb",
+    "existing13ArticlesUnchanged": true,
+    "sharedRenderersAndServicePagesUnchanged": true,
+    "articleCount": 14,
+    "staticEntries": 27,
+    "sitemapUrls": 25,
+    "articleSchema": 1,
+    "webPageSchema": 1,
+    "listItems": 14,
+    "initialBodyComplete": true,
+    "unchangedCss": [
+      "index-BSUbwp1T.css"
+    ],
+    "ogStatus": 200,
+    "dueLiveChecks": [
+      {
+        "url": "https://ai.gami.jp/insights/ai-introduction-support/",
+        "httpStatus": 200,
+        "headAndInitialMainMatch": true,
+        "indexAllowed": true
+      },
+      {
+        "url": "https://ai.gami.jp/insights/ai-introduction-support-pricing/",
+        "httpStatus": 200,
+        "headAndInitialMainMatch": true,
+        "indexAllowed": true
+      },
+      {
+        "url": "https://ai.gami.jp/insights/chatgpt-workplace-adoption-checklist/",
+        "httpStatus": 200,
+        "headAndInitialMainMatch": true,
+        "indexAllowed": true
+      },
+      {
+        "url": "https://ai.gami.jp/services/",
+        "httpStatus": 200,
+        "headAndInitialMainMatch": true,
+        "indexAllowed": true
+      }
+    ],
+    "baselineTargetStatus": 404,
+    "baselineTargetHasArticleCanonical": false,
+    "passed": true
+  },
+  "liveVerification": {
+    "checkedAt": "2026-10-01T23:08:15.014Z",
+    "baselineCommit": "a02cdeb",
+    "existing13ArticlesUnchanged": true,
+    "sharedRenderersAndServicePagesUnchanged": true,
+    "articleCount": 14,
+    "staticEntries": 27,
+    "sitemapUrls": 25,
+    "articleSchema": 1,
+    "webPageSchema": 1,
+    "listItems": 14,
+    "initialBodyComplete": true,
+    "unchangedCss": [
+      "index-BSUbwp1T.css"
+    ],
+    "ogStatus": 200,
+    "dueLiveChecks": [
+      {
+        "url": "https://ai.gami.jp/insights/ai-introduction-support/",
+        "httpStatus": 200,
+        "headAndInitialMainMatch": true,
+        "indexAllowed": true
+      },
+      {
+        "url": "https://ai.gami.jp/insights/ai-introduction-support-pricing/",
+        "httpStatus": 200,
+        "headAndInitialMainMatch": true,
+        "indexAllowed": true
+      },
+      {
+        "url": "https://ai.gami.jp/insights/chatgpt-workplace-adoption-checklist/",
+        "httpStatus": 200,
+        "headAndInitialMainMatch": true,
+        "indexAllowed": true
+      },
+      {
+        "url": "https://ai.gami.jp/services/",
+        "httpStatus": 200,
+        "headAndInitialMainMatch": true,
+        "indexAllowed": true
+      }
+    ],
+    "liveArticleStatus": 200,
+    "liveListStatus": 200,
+    "liveHeadAndMainMatch": true,
+    "liveSitemapMatches": true,
+    "serviceLinkStatus": 200,
+    "passed": true
+  },
+  "assetVerification": {
+    "checkedAt": "2026-10-01T23:08:16.322Z",
+    "assetsChecked": 24,
+    "assetHashesMatch": true,
+    "headsChecked": 27,
+    "allStaticSeoHeadsMatch": true,
+    "scope": "All generated SEO heads and built JavaScript hashes after fallback upload; not a full UI audit.",
+    "passed": true
+  },
+  "browser": {
+    "desktop": {
+      "article": {
+        "width": 1440,
+        "height": 1000,
+        "scrollWidth": 1425,
+        "h1Count": 1,
+        "sectionCount": 4,
+        "allArticleTextPresent": true,
+        "canonical": "https://ai.gami.jp/insights/ai-work-handoff-template/",
+        "schemas": [
+          "Organization",
+          "WebPage",
+          "Article",
+          "BreadcrumbList"
+        ]
+      },
+      "listing": {
+        "width": 1440,
+        "height": 1000,
+        "scrollWidth": 1425,
+        "articleCount": 14,
+        "h1Count": 1,
+        "itemListCount": 14
+      },
+      "visualReview": "passed",
+      "screenshots": [
+        "output/playwright/2026-10-02-handoff/desktop-list.png",
+        "output/playwright/2026-10-02-handoff/desktop-header.png",
+        "output/playwright/2026-10-02-handoff/desktop-fields.png"
+      ]
+    },
+    "mobile": {
+      "article": {
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 375,
+        "h1Count": 1,
+        "sectionCount": 4,
+        "allArticleTextPresent": true,
+        "canonical": "https://ai.gami.jp/insights/ai-work-handoff-template/",
+        "schemas": [
+          "Organization",
+          "WebPage",
+          "Article",
+          "BreadcrumbList"
+        ]
+      },
+      "listing": {
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 375,
+        "articleCount": 14,
+        "h1Count": 1,
+        "itemListCount": 14
+      },
+      "visualReview": "passed",
+      "screenshots": [
+        "output/playwright/2026-10-02-handoff/mobile-header.png",
+        "output/playwright/2026-10-02-handoff/mobile-example-viewport.png",
+        "output/playwright/2026-10-02-handoff/mobile-list.png"
+      ]
+    },
+    "navigation": {
+      "listingToArticle": "passed; correct URL and H1, scrollY0",
+      "articleToService": "passed; /services/ai-marketing/, matching H1/selfcanonical and scrollY0",
+      "articleBackToListing": "passed;14entries, selfcanonical and scrollY0"
+    },
+    "mobileExampleBounds": {
+      "width": 390,
+      "scrollWidth": 375,
+      "section": {
+        "x": 24,
+        "y": 401.03125,
+        "width": 327,
+        "height": 1073.46875,
+        "scrollWidth": 327,
+        "transform": "none"
+      },
+      "outside": []
+    },
+    "consoleErrors": 0,
+    "consoleWarnings": 0,
+    "network": "Final captured article load and subsequent list navigation:15GET responses, all200. CurrentJS/CSS served. Broader24JS/27head release check recorded separately.",
+    "realFormSubmission": false,
+    "sessionClosed": true,
+    "cliArtifacts": "output/playwright/2026-10-02-handoff/cli",
+    "note": "The element-only mobile example screenshot was clipped and is not used as visual evidence. Replacement viewport screenshot and section bounds (327px, no descendants outside viewport) passed. Shared CSS/layout were not changed."
+  },
+  "design": {
+    "existingLayoutAndCssUnchanged": true,
+    "lazywebQuery": "article checklist template",
+    "coverage": "moderate",
+    "decision": "Checklist/article references reviewed; retain existing one-column editorial layout. No extra cards or reference report.",
+    "privateSearchUrl": "https://www.lazyweb.com/agentic-search/3cfcba60-7974-4920-b445-280a5115a195"
+  },
+  "measurementValidation": {
+    "checkedAt": "2026-10-01 23:15:16 UTC",
+    "passed": true,
+    "checks": [
+      {
+        "period": "current",
+        "days": 28,
+        "windowCtr": true,
+        "rowCtrs": true,
+        "deviceClicks": 4,
+        "deviceImpressions": 115,
+        "devicePosition": 16.930434782608696,
+        "nonBrandClicks": 0,
+        "nonBrandImpressions": 28,
+        "nonBrandQueries": 9
+      },
+      {
+        "period": "previous",
+        "days": 28,
+        "windowCtr": true,
+        "rowCtrs": true,
+        "deviceClicks": 0,
+        "deviceImpressions": 17,
+        "devicePosition": 17.529411764705884,
+        "nonBrandClicks": 0,
+        "nonBrandImpressions": 5,
+        "nonBrandQueries": 2
+      }
+    ],
+    "initialArticlesFullFinalDays": 24,
+    "newArticleFullDaysTarget": "2026-10-03/2026-10-30",
+    "prior28CurrentContiguous": true,
+    "heldRawValidation": "Measurement agent compared all saved normalized metric and dedicated review fields and array order with held raw-derived expected: exact match, no refetch."
+  },
+  "recordValidation": {
+    "checkedAt": "2026-10-01T23:20:52.183Z",
+    "passed": true,
+    "activeExperiments": 22,
+    "observationQueue": 23,
+    "priorHistoryAndOriginalObservationDatesPreserved": true,
+    "onlyFourDueObservationsUpdated": true,
+    "otherInventoryEntriesUnchanged": true,
+    "publishedDraftMatchesSource": true,
+    "promptAndScheduleUnchanged": true,
+    "sourceCommit": "22e6c89e5ddbdd04f3bb0e7e229ba3b21f6c68cd",
+    "recordReferencesExist": true,
+    "independentReadOnlyReview": "No errors found. Only four due observations changed,22active/23queue without duplicates, original dates/history intact, published draft exact,14articles/25sitemap and all evidence references consistent. Existing prompt1.0.9/daily08:00 retained."
+  },
+  "acquisitionEffect": "not-yet-measurable",
+  "note": "Actual publication is verified independently of the failed normal Actions route. Latest final date remains September28; today's article is outside it. Existing due articles have24full final days and1/3/17impressions, below thresholds. No causal search/qualified-visit/inquiry result."
+}

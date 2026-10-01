@@ -7,33 +7,33 @@
     "currentCadenceHours": 24,
     "status": "ACTIVE",
     "currentSchedule": "毎日8:00（Asia/Tokyo）",
-    "scheduleObservedAt": "2026-09-30T23:15:16Z",
+    "scheduleObservedAt": "2026-10-01T23:17:05Z",
     "scheduleSource": "Existing automation viewed and saved toml read back: ACTIVE daily08:00 Asia/Tokyo. Canonical1.0.9 and launcher/cadence unchanged."
   },
-  "lastActualRunAt": "2026-09-30T23:15:16Z",
-  "lastPromptAuditAt": "2026-09-30T23:15:16Z",
+  "lastActualRunAt": "2026-10-01T23:17:05Z",
+  "lastPromptAuditAt": "2026-10-01T23:17:05Z",
   "measurement": {
     "searchConsole": {
       "siteUrl": "sc-domain:ai.gami.jp",
       "status": "connected",
       "latestFinalizedDate": "2026-09-28",
-      "lastRecordedAt": "2026-10-01T08:03:04.4757782+09:00",
-      "latestMetricsPath": "reports/seo/metrics/2026-10-01-0803.json",
+      "lastRecordedAt": "2026-10-02T08:04:29.3051781+09:00",
+      "latestMetricsPath": "reports/seo/metrics/2026-10-02-0804.json",
       "urlInspection": {
         "status": "available",
         "source": "google-index",
-        "verifiedAt": "2026-09-29T23:02:32.9378934+00:00",
-        "latestInspectionPath": "reports/seo/inspections/2026-09-30-rag-review.json",
+        "verifiedAt": "2026-10-01T23:05:03.5716192+00:00",
+        "latestInspectionPath": "reports/seo/inspections/2026-10-02-due-pages.json",
         "implementationCommit": "6ea352c25bb87684a0b337ad0a51ba66d5f48bd4"
       },
       "sitemap": {
         "status": "readable_resubmission_blocked",
         "lastCheckedAt": "2026-09-27T08:02:46.4678568+09:00",
         "latestEvidencePath": "reports/seo/inspections/2026-09-27-sitemap.json",
-        "liveUrlCount": 24,
+        "liveUrlCount": 25,
         "nextReadOnlyCheckOnOrAfter": "2026-10-04",
-        "liveVerifiedAt": "2026-09-30T23:10:26.205Z",
-        "liveEvidencePath": "reports/seo/deployments/2026-10-01-contact-parity.json"
+        "liveVerifiedAt": "2026-10-01T23:08:15.014Z",
+        "liveEvidencePath": "reports/seo/deployments/2026-10-02-handoff-article.json"
       },
       "attributionCaveat": "All Insights received a shared WebPage schema-type correction on2026-09-13. Article copy/dates and observation dates are unchanged, but later before/after signals cannot isolate content-only effects. See current deployment evidence and experiments log.",
       "nonBrandDefinition": {
@@ -74,14 +74,15 @@
     "service-ai-web-brief-link-v1",
     "service-ai-marketing-fact-check-link-v1",
     "service-ai-saas-comparison-link-v1",
-    "contact-initial-html-parity-v1"
+    "contact-initial-html-parity-v1",
+    "insight-ai-work-handoff-template-v1"
   ],
   "deployment": {
-    "lastSuccessfulAt": "2026-10-01T08:09:01.6572165+09:00",
-    "commit": "34346c693e51d2fb4f31af7458fce7ecb344421b",
+    "lastSuccessfulAt": "2026-10-02T08:07:34.6590549+09:00",
+    "commit": "22e6c89e5ddbdd04f3bb0e7e229ba3b21f6c68cd",
     "workflowRun": null,
     "method": "FTPS using existing project connection",
-    "evidencePath": "reports/seo/deployments/2026-10-01-contact-parity.json",
+    "evidencePath": "reports/seo/deployments/2026-10-02-handoff-article.json",
     "liveVerification": "passed",
     "actionsStatus": "Not started under canonical1.0.8 recovery. September28 normal route repeated four curl28 timeouts after successful build. No active deploy before existing FTPS publication; server/auth/workflow unchanged. Next normal-route recheckOctober5 retained.",
     "priorFailedActionsRun": "https://github.com/gamips/ai.gami.jp/actions/runs/36357667097",
@@ -96,8 +97,8 @@
       "startedAt": "2026-09-04T10:46:03+09:00",
       "nextChecks": [
         {
-          "onOrAfter": "2026-10-02",
-          "check": "28 finalized days or minimum evidence"
+          "onOrAfter": "2026-10-06",
+          "check": "Continue original effect review after at least28 finalized full post-publication days (latest final at leastOctober2) and30 page impressions. October2 review completed with24 days and insufficient impressions. Reuse October2 index evidence unless a new technical signal requires inspection."
         }
       ],
       "completedChecks": [
@@ -109,6 +110,30 @@
           "queryPageEffect": "not-yet-measurable",
           "inspectionEvidencePath": "reports/seo/inspections/2026-09-11-initial-articles.json",
           "metricsEvidencePath": "reports/seo/metrics/2026-09-11-0802.json"
+        },
+        {
+          "onOrAfter": "2026-10-02",
+          "check": "28 finalized days or minimum evidence",
+          "checkedAt": "2026-10-01T23:04:41.3306575+00:00",
+          "indexResult": "confirmed",
+          "indexVerdict": "PASS",
+          "coverageState": "送信して登録されました",
+          "lastCrawlTime": "2026-09-04T20:00:33Z",
+          "queryPageEffect": "not-yet-measurable",
+          "finalizedWindow": {
+            "startDate": "2026-09-05",
+            "endDate": "2026-09-28",
+            "fullFinalDays": 24
+          },
+          "pageImpressions": 1,
+          "minimumEvidence": {
+            "finalDays": 28,
+            "pageImpressions": 30
+          },
+          "inspectionEvidencePath": "reports/seo/inspections/2026-10-02-due-pages.json",
+          "metricsEvidencePath": "reports/seo/metrics/2026-10-02-0804.json",
+          "effectReviewEvidencePath": "reports/seo/metrics/2026-10-02-initial-articles-review.json",
+          "note": "The original October2 review was completed, not reset. Latest crawl follows original publication but predates September13 shared schema change; no latest-version indexing claim."
         }
       ]
     },
@@ -118,8 +143,8 @@
       "startedAt": "2026-09-04T16:03:12+09:00",
       "nextChecks": [
         {
-          "onOrAfter": "2026-10-02",
-          "check": "28 finalized days or minimum evidence"
+          "onOrAfter": "2026-10-06",
+          "check": "Continue original effect review after at least28 finalized full post-publication days (latest final at leastOctober2) and30 page impressions. October2 review completed with24 days and insufficient impressions. Reuse October2 index evidence unless a new technical signal requires inspection."
         }
       ],
       "completedChecks": [
@@ -131,6 +156,30 @@
           "queryPageEffect": "not-yet-measurable",
           "inspectionEvidencePath": "reports/seo/inspections/2026-09-11-initial-articles.json",
           "metricsEvidencePath": "reports/seo/metrics/2026-09-11-0802.json"
+        },
+        {
+          "onOrAfter": "2026-10-02",
+          "check": "28 finalized days or minimum evidence",
+          "checkedAt": "2026-10-01T23:04:48.7959901+00:00",
+          "indexResult": "confirmed",
+          "indexVerdict": "PASS",
+          "coverageState": "送信して登録されました",
+          "lastCrawlTime": "2026-09-04T21:15:37Z",
+          "queryPageEffect": "not-yet-measurable",
+          "finalizedWindow": {
+            "startDate": "2026-09-05",
+            "endDate": "2026-09-28",
+            "fullFinalDays": 24
+          },
+          "pageImpressions": 3,
+          "minimumEvidence": {
+            "finalDays": 28,
+            "pageImpressions": 30
+          },
+          "inspectionEvidencePath": "reports/seo/inspections/2026-10-02-due-pages.json",
+          "metricsEvidencePath": "reports/seo/metrics/2026-10-02-0804.json",
+          "effectReviewEvidencePath": "reports/seo/metrics/2026-10-02-initial-articles-review.json",
+          "note": "The original October2 review was completed, not reset. Latest crawl follows original publication but predates September13 shared schema change; no latest-version indexing claim."
         }
       ]
     },
@@ -140,8 +189,8 @@
       "startedAt": "2026-09-04T21:50:06+09:00",
       "nextChecks": [
         {
-          "onOrAfter": "2026-10-02",
-          "check": "28 finalized days or minimum evidence"
+          "onOrAfter": "2026-10-06",
+          "check": "Continue original effect review after at least28 finalized full post-publication days (latest final at leastOctober2) and30 page impressions. October2 review completed with24 days and insufficient impressions. Reuse October2 index evidence unless a new technical signal requires inspection."
         }
       ],
       "completedChecks": [
@@ -153,6 +202,30 @@
           "queryPageEffect": "not-yet-measurable",
           "inspectionEvidencePath": "reports/seo/inspections/2026-09-11-initial-articles.json",
           "metricsEvidencePath": "reports/seo/metrics/2026-09-11-0802.json"
+        },
+        {
+          "onOrAfter": "2026-10-02",
+          "check": "28 finalized days or minimum evidence",
+          "checkedAt": "2026-10-01T23:04:56.1899639+00:00",
+          "indexResult": "confirmed",
+          "indexVerdict": "PASS",
+          "coverageState": "送信して登録されました",
+          "lastCrawlTime": "2026-09-04T21:53:06Z",
+          "queryPageEffect": "not-yet-measurable",
+          "finalizedWindow": {
+            "startDate": "2026-09-05",
+            "endDate": "2026-09-28",
+            "fullFinalDays": 24
+          },
+          "pageImpressions": 17,
+          "minimumEvidence": {
+            "finalDays": 28,
+            "pageImpressions": 30
+          },
+          "inspectionEvidencePath": "reports/seo/inspections/2026-10-02-due-pages.json",
+          "metricsEvidencePath": "reports/seo/metrics/2026-10-02-0804.json",
+          "effectReviewEvidencePath": "reports/seo/metrics/2026-10-02-initial-articles-review.json",
+          "note": "The original October2 review was completed, not reset. Latest crawl follows original publication but predates September13 shared schema change; no latest-version indexing claim."
         }
       ]
     },
@@ -541,12 +614,28 @@
       "startedAt": "2026-09-25T08:12:21.5059012+09:00",
       "nextChecks": [
         {
-          "onOrAfter": "2026-10-02",
-          "check": "Google crawl/index state and first post-change page/query signal; no causal claim."
+          "onOrAfter": "2026-10-09",
+          "check": "Check recrawl after September25 update; current indexed crawl is June26 and predates it. Preserve original October26 effect review."
         },
         {
           "onOrAfter": "2026-10-26",
           "check": "28 finalized full post-change days and at least30 page impressions; otherwise insufficient evidence. Date assumes observed three-day data lag."
+        }
+      ],
+      "completedChecks": [
+        {
+          "onOrAfter": "2026-10-02",
+          "check": "Google crawl/index state and first post-change page/query signal; no causal claim.",
+          "checkedAt": "2026-10-01T23:05:03.5716192+00:00",
+          "indexResult": "confirmed",
+          "indexVerdict": "PASS",
+          "coverageState": "送信して登録されました",
+          "lastCrawlTime": "2026-06-26T11:33:06Z",
+          "postChangeRecrawl": "not-confirmed",
+          "queryPageEffect": "not-yet-measurable",
+          "inspectionEvidencePath": "reports/seo/inspections/2026-10-02-due-pages.json",
+          "liveTechnicalEvidencePath": "reports/seo/deployments/2026-10-02-handoff-article.json",
+          "metricsEvidencePath": "reports/seo/metrics/2026-10-02-0804.json"
         }
       ]
     },
@@ -624,24 +713,36 @@
           "check": "28 finalized full post-change days (October2–29; latest final at leastOctober29) and at least30 page impressions; otherwise insufficient evidence. Inquiries and qualified visits remain unavailable without analytics."
         }
       ]
+    },
+    {
+      "experimentId": "insight-ai-work-handoff-template-v1",
+      "status": "observing",
+      "startedAt": "2026-10-02T08:07:34.6590549+09:00",
+      "nextChecks": [
+        {
+          "onOrAfter": "2026-10-09",
+          "check": "index and first page/query signal"
+        },
+        {
+          "onOrAfter": "2026-11-03",
+          "check": "28 finalized full post-publication days (October3–30; latest final at leastOctober30) and at least30 page impressions; otherwise insufficient evidence. Date assumes observed four-day data lag."
+        }
+      ]
     }
   ],
   "readyQueue": [
     {
-      "lane": "content",
+      "lane": "content-research",
       "priority": 1,
-      "url": "https://ai.gami.jp/insights/ai-work-handoff-template/",
-      "work": "AIの作業を人へ引き継ぐ記入式メモを、新規記事一式として確認・公開する。準備済み原稿を使い、公開日は実日付へ合わせる。",
-      "draftPath": "docs/seo/drafts/ai-work-handoff-template.json",
+      "work": "「AIを使った作業時間を比べる記録表」を調査し、独立した記事として役立つか確認して原稿を準備する。",
       "copyModelConfigured": "gpt-6-astra",
-      "distinctIntent": "AIを使った一件の作業の完了・未着手・判断待ちと、成果物の場所、引き継ぎ後の開始点を渡す。",
+      "distinctIntent": "同じ量・同じ完了条件の一件の作業で、準備・AIの処理待ち・人の確認・修正にかかる時間を記録する。",
       "evidence": [
-        "13 existing articles reviewed; distinct from customer reply, meeting plans and RAG answer checking.",
-        "Five fill-in fields and a clearly fictional12-record example; no unverified implementation or outcome claims.",
-        "Search demand and expected traffic unconfirmed; publish for distinct practical value, not volume alone."
+        "既存の導入・社内定着記事は効果測定に触れるが、比較用の記入例はない。",
+        "検索需要は未確認。まず既存14記事との重複、測り方、計算例を確認する。"
       ],
-      "freezeBoundary": "Do not edit existing13 articles or their frozen source services. Limit change to new article, list, head/schema and sitemap; outbound service link is in new article only.",
-      "verification": "Coordinator rereview for distinct intent and simple copy; build, diff, initial/rendered Article1+WebPage1, internal links, sitemap and proportional PC/mobile/console checks. No public references or operational metadata."
+      "freezeBoundary": "既存14記事、サービス、共通UI、CTA、計測定義は変更しない。",
+      "verification": "最新モデルのサブエージェントで短い原稿を作り、統括が独自性と計算・前提を確認する。待ち時間と人の作業時間を混同せず、未確認の削減率や成果を主張しない。調査だけで公開を確約しない。"
     }
   ],
   "blocked": [
@@ -659,7 +760,7 @@
     {
       "lane": "technical-seo",
       "item": "Existing sitemap API resubmission",
-      "reason": "Single PUT with existing credentials returnedHTTP403 September6; cause unconfirmed, no retry/scope escalation. September27 GET still returns historical May7/10URL metadata; next read-only checkOctober4. Live sitemap24URLs after September27 publication. Three due newerarticles remainGoogleunknown onSeptember20/27 while live200/head/body/links/sitemap pass.",
+      "reason": "Single PUT with existing credentials returnedHTTP403 September6; cause unconfirmed, no retry/scope escalation. September27 GET still returns historical May7/10URL metadata; next read-only checkOctober4. Live sitemap25URLs after October2 publication. Three due newerarticles remainGoogleunknown onSeptember20/27 while live200/head/body/links/sitemap pass.",
       "doesNotBlock": [
         "Search Console measurement and URL Inspection",
         "content publishing",
@@ -669,28 +770,28 @@
     }
   ],
   "promptAudit": {
-    "lastFullAuditAt": "2026-09-27T23:22:02Z",
+    "lastFullAuditAt": "2026-10-01T23:17:05Z",
     "duplicateObservation": false,
     "singleWriterConflict": false,
     "verificationGap": false,
     "verificationGapResolved": true,
     "cadenceChangeNeeded": false,
-    "nextFullAuditAfterCompletedRuns": 1,
+    "nextFullAuditAfterCompletedRuns": 4,
     "actualPromptReadback": "passed",
     "changeApplied": false,
-    "changeReason": "Third completed run after September28 full audit. Shifted from three service links to independent Contact initialHTML parity and prepared a distinct handoff article. No due URL inspections today, duplicated observation, writer collision or publication blocker. Existing1.0.9 supports this lane change; no new rule or cadence change is justified. Tomorrow's scheduled article reviews must assess finalized days and impression minimums, not calendar date alone.",
+    "changeReason": "Fourth completed run after September28 full audit: September29/30 internal links, October1 technicalSEO, October2 content. Due reviews used24 finalized days and measured1/3/17 impressions, not the calendar alone; continued observation did not stall new publication. No duplicate observation, writer collision or unresolved verification gap. Existing1.0.9 and daily08:00 remain appropriate.",
     "operatingPolicyUpdated": false,
     "externalScheduleChangeObserved": false,
     "launcherPromptUpdated": false,
     "writingModelConfigured": "gpt-6-astra",
-    "fullAudit": false,
+    "fullAudit": true,
     "auditedRunDates": [
-      "2026-09-23",
-      "2026-09-25",
-      "2026-09-27",
-      "2026-09-28"
+      "2026-09-29",
+      "2026-09-30",
+      "2026-10-01",
+      "2026-10-02"
     ],
-    "newReusableLearning": "No new canonical rule. Exact rendered paragraph comparison preserved the existing JSX newline as one ASCII space; existing baseline-parity verification was sufficient.",
+    "newReusableLearning": "No new canonical rule. Due effect reviews remain conditional on finalized-day and impression minimums. One clipped element screenshot was replaced with a viewport capture and DOM bounds check; no production defect or new UI rule.",
     "normalRouteRecheckCompleted": false
   },
   "retiredBlockers": [

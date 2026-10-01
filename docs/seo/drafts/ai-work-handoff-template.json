@@ -1,5 +1,5 @@
 {
-  "status": "draft-not-published",
+  "status": "published",
   "preparedAt": "2026-10-01",
   "copyModelConfigured": "gpt-6-astra",
   "intent": "AIが進めた一件の作業を、別の担当者が引き受けられる状態にまとめる。",
@@ -26,7 +26,7 @@
       "note": "実行結果の確認と人の判断への引き継ぎという設計上の背景。本文は独自の記入方法で、引用・製品機能・効果統計を主張しない。"
     }
   ],
-  "review": "Coordinator reviewed for concise factual copy and different intent. No public references, internal metadata, claims of implemented automation, or unverified statistics. Dates are placeholders for the next run and must be replaced with actual publication date.",
+  "review": "Latest-model editorial review and coordinator review completed. The fictional example now names the source document and record numbers. Fourteen article intents remain distinct. Dates match actual publication. No public references, operational metadata, unverified automation capabilities or outcome claims.",
   "article": {
     "slug": "ai-work-handoff-template",
     "path": "/insights/ai-work-handoff-template",
@@ -70,7 +70,7 @@
           "対象：社内勉強会の申込12件を参加者一覧にまとめる。",
           "済んだこと：10件を一覧に整理し、元の申込と照合した。一覧は共有フォルダの「参加者一覧・作業中」。",
           "残ったこと：同じ名前の2件は保留欄に残した。統合・削除と、参加者数の確定は行っていない。",
-          "判断してほしいこと：2件が同じ人の申込かを確認してほしい。元資料は申込番号11と12。",
+          "判断してほしいこと：2件が同じ人の申込かを確認してほしい。元資料は共有フォルダの「勉強会申込原本」にある申込番号11と12。",
           "引き継ぎ先と次の作業：受付担当が2件を確認する。その結果を受け、一覧の作成担当が保留欄を直して参加者数を確定する。"
         ]
       },
@@ -88,5 +88,8 @@
         }
       }
     ]
-  }
+  },
+  "publishedAt": "2026-10-02T08:07:34.6590549+09:00",
+  "commit": "22e6c89e5ddbdd04f3bb0e7e229ba3b21f6c68cd",
+  "publicationEvidencePath": "reports/seo/deployments/2026-10-02-handoff-article.json"
 }
