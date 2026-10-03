@@ -1,5 +1,5 @@
 {
-  "status": "draft-not-published",
+  "status": "published",
   "preparedAt": "2026-10-03",
   "copyModelConfigured": "gpt-6.1-sol",
   "intent": "一人のAI活用業務で、人が手を動かした時間と開始から完了までの時間を分け、同じ作業量と完了条件で比べる。",
@@ -14,7 +14,7 @@
     ],
     "decision": "Existing articles mention time and rework but do not provide time fields, overlapping-wait accounting or initial-versus-recurring example. Meeting article shares the scenario but owns action-item extraction, not time recording."
   },
-  "implementationScope": "Draft only. No edits to existing14 articles, routing, renderers, service links, analytics or sitemap. Future publication must set actual dates and verify the complete new-page package.",
+  "implementationScope": "New article package published; all14 prior articles, services, shared renderers and CSS preserved.",
   "evidence": [
     {
       "type": "primary-source",
@@ -44,14 +44,14 @@
     "similarPage": "https://tech-st.com/lp/ai-skillpack/guide/ai-pilot-evaluation/",
     "decision": "General time/quality templates already exist. Focus this independent draft on a single worker, overlap and elapsed-versus-hands-on time; do not copy competitor structure or numbers."
   },
-  "review": "Latest-model draft and coordinator revision completed; independent saved-draft review passed after clarifying that only unrelated interruptions are subtracted and AI wait remains included. Scope is one worker. Arithmetic, factual boundaries and distinct intent verified. Dates remain null and actual publication checks are still required.",
+  "review": "October3 latest-model draft/arithmetic/source review retained. October4 final editorial review passed without copy changes; actual dates set; build and live PC/mobile/head/schema/list/sitemap/link checks passed.",
   "article": {
     "slug": "ai-work-time-comparison-sheet",
     "path": "/insights/ai-work-time-comparison-sheet",
     "category": "AI活用",
-    "publishedAt": null,
-    "updatedAt": null,
-    "dateLabel": null,
+    "publishedAt": "2026-10-04",
+    "updatedAt": "2026-10-04",
+    "dateLabel": "2026.10.04",
     "title": "AIを使う前後の時間を比べる｜作業と待ち時間の記録表",
     "description": "一人で行う作業の時間を、AIを使う前後で比べる記録表です。準備・作成・確認・修正の実働、AIの待ち時間、開始から完了までの所要時間を分け、待ちと作業が重なる架空の例で測り方を紹介します。",
     "lead": "AIを使って時間が変わったかは、使える状態に仕上げるまでを比べます。この記録表は、一人で行う作業が対象です。準備、確認、修正も含めて測り、人が実際に作業した時間と、開始から完了までの時間を分けて残します。",
@@ -112,5 +112,10 @@
       }
     ]
   },
-  "reviewStatus": "ready-for-publication-checks"
+  "reviewStatus": "published-verified",
+  "publication": {
+    "commit": "9f5ec603e310b78c005cc7ad6ce67306cdbf9ae8",
+    "publishedAt": "2026-10-04T08:08:55.1657180+09:00",
+    "evidencePath": "reports/seo/deployments/2026-10-04-time-comparison-article.json"
+  }
 }

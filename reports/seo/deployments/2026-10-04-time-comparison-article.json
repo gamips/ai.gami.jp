@@ -1,0 +1,278 @@
+{
+  "schemaVersion": 1,
+  "sourceCommit": "9f5ec603e310b78c005cc7ad6ce67306cdbf9ae8",
+  "baselineCommit": "46884eb",
+  "verifiedAt": "2026-10-03T23:13:41Z",
+  "url": "https://ai.gami.jp/insights/ai-work-time-comparison-sheet/",
+  "change": "One new article package; all14 prior articles/dates, services, shared templates and CSS unchanged.",
+  "build": {
+    "local": "npm run build passed",
+    "diffCheck": "passed",
+    "copyModelConfigured": "gpt-6.1-sol",
+    "review": "Latest-model draft October3 and editorial/coordinator review October4 passed. Fictional one-worker example:20vs16 hands-on,20vs17 elapsed,36 initial hands-on. No public reference list/operational metadata."
+  },
+  "actions": {
+    "status": "not_started",
+    "reason": "Canonical recovery; September28 normal route build passed but four curl28 connections failed. Skip-ci release commit; no active deploy before FTPS. Server/auth/workflow unchanged.",
+    "priorFailedRun": "https://github.com/gamips/ai.gami.jp/actions/runs/36357667097",
+    "normalRouteRecovered": false,
+    "nextNormalRouteCheckOnOrAfter": "2026-10-05"
+  },
+  "publication": {
+    "startedAt": "2026-10-04T08:08:20.0555667+09:00",
+    "completedAt": "2026-10-04T08:08:55.1657180+09:00",
+    "method": "FTPS using existing project connection",
+    "target": "sv90.xserver.jp/gami.jp/public_html/ai.gami.jp/",
+    "count": 53,
+    "unchangedServerFilesPreserved": true,
+    "remoteFilesDeleted": 0
+  },
+  "staticVerification": {
+    "checkedAt": "2026-10-03T23:06:53.892Z",
+    "baselineCommit": "46884eb",
+    "existing14ArticlesUnchanged": true,
+    "sharedRenderersAndServicePagesUnchanged": true,
+    "articleCount": 15,
+    "staticEntries": 28,
+    "sitemapUrls": 26,
+    "articleSchema": 1,
+    "webPageSchema": 1,
+    "listItems": 15,
+    "initialBodyComplete": true,
+    "unchangedCss": [
+      "index-BSUbwp1T.css"
+    ],
+    "ogStatus": 200,
+    "dueLiveChecks": [
+      {
+        "url": "https://ai.gami.jp/insights/saas-or-custom-system-checklist/",
+        "httpStatus": 200,
+        "headAndInitialMainMatch": true,
+        "indexAllowed": true
+      },
+      {
+        "url": "https://ai.gami.jp/insights/ai-article-fact-check-template/",
+        "httpStatus": 200,
+        "headAndInitialMainMatch": true,
+        "indexAllowed": true
+      },
+      {
+        "url": "https://ai.gami.jp/insights/ai-website-brief-template/",
+        "httpStatus": 200,
+        "headAndInitialMainMatch": true,
+        "indexAllowed": true
+      },
+      {
+        "url": "https://ai.gami.jp/about/",
+        "httpStatus": 200,
+        "headAndInitialMainMatch": true,
+        "indexAllowed": true
+      },
+      {
+        "url": "https://ai.gami.jp/insights/ai-website-change-request-template/",
+        "httpStatus": 200,
+        "headAndInitialMainMatch": true,
+        "indexAllowed": true
+      }
+    ],
+    "baselineTargetStatus": 404,
+    "baselineTargetHasArticleCanonical": false,
+    "passed": true
+  },
+  "liveVerification": {
+    "checkedAt": "2026-10-03T23:09:23.178Z",
+    "baselineCommit": "46884eb",
+    "existing14ArticlesUnchanged": true,
+    "sharedRenderersAndServicePagesUnchanged": true,
+    "articleCount": 15,
+    "staticEntries": 28,
+    "sitemapUrls": 26,
+    "articleSchema": 1,
+    "webPageSchema": 1,
+    "listItems": 15,
+    "initialBodyComplete": true,
+    "unchangedCss": [
+      "index-BSUbwp1T.css"
+    ],
+    "ogStatus": 200,
+    "dueLiveChecks": [
+      {
+        "url": "https://ai.gami.jp/insights/saas-or-custom-system-checklist/",
+        "httpStatus": 200,
+        "headAndInitialMainMatch": true,
+        "indexAllowed": true
+      },
+      {
+        "url": "https://ai.gami.jp/insights/ai-article-fact-check-template/",
+        "httpStatus": 200,
+        "headAndInitialMainMatch": true,
+        "indexAllowed": true
+      },
+      {
+        "url": "https://ai.gami.jp/insights/ai-website-brief-template/",
+        "httpStatus": 200,
+        "headAndInitialMainMatch": true,
+        "indexAllowed": true
+      },
+      {
+        "url": "https://ai.gami.jp/about/",
+        "httpStatus": 200,
+        "headAndInitialMainMatch": true,
+        "indexAllowed": true
+      },
+      {
+        "url": "https://ai.gami.jp/insights/ai-website-change-request-template/",
+        "httpStatus": 200,
+        "headAndInitialMainMatch": true,
+        "indexAllowed": true
+      }
+    ],
+    "liveArticleStatus": 200,
+    "liveListStatus": 200,
+    "liveHeadAndMainMatch": true,
+    "liveSitemapMatches": true,
+    "serviceLinkStatus": 200,
+    "passed": true
+  },
+  "assetVerification": {
+    "checkedAt": "2026-10-03T23:09:24.476Z",
+    "assetsChecked": 24,
+    "assetHashesMatch": true,
+    "headsChecked": 28,
+    "allStaticSeoHeadsMatch": true,
+    "scope": "All generated SEO heads and built JavaScript hashes after fallback upload; not a full UI audit.",
+    "passed": true
+  },
+  "discoveryVerification": {
+    "checkedAt": "2026-10-03T23:13:38.201Z",
+    "robotsAllowsIndexing": true,
+    "results": [
+      {
+        "url": "https://ai.gami.jp/insights/saas-or-custom-system-checklist/",
+        "listLink": true,
+        "sitemap": true,
+        "serviceLink": "https://ai.gami.jp/services/ai-saas/"
+      },
+      {
+        "url": "https://ai.gami.jp/insights/ai-article-fact-check-template/",
+        "listLink": true,
+        "sitemap": true,
+        "serviceLink": "https://ai.gami.jp/services/ai-marketing/"
+      },
+      {
+        "url": "https://ai.gami.jp/insights/ai-website-brief-template/",
+        "listLink": true,
+        "sitemap": true,
+        "serviceLink": "https://ai.gami.jp/services/ai-web/"
+      },
+      {
+        "url": "https://ai.gami.jp/insights/ai-website-change-request-template/",
+        "listLink": true,
+        "sitemap": true,
+        "serviceLink": null
+      }
+    ],
+    "passed": true
+  },
+  "browser": {
+    "desktop": {
+      "url": "https://ai.gami.jp/insights/ai-work-time-comparison-sheet/",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "h1": 1,
+      "articleHeadings": [
+        "同じ量・同じ完了条件で比べる",
+        "コピーして使う記録欄",
+        "記入例：会議メモを作業一覧にする",
+        "初回と、繰り返す作業を分けて見る"
+      ],
+      "articleSchema": 1,
+      "webPageSchema": 1,
+      "canonical": "https://ai.gami.jp/insights/ai-work-time-comparison-sheet/",
+      "missing": [],
+      "horizontalOverflow": false,
+      "articleOverflow": [],
+      "visibleDate": "2026.10.04"
+    },
+    "mobile": {
+      "url": "https://ai.gami.jp/insights/ai-work-time-comparison-sheet/",
+      "viewport": [
+        390,
+        844
+      ],
+      "h1": 1,
+      "articleHeadings": [
+        "同じ量・同じ完了条件で比べる",
+        "コピーして使う記録欄",
+        "記入例：会議メモを作業一覧にする",
+        "初回と、繰り返す作業を分けて見る"
+      ],
+      "articleSchema": 1,
+      "webPageSchema": 1,
+      "canonical": "https://ai.gami.jp/insights/ai-work-time-comparison-sheet/",
+      "missing": [],
+      "horizontalOverflow": false,
+      "articleOverflow": [],
+      "visibleDate": "2026.10.04"
+    },
+    "list": {
+      "articles": 15,
+      "mobileOverflow": false,
+      "collectionPageSchema": 1,
+      "itemListSchema": 1,
+      "desktopVisuallyReviewed": true,
+      "mobileVisuallyReviewed": true
+    },
+    "navigation": {
+      "listToNewArticle": true,
+      "newArticleToIntroductionGuide": true
+    },
+    "consoleErrors": 0,
+    "consoleWarnings": 0,
+    "observedRequests": {
+      "count": 15,
+      "allStatus200": true,
+      "scope": "List document/assets and subsequent article navigation; not server-log coverage."
+    },
+    "screenshots": [
+      "output/playwright/2026-10-04-time-desktop.png",
+      "output/playwright/2026-10-04-time-mobile.png",
+      "output/playwright/2026-10-04-time-mobile-fields-clear.png",
+      "output/playwright/2026-10-04-list-desktop.png",
+      "output/playwright/2026-10-04-list-mobile.png"
+    ],
+    "screenshotsVisuallyReviewed": true,
+    "sessionClosed": true
+  },
+  "technicalResult": "confirmed",
+  "acquisitionEffect": "not-yet-measurable",
+  "limitations": [
+    "Qualified visits/inquiries unavailable without GA4.",
+    "Google-index status is not a live test.",
+    "No server logs queried; HTTP and browser evidence only."
+  ],
+  "recordValidation": {
+    "checkedAt": "2026-10-03T23:20:46.309Z",
+    "passed": true,
+    "priorHistoryPreserved": true,
+    "originalStartsAndEffectDatesPreserved": true,
+    "activeExperiments": 23,
+    "observationQueue": 24,
+    "publishedArticles": 15,
+    "sitemapUrls": 26,
+    "metricsReusedAndValidated": true,
+    "productionAndStateMatch": true,
+    "onlyArticlePublicCodeChanged": true,
+    "scheduleUnchanged": true,
+    "nextIndependentWork": "News initialHTML parity",
+    "independentReview": "PASS: read-only comparison to46884eb confirmed prior observation starts/effectdates/history, append-only6experiment events/1run, only newarticle publicdiff, exact prior14articles and draft match, publication commit/time and all static/live/assets/discovery/browser/upload evidence. No corrections or API re-query."
+  },
+  "cleanup": {
+    "browserSessionClosed": true,
+    "generatedSnapshotsArchivedTo": "output/playwright/2026-10-04-cli",
+    "temporaryServerStarted": false,
+    "remoteFilesDeleted": 0
+  }
+}

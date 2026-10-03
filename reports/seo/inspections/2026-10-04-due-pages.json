@@ -1,0 +1,80 @@
+{
+  "source": "Google Search Console URL Inspection API via tools/gsc-searchconsole.ps1",
+  "siteUrl": "sc-domain:ai.gami.jp",
+  "inspections": [
+    {
+      "siteUrl": "sc-domain:ai.gami.jp",
+      "inspectionUrl": "https://ai.gami.jp/insights/saas-or-custom-system-checklist/",
+      "fetchedAt": "2026-10-03T23:03:51.3141168+00:00",
+      "source": "google-index",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL が Google に認識されていません",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "googleCanonical": null,
+      "userCanonical": null
+    },
+    {
+      "siteUrl": "sc-domain:ai.gami.jp",
+      "inspectionUrl": "https://ai.gami.jp/insights/ai-article-fact-check-template/",
+      "fetchedAt": "2026-10-03T23:03:58.9729792+00:00",
+      "source": "google-index",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL が Google に認識されていません",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "googleCanonical": null,
+      "userCanonical": null
+    },
+    {
+      "siteUrl": "sc-domain:ai.gami.jp",
+      "inspectionUrl": "https://ai.gami.jp/insights/ai-website-brief-template/",
+      "fetchedAt": "2026-10-03T23:04:06.0812524+00:00",
+      "source": "google-index",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL が Google に認識されていません",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "googleCanonical": null,
+      "userCanonical": null
+    },
+    {
+      "siteUrl": "sc-domain:ai.gami.jp",
+      "inspectionUrl": "https://ai.gami.jp/about/",
+      "fetchedAt": "2026-10-03T23:04:13.1911225+00:00",
+      "source": "google-index",
+      "verdict": "PASS",
+      "coverageState": "送信して登録されました",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-08-21T13:17:15Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://ai.gami.jp/about/",
+      "userCanonical": "https://ai.gami.jp/about/"
+    },
+    {
+      "siteUrl": "sc-domain:ai.gami.jp",
+      "inspectionUrl": "https://ai.gami.jp/insights/ai-website-change-request-template/",
+      "fetchedAt": "2026-10-03T23:04:20.5035745+00:00",
+      "source": "google-index",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL が Google に認識されていません",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "googleCanonical": null,
+      "userCanonical": null
+    }
+  ],
+  "comparisonEvidencePath": "reports/seo/inspections/2026-09-27-due-pages.json",
+  "note": "Selected status fields preserved from complete tool response; inspectionResultLink omitted. Four articles remain unknown; About indexed crawl predates September20 change. Null/unspecified fields are not technical failure. Existing article/effect dates unchanged.",
+  "liveEvidencePath": "reports/seo/deployments/2026-10-04-time-comparison-article.json",
+  "nextIndexCheckOnOrAfter": "2026-10-11"
+}

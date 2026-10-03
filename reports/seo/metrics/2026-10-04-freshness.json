@@ -1,0 +1,118 @@
+{
+  "checkedOn": "2026-10-04",
+  "freshness": {
+    "siteUrl": "sc-domain:ai.gami.jp",
+    "requestedStartDate": "2026-09-20",
+    "requestedEndDate": "2026-10-04",
+    "searchType": "web",
+    "dataState": "final",
+    "latestReturnedDate": "2026-09-29",
+    "lagDaysFromRequestedEnd": 5,
+    "currentWindow": {
+      "startDate": "2026-09-02",
+      "endDate": "2026-09-29"
+    },
+    "previousWindow": {
+      "startDate": "2026-08-05",
+      "endDate": "2026-09-01"
+    },
+    "rowCount": 10,
+    "rows": [
+      {
+        "keys": [
+          "2026-09-20"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 36
+      },
+      {
+        "keys": [
+          "2026-09-21"
+        ],
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "keys": [
+          "2026-09-22"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 15
+      },
+      {
+        "keys": [
+          "2026-09-23"
+        ],
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "keys": [
+          "2026-09-24"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 9
+      },
+      {
+        "keys": [
+          "2026-09-25"
+        ],
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "keys": [
+          "2026-09-26"
+        ],
+        "clicks": 0,
+        "impressions": 7,
+        "ctr": 0,
+        "position": 4
+      },
+      {
+        "keys": [
+          "2026-09-27"
+        ],
+        "clicks": 0,
+        "impressions": 12,
+        "ctr": 0,
+        "position": 2.25
+      },
+      {
+        "keys": [
+          "2026-09-28"
+        ],
+        "clicks": 0,
+        "impressions": 8,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "2026-09-29"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 2
+      }
+    ],
+    "metadata": null
+  },
+  "decision": "reuse-prior-snapshot",
+  "reusedMetricsPath": "reports/seo/metrics/2026-10-03-0958.json",
+  "analyticsRefetched": false,
+  "note": "Latest final date unchanged within24hours; no duplicate query/page/device collection or aggregate snapshot. Complete freshness values retained from tool response. Acquisition effects remain unmeasured; absent rows are not zero."
+}
