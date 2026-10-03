@@ -1,24 +1,24 @@
 {
   "schemaVersion": 1,
-  "promptVersion": "1.0.9",
+  "promptVersion": "1.0.10",
   "automation": {
     "name": "AI.GAMI SEO成長PDCA",
     "id": "ai-gami-seo-pdca",
     "currentCadenceHours": 24,
     "status": "ACTIVE",
     "currentSchedule": "毎日8:00（Asia/Tokyo）",
-    "scheduleObservedAt": "2026-10-01T23:17:05Z",
-    "scheduleSource": "Existing automation viewed and saved toml read back: ACTIVE daily08:00 Asia/Tokyo. Canonical1.0.9 and launcher/cadence unchanged."
+    "scheduleObservedAt": "2026-10-03T01:05:14Z",
+    "scheduleSource": "Existing automation viewed and saved toml read back: ACTIVE daily08:00 Asia/Tokyo. Launcher already reads heartbeat-prompt.md; canonical advanced to1.0.10 without changing launcher or cadence."
   },
-  "lastActualRunAt": "2026-10-01T23:17:05Z",
-  "lastPromptAuditAt": "2026-10-01T23:17:05Z",
+  "lastActualRunAt": "2026-10-03T01:05:14Z",
+  "lastPromptAuditAt": "2026-10-03T01:05:14Z",
   "measurement": {
     "searchConsole": {
       "siteUrl": "sc-domain:ai.gami.jp",
       "status": "connected",
-      "latestFinalizedDate": "2026-09-28",
-      "lastRecordedAt": "2026-10-02T08:04:29.3051781+09:00",
-      "latestMetricsPath": "reports/seo/metrics/2026-10-02-0804.json",
+      "latestFinalizedDate": "2026-09-29",
+      "lastRecordedAt": "2026-10-03T09:58:29.0704666+09:00",
+      "latestMetricsPath": "reports/seo/metrics/2026-10-03-0958.json",
       "urlInspection": {
         "status": "available",
         "source": "google-index",
@@ -732,17 +732,19 @@
   ],
   "readyQueue": [
     {
-      "lane": "content-research",
+      "lane": "content",
       "priority": 1,
-      "work": "「AIを使った作業時間を比べる記録表」を調査し、独立した記事として役立つか確認して原稿を準備する。",
-      "copyModelConfigured": "gpt-6-astra",
-      "distinctIntent": "同じ量・同じ完了条件の一件の作業で、準備・AIの処理待ち・人の確認・修正にかかる時間を記録する。",
+      "url": "https://ai.gami.jp/insights/ai-work-time-comparison-sheet/",
+      "work": "作業時間の比較記録表を、実日付と公開前確認をそろえて新規記事として公開する。",
+      "draftPath": "docs/seo/drafts/ai-work-time-comparison-sheet.json",
+      "copyModelConfigured": "gpt-6.1-sol",
+      "distinctIntent": "一人のAI活用業務で、人が手を動かした時間と開始から完了までの時間を分け、同じ作業量と完了条件で比べる。",
       "evidence": [
-        "既存の導入・社内定着記事は効果測定に触れるが、比較用の記入例はない。",
-        "検索需要は未確認。まず既存14記事との重複、測り方、計算例を確認する。"
+        "7欄、4節、一人の作業の架空例。実働20/16分、所要20/17分、初回実働36分を検算済み。",
+        "既存14記事との重複と一次情報の扱いを確認。検索需要と獲得見込みは未確認。"
       ],
-      "freezeBoundary": "既存14記事、サービス、共通UI、CTA、計測定義は変更しない。",
-      "verification": "最新モデルのサブエージェントで短い原稿を作り、統括が独自性と計算・前提を確認する。待ち時間と人の作業時間を混同せず、未確認の削減率や成果を主張しない。調査だけで公開を確約しない。"
+      "freezeBoundary": "既存14記事、サービス、共有UI、CTA、計測定義は変更しない。新規記事からの導入ガイドへのリンクは記事一式として記録し、既存ページの本文・日付・観測開始は維持する。",
+      "verification": "公開日を実日付に設定し、build、diff、初期/表示後Article1+WebPage1、一覧、canonical、OG、sitemap、内部リンク、PC/スマホ表示を確認。公開前baselineと観測日を設定。草稿の完了を公開完了と扱わない。"
     }
   ],
   "blocked": [
@@ -776,22 +778,22 @@
     "verificationGap": false,
     "verificationGapResolved": true,
     "cadenceChangeNeeded": false,
-    "nextFullAuditAfterCompletedRuns": 4,
+    "nextFullAuditAfterCompletedRuns": 3,
     "actualPromptReadback": "passed",
-    "changeApplied": false,
-    "changeReason": "Fourth completed run after September28 full audit: September29/30 internal links, October1 technicalSEO, October2 content. Due reviews used24 finalized days and measured1/3/17 impressions, not the calendar alone; continued observation did not stall new publication. No duplicate observation, writer collision or unresolved verification gap. Existing1.0.9 and daily08:00 remain appropriate.",
-    "operatingPolicyUpdated": false,
+    "changeApplied": true,
+    "changeReason": "First completed run after October2 full audit. Independent article research/draft completed while all observations mature. Multiple combined large reads were truncated and required rereading; canonical1.0.10 adds individual policy reads and scoped history reads. No changes to public content, measurement definitions or schedule.",
+    "operatingPolicyUpdated": true,
     "externalScheduleChangeObserved": false,
     "launcherPromptUpdated": false,
-    "writingModelConfigured": "gpt-6-astra",
-    "fullAudit": true,
+    "writingModelConfigured": "gpt-6.1-sol",
+    "fullAudit": false,
     "auditedRunDates": [
       "2026-09-29",
       "2026-09-30",
       "2026-10-01",
       "2026-10-02"
     ],
-    "newReusableLearning": "No new canonical rule. Due effect reviews remain conditional on finalized-day and impression minimums. One clipped element screenshot was replaced with a viewport capture and DOM bounds check; no production defect or new UI rule.",
+    "newReusableLearning": "Read required policy files separately and split large state/history output by relevant keys/dates. Never treat truncated output as complete JSON/evidence.",
     "normalRouteRecheckCompleted": false
   },
   "retiredBlockers": [

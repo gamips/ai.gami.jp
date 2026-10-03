@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-10-03T01:05:14Z",
+  "baselineCommit": "60846ce",
+  "scope": "Research and draft preparation only; no production release.",
+  "draftPath": "docs/seo/drafts/ai-work-time-comparison-sheet.json",
+  "copyModelConfigured": "gpt-6.1-sol",
+  "editorial": {
+    "sourceBoundaries": "Two primary sources checked by writer and coordinator. Government annex is hypothetical; METR is an early2025 context-specific study, not current general performance evidence. No study statistics used.",
+    "intentDistinctFromPublishedArticles": true,
+    "publishedArticleCount": 14,
+    "independentReview": "Minimal correction applied: subtract only unrelated interruptions, retaining AI wait in elapsed time. No other issues found.",
+    "numericalExample": "Fictional values:20vs16 hands-on minutes;2minutes AIwait overlaps1minute included in preparation;20vs17 elapsed;20setup+16hands-on=36 initialhands-on. Initial elapsed must be measured separately."
+  },
+  "draftValidation": {
+    "checkedAt": "2026-10-03T01:06:14.184Z",
+    "passed": true,
+    "articleSections": 4,
+    "templateFields": 7,
+    "publishedArticlesUnchanged": 14,
+    "datesNull": true,
+    "newUrlNotRegisteredInPublicSource": true,
+    "handsonMinutes": [
+      20,
+      16
+    ],
+    "waitMinutes": 2,
+    "overlapMinutes": 1,
+    "elapsedMinutes": [
+      20,
+      17
+    ],
+    "firstSetupInclusiveHandsOn": 36,
+    "internalLinkValid": true,
+    "noPublicOperationalMetadata": true,
+    "scope": "Draft structure, arithmetic, content boundaries and existing destination only. No rendered/publication claim."
+  },
+  "measurement": {
+    "path": "reports/seo/metrics/2026-10-03-0958.json",
+    "source": "tools/gsc-searchconsole.ps1",
+    "independentValidation": "PASS: all51 analytics rows, including49 dimension rows/252 values, match raw response order and values.243 assertions. Freshness11rows, windows, CTRs, device totals/weightedposition and exact brand exclusions pass.",
+    "requestArgumentEvidence": "Coordinator invocation used dataState final/web, property dimensions[], rowLimit1000, query/page/device; query-page filter page contains /insights/; price page equals exact slash and no-slash URLs. Raw wrappers retain returned dimensions but not original filter/rowLimit arguments; those argument declarations were not independently verified from raw alone.",
+    "disposition": "share_with_caveats",
+    "limitations": [
+      "Small sample and rolling-window movement cannot isolate interventions.",
+      "Missing query/page rows are unobserved, not zero.",
+      "Qualified organic visits and inquiries remain unavailable."
+    ]
+  },
+  "production": {
+    "changed": false,
+    "buildRun": false,
+    "browserRun": false,
+    "deployStarted": false,
+    "reason": "Only draft, operational documentation and records changed; existing14 articles, renderer, styles, services and sitemap untouched.",
+    "retainedProductionCommit": "22e6c89e5ddbdd04f3bb0e7e229ba3b21f6c68cd"
+  },
+  "prompt": {
+    "before": "1.0.9",
+    "after": "1.0.10",
+    "reason": "Multiple truncated combined reads required repeated work; read policies individually and bound state/history output.",
+    "launcherChanged": false,
+    "scheduleChanged": false,
+    "currentSchedule": "毎日8:00（Asia/Tokyo）"
+  },
+  "publicationResult": "not-published",
+  "acquisitionEffect": "not-yet-measurable",
+  "recordValidation": {
+    "checkedAt": "2026-10-03T01:08:53.407Z",
+    "passed": true,
+    "activeExperiments": 22,
+    "observationQueue": 23,
+    "allExistingObservationsAndDeploymentPreserved": true,
+    "priorHistoryPreserved": true,
+    "publishedArticles": 14,
+    "newDraftNotPublished": true,
+    "sourceAndProductionFilesUnchanged": true,
+    "schedulePreserved": true,
+    "promptVersion": "1.0.10",
+    "referencesExist": true,
+    "independentReview": {
+      "passed": true,
+      "assertions": 45,
+      "summary": "State, inventory, experiments, run and review agree. All existing observations/deployment preserved; draft dates null and no observation started. Canonical1.0.10, unchanged launcher/daily08:00 and prior full-audit date confirmed.",
+      "apiRefetched": false,
+      "filesEdited": false
+    },
+    "diffCheckPassed": true
+  }
+}

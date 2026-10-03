@@ -1,0 +1,116 @@
+{
+  "status": "draft-not-published",
+  "preparedAt": "2026-10-03",
+  "copyModelConfigured": "gpt-6.1-sol",
+  "intent": "一人のAI活用業務で、人が手を動かした時間と開始から完了までの時間を分け、同じ作業量と完了条件で比べる。",
+  "distinctValue": "重なるAI待ちを二重加算しない記入欄と、実働4分差・所要3分差になる架空例。初回準備も別に残す。",
+  "demandEvidence": "Related Japanese search results exist, but neither query volume nor likely acquisition is established. No related disclosed GSC query today. This is a practical-content candidate, not a proven-volume keyword.",
+  "overlapReview": {
+    "reviewedPublishedArticles": 14,
+    "closest": [
+      "ai-introduction-support",
+      "chatgpt-workplace-adoption-checklist",
+      "ai-customer-reply-template"
+    ],
+    "decision": "Existing articles mention time and rework but do not provide time fields, overlapping-wait accounting or initial-versus-recurring example. Meeting article shares the scenario but owns action-item extraction, not time recording."
+  },
+  "implementationScope": "Draft only. No edits to existing14 articles, routing, renderers, service links, analytics or sitemap. Future publication must set actual dates and verify the complete new-page package.",
+  "evidence": [
+    {
+      "type": "primary-source",
+      "url": "https://www.gov.uk/government/publications/the-magenta-book/guidance-on-the-impact-evaluation-of-ai-interventions-html",
+      "checkedAt": "2026-10-03",
+      "reviewedBy": [
+        "oct03_editorial",
+        "coordinator"
+      ],
+      "note": "Baseline and comparison definition; measuring time and output quality. Annex examples are hypothetical, not customer outcomes. Article is an original practical log, not a causal-evaluation standard."
+    },
+    {
+      "type": "primary-source",
+      "url": "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/",
+      "checkedAt": "2026-10-03",
+      "reviewedBy": [
+        "oct03_editorial",
+        "coordinator"
+      ],
+      "note": "Task completion includes review quality; measured and perceived productivity can differ. This is an early2025 development study, not evidence of current general AI performance. No study statistics are used in article."
+    }
+  ],
+  "serpReview": {
+    "query": "生成AI 作業時間 効果測定 記録 比較 テンプレート",
+    "checkedAt": "2026-10-03",
+    "scope": "Qualitative discovery only, not volume, ranking or demand measurement.",
+    "similarPage": "https://tech-st.com/lp/ai-skillpack/guide/ai-pilot-evaluation/",
+    "decision": "General time/quality templates already exist. Focus this independent draft on a single worker, overlap and elapsed-versus-hands-on time; do not copy competitor structure or numbers."
+  },
+  "review": "Latest-model draft and coordinator revision completed; independent saved-draft review passed after clarifying that only unrelated interruptions are subtracted and AI wait remains included. Scope is one worker. Arithmetic, factual boundaries and distinct intent verified. Dates remain null and actual publication checks are still required.",
+  "article": {
+    "slug": "ai-work-time-comparison-sheet",
+    "path": "/insights/ai-work-time-comparison-sheet",
+    "category": "AI活用",
+    "publishedAt": null,
+    "updatedAt": null,
+    "dateLabel": null,
+    "title": "AIを使う前後の時間を比べる｜作業と待ち時間の記録表",
+    "description": "一人で行う作業の時間を、AIを使う前後で比べる記録表です。準備・作成・確認・修正の実働、AIの待ち時間、開始から完了までの所要時間を分け、待ちと作業が重なる架空の例で測り方を紹介します。",
+    "lead": "AIを使って時間が変わったかは、使える状態に仕上げるまでを比べます。この記録表は、一人で行う作業が対象です。準備、確認、修正も含めて測り、人が実際に作業した時間と、開始から完了までの時間を分けて残します。",
+    "sections": [
+      {
+        "id": "align-work-and-completion",
+        "title": "同じ量・同じ完了条件で比べる",
+        "paragraphs": [
+          "よく行う作業を一つ選び、扱う件数や資料の量、どこまで仕上げたら完了かを決めます。AIの返答が出た時点ではなく、人が確認して使える状態になった時点まで測ります。",
+          "AIを使わない場合と使う場合で、資料の難しさや担当者もできるだけそろえます。条件が違ったら、その違いを記録に添えてください。"
+        ]
+      },
+      {
+        "id": "comparison-fields",
+        "title": "コピーして使う記録欄",
+        "paragraphs": [
+          "同じ欄を使い、AIなし・AIありを一件ずつ記録します。時間は後から思い出して見積もらず、作業中に測ります。",
+          "人の実働は、準備・作成や入力・確認・修正と再確認に分け、同じ時間を二つの欄へ入れません。AIの待ち時間は別欄に残します。待つ間に人が作業した時間は重なるため、実働と待ちをそのまま足しません。所要時間は、開始から終了までの時間から別件による中断だけを引きます。AI待ちは含めてください。"
+        ],
+        "items": [
+          "対象：［作業名／件数・資料の量／完了条件］",
+          "条件：［記録日／担当者／AIなし・あり／使ったAIと入力内容／比較条件の違い］",
+          "初回だけの準備：［設定やひな形作成の内容・実働時間／すでに済んでいればその旨］",
+          "毎回の実働：［準備＿分／作成・入力＿分／確認＿分／修正・再確認＿分／合計＿分］",
+          "AIの待ち：［処理待ち＿分／人の作業と重なった時間＿分］",
+          "毎回の所要時間：［開始・終了時刻／別件による中断＿分／中断を除いた所要＿分］",
+          "完了確認：［完了条件を満たしたか／残った誤りや不足］"
+        ]
+      },
+      {
+        "id": "comparison-example",
+        "title": "記入例：会議メモを作業一覧にする",
+        "paragraphs": [
+          "測り方を示す架空の例です。同じ担当者が、同じ量・同程度の難しさの会議メモを、AIなし・AIありで一件ずつ整理したとします。時間の数字も説明用です。",
+          "対象はA4一枚のメモです。決まった作業を一覧にし、担当と期限は記載どおりに写し、不明な点を残します。元のメモと照合できたら完了です。"
+        ],
+        "items": [
+          "初回だけの準備：AI用のひな形作成に実働20分。毎回の時間とは別に記録。",
+          "AIなしの実働：準備3分＋作成12分＋確認4分＋修正・再確認1分＝20分。",
+          "AIありの実働：準備5分＋入力2分＋確認6分＋修正・再確認3分＝16分。",
+          "AIの待ち：2分。そのうち1分に元資料を確認した。この1分は準備5分に含め、実働へ追加しない。",
+          "毎回の所要時間：AIなしは9時00分〜9時20分の20分。AIありは10時00分〜10時17分の17分。どちらも中断なし。",
+          "完了確認：どちらも元のメモと照合済み。記載のない期限は不明として残した。"
+        ]
+      },
+      {
+        "id": "read-the-results",
+        "title": "初回と、繰り返す作業を分けて見る",
+        "paragraphs": [
+          "この例では、AIありの実働は4分短く、所要時間は3分短くなりました。実働16分＋AI待ち2分−重なった1分＝所要17分です。初回準備を含む実働は36分ですが、初回の所要時間は別に開始・終了時刻から確認します。",
+          "設定やひな形作成は初回準備として残し、毎回必要な資料整理や入力準備は、その都度の実働へ入れます。後日ひな形を直した時間も別に記録します。",
+          "一回の結果だけで、ほかの作業でも時間が減るとは判断しません。同じ条件で記録を増やし、完了状態と時間の両方を比べます。同じ資料を続けて使うと、内容を覚えた影響もあるため、試した順序も残してください。"
+        ],
+        "link": {
+          "label": "AI導入前に整理する5項目を見る",
+          "href": "/insights/ai-introduction-support/"
+        }
+      }
+    ]
+  },
+  "reviewStatus": "ready-for-publication-checks"
+}

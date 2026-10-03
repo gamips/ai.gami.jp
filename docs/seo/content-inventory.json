@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-02",
+  "updatedAt": "2026-10-03",
   "rules": {
     "oneOwnerUrlPerIntent": true,
     "publicCopyExcludesOperationalMetadata": true
@@ -270,6 +270,16 @@
       "schema": "Article",
       "experimentId": "insight-ai-work-handoff-template-v1",
       "relatedService": "https://ai.gami.jp/services/ai-marketing/"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-work-time-comparison-sheet/",
+      "type": "insight",
+      "intent": "一人のAI活用業務で、人が手を動かした時間と開始から完了までの時間を分け、同じ作業量と完了条件で比べる。",
+      "status": "draft-not-published",
+      "preparedAt": "2026-10-03",
+      "draftPath": "docs/seo/drafts/ai-work-time-comparison-sheet.json",
+      "plannedExperimentId": "insight-ai-work-time-comparison-sheet-v1",
+      "relatedArticle": "https://ai.gami.jp/insights/ai-introduction-support/"
     }
   ]
 }

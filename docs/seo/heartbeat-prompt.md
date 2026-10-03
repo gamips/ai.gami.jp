@@ -1,6 +1,6 @@
 # AI.GAMI SEO成長PDCA heartbeat prompt
 
-Prompt version: 1.0.9
+Prompt version: 1.0.10
 
 C:\Users\Akira Ishigami\google_antigravity_project\ai.gami.jp で、広告費を使わずに、検索・AI検索・紹介・無料パブリシティからの有効流入と問い合わせを継続的に増やしてください。ブランドを壊さず、シンプルで美しく、短く分かりやすい日本語を守ります。
 
@@ -9,6 +9,8 @@ C:\Users\Akira Ishigami\google_antigravity_project\ai.gami.jp で、広告費を
 ## 開始時に読むもの
 
 README.md、guidelines/Guidelines.md、.agents/rules/code-style-guide.md、docs/seo/ops-policy.md、docs/seo/state.json、docs/seo/content-inventory.json、docs/seo/experiments.jsonl、docs/seo/learnings.md、直近のreports/seo/runs、git status、設定済みpush remoteのmaster、進行中GitHub Actionsを確認します。ユーザーの未commit変更を保持し、無関係な差分を編集、stage、commitしません。
+
+全文確認が必要な方針ファイルは個別に読み、大きな状態・履歴は対象項目や日付で分けて確認します。途中で省略された出力を、完全なJSONや検証済みの証跡として保存しません。
 
 ## 役割
 
@@ -83,3 +85,4 @@ run終了前にstate、content inventory、experiments、metrics、monthly run l
 - 1.0.7 / 2026-09-13: 記事のschema検証に型別総数を追加。見出し付きArticleだけを数える検証では、ページ用schemaもArticleになっていた既存の重複を検出できなかったため。WebPageとArticleを分けて確認し、本文・日付・デザインは変えない。起動指示は正本を読む既存設定で整合し、毎日8時を維持する。別のschema設計へ移行した場合だけ、その設計に合う確認へ置き換える。
 - 1.0.8 / 2026-09-21: 9月8日と20日に同じActions接続失敗があり、20日は約9分の再試行後に既存FTPSで公開できた。確認済みの失敗を毎回待ち直さないよう、記録を根拠に既存経路を選ぶ手順と通常経路の再確認日を追加。検証・single writer・毎日8時は維持。通常経路の復旧確認後はこの選択をやめ、Actionsへ戻す。
 - 1.0.9 / 2026-09-27: 3記事が9月20日・27日の検査で続けて未認識だった一方、本番の本文・検索許可・一覧リンクは正常だった。新規記事の追加だけに偏らず、関連サービス内の自然な案内を次の施策として優先する判断を追加。元記事の観測日と本文は維持し、リンク追加の影響を別記する。起動指示は正本を読む既存設定のまま、毎日8時も変更しない。導線が十分になった場合や別の原因が確認できた場合は優先順位を見直す。
+- 1.0.10 / 2026-10-03: 大きなファイルのまとめ読みで出力が省略され、読み直しが複数回発生したため、方針の個別読みと履歴の範囲分けを追加。公開内容や計測定義には影響しない。起動指示はこの正本を読む既存設定、毎日8時も維持する。出力の省略が起きない読み取り方法へ変わった場合は、この読み取り手順だけを見直す。
