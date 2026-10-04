@@ -1,0 +1,264 @@
+{
+  "observedAt": "2026-10-04T23:15:20Z",
+  "baselineCommit": "47a5177",
+  "commit": "5954df9e2d9bd7b1cb4ccce3c9d2044d9bd98a68",
+  "change": "Restore existing News3headlines/descriptions in initial HTML and align H1; consolidate content and existing schema source without changing hydrated UI.",
+  "publication": {
+    "method": "GitHub Actions normal Xserver deploy",
+    "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/37242689428",
+    "status": "completed",
+    "conclusion": "success",
+    "deployedAt": "2026-10-04T23:09:20Z",
+    "response": {
+      "ok": true,
+      "extracted": 74,
+      "deletedStalePaths": 1
+    },
+    "normalRouteRecheckCompleted": true,
+    "normalRouteRecovered": true,
+    "ftpsUsed": false,
+    "note": "Scheduled normal route check succeeded. No token/auth/server/workflow changes. Existing deployment script cleans superseded built assets and stale paths; favicon.ico is packaged/restored and live hash verified.",
+    "actionEvidence": {
+      "conclusion": "success",
+      "createdAt": "2026-10-04T23:08:54Z",
+      "headSha": "5954df9e2d9bd7b1cb4ccce3c9d2044d9bd98a68",
+      "jobs": [
+        {
+          "completedAt": "2026-10-04T23:09:24Z",
+          "conclusion": "success",
+          "databaseId": 111554377258,
+          "name": "Build and deploy",
+          "startedAt": "2026-10-04T23:08:58Z",
+          "status": "completed",
+          "steps": [
+            {
+              "completedAt": "2026-10-04T23:08:59Z",
+              "conclusion": "success",
+              "name": "Set up job",
+              "number": 1,
+              "startedAt": "2026-10-04T23:08:59Z",
+              "status": "completed"
+            },
+            {
+              "completedAt": "2026-10-04T23:09:01Z",
+              "conclusion": "success",
+              "name": "Checkout",
+              "number": 2,
+              "startedAt": "2026-10-04T23:08:59Z",
+              "status": "completed"
+            },
+            {
+              "completedAt": "2026-10-04T23:09:02Z",
+              "conclusion": "success",
+              "name": "Setup Node.js",
+              "number": 3,
+              "startedAt": "2026-10-04T23:09:01Z",
+              "status": "completed"
+            },
+            {
+              "completedAt": "2026-10-04T23:09:13Z",
+              "conclusion": "success",
+              "name": "Install dependencies",
+              "number": 4,
+              "startedAt": "2026-10-04T23:09:02Z",
+              "status": "completed"
+            },
+            {
+              "completedAt": "2026-10-04T23:09:18Z",
+              "conclusion": "success",
+              "name": "Build",
+              "number": 5,
+              "startedAt": "2026-10-04T23:09:13Z",
+              "status": "completed"
+            },
+            {
+              "completedAt": "2026-10-04T23:09:20Z",
+              "conclusion": "success",
+              "name": "Deploy dist to Xserver",
+              "number": 6,
+              "startedAt": "2026-10-04T23:09:18Z",
+              "status": "completed"
+            },
+            {
+              "completedAt": "2026-10-04T23:09:22Z",
+              "conclusion": "success",
+              "name": "Post Setup Node.js",
+              "number": 11,
+              "startedAt": "2026-10-04T23:09:20Z",
+              "status": "completed"
+            },
+            {
+              "completedAt": "2026-10-04T23:09:22Z",
+              "conclusion": "success",
+              "name": "Post Checkout",
+              "number": 12,
+              "startedAt": "2026-10-04T23:09:22Z",
+              "status": "completed"
+            },
+            {
+              "completedAt": "2026-10-04T23:09:22Z",
+              "conclusion": "success",
+              "name": "Complete job",
+              "number": 13,
+              "startedAt": "2026-10-04T23:09:22Z",
+              "status": "completed"
+            }
+          ],
+          "url": "https://github.com/gamips/ai.gami.jp/actions/runs/37242689428/job/111554377258"
+        }
+      ],
+      "status": "completed",
+      "updatedAt": "2026-10-04T23:09:25Z",
+      "url": "https://github.com/gamips/ai.gami.jp/actions/runs/37242689428"
+    }
+  },
+  "staticVerification": {
+    "checkedAt": "2026-10-04T23:08:35.823Z",
+    "baselineCommit": "47a5177",
+    "newsCopyDatesOrderUnchanged": true,
+    "newsRenderedMarkupUnchanged": true,
+    "allOtherSeoEntriesUnchanged": true,
+    "newsSchemaUnchanged": true,
+    "all15ArticlesUnchanged": true,
+    "homeUnchanged": true,
+    "servicesUnchanged": true,
+    "sharedRenderersUnchanged": true,
+    "sitemapUrls": 26,
+    "staticEntries": 28,
+    "unchangedCss": [
+      "index-BSUbwp1T.css"
+    ],
+    "staticNewsHeadings": 3,
+    "newsArticleSchema": 2,
+    "linkedArticleSchema": 1,
+    "baselineInitialNewsCount": 1,
+    "baselineMissingNoticeCount": 2,
+    "existingSeoHeadUnchanged": true,
+    "passed": true
+  },
+  "liveVerification": {
+    "checkedAt": "2026-10-04T23:11:26.247Z",
+    "baselineCommit": "47a5177",
+    "newsCopyDatesOrderUnchanged": true,
+    "newsRenderedMarkupUnchanged": true,
+    "allOtherSeoEntriesUnchanged": true,
+    "newsSchemaUnchanged": true,
+    "all15ArticlesUnchanged": true,
+    "homeUnchanged": true,
+    "servicesUnchanged": true,
+    "sharedRenderersUnchanged": true,
+    "sitemapUrls": 26,
+    "staticEntries": 28,
+    "unchangedCss": [
+      "index-BSUbwp1T.css"
+    ],
+    "staticNewsHeadings": 3,
+    "newsArticleSchema": 2,
+    "linkedArticleSchema": 1,
+    "liveStatus": 200,
+    "liveHeadAndMainMatch": true,
+    "liveSitemapMatches": true,
+    "passed": true
+  },
+  "releaseVerification": {
+    "checkedAt": "2026-10-04T23:11:26.438Z",
+    "assetsChecked": 24,
+    "assetHashesMatch": true,
+    "headsChecked": 28,
+    "allStaticSeoHeadsMatch": true,
+    "scope": "All28 generated SEOheads and24 built JavaScript hashes after normal Actions deploy; not a full-site UI audit.",
+    "passed": true
+  },
+  "browserVerification": {
+    "desktop": {
+      "beforeViewportWidth": 1280,
+      "afterViewportWidth": 1440,
+      "mainDomMatches": true,
+      "newsItemsMatch": true,
+      "h1": [
+        "AI導入支援の\nお知らせ"
+      ],
+      "scrollWidth": 1440
+    },
+    "mobile": {
+      "width": 390,
+      "mainDomMatches": true,
+      "newsItemsMatch": true,
+      "h1": [
+        "AI導入支援の\nお知らせ"
+      ],
+      "scrollWidth": 390
+    },
+    "consoleErrors": 0,
+    "consoleWarnings": 0,
+    "observedRequests": 13,
+    "requestsAll200": true,
+    "articleLink": {
+      "text": "AI見積書システム「育つ見積」の開発事例",
+      "href": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/"
+    },
+    "schemasUnchanged": true,
+    "screenshots": [
+      "output/playwright/2026-10-05-news-desktop.png",
+      "output/playwright/2026-10-05-news-mobile.png",
+      "output/playwright/2026-10-05-news-items-desktop.png",
+      "output/playwright/2026-10-05-news-items-mobile.png"
+    ],
+    "namedSessionClosed": true,
+    "visualAssessment": "Reviewed desktop/mobile hero and notice rows. Existing design, spacing and wrapping retained; no horizontal overflow. Exact hydrated mainDOM and CSS matches baseline."
+  },
+  "dueLiveTechnicalVerification": {
+    "checkedAt": "2026-10-04T23:13:53.588Z",
+    "source": "live HTTP, not Google-index",
+    "checks": [
+      {
+        "url": "https://ai.gami.jp/insights/ai-meeting-action-items-template/",
+        "httpStatus": 200,
+        "canonicalMatches": true,
+        "indexAllowed": true,
+        "titleAndParagraphsPresent": true,
+        "sitemapPresent": true,
+        "listingLinkPresent": true
+      },
+      {
+        "url": "https://ai.gami.jp/insights/ai-website-brief-template/",
+        "httpStatus": 200,
+        "canonicalMatches": true,
+        "indexAllowed": true,
+        "titleAndParagraphsPresent": true,
+        "sitemapPresent": true,
+        "listingLinkPresent": true
+      },
+      {
+        "url": "https://ai.gami.jp/services/ai-web/",
+        "httpStatus": 200,
+        "canonicalMatches": true,
+        "indexAllowed": true,
+        "briefLinkPresentInInitialBody": true
+      }
+    ],
+    "faviconBuildMatches": true,
+    "robotsSitemapPresent": true,
+    "passed": true
+  },
+  "independentReview": {
+    "agent": "oct05_newsreview",
+    "result": "passed",
+    "checks": [
+      "News JSX byte-identical after removal of local data",
+      "All3 visible fields/order/dates identical",
+      "News schemas deep-equal",
+      "All other SEO entries,Home,Insights15,services and generator unchanged"
+    ],
+    "scope": "Initial headline/body/H1 alignment only; initial dates/categories/anchors are not asserted identical."
+  },
+  "result": {
+    "technical": "confirmed",
+    "effect": "not-yet-measurable"
+  },
+  "nextChecks": {
+    "newsIndex": "2026-10-12",
+    "newsEffect": "2026-11-05",
+    "existingDueChecks": "2026-10-06"
+  }
+}

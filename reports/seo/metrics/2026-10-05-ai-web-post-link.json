@@ -1,0 +1,151 @@
+{
+  "observedAt": "2026-10-05T08:10:37.0650785+09:00",
+  "source": "Google Search Console API",
+  "purpose": "First finalized full post-link days for service-ai-web-brief-link-v1",
+  "queries": [
+    {
+      "request": {
+        "Raw": true,
+        "Expression": "https://ai.gami.jp/services/ai-web",
+        "DataState": "final",
+        "RowLimit": 1000,
+        "EndDate": "2026-10-02",
+        "Action": "query",
+        "Operator": "contains",
+        "Dimensions": [
+          "page"
+        ],
+        "StartDate": "2026-09-29",
+        "Dimension": "page"
+      },
+      "result": {
+        "siteUrl": "sc-domain:ai.gami.jp",
+        "startDate": "2026-09-29",
+        "endDate": "2026-10-02",
+        "dimensions": [
+          "page"
+        ],
+        "searchType": "web",
+        "dataState": "final",
+        "rowCount": 1,
+        "rows": [
+          {
+            "keys": [
+              "https://ai.gami.jp/services/ai-web"
+            ],
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 2
+          }
+        ],
+        "metadata": null
+      }
+    },
+    {
+      "request": {
+        "Raw": true,
+        "Expression": "https://ai.gami.jp/services/ai-web",
+        "DataState": "final",
+        "RowLimit": 1000,
+        "EndDate": "2026-10-02",
+        "Action": "query",
+        "Operator": "contains",
+        "Dimensions": [
+          "query",
+          "page"
+        ],
+        "StartDate": "2026-09-29",
+        "Dimension": "page"
+      },
+      "result": {
+        "siteUrl": "sc-domain:ai.gami.jp",
+        "startDate": "2026-09-29",
+        "endDate": "2026-10-02",
+        "dimensions": [
+          "query",
+          "page"
+        ],
+        "searchType": "web",
+        "dataState": "final",
+        "rowCount": 0,
+        "rows": [],
+        "metadata": null
+      }
+    },
+    {
+      "request": {
+        "Raw": true,
+        "Expression": "https://ai.gami.jp/insights/ai-website-brief-template/",
+        "DataState": "final",
+        "RowLimit": 1000,
+        "EndDate": "2026-10-02",
+        "Action": "query",
+        "Operator": "contains",
+        "Dimensions": [
+          "page"
+        ],
+        "StartDate": "2026-09-29",
+        "Dimension": "page"
+      },
+      "result": {
+        "siteUrl": "sc-domain:ai.gami.jp",
+        "startDate": "2026-09-29",
+        "endDate": "2026-10-02",
+        "dimensions": [
+          "page"
+        ],
+        "searchType": "web",
+        "dataState": "final",
+        "rowCount": 0,
+        "rows": [],
+        "metadata": null
+      }
+    },
+    {
+      "request": {
+        "Raw": true,
+        "Expression": "https://ai.gami.jp/insights/ai-website-brief-template/",
+        "DataState": "final",
+        "RowLimit": 1000,
+        "EndDate": "2026-10-02",
+        "Action": "query",
+        "Operator": "contains",
+        "Dimensions": [
+          "query",
+          "page"
+        ],
+        "StartDate": "2026-09-29",
+        "Dimension": "page"
+      },
+      "result": {
+        "siteUrl": "sc-domain:ai.gami.jp",
+        "startDate": "2026-09-29",
+        "endDate": "2026-10-02",
+        "dimensions": [
+          "query",
+          "page"
+        ],
+        "searchType": "web",
+        "dataState": "final",
+        "rowCount": 0,
+        "rows": [],
+        "metadata": null
+      }
+    }
+  ],
+  "completedAt": "2026-10-05T08:10:39.5393143+09:00",
+  "interpretation": {
+    "result": "not-yet-measurable",
+    "fullFinalizedPostLinkDays": 4,
+    "sourcePage": {
+      "returnedUrl": "https://ai.gami.jp/services/ai-web",
+      "clicks": 0,
+      "impressions": 1
+    },
+    "sourceQueryRows": "no-disclosed-row",
+    "targetPageRows": "no-disclosed-row",
+    "targetQueryRows": "no-disclosed-row",
+    "note": "No disclosed target row is not zero. Source row is exact non-trailing-slash URL returned by Google, not silently pooled with canonical. Source lastcrawlAugust28 predatesSeptember28link. No direct linkclick/inquiry measurement or causal effect."
+  }
+}

@@ -7,23 +7,23 @@
     "currentCadenceHours": 24,
     "status": "ACTIVE",
     "currentSchedule": "毎日8:00（Asia/Tokyo）",
-    "scheduleObservedAt": "2026-10-03T23:13:41Z",
-    "scheduleSource": "Saved automation viewed/read back ACTIVE daily08:00 Asia/Tokyo. Short launcher reads canonical1.0.10; unchanged."
+    "scheduleObservedAt": "2026-10-04T23:15:20Z",
+    "scheduleSource": "Existing automation viewed and saved TOML read back ACTIVE daily08:00 Asia/Tokyo; canonical1.0.10 unchanged."
   },
-  "lastActualRunAt": "2026-10-03T23:13:41Z",
-  "lastPromptAuditAt": "2026-10-03T23:13:41Z",
+  "lastActualRunAt": "2026-10-04T23:17:56Z",
+  "lastPromptAuditAt": "2026-10-04T23:17:56Z",
   "measurement": {
     "searchConsole": {
       "siteUrl": "sc-domain:ai.gami.jp",
       "status": "connected",
-      "latestFinalizedDate": "2026-09-29",
-      "lastRecordedAt": "2026-10-03T09:58:29.0704666+09:00",
-      "latestMetricsPath": "reports/seo/metrics/2026-10-03-0958.json",
+      "latestFinalizedDate": "2026-10-02",
+      "lastRecordedAt": "2026-10-05T08:07:27.5704744+09:00",
+      "latestMetricsPath": "reports/seo/metrics/2026-10-05-0806.json",
       "urlInspection": {
         "status": "available",
         "source": "google-index",
-        "verifiedAt": "2026-10-03T23:04:20.5035745+00:00",
-        "latestInspectionPath": "reports/seo/inspections/2026-10-04-due-pages.json",
+        "verifiedAt": "2026-10-04T23:07:48.1090729+00:00",
+        "latestInspectionPath": "reports/seo/inspections/2026-10-05-due-pages.json",
         "implementationCommit": "6ea352c25bb87684a0b337ad0a51ba66d5f48bd4"
       },
       "sitemap": {
@@ -32,8 +32,8 @@
         "latestEvidencePath": "reports/seo/inspections/2026-10-04-sitemap.json",
         "liveUrlCount": 26,
         "nextReadOnlyCheckOnOrAfter": "2026-10-11",
-        "liveVerifiedAt": "2026-10-03T23:09:23.178Z",
-        "liveEvidencePath": "reports/seo/deployments/2026-10-04-time-comparison-article.json"
+        "liveVerifiedAt": "2026-10-04T23:11:26.247Z",
+        "liveEvidencePath": "reports/seo/deployments/2026-10-05-news-parity.json"
       },
       "attributionCaveat": "All Insights received a shared WebPage schema-type correction on2026-09-13. Article copy/dates and observation dates are unchanged, but later before/after signals cannot isolate content-only effects. See current deployment evidence and experiments log.",
       "nonBrandDefinition": {
@@ -46,7 +46,7 @@
         "note": "New exact query gami classified as brand. Both current and previous windows use the same rule; original snapshots unchanged.",
         "evidencePath": "reports/seo/metrics/2026-09-21-0803.json"
       },
-      "lastFreshnessCheckPath": "reports/seo/metrics/2026-10-04-freshness.json"
+      "lastFreshnessCheckPath": "reports/seo/metrics/2026-10-05-freshness.json"
     },
     "ga4": {
       "status": "not_configured",
@@ -77,20 +77,23 @@
     "service-ai-saas-comparison-link-v1",
     "contact-initial-html-parity-v1",
     "insight-ai-work-handoff-template-v1",
-    "insight-ai-work-time-comparison-sheet-v1"
+    "insight-ai-work-time-comparison-sheet-v1",
+    "news-initial-html-parity-v1"
   ],
   "deployment": {
-    "lastSuccessfulAt": "2026-10-04T08:08:55.1657180+09:00",
-    "commit": "9f5ec603e310b78c005cc7ad6ce67306cdbf9ae8",
-    "workflowRun": null,
-    "method": "FTPS using existing project connection",
-    "evidencePath": "reports/seo/deployments/2026-10-04-time-comparison-article.json",
+    "lastSuccessfulAt": "2026-10-04T23:09:20Z",
+    "commit": "5954df9e2d9bd7b1cb4ccce3c9d2044d9bd98a68",
+    "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/37242689428",
+    "method": "GitHub Actions normal Xserver deploy",
+    "evidencePath": "reports/seo/deployments/2026-10-05-news-parity.json",
     "liveVerification": "passed",
-    "actionsStatus": "Canonical recovery; September28 normal route build passed but four curl28 connections failed. Skip-ci release commit; no active deploy before FTPS. Server/auth/workflow unchanged.",
+    "actionsStatus": "October5 scheduled recheck succeeded: build and normal deploy passed, live28heads/24JS hashes/Newsbody/sitemap/PC-mobile verified. Resume normal Actions; no FTPS today.",
     "priorFailedActionsRun": "https://github.com/gamips/ai.gami.jp/actions/runs/36357667097",
-    "lastSuccessfulActionsRun": "https://github.com/gamips/ai.gami.jp/actions/runs/34724895099",
-    "normalPathRecheckOnOrAfter": "2026-10-05",
-    "returnToNormalCondition": "Resume normal Actions after a successful normal-route build/deploy and live verification."
+    "lastSuccessfulActionsRun": "https://github.com/gamips/ai.gami.jp/actions/runs/37242689428",
+    "normalPathRecheckOnOrAfter": null,
+    "returnToNormalCondition": "Resume normal Actions after a successful normal-route build/deploy and live verification.",
+    "normalRouteRecoveredAt": "2026-10-04T23:11:26.247Z",
+    "preferredMethod": "GitHub Actions normal Xserver deploy"
   },
   "observationQueue": [
     {
@@ -584,8 +587,8 @@
       "startedAt": "2026-09-21T08:05:06.8299556+09:00",
       "nextChecks": [
         {
-          "onOrAfter": "2026-10-05",
-          "check": "Follow up first unknown Google-index result; live technical checks passed September28. Preserve original article/effect dates."
+          "onOrAfter": "2026-10-12",
+          "check": "Follow up second unknown result; live checks pass. Preserve original article/effect dates; sourceai-saas currently frozen untilOctober31."
         },
         {
           "onOrAfter": "2026-10-22",
@@ -604,6 +607,20 @@
           "queryPageEffect": "not-yet-measurable",
           "inspectionEvidencePath": "reports/seo/inspections/2026-09-28-meeting.json",
           "metricsEvidencePath": "reports/seo/metrics/2026-09-28-0806.json"
+        },
+        {
+          "onOrAfter": "2026-10-05",
+          "check": "Follow up first unknown Google-index result; live technical checks passed September28. Preserve original article/effect dates.",
+          "checkedAt": "2026-10-04T23:07:40.5549745+00:00",
+          "indexResult": "not-confirmed",
+          "indexVerdict": "NEUTRAL",
+          "coverageState": "URL が Google に認識されていません",
+          "lastCrawlTime": null,
+          "postChangeRecrawl": null,
+          "queryPageEffect": "not-yet-measurable",
+          "inspectionEvidencePath": "reports/seo/inspections/2026-10-05-due-pages.json",
+          "metricsEvidencePath": "reports/seo/metrics/2026-10-05-0806.json",
+          "liveTechnicalEvidencePath": "reports/seo/deployments/2026-10-05-news-parity.json"
         }
       ]
     },
@@ -734,12 +751,29 @@
       "startedAt": "2026-09-28T08:18:34.7290309+09:00",
       "nextChecks": [
         {
-          "onOrAfter": "2026-10-05",
-          "check": "Source crawl/index and first post-link page signals; reuse target's October4 indexcheck and do not duplicate it."
+          "onOrAfter": "2026-10-12",
+          "check": "Recheck source crawl/index afterSeptember28link; reuse latest target inspection and avoid duplicate requests."
         },
         {
           "onOrAfter": "2026-10-29",
           "check": "28 finalized full post-link days (latest final at leastOctober26) and at least30 targetpage impressions. Descriptive only; no direct linkclick or causal attribution without analytics."
+        }
+      ],
+      "completedChecks": [
+        {
+          "onOrAfter": "2026-10-05",
+          "check": "Source crawl/index and first post-link page signals; reuse target's October4 indexcheck and do not duplicate it.",
+          "checkedAt": "2026-10-04T23:07:48.1090729+00:00",
+          "indexResult": "indexed-crawl-predates-link",
+          "indexVerdict": "PASS",
+          "coverageState": "送信して登録されました",
+          "lastCrawlTime": "2026-08-28T01:01:36Z",
+          "postChangeRecrawl": false,
+          "queryPageEffect": "not-yet-measurable",
+          "inspectionEvidencePath": "reports/seo/inspections/2026-10-05-due-pages.json",
+          "metricsEvidencePath": "reports/seo/metrics/2026-10-05-ai-web-post-link.json",
+          "liveTechnicalEvidencePath": "reports/seo/deployments/2026-10-05-news-parity.json",
+          "targetInspectionReusedFrom": "reports/seo/inspections/2026-10-04-due-pages.json"
         }
       ]
     },
@@ -817,22 +851,37 @@
           "check": "28 finalized full post-publication days (October5–November1; latest final at leastNovember1) and at least30 page impressions. Date assumes observed five-day lag; use actual freshness."
         }
       ]
+    },
+    {
+      "experimentId": "news-initial-html-parity-v1",
+      "status": "observing",
+      "startedAt": "2026-10-04T23:09:20Z",
+      "nextChecks": [
+        {
+          "onOrAfter": "2026-10-12",
+          "check": "Google crawl/index state after News existing3announcements available in initial HTML."
+        },
+        {
+          "onOrAfter": "2026-11-05",
+          "check": "28 finalized full post-change days (October6–November2; latestfinal at leastNovember2) and at least30 pageimpressions; otherwise insufficient evidence. Initial schedule assumes3daylag; no causal/qualifiedvisitclaim."
+        }
+      ]
     }
   ],
   "readyQueue": [
     {
       "lane": "technical-seo",
       "priority": 1,
-      "url": "https://ai.gami.jp/news/",
-      "work": "お知らせの既存3件と見出しを、表示後と同じ内容で初期HTMLへ反映する。",
+      "url": "https://ai.gami.jp/insights/",
+      "work": "記事一覧の既存の導入文・公開日・カテゴリを初期HTMLにも反映する。",
       "evidence": [
-        "News.tsx renders3 existing announcements; pageSeo.js fallback contains only1 featured item.",
-        "Initial H1 GAMIのお知らせ differs from displayed AI導入支援のお知らせ.",
-        "No active/frozen experiment owns /news/."
+        "Insights.tsx displays existing introduction and dates/categories; fallback displays metadata description and SECTION01–15.",
+        "All15 article titles/descriptions/hrefs/order already agree; do not rewrite them.",
+        "No active experiment owns /insights/; index lastmod-from-content experiment completed."
       ],
-      "implementation": "Share existing News-only copy through content/news.js and reuse in News and its fallback. Existing featuredNews/Home behavior, generator and layout unchanged.",
-      "freezeBoundary": "Preserve15articles,services,About/Concept/Contact and other observations. No new announcement or unsupported product claim.",
-      "verification": "Confirm current copy/source boundaries; compare before/after hydrated DOM/text on PC/mobile; build,diff,initialHTML,head/schema,sitemap/live assets. One News parity variable; ranking lift unconfirmed."
+      "implementation": "Use existing Insights data/intro only in route-specific initial body; preserve hydrated UI/CSS, all other fallback output and per-article dates/links/schema. Keep existing index lastmod-from-content rule.",
+      "freezeBoundary": "Preserve all24 active URL experiments and all15 articles. No service/link copy edits, especially frozen ai-saas source.",
+      "verification": "Build,diff,15 dateTime/category/title/link rows, unchanged head/schema/canonical, initial bodies of other routes unchanged, hydrated PC/mobile unchanged."
     }
   ],
   "blocked": [
@@ -866,10 +915,10 @@
     "verificationGap": false,
     "verificationGapResolved": true,
     "cadenceChangeNeeded": false,
-    "nextFullAuditAfterCompletedRuns": 2,
+    "nextFullAuditAfterCompletedRuns": 1,
     "actualPromptReadback": "passed",
     "changeApplied": false,
-    "changeReason": "Second completed run after October2 full audit. Published prepared article while due index checks remained immature. Same finalized boundary within24hours reused; no duplicate analytics. Next independent News parity candidate found. Existing1.0.10 and daily08:00 remain suitable.",
+    "changeReason": "Third completed run afterOctober2fullaudit. Independent News parity delivered while observations remained immature. New finalized boundary collected once and raw requests retained. Scheduled normal route recovered with live verification; resumeActions via existing1.0.10 condition. Next independent Insights listing parity prepared; daily08 remains suitable.",
     "operatingPolicyUpdated": false,
     "externalScheduleChangeObserved": false,
     "launcherPromptUpdated": false,
@@ -881,8 +930,8 @@
       "2026-10-01",
       "2026-10-02"
     ],
-    "newReusableLearning": "No new policy. Preserve final-date boundary and live-vs-index distinction; use known FTPS recovery until October5 normal-path check.",
-    "normalRouteRecheckCompleted": false
+    "newReusableLearning": "Existing recovery rule was exercised in both directions: normal Actions is restored only after successful deploy AND live comparison, not job status alone. No additional policy needed.",
+    "normalRouteRecheckCompleted": true
   },
   "retiredBlockers": [
     {

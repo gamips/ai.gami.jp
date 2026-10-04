@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-04",
+  "updatedAt": "2026-10-05",
   "rules": {
     "oneOwnerUrlPerIntent": true,
     "publicCopyExcludesOperationalMetadata": true
@@ -88,8 +88,10 @@
       "type": "news-index",
       "intent": "GAMIからのお知らせ",
       "status": "published",
-      "lastModified": "2026-09-05",
-      "featuredCaseStudy": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/"
+      "lastModified": "2026-10-05",
+      "featuredCaseStudy": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/",
+      "experimentId": "news-initial-html-parity-v1",
+      "contentSource": "src/app/content/news.js"
     },
     {
       "url": "https://ai.gami.jp/about/",
