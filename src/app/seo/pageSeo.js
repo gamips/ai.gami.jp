@@ -1,5 +1,5 @@
 import { insights } from "../content/insights.js";
-import { featuredNews } from "../content/news.js";
+import { featuredNews, newsItems } from "../content/news.js";
 import { pricePlans, monthlyModelPoints, projectNotes } from "../content/pricing.js";
 import { companyInfo } from "../content/company.js";
 import { conceptIdeas } from "../content/concept.js";
@@ -280,29 +280,13 @@ const newsListSchema = {
   "@type": "CollectionPage",
   name: "GAMI News",
   url: toCanonicalUrl("/news"),
-  hasPart: [
-    ...featuredNews.map((news) => ({
-      "@type": "Article",
-      headline: news.title,
-      datePublished: news.publishedAt,
-      articleSection: news.category,
-      url: toCanonicalUrl(news.href),
-    })),
-    {
-      "@type": "NewsArticle",
-      headline: "コーポレートサイトをリニューアルオープンしました。",
-      datePublished: "2026-02-01",
-      articleSection: "お知らせ",
-      url: toCanonicalUrl("/news#news-1"),
-    },
-    {
-      "@type": "NewsArticle",
-      headline: "新サービス「SaaS × AI 業務自動化プラン」の提供を開始しました。",
-      datePublished: "2026-01-15",
-      articleSection: "サービス",
-      url: toCanonicalUrl("/news#news-2"),
-    },
-  ],
+  hasPart: newsItems.map((news) => ({
+    "@type": news.href ? "Article" : "NewsArticle",
+    headline: news.title,
+    datePublished: news.publishedAt,
+    articleSection: news.category,
+    url: toCanonicalUrl(news.href ?? `/news#news-${news.id}`),
+  })),
 };
 
 const featuredNewsSections = featuredNews.map((news) => ({
@@ -994,9 +978,13 @@ export const pageSeoByPath = {
   },
   "/news": {
     path: "/news",
-    lastModified: "2026-09-05",
-    fallbackHeading: "GAMIのお知らせ",
-    fallbackSections: featuredNewsSections,
+    lastModified: "2026-10-05",
+    fallbackHeading: "AI導入支援のお知らせ",
+    fallbackSections: newsItems.map((news) => ({
+      title: news.title,
+      body: news.description,
+      href: news.href,
+    })),
     title: "News | 生成AI導入支援・AI開発のお知らせ | GAMI",
     description:
       "GAMIの生成AI導入支援、AI開発、AIマーケティング、AI Web制作に関する最新情報、お知らせ、サービスアップデートを掲載しています。",
