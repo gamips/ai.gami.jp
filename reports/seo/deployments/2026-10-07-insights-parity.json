@@ -1,0 +1,345 @@
+{
+  "observedAt": "2026-10-07T01:17:45Z",
+  "baselineCommit": "45ecfb1",
+  "commit": "555856c81eb49542562d0e597dbde0e669b6a3e1",
+  "change": "Initial Insights introduction, publication dates and categories now reuse the existing visible copy.15 article data, hydrated markup, CSS, all heads/schema/sitemap and27other initial bodies unchanged.",
+  "publication": {
+    "method": "GitHub Actions normal Xserver deploy",
+    "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/37555982067",
+    "status": "completed",
+    "conclusion": "success",
+    "deployedAt": "2026-10-07T01:13:35Z",
+    "response": {
+      "ok": true,
+      "extracted": 74,
+      "deletedStalePaths": 1
+    },
+    "ftpsUsed": false,
+    "note": "Existing deploy script performed its normal stale-path cleanup; favicon.ico restored and live hash verified. No server/auth/workflow changes.",
+    "actionEvidence": {
+      "conclusion": "success",
+      "createdAt": "2026-10-07T01:13:05Z",
+      "headSha": "555856c81eb49542562d0e597dbde0e669b6a3e1",
+      "jobs": [
+        {
+          "completedAt": "2026-10-07T01:13:37Z",
+          "conclusion": "success",
+          "databaseId": 112582197840,
+          "name": "Build and deploy",
+          "startedAt": "2026-10-07T01:13:09Z",
+          "status": "completed",
+          "steps": [
+            {
+              "completedAt": "2026-10-07T01:13:10Z",
+              "conclusion": "success",
+              "name": "Set up job",
+              "number": 1,
+              "startedAt": "2026-10-07T01:13:09Z",
+              "status": "completed"
+            },
+            {
+              "completedAt": "2026-10-07T01:13:11Z",
+              "conclusion": "success",
+              "name": "Checkout",
+              "number": 2,
+              "startedAt": "2026-10-07T01:13:10Z",
+              "status": "completed"
+            },
+            {
+              "completedAt": "2026-10-07T01:13:15Z",
+              "conclusion": "success",
+              "name": "Setup Node.js",
+              "number": 3,
+              "startedAt": "2026-10-07T01:13:11Z",
+              "status": "completed"
+            },
+            {
+              "completedAt": "2026-10-07T01:13:28Z",
+              "conclusion": "success",
+              "name": "Install dependencies",
+              "number": 4,
+              "startedAt": "2026-10-07T01:13:15Z",
+              "status": "completed"
+            },
+            {
+              "completedAt": "2026-10-07T01:13:32Z",
+              "conclusion": "success",
+              "name": "Build",
+              "number": 5,
+              "startedAt": "2026-10-07T01:13:28Z",
+              "status": "completed"
+            },
+            {
+              "completedAt": "2026-10-07T01:13:35Z",
+              "conclusion": "success",
+              "name": "Deploy dist to Xserver",
+              "number": 6,
+              "startedAt": "2026-10-07T01:13:32Z",
+              "status": "completed"
+            },
+            {
+              "completedAt": "2026-10-07T01:13:35Z",
+              "conclusion": "success",
+              "name": "Post Setup Node.js",
+              "number": 11,
+              "startedAt": "2026-10-07T01:13:35Z",
+              "status": "completed"
+            },
+            {
+              "completedAt": "2026-10-07T01:13:35Z",
+              "conclusion": "success",
+              "name": "Post Checkout",
+              "number": 12,
+              "startedAt": "2026-10-07T01:13:35Z",
+              "status": "completed"
+            },
+            {
+              "completedAt": "2026-10-07T01:13:35Z",
+              "conclusion": "success",
+              "name": "Complete job",
+              "number": 13,
+              "startedAt": "2026-10-07T01:13:35Z",
+              "status": "completed"
+            }
+          ],
+          "url": "https://github.com/gamips/ai.gami.jp/actions/runs/37555982067/job/112582197840"
+        }
+      ],
+      "status": "completed",
+      "updatedAt": "2026-10-07T01:13:38Z",
+      "url": "https://github.com/gamips/ai.gami.jp/actions/runs/37555982067"
+    }
+  },
+  "build": {
+    "local": "Passed October6 on these unchanged4files; resumed saved build.",
+    "ci": "Passed October7 in normal Actions",
+    "diffCheck": "passed",
+    "codeReview": "listing_review: no actionable findings"
+  },
+  "staticAndLive": {
+    "checkedAt": "2026-10-07T01:13:59.753Z",
+    "baselineCommit": "45ecfb1",
+    "all15ArticleDataUnchanged": true,
+    "hydratedComponentMarkupUnchanged": true,
+    "seoHeadsUnchanged": 28,
+    "otherInitialBodiesUnchanged": 27,
+    "sitemapUnchanged": true,
+    "sitemapUrls": 26,
+    "indexLastmod": "2026-10-04",
+    "cssUnchanged": true,
+    "initialIntroMatches": true,
+    "initialItemsWithDatesCategories": 15,
+    "linksOrderUnchanged": true,
+    "headSchemaUnchanged": true,
+    "liveStatus": 200,
+    "liveHeadBodyMatches": true,
+    "liveSitemapMatches": true,
+    "passed": true
+  },
+  "preRelease": {
+    "checkedAt": "2026-10-07T01:12:25.713Z",
+    "baselineCommit": "45ecfb1",
+    "all15ArticleDataUnchanged": true,
+    "hydratedComponentMarkupUnchanged": true,
+    "seoHeadsUnchanged": 28,
+    "otherInitialBodiesUnchanged": 27,
+    "sitemapUnchanged": true,
+    "sitemapUrls": 26,
+    "indexLastmod": "2026-10-04",
+    "cssUnchanged": true,
+    "initialIntroMatches": true,
+    "initialItemsWithDatesCategories": 15,
+    "linksOrderUnchanged": true,
+    "headSchemaUnchanged": true,
+    "baselineInitialDates": 0,
+    "baselineMissingIntro": true,
+    "liveBaselineStatus": 200,
+    "passed": true
+  },
+  "releaseAssets": {
+    "checkedAt": "2026-10-07T01:14:00.928Z",
+    "assetsChecked": 24,
+    "assetHashesMatch": true,
+    "headsChecked": 28,
+    "allStaticSeoHeadsMatch": true,
+    "scope": "All generated SEO heads and built JavaScript hashes after normal Actions deployment; not a full UI audit.",
+    "passed": true
+  },
+  "dueLive": {
+    "checkedAt": "2026-10-07T01:16:10.614Z",
+    "source": "live HTTP, not Google-index",
+    "checks": [
+      {
+        "articleSchemaCount": 1,
+        "webPageSchemaCount": 1,
+        "url": "https://ai.gami.jp/insights/ai-introduction-support/",
+        "httpStatus": 200,
+        "canonicalMatches": true,
+        "indexAllowed": true,
+        "titleAndParagraphsPresent": true,
+        "sitemapPresent": true,
+        "listingLinkPresent": true
+      },
+      {
+        "articleSchemaCount": 1,
+        "webPageSchemaCount": 1,
+        "url": "https://ai.gami.jp/insights/ai-introduction-support-pricing/",
+        "httpStatus": 200,
+        "canonicalMatches": true,
+        "indexAllowed": true,
+        "titleAndParagraphsPresent": true,
+        "sitemapPresent": true,
+        "listingLinkPresent": true
+      },
+      {
+        "articleSchemaCount": 1,
+        "webPageSchemaCount": 1,
+        "url": "https://ai.gami.jp/insights/chatgpt-workplace-adoption-checklist/",
+        "httpStatus": 200,
+        "canonicalMatches": true,
+        "indexAllowed": true,
+        "titleAndParagraphsPresent": true,
+        "sitemapPresent": true,
+        "listingLinkPresent": true
+      },
+      {
+        "articleSchemaCount": 1,
+        "webPageSchemaCount": 1,
+        "url": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/",
+        "httpStatus": 200,
+        "canonicalMatches": true,
+        "indexAllowed": true,
+        "titleAndParagraphsPresent": true,
+        "sitemapPresent": true,
+        "listingLinkPresent": true
+      },
+      {
+        "articleSchemaCount": 1,
+        "webPageSchemaCount": 1,
+        "url": "https://ai.gami.jp/insights/rag-document-inventory-checklist/",
+        "httpStatus": 200,
+        "canonicalMatches": true,
+        "indexAllowed": true,
+        "titleAndParagraphsPresent": true,
+        "sitemapPresent": true,
+        "listingLinkPresent": true
+      },
+      {
+        "articleSchemaCount": 1,
+        "webPageSchemaCount": 1,
+        "url": "https://ai.gami.jp/insights/ai-website-launch-checklist/",
+        "httpStatus": 200,
+        "canonicalMatches": true,
+        "indexAllowed": true,
+        "titleAndParagraphsPresent": true,
+        "sitemapPresent": true,
+        "listingLinkPresent": true
+      },
+      {
+        "articleSchemaCount": 1,
+        "webPageSchemaCount": 1,
+        "url": "https://ai.gami.jp/insights/ai-customer-reply-template/",
+        "httpStatus": 200,
+        "canonicalMatches": true,
+        "indexAllowed": true,
+        "titleAndParagraphsPresent": true,
+        "sitemapPresent": true,
+        "listingLinkPresent": true
+      },
+      {
+        "articleSchemaCount": 1,
+        "webPageSchemaCount": 1,
+        "url": "https://ai.gami.jp/insights/rag-answer-review-sheet/",
+        "httpStatus": 200,
+        "canonicalMatches": true,
+        "indexAllowed": true,
+        "titleAndParagraphsPresent": true,
+        "sitemapPresent": true,
+        "listingLinkPresent": true
+      },
+      {
+        "articleSchemaCount": 1,
+        "webPageSchemaCount": 1,
+        "url": "https://ai.gami.jp/insights/saas-or-custom-system-checklist/",
+        "httpStatus": 200,
+        "canonicalMatches": true,
+        "indexAllowed": true,
+        "titleAndParagraphsPresent": true,
+        "sitemapPresent": true,
+        "listingLinkPresent": true
+      },
+      {
+        "articleSchemaCount": 1,
+        "webPageSchemaCount": 1,
+        "url": "https://ai.gami.jp/insights/ai-article-fact-check-template/",
+        "httpStatus": 200,
+        "canonicalMatches": true,
+        "indexAllowed": true,
+        "titleAndParagraphsPresent": true,
+        "sitemapPresent": true,
+        "listingLinkPresent": true
+      },
+      {
+        "url": "https://ai.gami.jp/services/ai-saas/",
+        "httpStatus": 200,
+        "canonicalMatches": true,
+        "indexAllowed": true,
+        "expectedLink": "/insights/saas-or-custom-system-checklist/",
+        "initialLinkVerified": true
+      },
+      {
+        "url": "https://ai.gami.jp/services/ai-marketing/",
+        "httpStatus": 200,
+        "canonicalMatches": true,
+        "indexAllowed": true,
+        "expectedLink": "/insights/ai-article-fact-check-template/",
+        "initialLinkVerified": true
+      },
+      {
+        "url": "https://ai.gami.jp/concept/",
+        "httpStatus": 200,
+        "canonicalMatches": true,
+        "indexAllowed": true,
+        "expectedLink": null,
+        "initialLinkVerified": null
+      }
+    ],
+    "faviconBuildMatches": true,
+    "robotsSitemapPresent": true,
+    "passed": true
+  },
+  "browser": {
+    "url": "https://ai.gami.jp/insights/",
+    "desktop": {
+      "width": 1280,
+      "scrollWidth": 1280,
+      "mainDomUnchanged": true,
+      "articleCount": 15,
+      "screenshot": "output/playwright/2026-10-07-insights-desktop.png"
+    },
+    "mobile": {
+      "width": 390,
+      "scrollWidth": 390,
+      "mainDomUnchanged": true,
+      "articleCount": 15,
+      "screenshot": "output/playwright/2026-10-07-insights-mobile.png"
+    },
+    "screenshotsReviewed": true,
+    "consoleErrors": 0,
+    "consoleWarnings": 0,
+    "networkRequests": 26,
+    "non200Responses": 0,
+    "networkEvidence": "### Result\n1. [GET] https://ai.gami.jp/insights/ => [200] \n2. [GET] https://ai.gami.jp/assets/index-BsF91_Pl.js => [200] \n3. [GET] https://ai.gami.jp/assets/index-BSUbwp1T.css => [200] \n4. [GET] https://fonts.googleapis.com/css2?family=Inter:wght@700;800;900&display=swap => [200] \n5. [GET] https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2 => [200] \n6. [GET] https://ai.gami.jp/assets/Insights-D-EInmSQ.js => [200] \n7. [GET] https://ai.gami.jp/assets/PageSeo-CsajtdDo.js => [200] \n8. [GET] https://ai.gami.jp/assets/InquiryCta-BONb7Gsf.js => [200] \n9. [GET] https://ai.gami.jp/assets/ScrollReveal-BLcBvWez.js => [200] \n10. [GET] https://ai.gami.jp/assets/proxy-DxH3U06W.js => [200] \n11. [GET] https://ai.gami.jp/assets/ScrollToTopLink-Bit4hlzs.js => [200] \n12. [GET] https://ai.gami.jp/assets/arrow-right-R9KEYv0y.js => [200] \n13. [GET] https://ai.gami.jp/assets/createLucideIcon-BlIXrVna.js => [200] \n14. [GET] https://ai.gami.jp/insights/ => [200] \n15. [GET] https://ai.gami.jp/assets/index-bvyQvP2J.js => [200] \n16. [GET] https://ai.gami.jp/assets/index-BSUbwp1T.css => [200] \n17. [GET] https://fonts.googleapis.com/css2?family=Inter:wght@700;800;900&display=swap => [200] \n18. [GET] https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2 => [200] \n19. [GET] https://ai.gami.jp/assets/Insights-CAr1fRio.js => [200] \n20. [GET] https://ai.gami.jp/assets/PageSeo-Dp4KKiTD.js => [200] \n21. [GET] https://ai.gami.jp/assets/InquiryCta-DwRQO7KJ.js => [200] \n22. [GET] https://ai.gami.jp/assets/ScrollReveal-Cub5sSXo.js => [200] \n23. [GET] https://ai.gami.jp/assets/proxy-Cys6bSd-.js => [200] \n24. [GET] https://ai.gami.jp/assets/ScrollToTopLink-kVzpI1qo.js => [200] \n25. [GET] https://ai.gami.jp/assets/arrow-right-DTtHLjAp.js => [200] \n26. [GET] https://ai.gami.jp/assets/createLucideIcon-D9vrmko6.js => [200] \n",
+    "sessionClosed": true,
+    "note": "Exact mainDOM comparison is before-versus-after hydrated UI, NOT equality of complete initial HTML and hydrated UI. No form submission. No server-side log access claimed."
+  },
+  "searchEffect": {
+    "result": "not-yet-measurable",
+    "note": "Successful publication is not evidence of search traffic growth."
+  },
+  "designSkill": {
+    "used": "Lazyweb existing-design route, Playwright validation",
+    "referenceSearchResult": "mcp_upstream_timeout",
+    "response": "No external reference used; existing local typography/classes reused. No redesign or reference list."
+  }
+}

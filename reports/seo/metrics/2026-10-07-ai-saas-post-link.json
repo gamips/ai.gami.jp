@@ -1,0 +1,170 @@
+{
+  "observedAt": "2026-10-07T10:13:04.0269405+09:00",
+  "queries": [
+    {
+      "group": null,
+      "request": {
+        "Dimensions": [
+          "page"
+        ],
+        "SearchType": "web",
+        "RowLimit": 1000,
+        "Raw": true,
+        "Action": "query",
+        "DataState": "final",
+        "StartDate": "2026-10-01",
+        "Expression": "https://ai.gami.jp/services/ai-saas",
+        "Operator": "contains",
+        "Dimension": "page",
+        "EndDate": "2026-10-04"
+      },
+      "result": {
+        "siteUrl": "sc-domain:ai.gami.jp",
+        "startDate": "2026-10-01",
+        "endDate": "2026-10-04",
+        "dimensions": [
+          "page"
+        ],
+        "searchType": "web",
+        "dataState": "final",
+        "rowCount": 0,
+        "rows": [],
+        "metadata": null
+      }
+    },
+    {
+      "group": null,
+      "request": {
+        "Dimensions": [
+          "query",
+          "page"
+        ],
+        "SearchType": "web",
+        "RowLimit": 1000,
+        "Raw": true,
+        "Action": "query",
+        "DataState": "final",
+        "StartDate": "2026-10-01",
+        "Expression": "https://ai.gami.jp/services/ai-saas",
+        "Operator": "contains",
+        "Dimension": "page",
+        "EndDate": "2026-10-04"
+      },
+      "result": {
+        "siteUrl": "sc-domain:ai.gami.jp",
+        "startDate": "2026-10-01",
+        "endDate": "2026-10-04",
+        "dimensions": [
+          "query",
+          "page"
+        ],
+        "searchType": "web",
+        "dataState": "final",
+        "rowCount": 0,
+        "rows": [],
+        "metadata": null
+      }
+    },
+    {
+      "group": null,
+      "request": {
+        "Dimensions": [
+          "page"
+        ],
+        "SearchType": "web",
+        "RowLimit": 1000,
+        "Raw": true,
+        "Action": "query",
+        "DataState": "final",
+        "StartDate": "2026-10-01",
+        "Expression": "https://ai.gami.jp/insights/saas-or-custom-system-checklist/",
+        "Operator": "contains",
+        "Dimension": "page",
+        "EndDate": "2026-10-04"
+      },
+      "result": {
+        "siteUrl": "sc-domain:ai.gami.jp",
+        "startDate": "2026-10-01",
+        "endDate": "2026-10-04",
+        "dimensions": [
+          "page"
+        ],
+        "searchType": "web",
+        "dataState": "final",
+        "rowCount": 0,
+        "rows": [],
+        "metadata": null
+      }
+    },
+    {
+      "group": null,
+      "request": {
+        "Dimensions": [
+          "query",
+          "page"
+        ],
+        "SearchType": "web",
+        "RowLimit": 1000,
+        "Raw": true,
+        "Action": "query",
+        "DataState": "final",
+        "StartDate": "2026-10-01",
+        "Expression": "https://ai.gami.jp/insights/saas-or-custom-system-checklist/",
+        "Operator": "contains",
+        "Dimension": "page",
+        "EndDate": "2026-10-04"
+      },
+      "result": {
+        "siteUrl": "sc-domain:ai.gami.jp",
+        "startDate": "2026-10-01",
+        "endDate": "2026-10-04",
+        "dimensions": [
+          "query",
+          "page"
+        ],
+        "searchType": "web",
+        "dataState": "final",
+        "rowCount": 0,
+        "rows": [],
+        "metadata": null
+      }
+    }
+  ],
+  "completedAt": "2026-10-07T10:13:05.6971116+09:00",
+  "source": "Google Search Console API, final/web",
+  "sourceUrl": "https://ai.gami.jp/services/ai-saas/",
+  "targetUrl": "https://ai.gami.jp/insights/saas-or-custom-system-checklist/",
+  "fullFinalPostLinkDays": 4,
+  "sourceIndex": {
+    "siteUrl": "sc-domain:ai.gami.jp",
+    "inspectionUrl": "https://ai.gami.jp/services/ai-saas/",
+    "fetchedAt": "2026-10-07T01:12:21.9606654+00:00",
+    "source": "google-index",
+    "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:ai.gami.jp&id=m3e64Lkwq-s32DEWSESb0g&utm_medium=link&utm_source=api",
+    "verdict": "PASS",
+    "coverageState": "送信して登録されました",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-09-09T19:32:30Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://ai.gami.jp/services/ai-saas/",
+    "userCanonical": "https://ai.gami.jp/services/ai-saas/"
+  },
+  "targetIndexReused": {
+    "siteUrl": "sc-domain:ai.gami.jp",
+    "inspectionUrl": "https://ai.gami.jp/insights/saas-or-custom-system-checklist/",
+    "fetchedAt": "2026-10-03T23:03:51.3141168+00:00",
+    "source": "google-index",
+    "verdict": "NEUTRAL",
+    "coverageState": "URL が Google に認識されていません",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "lastCrawlTime": null,
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "googleCanonical": null,
+    "userCanonical": null
+  },
+  "targetInspectionEvidencePath": "reports/seo/inspections/2026-10-04-due-pages.json",
+  "result": "not-yet-measurable",
+  "note": "Source indexed crawl predates link. Only4 full final post-link days; missing rows are not zero. No direct link-click/qualified-visit/causal inference without analytics."
+}

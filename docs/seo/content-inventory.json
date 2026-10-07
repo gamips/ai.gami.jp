@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-05",
+  "updatedAt": "2026-10-07",
   "rules": {
     "oneOwnerUrlPerIntent": true,
     "publicCopyExcludesOperationalMetadata": true
@@ -116,7 +116,11 @@
       "type": "insight-index",
       "intent": "AI導入と生成AI活用の実践ガイド一覧",
       "status": "published",
-      "lastModified": "2026-10-04"
+      "lastModified": "2026-10-04",
+      "experimentId": "insights-initial-listing-parity-v1",
+      "technicalUpdatedAt": "2026-10-07T01:13:35Z",
+      "contentSource": "src/app/content/insights.js",
+      "note": "Index sitemap lastmod continues to derive from article updatedAt; template-only parity did not advance content dates."
     },
     {
       "url": "https://ai.gami.jp/insights/ai-introduction-support/",

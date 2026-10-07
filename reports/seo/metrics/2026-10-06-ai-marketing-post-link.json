@@ -1,0 +1,176 @@
+{
+  "observedAt": "2026-10-06T09:34:15.1209649+09:00",
+  "queries": [
+    {
+      "request": {
+        "Dimensions": [
+          "page"
+        ],
+        "SearchType": "web",
+        "RowLimit": 1000,
+        "Raw": true,
+        "Action": "query",
+        "DataState": "final",
+        "StartDate": "2026-09-30",
+        "Expression": "https://ai.gami.jp/services/ai-marketing",
+        "Operator": "contains",
+        "Dimension": "page",
+        "EndDate": "2026-10-03"
+      },
+      "result": {
+        "siteUrl": "sc-domain:ai.gami.jp",
+        "startDate": "2026-09-30",
+        "endDate": "2026-10-03",
+        "dimensions": [
+          "page"
+        ],
+        "searchType": "web",
+        "dataState": "final",
+        "rowCount": 1,
+        "rows": [
+          {
+            "keys": [
+              "https://ai.gami.jp/services/ai-marketing/"
+            ],
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 86
+          }
+        ],
+        "metadata": null
+      }
+    },
+    {
+      "request": {
+        "Dimensions": [
+          "query",
+          "page"
+        ],
+        "SearchType": "web",
+        "RowLimit": 1000,
+        "Raw": true,
+        "Action": "query",
+        "DataState": "final",
+        "StartDate": "2026-09-30",
+        "Expression": "https://ai.gami.jp/services/ai-marketing",
+        "Operator": "contains",
+        "Dimension": "page",
+        "EndDate": "2026-10-03"
+      },
+      "result": {
+        "siteUrl": "sc-domain:ai.gami.jp",
+        "startDate": "2026-09-30",
+        "endDate": "2026-10-03",
+        "dimensions": [
+          "query",
+          "page"
+        ],
+        "searchType": "web",
+        "dataState": "final",
+        "rowCount": 0,
+        "rows": [],
+        "metadata": null
+      }
+    },
+    {
+      "request": {
+        "Dimensions": [
+          "page"
+        ],
+        "SearchType": "web",
+        "RowLimit": 1000,
+        "Raw": true,
+        "Action": "query",
+        "DataState": "final",
+        "StartDate": "2026-09-30",
+        "Expression": "https://ai.gami.jp/insights/ai-article-fact-check-template/",
+        "Operator": "contains",
+        "Dimension": "page",
+        "EndDate": "2026-10-03"
+      },
+      "result": {
+        "siteUrl": "sc-domain:ai.gami.jp",
+        "startDate": "2026-09-30",
+        "endDate": "2026-10-03",
+        "dimensions": [
+          "page"
+        ],
+        "searchType": "web",
+        "dataState": "final",
+        "rowCount": 0,
+        "rows": [],
+        "metadata": null
+      }
+    },
+    {
+      "request": {
+        "Dimensions": [
+          "query",
+          "page"
+        ],
+        "SearchType": "web",
+        "RowLimit": 1000,
+        "Raw": true,
+        "Action": "query",
+        "DataState": "final",
+        "StartDate": "2026-09-30",
+        "Expression": "https://ai.gami.jp/insights/ai-article-fact-check-template/",
+        "Operator": "contains",
+        "Dimension": "page",
+        "EndDate": "2026-10-03"
+      },
+      "result": {
+        "siteUrl": "sc-domain:ai.gami.jp",
+        "startDate": "2026-09-30",
+        "endDate": "2026-10-03",
+        "dimensions": [
+          "query",
+          "page"
+        ],
+        "searchType": "web",
+        "dataState": "final",
+        "rowCount": 0,
+        "rows": [],
+        "metadata": null
+      }
+    }
+  ],
+  "completedAt": "2026-10-06T09:34:17.8666337+09:00",
+  "source": "Google Search Console API, final/web",
+  "sourceUrl": "https://ai.gami.jp/services/ai-marketing/",
+  "targetUrl": "https://ai.gami.jp/insights/ai-article-fact-check-template/",
+  "fullFinalPostLinkDays": 4,
+  "sourceIndex": {
+    "siteUrl": "sc-domain:ai.gami.jp",
+    "inspectionUrl": "https://ai.gami.jp/services/ai-marketing/",
+    "fetchedAt": "2026-10-06T00:31:36.0085673+00:00",
+    "source": "google-index",
+    "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:ai.gami.jp&id=J7N-Rmm1bWnLphfDCgtW9A&utm_medium=link&utm_source=api",
+    "verdict": "PASS",
+    "coverageState": "送信して登録されました",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-09-24T12:30:27Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://ai.gami.jp/services/ai-marketing/",
+    "userCanonical": "https://ai.gami.jp/services/ai-marketing/"
+  },
+  "targetIndexReused": {
+    "siteUrl": "sc-domain:ai.gami.jp",
+    "inspectionUrl": "https://ai.gami.jp/insights/ai-article-fact-check-template/",
+    "fetchedAt": "2026-10-03T23:03:58.9729792+00:00",
+    "source": "google-index",
+    "verdict": "NEUTRAL",
+    "coverageState": "URL が Google に認識されていません",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "lastCrawlTime": null,
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "googleCanonical": null,
+    "userCanonical": null
+  },
+  "targetInspectionEvidencePath": "reports/seo/inspections/2026-10-04-due-pages.json",
+  "result": "not-yet-measurable",
+  "note": "Source indexed crawl predates link. Only4 full final post-link days; missing rows are not zero. No direct link-click/qualified-visit/causal inference without analytics."
+}

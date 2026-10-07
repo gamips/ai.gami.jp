@@ -1,0 +1,340 @@
+{
+  "observedAt": "2026-10-07T01:17:45Z",
+  "scope": "First28 finalized full post-publication days, not the current rolling window for all articles",
+  "minimumEvidence": {
+    "finalDays": 28,
+    "pageImpressions": 30
+  },
+  "result": "inconclusive",
+  "independentReview": "effect_review: all7 first28day windows, page/query grains, missing rows, original dates and pre-September13 crawl chronology verified; share with caveats.",
+  "nextReviewOnOrAfter": "2026-10-21",
+  "articles": [
+    {
+      "experimentId": "insight-ai-introduction-support-v1",
+      "url": "https://ai.gami.jp/insights/ai-introduction-support/",
+      "originalStartedAt": "2026-09-04T10:46:03+09:00",
+      "reviewDueOn": "2026-10-06",
+      "reviewCompletedAt": "2026-10-07T01:17:45Z",
+      "finalizedWindow": {
+        "startDate": "2026-09-05",
+        "endDate": "2026-10-02",
+        "fullFinalDays": 28
+      },
+      "pageMetrics": {
+        "page": "https://ai.gami.jp/insights/ai-introduction-support/",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 79
+      },
+      "disclosedQueryPages": [
+        {
+          "query": "ai導入 運用支援",
+          "page": "https://ai.gami.jp/insights/ai-introduction-support/",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 79
+        }
+      ],
+      "metricsEvidencePath": "reports/seo/metrics/2026-10-05-0806.json",
+      "metricsAcquiredAt": "2026-10-05T08:07:27.5704744+09:00",
+      "indexEvidence": {
+        "siteUrl": "sc-domain:ai.gami.jp",
+        "inspectionUrl": "https://ai.gami.jp/insights/ai-introduction-support/",
+        "fetchedAt": "2026-10-01T23:04:41.3306575+00:00",
+        "source": "google-index",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:ai.gami.jp&id=7C3KoXS54rDTUmFKTIOEkA&utm_medium=link&utm_source=api",
+        "verdict": "PASS",
+        "coverageState": "送信して登録されました",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-09-04T20:00:33Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://ai.gami.jp/insights/ai-introduction-support/",
+        "userCanonical": "https://ai.gami.jp/insights/ai-introduction-support/"
+      },
+      "inspectionEvidencePath": "reports/seo/inspections/2026-10-02-due-pages.json",
+      "indexResult": "confirmed",
+      "postSchemaChangeRecrawl": false,
+      "result": "inconclusive",
+      "reason": "28 finalized days reached; page impressions below30 or no page row returned. No causal effect determination.",
+      "nextReviewOnOrAfter": "2026-10-21"
+    },
+    {
+      "experimentId": "insight-ai-introduction-support-pricing-v1",
+      "url": "https://ai.gami.jp/insights/ai-introduction-support-pricing/",
+      "originalStartedAt": "2026-09-04T16:03:12+09:00",
+      "reviewDueOn": "2026-10-06",
+      "reviewCompletedAt": "2026-10-07T01:17:45Z",
+      "finalizedWindow": {
+        "startDate": "2026-09-05",
+        "endDate": "2026-10-02",
+        "fullFinalDays": 28
+      },
+      "pageMetrics": {
+        "page": "https://ai.gami.jp/insights/ai-introduction-support-pricing/",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 71.33333333333333
+      },
+      "disclosedQueryPages": [],
+      "metricsEvidencePath": "reports/seo/metrics/2026-10-05-0806.json",
+      "metricsAcquiredAt": "2026-10-05T08:07:27.5704744+09:00",
+      "indexEvidence": {
+        "siteUrl": "sc-domain:ai.gami.jp",
+        "inspectionUrl": "https://ai.gami.jp/insights/ai-introduction-support-pricing/",
+        "fetchedAt": "2026-10-01T23:04:48.7959901+00:00",
+        "source": "google-index",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:ai.gami.jp&id=srzVjSWTjLJphdwdN4oDLg&utm_medium=link&utm_source=api",
+        "verdict": "PASS",
+        "coverageState": "送信して登録されました",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-09-04T21:15:37Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://ai.gami.jp/insights/ai-introduction-support-pricing/",
+        "userCanonical": "https://ai.gami.jp/insights/ai-introduction-support-pricing/"
+      },
+      "inspectionEvidencePath": "reports/seo/inspections/2026-10-02-due-pages.json",
+      "indexResult": "confirmed",
+      "postSchemaChangeRecrawl": false,
+      "result": "inconclusive",
+      "reason": "28 finalized days reached; page impressions below30 or no page row returned. No causal effect determination.",
+      "nextReviewOnOrAfter": "2026-10-21"
+    },
+    {
+      "experimentId": "insight-chatgpt-adoption-checklist-v1",
+      "url": "https://ai.gami.jp/insights/chatgpt-workplace-adoption-checklist/",
+      "originalStartedAt": "2026-09-04T21:50:06+09:00",
+      "reviewDueOn": "2026-10-06",
+      "reviewCompletedAt": "2026-10-07T01:17:45Z",
+      "finalizedWindow": {
+        "startDate": "2026-09-05",
+        "endDate": "2026-10-02",
+        "fullFinalDays": 28
+      },
+      "pageMetrics": {
+        "page": "https://ai.gami.jp/insights/chatgpt-workplace-adoption-checklist/",
+        "clicks": 0,
+        "impressions": 17,
+        "ctr": 0,
+        "position": 18.352941176470587
+      },
+      "disclosedQueryPages": [
+        {
+          "query": "chatgpt 社内 定着しない",
+          "page": "https://ai.gami.jp/insights/chatgpt-workplace-adoption-checklist/",
+          "clicks": 0,
+          "impressions": 13,
+          "ctr": 0,
+          "position": 21.076923076923077
+        }
+      ],
+      "metricsEvidencePath": "reports/seo/metrics/2026-10-05-0806.json",
+      "metricsAcquiredAt": "2026-10-05T08:07:27.5704744+09:00",
+      "indexEvidence": {
+        "siteUrl": "sc-domain:ai.gami.jp",
+        "inspectionUrl": "https://ai.gami.jp/insights/chatgpt-workplace-adoption-checklist/",
+        "fetchedAt": "2026-10-01T23:04:56.1899639+00:00",
+        "source": "google-index",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:ai.gami.jp&id=eQtrSQCA3rMad01MtnhS9Q&utm_medium=link&utm_source=api",
+        "verdict": "PASS",
+        "coverageState": "送信して登録されました",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-09-04T21:53:06Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://ai.gami.jp/insights/chatgpt-workplace-adoption-checklist/",
+        "userCanonical": "https://ai.gami.jp/insights/chatgpt-workplace-adoption-checklist/"
+      },
+      "inspectionEvidencePath": "reports/seo/inspections/2026-10-02-due-pages.json",
+      "indexResult": "confirmed",
+      "postSchemaChangeRecrawl": false,
+      "result": "inconclusive",
+      "reason": "28 finalized days reached; page impressions below30 or no page row returned. No causal effect determination.",
+      "nextReviewOnOrAfter": "2026-10-21"
+    },
+    {
+      "experimentId": "insight-sodatsu-mitsumori-case-study-v1",
+      "url": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/",
+      "originalStartedAt": "2026-09-05T04:10:20+09:00",
+      "reviewDueOn": "2026-10-06",
+      "reviewCompletedAt": "2026-10-07T01:17:45Z",
+      "finalizedWindow": {
+        "startDate": "2026-09-06",
+        "endDate": "2026-10-03",
+        "fullFinalDays": 28
+      },
+      "pageMetrics": {
+        "page": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/",
+        "clicks": 1,
+        "impressions": 10,
+        "ctr": 0.1,
+        "position": 7.4
+      },
+      "disclosedQueryPages": [],
+      "metricsEvidencePath": "reports/seo/metrics/2026-10-06-0931.json",
+      "metricsAcquiredAt": "2026-10-06T09:31:10.3641941+09:00",
+      "indexEvidence": {
+        "siteUrl": "sc-domain:ai.gami.jp",
+        "inspectionUrl": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/",
+        "fetchedAt": "2026-10-06T00:31:43.3757880+00:00",
+        "source": "google-index",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:ai.gami.jp&id=ns9NwYhV9sg1bzh4tUhlKg&utm_medium=link&utm_source=api",
+        "verdict": "PASS",
+        "coverageState": "送信して登録されました",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-09-10T01:21:27Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/",
+        "userCanonical": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/"
+      },
+      "inspectionEvidencePath": "reports/seo/inspections/2026-10-06-due-pages.json",
+      "indexResult": "confirmed",
+      "postSchemaChangeRecrawl": false,
+      "result": "inconclusive",
+      "reason": "28 finalized days reached; page impressions below30 or no page row returned. No causal effect determination.",
+      "nextReviewOnOrAfter": "2026-10-21"
+    },
+    {
+      "experimentId": "insight-rag-document-inventory-checklist-v1",
+      "url": "https://ai.gami.jp/insights/rag-document-inventory-checklist/",
+      "originalStartedAt": "2026-09-05T15:43:26+09:00",
+      "reviewDueOn": "2026-10-06",
+      "reviewCompletedAt": "2026-10-07T01:17:45Z",
+      "finalizedWindow": {
+        "startDate": "2026-09-06",
+        "endDate": "2026-10-03",
+        "fullFinalDays": 28
+      },
+      "pageMetrics": {
+        "page": "https://ai.gami.jp/insights/rag-document-inventory-checklist/",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 14.333333333333334
+      },
+      "disclosedQueryPages": [
+        {
+          "query": "dx rag チェックリスト",
+          "page": "https://ai.gami.jp/insights/rag-document-inventory-checklist/",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 34
+        }
+      ],
+      "metricsEvidencePath": "reports/seo/metrics/2026-10-06-0931.json",
+      "metricsAcquiredAt": "2026-10-06T09:31:10.3641941+09:00",
+      "indexEvidence": {
+        "siteUrl": "sc-domain:ai.gami.jp",
+        "inspectionUrl": "https://ai.gami.jp/insights/rag-document-inventory-checklist/",
+        "fetchedAt": "2026-10-06T00:31:50.5567511+00:00",
+        "source": "google-index",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:ai.gami.jp&id=JE_gFYaSJq9abx-zR6j8yA&utm_medium=link&utm_source=api",
+        "verdict": "PASS",
+        "coverageState": "送信して登録されました",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-09-10T00:27:45Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://ai.gami.jp/insights/rag-document-inventory-checklist/",
+        "userCanonical": "https://ai.gami.jp/insights/rag-document-inventory-checklist/"
+      },
+      "inspectionEvidencePath": "reports/seo/inspections/2026-10-06-due-pages.json",
+      "indexResult": "confirmed",
+      "postSchemaChangeRecrawl": false,
+      "result": "inconclusive",
+      "reason": "28 finalized days reached; page impressions below30 or no page row returned. No causal effect determination.",
+      "nextReviewOnOrAfter": "2026-10-21"
+    },
+    {
+      "experimentId": "insight-ai-website-launch-checklist-v1",
+      "url": "https://ai.gami.jp/insights/ai-website-launch-checklist/",
+      "originalStartedAt": "2026-09-06T00:46:42+09:00",
+      "reviewDueOn": "2026-10-07",
+      "reviewCompletedAt": "2026-10-07T01:17:45Z",
+      "finalizedWindow": {
+        "startDate": "2026-09-07",
+        "endDate": "2026-10-04",
+        "fullFinalDays": 28
+      },
+      "pageMetrics": {
+        "page": "https://ai.gami.jp/insights/ai-website-launch-checklist/",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 13.666666666666666
+      },
+      "disclosedQueryPages": [],
+      "metricsEvidencePath": "reports/seo/metrics/2026-10-07-1011.json",
+      "metricsAcquiredAt": "2026-10-07T10:11:33.4127714+09:00",
+      "indexEvidence": {
+        "siteUrl": "sc-domain:ai.gami.jp",
+        "inspectionUrl": "https://ai.gami.jp/insights/ai-website-launch-checklist/",
+        "fetchedAt": "2026-10-07T01:12:00.0291564+00:00",
+        "source": "google-index",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:ai.gami.jp&id=czCy8bIF0QMcoWTjRI2l6g&utm_medium=link&utm_source=api",
+        "verdict": "PASS",
+        "coverageState": "送信して登録されました",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-09-10T09:42:13Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://ai.gami.jp/insights/ai-website-launch-checklist/",
+        "userCanonical": "https://ai.gami.jp/insights/ai-website-launch-checklist/"
+      },
+      "inspectionEvidencePath": "reports/seo/inspections/2026-10-07-due-pages.json",
+      "indexResult": "confirmed",
+      "postSchemaChangeRecrawl": false,
+      "result": "inconclusive",
+      "reason": "28 finalized days reached; page impressions below30 or no page row returned. No causal effect determination.",
+      "nextReviewOnOrAfter": "2026-10-21"
+    },
+    {
+      "experimentId": "insight-ai-customer-reply-template-v1",
+      "url": "https://ai.gami.jp/insights/ai-customer-reply-template/",
+      "originalStartedAt": "2026-09-06T06:43:55+09:00",
+      "reviewDueOn": "2026-10-07",
+      "reviewCompletedAt": "2026-10-07T01:17:45Z",
+      "finalizedWindow": {
+        "startDate": "2026-09-07",
+        "endDate": "2026-10-04",
+        "fullFinalDays": 28
+      },
+      "pageMetrics": null,
+      "disclosedQueryPages": [],
+      "metricsEvidencePath": "reports/seo/metrics/2026-10-07-1011.json",
+      "metricsAcquiredAt": "2026-10-07T10:11:33.4127714+09:00",
+      "indexEvidence": {
+        "siteUrl": "sc-domain:ai.gami.jp",
+        "inspectionUrl": "https://ai.gami.jp/insights/ai-customer-reply-template/",
+        "fetchedAt": "2026-10-07T01:12:07.2812342+00:00",
+        "source": "google-index",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:ai.gami.jp&id=QSf_Fk7fWEWITzhIF7jq1A&utm_medium=link&utm_source=api",
+        "verdict": "PASS",
+        "coverageState": "送信して登録されました",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-09-07T21:42:58Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://ai.gami.jp/insights/ai-customer-reply-template/",
+        "userCanonical": "https://ai.gami.jp/insights/ai-customer-reply-template/"
+      },
+      "inspectionEvidencePath": "reports/seo/inspections/2026-10-07-due-pages.json",
+      "indexResult": "confirmed",
+      "postSchemaChangeRecrawl": false,
+      "result": "inconclusive",
+      "reason": "28 finalized days reached; page impressions below30 or no page row returned. No causal effect determination.",
+      "nextReviewOnOrAfter": "2026-10-21"
+    }
+  ],
+  "notes": [
+    "Missing page/query rows are not zero. Page clicks are not known non-brand clicks.",
+    "All7 indexed crawls predate September13 shared WebPage correction. Later signals cannot isolate content-only effects.",
+    "30 impressions is only a minimum-volume gate, not proof of causality. Original publication/start dates remain unchanged."
+  ]
+}

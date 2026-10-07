@@ -1,0 +1,62 @@
+[
+  {
+    "siteUrl": "sc-domain:ai.gami.jp",
+    "inspectionUrl": "https://ai.gami.jp/concept/",
+    "fetchedAt": "2026-10-06T00:31:27.0836688+00:00",
+    "source": "google-index",
+    "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:ai.gami.jp&id=__k8p4EFNLCvt42_WdY9Rw&utm_medium=link&utm_source=api",
+    "verdict": "PASS",
+    "coverageState": "送信して登録されました",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-09-04T15:32:11Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://ai.gami.jp/concept/",
+    "userCanonical": "https://ai.gami.jp/concept/"
+  },
+  {
+    "siteUrl": "sc-domain:ai.gami.jp",
+    "inspectionUrl": "https://ai.gami.jp/services/ai-marketing/",
+    "fetchedAt": "2026-10-06T00:31:36.0085673+00:00",
+    "source": "google-index",
+    "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:ai.gami.jp&id=J7N-Rmm1bWnLphfDCgtW9A&utm_medium=link&utm_source=api",
+    "verdict": "PASS",
+    "coverageState": "送信して登録されました",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-09-24T12:30:27Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://ai.gami.jp/services/ai-marketing/",
+    "userCanonical": "https://ai.gami.jp/services/ai-marketing/"
+  },
+  {
+    "siteUrl": "sc-domain:ai.gami.jp",
+    "inspectionUrl": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/",
+    "fetchedAt": "2026-10-06T00:31:43.3757880+00:00",
+    "source": "google-index",
+    "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:ai.gami.jp&id=ns9NwYhV9sg1bzh4tUhlKg&utm_medium=link&utm_source=api",
+    "verdict": "PASS",
+    "coverageState": "送信して登録されました",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-09-10T01:21:27Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/",
+    "userCanonical": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/"
+  },
+  {
+    "siteUrl": "sc-domain:ai.gami.jp",
+    "inspectionUrl": "https://ai.gami.jp/insights/rag-document-inventory-checklist/",
+    "fetchedAt": "2026-10-06T00:31:50.5567511+00:00",
+    "source": "google-index",
+    "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:ai.gami.jp&id=JE_gFYaSJq9abx-zR6j8yA&utm_medium=link&utm_source=api",
+    "verdict": "PASS",
+    "coverageState": "送信して登録されました",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-09-10T00:27:45Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://ai.gami.jp/insights/rag-document-inventory-checklist/",
+    "userCanonical": "https://ai.gami.jp/insights/rag-document-inventory-checklist/"
+  }
+]
