@@ -352,7 +352,18 @@ export const pageSeoByPath = {
     path: "/",
     lastModified: "2026-09-05",
     fallbackHeading: "AI速度、人間品質。",
-    fallbackSections: featuredNewsSections,
+    fallbackSections: [
+      ...["ai-saas", "ai-marketing", "ai-web"].map((slug) => {
+        const service = serviceSummaries[slug];
+        return {
+          title: service.titleLines.join(" / "),
+          body: service.homeDescriptionLines.join(""),
+          items: service.homeBullets,
+          link: { label: "More", href: service.path },
+        };
+      }),
+      ...featuredNewsSections,
+    ],
     title: "GAMI | AI導入支援・生成AI導入支援・AI開発会社",
     description:
       "中小企業向けのAI導入支援・AI開発会社GAMI。月2万円〜の生成AI導入支援、RAG構築、AIエージェント導入支援、AIマーケティング、AI Web制作までをAI基準で再設計します。",

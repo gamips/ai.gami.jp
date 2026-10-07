@@ -211,10 +211,6 @@ export const services: ServiceContent[] = [
     slug: "ai-saas",
     ...serviceSummaries["ai-saas"],
     number: "SERVICE 01",
-    homeDescriptionLines: [
-      "自社専用の管理システムをAIで高速開発。",
-      "必要に応じてAI機能まで組み込んだ独自基盤へ育てます。",
-    ],
     approaches: [
       {
         label: "AI IMPLEMENTATION",
@@ -627,10 +623,6 @@ export const services: ServiceContent[] = [
     slug: "ai-marketing",
     ...serviceSummaries["ai-marketing"],
     number: "SERVICE 02",
-    homeDescriptionLines: [
-      "AIマーケティングとAIサポートで発信と対応を軽くする。",
-      "SEO記事作成、SNS、問い合わせ対応の下書きと改善を支援します。",
-    ],
     approaches: [
       {
         label: "SEO / WRITING",
@@ -780,10 +772,6 @@ export const services: ServiceContent[] = [
     slug: "ai-web",
     ...serviceSummaries["ai-web"],
     number: "SERVICE 03",
-    homeDescriptionLines: [
-      "AI Web制作で企画設計から実装へ直行し、土台を高速構築。",
-      "LP制作やコーポレートサイト制作を、人間の品質で段階的に育てます。",
-    ],
     approaches: [
       {
         label: "FAST LAUNCH",

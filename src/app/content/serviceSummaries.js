@@ -3,6 +3,7 @@
  * @property {string} path
  * @property {[string, string?]} titleLines
  * @property {string} overviewDescription
+ * @property {[string, string]} homeDescriptionLines
  * @property {[string, string, string]} homeBullets
  */
 
@@ -11,6 +12,10 @@ export const serviceSummaries = {
   "ai-saas": {
     path: "/services/ai-saas/",
     titleLines: ["AI × SaaS", "AI × DX"],
+    homeDescriptionLines: [
+      "自社専用の管理システムをAIで高速開発。",
+      "必要に応じてAI機能まで組み込んだ独自基盤へ育てます。",
+    ],
     overviewDescription:
       "AIシステム開発の力で、自社専用の業務システム開発や基幹システム開発を従来より速く低コストで立ち上げます。必要に応じてAI機能まで組み込み、独自の業務基盤として育てていけます。",
     homeBullets: [
@@ -22,6 +27,10 @@ export const serviceSummaries = {
   "ai-marketing": {
     path: "/services/ai-marketing/",
     titleLines: ["AI × Growth", "AI × Support"],
+    homeDescriptionLines: [
+      "AIマーケティングとAIサポートで発信と対応を軽くする。",
+      "SEO記事作成、SNS、問い合わせ対応の下書きと改善を支援します。",
+    ],
     overviewDescription:
       "AIマーケティング、AIライティング、AIサポートを軸に、発信・分析・問い合わせ対応の下書きを整えます。ブログ、プレスリリース、SNS運用、SEO記事作成、顧客対応の一次整理までを、月2万円〜のAI導入支援として無理なく始めます。",
     homeBullets: [
@@ -33,6 +42,10 @@ export const serviceSummaries = {
   "ai-web": {
     path: "/services/ai-web/",
     titleLines: ["AI × Brand", "AI × Site"],
+    homeDescriptionLines: [
+      "AI Web制作で企画設計から実装へ直行し、土台を高速構築。",
+      "LP制作やコーポレートサイト制作を、人間の品質で段階的に育てます。",
+    ],
     overviewDescription:
       "AI Web制作の導入で、LP制作やコーポレートサイト制作は企画設計から実装へ直行できるようになりました。時間もコストも大きかった従来の工程を見直し、公開速度と改善速度を引き上げます。",
     homeBullets: [
