@@ -1,5 +1,5 @@
 import { ArrowRight } from "lucide-react";
-import { insights } from "../content/insights.js";
+import { insights, insightsIntro } from "../content/insights.js";
 import { InquiryCta } from "../components/InquiryCta";
 import { PageSeo } from "../components/PageSeo";
 import { ScrollReveal } from "../components/ScrollReveal";
@@ -21,7 +21,7 @@ export function Insights() {
                 <span className="text-cyan-500">わかりやすく。</span>
               </h1>
               <p className="text-xl md:text-2xl text-zinc-600 leading-relaxed max-w-4xl">
-                仕事にAIを取り入れる前に知っておきたいことを、短く、具体的にまとめます。
+                {insightsIntro}
               </p>
             </div>
           </ScrollReveal>

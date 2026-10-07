@@ -1,3 +1,5 @@
+export const insightsIntro = "仕事にAIを取り入れる前に知っておきたいことを、短く、具体的にまとめます。";
+
 export const insights = [
   {
     "slug": "ai-work-time-comparison-sheet",

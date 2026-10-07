@@ -1,4 +1,4 @@
-import { insights } from "../content/insights.js";
+import { insights, insightsIntro } from "../content/insights.js";
 import { featuredNews, newsItems } from "../content/news.js";
 import { pricePlans, monthlyModelPoints, projectNotes } from "../content/pricing.js";
 import { companyInfo } from "../content/company.js";
@@ -1102,6 +1102,7 @@ pageSeoByPath["/insights"] = {
   path: "/insights",
   fallbackHeading: "AI導入を、わかりやすく。",
   fallbackLabel: "INSIGHTS",
+  fallbackDescription: insightsIntro,
   lastModified: insights.map((insight) => insight.updatedAt).sort().at(-1),
   title: "Insights | AI導入・生成AI活用の実践ガイド | GAMI",
   description:
@@ -1113,6 +1114,9 @@ pageSeoByPath["/insights"] = {
     title: insight.title,
     body: insight.description,
     href: `${insight.path}/`,
+    publishedAt: insight.publishedAt,
+    dateLabel: insight.dateLabel,
+    category: insight.category,
   })),
   schemas: [
     organizationSchema,

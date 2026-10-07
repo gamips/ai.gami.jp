@@ -138,8 +138,9 @@ function replaceRootContent(template, html) {
 }
 
 function buildStaticFallbackBody(entry) {
+  const isInsightsIndex = entry.path === "/insights";
   const heading = escapeHtml(entry.fallbackHeading ?? stripTitleSuffix(entry.title) ?? "GAMI");
-  const description = escapeHtml(entry.description ?? "");
+  const description = escapeHtml((isInsightsIndex ? entry.fallbackDescription : entry.description) ?? "");
 
   if (Array.isArray(entry.fallbackSections) && entry.fallbackSections.length > 0) {
     const sections = entry.fallbackSections
@@ -174,10 +175,13 @@ function buildStaticFallbackBody(entry) {
         const title = section.href
           ? `<a href="${escapeHtml(section.href)}">${escapeHtml(section.title)}</a>`
           : escapeHtml(section.title);
+        const sectionLabel = isInsightsIndex
+          ? `<div class="flex gap-4 text-sm text-zinc-500 md:block"><time datetime="${escapeHtml(section.publishedAt)}" class="block">${escapeHtml(section.dateLabel)}</time><span class="mt-0 block text-cyan-600 md:mt-3">${escapeHtml(section.category)}</span></div>`
+          : `<p class="text-sm font-bold tracking-widest text-cyan-500">SECTION ${String(index + 1).padStart(2, "0")}</p>`;
 
         return `
           <article class="border-t border-zinc-200 py-10">
-            <p class="text-sm font-bold tracking-widest text-cyan-500">SECTION ${String(index + 1).padStart(2, "0")}</p>
+            ${sectionLabel}
             <h2 class="mt-3 text-2xl md:text-3xl font-bold leading-tight text-zinc-900">${title}</h2>
             ${body}
             ${items}
