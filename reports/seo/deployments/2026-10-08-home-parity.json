@@ -1,0 +1,87 @@
+{
+  "recordedAt": "2026-10-08T23:05:44Z",
+  "localDate": "2026-10-08",
+  "baselineCommit": "30ee35d",
+  "commit": "50816be0d0f2bba80bf963ae2b2b4244210e3541",
+  "deployedAt": "2026-10-07T23:31:53.1502878Z",
+  "change": "Existing three homepage service descriptions, bullets and More links included in initialHTML. Visible copy and UI unchanged.",
+  "method": "GitHub Actions normal Xserver deploy",
+  "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/37702750045",
+  "actions": {
+    "status": "completed",
+    "conclusion": "success",
+    "completedAt": "2026-10-07T23:31:56Z",
+    "serverResponse": {
+      "ok": true,
+      "extracted": 74,
+      "deletedStalePaths": 1
+    }
+  },
+  "staticAndLive": {
+    "checkedAt": "2026-10-07T23:42:51.272Z",
+    "baselineCommit": "30ee35d",
+    "passed": true,
+    "servicesDataUnchanged": true,
+    "all15ArticlesUnchanged": true,
+    "HomeSourceUnchanged": true,
+    "headsUnchanged": 28,
+    "otherInitialBodiesUnchanged": 27,
+    "initialServiceSections": 3,
+    "existingNewsPreserved": true,
+    "serviceOrderAndLinksMatch": true,
+    "cssUnchanged": true,
+    "sitemapUnchanged": true,
+    "sitemapUrls": 26,
+    "homepageLastModified": "2026-09-05",
+    "liveHomeStatus": 200,
+    "liveHomeBodyAndHeadMatch": true,
+    "liveSitemapMatches": true,
+    "contact": {
+      "httpStatus": 200,
+      "initialBodyMatches": true,
+      "canonicalMatches": true,
+      "indexAllowed": true,
+      "ContactPageCount": 1,
+      "ArticleCount": 0
+    },
+    "faviconMatches": true
+  },
+  "assets": {
+    "checkedAt": "2026-10-07T23:42:53.482Z",
+    "assetsChecked": 24,
+    "assetHashesMatch": true,
+    "headsChecked": 28,
+    "allStaticSeoHeadsMatch": true,
+    "scope": "All 28 generated SEO heads and 24 built JavaScript hashes after normal GitHub Actions deploy; not a full UI audit.",
+    "passed": true
+  },
+  "browser": {
+    "verifiedLocalDate": "2026-10-08",
+    "viewports": [
+      {
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "width": 390,
+        "height": 844
+      }
+    ],
+    "threeServiceDomUnchanged": true,
+    "headingsUnchanged": true,
+    "noHorizontalOverflow": true,
+    "consoleErrors": 0,
+    "consoleWarnings": 0,
+    "requestsChecked": 14,
+    "allRequests200": true,
+    "serviceDestinations200": 3,
+    "screenshotsInspected": true,
+    "scope": "Service DOM and main headings compared before/after; screenshots inspect first service. Not a full-site UI audit.",
+    "artifactsDirectory": "output/seo/2026-10-08",
+    "ownedBrowserClosed": true,
+    "ownedSnapshotsArchivedRecoverably": 3
+  },
+  "effectResult": "not-yet-measurable",
+  "recoveryNote": "Publication/live/browser completed October8; record closure resumed October9. Acquisition dates unchanged.",
+  "safety": "No form sends, paid actions, auth/server/workflow changes or manual production deletion. Existing deployer stale cleanup1."
+}

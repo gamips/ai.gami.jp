@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-07",
+  "updatedAt": "2026-10-09",
   "rules": {
     "oneOwnerUrlPerIntent": true,
     "publicCopyExcludesOperationalMetadata": true
@@ -12,7 +12,10 @@
       "intent": "GAMIのAI導入支援・AI開発全体",
       "status": "published",
       "lastModified": "2026-09-05",
-      "featuredCaseStudy": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/"
+      "featuredCaseStudy": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/",
+      "technicalUpdatedAt": "2026-10-07T23:31:53.1502878Z",
+      "experimentId": "home-initial-service-parity-v1",
+      "contentSource": "src/app/content/serviceSummaries.js"
     },
     {
       "url": "https://ai.gami.jp/favicon.ico",
