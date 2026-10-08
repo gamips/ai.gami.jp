@@ -1,0 +1,32 @@
+[
+  {
+    "siteUrl": "sc-domain:ai.gami.jp",
+    "inspectionUrl": "https://ai.gami.jp/services/",
+    "fetchedAt": "2026-10-08T23:04:52.8159781+00:00",
+    "source": "google-index",
+    "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:ai.gami.jp&id=xVEAay9ri47etdgQyhFc0w&utm_medium=link&utm_source=api",
+    "verdict": "PASS",
+    "coverageState": "送信して登録されました",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-06-26T11:33:06Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://ai.gami.jp/services/",
+    "userCanonical": "https://ai.gami.jp/services/"
+  },
+  {
+    "siteUrl": "sc-domain:ai.gami.jp",
+    "inspectionUrl": "https://ai.gami.jp/insights/ai-work-handoff-template/",
+    "fetchedAt": "2026-10-08T23:05:00.3801508+00:00",
+    "source": "google-index",
+    "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:ai.gami.jp&id=MlMhZPFSJKPqvdyPkoh2Eg&utm_medium=link&utm_source=api",
+    "verdict": "NEUTRAL",
+    "coverageState": "URL が Google に認識されていません",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "lastCrawlTime": null,
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "googleCanonical": null,
+    "userCanonical": null
+  }
+]

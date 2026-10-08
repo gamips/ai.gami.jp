@@ -176,8 +176,13 @@
       "status": "published",
       "lastModified": "2026-09-05",
       "schema": "Article",
-      "experimentId": "insight-rag-document-inventory-checklist-v1",
-      "relatedService": "https://ai.gami.jp/services/ai-saas/"
+      "experimentId": "insight-rag-inventory-review-link-v1",
+      "relatedService": "https://ai.gami.jp/services/ai-saas/",
+      "previousExperimentIds": [
+        "insight-rag-document-inventory-checklist-v1"
+      ],
+      "internalLinkUpdatedAt": "2026-10-08T23:10:23.2420626Z",
+      "relatedGuide": "https://ai.gami.jp/insights/rag-answer-review-sheet/"
     },
     {
       "url": "https://ai.gami.jp/insights/ai-website-launch-checklist/",

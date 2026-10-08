@@ -1,0 +1,152 @@
+{
+  "recordedAt": "2026-10-08T23:12:52Z",
+  "baselineCommit": "50816be0d0f2bba80bf963ae2b2b4244210e3541",
+  "commit": "aaba66eabbf8187743f0da3e7be255dc517ebcd3",
+  "deployedAt": "2026-10-08T23:10:23.2420626Z",
+  "change": "One contextual RAG answer-review link in existing document-inventory guide; no paragraph/date/CSS changes.",
+  "method": "GitHub Actions normal Xserver deploy",
+  "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/37857881682",
+  "actions": {
+    "status": "completed",
+    "conclusion": "success",
+    "completedAt": "2026-10-08T23:10:25Z",
+    "serverResponse": {
+      "ok": true,
+      "extracted": 74,
+      "deletedStalePaths": 1
+    }
+  },
+  "static": {
+    "checkedAt": "2026-10-08T23:09:30.406Z",
+    "passed": true,
+    "baselineCommit": "50816be0d0f2bba80bf963ae2b2b4244210e3541",
+    "onlyOneSourceSectionLinkAdded": true,
+    "other14ArticlesUnchanged": true,
+    "headsUnchanged": 28,
+    "otherInitialBodiesUnchanged": 27,
+    "cssUnchanged": true,
+    "sitemapUnchanged": true,
+    "sourceDateUnchanged": "2026-09-05",
+    "initialArticleCount": 1,
+    "initialWebPageCount": 1
+  },
+  "live": {
+    "checkedAt": "2026-10-08T23:10:56.459Z",
+    "passed": true,
+    "baselineCommit": "50816be0d0f2bba80bf963ae2b2b4244210e3541",
+    "onlyOneSourceSectionLinkAdded": true,
+    "other14ArticlesUnchanged": true,
+    "headsUnchanged": 28,
+    "otherInitialBodiesUnchanged": 27,
+    "cssUnchanged": true,
+    "sitemapUnchanged": true,
+    "sourceDateUnchanged": "2026-09-05",
+    "initialArticleCount": 1,
+    "initialWebPageCount": 1,
+    "live": [
+      {
+        "path": "/insights/rag-document-inventory-checklist",
+        "status": 200,
+        "headAndBodyMatch": true,
+        "indexAllowed": true,
+        "selfCanonical": true,
+        "articleCount": 1
+      },
+      {
+        "path": "/insights/rag-answer-review-sheet",
+        "status": 200,
+        "headAndBodyMatch": true,
+        "indexAllowed": true,
+        "selfCanonical": true,
+        "articleCount": 1
+      },
+      {
+        "path": "/services",
+        "status": 200,
+        "headAndBodyMatch": true,
+        "indexAllowed": true,
+        "selfCanonical": true,
+        "articleCount": 0
+      },
+      {
+        "path": "/insights/ai-work-handoff-template",
+        "status": 200,
+        "headAndBodyMatch": true,
+        "indexAllowed": true,
+        "selfCanonical": true,
+        "articleCount": 1
+      }
+    ],
+    "liveSitemapMatches": true
+  },
+  "assets": {
+    "checkedAt": "2026-10-08T23:10:58.447Z",
+    "assetsChecked": 24,
+    "assetHashesMatch": true,
+    "headsChecked": 28,
+    "allStaticSeoHeadsMatch": true,
+    "scope": "All generated SEO heads and builtJavaScript hashes after normalActions; not a fullUI audit.",
+    "passed": true
+  },
+  "browser": {
+    "verifiedAt": "2026-10-08T23:12:52Z",
+    "desktop": {
+      "width": 1280,
+      "height": 720,
+      "scrollWidth": 1280,
+      "section": "05\n答え合わせの材料を先に用意する\n\n実際の質問、正しい答え、根拠になる資料と該当箇所を一組で用意します。導入後は、AIの回答と根拠の両方を照らし合わせて確かめます。\n\n答えが資料にない質問も用意します。根拠がないのに答えを作らず、分からないと伝えられるかを確認するためです。\n\nRAGの回答チェック表を見る",
+      "link": "/insights/rag-answer-review-sheet/",
+      "articleCount": 1,
+      "h1": [
+        "RAG導入前の社内資料整理｜棚卸しチェックリスト"
+      ]
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "section": "05\n答え合わせの材料を先に用意する\n\n実際の質問、正しい答え、根拠になる資料と該当箇所を一組で用意します。導入後は、AIの回答と根拠の両方を照らし合わせて確かめます。\n\n答えが資料にない質問も用意します。根拠がないのに答えを作らず、分からないと伝えられるかを確認するためです。\n\nRAGの回答チェック表を見る",
+      "link": "/insights/rag-answer-review-sheet/",
+      "articleCount": 1,
+      "h1": [
+        "RAG導入前の社内資料整理｜棚卸しチェックリスト"
+      ]
+    },
+    "screenshotsInspected": true,
+    "spaNavigation": {
+      "passed": true,
+      "targetUrl": "https://ai.gami.jp/insights/rag-answer-review-sheet/",
+      "targetH1": "RAGの回答を確かめる｜質問ごとに残す5つの欄",
+      "targetArticleCount": 1,
+      "targetNoOverflow": true
+    },
+    "consoleErrors": 0,
+    "consoleWarnings": 0,
+    "requestsChecked": 28,
+    "allRequests200": true,
+    "requestScope": "Session includes14before-publish requests and14after reload requests; all200.",
+    "ownedBrowserClosed": true,
+    "artifactsDirectory": "output/seo/2026-10-09",
+    "scope": "Added link and source section at two viewports, target navigation/schema. No broad redesign audit.",
+    "ownedSnapshotsArchivedRecoverably": 3
+  },
+  "result": "verified",
+  "effect": "not-yet-measurable",
+  "copyReview": {
+    "agent": "oct09_rag_copy",
+    "model": "gpt-6.1-sol",
+    "label": "RAGの回答チェック表を見る",
+    "coordinatorApproved": true
+  },
+  "safety": "No paid actions,formsend,authentication/server/workflow change or manualproductiondeletion. Existing deployer stale cleanup1; namedbrowserclosed.",
+  "recordVerification": {
+    "checkedAt": "2026-10-08T23:15:01.433Z",
+    "passed": true,
+    "unrelatedQueuesPreserved": true,
+    "originalStartsPreserved": true,
+    "oldHistoryAppendOnly": true,
+    "uniqueActiveIds": 26,
+    "scheduleAndPromptUnchanged": true,
+    "independentStateReview": "oct09_metrics_review: no inconsistency found; original source closure/new link/target dates and acquisition days align."
+  }
+}
