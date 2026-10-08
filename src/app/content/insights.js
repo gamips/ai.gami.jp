@@ -701,6 +701,10 @@ export const insights = [
           "実際の質問、正しい答え、根拠になる資料と該当箇所を一組で用意します。導入後は、AIの回答と根拠の両方を照らし合わせて確かめます。",
           "答えが資料にない質問も用意します。根拠がないのに答えを作らず、分からないと伝えられるかを確認するためです。",
         ],
+        link: {
+          label: "RAGの回答チェック表を見る",
+          href: "/insights/rag-answer-review-sheet/",
+        },
       },
       {
         id: "inventory-list",
