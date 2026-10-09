@@ -1,0 +1,96 @@
+{
+  "observedAt": "2026-10-10T08:05:15.6203529+09:00",
+  "source": "Google Search Console freshness plus prior saved aggregate",
+  "freshnessEvidencePath": "reports/seo/metrics/2026-10-10-freshness.json",
+  "reusedMetricsPath": "reports/seo/metrics/2026-10-09-0804.json",
+  "aggregateAcquiredAt": "2026-10-09T08:04:45.2290562+09:00",
+  "latestFinalizedDate": "2026-10-06",
+  "analyticsRefetched": false,
+  "validation": {
+    "priorAcquired": "2026-10-09T08:04:45.2290562+09:00",
+    "currentObserved": "2026-10-10T08:05:15.6203529+09:00",
+    "ageHours": 24.008441944444446,
+    "latestDateMatches": true,
+    "currentWindowMatches": true,
+    "overlap": [
+      {
+        "date": "2026-09-26",
+        "matches": true
+      },
+      {
+        "date": "2026-09-27",
+        "matches": true
+      },
+      {
+        "date": "2026-09-28",
+        "matches": true
+      },
+      {
+        "date": "2026-09-29",
+        "matches": true
+      },
+      {
+        "date": "2026-09-30",
+        "matches": true
+      },
+      {
+        "date": "2026-10-01",
+        "matches": true
+      },
+      {
+        "date": "2026-10-02",
+        "matches": true
+      },
+      {
+        "date": "2026-10-03",
+        "matches": true
+      },
+      {
+        "date": "2026-10-04",
+        "matches": true
+      },
+      {
+        "date": "2026-10-05",
+        "matches": true
+      },
+      {
+        "date": "2026-10-06",
+        "matches": true
+      }
+    ],
+    "note": "Snapshot age slightly exceeds24hours. No due effect review or new finalized boundary; reuse dated aggregate, not a new full query. Matching11overlapping days does not prove all older/disclosed rows unchanged."
+  },
+  "current28d": {
+    "startDate": "2026-09-09",
+    "endDate": "2026-10-06",
+    "clicks": 2,
+    "impressions": 107,
+    "ctr": 0.018691588785046728,
+    "position": 14.962616822429906
+  },
+  "previous28d": {
+    "startDate": "2026-08-12",
+    "endDate": "2026-09-08",
+    "clicks": 2,
+    "impressions": 40,
+    "ctr": 0.05,
+    "position": 22.675
+  },
+  "disclosedNonBrand": {
+    "clicks": 0,
+    "impressions": 25,
+    "queryCount": 7,
+    "brandClassification": {
+      "method": "exact query match",
+      "brandQueries": [
+        "gami ai",
+        "gami"
+      ]
+    },
+    "note": "Disclosed query rows only; missing/anonymized rows are not zero."
+  },
+  "result": "inconclusive",
+  "qualifiedOrganicVisits": null,
+  "organicInquiries": null,
+  "nextFreshnessCheck": "2026-10-11"
+}

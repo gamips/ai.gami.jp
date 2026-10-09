@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-09",
+  "updatedAt": "2026-10-10",
   "rules": {
     "oneOwnerUrlPerIntent": true,
     "publicCopyExcludesOperationalMetadata": true
@@ -119,11 +119,11 @@
       "type": "insight-index",
       "intent": "AI導入と生成AI活用の実践ガイド一覧",
       "status": "published",
-      "lastModified": "2026-10-04",
+      "lastModified": "2026-10-10",
       "experimentId": "insights-initial-listing-parity-v1",
       "technicalUpdatedAt": "2026-10-07T01:13:35Z",
       "contentSource": "src/app/content/insights.js",
-      "note": "Index sitemap lastmod continues to derive from article updatedAt; template-only parity did not advance content dates."
+      "note": "Index sitemap lastmod derives from article updatedAt; October10newarticle row added using unchanged listing mapping. Original listing experiment dates retained."
     },
     {
       "url": "https://ai.gami.jp/insights/ai-introduction-support/",
@@ -296,6 +296,16 @@
       "lastModified": "2026-10-04",
       "schema": "Article",
       "experimentId": "insight-ai-work-time-comparison-sheet-v1"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-project-proposal-comparison-sheet/",
+      "type": "insight",
+      "intent": "受け取った複数のAI導入提案を、作業範囲・成果物・初期継続費用・追加条件の同じ7欄で比べる記入式シート。",
+      "status": "published",
+      "lastModified": "2026-10-10",
+      "schema": "Article",
+      "experimentId": "insight-ai-project-proposal-comparison-sheet-v1",
+      "relatedArticle": "https://ai.gami.jp/insights/ai-introduction-support-pricing/"
     }
   ]
 }

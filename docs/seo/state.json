@@ -7,11 +7,11 @@
     "currentCadenceHours": 24,
     "status": "ACTIVE",
     "currentSchedule": "毎日8:00（Asia/Tokyo）",
-    "scheduleObservedAt": "2026-10-08T23:12:52Z",
-    "scheduleSource": "Existing automation view and savedTOML readback ACTIVE daily08Asia/Tokyo; no change."
+    "scheduleObservedAt": "2026-10-09T23:14:13Z",
+    "scheduleSource": "October10 existing automation view and saved TOML readback ACTIVE daily08 Asia/Tokyo; unchanged."
   },
-  "lastActualRunAt": "2026-10-08T23:12:52Z",
-  "lastPromptAuditAt": "2026-10-08T23:12:52Z",
+  "lastActualRunAt": "2026-10-09T23:14:13Z",
+  "lastPromptAuditAt": "2026-10-09T23:14:13Z",
   "measurement": {
     "searchConsole": {
       "siteUrl": "sc-domain:ai.gami.jp",
@@ -30,10 +30,10 @@
         "status": "readable_resubmission_blocked",
         "lastCheckedAt": "2026-10-04T08:04:21.0339405+09:00",
         "latestEvidencePath": "reports/seo/inspections/2026-10-04-sitemap.json",
-        "liveUrlCount": 26,
+        "liveUrlCount": 27,
         "nextReadOnlyCheckOnOrAfter": "2026-10-11",
-        "liveVerifiedAt": "2026-10-08T23:10:56.459Z",
-        "liveEvidencePath": "reports/seo/deployments/2026-10-09-rag-review-link.json"
+        "liveVerifiedAt": "2026-10-09T23:10:44.546Z",
+        "liveEvidencePath": "reports/seo/deployments/2026-10-10-proposal-comparison.json"
       },
       "attributionCaveat": "All Insights received a shared WebPage schema-type correction on2026-09-13. Article copy/dates and observation dates are unchanged, but later before/after signals cannot isolate content-only effects. See current deployment evidence and experiments log.",
       "nonBrandDefinition": {
@@ -46,7 +46,8 @@
         "note": "New exact query gami classified as brand. Both current and previous windows use the same rule; original snapshots unchanged.",
         "evidencePath": "reports/seo/metrics/2026-09-21-0803.json"
       },
-      "lastFreshnessCheckPath": "reports/seo/metrics/2026-10-09-freshness.json"
+      "lastFreshnessCheckPath": "reports/seo/metrics/2026-10-10-freshness.json",
+      "latestObservationPath": "reports/seo/metrics/2026-10-10-observation.json"
     },
     "ga4": {
       "status": "not_configured",
@@ -80,18 +81,19 @@
     "news-initial-html-parity-v1",
     "insights-initial-listing-parity-v1",
     "home-initial-service-parity-v1",
-    "insight-rag-inventory-review-link-v1"
+    "insight-rag-inventory-review-link-v1",
+    "insight-ai-project-proposal-comparison-sheet-v1"
   ],
   "deployment": {
-    "lastSuccessfulAt": "2026-10-08T23:10:23.2420626Z",
-    "commit": "aaba66eabbf8187743f0da3e7be255dc517ebcd3",
-    "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/37857881682",
+    "lastSuccessfulAt": "2026-10-09T23:10:28.3534905Z",
+    "commit": "e176dda339bd5f235ce03c7b4b71d3ea3f7ab9cd",
+    "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/38003032001",
     "method": "GitHub Actions normal Xserver deploy",
-    "evidencePath": "reports/seo/deployments/2026-10-09-rag-review-link.json",
+    "evidencePath": "reports/seo/deployments/2026-10-10-proposal-comparison.json",
     "liveVerification": "passed",
-    "actionsStatus": "NormalActions success; live source/target/due-pages plus28heads/24JS hashes,PC-mobile and SPA link verified.",
+    "actionsStatus": "Normal Actions success; live article/list/pricing plus29heads/24JS hashes,PC-mobile and both internal links verified.",
     "priorFailedActionsRun": "https://github.com/gamips/ai.gami.jp/actions/runs/36357667097",
-    "lastSuccessfulActionsRun": "https://github.com/gamips/ai.gami.jp/actions/runs/37857881682",
+    "lastSuccessfulActionsRun": "https://github.com/gamips/ai.gami.jp/actions/runs/38003032001",
     "normalPathRecheckOnOrAfter": null,
     "returnToNormalCondition": "Resume normal Actions after a successful normal-route build/deploy and live verification.",
     "normalRouteRecoveredAt": "2026-10-04T23:11:26.247Z",
@@ -1224,21 +1226,38 @@
           "check": "28finalized full daysOctober10–November6 and >=30targetpageimpressions, actual freshness controls; descriptive only."
         }
       ]
+    },
+    {
+      "experimentId": "insight-ai-project-proposal-comparison-sheet-v1",
+      "status": "observing",
+      "startedAt": "2026-10-09T23:10:28.3534905Z",
+      "nextChecks": [
+        {
+          "onOrAfter": "2026-10-17",
+          "check": "First index/crawl and descriptive page/query pickup after publication."
+        },
+        {
+          "onOrAfter": "2026-11-11",
+          "check": "28fullfinaldays October11–November7 and at least30 pageimpressions; actualfreshness at leastNovember7 required. Otherwise insufficient evidence; no causal/qualifiedvisit claim."
+        }
+      ]
     }
   ],
   "readyQueue": [
     {
-      "lane": "content",
+      "lane": "internal-link",
       "priority": 1,
-      "url": "https://ai.gami.jp/insights/ai-project-proposal-comparison-sheet/",
-      "status": "brief_ready",
-      "work": "AI導入の見積もり比較表を企画・執筆する。受け取った複数提案の作業範囲・成果物・継続費用・追加条件を同じ欄で比べる実用シート。",
+      "url": "https://ai.gami.jp/insights/ai-introduction-support/",
+      "targetUrl": "https://ai.gami.jp/insights/ai-work-time-comparison-sheet/",
+      "status": "scoped_ready",
+      "work": "既存AI導入ガイドの「時間と品質の基準値を測る」から、作業時間の比較シートへ短いリンクを1つ案内する。",
       "evidence": [
-        "October9 disclosed fee queries:4queries,13impressions,0clicks; currently map to price URLs. A small signal, not established demand.",
-        "Existing pricing article is pre-estimate preparation; SaaS/custom checklist is build-vs-buy choice. Keep this brief to comparing received proposals."
+        "Read-only source review confirmed matching section and absent targetlink.",
+        "Original intro first28finalday review completed inconclusive with1impression; explicit source experiment boundary required before modification."
       ],
-      "implementation": "Latest-model subagent drafts concise copy and fictional example without market-price claims. Root checks duplication against all15articles, verifies any external facts, uses existing article system. No frozen source/pricepage changes.",
-      "verification": "Before publication: source facts,distinct intent,build,head/schema/sitemap/internal navigation and proportionate PC-mobile checks. Candidate URL not created or promised as live."
+      "implementation": "Before editing, explicitly close/rescope insight-ai-introduction-support-v1 while preserving its original start and completed results. Supersede October21 oldcondition follow-up or relabel it postchange descriptive. Latest-model agent drafts only linklabel; root reviews. Publish as separate link experiment with actual start/baseline/reviewdates; preserve paragraphs/dates/layout.",
+      "measurement": "Append target inboundevent without resetting October4start,October11index,November6effect or bodyfreeze. Reuse October11targetinspection if already acquired. No GA4/linkclick/inquiry lift claim; later acquisition is descriptive with confounding.",
+      "verification": "Build,diff,unchanged otherarticles/head/dates/CSS,initial and hydrated link,PC/mobile source section and actual target navigation."
     }
   ],
   "blocked": [
@@ -1272,15 +1291,15 @@
     "singleWriterConflict": false,
     "verificationGap": false,
     "cadenceChangeNeeded": false,
-    "nextFullAuditAfterCompletedRuns": 2,
+    "nextFullAuditAfterCompletedRuns": 1,
     "actualPromptReadback": "passed",
     "changeApplied": false,
     "operatingPolicyUpdated": false,
     "launcherPromptUpdated": false,
     "writingModelConfigured": "gpt-6.1-sol",
     "normalRouteStillHealthy": true,
-    "changeReason": "Completed resumedOct8record closure and independentOct9link; canonical1.0.11 persisted evidence allowed recovery without repeatpublication. Single writer and datedresults preserved; no new rule or cadence needed.",
-    "laneAssessment": "After technical parity, one contextual link shipped; next lane is distinct practical article drafting, not additional parity churn.",
+    "changeReason": "Freshness boundary unchanged and no due effect review; kept dated prior aggregate and completed one independent article. Persisted evidence supported resumption; no recurring new operational failure or cadence trigger.",
+    "laneAssessment": "Published practical worksheet after technical and linking work. Next ready is a contextually relevant internal link with an explicit source observation boundary.",
     "newReusableLearning": null
   },
   "retiredBlockers": [

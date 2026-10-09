@@ -1,0 +1,124 @@
+{
+  "observedAt": "2026-10-10T08:05:15.6203529+09:00",
+  "result": {
+    "siteUrl": "sc-domain:ai.gami.jp",
+    "requestedStartDate": "2026-09-26",
+    "requestedEndDate": "2026-10-10",
+    "searchType": "web",
+    "dataState": "final",
+    "latestReturnedDate": "2026-10-06",
+    "lagDaysFromRequestedEnd": 4,
+    "currentWindow": {
+      "startDate": "2026-09-09",
+      "endDate": "2026-10-06"
+    },
+    "previousWindow": {
+      "startDate": "2026-08-12",
+      "endDate": "2026-09-08"
+    },
+    "rowCount": 11,
+    "rows": [
+      {
+        "keys": [
+          "2026-09-26"
+        ],
+        "clicks": 0,
+        "impressions": 7,
+        "ctr": 0,
+        "position": 4
+      },
+      {
+        "keys": [
+          "2026-09-27"
+        ],
+        "clicks": 0,
+        "impressions": 12,
+        "ctr": 0,
+        "position": 2.25
+      },
+      {
+        "keys": [
+          "2026-09-28"
+        ],
+        "clicks": 0,
+        "impressions": 8,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "2026-09-29"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 2
+      },
+      {
+        "keys": [
+          "2026-09-30"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "2026-10-01"
+        ],
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 16.2
+      },
+      {
+        "keys": [
+          "2026-10-02"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 40
+      },
+      {
+        "keys": [
+          "2026-10-03"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 45.5
+      },
+      {
+        "keys": [
+          "2026-10-04"
+        ],
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 19
+      },
+      {
+        "keys": [
+          "2026-10-05"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 3.3333333333333335
+      },
+      {
+        "keys": [
+          "2026-10-06"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 5.666666666666667
+      }
+    ],
+    "metadata": null
+  },
+  "completedAt": "2026-10-10T08:05:16.2407199+09:00"
+}

@@ -1,0 +1,266 @@
+{
+  "recordedAt": "2026-10-09T23:14:13Z",
+  "baselineCommit": "36d26f4bcfb46cca0f806c8bdc845337376fc05b",
+  "commit": "e176dda339bd5f235ce03c7b4b71d3ea3f7ab9cd",
+  "deployedAt": "2026-10-09T23:10:28.3534905Z",
+  "change": "One distinct AI proposal-comparison worksheet article. Existing15article objects,27otherinitialbodies/heads,CSS and renderer unchanged.",
+  "method": "GitHub Actions normal Xserver deploy",
+  "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/38003032001",
+  "actions": {
+    "status": "completed",
+    "conclusion": "success",
+    "completedAt": "2026-10-09T23:10:29Z",
+    "serverResponse": {
+      "ok": true,
+      "extracted": 75,
+      "deletedStalePaths": 1
+    }
+  },
+  "static": {
+    "checkedAt": "2026-10-09T23:09:43.698Z",
+    "passed": true,
+    "baselineCommit": "36d26f4bcfb46cca0f806c8bdc845337376fc05b",
+    "old15ArticlesUnchanged": true,
+    "other27HeadsAndBodiesUnchanged": true,
+    "cssUnchanged": true,
+    "generatedEntries": 29,
+    "sitemapUrls": 27,
+    "allSectionTextPresent": true,
+    "initialIntroduction": "description; existing generator contract",
+    "renderedLeadCheck": "separate browser verification required",
+    "articleCount": 1,
+    "webPageCount": 1,
+    "datesMatch": true,
+    "oldSitemapEntriesPreserved": true,
+    "listingLinkPresent": true,
+    "publicMetadataAbsent": true
+  },
+  "live": {
+    "checkedAt": "2026-10-09T23:10:44.546Z",
+    "passed": true,
+    "baselineCommit": "36d26f4bcfb46cca0f806c8bdc845337376fc05b",
+    "old15ArticlesUnchanged": true,
+    "other27HeadsAndBodiesUnchanged": true,
+    "cssUnchanged": true,
+    "generatedEntries": 29,
+    "sitemapUrls": 27,
+    "allSectionTextPresent": true,
+    "initialIntroduction": "description; existing generator contract",
+    "renderedLeadCheck": "separate browser verification required",
+    "articleCount": 1,
+    "webPageCount": 1,
+    "datesMatch": true,
+    "oldSitemapEntriesPreserved": true,
+    "listingLinkPresent": true,
+    "publicMetadataAbsent": true,
+    "live": [
+      {
+        "path": "/insights/ai-project-proposal-comparison-sheet",
+        "status": 200,
+        "headAndBodyMatch": true,
+        "selfCanonical": true,
+        "indexAllowed": true,
+        "articleCount": 1
+      },
+      {
+        "path": "/insights",
+        "status": 200,
+        "headAndBodyMatch": true,
+        "selfCanonical": true,
+        "indexAllowed": true,
+        "articleCount": 0
+      },
+      {
+        "path": "/insights/ai-introduction-support-pricing",
+        "status": 200,
+        "headAndBodyMatch": true,
+        "selfCanonical": true,
+        "indexAllowed": true,
+        "articleCount": 1
+      }
+    ],
+    "liveSitemapAndOgMatch": true
+  },
+  "assets": {
+    "checkedAt": "2026-10-09T23:10:46.446Z",
+    "assetsChecked": 24,
+    "assetHashesMatch": true,
+    "headsChecked": 29,
+    "allStaticSeoHeadsMatch": true,
+    "scope": "All29 generated SEO heads and24 built JavaScript hashes after normal GitHub Actions; not a full UI audit.",
+    "passed": true
+  },
+  "browser": {
+    "verifiedAt": "2026-10-09 23:13:25 UTC",
+    "desktop": {
+      "url": "https://ai.gami.jp/insights/ai-project-proposal-comparison-sheet/",
+      "width": 1280,
+      "height": 720,
+      "scrollWidth": 1280,
+      "h1": [
+        "AI導入の見積もりを比べる｜提案ごとに埋める比較シート"
+      ],
+      "canonical": "https://ai.gami.jp/insights/ai-project-proposal-comparison-sheet/",
+      "types": [
+        "Organization",
+        "WebPage",
+        "Article",
+        "BreadcrumbList"
+      ],
+      "allExpectedTextPresent": true,
+      "fieldCount": 7
+    },
+    "mobile": {
+      "url": "https://ai.gami.jp/insights/ai-project-proposal-comparison-sheet/",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "h1": [
+        "AI導入の見積もりを比べる｜提案ごとに埋める比較シート"
+      ],
+      "canonical": "https://ai.gami.jp/insights/ai-project-proposal-comparison-sheet/",
+      "types": [
+        "Organization",
+        "WebPage",
+        "Article",
+        "BreadcrumbList"
+      ],
+      "allExpectedTextPresent": true,
+      "fieldCount": 7
+    },
+    "listingDesktop": {
+      "url": "https://ai.gami.jp/insights/",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "articleCount": 16,
+      "dateCount": 16,
+      "first": "2026.10.10\nAI導入\nAI導入の見積もりを比べる｜提案ごとに埋める比較シート\n\n受け取った複数のAI導入提案を、作業範囲、成果物と完了確認、初期・継続費用、追加料金の条件で比べる記入式シートです。同じ期間と利用量にそろえ、未確認の費用を残す架空の例も紹介します。\n\n読む",
+      "firstHref": "/insights/ai-project-proposal-comparison-sheet/",
+      "schemas": [
+        {
+          "type": "Organization"
+        },
+        {
+          "type": "CollectionPage"
+        },
+        {
+          "type": "ItemList",
+          "numberOfItems": 16
+        },
+        {
+          "type": "BreadcrumbList"
+        }
+      ]
+    },
+    "listingMobile": {
+      "url": "https://ai.gami.jp/insights/",
+      "width": 390,
+      "scrollWidth": 390,
+      "articleCount": 16,
+      "dateCount": 16,
+      "first": "2026.10.10\nAI導入\nAI導入の見積もりを比べる｜提案ごとに埋める比較シート\n\n受け取った複数のAI導入提案を、作業範囲、成果物と完了確認、初期・継続費用、追加料金の条件で比べる記入式シートです。同じ期間と利用量にそろえ、未確認の費用を残す架空の例も紹介します。\n\n読む",
+      "firstHref": "/insights/ai-project-proposal-comparison-sheet/",
+      "schemas": [
+        {
+          "type": "Organization"
+        },
+        {
+          "type": "CollectionPage"
+        },
+        {
+          "type": "ItemList",
+          "numberOfItems": 16
+        },
+        {
+          "type": "BreadcrumbList"
+        }
+      ]
+    },
+    "pricingNavigation": {
+      "url": "https://ai.gami.jp/insights/ai-introduction-support-pricing/",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "h1": [
+        "AI導入の費用は何で変わる？見積もりを左右する5要素"
+      ],
+      "canonical": "https://ai.gami.jp/insights/ai-introduction-support-pricing/",
+      "types": [
+        "Organization",
+        "WebPage",
+        "Article",
+        "BreadcrumbList"
+      ]
+    },
+    "listingToArticleNavigation": {
+      "url": "https://ai.gami.jp/insights/ai-project-proposal-comparison-sheet/",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "h1": [
+        "AI導入の見積もりを比べる｜提案ごとに埋める比較シート"
+      ],
+      "canonical": "https://ai.gami.jp/insights/ai-project-proposal-comparison-sheet/",
+      "types": [
+        "Organization",
+        "WebPage",
+        "Article",
+        "BreadcrumbList"
+      ],
+      "allExpectedTextPresent": true,
+      "fieldCount": 7
+    },
+    "screenshotsInspected": [
+      "output/playwright/2026-10-10-proposal-desktop.png",
+      "output/playwright/2026-10-10-proposal-mobile.png",
+      "output/playwright/2026-10-10-proposal-fields-desktop.png",
+      "output/playwright/2026-10-10-proposal-fields-mobile.png"
+    ],
+    "consoleErrors": 0,
+    "consoleWarnings": 0,
+    "requestsChecked": 15,
+    "allRequests200": true,
+    "requestScope": "After listing full-page navigation through SPA navigation to newarticle; earlier navigation requests not retained by CLI.",
+    "ownedBrowserClosed": true,
+    "formSubmitted": false,
+    "ownedSnapshotsArchivedRecoverably": 4
+  },
+  "result": "verified",
+  "effect": "not-yet-measurable",
+  "copyReview": {
+    "draftAgent": "oct10_proposal_draft",
+    "model": "gpt-6.1-sol",
+    "reviewAgent": "oct10_content_review",
+    "coordinatorApproved": true,
+    "scope": "Received proposals, not pre-estimate preparation or build-vs-buy selection. Fictional example labelled. No actual price/rate/capability/result claims.",
+    "primaryChecks": [
+      {
+        "url": "https://www.ipa.go.jp/archive/digital/iot-en-ci/teiryou/ent01-c.html",
+        "use": "Archive supports projectcondition/specification variability only; no contemporary AIprice or rate evidence."
+      },
+      {
+        "url": "https://www.ipa.go.jp/digital/ai/transformation.html",
+        "use": "Inquiryhandling/documentgeneration examples only; not GAMI capability/price/results evidence."
+      }
+    ],
+    "publicReferenceListAdded": false
+  },
+  "safety": "No paid actions,formsend,newauth/server/workflowchanges or manualproductiondeletion. Existing deployer stalecleanup1; browserclosed.",
+  "verificationNotes": [
+    "InitialHTML uses description and fullsections; rendered introduction uses lead under the unchanged renderer. Adjusted local verifier to existing contract; both explicitly tested.",
+    "Console/requests evidence retained after listing navigation only, not all previous navigations; allbuiltJS hashes separately matched."
+  ],
+  "recordVerification": {
+    "checkedAt": "2026-10-09T23:15:15.314Z",
+    "passed": true,
+    "old28QueuesPreserved": true,
+    "originalStartsPreserved": true,
+    "oldHistoryAppendOnly": true,
+    "uniqueActiveIds": 27,
+    "oldInventoryExceptListingPreserved": true,
+    "datedMetricsAndNullsPreserved": true,
+    "scheduleAndPromptUnchanged": true,
+    "indexReview": "2026-10-17",
+    "effectReview": "2026-11-11",
+    "independentBoundaryReview": "oct10_content_review: dates and original listing/pricing queues consistent; nextsource closure must supersede or relabel original October21check."
+  }
+}
