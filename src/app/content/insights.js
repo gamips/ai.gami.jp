@@ -1011,6 +1011,10 @@ export const insights = [
           "実装と運用。仕組みの実装、運用代行、AIエージェント化まで含めるかを決めます。",
           "データとシステム連携。社内資料の整理、外部ツールとの接続、自動実行が必要かを確認します。",
         ],
+        link: {
+          label: "AI導入の見積もり比較シートを見る",
+          href: "/insights/ai-project-proposal-comparison-sheet/",
+        },
       },
       {
         id: "small-support",
