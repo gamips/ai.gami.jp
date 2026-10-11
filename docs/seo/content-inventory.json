@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-10",
+  "updatedAt": "2026-10-11",
   "rules": {
     "oneOwnerUrlPerIntent": true,
     "publicCopyExcludesOperationalMetadata": true
@@ -132,8 +132,13 @@
       "status": "published",
       "lastModified": "2026-09-04",
       "schema": "Article",
-      "experimentId": "insight-ai-introduction-support-v1",
-      "relatedService": "https://ai.gami.jp/services/ai-saas/"
+      "experimentId": "insight-ai-introduction-time-sheet-link-v1",
+      "relatedService": "https://ai.gami.jp/services/ai-saas/",
+      "previousExperimentIds": [
+        "insight-ai-introduction-support-v1"
+      ],
+      "internalLinkUpdatedAt": "2026-10-11T00:25:53.6773167Z",
+      "relatedGuide": "https://ai.gami.jp/insights/ai-work-time-comparison-sheet/"
     },
     {
       "url": "https://ai.gami.jp/insights/ai-introduction-support-pricing/",

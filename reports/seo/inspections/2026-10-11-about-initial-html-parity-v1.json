@@ -1,0 +1,16 @@
+{
+  "experimentId": "about-initial-html-parity-v1",
+  "siteUrl": "sc-domain:ai.gami.jp",
+  "inspectionUrl": "https://ai.gami.jp/about/",
+  "fetchedAt": "2026-10-11T00:23:33.6336708+00:00",
+  "source": "google-index",
+  "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:ai.gami.jp&id=xK_-1TduQnHJhLr4-68F_w&utm_medium=link&utm_source=api",
+  "verdict": "PASS",
+  "coverageState": "送信して登録されました",
+  "robotsTxtState": "ALLOWED",
+  "indexingState": "INDEXING_ALLOWED",
+  "lastCrawlTime": "2026-10-10T23:33:02Z",
+  "pageFetchState": "SUCCESSFUL",
+  "googleCanonical": "https://ai.gami.jp/about/",
+  "userCanonical": "https://ai.gami.jp/about/"
+}

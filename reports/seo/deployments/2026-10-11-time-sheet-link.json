@@ -1,0 +1,204 @@
+{
+  "recordedAt": "2026-10-11T00:29:14Z",
+  "baselineCommit": "80aa88d9aa018bcf20d2c43c34005eb75b671d26",
+  "commit": "634be01edff54dfdf7e8c3dc308e599639d439d1",
+  "deployedAt": "2026-10-11T00:25:53.6773167Z",
+  "change": "One contextual timeworksheetlink in introductionguide five-things section; paragraphs/items/dates/CSS unchanged.",
+  "method": "GitHub Actions normal Xserver deploy",
+  "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/38098379193",
+  "actions": {
+    "status": "completed",
+    "conclusion": "success",
+    "completedAt": "2026-10-11T00:25:55Z",
+    "serverResponse": {
+      "ok": true,
+      "extracted": 75,
+      "deletedStalePaths": 1
+    }
+  },
+  "static": {
+    "checkedAt": "2026-10-11T00:25:24.423Z",
+    "passed": true,
+    "baselineCommit": "80aa88d9aa018bcf20d2c43c34005eb75b671d26",
+    "onlyOneSourceSectionLinkAdded": true,
+    "other15ArticlesUnchanged": true,
+    "headsUnchanged": 29,
+    "otherInitialBodiesUnchanged": 28,
+    "cssUnchanged": true,
+    "sitemapUnchanged": true,
+    "sourceDateUnchanged": "2026-09-04",
+    "initialArticleCount": 1,
+    "initialWebPageCount": 1
+  },
+  "live": {
+    "checkedAt": "2026-10-11T00:26:23.671Z",
+    "passed": true,
+    "baselineCommit": "80aa88d9aa018bcf20d2c43c34005eb75b671d26",
+    "onlyOneSourceSectionLinkAdded": true,
+    "other15ArticlesUnchanged": true,
+    "headsUnchanged": 29,
+    "otherInitialBodiesUnchanged": 28,
+    "cssUnchanged": true,
+    "sitemapUnchanged": true,
+    "sourceDateUnchanged": "2026-09-04",
+    "initialArticleCount": 1,
+    "initialWebPageCount": 1,
+    "live": [
+      {
+        "path": "/insights/ai-introduction-support",
+        "status": 200,
+        "headAndBodyMatch": true,
+        "indexAllowed": true,
+        "selfCanonical": true,
+        "articleCount": 1
+      },
+      {
+        "path": "/insights/ai-work-time-comparison-sheet",
+        "status": 200,
+        "headAndBodyMatch": true,
+        "indexAllowed": true,
+        "selfCanonical": true,
+        "articleCount": 1
+      },
+      {
+        "path": "/insights/saas-or-custom-system-checklist",
+        "status": 200,
+        "headAndBodyMatch": true,
+        "indexAllowed": true,
+        "selfCanonical": true,
+        "articleCount": 1
+      },
+      {
+        "path": "/insights/ai-article-fact-check-template",
+        "status": 200,
+        "headAndBodyMatch": true,
+        "indexAllowed": true,
+        "selfCanonical": true,
+        "articleCount": 1
+      },
+      {
+        "path": "/insights/ai-website-brief-template",
+        "status": 200,
+        "headAndBodyMatch": true,
+        "indexAllowed": true,
+        "selfCanonical": true,
+        "articleCount": 1
+      },
+      {
+        "path": "/about",
+        "status": 200,
+        "headAndBodyMatch": true,
+        "indexAllowed": true,
+        "selfCanonical": true,
+        "articleCount": 0
+      },
+      {
+        "path": "/insights/ai-website-change-request-template",
+        "status": 200,
+        "headAndBodyMatch": true,
+        "indexAllowed": true,
+        "selfCanonical": true,
+        "articleCount": 1
+      }
+    ],
+    "liveSitemapMatches": true
+  },
+  "assets": {
+    "checkedAt": "2026-10-11T00:26:25.570Z",
+    "assetsChecked": 24,
+    "assetHashesMatch": true,
+    "headsChecked": 29,
+    "allStaticSeoHeadsMatch": true,
+    "scope": "All generated SEO heads and built JavaScript hashes after normal GitHub Actions; not a fullUI audit.",
+    "passed": true
+  },
+  "browser": {
+    "verifiedAt": "2026-10-11T00:28:12Z",
+    "desktop": {
+      "url": "https://ai.gami.jp/insights/ai-introduction-support/",
+      "width": 1280,
+      "height": 720,
+      "scrollWidth": 1280,
+      "h1": [
+        "AI導入支援とは？小さく始めるための5つの整理"
+      ],
+      "section": "02\nツール選びより先に整理する5つ\n\nツールを比べる前に、次の5つを整理します。ここが決まっていると、どのツールでも試しやすくなります。\n\n1\nよく繰り返す業務を一つ選ぶ。毎日、毎週、毎月行う作業は、変化を比べやすい入口です。\n2\n入力と完成形を書く。AIに渡す資料と、最後に必要な文章・表・回答を言葉にします。\n3\nAIに任せない判断を決める。金額の確定、契約、社外への送信など、人が持つ判断を先に分けます。\n4\n確認する人を決める。誰が、何を見て、どの状態なら使えると判断するかを決めます。\n5\n時間と品質の基準値を測る。導入前の作業時間と手戻りを記録し、試した後と同じ条件で比べます。\nAIを使う前後の時間を比べる記録表を見る",
+      "link": "/insights/ai-work-time-comparison-sheet/",
+      "types": [
+        "Organization",
+        "WebPage",
+        "Article",
+        "BreadcrumbList"
+      ]
+    },
+    "mobile": {
+      "url": "https://ai.gami.jp/insights/ai-introduction-support/",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "h1": [
+        "AI導入支援とは？小さく始めるための5つの整理"
+      ],
+      "section": "02\nツール選びより先に整理する5つ\n\nツールを比べる前に、次の5つを整理します。ここが決まっていると、どのツールでも試しやすくなります。\n\n1\nよく繰り返す業務を一つ選ぶ。毎日、毎週、毎月行う作業は、変化を比べやすい入口です。\n2\n入力と完成形を書く。AIに渡す資料と、最後に必要な文章・表・回答を言葉にします。\n3\nAIに任せない判断を決める。金額の確定、契約、社外への送信など、人が持つ判断を先に分けます。\n4\n確認する人を決める。誰が、何を見て、どの状態なら使えると判断するかを決めます。\n5\n時間と品質の基準値を測る。導入前の作業時間と手戻りを記録し、試した後と同じ条件で比べます。\nAIを使う前後の時間を比べる記録表を見る",
+      "link": "/insights/ai-work-time-comparison-sheet/",
+      "types": [
+        "Organization",
+        "WebPage",
+        "Article",
+        "BreadcrumbList"
+      ]
+    },
+    "navigation": {
+      "url": "https://ai.gami.jp/insights/ai-work-time-comparison-sheet/",
+      "width": 390,
+      "scrollWidth": 390,
+      "h1": [
+        "AIを使う前後の時間を比べる｜作業と待ち時間の記録表"
+      ],
+      "canonical": "https://ai.gami.jp/insights/ai-work-time-comparison-sheet/",
+      "types": [
+        "Organization",
+        "WebPage",
+        "Article",
+        "BreadcrumbList"
+      ]
+    },
+    "consoleErrors": 0,
+    "consoleWarnings": 0,
+    "allRequests200": true,
+    "requestsChecked": 14,
+    "screenshotsInspected": true,
+    "artifacts": [
+      "output/playwright/2026-10-11-time-link-desktop.png",
+      "output/playwright/2026-10-11-time-link-mobile.png"
+    ],
+    "ownedBrowserClosed": true,
+    "ownedSnapshotsArchivedRecoverably": 2,
+    "scope": "One added source link, source section at desktop/mobile and target SPA navigation/schema; not a full-site visual audit."
+  },
+  "result": "verified",
+  "effect": "not-yet-measurable",
+  "copyReview": {
+    "agent": "oct11_time_link_copy",
+    "model": "gpt-6.1-sol",
+    "label": "AIを使う前後の時間を比べる記録表を見る",
+    "reviewAgent": "oct11_ops_review",
+    "coordinatorApproved": true,
+    "placement": "five-things section.link immediately after the fifthordereditem; no newparagraph or component."
+  },
+  "safety": "No paidactions,formsend,newauth/server/workflowchange or manualproductiondeletion. Existing deployer stalecleanup1; ownedbrowserclosed.",
+  "recordVerification": {
+    "checkedAt": "2026-10-11T00:30:24.008Z",
+    "passed": true,
+    "unrelatedQueuesPreserved": true,
+    "originalStartsPreserved": true,
+    "oldSourceExplicitlyClosed": true,
+    "targetOriginalEffectDateRetained": true,
+    "oldHistoryAppendOnly": true,
+    "uniqueActiveIds": 27,
+    "allDueChecksRecorded": true,
+    "scheduleAndPromptUnchanged": true,
+    "fullAuditCompleted": true,
+    "independentReview": "oct11_ops_review verified metric lineage and source closure boundaries before final records."
+  }
+}

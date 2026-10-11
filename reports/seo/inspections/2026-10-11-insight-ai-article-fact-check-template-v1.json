@@ -1,0 +1,16 @@
+{
+  "experimentId": "insight-ai-article-fact-check-template-v1",
+  "siteUrl": "sc-domain:ai.gami.jp",
+  "inspectionUrl": "https://ai.gami.jp/insights/ai-article-fact-check-template/",
+  "fetchedAt": "2026-10-11T00:23:24.2799498+00:00",
+  "source": "google-index",
+  "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:ai.gami.jp&id=hN8CmvVoe_ucBQv-9jxYPA&utm_medium=link&utm_source=api",
+  "verdict": "NEUTRAL",
+  "coverageState": "URL が Google に認識されていません",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "lastCrawlTime": null,
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "googleCanonical": null,
+  "userCanonical": null
+}

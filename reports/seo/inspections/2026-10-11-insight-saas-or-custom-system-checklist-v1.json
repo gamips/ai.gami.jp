@@ -1,0 +1,16 @@
+{
+  "experimentId": "insight-saas-or-custom-system-checklist-v1",
+  "siteUrl": "sc-domain:ai.gami.jp",
+  "inspectionUrl": "https://ai.gami.jp/insights/saas-or-custom-system-checklist/",
+  "fetchedAt": "2026-10-11T00:23:04.5979727+00:00",
+  "source": "google-index",
+  "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:ai.gami.jp&id=04kfROK1o1rxvDFjWxzW7w&utm_medium=link&utm_source=api",
+  "verdict": "NEUTRAL",
+  "coverageState": "URL が Google に認識されていません",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "lastCrawlTime": null,
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "googleCanonical": null,
+  "userCanonical": null
+}
