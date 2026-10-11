@@ -1,0 +1,60 @@
+{
+  "verifiedAt": "2026-10-11T23:28:54Z",
+  "desktop": {
+    "url": "https://ai.gami.jp/insights/ai-introduction-support-pricing/",
+    "width": 1280,
+    "height": 720,
+    "scrollWidth": 1280,
+    "h1": [
+      "AI導入の費用は何で変わる？見積もりを左右する5要素"
+    ],
+    "link": "/insights/ai-project-proposal-comparison-sheet/",
+    "types": [
+      "Organization",
+      "WebPage",
+      "Article",
+      "BreadcrumbList"
+    ]
+  },
+  "mobile": {
+    "url": "https://ai.gami.jp/insights/ai-introduction-support-pricing/",
+    "width": 390,
+    "height": 844,
+    "scrollWidth": 390,
+    "h1": [
+      "AI導入の費用は何で変わる？見積もりを左右する5要素"
+    ],
+    "link": "/insights/ai-project-proposal-comparison-sheet/",
+    "types": [
+      "Organization",
+      "WebPage",
+      "Article",
+      "BreadcrumbList"
+    ]
+  },
+  "navigation": {
+    "url": "https://ai.gami.jp/insights/ai-project-proposal-comparison-sheet/",
+    "width": 390,
+    "scrollWidth": 390,
+    "h1": [
+      "AI導入の見積もりを比べる｜提案ごとに埋める比較シート"
+    ],
+    "canonical": "https://ai.gami.jp/insights/ai-project-proposal-comparison-sheet/",
+    "types": [
+      "Organization",
+      "WebPage",
+      "Article",
+      "BreadcrumbList"
+    ]
+  },
+  "consoleErrors": 0,
+  "consoleWarnings": 0,
+  "allRequests200": true,
+  "requestsChecked": 14,
+  "screenshotsInspected": true,
+  "artifacts": [
+    "output/playwright/2026-10-12-pricing-link-desktop.png",
+    "output/playwright/2026-10-12-pricing-link-mobile.png"
+  ],
+  "scope": "Added section.link rendered on desktop/mobile and actual target navigation/schema, not a full-site visual audit. Existing typography/spacing retained; no new component."
+}

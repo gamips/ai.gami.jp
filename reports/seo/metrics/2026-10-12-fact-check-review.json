@@ -1,0 +1,39 @@
+{
+  "experimentId": "insight-ai-article-fact-check-template-v1",
+  "event": "first_28_final_days_review_completed",
+  "observedAt": "2026-10-12T08:24:40.0004793+09:00",
+  "originalStartedAt": "2026-09-10T23:09:04Z",
+  "scheduledReviewAt": "2026-10-12",
+  "window": {
+    "startDate": "2026-09-12",
+    "endDate": "2026-10-09",
+    "fullFinalDays": 28
+  },
+  "pageClicks": null,
+  "pageImpressions": null,
+  "disclosedQueryPages": [],
+  "missingRowsMeaning": "No disclosed page/query-page row returned in exact full28daywindow; not zero traffic or zero demand.",
+  "minimumEvidence": {
+    "finalDays": 28,
+    "pageImpressions": 30
+  },
+  "metricsEvidencePath": "reports/seo/metrics/2026-10-12-0824.json",
+  "rawCollectionPath": "reports/seo/metrics/2026-10-12-collection.json",
+  "inspectionEvidencePath": "reports/seo/inspections/2026-10-11-due-pages.json",
+  "inspectionReused": true,
+  "indexVerdict": "NEUTRAL",
+  "lastCrawlTime": null,
+  "indexResult": "not-confirmed",
+  "status": "observing",
+  "result": "inconclusive",
+  "nextEffectCheckOnOrAfter": "2026-10-26",
+  "nextIndexCheckOnOrAfter": "2026-10-18",
+  "attributionCaveats": [
+    "Shared September13 schema correction",
+    "September29 inbound link from ai-marketing"
+  ],
+  "observationRestarted": false,
+  "articleContentChanged": false,
+  "articleDatesChanged": false,
+  "note": "Full post-publication window completed, but disclosed page volume unavailable and minimum30cannot be verified. Bounded followup, no causal conclusion or rewrite solely for unknown index."
+}

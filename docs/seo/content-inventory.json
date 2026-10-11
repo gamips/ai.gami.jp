@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-11",
+  "updatedAt": "2026-10-12",
   "rules": {
     "oneOwnerUrlPerIntent": true,
     "publicCopyExcludesOperationalMetadata": true
@@ -147,9 +147,14 @@
       "status": "published",
       "lastModified": "2026-09-04",
       "schema": "Article",
-      "experimentId": "insight-ai-introduction-support-pricing-v1",
+      "experimentId": "insight-pricing-proposal-sheet-link-v1",
       "relatedPrice": "https://ai.gami.jp/price/",
-      "relatedService": "https://ai.gami.jp/services/ai-saas/"
+      "relatedService": "https://ai.gami.jp/services/ai-saas/",
+      "previousExperimentIds": [
+        "insight-ai-introduction-support-pricing-v1"
+      ],
+      "internalLinkUpdatedAt": "2026-10-11T23:27:27.9504413Z",
+      "relatedGuide": "https://ai.gami.jp/insights/ai-project-proposal-comparison-sheet/"
     },
     {
       "url": "https://ai.gami.jp/insights/chatgpt-workplace-adoption-checklist/",
