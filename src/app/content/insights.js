@@ -1088,6 +1088,10 @@ export const insights = [
           "確認する人を決める。誰が、何を見て、どの状態なら使えると判断するかを決めます。",
           "時間と品質の基準値を測る。導入前の作業時間と手戻りを記録し、試した後と同じ条件で比べます。",
         ],
+        link: {
+          label: "AIを使う前後の時間を比べる記録表を見る",
+          href: "/insights/ai-work-time-comparison-sheet/",
+        },
       },
       {
         id: "small-start",
