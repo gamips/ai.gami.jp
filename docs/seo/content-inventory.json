@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-12",
+  "updatedAt": "2026-10-13",
   "rules": {
     "oneOwnerUrlPerIntent": true,
     "publicCopyExcludesOperationalMetadata": true
@@ -119,11 +119,11 @@
       "type": "insight-index",
       "intent": "AI導入と生成AI活用の実践ガイド一覧",
       "status": "published",
-      "lastModified": "2026-10-10",
+      "lastModified": "2026-10-13",
       "experimentId": "insights-initial-listing-parity-v1",
       "technicalUpdatedAt": "2026-10-07T01:13:35Z",
       "contentSource": "src/app/content/insights.js",
-      "note": "Index sitemap lastmod derives from article updatedAt; October10newarticle row added using unchanged listing mapping. Original listing experiment dates retained."
+      "note": "Index sitemap lastmod derives from article updatedAt; October13newarticle row added using unchanged listing mapping. Original listing experiment dates retained."
     },
     {
       "url": "https://ai.gami.jp/insights/ai-introduction-support/",
@@ -316,6 +316,16 @@
       "schema": "Article",
       "experimentId": "insight-ai-project-proposal-comparison-sheet-v1",
       "relatedArticle": "https://ai.gami.jp/insights/ai-introduction-support-pricing/"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-work-procedure-template/",
+      "type": "insight",
+      "intent": "AIで社内手順書を作る前の作業メモと、手順をたどって抜けを直す実務テンプレート",
+      "status": "published",
+      "lastModified": "2026-10-13",
+      "schema": "Article",
+      "experimentId": "insight-ai-work-procedure-template-v1",
+      "relatedGuide": "https://ai.gami.jp/insights/rag-document-inventory-checklist/"
     }
   ]
 }

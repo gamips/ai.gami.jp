@@ -1,0 +1,70 @@
+{
+  "checkedAt": "2026-10-12T23:08:25.216Z",
+  "passed": true,
+  "baselineCommit": "0005cdbc1e8a32bd69e3eb12f4c6014c20b03d47",
+  "old16ArticlesUnchanged": true,
+  "other28HeadsAndBodiesUnchanged": true,
+  "cssUnchanged": true,
+  "generatedEntries": 30,
+  "sitemapUrls": 28,
+  "allSectionTextPresent": true,
+  "initialIntroduction": "description; existing generator contract",
+  "renderedLeadCheck": "separate browser verification required",
+  "articleCount": 1,
+  "webPageCount": 1,
+  "datesMatch": true,
+  "oldSitemapEntriesPreserved": true,
+  "listingLinkPresent": true,
+  "publicMetadataAbsent": true,
+  "live": [
+    {
+      "path": "/insights/ai-work-procedure-template",
+      "status": 200,
+      "headAndBodyMatch": true,
+      "selfCanonical": true,
+      "indexAllowed": true,
+      "articleCount": 1
+    },
+    {
+      "path": "/insights",
+      "status": 200,
+      "headAndBodyMatch": true,
+      "selfCanonical": true,
+      "indexAllowed": true,
+      "articleCount": 0
+    },
+    {
+      "path": "/insights/rag-document-inventory-checklist",
+      "status": 200,
+      "headAndBodyMatch": true,
+      "selfCanonical": true,
+      "indexAllowed": true,
+      "articleCount": 1
+    },
+    {
+      "path": "/price",
+      "status": 200,
+      "headAndBodyMatch": true,
+      "selfCanonical": true,
+      "indexAllowed": true,
+      "articleCount": 0
+    },
+    {
+      "path": "/concept",
+      "status": 200,
+      "headAndBodyMatch": true,
+      "selfCanonical": true,
+      "indexAllowed": true,
+      "articleCount": 0
+    },
+    {
+      "path": "/services/ai-marketing",
+      "status": 200,
+      "headAndBodyMatch": true,
+      "selfCanonical": true,
+      "indexAllowed": true,
+      "articleCount": 0
+    }
+  ],
+  "liveSitemapAndOgMatch": true
+}

@@ -1,0 +1,275 @@
+{
+  "recordedAt": "2026-10-12T23:10:40Z",
+  "baselineCommit": "0005cdbc1e8a32bd69e3eb12f4c6014c20b03d47",
+  "commit": "5826c115ac93a9a750bfe812dfb953b17ca33c18",
+  "deployedAt": "2026-10-12T23:08:13.0809832Z",
+  "change": "New standalone work-procedure note template with explicitly fictional missing-step/correction example, existing renderer unchanged.",
+  "method": "GitHub Actions normal Xserver deploy",
+  "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/38320491824",
+  "actions": {
+    "status": "completed",
+    "conclusion": "success",
+    "completedAt": "2026-10-12T23:08:15Z",
+    "serverResponse": {
+      "ok": true,
+      "extracted": 76,
+      "deletedStalePaths": 1
+    }
+  },
+  "static": {
+    "checkedAt": "2026-10-12T23:07:42.324Z",
+    "passed": true,
+    "baselineCommit": "0005cdbc1e8a32bd69e3eb12f4c6014c20b03d47",
+    "old16ArticlesUnchanged": true,
+    "other28HeadsAndBodiesUnchanged": true,
+    "cssUnchanged": true,
+    "generatedEntries": 30,
+    "sitemapUrls": 28,
+    "allSectionTextPresent": true,
+    "initialIntroduction": "description; existing generator contract",
+    "renderedLeadCheck": "separate browser verification required",
+    "articleCount": 1,
+    "webPageCount": 1,
+    "datesMatch": true,
+    "oldSitemapEntriesPreserved": true,
+    "listingLinkPresent": true,
+    "publicMetadataAbsent": true
+  },
+  "live": {
+    "checkedAt": "2026-10-12T23:08:25.216Z",
+    "passed": true,
+    "baselineCommit": "0005cdbc1e8a32bd69e3eb12f4c6014c20b03d47",
+    "old16ArticlesUnchanged": true,
+    "other28HeadsAndBodiesUnchanged": true,
+    "cssUnchanged": true,
+    "generatedEntries": 30,
+    "sitemapUrls": 28,
+    "allSectionTextPresent": true,
+    "initialIntroduction": "description; existing generator contract",
+    "renderedLeadCheck": "separate browser verification required",
+    "articleCount": 1,
+    "webPageCount": 1,
+    "datesMatch": true,
+    "oldSitemapEntriesPreserved": true,
+    "listingLinkPresent": true,
+    "publicMetadataAbsent": true,
+    "live": [
+      {
+        "path": "/insights/ai-work-procedure-template",
+        "status": 200,
+        "headAndBodyMatch": true,
+        "selfCanonical": true,
+        "indexAllowed": true,
+        "articleCount": 1
+      },
+      {
+        "path": "/insights",
+        "status": 200,
+        "headAndBodyMatch": true,
+        "selfCanonical": true,
+        "indexAllowed": true,
+        "articleCount": 0
+      },
+      {
+        "path": "/insights/rag-document-inventory-checklist",
+        "status": 200,
+        "headAndBodyMatch": true,
+        "selfCanonical": true,
+        "indexAllowed": true,
+        "articleCount": 1
+      },
+      {
+        "path": "/price",
+        "status": 200,
+        "headAndBodyMatch": true,
+        "selfCanonical": true,
+        "indexAllowed": true,
+        "articleCount": 0
+      },
+      {
+        "path": "/concept",
+        "status": 200,
+        "headAndBodyMatch": true,
+        "selfCanonical": true,
+        "indexAllowed": true,
+        "articleCount": 0
+      },
+      {
+        "path": "/services/ai-marketing",
+        "status": 200,
+        "headAndBodyMatch": true,
+        "selfCanonical": true,
+        "indexAllowed": true,
+        "articleCount": 0
+      }
+    ],
+    "liveSitemapAndOgMatch": true
+  },
+  "assets": {
+    "checkedAt": "2026-10-12T23:08:47.907Z",
+    "assetsChecked": 24,
+    "assetHashesMatch": true,
+    "headsChecked": 30,
+    "allStaticSeoHeadsMatch": true,
+    "scope": "All generated SEO heads and built JavaScript hashes after normal GitHub Actions; not a full UI audit.",
+    "passed": true
+  },
+  "browser": {
+    "desktop": {
+      "url": "https://ai.gami.jp/insights/ai-work-procedure-template/",
+      "width": 1280,
+      "height": 720,
+      "scrollWidth": 1280,
+      "h1": [
+        "AIで社内手順書を作る｜作業メモのテンプレート"
+      ],
+      "allExpectedTextPresent": true,
+      "fieldCount": 7,
+      "canonical": "https://ai.gami.jp/insights/ai-work-procedure-template/",
+      "types": [
+        "Organization",
+        "WebPage",
+        "Article",
+        "BreadcrumbList"
+      ]
+    },
+    "mobile": {
+      "url": "https://ai.gami.jp/insights/ai-work-procedure-template/",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "h1": [
+        "AIで社内手順書を作る｜作業メモのテンプレート"
+      ],
+      "allExpectedTextPresent": true,
+      "fieldCount": 7,
+      "canonical": "https://ai.gami.jp/insights/ai-work-procedure-template/",
+      "types": [
+        "Organization",
+        "WebPage",
+        "Article",
+        "BreadcrumbList"
+      ]
+    },
+    "outboundNavigation": {
+      "url": "https://ai.gami.jp/insights/rag-document-inventory-checklist/",
+      "width": 390,
+      "scrollWidth": 390,
+      "h1": [
+        "RAG導入前の社内資料整理｜棚卸しチェックリスト"
+      ],
+      "types": [
+        "Organization",
+        "WebPage",
+        "Article",
+        "BreadcrumbList"
+      ]
+    },
+    "listingMobile": {
+      "url": "https://ai.gami.jp/insights/",
+      "width": 390,
+      "scrollWidth": 390,
+      "articleCount": 17,
+      "dateCount": 17,
+      "newLink": "/insights/ai-work-procedure-template/",
+      "schemas": [
+        {
+          "type": "Organization"
+        },
+        {
+          "type": "CollectionPage"
+        },
+        {
+          "type": "ItemList",
+          "numberOfItems": 17
+        },
+        {
+          "type": "BreadcrumbList"
+        }
+      ]
+    },
+    "listingDesktop": {
+      "url": "https://ai.gami.jp/insights/",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "articleCount": 17,
+      "dateCount": 17,
+      "newLink": "/insights/ai-work-procedure-template/",
+      "schemas": [
+        {
+          "type": "Organization"
+        },
+        {
+          "type": "CollectionPage"
+        },
+        {
+          "type": "ItemList",
+          "numberOfItems": 17
+        },
+        {
+          "type": "BreadcrumbList"
+        }
+      ]
+    },
+    "listingToArticleNavigation": {
+      "url": "https://ai.gami.jp/insights/ai-work-procedure-template/",
+      "width": 1280,
+      "height": 720,
+      "scrollWidth": 1280,
+      "h1": [
+        "AIで社内手順書を作る｜作業メモのテンプレート"
+      ],
+      "allExpectedTextPresent": true,
+      "fieldCount": 7,
+      "canonical": "https://ai.gami.jp/insights/ai-work-procedure-template/",
+      "types": [
+        "Organization",
+        "WebPage",
+        "Article",
+        "BreadcrumbList"
+      ]
+    },
+    "consoleErrors": 0,
+    "consoleWarnings": 0,
+    "requestsChecked": 15,
+    "allRequests200": true,
+    "screenshotsInspected": true,
+    "artifacts": [
+      "output/playwright/2026-10-13-procedure-desktop.png",
+      "output/playwright/2026-10-13-procedure-mobile.png",
+      "output/playwright/2026-10-13-listing-desktop.png",
+      "output/playwright/2026-10-13-listing-mobile.png"
+    ],
+    "verifiedAt": "2026-10-12T23:10:22Z",
+    "ownedBrowserClosed": true,
+    "ownedSnapshotsArchivedRecoverably": 4,
+    "scope": "New article and listing at desktop/mobile, all rendered copy, 7 template fields, outbound and listing-to-article navigation; not a full-site UI audit.",
+    "requestAndConsoleScope": "Latest listing document load and SPA entry into new article:15requests200,0errors/warnings."
+  },
+  "result": "verified",
+  "effect": "not-yet-measurable",
+  "copyReview": {
+    "agent": "oct13_procedure_copy",
+    "model": "gpt-6.1-sol",
+    "reviewAgent": "oct13_ops_review",
+    "coordinatorApproved": true,
+    "revision": "Added one short sentence restricting input to information approved for that AI. No fictional example presented as customer outcome.",
+    "distinctIntent": "Repeatable work procedure, not one-case handoff,meeting actions or existing-document inventory."
+  },
+  "safety": "No paidaction,newaccount,formsend,server/workflowchange or manualproductiondeletion. Existing deployer cleanup1; ownbrowserclosed and4snapshots archived recoverably.",
+  "recordVerification": {
+    "checkedAt": "2026-10-12T23:13:48.594Z",
+    "passed": true,
+    "unrelatedQueuesPreserved": true,
+    "originalStartsPreserved": true,
+    "oldHistoryAppendOnly": true,
+    "all3DueChecksRecorded": true,
+    "priceVariantsKeptSeparate": true,
+    "oldInventoryExceptListingPreserved": true,
+    "uniqueActiveIds": 28,
+    "scheduleAndPromptUnchanged": true,
+    "articleIndexReview": "2026-10-20",
+    "articleEffectReview": "2026-11-13",
+    "independentReview": "oct13_ops_review validated metrics,articleintent and boundaries."
+  }
+}

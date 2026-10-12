@@ -1,0 +1,128 @@
+{
+  "desktop": {
+    "url": "https://ai.gami.jp/insights/ai-work-procedure-template/",
+    "width": 1280,
+    "height": 720,
+    "scrollWidth": 1280,
+    "h1": [
+      "AIで社内手順書を作る｜作業メモのテンプレート"
+    ],
+    "allExpectedTextPresent": true,
+    "fieldCount": 7,
+    "canonical": "https://ai.gami.jp/insights/ai-work-procedure-template/",
+    "types": [
+      "Organization",
+      "WebPage",
+      "Article",
+      "BreadcrumbList"
+    ]
+  },
+  "mobile": {
+    "url": "https://ai.gami.jp/insights/ai-work-procedure-template/",
+    "width": 390,
+    "height": 844,
+    "scrollWidth": 390,
+    "h1": [
+      "AIで社内手順書を作る｜作業メモのテンプレート"
+    ],
+    "allExpectedTextPresent": true,
+    "fieldCount": 7,
+    "canonical": "https://ai.gami.jp/insights/ai-work-procedure-template/",
+    "types": [
+      "Organization",
+      "WebPage",
+      "Article",
+      "BreadcrumbList"
+    ]
+  },
+  "outboundNavigation": {
+    "url": "https://ai.gami.jp/insights/rag-document-inventory-checklist/",
+    "width": 390,
+    "scrollWidth": 390,
+    "h1": [
+      "RAG導入前の社内資料整理｜棚卸しチェックリスト"
+    ],
+    "types": [
+      "Organization",
+      "WebPage",
+      "Article",
+      "BreadcrumbList"
+    ]
+  },
+  "listingMobile": {
+    "url": "https://ai.gami.jp/insights/",
+    "width": 390,
+    "scrollWidth": 390,
+    "articleCount": 17,
+    "dateCount": 17,
+    "newLink": "/insights/ai-work-procedure-template/",
+    "schemas": [
+      {
+        "type": "Organization"
+      },
+      {
+        "type": "CollectionPage"
+      },
+      {
+        "type": "ItemList",
+        "numberOfItems": 17
+      },
+      {
+        "type": "BreadcrumbList"
+      }
+    ]
+  },
+  "listingDesktop": {
+    "url": "https://ai.gami.jp/insights/",
+    "width": 1280,
+    "scrollWidth": 1280,
+    "articleCount": 17,
+    "dateCount": 17,
+    "newLink": "/insights/ai-work-procedure-template/",
+    "schemas": [
+      {
+        "type": "Organization"
+      },
+      {
+        "type": "CollectionPage"
+      },
+      {
+        "type": "ItemList",
+        "numberOfItems": 17
+      },
+      {
+        "type": "BreadcrumbList"
+      }
+    ]
+  },
+  "listingToArticleNavigation": {
+    "url": "https://ai.gami.jp/insights/ai-work-procedure-template/",
+    "width": 1280,
+    "height": 720,
+    "scrollWidth": 1280,
+    "h1": [
+      "AIで社内手順書を作る｜作業メモのテンプレート"
+    ],
+    "allExpectedTextPresent": true,
+    "fieldCount": 7,
+    "canonical": "https://ai.gami.jp/insights/ai-work-procedure-template/",
+    "types": [
+      "Organization",
+      "WebPage",
+      "Article",
+      "BreadcrumbList"
+    ]
+  },
+  "consoleErrors": 0,
+  "consoleWarnings": 0,
+  "requestsChecked": 15,
+  "allRequests200": true,
+  "screenshotsInspected": true,
+  "artifacts": [
+    "output/playwright/2026-10-13-procedure-desktop.png",
+    "output/playwright/2026-10-13-procedure-mobile.png",
+    "output/playwright/2026-10-13-listing-desktop.png",
+    "output/playwright/2026-10-13-listing-mobile.png"
+  ],
+  "verifiedAt": "2026-10-12T23:10:22Z"
+}

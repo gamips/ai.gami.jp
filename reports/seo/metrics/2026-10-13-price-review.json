@@ -1,0 +1,130 @@
+{
+  "experimentId": "price-initial-html-parity-v1",
+  "event": "first_28_final_days_review_completed",
+  "observedAt": "2026-10-13T08:04:56.2810977+09:00",
+  "originalStartedAt": "2026-09-12T09:46:58Z",
+  "scheduledReviewAt": "2026-10-13",
+  "window": {
+    "startDate": "2026-09-13",
+    "endDate": "2026-10-10",
+    "fullFinalDays": 28
+  },
+  "page": {
+    "page": "https://ai.gami.jp/price/",
+    "clicks": 0,
+    "impressions": 15,
+    "ctr": 0,
+    "position": 36.733333333333334
+  },
+  "noSlashPage": {
+    "page": "https://ai.gami.jp/price",
+    "clicks": 0,
+    "impressions": 11,
+    "ctr": 0,
+    "position": 50.81818181818182
+  },
+  "disclosedQueryPages": [
+    {
+      "query": "ai導入 費用",
+      "page": "https://ai.gami.jp/price/",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 71.33333333333333
+    },
+    {
+      "query": "aiエージェント 開発 費用",
+      "page": "https://ai.gami.jp/price/",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 61
+    },
+    {
+      "query": "ai 開発 費用",
+      "page": "https://ai.gami.jp/price/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 83
+    },
+    {
+      "query": "aiエージェント 導入 費用 愛知",
+      "page": "https://ai.gami.jp/price/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 13
+    },
+    {
+      "query": "ai顧問 料金",
+      "page": "https://ai.gami.jp/price/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 82
+    }
+  ],
+  "noSlashDisclosedQueryPages": [
+    {
+      "query": "ai 費用",
+      "page": "https://ai.gami.jp/price",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 40.2
+    },
+    {
+      "query": "ai 導入費用",
+      "page": "https://ai.gami.jp/price",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 56
+    },
+    {
+      "query": "ai 開発 費用",
+      "page": "https://ai.gami.jp/price",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 70.5
+    },
+    {
+      "query": "ai導入 費用",
+      "page": "https://ai.gami.jp/price",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 52.5
+    }
+  ],
+  "index": {
+    "siteUrl": "sc-domain:ai.gami.jp",
+    "inspectionUrl": "https://ai.gami.jp/price/",
+    "fetchedAt": "2026-10-12T23:06:05.2839130+00:00",
+    "source": "google-index",
+    "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:ai.gami.jp&id=sdLqOjlF0wLIi_ZWU-WZVg&utm_medium=link&utm_source=api",
+    "verdict": "PASS",
+    "coverageState": "送信して登録されました",
+    "robotsTxtState": "ALLOWED",
+    "indexingState": "INDEXING_ALLOWED",
+    "lastCrawlTime": "2026-09-16T16:34:21Z",
+    "pageFetchState": "SUCCESSFUL",
+    "googleCanonical": "https://ai.gami.jp/price/",
+    "userCanonical": "https://ai.gami.jp/price/",
+    "postChangeRecrawl": true
+  },
+  "minimumEvidence": {
+    "finalDays": 28,
+    "pageImpressions": 30
+  },
+  "metricsEvidencePath": "reports/seo/metrics/2026-10-13-0804.json",
+  "inspectionEvidencePath": "reports/seo/inspections/2026-10-13-price.json",
+  "status": "observing",
+  "result": "inconclusive",
+  "nextEffectCheckOnOrAfter": "2026-10-27",
+  "note": "Full28days,15exactslashpageimpressions below30minimum. Trailing-slash variants remain separate; no causal/qualifiedvisit/inquiry lift claim. Original start/implementation retained.",
+  "contentChanged": false,
+  "observationRestarted": false
+}

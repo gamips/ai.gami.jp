@@ -1,0 +1,15 @@
+{
+  "siteUrl": "sc-domain:ai.gami.jp",
+  "inspectionUrl": "https://ai.gami.jp/price/",
+  "fetchedAt": "2026-10-12T23:06:05.2839130+00:00",
+  "source": "google-index",
+  "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:ai.gami.jp&id=sdLqOjlF0wLIi_ZWU-WZVg&utm_medium=link&utm_source=api",
+  "verdict": "PASS",
+  "coverageState": "送信して登録されました",
+  "robotsTxtState": "ALLOWED",
+  "indexingState": "INDEXING_ALLOWED",
+  "lastCrawlTime": "2026-09-16T16:34:21Z",
+  "pageFetchState": "SUCCESSFUL",
+  "googleCanonical": "https://ai.gami.jp/price/",
+  "userCanonical": "https://ai.gami.jp/price/"
+}

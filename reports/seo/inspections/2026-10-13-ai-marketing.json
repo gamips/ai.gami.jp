@@ -1,0 +1,15 @@
+{
+  "siteUrl": "sc-domain:ai.gami.jp",
+  "inspectionUrl": "https://ai.gami.jp/services/ai-marketing/",
+  "fetchedAt": "2026-10-12T23:05:34.4332660+00:00",
+  "source": "google-index",
+  "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:ai.gami.jp&id=ShCFBqHxGZQI58VSgMq-4w&utm_medium=link&utm_source=api",
+  "verdict": "PASS",
+  "coverageState": "送信して登録されました",
+  "robotsTxtState": "ALLOWED",
+  "indexingState": "INDEXING_ALLOWED",
+  "lastCrawlTime": "2026-09-24T13:28:17Z",
+  "pageFetchState": "SUCCESSFUL",
+  "googleCanonical": "https://ai.gami.jp/services/ai-marketing/",
+  "userCanonical": "https://ai.gami.jp/services/ai-marketing/"
+}

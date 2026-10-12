@@ -1,0 +1,11 @@
+{
+  "checkedAt": "2026-10-12T23:08:24Z",
+  "url": "https://github.com/gamips/ai.gami.jp",
+  "description": "AI GAMI website",
+  "homepageUrl": "https://ai.gami.jp/",
+  "visibility": "PUBLIC",
+  "source": "gh repo view gamips/ai.gami.jp --json description,url,homepageUrl,visibility",
+  "priorExperiment": "github-project-site-intro-v1 completed; September21 audience review inconclusive. Repository clones are not website referral clicks.",
+  "nextCandidate": "Align description only with confirmed Japanese README introduction; no claim of discovery or inquiry lift. Keep homepage,visibility,README and website unchanged.",
+  "status": "candidate_only_no_external_write"
+}
