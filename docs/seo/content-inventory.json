@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-13",
+  "updatedAt": "2026-10-14",
   "rules": {
     "oneOwnerUrlPerIntent": true,
     "publicCopyExcludesOperationalMetadata": true
@@ -219,10 +219,14 @@
       "type": "owned-repository",
       "intent": "GAMI公式サイトの公開コードとサイトへの案内",
       "status": "published",
-      "lastModified": "2026-09-07",
+      "lastModified": "2026-10-14",
       "relatedWebsite": "https://ai.gami.jp/",
       "readmeUrl": "https://github.com/gamips/ai.gami.jp/blob/master/README.md",
-      "experimentId": "github-project-site-intro-v1"
+      "experimentId": "github-repository-description-v1",
+      "description": "GAMI公式サイトのソースコード。AI導入支援、AIを活用した業務システム開発、Web制作を紹介しています。",
+      "previousExperimentId": "github-project-site-intro-v1",
+      "note": "Description only updated; README/homepage/topics/visibility and website unchanged.",
+      "evidencePath": "reports/seo/publicity/2026-10-14-github-description.json"
     },
     {
       "url": "https://ai.gami.jp/insights/saas-or-custom-system-checklist/",

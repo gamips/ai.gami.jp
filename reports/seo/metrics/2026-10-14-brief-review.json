@@ -1,0 +1,41 @@
+{
+  "experimentId": "insight-ai-website-brief-template-v1",
+  "event": "first_28_final_days_review_completed",
+  "observedAt": "2026-10-14T08:06:46.9079128+09:00",
+  "originalStartedAt": "2026-09-12T23:08:35Z",
+  "scheduledReviewAt": "2026-10-14",
+  "window": {
+    "startDate": "2026-09-14",
+    "endDate": "2026-10-11",
+    "fullFinalDays": 28
+  },
+  "pageClicks": null,
+  "pageImpressions": null,
+  "disclosedQueryPages": [],
+  "missingRowsMeaning": "No disclosed page or query-page row returned in exact full28day window; not zero traffic or zero demand.",
+  "minimumEvidence": {
+    "finalDays": 28,
+    "pageImpressions": 30
+  },
+  "metricsEvidencePath": "reports/seo/metrics/2026-10-14-0806.json",
+  "rawCollectionPath": "reports/seo/metrics/2026-10-14-collection.json",
+  "inspectionEvidencePath": "reports/seo/inspections/2026-10-11-due-pages.json",
+  "inspectionReused": true,
+  "indexVerdict": "NEUTRAL",
+  "lastCrawlTime": null,
+  "indexResult": "not-confirmed",
+  "liveTechnicalEvidencePath": "reports/seo/inspections/2026-10-14-live-due-pages.json",
+  "status": "observing",
+  "result": "inconclusive",
+  "nextEffectCheckOnOrAfter": "2026-10-28",
+  "nextIndexCheckOnOrAfter": "2026-10-18",
+  "freezeExtendedUntil": "2026-10-28",
+  "attributionCaveats": [
+    "Shared September13 schema correction",
+    "September28 inbound link from ai-web"
+  ],
+  "observationRestarted": false,
+  "articleContentChanged": false,
+  "articleDatesChanged": false,
+  "note": "Full post-publication window complete, but minimum page volume cannot be verified. Reuse recent index evidence; bounded followup, no causal conclusion."
+}

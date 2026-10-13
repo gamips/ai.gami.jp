@@ -1,0 +1,16 @@
+{
+  "checkedAt": "2026-10-13T23:13:12.744Z",
+  "passed": true,
+  "all4DueReviewsRecorded": true,
+  "originalStartsAndUnrelatedQueuesPreserved": true,
+  "oldHistoryAppendOnly": true,
+  "websiteDeploymentAndInventoryPreserved": true,
+  "githubDescriptionOnly": true,
+  "readmeShaUnchanged": true,
+  "activeExperiments": 29,
+  "websiteChanged": false,
+  "scheduleAndPromptUnchanged": true,
+  "publicationReview": "2026-10-29",
+  "independentMeasurementReview": "oct14_measurement_review:14groups/69rows",
+  "readyCandidateVerified": true
+}

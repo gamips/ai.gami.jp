@@ -1,0 +1,53 @@
+{
+  "experimentId": "github-repository-description-v1",
+  "url": "https://github.com/gamips/ai.gami.jp",
+  "targetUrl": "https://ai.gami.jp/",
+  "variable": "Repository description only; README, homepage, topics, visibility and website unchanged.",
+  "baseline": {
+    "observedAt": "2026-10-13T23:06:30.4600249+00:00",
+    "description": "AI GAMI website",
+    "homepage": "https://ai.gami.jp/",
+    "visibility": "public",
+    "topics": [],
+    "readmeBlobSha": "03f78e68fe378036742b55de14b0e12f2df1856e",
+    "repositoryViews": {
+      "count": 1,
+      "uniques": 1,
+      "windowStart": "2026-09-29T00:00:00Z",
+      "windowEnd": "2026-10-12T00:00:00Z"
+    },
+    "websiteReferralClicks": null
+  },
+  "description": "GAMI公式サイトのソースコード。AI導入支援、AIを活用した業務システム開発、Web制作を紹介しています。",
+  "startedAt": "2026-10-13T23:08:35Z",
+  "writeStartedAt": "2026-10-13T23:08:34.2649442+00:00",
+  "verifiedAt": "2026-10-13T23:08:36.3897251+00:00",
+  "technicalResult": "confirmed",
+  "acquisitionEffect": "not-yet-measurable",
+  "status": "observing",
+  "reviewAt": [
+    "2026-10-29"
+  ],
+  "expectedSignal": "More informative repository introduction aligned with README. Repository audience is descriptive only; no assumed SEO/backlink or referral lift.",
+  "minimumEvidence": {
+    "technical": "Exact API readback; only description and server updated_at differ; unchanged README blob and target200.",
+    "effect": "Review returned repository-view window after14fullUTCdates October14–27. Audience totals do not establish human website visits or causality. Referral clicks, qualified visits and inquiries require identifiable site analytics and stay null."
+  },
+  "freeze": {
+    "repositoryDescription": true,
+    "until": "2026-10-29",
+    "websiteContent": false,
+    "readme": false
+  },
+  "rollback": "Set only repository description back to AI GAMI website; do not alter homepage, visibility, topics, README or website.",
+  "writingModel": "gpt-6.1-sol",
+  "copyAgent": "oct14_description_copy",
+  "independentCopyReview": "oct14_next_action",
+  "websiteBuildRun": false,
+  "websiteDeployRun": false,
+  "evidence": {
+    "baseline": "reports/seo/publicity/2026-10-14-github-baseline.json",
+    "readback": "reports/seo/publicity/2026-10-14-github-readback.json",
+    "liveTarget": "reports/seo/inspections/2026-10-14-live-due-pages.json"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "checkedAt": "2026-10-13T23:09:24.381Z",
+  "status": "scoped_ready",
+  "lane": "content",
+  "priority": 1,
+  "url": "https://ai.gami.jp/insights/ai-inquiry-classification-checklist/",
+  "work": "AIで問い合わせを分類するために、分類に含む内容・含まない内容・迷う例を整理し、分類案と人の判断を同じ例で確かめる。",
+  "evidence": [
+    "Current services.ts LOOP explicitly includes inquiry classification; AGENT/SUPPORT includes first-pass organization and human review.",
+    "No dedicated owner among17existingarticles; reply-template handles one response draft, handoff handles work status, not classification criteria.",
+    "Proposed URL returned404 October14; no search-demand estimate or effect claim."
+  ],
+  "evidencePath": "reports/seo/content/2026-10-14-inquiry-classification-candidate.json",
+  "implementation": "Latest-model subagent drafts narrow practical classification sheet and explicitly fictional two-intent inquiry example. Keep reply generation, auto-send and real assignment features out of scope. New article/list row/sitemap only; preserve all existing articles, service bodies and shared rendering. A new outbound service link is allowed with recorded inbound event; no edit to frozen source pages.",
+  "measurement": "New page-package baseline and actual publication time; index check separate from28fullfinaldays/min30impressions. No invented accuracy, time savings or measured demand. Listing mapping and original dates retained.",
+  "verification": "Build, diff, initialHTML/head/Article1/WebPage1/list/sitemap, old17articles unchanged; live200 PC/mobile readability and navigation.",
+  "reviewAgent": "oct14_next_action",
+  "sourcePointers": [
+    "src/app/content/services.ts:643 AGENT / SUPPORT",
+    "src/app/content/services.ts:669 LOOP",
+    "src/app/content/insights.js:654 reply-template",
+    "src/app/content/insights.js:210 handoff-template"
+  ],
+  "distinctiveExample": "Clearly fictional inquiry with two requests; decide multiple classifications or human review before assigning. Retest same case after revising criteria.",
+  "scopeExclusions": [
+    "No new claims of GAMI customer results",
+    "No actual customer messages/PII",
+    "No changes to existing17articles/services/heads/dates/CSS/renderer",
+    "No auto-send, delivery or form submission"
+  ],
+  "liveUrlStatus": 404
+}

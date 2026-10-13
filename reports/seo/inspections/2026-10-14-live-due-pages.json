@@ -1,0 +1,68 @@
+{
+  "checkedAt": "2026-10-13T23:09:23.501Z",
+  "repositoryHead": "c0f454c24fb59d86762c631a89545e46ce830900",
+  "websiteChanged": false,
+  "buildRun": false,
+  "visualAuditRun": false,
+  "pages": [
+    {
+      "path": "/",
+      "httpStatus": 200,
+      "headAndBodyMatchPreviousBuild": true,
+      "selfCanonical": true,
+      "indexAllowed": true,
+      "bodySha256": "1eb0578fce90ff24434aa5a555177195cbb398f63b0d3ea3fc38f57bbd636039",
+      "articleCount": 0,
+      "webPageCount": 1
+    },
+    {
+      "path": "/insights/",
+      "httpStatus": 200,
+      "headAndBodyMatchPreviousBuild": true,
+      "selfCanonical": true,
+      "indexAllowed": true,
+      "bodySha256": "657f0c5167259304477b8053d6481bb2d2cfce7471bb323c8a7c0b4f18d42186",
+      "articleCount": 0,
+      "webPageCount": 0,
+      "articleRows": 17,
+      "existingIntroDatesCategoriesPresent": true
+    },
+    {
+      "path": "/insights/rag-answer-review-sheet/",
+      "httpStatus": 200,
+      "headAndBodyMatchPreviousBuild": true,
+      "selfCanonical": true,
+      "indexAllowed": true,
+      "bodySha256": "9db71e26e8afc0e824a4719465a11b0076f702ae930f79457e994262383e4c71",
+      "articleCount": 1,
+      "webPageCount": 1
+    },
+    {
+      "path": "/services/ai-saas/",
+      "httpStatus": 200,
+      "headAndBodyMatchPreviousBuild": true,
+      "selfCanonical": true,
+      "indexAllowed": true,
+      "bodySha256": "2544ef46d0dc2bc692cf7740d1c1ba71ed94f3bba14cc3a40045b068652c8506",
+      "articleCount": 0,
+      "webPageCount": 1
+    },
+    {
+      "path": "/insights/ai-website-brief-template/",
+      "httpStatus": 200,
+      "headAndBodyMatchPreviousBuild": true,
+      "selfCanonical": true,
+      "indexAllowed": true,
+      "bodySha256": "ed457f30aa110e9e0b71001eb08fe96265c7b46388b29178eee517f9bf427f1e",
+      "articleCount": 1,
+      "webPageCount": 1
+    }
+  ],
+  "sitemapUrls": 28,
+  "nextCandidate": {
+    "url": "https://ai.gami.jp/insights/ai-inquiry-classification-checklist/",
+    "httpStatus": 404
+  },
+  "passed": true,
+  "completedAt": "2026-10-13T23:09:24.381Z"
+}
