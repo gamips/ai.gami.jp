@@ -1,0 +1,312 @@
+{
+  "recordedAt": "2026-10-15T00:38:03Z",
+  "baselineCommit": "20434ab6b1ca4c9d5302d2a33bbced2b94d5fa47",
+  "commit": "e27c52887af13830ced1aba75995e62ebabb6fcf",
+  "deployedAt": "2026-10-15T00:32:51.3906266Z",
+  "change": "New standalone inquiry-classification criteria sheet with explicitly fictional two-intent inquiry and same-example recheck. Existing renderer unchanged.",
+  "method": "GitHub Actions normal Xserver deploy",
+  "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/38660598214",
+  "actions": {
+    "status": "completed",
+    "conclusion": "success",
+    "completedAt": "2026-10-15T00:32:54Z",
+    "serverResponse": {
+      "ok": true,
+      "extracted": 77,
+      "deletedStalePaths": 1
+    }
+  },
+  "build": {
+    "passed": true
+  },
+  "static": {
+    "checkedAt": "2026-10-15T00:31:26.267Z",
+    "passed": true,
+    "baselineCommit": "20434ab6b1ca4c9d5302d2a33bbced2b94d5fa47",
+    "old17ArticlesUnchanged": true,
+    "other29HeadsAndBodiesUnchanged": true,
+    "cssUnchanged": true,
+    "generatedEntries": 31,
+    "sitemapUrls": 29,
+    "allSectionTextPresent": true,
+    "initialIntroduction": "description; existing generator contract",
+    "renderedLeadCheck": "separate browser verification required",
+    "articleCount": 1,
+    "webPageCount": 1,
+    "datesMatch": true,
+    "oldSitemapEntriesPreserved": true,
+    "listingLinkPresent": true,
+    "publicMetadataAbsent": true
+  },
+  "live": {
+    "checkedAt": "2026-10-15T00:33:18.944Z",
+    "passed": true,
+    "baselineCommit": "20434ab6b1ca4c9d5302d2a33bbced2b94d5fa47",
+    "old17ArticlesUnchanged": true,
+    "other29HeadsAndBodiesUnchanged": true,
+    "cssUnchanged": true,
+    "generatedEntries": 31,
+    "sitemapUrls": 29,
+    "allSectionTextPresent": true,
+    "initialIntroduction": "description; existing generator contract",
+    "renderedLeadCheck": "separate browser verification required",
+    "articleCount": 1,
+    "webPageCount": 1,
+    "datesMatch": true,
+    "oldSitemapEntriesPreserved": true,
+    "listingLinkPresent": true,
+    "publicMetadataAbsent": true,
+    "live": [
+      {
+        "path": "/insights/ai-inquiry-classification-checklist",
+        "status": 200,
+        "headAndBodyMatch": true,
+        "selfCanonical": true,
+        "indexAllowed": true,
+        "articleCount": 1
+      },
+      {
+        "path": "/insights",
+        "status": 200,
+        "headAndBodyMatch": true,
+        "selfCanonical": true,
+        "indexAllowed": true,
+        "articleCount": 0
+      },
+      {
+        "path": "/services/ai-marketing",
+        "status": 200,
+        "headAndBodyMatch": true,
+        "selfCanonical": true,
+        "indexAllowed": true,
+        "articleCount": 0
+      },
+      {
+        "path": "/contact",
+        "status": 200,
+        "headAndBodyMatch": true,
+        "selfCanonical": true,
+        "indexAllowed": true,
+        "articleCount": 0
+      },
+      {
+        "path": "/",
+        "status": 200,
+        "headAndBodyMatch": true,
+        "selfCanonical": true,
+        "indexAllowed": true,
+        "articleCount": 0
+      }
+    ],
+    "liveSitemapAndOgMatch": true
+  },
+  "assets": {
+    "checkedAt": "2026-10-15T00:33:19.866Z",
+    "completedAt": "2026-10-15T00:33:21.312Z",
+    "headsChecked": 31,
+    "allStaticSeoHeadsMatch": true,
+    "assetsChecked": 24,
+    "assetHashesMatch": true,
+    "passed": true,
+    "scope": "Generated SEO heads and built JavaScript hashes; not a full site UI audit."
+  },
+  "browser": {
+    "desktop": {
+      "url": "https://ai.gami.jp/insights/ai-inquiry-classification-checklist/",
+      "width": 1280,
+      "height": 720,
+      "scrollWidth": 1265,
+      "h1": [
+        "AIで問い合わせを分類する｜分類基準のチェックリスト"
+      ],
+      "allExpectedTextPresent": true,
+      "fieldCount": 6,
+      "canonical": "https://ai.gami.jp/insights/ai-inquiry-classification-checklist/",
+      "types": [
+        "Organization",
+        "WebPage",
+        "Article",
+        "BreadcrumbList"
+      ]
+    },
+    "mobile": {
+      "url": "https://ai.gami.jp/insights/ai-inquiry-classification-checklist/",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 375,
+      "h1": [
+        "AIで問い合わせを分類する｜分類基準のチェックリスト"
+      ],
+      "allExpectedTextPresent": true,
+      "fieldCount": 6,
+      "canonical": "https://ai.gami.jp/insights/ai-inquiry-classification-checklist/",
+      "types": [
+        "Organization",
+        "WebPage",
+        "Article",
+        "BreadcrumbList"
+      ]
+    },
+    "listingMobile": {
+      "url": "https://ai.gami.jp/insights/",
+      "width": 390,
+      "scrollWidth": 375,
+      "articles": 18,
+      "links": [
+        "/insights/ai-inquiry-classification-checklist/",
+        "/insights/ai-work-procedure-template/",
+        "/insights/ai-project-proposal-comparison-sheet/",
+        "/insights/ai-work-time-comparison-sheet/",
+        "/insights/ai-work-handoff-template/",
+        "/insights/ai-website-change-request-template/",
+        "/insights/rag-answer-review-sheet/",
+        "/insights/ai-meeting-action-items-template/",
+        "/insights/ai-website-brief-template/",
+        "/insights/ai-article-fact-check-template/",
+        "/insights/saas-or-custom-system-checklist/",
+        "/insights/ai-customer-reply-template/",
+        "/insights/ai-website-launch-checklist/",
+        "/insights/rag-document-inventory-checklist/",
+        "/insights/sodatsu-mitsumori-case-study/",
+        "/insights/chatgpt-workplace-adoption-checklist/",
+        "/insights/ai-introduction-support-pricing/",
+        "/insights/ai-introduction-support/"
+      ],
+      "dates": [
+        "2026.10.15",
+        "2026.10.13",
+        "2026.10.10",
+        "2026.10.04",
+        "2026.10.02",
+        "2026.09.27",
+        "2026.09.23",
+        "2026.09.21",
+        "2026.09.13",
+        "2026.09.11",
+        "2026.09.08",
+        "2026.09.06",
+        "2026.09.06",
+        "2026.09.05",
+        "2026.09.05",
+        "2026.09.04",
+        "2026.09.04",
+        "2026.09.04"
+      ],
+      "itemList": [
+        {
+          "numberOfItems": 18,
+          "items": 18
+        }
+      ]
+    },
+    "listingDesktop": {
+      "url": "https://ai.gami.jp/insights/",
+      "width": 1280,
+      "scrollWidth": 1265,
+      "articles": 18,
+      "links": [
+        "/insights/ai-inquiry-classification-checklist/",
+        "/insights/ai-work-procedure-template/",
+        "/insights/ai-project-proposal-comparison-sheet/",
+        "/insights/ai-work-time-comparison-sheet/",
+        "/insights/ai-work-handoff-template/",
+        "/insights/ai-website-change-request-template/",
+        "/insights/rag-answer-review-sheet/",
+        "/insights/ai-meeting-action-items-template/",
+        "/insights/ai-website-brief-template/",
+        "/insights/ai-article-fact-check-template/",
+        "/insights/saas-or-custom-system-checklist/",
+        "/insights/ai-customer-reply-template/",
+        "/insights/ai-website-launch-checklist/",
+        "/insights/rag-document-inventory-checklist/",
+        "/insights/sodatsu-mitsumori-case-study/",
+        "/insights/chatgpt-workplace-adoption-checklist/",
+        "/insights/ai-introduction-support-pricing/",
+        "/insights/ai-introduction-support/"
+      ],
+      "dates": [
+        "2026.10.15",
+        "2026.10.13",
+        "2026.10.10",
+        "2026.10.04",
+        "2026.10.02",
+        "2026.09.27",
+        "2026.09.23",
+        "2026.09.21",
+        "2026.09.13",
+        "2026.09.11",
+        "2026.09.08",
+        "2026.09.06",
+        "2026.09.06",
+        "2026.09.05",
+        "2026.09.05",
+        "2026.09.04",
+        "2026.09.04",
+        "2026.09.04"
+      ],
+      "itemList": [
+        {
+          "numberOfItems": 18,
+          "items": 18
+        }
+      ]
+    },
+    "outboundNavigation": {
+      "url": "https://ai.gami.jp/services/ai-marketing/",
+      "width": 390,
+      "scrollWidth": 375,
+      "h1": [
+        "AI × GrowthAI × Support"
+      ],
+      "passed": true
+    },
+    "listingToArticleNavigation": {
+      "url": "https://ai.gami.jp/insights/ai-inquiry-classification-checklist/",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 375,
+      "h1": [
+        "AIで問い合わせを分類する｜分類基準のチェックリスト"
+      ],
+      "allExpectedTextPresent": true,
+      "fieldCount": 6,
+      "canonical": "https://ai.gami.jp/insights/ai-inquiry-classification-checklist/",
+      "types": [
+        "Organization",
+        "WebPage",
+        "Article",
+        "BreadcrumbList"
+      ],
+      "passed": true
+    },
+    "consoleErrors": 0,
+    "consoleWarnings": 0,
+    "requestsChecked": 15,
+    "allRequests200": true,
+    "screenshotsInspected": true,
+    "artifacts": [
+      "output/playwright/2026-10-15-classification-desktop.png",
+      "output/playwright/2026-10-15-classification-mobile.png",
+      "output/playwright/2026-10-15-classification-mobile-top.png",
+      "output/playwright/2026-10-15-listing-desktop.png",
+      "output/playwright/2026-10-15-listing-mobile.png"
+    ],
+    "verifiedAt": "2026-10-15T00:37:55Z",
+    "ownedBrowserClosed": true,
+    "ownedSnapshotsArchivedRecoverably": 4,
+    "scope": "New article and listing desktop/mobile; existing renderer unchanged. All rendered copy, six fields, outbound and listing-to-article navigation. Not full-site UI audit.",
+    "requestAndConsoleScope": "Latest listing document and SPA entry: 15 requests200,0errors/warnings. No server-wide log access or analytics outcome inferred.",
+    "noHorizontalOverflow": true
+  },
+  "result": "verified",
+  "effect": "not-yet-measurable",
+  "copyReview": {
+    "agent": "oct15_article_copy",
+    "model": "gpt-6.1-sol",
+    "reviewAgent": "oct15_ops_review",
+    "coordinatorApproved": true,
+    "revision": "Added one practical instruction to give criteria and inquiry to AI and request classification plus original-text evidence.",
+    "distinctIntent": "Inquiry classification criteria, not reply drafting or task handoff; hypothetical example is not a measured customer outcome."
+  },
+  "safety": "No paidaction,newaccount,formsend,server/workflowchange or manualproductiondeletion. Existing deployer reports cleanup1 stale path; ownbrowserclosed and4snapshots archived recoverably."
+}

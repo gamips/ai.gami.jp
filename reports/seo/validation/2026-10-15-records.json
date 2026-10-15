@@ -1,0 +1,22 @@
+{
+  "checkedAt": "2026-10-15T00:40:18.618Z",
+  "passed": true,
+  "all2DueChecksRecorded": true,
+  "originalStartsAndUnrelatedQueuesPreserved": true,
+  "oldHistoryAppendOnly": true,
+  "oldInventoryExceptListingPreserved": true,
+  "activeExperiments": 30,
+  "inventoryEntries": 31,
+  "articleCount": 18,
+  "sitemapUrls": 29,
+  "seoHeads": 31,
+  "jsAssets": 24,
+  "scheduleAndPromptUnchanged": true,
+  "fullAuditCount": 4,
+  "articleIndexReview": "2026-10-22",
+  "articleEffectReview": "2026-11-15",
+  "independentMeasurementReview": "oct15_ops_review:14groups/70rows",
+  "readyCandidateRequiresExplicitOldExperimentClosure": true,
+  "scopedBrowserAndReleaseChecks": true,
+  "independentRecordsReview": "oct15_ops_review: baseline20434ab6 scoped state/inventory/event/release audit passed; root final log/queue reconciliation passed."
+}
