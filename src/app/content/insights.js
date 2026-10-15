@@ -1058,6 +1058,10 @@ export const insights = [
           "質問や失敗例が記録され、改善する担当へ届いている。",
           "テンプレートや手順が見直され、作業時間と手戻りを導入前と同じ条件で比べられる。",
         ],
+        link: {
+          label: "AIで社内手順書を作る作業メモを見る",
+          href: "/insights/ai-work-procedure-template/",
+        },
       },
       {
         id: "improve-one-workflow",
