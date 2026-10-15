@@ -1,0 +1,186 @@
+{
+  "recordedAt": "2026-10-15T23:09:28Z",
+  "baselineCommit": "220d343bd059030cde1ad2cb6d0c99915186c144",
+  "commit": "e44715f72e435b7f5027901ee41adef7d95104bb",
+  "deployedAt": "2026-10-15T23:06:45.0185739Z",
+  "change": "One contextual link from ChatGPT adoption seven-checks to work-procedure template, using existing renderer. Source dates/body/head and target unchanged except new source link.",
+  "method": "GitHub Actions normal Xserver deploy",
+  "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/38821520096",
+  "actions": {
+    "status": "completed",
+    "conclusion": "success",
+    "completedAt": "2026-10-15T23:06:48Z",
+    "serverResponse": {
+      "ok": true,
+      "extracted": 77,
+      "deletedStalePaths": 1
+    }
+  },
+  "build": {
+    "passed": true
+  },
+  "static": {
+    "checkedAt": "2026-10-15T23:05:57.829Z",
+    "passed": true,
+    "baselineCommit": "220d343bd059030cde1ad2cb6d0c99915186c144",
+    "onlyOneSourceSectionLinkAdded": true,
+    "other17ArticlesUnchanged": true,
+    "headsUnchanged": 31,
+    "otherInitialBodiesUnchanged": 30,
+    "cssUnchanged": true,
+    "sitemapUnchanged": true,
+    "sourceDateUnchanged": "2026-09-04",
+    "initialArticleCount": 1,
+    "initialWebPageCount": 1
+  },
+  "live": {
+    "checkedAt": "2026-10-15T23:07:11.412Z",
+    "passed": true,
+    "baselineCommit": "220d343bd059030cde1ad2cb6d0c99915186c144",
+    "onlyOneSourceSectionLinkAdded": true,
+    "other17ArticlesUnchanged": true,
+    "headsUnchanged": 31,
+    "otherInitialBodiesUnchanged": 30,
+    "cssUnchanged": true,
+    "sitemapUnchanged": true,
+    "sourceDateUnchanged": "2026-09-04",
+    "initialArticleCount": 1,
+    "initialWebPageCount": 1,
+    "live": [
+      {
+        "path": "/insights/chatgpt-workplace-adoption-checklist",
+        "status": 200,
+        "headAndBodyMatch": true,
+        "indexAllowed": true,
+        "selfCanonical": true,
+        "articleCount": 1
+      },
+      {
+        "path": "/insights/ai-work-procedure-template",
+        "status": 200,
+        "headAndBodyMatch": true,
+        "indexAllowed": true,
+        "selfCanonical": true,
+        "articleCount": 1
+      },
+      {
+        "path": "/services",
+        "status": 200,
+        "headAndBodyMatch": true,
+        "indexAllowed": true,
+        "selfCanonical": true,
+        "articleCount": 0
+      },
+      {
+        "path": "/insights/ai-work-handoff-template",
+        "status": 200,
+        "headAndBodyMatch": true,
+        "indexAllowed": true,
+        "selfCanonical": true,
+        "articleCount": 1
+      },
+      {
+        "path": "/insights/rag-document-inventory-checklist",
+        "status": 200,
+        "headAndBodyMatch": true,
+        "indexAllowed": true,
+        "selfCanonical": true,
+        "articleCount": 1
+      },
+      {
+        "path": "/insights/rag-answer-review-sheet",
+        "status": 200,
+        "headAndBodyMatch": true,
+        "indexAllowed": true,
+        "selfCanonical": true,
+        "articleCount": 1
+      }
+    ],
+    "liveSitemapMatches": true
+  },
+  "assets": {
+    "checkedAt": "2026-10-15T23:07:11.365Z",
+    "completedAt": "2026-10-15T23:07:12.868Z",
+    "headsChecked": 31,
+    "allStaticSeoHeadsMatch": true,
+    "assetsChecked": 24,
+    "assetHashesMatch": true,
+    "passed": true,
+    "scope": "Generated SEO heads and built JavaScript hashes; not a full site UI audit."
+  },
+  "browser": {
+    "desktop": {
+      "url": "https://ai.gami.jp/insights/chatgpt-workplace-adoption-checklist/",
+      "width": 1280,
+      "height": 720,
+      "scrollWidth": 1265,
+      "h1": [
+        "ChatGPTが社内で使われない理由｜定着を確認する7項目"
+      ],
+      "canonical": "https://ai.gami.jp/insights/chatgpt-workplace-adoption-checklist/",
+      "types": [
+        "Organization",
+        "WebPage",
+        "Article",
+        "BreadcrumbList"
+      ],
+      "sectionItemCount": 7,
+      "linkText": "AIで社内手順書を作る作業メモを見る",
+      "linkHref": "/insights/ai-work-procedure-template/",
+      "linkCount": 1
+    },
+    "mobile": {
+      "url": "https://ai.gami.jp/insights/chatgpt-workplace-adoption-checklist/",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 375,
+      "h1": [
+        "ChatGPTが社内で使われない理由｜定着を確認する7項目"
+      ],
+      "canonical": "https://ai.gami.jp/insights/chatgpt-workplace-adoption-checklist/",
+      "types": [
+        "Organization",
+        "WebPage",
+        "Article",
+        "BreadcrumbList"
+      ],
+      "sectionItemCount": 7,
+      "linkText": "AIで社内手順書を作る作業メモを見る",
+      "linkHref": "/insights/ai-work-procedure-template/",
+      "linkCount": 1
+    },
+    "navigation": {
+      "url": "https://ai.gami.jp/insights/ai-work-procedure-template/",
+      "width": 390,
+      "scrollWidth": 375,
+      "h1": "AIで社内手順書を作る｜作業メモのテンプレート",
+      "fields": 7
+    },
+    "consoleErrors": 0,
+    "consoleWarnings": 0,
+    "requestsChecked": 14,
+    "allRequests200": true,
+    "screenshotsInspected": true,
+    "artifacts": [
+      "output/playwright/2026-10-16-adoption-link-desktop.png",
+      "output/playwright/2026-10-16-adoption-link-desktop-detail.png",
+      "output/playwright/2026-10-16-adoption-link-mobile.png"
+    ],
+    "verifiedAt": "2026-10-15T23:08:53Z",
+    "ownedBrowserClosed": true,
+    "ownedSnapshotsArchivedRecoverably": 2,
+    "noHorizontalOverflow": true,
+    "scope": "Changed source section and actual navigation to target; desktop/mobile link text,h1,canonical,Article1/WebPage1,7 source checklistitems. Target mobileh1 and7fields. Not full-site UI audit.",
+    "requestAndConsoleScope": "Source document and SPA navigation to target;14requests200,0errors/warnings. No server-wide error log or conversion claim."
+  },
+  "result": "verified",
+  "effect": "not-yet-measurable",
+  "copyReview": {
+    "agent": "oct16_link_copy",
+    "model": "gpt-6.1-sol",
+    "coordinatorApproved": true,
+    "label": "AIで社内手順書を作る作業メモを見る",
+    "rationale": "Source checks procedure/input/completion; target supplies a work memo for making and checking a procedure. No invented outcomes."
+  },
+  "safety": "No paidaction,newaccount,formsent,server/workflow/auth changes or manualproductiondeletion. Existing deployer reports cleanup1stale path; ownbrowserclosed and2snapshots archived recoverably."
+}

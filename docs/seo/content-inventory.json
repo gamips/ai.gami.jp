@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-15T00:38:03Z",
+  "updatedAt": "2026-10-15T23:09:28Z",
   "rules": {
     "oneOwnerUrlPerIntent": true,
     "publicCopyExcludesOperationalMetadata": true
@@ -163,9 +163,14 @@
       "status": "published",
       "lastModified": "2026-09-04",
       "schema": "Article",
-      "experimentId": "insight-chatgpt-adoption-checklist-v1",
+      "experimentId": "insight-chatgpt-procedure-link-v1",
       "relatedArticle": "https://ai.gami.jp/insights/ai-introduction-support/",
-      "relatedService": "https://ai.gami.jp/services/ai-saas/"
+      "relatedService": "https://ai.gami.jp/services/ai-saas/",
+      "previousExperimentIds": [
+        "insight-chatgpt-adoption-checklist-v1"
+      ],
+      "internalLinkUpdatedAt": "2026-10-15T23:06:45.0185739Z",
+      "relatedGuide": "https://ai.gami.jp/insights/ai-work-procedure-template/"
     },
     {
       "url": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/",
