@@ -748,6 +748,10 @@ export const insights = [
           "今回伝えること：［いま答えられること・追加で尋ねること］",
           "返信案：［上の4欄をもとにした下書き］",
         ],
+        link: {
+          label: "別の担当者へ作業を引き継ぐメモを見る",
+          href: "/insights/ai-work-handoff-template/",
+        },
       },
       {
         id: "example-input",
