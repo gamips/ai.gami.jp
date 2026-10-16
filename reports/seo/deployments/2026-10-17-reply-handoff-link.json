@@ -1,0 +1,170 @@
+{
+  "recordedAt": "2026-10-16T23:12:49Z",
+  "baselineCommit": "271079ba17bc3cd68f7ee7818ceb3ddf624cd650",
+  "commit": "84868700e3069a52343526075c44141cb0d8e79d",
+  "deployedAt": "2026-10-16T23:10:58.5950235Z",
+  "change": "One contextual link from reply-template to work-handoff template using the existing renderer; source dates/body/head and target unchanged except new source link.",
+  "method": "GitHub Actions normal Xserver deploy",
+  "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/38979988148",
+  "actions": {
+    "status": "completed",
+    "conclusion": "success",
+    "completedAt": "2026-10-16T23:11:00Z",
+    "serverResponse": {
+      "ok": true,
+      "extracted": 77,
+      "deletedStalePaths": 1
+    }
+  },
+  "build": {
+    "passed": true,
+    "note": "An early static check ran while build was still in progress and failed on old output; after build exit0 the same check passed before commit/push."
+  },
+  "static": {
+    "checkedAt": "2026-10-16T23:10:19.533Z",
+    "passed": true,
+    "baselineCommit": "271079ba17bc3cd68f7ee7818ceb3ddf624cd650",
+    "onlyOneSourceSectionLinkAdded": true,
+    "other17ArticlesUnchanged": true,
+    "headsUnchanged": 31,
+    "otherInitialBodiesUnchanged": 30,
+    "cssUnchanged": true,
+    "sitemapUnchanged": true,
+    "sourceDateUnchanged": "2026-09-06",
+    "initialArticleCount": 1,
+    "initialWebPageCount": 1
+  },
+  "live": {
+    "checkedAt": "2026-10-16T23:11:13.527Z",
+    "passed": true,
+    "baselineCommit": "271079ba17bc3cd68f7ee7818ceb3ddf624cd650",
+    "onlyOneSourceSectionLinkAdded": true,
+    "other17ArticlesUnchanged": true,
+    "headsUnchanged": 31,
+    "otherInitialBodiesUnchanged": 30,
+    "cssUnchanged": true,
+    "sitemapUnchanged": true,
+    "sourceDateUnchanged": "2026-09-06",
+    "initialArticleCount": 1,
+    "initialWebPageCount": 1,
+    "live": [
+      {
+        "path": "/insights/ai-customer-reply-template",
+        "status": 200,
+        "headAndBodyMatch": true,
+        "indexAllowed": true,
+        "selfCanonical": true,
+        "articleCount": 1
+      },
+      {
+        "path": "/insights/ai-work-handoff-template",
+        "status": 200,
+        "headAndBodyMatch": true,
+        "indexAllowed": true,
+        "selfCanonical": true,
+        "articleCount": 1
+      },
+      {
+        "path": "/services/ai-marketing",
+        "status": 200,
+        "headAndBodyMatch": true,
+        "indexAllowed": true,
+        "selfCanonical": true,
+        "articleCount": 0
+      },
+      {
+        "path": "/insights/ai-project-proposal-comparison-sheet",
+        "status": 200,
+        "headAndBodyMatch": true,
+        "indexAllowed": true,
+        "selfCanonical": true,
+        "articleCount": 1
+      }
+    ],
+    "liveSitemapMatches": true
+  },
+  "assets": {
+    "checkedAt": "2026-10-16T23:11:13.492Z",
+    "completedAt": "2026-10-16T23:11:14.958Z",
+    "headsChecked": 31,
+    "allStaticSeoHeadsMatch": true,
+    "assetsChecked": 24,
+    "assetHashesMatch": true,
+    "passed": true,
+    "scope": "Generated SEO heads and built JavaScript hashes; not a full site UI audit."
+  },
+  "browser": {
+    "desktop": {
+      "url": "https://ai.gami.jp/insights/ai-customer-reply-template/",
+      "width": 1280,
+      "height": 720,
+      "scrollWidth": 1265,
+      "h1": [
+        "AIで問い合わせ返信を下書きする｜記入式テンプレート"
+      ],
+      "canonical": "https://ai.gami.jp/insights/ai-customer-reply-template/",
+      "types": [
+        "Organization",
+        "WebPage",
+        "Article",
+        "BreadcrumbList"
+      ],
+      "sectionItemCount": 5,
+      "linkText": "別の担当者へ作業を引き継ぐメモを見る",
+      "linkHref": "/insights/ai-work-handoff-template/",
+      "linkCount": 1
+    },
+    "mobile": {
+      "url": "https://ai.gami.jp/insights/ai-customer-reply-template/",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 375,
+      "h1": [
+        "AIで問い合わせ返信を下書きする｜記入式テンプレート"
+      ],
+      "canonical": "https://ai.gami.jp/insights/ai-customer-reply-template/",
+      "types": [
+        "Organization",
+        "WebPage",
+        "Article",
+        "BreadcrumbList"
+      ],
+      "sectionItemCount": 5,
+      "linkText": "別の担当者へ作業を引き継ぐメモを見る",
+      "linkHref": "/insights/ai-work-handoff-template/",
+      "linkCount": 1
+    },
+    "navigation": {
+      "url": "https://ai.gami.jp/insights/ai-work-handoff-template/",
+      "width": 390,
+      "scrollWidth": 375,
+      "h1": "AIの作業を人へ引き継ぐ｜済んだこと・残ったことの記入メモ",
+      "fields": 5
+    },
+    "consoleErrors": 0,
+    "consoleWarnings": 0,
+    "requestsChecked": 14,
+    "allRequests200": true,
+    "screenshotsInspected": true,
+    "artifacts": [
+      "output/playwright/2026-10-17-reply-handoff-desktop.png",
+      "output/playwright/2026-10-17-reply-handoff-mobile.png"
+    ],
+    "verifiedAt": "2026-10-16T23:12:17Z",
+    "ownedBrowserClosed": true,
+    "ownedSnapshotsArchivedRecoverably": 2,
+    "noHorizontalOverflow": true,
+    "scope": "Changed source section and actual target navigation, PC/mobile link readability and Article1/WebPage1; no full-site UI audit.",
+    "requestAndConsoleScope": "Source document and SPA target navigation;14requests200,0errors/warnings. No server-wide error log or conversion claim."
+  },
+  "result": "verified",
+  "effect": "not-yet-measurable",
+  "copyReview": {
+    "agent": "oct17_link_copy",
+    "model": "gpt-6.1-sol",
+    "coordinatorApproved": true,
+    "label": "別の担当者へ作業を引き継ぐメモを見る",
+    "rationale": "Source has human-review step and unconfirmed facts; target records completed/remaining work and required human decisions."
+  },
+  "safety": "No paidaction,newaccount,formsent,server/workflow/auth changes or manualproductiondeletion. Existing deployer reports one stale path cleaned; owned browser closed and two snapshots archived recoverably."
+}

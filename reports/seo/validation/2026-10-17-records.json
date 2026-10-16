@@ -1,0 +1,23 @@
+{
+  "checkedAt": "2026-10-16T23:14:22.640Z",
+  "passed": true,
+  "oneDueCheckRecorded": true,
+  "oldSourceExperimentExplicitlyClosed": true,
+  "originalStartsAndUnrelatedQueuesPreserved": true,
+  "oldHistoryAppendOnly": true,
+  "onlySourceInventoryLinkFieldsChanged": true,
+  "activeExperiments": 30,
+  "inventoryEntries": 31,
+  "articleCount": 18,
+  "sitemapUrls": 29,
+  "seoHeads": 31,
+  "jsAssets": 24,
+  "scheduleAndPromptUnchanged": true,
+  "nextFullAuditAfterCompletedRuns": 2,
+  "linkIndexReview": "2026-10-24",
+  "linkEffectReview": "2026-11-17",
+  "targetOriginalDatesPreserved": true,
+  "independentMeasurementReview": "oct17_ops_review:14groups/78rows",
+  "readyCandidatePreservesFrozenPages": true,
+  "scopedBrowserAndReleaseChecks": true
+}

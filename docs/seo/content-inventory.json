@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-15T23:09:28Z",
+  "updatedAt": "2026-10-16T23:12:49Z",
   "rules": {
     "oneOwnerUrlPerIntent": true,
     "publicCopyExcludesOperationalMetadata": true
@@ -216,8 +216,13 @@
       "status": "published",
       "lastModified": "2026-09-06",
       "schema": "Article",
-      "experimentId": "insight-ai-customer-reply-template-v1",
-      "relatedService": "https://ai.gami.jp/services/ai-marketing/"
+      "experimentId": "insight-reply-handoff-link-v1",
+      "relatedService": "https://ai.gami.jp/services/ai-marketing/",
+      "previousExperimentIds": [
+        "insight-ai-customer-reply-template-v1"
+      ],
+      "internalLinkUpdatedAt": "2026-10-16T23:10:58.5950235Z",
+      "relatedGuide": "https://ai.gami.jp/insights/ai-work-handoff-template/"
     },
     {
       "url": "https://github.com/gamips/ai.gami.jp",

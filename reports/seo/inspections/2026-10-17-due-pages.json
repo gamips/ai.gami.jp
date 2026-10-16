@@ -1,0 +1,21 @@
+{
+  "observedAt": "2026-10-16T23:08:47.2951921+00:00",
+  "inspections": [
+    {
+      "siteUrl": "sc-domain:ai.gami.jp",
+      "inspectionUrl": "https://ai.gami.jp/insights/ai-project-proposal-comparison-sheet/",
+      "fetchedAt": "2026-10-16T23:08:47.2951921+00:00",
+      "source": "google-index",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:ai.gami.jp&id=K_XvAcvtWYfln5JQc6_syQ&utm_medium=link&utm_source=api",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL が Google に認識されていません",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "googleCanonical": null,
+      "userCanonical": null
+    }
+  ],
+  "note": "Scheduled first inspection only. Unknown URL is not a live fetch failure. Keep original November11 effect review; next index October24."
+}
