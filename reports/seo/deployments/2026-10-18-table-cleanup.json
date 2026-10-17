@@ -1,0 +1,351 @@
+{
+  "recordedAt": "2026-10-17T23:14:13Z",
+  "localDate": "2026-10-18",
+  "baselineCommit": "e1d446a32a9c7357e39b9abaa2320573d2873f54",
+  "productionCommit": "5e06bbdc61e9680eee6af220ef7c059bd542c6a6",
+  "deployedAt": "2026-10-17T23:08:59.0606787Z",
+  "method": "GitHub Actions normal Xserver deploy",
+  "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/39077862046",
+  "workflowStatus": "completed",
+  "conclusion": "success",
+  "deployResponse": {
+    "ok": true,
+    "extracted": 78,
+    "deletedStalePaths": 1
+  },
+  "publicationUrl": "https://ai.gami.jp/insights/ai-table-cleanup-checklist/",
+  "sourceFiles": [
+    "src/app/content/insights.js"
+  ],
+  "scope": "One new practical article using the existing renderer; listing row/date and sitemap added automatically. No existing article, service copy, CSS or shared UI change.",
+  "copyReview": {
+    "author": "oct18_article_copy",
+    "model": "gpt-6.1-sol",
+    "reviewer": "root",
+    "independentReview": "oct18_ops_review",
+    "fictionalRows": 6,
+    "checked": "Approved dictionary and six proposals reconciled: accept rows1/2; retain0012,blank and bothsame-name rows. Sixrows remain. Examples and proposals explicitlyfictional, not measured AI results. Existing18intents distinct; no public references/internal notes or comma br.",
+    "factCheck": {
+      "url": "https://support.microsoft.com/en-us/excel/format-numbers-as-text",
+      "scope": "Leading-zero identifiers can be treated as text; no assertion of automatic recovery or software-specific UI. Internal verification only."
+    }
+  },
+  "build": {
+    "command": "npm run build",
+    "exitCode": 0,
+    "finalBuildCompletedBeforeVerification": true
+  },
+  "static": {
+    "checkedAt": "2026-10-17T23:08:28.937Z",
+    "passed": true,
+    "baselineCommit": "e1d446a32a9c7357e39b9abaa2320573d2873f54",
+    "old18ArticlesUnchanged": true,
+    "other30HeadsAndBodiesUnchanged": true,
+    "cssUnchanged": true,
+    "generatedEntries": 32,
+    "sitemapUrls": 30,
+    "allSectionTextPresent": true,
+    "initialIntroduction": "description; existing generator contract",
+    "renderedLeadCheck": "separate browser verification required",
+    "articleCount": 1,
+    "webPageCount": 1,
+    "datesMatch": true,
+    "oldSitemapEntriesPreserved": true,
+    "listingLinkPresent": true,
+    "publicMetadataAbsent": true
+  },
+  "live": {
+    "checkedAt": "2026-10-17T23:09:40.555Z",
+    "passed": true,
+    "baselineCommit": "e1d446a32a9c7357e39b9abaa2320573d2873f54",
+    "old18ArticlesUnchanged": true,
+    "other30HeadsAndBodiesUnchanged": true,
+    "cssUnchanged": true,
+    "generatedEntries": 32,
+    "sitemapUrls": 30,
+    "allSectionTextPresent": true,
+    "initialIntroduction": "description; existing generator contract",
+    "renderedLeadCheck": "separate browser verification required",
+    "articleCount": 1,
+    "webPageCount": 1,
+    "datesMatch": true,
+    "oldSitemapEntriesPreserved": true,
+    "listingLinkPresent": true,
+    "publicMetadataAbsent": true,
+    "live": [
+      {
+        "path": "/insights/ai-table-cleanup-checklist",
+        "status": 200,
+        "headAndBodyMatch": true,
+        "selfCanonical": true,
+        "indexAllowed": true,
+        "articleCount": 1
+      },
+      {
+        "path": "/insights",
+        "status": 200,
+        "headAndBodyMatch": true,
+        "selfCanonical": true,
+        "indexAllowed": true,
+        "articleCount": 0
+      },
+      {
+        "path": "/services/ai-saas",
+        "status": 200,
+        "headAndBodyMatch": true,
+        "selfCanonical": true,
+        "indexAllowed": true,
+        "articleCount": 0
+      },
+      {
+        "path": "/insights/saas-or-custom-system-checklist",
+        "status": 200,
+        "headAndBodyMatch": true,
+        "selfCanonical": true,
+        "indexAllowed": true,
+        "articleCount": 1
+      },
+      {
+        "path": "/insights/ai-article-fact-check-template",
+        "status": 200,
+        "headAndBodyMatch": true,
+        "selfCanonical": true,
+        "indexAllowed": true,
+        "articleCount": 1
+      },
+      {
+        "path": "/insights/ai-website-brief-template",
+        "status": 200,
+        "headAndBodyMatch": true,
+        "selfCanonical": true,
+        "indexAllowed": true,
+        "articleCount": 1
+      },
+      {
+        "path": "/insights/ai-website-change-request-template",
+        "status": 200,
+        "headAndBodyMatch": true,
+        "selfCanonical": true,
+        "indexAllowed": true,
+        "articleCount": 1
+      },
+      {
+        "path": "/insights/ai-work-time-comparison-sheet",
+        "status": 200,
+        "headAndBodyMatch": true,
+        "selfCanonical": true,
+        "indexAllowed": true,
+        "articleCount": 1
+      },
+      {
+        "path": "/insights/ai-introduction-support",
+        "status": 200,
+        "headAndBodyMatch": true,
+        "selfCanonical": true,
+        "indexAllowed": true,
+        "articleCount": 1
+      }
+    ],
+    "liveSitemapAndOgMatch": true
+  },
+  "headsAndAssets": {
+    "checkedAt": "2026-10-17T23:09:40.569Z",
+    "completedAt": "2026-10-17T23:09:42.047Z",
+    "headsChecked": 32,
+    "allStaticSeoHeadsMatch": true,
+    "assetsChecked": 24,
+    "assetHashesMatch": true,
+    "passed": true,
+    "scope": "Generated SEO heads and built JavaScript hashes; not a full site UI audit."
+  },
+  "browser": {
+    "session": "seo-oct18",
+    "desktop": {
+      "url": "https://ai.gami.jp/insights/ai-table-cleanup-checklist/",
+      "width": 1280,
+      "height": 720,
+      "scrollWidth": 1265,
+      "h1": [
+        "AIで表の表記をそろえる｜元の値を残す確認表"
+      ],
+      "allExpectedTextPresent": true,
+      "exampleRows": 6,
+      "sections": 4,
+      "canonical": "https://ai.gami.jp/insights/ai-table-cleanup-checklist/",
+      "types": [
+        "Organization",
+        "WebPage",
+        "Article",
+        "BreadcrumbList"
+      ]
+    },
+    "mobile": {
+      "url": "https://ai.gami.jp/insights/ai-table-cleanup-checklist/",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 375,
+      "h1": [
+        "AIで表の表記をそろえる｜元の値を残す確認表"
+      ],
+      "allExpectedTextPresent": true,
+      "exampleRows": 6,
+      "sections": 4,
+      "canonical": "https://ai.gami.jp/insights/ai-table-cleanup-checklist/",
+      "types": [
+        "Organization",
+        "WebPage",
+        "Article",
+        "BreadcrumbList"
+      ]
+    },
+    "listingDesktop": {
+      "url": "https://ai.gami.jp/insights/",
+      "width": 1280,
+      "scrollWidth": 1265,
+      "articles": 19,
+      "links": [
+        "/insights/ai-table-cleanup-checklist/",
+        "/insights/ai-inquiry-classification-checklist/",
+        "/insights/ai-work-procedure-template/",
+        "/insights/ai-project-proposal-comparison-sheet/",
+        "/insights/ai-work-time-comparison-sheet/",
+        "/insights/ai-work-handoff-template/",
+        "/insights/ai-website-change-request-template/",
+        "/insights/rag-answer-review-sheet/",
+        "/insights/ai-meeting-action-items-template/",
+        "/insights/ai-website-brief-template/",
+        "/insights/ai-article-fact-check-template/",
+        "/insights/saas-or-custom-system-checklist/",
+        "/insights/ai-customer-reply-template/",
+        "/insights/ai-website-launch-checklist/",
+        "/insights/rag-document-inventory-checklist/",
+        "/insights/sodatsu-mitsumori-case-study/",
+        "/insights/chatgpt-workplace-adoption-checklist/",
+        "/insights/ai-introduction-support-pricing/",
+        "/insights/ai-introduction-support/"
+      ],
+      "dates": [
+        "2026.10.18",
+        "2026.10.15",
+        "2026.10.13",
+        "2026.10.10",
+        "2026.10.04",
+        "2026.10.02",
+        "2026.09.27",
+        "2026.09.23",
+        "2026.09.21",
+        "2026.09.13",
+        "2026.09.11",
+        "2026.09.08",
+        "2026.09.06",
+        "2026.09.06",
+        "2026.09.05",
+        "2026.09.05",
+        "2026.09.04",
+        "2026.09.04",
+        "2026.09.04"
+      ],
+      "itemList": [
+        {
+          "numberOfItems": 19,
+          "items": 19
+        }
+      ]
+    },
+    "listingMobile": {
+      "url": "https://ai.gami.jp/insights/",
+      "width": 390,
+      "scrollWidth": 375,
+      "articles": 19,
+      "links": [
+        "/insights/ai-table-cleanup-checklist/",
+        "/insights/ai-inquiry-classification-checklist/",
+        "/insights/ai-work-procedure-template/",
+        "/insights/ai-project-proposal-comparison-sheet/",
+        "/insights/ai-work-time-comparison-sheet/",
+        "/insights/ai-work-handoff-template/",
+        "/insights/ai-website-change-request-template/",
+        "/insights/rag-answer-review-sheet/",
+        "/insights/ai-meeting-action-items-template/",
+        "/insights/ai-website-brief-template/",
+        "/insights/ai-article-fact-check-template/",
+        "/insights/saas-or-custom-system-checklist/",
+        "/insights/ai-customer-reply-template/",
+        "/insights/ai-website-launch-checklist/",
+        "/insights/rag-document-inventory-checklist/",
+        "/insights/sodatsu-mitsumori-case-study/",
+        "/insights/chatgpt-workplace-adoption-checklist/",
+        "/insights/ai-introduction-support-pricing/",
+        "/insights/ai-introduction-support/"
+      ],
+      "dates": [
+        "2026.10.18",
+        "2026.10.15",
+        "2026.10.13",
+        "2026.10.10",
+        "2026.10.04",
+        "2026.10.02",
+        "2026.09.27",
+        "2026.09.23",
+        "2026.09.21",
+        "2026.09.13",
+        "2026.09.11",
+        "2026.09.08",
+        "2026.09.06",
+        "2026.09.06",
+        "2026.09.05",
+        "2026.09.05",
+        "2026.09.04",
+        "2026.09.04",
+        "2026.09.04"
+      ],
+      "itemList": [
+        {
+          "numberOfItems": 19,
+          "items": 19
+        }
+      ]
+    },
+    "actualNavigation": [
+      "new article → /services/ai-saas/; destination h1 AI × SaaS / AI × DX confirmed",
+      "article Insights link → /insights/",
+      "listing new article row → /insights/ai-table-cleanup-checklist/"
+    ],
+    "console": {
+      "messages": 0,
+      "errors": 0,
+      "warnings": 0
+    },
+    "requests": {
+      "observed": 17,
+      "allStatus200": true,
+      "failed": 0
+    },
+    "screenshots": [
+      "output/playwright/2026-10-18-cleanup-desktop.png",
+      "output/playwright/2026-10-18-cleanup-example-desktop.png",
+      "output/playwright/2026-10-18-cleanup-example-mobile.png",
+      "output/playwright/2026-10-18-cleanup-mobile.png"
+    ],
+    "visualReview": "All four screenshots viewed by root. Existing typography/spacing preserved, exampletext readable, no horizontal overflow.",
+    "cleanup": "Own session closed; five owned snapshots moved recoverably from .playwright-cli to output/seo/2026-10-18. No form submitted.",
+    "screenshotScope": "New article desktop/mobile and examples; listing checked by DOM and actual navigation, not separate screenshot."
+  },
+  "measurement": {
+    "result": "not-yet-measurable",
+    "indexReviewOnOrAfter": "2026-10-25",
+    "effectReviewOnOrAfter": "2026-11-18",
+    "first28FullPostPublicationDays": {
+      "startDate": "2026-10-19",
+      "endDate": "2026-11-15"
+    },
+    "minimumEvidence": {
+      "finalDays": 28,
+      "pageImpressions": 30
+    },
+    "note": "Publication verified, not traffic or inquiry improvement. GSC latestfinal October15 predates this release; no page baseline row. Existing listing/service experiment clocks retained; new inbound paths recorded."
+  },
+  "noPaidServices": true,
+  "noAnalyticsAccountChanges": true,
+  "noServerConfigChanges": true
+}

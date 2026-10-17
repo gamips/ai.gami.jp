@@ -1,0 +1,26 @@
+{
+  "checkedAt": "2026-10-17T23:17:26.962Z",
+  "passed": true,
+  "oldExperimentsPreserved": 36,
+  "dueChecksCompleted": 6,
+  "newExperiment": 1,
+  "appendOnlyEvents": 9,
+  "appendOnlyRuns": 1,
+  "inventoryEntries": 32,
+  "activeExperiments": 31,
+  "queueEntries": 37,
+  "metricsGroups": 14,
+  "metricsRows": 79,
+  "minimumEvidenceWindowDays": 28,
+  "originalStartsAndEffectDatesPreserved": true,
+  "browserAndLiveProofConsistent": true,
+  "canonicalPromptReadback": "1.0.12",
+  "launcherAndDaily08Unchanged": true,
+  "scope": "Saved records and evidence consistency; not acquisition-effect confirmation.",
+  "independentReview": {
+    "agent": "oct18_ops_review",
+    "result": "passed",
+    "scope": "Six inspection mappings, retained starts/history/effectdates, new28daywindow, append-only9/1,32inventory/31active/37queue and saved daily08 schedule independently checked.",
+    "temporaryEvidenceReconciled": "Earlier pre-final-copy ignored static checkpoint replaced with final23:08:28.937Z result already in durable deployment proof; no new API fetch or build."
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "observedAt": "2026-10-17T23:14:13Z",
+  "status": "discovery_seeds_only",
+  "scope": "Read-only first-party source checks; no submission, account, contract, membership or payment. Eligibility and all-stage zero cost are not established.",
+  "candidates": [
+    {
+      "name": "長野県デジタル化一貫支援サイト",
+      "url": "https://nagano-digital-portal.jp/",
+      "status": "needs_current_conditions",
+      "officialEvidence": [
+        {
+          "url": "https://www.nice-o.or.jp/info/info-70878/",
+          "confirmed": "NICE notice updated March5,2026 says old NIX closed March31,2026 and its functions merged into this portal, including IT-business information."
+        }
+      ],
+      "unknown": [
+        "Current registration and eligibility conditions",
+        "Registration, update, maintenance, removal and inquiry costs",
+        "Existing Gami listing",
+        "Removal process and inquiry flow"
+      ],
+      "note": "The portal page returned no readable text to the web reader; old NIX free conditions cannot be inherited by the successor."
+    },
+    {
+      "name": "ザ・ビジネスモール",
+      "url": "https://www.b-mall.ne.jp/guide/",
+      "status": "membership_and_conditions_unconfirmed",
+      "officialEvidence": [
+        {
+          "url": "https://cci.shimosuwa.nagano.jp/service/business-mall.html",
+          "confirmed": "Local chamber guide describes registration/use as free for chamber or commerce-association members."
+        }
+      ],
+      "unknown": [
+        "Gami current membership",
+        "Existing Gami listing",
+        "Current all-stage conditions, updates/removal and inquiry routing"
+      ],
+      "note": "Do not join a paid membership or premium plan for this task. Membership eligibility and free ongoing conditions must be confirmed separately."
+    }
+  ],
+  "nextAction": "Verify current first-party terms, listing duplicates and all-stage cost/maintenance/removal/inquiry conditions. Record confirmed, unknown or rejected per candidate. Unknown conditions block submission, not independent SEO work.",
+  "seoEffect": "unconfirmed; discovery availability is not evidence of ranking or real-user acquisition"
+}

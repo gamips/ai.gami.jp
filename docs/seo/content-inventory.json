@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-16T23:12:49Z",
+  "updatedAt": "2026-10-17T23:15:44Z",
   "rules": {
     "oneOwnerUrlPerIntent": true,
     "publicCopyExcludesOperationalMetadata": true
@@ -119,11 +119,11 @@
       "type": "insight-index",
       "intent": "AI導入と生成AI活用の実践ガイド一覧",
       "status": "published",
-      "lastModified": "2026-10-15",
+      "lastModified": "2026-10-18",
       "experimentId": "insights-initial-listing-parity-v1",
       "technicalUpdatedAt": "2026-10-07T01:13:35Z",
       "contentSource": "src/app/content/insights.js",
-      "note": "Index sitemap lastmod derives from article updatedAt; October15newarticle row added using unchanged listing mapping. Original listing experiment dates retained."
+      "note": "Index sitemap lastmod derives from article updatedAt; October18 newarticle row added (19total) using unchanged listing mapping. Original listing experiment dates retained."
     },
     {
       "url": "https://ai.gami.jp/insights/ai-introduction-support/",
@@ -350,6 +350,16 @@
       "schema": "Article",
       "experimentId": "insight-ai-inquiry-classification-checklist-v1",
       "relatedService": "https://ai.gami.jp/services/ai-marketing/"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-table-cleanup-checklist/",
+      "type": "insight",
+      "intent": "AIで表の表記をそろえる際に元の値を残し、架空の6行で変更案と採否理由を確認する実用例",
+      "status": "published",
+      "lastModified": "2026-10-18",
+      "schema": "Article",
+      "experimentId": "insight-ai-table-cleanup-checklist-v1",
+      "relatedService": "https://ai.gami.jp/services/ai-saas/"
     }
   ]
 }
