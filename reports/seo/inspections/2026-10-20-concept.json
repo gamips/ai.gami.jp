@@ -1,0 +1,15 @@
+{
+  "siteUrl": "sc-domain:ai.gami.jp",
+  "inspectionUrl": "https://ai.gami.jp/concept/",
+  "fetchedAt": "2026-10-19T23:06:42.3840309+00:00",
+  "source": "google-index",
+  "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:ai.gami.jp&id=Tcb01yMB4f0_1gdSW66hlg&utm_medium=link&utm_source=api",
+  "verdict": "PASS",
+  "coverageState": "送信して登録されました",
+  "robotsTxtState": "ALLOWED",
+  "indexingState": "INDEXING_ALLOWED",
+  "lastCrawlTime": "2026-09-04T15:32:11Z",
+  "pageFetchState": "SUCCESSFUL",
+  "googleCanonical": "https://ai.gami.jp/concept/",
+  "userCanonical": "https://ai.gami.jp/concept/"
+}

@@ -1,0 +1,15 @@
+{
+  "siteUrl": "sc-domain:ai.gami.jp",
+  "inspectionUrl": "https://ai.gami.jp/insights/ai-introduction-support-pricing/",
+  "fetchedAt": "2026-10-18T22:59:59.2369724+00:00",
+  "source": "google-index",
+  "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:ai.gami.jp&id=CfXphs_onGlSrBi_TK85nw&utm_medium=link&utm_source=api",
+  "verdict": "PASS",
+  "coverageState": "送信して登録されました",
+  "robotsTxtState": "ALLOWED",
+  "indexingState": "INDEXING_ALLOWED",
+  "lastCrawlTime": "2026-09-04T21:15:37Z",
+  "pageFetchState": "SUCCESSFUL",
+  "googleCanonical": "https://ai.gami.jp/insights/ai-introduction-support-pricing/",
+  "userCanonical": "https://ai.gami.jp/insights/ai-introduction-support-pricing/"
+}

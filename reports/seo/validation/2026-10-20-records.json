@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-10-19T23:11:35.427Z",
+  "passed": true,
+  "sourceCommit": "a5cd1a8c3bb97519762347a6706bf7323e060f84",
+  "datePreservingRecovery": true,
+  "observations": [
+    {
+      "date": "2026-10-19",
+      "groups": 14,
+      "rows": 83,
+      "inspections": 4,
+      "latestFinalizedDate": "2026-10-16",
+      "clicks": 0,
+      "impressions": 110
+    },
+    {
+      "date": "2026-10-20",
+      "groups": 14,
+      "rows": 79,
+      "inspections": 3,
+      "latestFinalizedDate": "2026-10-17",
+      "clicks": 0,
+      "impressions": 109
+    }
+  ],
+  "unchangedInventoryEntries": 32,
+  "activeExperiments": 31,
+  "queueEntries": 37,
+  "priorExperimentStartsEffectsHistoryPreserved": true,
+  "appendOnlyEvents": 7,
+  "appendOnlyRuns": 2,
+  "productionUnchanged": true,
+  "promptAndDaily08Unchanged": true,
+  "scope": "Record consistency and independently validated saved observations; no traffic/listing efficacy claim.",
+  "independentReview": {
+    "agent": "oct20_ops_review",
+    "result": "passed_after_clarification",
+    "checks": "All37starts, prior histories,30untargeted queue entries,7effectdates,31activeIDs,unchanged deployment/32inventory and append-only7/2 verified. Every normalized row reconciled to raw. Recovered October19 analyticsRefetched clarified false with originalAcquisitionRefreshed/reusedOnResume flags.",
+    "remainingFindings": []
+  }
+}

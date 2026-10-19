@@ -1,0 +1,57 @@
+{
+  "observedAt": "2026-10-19T23:07:28.826Z",
+  "inspections": [
+    {
+      "siteUrl": "sc-domain:ai.gami.jp",
+      "inspectionUrl": "https://ai.gami.jp/concept/",
+      "fetchedAt": "2026-10-19T23:06:42.3840309+00:00",
+      "source": "google-index",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:ai.gami.jp&id=Tcb01yMB4f0_1gdSW66hlg&utm_medium=link&utm_source=api",
+      "verdict": "PASS",
+      "coverageState": "送信して登録されました",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-09-04T15:32:11Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://ai.gami.jp/concept/",
+      "userCanonical": "https://ai.gami.jp/concept/"
+    },
+    {
+      "siteUrl": "sc-domain:ai.gami.jp",
+      "inspectionUrl": "https://ai.gami.jp/services/ai-marketing/",
+      "fetchedAt": "2026-10-19T23:06:42.4450864+00:00",
+      "source": "google-index",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:ai.gami.jp&id=-6eDkElFdRofDsIxlJPe7A&utm_medium=link&utm_source=api",
+      "verdict": "PASS",
+      "coverageState": "送信して登録されました",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-09-24T13:28:17Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://ai.gami.jp/services/ai-marketing/",
+      "userCanonical": "https://ai.gami.jp/services/ai-marketing/"
+    },
+    {
+      "siteUrl": "sc-domain:ai.gami.jp",
+      "inspectionUrl": "https://ai.gami.jp/insights/ai-work-procedure-template/",
+      "fetchedAt": "2026-10-19T23:06:42.2956927+00:00",
+      "source": "google-index",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:ai.gami.jp&id=PXuyZMWbG4PHXso3NYGdBg&utm_medium=link&utm_source=api",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL が Google に認識されていません",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "googleCanonical": null,
+      "userCanonical": null
+    }
+  ],
+  "reusedTargets": [
+    {
+      "url": "https://ai.gami.jp/insights/ai-article-fact-check-template/",
+      "evidencePath": "reports/seo/inspections/2026-10-18-due-pages.json"
+    }
+  ],
+  "note": "Three unique October20 due URLs. October19 four inspections and live proof retained under their actual acquisition dates, not refetched. Google-index is not a live test."
+}

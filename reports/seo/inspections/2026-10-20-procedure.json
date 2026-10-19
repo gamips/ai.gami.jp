@@ -1,0 +1,15 @@
+{
+  "siteUrl": "sc-domain:ai.gami.jp",
+  "inspectionUrl": "https://ai.gami.jp/insights/ai-work-procedure-template/",
+  "fetchedAt": "2026-10-19T23:06:42.2956927+00:00",
+  "source": "google-index",
+  "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:ai.gami.jp&id=PXuyZMWbG4PHXso3NYGdBg&utm_medium=link&utm_source=api",
+  "verdict": "NEUTRAL",
+  "coverageState": "URL が Google に認識されていません",
+  "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+  "indexingState": "INDEXING_STATE_UNSPECIFIED",
+  "lastCrawlTime": null,
+  "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+  "googleCanonical": null,
+  "userCanonical": null
+}

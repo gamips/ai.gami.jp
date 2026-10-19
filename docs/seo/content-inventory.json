@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-17T23:15:44Z",
+  "updatedAt": "2026-10-19T23:08:22Z",
   "rules": {
     "oneOwnerUrlPerIntent": true,
     "publicCopyExcludesOperationalMetadata": true

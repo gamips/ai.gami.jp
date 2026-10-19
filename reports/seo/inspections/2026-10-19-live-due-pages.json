@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-10-18T23:00:56.560Z",
+  "sourceBuildCommit": "5e06bbdc61e9680eee6af220ef7c059bd542c6a6",
+  "scope": "Four scheduled observation URLs; read-only live initial HTML checks against unchanged October18 verified build. No new build, deploy or UI change.",
+  "pages": [
+    {
+      "url": "https://ai.gami.jp/insights/ai-meeting-action-items-template/",
+      "status": 200,
+      "headAndBodyMatch": true,
+      "selfCanonical": true,
+      "indexAllowed": true,
+      "articleCount": 1
+    },
+    {
+      "url": "https://ai.gami.jp/services/ai-web/",
+      "status": 200,
+      "headAndBodyMatch": true,
+      "selfCanonical": true,
+      "indexAllowed": true,
+      "articleCount": 0
+    },
+    {
+      "url": "https://ai.gami.jp/news/",
+      "status": 200,
+      "headAndBodyMatch": true,
+      "selfCanonical": true,
+      "indexAllowed": true,
+      "articleCount": 0
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-introduction-support-pricing/",
+      "status": 200,
+      "headAndBodyMatch": true,
+      "selfCanonical": true,
+      "indexAllowed": true,
+      "articleCount": 1
+    }
+  ],
+  "completedAt": "2026-10-18T23:00:56.926Z",
+  "passed": true
+}

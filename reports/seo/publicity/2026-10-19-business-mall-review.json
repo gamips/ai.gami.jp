@@ -1,0 +1,51 @@
+{
+  "recordedAt": "2026-10-19T23:06:12Z",
+  "observedDate": "2026-10-19",
+  "recoveredOn": "2026-10-20",
+  "candidate": "ザ・ビジネスモール",
+  "url": "https://www.b-mall.ne.jp/guide/",
+  "status": "blocked_eligibility_and_current_terms",
+  "researcher": "oct19_bmall_discovery",
+  "rootVerification": "October19 directly read local chamber page; terms and corporate FAQ directly returned403. Conversation evidence recovered; no October20 rerequest.",
+  "directEvidence": [
+    {
+      "url": "https://cci.shimosuwa.nagano.jp/service/business-mall.html",
+      "facts": "Chamber and commerce-association members may register/use the basic matching service free. Local chamber contact is available."
+    }
+  ],
+  "limitedEvidence": [
+    {
+      "urls": [
+        "https://www.b-mall.ne.jp/memberyakkan/",
+        "https://www.b-mall.ne.jp/helpcomdb/",
+        "https://s.b-mall.ne.jp/guide/"
+      ],
+      "acquisition": "First-party search-index snippets only; full-page reads returned403.",
+      "scope": "Indicate free basic service vs optional paid plans, information changes through site, and deletion through chamber/secretariat. Current full terms and all-stage fees not verified."
+    }
+  ],
+  "unknown": [
+    "Gami membership/approval",
+    "Existing Gami listing; no exact search match found, not proof of absence",
+    "Current complete terms and costs for update, maintenance, deletion and inquiries"
+  ],
+  "decision": "Do not register, join a paid chamber membership, contact, submit or accept terms. Resume only with verified existing eligibility and accessible current conditions; not an ordinary daily retry.",
+  "alternative": {
+    "name": "J-GoodTech",
+    "urls": [
+      "https://jgoodtech.smrj.go.jp/pub/ja/lp/orientation/",
+      "https://jgoodtech.smrj.go.jp/pub/ja/lp/newneeds/"
+    ],
+    "evidence": "Root read both official pages October19: registration/use and registration/annual fees described as free.",
+    "status": "discovery_only",
+    "unknown": [
+      "Gami eligibility",
+      "Existing listing",
+      "Updates/removal/inquiry terms"
+    ]
+  },
+  "publicationChanged": false,
+  "submissionPerformed": false,
+  "cost": 0,
+  "effect": "not-yet-measurable"
+}

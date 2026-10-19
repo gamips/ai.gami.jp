@@ -1,0 +1,29 @@
+{
+  "reviewedAt": "2026-10-19T23:08:22Z",
+  "scope": "Completed October16–18 runs plus October19 interrupted work recovered on October20 and new October20 observations.",
+  "runDates": [
+    "2026-10-16",
+    "2026-10-17",
+    "2026-10-18",
+    "2026-10-19",
+    "2026-10-20"
+  ],
+  "findings": {
+    "laneMix": "Two contextual links, one distinct practical article, then qualified free-publicity discovery. No new generic article or frozen-page edit to fill wait time.",
+    "measurement": "Freshness advanced each acquisition; October19 and20 retained separately. Four prior saved inspections reused without reacquisition, three newly due checks performed. Query/page/property/device grains separate.",
+    "interruption": "October19 ended before final records. Raw/normalized results and four live checks were recoverable; unsaved Nagano findings were verified afresh rather than represented as completed. No duplicate deploy or lost production change.",
+    "release": "No source/publicsite changes October19–20. Last normal Actions succeeded October18;7dated scoped live checks pass, no new build/deploy needed.",
+    "boundaries": "Single root writer; researchers read-only. No paid service, account creation, legalconsent, registration or externalmessage.",
+    "attribution": "0propertyclicks, smallvolume/absent rows, oldcrawls and no GA4 mean acquisition/inquiry effects remain unconfirmed. Exactqueryexclusion does not prove nonbrandintent."
+  },
+  "decision": {
+    "promptVersion": "1.0.12",
+    "promptChanged": false,
+    "launcherChanged": false,
+    "scheduleChanged": false,
+    "schedule": "ACTIVE daily08 Asia/Tokyo",
+    "reason": "Existing checkpoint/resume and output-unit policies address observed interruption. No new operating rule or cadence condition justified.",
+    "nextFullAuditAfterCompletedRuns": 4
+  },
+  "nextAction": "Evidence mapping from existing company and dated ownedSaaS case sources; retain unknown eligibility fields. No repeated polling of unchanged listing fee/membership gaps."
+}

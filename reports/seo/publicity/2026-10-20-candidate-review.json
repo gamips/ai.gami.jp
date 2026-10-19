@@ -1,0 +1,94 @@
+{
+  "observedAt": "2026-10-19T23:09:48Z",
+  "localDate": "2026-10-20",
+  "researcher": "oct20_publicity",
+  "rootReview": "Official J-GoodTech about page directly read; local company source verified. Other first-party findings independently researched by subagent; no submission or eligibility guarantee.",
+  "candidates": [
+    {
+      "name": "長野県デジタル化一貫支援サイト",
+      "url": "https://nagano-digital-portal.jp/company",
+      "status": "blocked_cost_unknown_and_eligibility_unverified",
+      "facts": [
+        {
+          "url": "https://nagano-digital-portal.jp/company",
+          "finding": "Rendered current public list has76companies, with no Gami or ai.gami.jp entry observed; not proof against pending/unpublished registrations. Nagano office, relevant knowledge/services and3years relevant experience or5projects generally required; NICE recognition exception exists."
+        },
+        {
+          "url": "https://storage.googleapis.com/studio-design-asset-files/projects/xmaZ9g7DqR/s-1x1_5b453a7b-d6dd-4f0f-9366-9bb6c5527e4d.pdf",
+          "finding": "Registration policy effective March31,2026. Registration through fiscal year-end; automatically renewed unless notice by endFebruary. Change reporting, cooperation with case publication and requested progress reports; no matching guarantee."
+        },
+        {
+          "url": "https://nagano-digital-portal.jp/RegistrationChange",
+          "finding": "Changes submitted by form and reflected after office confirmation."
+        },
+        {
+          "url": "https://nagano-digital-portal.jp/RegistrationCancel",
+          "finding": "Withdrawal form; removal approximately2weeks. Requires company/contact details and privacy-policy agreement; not submitted."
+        },
+        {
+          "url": "https://www.nice-o.or.jp/info/info-71706/",
+          "finding": "Official operator recruitment notice provides it-valley@nice-o.or.jp contact."
+        }
+      ],
+      "unknown": [
+        "All-stage free listing conditions: registration/listing/maintenance/change/removal/inquiry/outcome fees not explicitly established. Free consultation is not free vendor listing.",
+        "Gami relevant-service years/projectcount or exception approval"
+      ],
+      "restriction": "No application, contact or consent. Resume fees only with new authoritative evidence; no repeated daily search against same gap.",
+      "access": "Public SPA rendered normally; empty web extraction was not an access denial. Linked PDF read in full through ordinary HTTP. No access controls bypassed."
+    },
+    {
+      "name": "J-GoodTech",
+      "url": "https://jgoodtech.smrj.go.jp/pub/ja/about/",
+      "status": "discovery_only_eligibility_unverified",
+      "facts": [
+        {
+          "url": "https://jgoodtech.smrj.go.jp/pub/ja/about/",
+          "finding": "Official general statement: registration and provided services free; no success fee for completed business matches."
+        },
+        {
+          "url": "https://jgoodtech.smrj.go.jp/pub/ja/deal/enterprise/",
+          "finding": "Eligible enterprise application reviewed before account registration; roughly2weeks. Information services/software may qualify; consulting excluded."
+        },
+        {
+          "url": "https://jgoodtech.smrj.go.jp/pub/ja/assets/pdf/common/deal_application-guideline.pdf?20240321=",
+          "finding": "Official recruitment criteria; must map actual qualifying offering and company conditions, not relabel consulting to bypass exclusion."
+        },
+        {
+          "url": "https://jgoodtech.smrj.go.jp/pub/ja/faq/",
+          "finding": "Registered enterprises can update their own information and choose public/private visibility."
+        },
+        {
+          "url": "https://jgoodtech.smrj.go.jp/pub/ja/terms/",
+          "finding": "Article14 requires current information; Article16 permits withdrawal by prescribed procedure or notice. Immediate deletion not guaranteed in reviewed text."
+        },
+        {
+          "url": "https://jgoodtech.smrj.go.jp/system/corporations/search",
+          "finding": "Exact public Japanese search 株式会社Gami returned0companies/0products. Does not exclude private or pending records. Broad Gami substring results unsuitable for duplicate conclusion."
+        }
+      ],
+      "unknown": [
+        "Gami eligible software/information-service scope versus excluded consulting",
+        "Applicable company size/ownership conditions",
+        "Private or pending duplicate record"
+      ],
+      "feeCaveat": "General all-services-free statement confirmed. Separate withdrawal fee language not found; do not invent a fee or claim per-step billing verification.",
+      "restriction": "No application/account/consent. Next read-only evidence mapping can proceed."
+    }
+  ],
+  "companyFacts": {
+    "source": "src/app/content/company.js",
+    "established": "2018年4月2日",
+    "name": "株式会社Gami",
+    "address": "長野県諏訪郡下諏訪町社6-21",
+    "caveat": "Company establishment date does not establish relevant service experience or completed projectcount."
+  },
+  "nextAction": "Use existing company information and public owned-product case evidence to map eligible actual software/information-service scope, relevant dates and verified projectcounts. Mark missing items unknown. No fresh application or contact; do not relabel services to meet eligibility.",
+  "submissionPerformed": false,
+  "accountCreated": false,
+  "consentGiven": false,
+  "paidAction": false,
+  "publicationChanged": false,
+  "effect": "not-yet-measurable",
+  "cleanup": "Researcher closed both owned browser tabs; no saved snapshots/images/files."
+}

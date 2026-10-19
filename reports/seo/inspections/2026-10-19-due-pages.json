@@ -1,0 +1,76 @@
+{
+  "observedAt": "2026-10-18T23:00:56.560Z",
+  "inspections": [
+    {
+      "siteUrl": "sc-domain:ai.gami.jp",
+      "inspectionUrl": "https://ai.gami.jp/insights/ai-meeting-action-items-template/",
+      "fetchedAt": "2026-10-18T22:59:59.1508504+00:00",
+      "source": "google-index",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:ai.gami.jp&id=JROn8HjOqIaOlIU7q2QCWQ&utm_medium=link&utm_source=api",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL が Google に認識されていません",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "googleCanonical": null,
+      "userCanonical": null
+    },
+    {
+      "siteUrl": "sc-domain:ai.gami.jp",
+      "inspectionUrl": "https://ai.gami.jp/services/ai-web/",
+      "fetchedAt": "2026-10-18T22:59:59.1418613+00:00",
+      "source": "google-index",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:ai.gami.jp&id=rIfycUV7JwF1yyKgr2O1SA&utm_medium=link&utm_source=api",
+      "verdict": "PASS",
+      "coverageState": "送信して登録されました",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-08-28T01:01:36Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://ai.gami.jp/services/ai-web/",
+      "userCanonical": "https://ai.gami.jp/services/ai-web/"
+    },
+    {
+      "siteUrl": "sc-domain:ai.gami.jp",
+      "inspectionUrl": "https://ai.gami.jp/news/",
+      "fetchedAt": "2026-10-18T22:59:59.5777234+00:00",
+      "source": "google-index",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:ai.gami.jp&id=HBS5kOua3N8pXQq8_lbuwg&utm_medium=link&utm_source=api",
+      "verdict": "PASS",
+      "coverageState": "送信して登録されました",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-07-18T02:10:54Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://ai.gami.jp/news/",
+      "userCanonical": "https://ai.gami.jp/news/"
+    },
+    {
+      "siteUrl": "sc-domain:ai.gami.jp",
+      "inspectionUrl": "https://ai.gami.jp/insights/ai-introduction-support-pricing/",
+      "fetchedAt": "2026-10-18T22:59:59.2369724+00:00",
+      "source": "google-index",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:ai.gami.jp&id=CfXphs_onGlSrBi_TK85nw&utm_medium=link&utm_source=api",
+      "verdict": "PASS",
+      "coverageState": "送信して登録されました",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-09-04T21:15:37Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://ai.gami.jp/insights/ai-introduction-support-pricing/",
+      "userCanonical": "https://ai.gami.jp/insights/ai-introduction-support-pricing/"
+    }
+  ],
+  "reusedTargets": [
+    {
+      "url": "https://ai.gami.jp/insights/ai-website-brief-template/",
+      "evidencePath": "reports/seo/inspections/2026-10-18-due-pages.json"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-project-proposal-comparison-sheet/",
+      "evidencePath": "reports/seo/inspections/2026-10-17-due-pages.json"
+    }
+  ],
+  "note": "Four unique due URLs; reuse recent target inspections, not new acquisitions. Google-index is not a live test."
+}
