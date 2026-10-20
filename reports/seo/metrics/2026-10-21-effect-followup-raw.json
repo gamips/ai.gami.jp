@@ -1,0 +1,94 @@
+{
+  "observedAt": "2026-10-20T23:01:49.767Z",
+  "scope": "Cumulative finalized post-publication followup, not the original fixed first28day result.",
+  "queries": [
+    {
+      "experimentId": "insight-sodatsu-mitsumori-case-study-v1",
+      "url": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/",
+      "start": "2026-09-06",
+      "collectedAt": "2026-10-20T23:01:49.453Z",
+      "result": {
+        "siteUrl": "sc-domain:ai.gami.jp",
+        "startDate": "2026-09-06",
+        "endDate": "2026-10-18",
+        "dimensions": [
+          "page"
+        ],
+        "searchType": "web",
+        "dataState": "final",
+        "rowCount": 1,
+        "rows": [
+          {
+            "keys": [
+              "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/"
+            ],
+            "clicks": 1,
+            "impressions": 12,
+            "ctr": 0.08333333333333333,
+            "position": 6.833333333333333
+          }
+        ],
+        "metadata": null
+      },
+      "request": {
+        "Action": "query",
+        "SiteUrl": "sc-domain:ai.gami.jp",
+        "StartDate": "2026-09-06",
+        "EndDate": "2026-10-18",
+        "Dimensions": [
+          "page"
+        ],
+        "Dimension": "page",
+        "Operator": "equals",
+        "Expression": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/",
+        "RowLimit": 1000,
+        "DataState": "final",
+        "SearchType": "web"
+      }
+    },
+    {
+      "experimentId": "insight-ai-website-launch-checklist-v1",
+      "url": "https://ai.gami.jp/insights/ai-website-launch-checklist/",
+      "start": "2026-09-07",
+      "collectedAt": "2026-10-20T23:01:49.767Z",
+      "result": {
+        "siteUrl": "sc-domain:ai.gami.jp",
+        "startDate": "2026-09-07",
+        "endDate": "2026-10-18",
+        "dimensions": [
+          "page"
+        ],
+        "searchType": "web",
+        "dataState": "final",
+        "rowCount": 1,
+        "rows": [
+          {
+            "keys": [
+              "https://ai.gami.jp/insights/ai-website-launch-checklist/"
+            ],
+            "clicks": 0,
+            "impressions": 4,
+            "ctr": 0,
+            "position": 12.25
+          }
+        ],
+        "metadata": null
+      },
+      "request": {
+        "Action": "query",
+        "SiteUrl": "sc-domain:ai.gami.jp",
+        "StartDate": "2026-09-07",
+        "EndDate": "2026-10-18",
+        "Dimensions": [
+          "page"
+        ],
+        "Dimension": "page",
+        "Operator": "equals",
+        "Expression": "https://ai.gami.jp/insights/ai-website-launch-checklist/",
+        "RowLimit": 1000,
+        "DataState": "final",
+        "SearchType": "web"
+      }
+    }
+  ]
+}

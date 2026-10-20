@@ -1,0 +1,34 @@
+{
+  "checkedAt": "2026-10-20T23:04:32.798Z",
+  "baselineCommit": "4379721150c13d738b7202a4321682bd77392a9c",
+  "onlyOneSectionLinkAdded": true,
+  "other18ArticlesUnchanged": true,
+  "articleDatesUnchanged": true,
+  "publicCopyModel": "gpt-6.1-sol",
+  "pages": [
+    {
+      "path": "/insights/ai-website-launch-checklist",
+      "status": 200,
+      "headMatches": true,
+      "bodyMatches": false,
+      "initialArticleCount": 1,
+      "initialWebPageCount": 1,
+      "selfCanonical": true,
+      "indexAllowed": true
+    },
+    {
+      "path": "/insights/ai-website-change-request-template",
+      "status": 200,
+      "headMatches": true,
+      "bodyMatches": true,
+      "initialArticleCount": 1,
+      "initialWebPageCount": 1,
+      "selfCanonical": true,
+      "indexAllowed": true
+    }
+  ],
+  "sitemapUnchanged": true,
+  "cssMatchesProduction": true,
+  "passed": true,
+  "mode": "pre-deploy"
+}

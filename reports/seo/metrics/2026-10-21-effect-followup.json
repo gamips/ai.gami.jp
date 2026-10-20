@@ -1,0 +1,91 @@
+{
+  "observedAt": "2026-10-20T23:03:41.786Z",
+  "latestFinalizedDate": "2026-10-18",
+  "reviews": [
+    {
+      "experimentId": "insight-sodatsu-mitsumori-case-study-v1",
+      "url": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/",
+      "onOrAfter": "2026-10-21",
+      "check": "Bounded follow-up of low-volume original article effects; first28day review completed inconclusive. Reuse existing index evidence unless technical signals change. Keep original start; new changes require explicit measurement boundary.",
+      "checkedAt": "2026-10-20T23:03:41.786Z",
+      "queryPageEffect": "inconclusive",
+      "originalStartedAt": "2026-09-05T04:10:20+09:00",
+      "first28Days": {
+        "startDate": "2026-09-06",
+        "endDate": "2026-10-03",
+        "fullFinalDays": 28,
+        "pageClicks": 1,
+        "pageImpressions": 10,
+        "evidencePath": "reports/seo/metrics/2026-10-07-first-28-days-review.json"
+      },
+      "cumulativeWindow": {
+        "startDate": "2026-09-06",
+        "endDate": "2026-10-18",
+        "fullFinalDays": 43,
+        "clicks": 1,
+        "impressions": 12,
+        "ctr": 0.08333333333333333,
+        "position": 6.833333333333333
+      },
+      "page28d": {
+        "page": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 4
+      },
+      "minimumPageImpressions": 30,
+      "indexEvidenceReusedFrom": "reports/seo/inspections/2026-10-06-due-pages.json",
+      "metricsEvidencePath": "reports/seo/metrics/2026-10-21-0800.json",
+      "effectReviewEvidencePath": "reports/seo/metrics/2026-10-21-effect-followup.json",
+      "rawEvidencePath": "reports/seo/metrics/2026-10-21-effect-followup-raw.json",
+      "liveTechnicalEvidencePath": "reports/seo/inspections/2026-10-21-live-due-pages.json",
+      "note": "Original fixed first28days and cumulative followup are separate. Low-volume inconclusive, not failure. Shared schema/discovery changes prevent content-only attribution.",
+      "status": "completed",
+      "closedAt": "2026-10-20T23:03:41.786Z"
+    },
+    {
+      "experimentId": "insight-ai-website-launch-checklist-v1",
+      "url": "https://ai.gami.jp/insights/ai-website-launch-checklist/",
+      "onOrAfter": "2026-10-21",
+      "check": "Bounded follow-up of low-volume original article effects; first28day review completed inconclusive. Reuse existing index evidence unless technical signals change. Keep original start; new changes require explicit measurement boundary.",
+      "checkedAt": "2026-10-20T23:03:41.786Z",
+      "queryPageEffect": "inconclusive",
+      "originalStartedAt": "2026-09-06T00:46:42+09:00",
+      "first28Days": {
+        "startDate": "2026-09-07",
+        "endDate": "2026-10-04",
+        "fullFinalDays": 28,
+        "pageClicks": 0,
+        "pageImpressions": 3,
+        "evidencePath": "reports/seo/metrics/2026-10-07-first-28-days-review.json"
+      },
+      "cumulativeWindow": {
+        "startDate": "2026-09-07",
+        "endDate": "2026-10-18",
+        "fullFinalDays": 42,
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 12.25
+      },
+      "page28d": {
+        "page": "https://ai.gami.jp/insights/ai-website-launch-checklist/",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 18
+      },
+      "minimumPageImpressions": 30,
+      "indexEvidenceReusedFrom": "reports/seo/inspections/2026-10-07-due-pages.json",
+      "metricsEvidencePath": "reports/seo/metrics/2026-10-21-0800.json",
+      "effectReviewEvidencePath": "reports/seo/metrics/2026-10-21-effect-followup.json",
+      "rawEvidencePath": "reports/seo/metrics/2026-10-21-effect-followup-raw.json",
+      "liveTechnicalEvidencePath": "reports/seo/inspections/2026-10-21-live-due-pages.json",
+      "note": "Original fixed first28days and cumulative followup are separate. Low-volume inconclusive, not failure. Shared schema/discovery changes prevent content-only attribution.",
+      "status": "completed",
+      "closedAt": "2026-10-20T23:03:41.786Z"
+    }
+  ],
+  "interpretation": "Both original experiments closed inconclusive; no article removal or claim of no demand. Missing conversion attribution remains unavailable."
+}

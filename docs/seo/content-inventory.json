@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-19T23:08:22Z",
+  "updatedAt": "2026-10-20T23:09:09.706Z",
   "rules": {
     "oneOwnerUrlPerIntent": true,
     "publicCopyExcludesOperationalMetadata": true
@@ -206,8 +206,13 @@
       "status": "published",
       "lastModified": "2026-09-06",
       "schema": "Article",
-      "experimentId": "insight-ai-website-launch-checklist-v1",
-      "relatedService": "https://ai.gami.jp/services/ai-web/"
+      "experimentId": "insight-launch-change-request-link-v1",
+      "relatedService": "https://ai.gami.jp/services/ai-web/",
+      "previousExperimentIds": [
+        "insight-ai-website-launch-checklist-v1"
+      ],
+      "internalLinkUpdatedAt": "2026-10-20T23:05:33.9214865Z",
+      "relatedGuide": "https://ai.gami.jp/insights/ai-website-change-request-template/"
     },
     {
       "url": "https://ai.gami.jp/insights/ai-customer-reply-template/",

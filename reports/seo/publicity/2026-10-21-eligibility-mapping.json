@@ -1,0 +1,115 @@
+{
+  "observedAt": "2026-10-20T23:05:47.240Z",
+  "localDate": "2026-10-21",
+  "researcher": "oct21_eligibility",
+  "repositoryEvidenceBaselineCommit": "4379721150c13d738b7202a4321682bd77392a9c",
+  "rootReview": "Saved candidate criteria and local public source reviewed; product operator page read directly. Evidence mapping completed without any submission.",
+  "criteriaEvidencePaths": [
+    "reports/seo/publicity/2026-10-19-business-mall-review.json",
+    "reports/seo/publicity/2026-10-20-candidate-review.json"
+  ],
+  "facts": [
+    {
+      "fact": "Public company profile lists Gami, representative Akira Ishigami, Shimosuwa office, established April2,2018.",
+      "source": "src/app/content/company.js:2-11",
+      "scope": "Self-published company profile; founding does not establish relevant-service years."
+    },
+    {
+      "fact": "Offers business-system implementation with management screens, approvals, data infrastructure and AI functions.",
+      "source": "src/app/content/services.ts:245-253",
+      "scope": "Offering, not verified customer delivery."
+    },
+    {
+      "fact": "Owned SaaS Sodatsu Mitsumori case describes input-to-AI-draft, human review, document conversion,PDF/sharing.",
+      "source": "src/app/content/insights.js:994-1068",
+      "historicalEvidence": "docs/seo/case-studies/sodatsu-mitsumori-evidence.md:7-33",
+      "scope": "One owned-product case; not one customer project. Original product snapshot September5; current case still public."
+    },
+    {
+      "fact": "Company also offers consulting and workflow improvement.",
+      "source": "src/app/content/company.js:7-11",
+      "scope": "Do not relabel all services as software to bypass excluded consulting category."
+    },
+    {
+      "fact": "Own website is described as an implementation example.",
+      "source": "src/app/content/services.ts:923-927",
+      "scope": "Owned site, not a customer project."
+    },
+    {
+      "fact": "Product operator page describes planning, development and operation of business-support SaaS and lists capital JPY2million.",
+      "url": "https://sodatsu-mitsumori.net/aboutus/",
+      "displayedUpdatedAt": "2025-09-26",
+      "scope": "Self-published dated statement, not current registry verification. Name there is 株式会社ガミ while AI.GAMI uses 株式会社Gami; formal legal-name reconciliation not done. Employee count and ownership remain unknown."
+    }
+  ],
+  "currentPublicChecks": [
+    {
+      "url": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/",
+      "checkedAt": "2026-10-21T08:00:23.515+09:00",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://ai.gami.jp/about/",
+      "checkedAt": "2026-10-21T08:00:23.593+09:00",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://sodatsu-mitsumori.net/aboutus/",
+      "checkedAt": "2026-10-21T08:00:23.668+09:00",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://ai.gami.jp/services/ai-saas/",
+      "checkedAt": "2026-10-21T08:00:46.786+09:00",
+      "httpStatus": 200
+    }
+  ],
+  "dateBoundaries": {
+    "casePublishedAt": "2026-09-05",
+    "internalProductSnapshot": "2026-09-05",
+    "productOperatorPageUpdated": "2025-09-26",
+    "productStartDate": null,
+    "firstCustomerDeliveryDate": null,
+    "continuousRelevantServiceYears": null,
+    "verifiedCustomerProjectCount": null,
+    "note": "Unknown counts/years are not zero. Page update/publication dates are not operation-start or delivery dates."
+  },
+  "candidates": [
+    {
+      "name": "J-GoodTech",
+      "result": "eligibility_unverified",
+      "usableScope": "Actual owned software and offered business-system implementation support considering software/information-service category.",
+      "unknown": [
+        "Formal category and applicable company criteria",
+        "Current legal identity and capital verification",
+        "Employee count and ownership/control",
+        "Private or pending duplicate registration"
+      ],
+      "nextAction": "Resume only when these existing business facts can be confirmed; no fresh daily criteria search or consulting relabeling."
+    },
+    {
+      "name": "Nagano digital portal",
+      "result": "blocked_cost_unknown_and_eligibility_unverified",
+      "usableScope": "Nagano address and relevant service offering.",
+      "unknown": [
+        "Three relevant years or five qualifying projects",
+        "NICE exception approval",
+        "All-stage fee conditions"
+      ],
+      "nextAction": "Do not count owned SaaS/site as two customer deliveries or founding as relevant tenure."
+    },
+    {
+      "name": "Business Mall",
+      "result": "membership_unverified",
+      "nextAction": "Existing membership/approval gap remains; mapping does not resolve it."
+    }
+  ],
+  "submitted": false,
+  "accountCreated": false,
+  "consentGiven": false,
+  "paidAction": false,
+  "publicationChanged": false,
+  "effect": "not-yet-measurable",
+  "nextIndependentAction": "Close completed low-volume original launch experiment and add one contextual link to existing change-request template. Keep target original clock and record inbound-path confound.",
+  "cleanup": "Read-only public HTTP and repository inspection; no accounts, forms or contacts."
+}

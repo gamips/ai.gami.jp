@@ -1,0 +1,49 @@
+{
+  "checkedAt": "2026-10-20T23:01:54.637Z",
+  "sourceBuildCommit": "5e06bbdc61e9680eee6af220ef7c059bd542c6a6",
+  "scope": "Five due observation URLs; read-only live initial HTML checks against unchanged October18 verified build. No new build, deploy or UI change.",
+  "pages": [
+    {
+      "url": "https://ai.gami.jp/insights/rag-answer-review-sheet/",
+      "status": 200,
+      "headAndBodyMatch": true,
+      "selfCanonical": true,
+      "indexAllowed": true,
+      "articleCount": 1
+    },
+    {
+      "url": "https://ai.gami.jp/services/ai-saas/",
+      "status": 200,
+      "headAndBodyMatch": true,
+      "selfCanonical": true,
+      "indexAllowed": true,
+      "articleCount": 0
+    },
+    {
+      "url": "https://ai.gami.jp/insights/",
+      "status": 200,
+      "headAndBodyMatch": true,
+      "selfCanonical": true,
+      "indexAllowed": true,
+      "articleCount": 0
+    },
+    {
+      "url": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/",
+      "status": 200,
+      "headAndBodyMatch": true,
+      "selfCanonical": true,
+      "indexAllowed": true,
+      "articleCount": 1
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-website-launch-checklist/",
+      "status": 200,
+      "headAndBodyMatch": true,
+      "selfCanonical": true,
+      "indexAllowed": true,
+      "articleCount": 1
+    }
+  ],
+  "completedAt": "2026-10-20T23:01:55.050Z",
+  "passed": true
+}

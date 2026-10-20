@@ -1,0 +1,57 @@
+{
+  "observedAt": "2026-10-20T23:01:06.874Z",
+  "inspections": [
+    {
+      "siteUrl": "sc-domain:ai.gami.jp",
+      "inspectionUrl": "https://ai.gami.jp/insights/rag-answer-review-sheet/",
+      "fetchedAt": "2026-10-20T23:01:06.1687536+00:00",
+      "source": "google-index",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:ai.gami.jp&id=T43ODWxnjRfq0cAu7l1Gdg&utm_medium=link&utm_source=api",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL が Google に認識されていません",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "googleCanonical": null,
+      "userCanonical": null
+    },
+    {
+      "siteUrl": "sc-domain:ai.gami.jp",
+      "inspectionUrl": "https://ai.gami.jp/services/ai-saas/",
+      "fetchedAt": "2026-10-20T23:01:06.7384076+00:00",
+      "source": "google-index",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:ai.gami.jp&id=lZxsgXqFC_lstu_awg435w&utm_medium=link&utm_source=api",
+      "verdict": "PASS",
+      "coverageState": "送信して登録されました",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-09-09T19:32:30Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://ai.gami.jp/services/ai-saas/",
+      "userCanonical": "https://ai.gami.jp/services/ai-saas/"
+    },
+    {
+      "siteUrl": "sc-domain:ai.gami.jp",
+      "inspectionUrl": "https://ai.gami.jp/insights/",
+      "fetchedAt": "2026-10-20T23:01:06.7571273+00:00",
+      "source": "google-index",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:ai.gami.jp&id=0gGdmg4nXeO2Usa0G-eCYA&utm_medium=link&utm_source=api",
+      "verdict": "PASS",
+      "coverageState": "送信して登録されました",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-09-04T17:04:10Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://ai.gami.jp/insights/",
+      "userCanonical": "https://ai.gami.jp/insights/"
+    }
+  ],
+  "reusedTargets": [
+    {
+      "url": "https://ai.gami.jp/insights/saas-or-custom-system-checklist/",
+      "evidencePath": "reports/seo/inspections/2026-10-18-due-pages.json"
+    }
+  ],
+  "note": "Three due index/crawl checks. Two older article effect followups reuse existing index evidence rather than duplicate inspection. Google-index is not a live test."
+}

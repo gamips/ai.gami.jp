@@ -7,23 +7,23 @@
     "currentCadenceHours": 24,
     "status": "ACTIVE",
     "currentSchedule": "毎日8:00（Asia/Tokyo）",
-    "scheduleObservedAt": "2026-10-19T23:08:22Z",
-    "scheduleSource": "October20 actual saved TOML: ACTIVE daily08 Asia/Tokyo. Launcher reads canonical1.0.12; unchanged."
+    "scheduleObservedAt": "2026-10-20T23:09:09.706Z",
+    "scheduleSource": "October21 saved automation.toml: ACTIVE daily08 Asia/Tokyo. Canonical1.0.12 launcher and schedule unchanged."
   },
-  "lastActualRunAt": "2026-10-19T23:08:22Z",
-  "lastPromptAuditAt": "2026-10-19T23:08:22Z",
+  "lastActualRunAt": "2026-10-20T23:09:09.706Z",
+  "lastPromptAuditAt": "2026-10-20T23:09:09.706Z",
   "measurement": {
     "searchConsole": {
       "siteUrl": "sc-domain:ai.gami.jp",
       "status": "connected",
-      "latestFinalizedDate": "2026-10-17",
-      "lastRecordedAt": "2026-10-20T08:06:13.1207614+09:00",
-      "latestMetricsPath": "reports/seo/metrics/2026-10-20-0806.json",
+      "latestFinalizedDate": "2026-10-18",
+      "lastRecordedAt": "2026-10-21T08:00:17.0451832+09:00",
+      "latestMetricsPath": "reports/seo/metrics/2026-10-21-0800.json",
       "urlInspection": {
         "status": "available",
         "source": "google-index",
-        "verifiedAt": "2026-10-19T23:07:28.826Z",
-        "latestInspectionPath": "reports/seo/inspections/2026-10-20-due-pages.json",
+        "verifiedAt": "2026-10-20T23:01:06.874Z",
+        "latestInspectionPath": "reports/seo/inspections/2026-10-21-due-pages.json",
         "implementationCommit": "6ea352c25bb87684a0b337ad0a51ba66d5f48bd4"
       },
       "sitemap": {
@@ -46,8 +46,8 @@
         "note": "New exact query gami classified as brand. Both current and previous windows use the same rule; original snapshots unchanged.",
         "evidencePath": "reports/seo/metrics/2026-09-21-0803.json"
       },
-      "lastFreshnessCheckPath": "reports/seo/metrics/2026-10-20-freshness.json",
-      "latestObservationPath": "reports/seo/metrics/2026-10-20-0806.json"
+      "lastFreshnessCheckPath": "reports/seo/metrics/2026-10-21-freshness.json",
+      "latestObservationPath": "reports/seo/metrics/2026-10-21-0800.json"
     },
     "ga4": {
       "status": "not_configured",
@@ -56,8 +56,6 @@
     }
   },
   "activeExperimentIds": [
-    "insight-sodatsu-mitsumori-case-study-v1",
-    "insight-ai-website-launch-checklist-v1",
     "insight-saas-or-custom-system-checklist-v1",
     "insight-ai-article-fact-check-template-v1",
     "price-initial-html-parity-v1",
@@ -86,18 +84,19 @@
     "insight-ai-inquiry-classification-checklist-v1",
     "insight-chatgpt-procedure-link-v1",
     "insight-reply-handoff-link-v1",
-    "insight-ai-table-cleanup-checklist-v1"
+    "insight-ai-table-cleanup-checklist-v1",
+    "insight-launch-change-request-link-v1"
   ],
   "deployment": {
-    "lastSuccessfulAt": "2026-10-17T23:08:59.0606787Z",
-    "commit": "5e06bbdc61e9680eee6af220ef7c059bd542c6a6",
-    "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/39077862046",
+    "lastSuccessfulAt": "2026-10-20T23:05:33.9214865Z",
+    "commit": "d4e4afc7ebe88d3ca330c0de435ea968ea2b1205",
+    "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/39512614842",
     "method": "GitHub Actions normal Xserver deploy",
-    "evidencePath": "reports/seo/deployments/2026-10-18-table-cleanup.json",
+    "evidencePath": "reports/seo/deployments/2026-10-21-launch-change-link.json",
     "liveVerification": "passed",
-    "actionsStatus": "Normal Actions success;9 scoped live pages200/body/head,32SEOheads/24JS hashes; article PC/mobile, listing and actual service navigation verified.",
+    "actionsStatus": "Normal Actions success; source/target200,head/body/schema and24JS hashes match. PC/mobile section and actual navigation pass; console0.",
     "priorFailedActionsRun": "https://github.com/gamips/ai.gami.jp/actions/runs/36357667097",
-    "lastSuccessfulActionsRun": "https://github.com/gamips/ai.gami.jp/actions/runs/39077862046",
+    "lastSuccessfulActionsRun": "https://github.com/gamips/ai.gami.jp/actions/runs/39512614842",
     "normalPathRecheckOnOrAfter": null,
     "returnToNormalCondition": "Resume normal Actions after a successful normal-route build/deploy and live verification.",
     "normalRouteRecoveredAt": "2026-10-04T23:11:26.247Z",
@@ -340,14 +339,9 @@
     },
     {
       "experimentId": "insight-sodatsu-mitsumori-case-study-v1",
-      "status": "observing",
+      "status": "completed",
       "startedAt": "2026-09-05T04:10:20+09:00",
-      "nextChecks": [
-        {
-          "onOrAfter": "2026-10-21",
-          "check": "Bounded follow-up of low-volume original article effects; first28day review completed inconclusive. Reuse existing index evidence unless technical signals change. Keep original start; new changes require explicit measurement boundary."
-        }
-      ],
+      "nextChecks": [],
       "completedChecks": [
         {
           "onOrAfter": "2026-09-12",
@@ -383,8 +377,49 @@
           "effectReviewEvidencePath": "reports/seo/metrics/2026-10-07-first-28-days-review.json",
           "liveTechnicalEvidencePath": "reports/seo/deployments/2026-10-07-insights-parity.json",
           "note": "First28fullfinaldays complete; insufficient page volume. No missing→zero, no latest-schema Google-index claim. Original observation start preserved."
+        },
+        {
+          "onOrAfter": "2026-10-21",
+          "check": "Bounded follow-up of low-volume original article effects; first28day review completed inconclusive. Reuse existing index evidence unless technical signals change. Keep original start; new changes require explicit measurement boundary.",
+          "checkedAt": "2026-10-20T23:03:41.786Z",
+          "queryPageEffect": "inconclusive",
+          "originalStartedAt": "2026-09-05T04:10:20+09:00",
+          "first28Days": {
+            "startDate": "2026-09-06",
+            "endDate": "2026-10-03",
+            "fullFinalDays": 28,
+            "pageClicks": 1,
+            "pageImpressions": 10,
+            "evidencePath": "reports/seo/metrics/2026-10-07-first-28-days-review.json"
+          },
+          "cumulativeWindow": {
+            "startDate": "2026-09-06",
+            "endDate": "2026-10-18",
+            "fullFinalDays": 43,
+            "clicks": 1,
+            "impressions": 12,
+            "ctr": 0.08333333333333333,
+            "position": 6.833333333333333
+          },
+          "page28d": {
+            "page": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 4
+          },
+          "minimumPageImpressions": 30,
+          "indexEvidenceReusedFrom": "reports/seo/inspections/2026-10-06-due-pages.json",
+          "metricsEvidencePath": "reports/seo/metrics/2026-10-21-0800.json",
+          "effectReviewEvidencePath": "reports/seo/metrics/2026-10-21-effect-followup.json",
+          "rawEvidencePath": "reports/seo/metrics/2026-10-21-effect-followup-raw.json",
+          "liveTechnicalEvidencePath": "reports/seo/inspections/2026-10-21-live-due-pages.json",
+          "note": "Original fixed first28days and cumulative followup are separate. Low-volume inconclusive, not failure. Shared schema/discovery changes prevent content-only attribution."
         }
-      ]
+      ],
+      "result": "inconclusive",
+      "closedAt": "2026-10-20T23:03:41.786Z",
+      "closeReason": "Fixed first28day review and bounded cumulative followup both below30pageimpressions. Close this original page-package variable; keep published article and history. Any new change is a separate experiment."
     },
     {
       "experimentId": "insight-rag-document-inventory-checklist-v1",
@@ -440,14 +475,9 @@
     },
     {
       "experimentId": "insight-ai-website-launch-checklist-v1",
-      "status": "observing",
+      "status": "completed",
       "startedAt": "2026-09-06T00:46:42+09:00",
-      "nextChecks": [
-        {
-          "onOrAfter": "2026-10-21",
-          "check": "Bounded follow-up of low-volume original article effects; first28day review completed inconclusive. Reuse existing index evidence unless technical signals change. Keep original start; new changes require explicit measurement boundary."
-        }
-      ],
+      "nextChecks": [],
       "completedChecks": [
         {
           "onOrAfter": "2026-09-13",
@@ -483,8 +513,49 @@
           "effectReviewEvidencePath": "reports/seo/metrics/2026-10-07-first-28-days-review.json",
           "liveTechnicalEvidencePath": "reports/seo/deployments/2026-10-07-insights-parity.json",
           "note": "First28fullfinaldays complete; insufficient page volume. No missing→zero, no latest-schema Google-index claim. Original observation start preserved."
+        },
+        {
+          "onOrAfter": "2026-10-21",
+          "check": "Bounded follow-up of low-volume original article effects; first28day review completed inconclusive. Reuse existing index evidence unless technical signals change. Keep original start; new changes require explicit measurement boundary.",
+          "checkedAt": "2026-10-20T23:03:41.786Z",
+          "queryPageEffect": "inconclusive",
+          "originalStartedAt": "2026-09-06T00:46:42+09:00",
+          "first28Days": {
+            "startDate": "2026-09-07",
+            "endDate": "2026-10-04",
+            "fullFinalDays": 28,
+            "pageClicks": 0,
+            "pageImpressions": 3,
+            "evidencePath": "reports/seo/metrics/2026-10-07-first-28-days-review.json"
+          },
+          "cumulativeWindow": {
+            "startDate": "2026-09-07",
+            "endDate": "2026-10-18",
+            "fullFinalDays": 42,
+            "clicks": 0,
+            "impressions": 4,
+            "ctr": 0,
+            "position": 12.25
+          },
+          "page28d": {
+            "page": "https://ai.gami.jp/insights/ai-website-launch-checklist/",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 18
+          },
+          "minimumPageImpressions": 30,
+          "indexEvidenceReusedFrom": "reports/seo/inspections/2026-10-07-due-pages.json",
+          "metricsEvidencePath": "reports/seo/metrics/2026-10-21-0800.json",
+          "effectReviewEvidencePath": "reports/seo/metrics/2026-10-21-effect-followup.json",
+          "rawEvidencePath": "reports/seo/metrics/2026-10-21-effect-followup-raw.json",
+          "liveTechnicalEvidencePath": "reports/seo/inspections/2026-10-21-live-due-pages.json",
+          "note": "Original fixed first28days and cumulative followup are separate. Low-volume inconclusive, not failure. Shared schema/discovery changes prevent content-only attribution."
         }
-      ]
+      ],
+      "result": "inconclusive",
+      "closedAt": "2026-10-20T23:03:41.786Z",
+      "closeReason": "Fixed first28day review and bounded cumulative followup both below30pageimpressions. Close this original page-package variable; keep published article and history. Any new change is a separate experiment."
     },
     {
       "experimentId": "insight-ai-customer-reply-template-v1",
@@ -1181,8 +1252,8 @@
       "startedAt": "2026-09-23T08:06:22.8197618+09:00",
       "nextChecks": [
         {
-          "onOrAfter": "2026-10-21",
-          "check": "Bounded index/crawl followup; live technical checks pass October14. Retain original start/effect date and reuse existing target evidence."
+          "onOrAfter": "2026-10-28",
+          "check": "Bounded index/crawl followup; preserve original start and effect date. Reuse available target/live evidence; no rewrite solely for old or unknown index."
         },
         {
           "onOrAfter": "2026-10-24",
@@ -1231,6 +1302,22 @@
           "metricsEvidencePath": "reports/seo/metrics/2026-10-14-0806.json",
           "liveTechnicalEvidencePath": "reports/seo/inspections/2026-10-14-live-due-pages.json",
           "note": "Google-index snapshot is not a live test. Old crawl/unknown status does not prove current technical failure; no effect or latest-version indexing claim."
+        },
+        {
+          "onOrAfter": "2026-10-21",
+          "check": "Bounded index/crawl followup; live technical checks pass October14. Retain original start/effect date and reuse existing target evidence.",
+          "checkedAt": "2026-10-20T23:01:06.1687536+00:00",
+          "indexResult": "not-confirmed",
+          "indexVerdict": "NEUTRAL",
+          "coverageState": "URL が Google に認識されていません",
+          "lastCrawlTime": null,
+          "postChangeRecrawl": null,
+          "queryPageEffect": "not-yet-measurable",
+          "page28d": null,
+          "inspectionEvidencePath": "reports/seo/inspections/2026-10-21-due-pages.json",
+          "metricsEvidencePath": "reports/seo/metrics/2026-10-21-0800.json",
+          "liveTechnicalEvidencePath": "reports/seo/inspections/2026-10-21-live-due-pages.json",
+          "note": "Google-index snapshot is not live. Current live initial body/head/indexability normal. Exact-URL absent row null; old or unknown crawl does not prove production defect."
         }
       ]
     },
@@ -1514,8 +1601,8 @@
       "startedAt": "2026-09-30T08:05:01.6146930+09:00",
       "nextChecks": [
         {
-          "onOrAfter": "2026-10-21",
-          "check": "Bounded index/crawl followup; live technical checks pass October14. Retain original start/effect date and reuse existing target evidence."
+          "onOrAfter": "2026-10-28",
+          "check": "Bounded index/crawl followup; preserve original start and effect date. Reuse available target/live evidence; no rewrite solely for old or unknown index."
         },
         {
           "onOrAfter": "2026-10-31",
@@ -1560,6 +1647,29 @@
           "liveTechnicalEvidencePath": "reports/seo/inspections/2026-10-14-live-due-pages.json",
           "note": "Google-index snapshot is not a live test. Old crawl/unknown status does not prove current technical failure; no effect or latest-version indexing claim.",
           "targetInspectionReusedFrom": "reports/seo/inspections/2026-10-11-due-pages.json"
+        },
+        {
+          "onOrAfter": "2026-10-21",
+          "check": "Bounded index/crawl followup; live technical checks pass October14. Retain original start/effect date and reuse existing target evidence.",
+          "checkedAt": "2026-10-20T23:01:06.7384076+00:00",
+          "indexResult": "indexed-crawl-predates-change",
+          "indexVerdict": "PASS",
+          "coverageState": "送信して登録されました",
+          "lastCrawlTime": "2026-09-09T19:32:30Z",
+          "postChangeRecrawl": false,
+          "queryPageEffect": "not-yet-measurable",
+          "page28d": {
+            "page": "https://ai.gami.jp/services/ai-saas/",
+            "clicks": 0,
+            "impressions": 4,
+            "ctr": 0,
+            "position": 15
+          },
+          "inspectionEvidencePath": "reports/seo/inspections/2026-10-21-due-pages.json",
+          "metricsEvidencePath": "reports/seo/metrics/2026-10-21-0800.json",
+          "liveTechnicalEvidencePath": "reports/seo/inspections/2026-10-21-live-due-pages.json",
+          "note": "Google-index snapshot is not live. Current live initial body/head/indexability normal. Exact-URL absent row null; old or unknown crawl does not prove production defect.",
+          "targetInspectionReusedFrom": "reports/seo/inspections/2026-10-18-due-pages.json"
         }
       ]
     },
@@ -1780,8 +1890,8 @@
       "freezeScope": "Only this intro/date/category rendering mapping; no blanket article-publishing freeze.",
       "nextChecks": [
         {
-          "onOrAfter": "2026-10-21",
-          "check": "Bounded index/crawl followup; live technical checks pass October14. Retain original start/effect date and reuse existing target evidence."
+          "onOrAfter": "2026-10-28",
+          "check": "Bounded index/crawl followup; preserve original start and effect date. Reuse available target/live evidence; no rewrite solely for old or unknown index."
         },
         {
           "onOrAfter": "2026-11-07",
@@ -1810,6 +1920,28 @@
           "metricsEvidencePath": "reports/seo/metrics/2026-10-14-0806.json",
           "liveTechnicalEvidencePath": "reports/seo/inspections/2026-10-14-live-due-pages.json",
           "note": "Google-index snapshot is not a live test. Old crawl/unknown status does not prove current technical failure; no effect or latest-version indexing claim."
+        },
+        {
+          "onOrAfter": "2026-10-21",
+          "check": "Bounded index/crawl followup; live technical checks pass October14. Retain original start/effect date and reuse existing target evidence.",
+          "checkedAt": "2026-10-20T23:01:06.7571273+00:00",
+          "indexResult": "indexed-crawl-predates-change",
+          "indexVerdict": "PASS",
+          "coverageState": "送信して登録されました",
+          "lastCrawlTime": "2026-09-04T17:04:10Z",
+          "postChangeRecrawl": false,
+          "queryPageEffect": "not-yet-measurable",
+          "page28d": {
+            "page": "https://ai.gami.jp/insights/",
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "position": 9
+          },
+          "inspectionEvidencePath": "reports/seo/inspections/2026-10-21-due-pages.json",
+          "metricsEvidencePath": "reports/seo/metrics/2026-10-21-0800.json",
+          "liveTechnicalEvidencePath": "reports/seo/inspections/2026-10-21-live-due-pages.json",
+          "note": "Google-index snapshot is not live. Current live initial body/head/indexability normal. Exact-URL absent row null; old or unknown crawl does not prove production defect."
         }
       ]
     },
@@ -2102,23 +2234,40 @@
           "check": "28 full finalized post-publication days October19–November15 and at least30 page impressions. Latest final at leastNovember15; current three-day lag used for date, verify actual freshness."
         }
       ]
+    },
+    {
+      "experimentId": "insight-launch-change-request-link-v1",
+      "status": "observing",
+      "startedAt": "2026-10-20T23:05:33.9214865Z",
+      "technicalResult": "confirmed",
+      "acquisitionEffect": "not-yet-measurable",
+      "freezeScope": "New source section link only; source paragraph/head/dates unchanged. Target remains under original experiment.",
+      "nextChecks": [
+        {
+          "onOrAfter": "2026-10-28",
+          "check": "Source crawl/index followup; reuse target October25 index evidence. Target original October28 effect review preserved."
+        },
+        {
+          "onOrAfter": "2026-11-21",
+          "check": "28fullfinaldays October22–November18 and >=30targetpageimpressions; actuallatestfinal>=November18. No causal,linkclick,qualifiedvisit or inquiry claim."
+        }
+      ]
     }
   ],
   "readyQueue": [
     {
-      "lane": "free-publicity",
+      "lane": "case-study",
       "priority": 1,
-      "status": "evidence_mapping_ready",
-      "work": "既存の公開事例から、無料掲載候補の対象条件に使える事実を整理する。",
+      "status": "evidence_refresh_ready",
+      "work": "育つ見積の公開事例を、現在の製品説明と照合する。",
       "evidencePaths": [
-        "reports/seo/publicity/2026-10-19-business-mall-review.json",
-        "reports/seo/publicity/2026-10-20-candidate-review.json",
-        "src/app/content/company.js",
-        "docs/seo/case-studies/sodatsu-mitsumori-evidence.md"
+        "docs/seo/case-studies/sodatsu-mitsumori-evidence.md",
+        "src/app/content/insights.js",
+        "reports/seo/publicity/2026-10-21-eligibility-mapping.json"
       ],
-      "implementation": "Map existing public software/information-processing offerings and verified delivery/operation dates to J-GoodTech eligibility and Nagano experience criteria. Distinguish consulting from actual software delivery, establishment from relevant work history, and owned product from customer projects. No invented outcomes/projectcounts. Record unknown company-size/ownership fields; no application, agreement, account or contact. Do not repeatedly revisit unchanged cost/membership gaps.",
-      "measurement": "No listing, ranking, referral or inquiry effect yet. Keep GitHub-description experiment and October29review unchanged.",
-      "verification": "Every affirmative claim tied to existing first-party evidence and exact public scope. Discovery/evidence mapping is not approval to submit."
+      "implementation": "Read only current first-party product pages and compare the September5 case snapshot with what is currently publicly offered. Start with AI draft/human review/document handoff. Record exact supported changes or no change; do not infer results, training effects, start dates or customer counts. Original case experiment closed inconclusive; any justified public update needs latest-model copy, a separate variable and scoped verification. Do not modify the product repo or registration systems.",
+      "measurement": "No new effect inferred from a factual evidence refresh. Preserve all other experiment clocks.",
+      "verification": "Confirm any new factual claim from current first-party evidence; product marketing alone does not prove measured outcomes."
     }
   ],
   "blocked": [
@@ -2165,24 +2314,35 @@
         "Existing owned-site experiments",
         "J-GoodTech eligibility evidence mapping"
       ]
+    },
+    {
+      "lane": "free-publicity",
+      "item": "J-GoodTech registration",
+      "reason": "Software/SaaS scope supported by public evidence; applicable current legal/company-size/ownership conditions and private/pending duplicate status unresolved. Dated self-published capital amount is not current registry verification.",
+      "evidencePath": "reports/seo/publicity/2026-10-21-eligibility-mapping.json",
+      "resumeWhen": "New authoritative company eligibility evidence available. No repeated daily criteria search; application/account/consent remains separate authority.",
+      "doesNotBlock": [
+        "Owned-site content and internal links",
+        "Case-study evidence refresh"
+      ]
     }
   ],
   "promptAudit": {
     "lastFullAuditAt": "2026-10-19T23:08:22Z",
-    "fullAudit": true,
+    "fullAudit": false,
     "duplicateObservation": false,
     "singleWriterConflict": false,
     "verificationGap": false,
     "cadenceChangeNeeded": false,
-    "nextFullAuditAfterCompletedRuns": 4,
+    "nextFullAuditAfterCompletedRuns": 3,
     "actualPromptReadback": "passed",
     "changeApplied": false,
     "operatingPolicyUpdated": false,
     "launcherPromptUpdated": false,
     "writingModelConfigured": "gpt-6.1-sol",
     "normalRouteStillHealthy": true,
-    "changeReason": "October19 interrupted after saved measurement/live checks and partial discovery. Existing1.0.11 checkpoint/resume rule allowed recovery without refetch or relabeling.1.0.12 output-unit procedure remains sufficient; no new safety/measurement rule or cadence change justified.",
-    "laneAssessment": "Two contextual-link releases, one distinct article, then bounded free-publicity discovery. Incomplete October19 research completed on October20 while own-page observation continues. No need for more link-only work or generic article volume.",
+    "changeReason": "Existing output/checkpoint instructions cover initial oversized reads; complete JSON was reread into structured storage before edits or validation. No evidence lost, duplicate acquisition, new operating boundary or cadence need. Canonical wording unchanged.",
+    "laneAssessment": "Completed the ready publicity evidence mapping, then published a scoped link after explicitly closing low-volume original experiments. Next independent work is current case evidence, not further unchanged eligibility research.",
     "newReusableLearning": null,
     "auditedRunDates": [
       "2026-10-16",
@@ -2191,7 +2351,7 @@
       "2026-10-19",
       "2026-10-20"
     ],
-    "independentReview": "oct20_ops_review reviews both dated metric collections, seven inspections and recovery/audit. Root validates saved records."
+    "independentReview": "oct21_measure_review reconciled14groups/76rows, exact-URL cumulative followup and3due inspections. Final baseline diff review passed: starts/history, target clocks,8events,1runlog,inventory,blockers and cadence preserved."
   },
   "retiredBlockers": [
     {

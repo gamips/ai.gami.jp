@@ -1,0 +1,65 @@
+{
+  "verifiedAt": "2026-10-20T23:07:56.131Z",
+  "commit": "d4e4afc7ebe88d3ca330c0de435ea968ea2b1205",
+  "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/39512614842",
+  "deployedAt": "2026-10-20T23:05:33.9214865Z",
+  "method": "GitHub Actions normal Xserver deploy",
+  "actionsConclusion": "success",
+  "response": {
+    "ok": true,
+    "extracted": 78,
+    "deletedStalePaths": 1
+  },
+  "sourceUrl": "https://ai.gami.jp/insights/ai-website-launch-checklist/",
+  "targetUrl": "https://ai.gami.jp/insights/ai-website-change-request-template/",
+  "change": "One existing-renderer contextual link; existing paragraphs,dates,heads,CSS,target and other18articles unchanged.",
+  "staticEvidencePath": "reports/seo/validation/2026-10-21-link-static.json",
+  "liveEvidencePath": "reports/seo/validation/2026-10-21-link-live.json",
+  "assetEvidencePath": "reports/seo/validation/2026-10-21-assets.json",
+  "browser": {
+    "session": "ai-seo-oct21",
+    "source": {
+      "desktopWidth": 1280,
+      "mobileWidth": 390,
+      "h1Count": 1,
+      "articleCount": 1,
+      "webPageCount": 1,
+      "horizontalOverflow": false,
+      "changedSectionScreenshotsViewed": [
+        "output/playwright/2026-10-21-launch-link-desktop.png",
+        "output/playwright/2026-10-21-launch-link-mobile.png"
+      ]
+    },
+    "navigation": {
+      "desktop": true,
+      "mobile": true,
+      "targetUrl": "https://ai.gami.jp/insights/ai-website-change-request-template/",
+      "targetH1Count": 1,
+      "targetArticleCount": 1,
+      "targetWebPageCount": 1,
+      "targetScrollY": 0,
+      "targetHorizontalOverflow": false,
+      "backNavigation": true
+    },
+    "console": {
+      "total": 0,
+      "errors": 0,
+      "warnings": 0
+    },
+    "closed": true
+  },
+  "httpEvidence": {
+    "scopedPages": 2,
+    "status200": true,
+    "scriptAssets": 24,
+    "allScriptStatus200": true,
+    "allScriptHashesMatch": true,
+    "cssMatches": true,
+    "sitemapMatches": true,
+    "observed5xx": 0,
+    "scope": "Scoped page/asset requests only; not a full server log audit."
+  },
+  "technicalResult": "confirmed",
+  "acquisitionEffect": "not-yet-measurable",
+  "cleanup": "Owned browser session closed; screenshots retained under ignored output/playwright."
+}

@@ -1,0 +1,127 @@
+{
+  "checkedAt": "2026-10-20T23:07:56.040Z",
+  "matched": 24,
+  "assets": [
+    {
+      "name": "About-BVZHAZaT.js",
+      "status": 200,
+      "sha256": "9d2555bf7fb8ed2b411c66b047e345b8ce2e060d4be6dcb8ec27d94bae6a07c0"
+    },
+    {
+      "name": "arrow-right-CxPSyLa6.js",
+      "status": 200,
+      "sha256": "443e4b1fdf7c4f916e921ee910251372f8d4a6cefd6a0547aa6501e17a544cbe"
+    },
+    {
+      "name": "Concept-Dfedi1Tm.js",
+      "status": 200,
+      "sha256": "b8ec9738a4e839a26d242de7c76a47f871f2742940bec29991d99b9603abb928"
+    },
+    {
+      "name": "Contact-D7A0qHbM.js",
+      "status": 200,
+      "sha256": "e96d4b36c7f51d26005a267229b0851f371a92c0d972489425e5d03cd8b4d4d3"
+    },
+    {
+      "name": "ContactThanks-D-K__AIy.js",
+      "status": 200,
+      "sha256": "8af35b2fee5a7640d1316e17488a1fde317ae2a593dfa4b971cf139553a485ab"
+    },
+    {
+      "name": "createLucideIcon-BrKrlyEM.js",
+      "status": 200,
+      "sha256": "5ea0f706a7aa1b826d45119d4638504bf04f59927aa7724b9ba4c7e28334a64c"
+    },
+    {
+      "name": "Footer-DYZBrUsa.js",
+      "status": 200,
+      "sha256": "802b04986f5b488c148ab6ba70cdf0a2e6db946f3155635ee6852b81013a710e"
+    },
+    {
+      "name": "GeometricParticles-cTgwRyoL.js",
+      "status": 200,
+      "sha256": "237ebf05872780c4cbd407f93750a474354e32404420e81f94553909b058c248"
+    },
+    {
+      "name": "Header-Cnu5Um1A.js",
+      "status": 200,
+      "sha256": "816c5f6cf86c49d091cab2f7874853abd80b7e12e180bc82868ed7639b355811"
+    },
+    {
+      "name": "Home-BVY604h2.js",
+      "status": 200,
+      "sha256": "c8f4a9ab69466011cb86ecdc373a93d5897d4f2cbb0f230dd2f315982ea394a3"
+    },
+    {
+      "name": "index-C7r2yZZY.js",
+      "status": 200,
+      "sha256": "5319ac0750c772f5be8d8298ce7e6b783f84ecee30c2f4154deb5135d4090b4b"
+    },
+    {
+      "name": "InquiryCta-CVaDVyPY.js",
+      "status": 200,
+      "sha256": "035e47ecf95e5924c390ed83d8959fc09b6e80322c53abf73fa3efa638efbf7f"
+    },
+    {
+      "name": "InsightDetail-C27whCaa.js",
+      "status": 200,
+      "sha256": "0bbb0cfd28501198f6e514c0cab099d96b027b422a38257e789af63db7eb740b"
+    },
+    {
+      "name": "Insights-Dw6o052D.js",
+      "status": 200,
+      "sha256": "f827a83141ec1a9eee45b2ffcab7c8bfecaae773ce5de56e5667dfe5ab728b0d"
+    },
+    {
+      "name": "News-DIekygxk.js",
+      "status": 200,
+      "sha256": "7897744bdc2a9b9846510f1f961b6de0d2b6904884b5494c821da9a6eaa7d7ed"
+    },
+    {
+      "name": "NotFound-CUQwJtY6.js",
+      "status": 200,
+      "sha256": "60ffdb38f874b01641b0e676b71d3e76ba095b55fccf23adf5ced9b3ea87daa0"
+    },
+    {
+      "name": "PageSeo-Di61XA3I.js",
+      "status": 200,
+      "sha256": "387b4fb973a13510fc35c0862f4a09e3b961550e2a78c73e1a4c46a3c77f77ac"
+    },
+    {
+      "name": "Price-DKnNYYwW.js",
+      "status": 200,
+      "sha256": "741b3d1f670fff54af522727d072bc4237350b394d7ed62825fdee8bf04e3f01"
+    },
+    {
+      "name": "proxy-CcPLk2oR.js",
+      "status": 200,
+      "sha256": "277105d7aad1a52bf5ab7d7bf7218858a87a9da4dd8d1860ce82e0ec4867f9af"
+    },
+    {
+      "name": "ScrollReveal-DxeAB2tR.js",
+      "status": 200,
+      "sha256": "1495762bc145ecdcd56c455648d3522e66fffc596f3e670e0a7d95edbff5f00c"
+    },
+    {
+      "name": "ScrollToTopLink-DOF3eMmH.js",
+      "status": 200,
+      "sha256": "3c036b820b706e011c0793625d6accf61f1b2b960119e5747187386a2d60c79e"
+    },
+    {
+      "name": "ServiceDetail-X8XCO8Co.js",
+      "status": 200,
+      "sha256": "dbe28bdb3ec292c744154b9940ee3bfd5e8f4997c8f75c668037330ac61aef81"
+    },
+    {
+      "name": "Services-C7l9tkga.js",
+      "status": 200,
+      "sha256": "0c5dc025a805a60e50a44445054490514617c3453d8cc1e873bdafd52140cdad"
+    },
+    {
+      "name": "services-CYnRBhm2.js",
+      "status": 200,
+      "sha256": "235de7c9cdc7cf5a48c15aab4fa5798e68a636d21fa52031615856ef8b702759"
+    }
+  ],
+  "passed": true
+}
