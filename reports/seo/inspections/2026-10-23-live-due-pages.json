@@ -1,0 +1,73 @@
+{
+  "checkedAt": "2026-10-22T22:59:34.800Z",
+  "sourceBuildCommit": "86118b988751b54e97e64ae973470cf70625a869",
+  "scope": "Six due observation URLs plus About/case baseline; read-only live initial HTML checks against unchanged October22 verified build. No new build or deploy yet.",
+  "pages": [
+    {
+      "url": "https://ai.gami.jp/about/",
+      "status": 200,
+      "headAndBodyMatch": true,
+      "selfCanonical": true,
+      "indexAllowed": true,
+      "articleCount": 0
+    },
+    {
+      "url": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/",
+      "status": 200,
+      "headAndBodyMatch": true,
+      "selfCanonical": true,
+      "indexAllowed": true,
+      "articleCount": 1
+    },
+    {
+      "url": "https://ai.gami.jp/services/",
+      "status": 200,
+      "headAndBodyMatch": true,
+      "selfCanonical": true,
+      "indexAllowed": true,
+      "articleCount": 0
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-work-handoff-template/",
+      "status": 200,
+      "headAndBodyMatch": true,
+      "selfCanonical": true,
+      "indexAllowed": true,
+      "articleCount": 1
+    },
+    {
+      "url": "https://ai.gami.jp/insights/rag-document-inventory-checklist/",
+      "status": 200,
+      "headAndBodyMatch": true,
+      "selfCanonical": true,
+      "indexAllowed": true,
+      "articleCount": 1
+    },
+    {
+      "url": "https://ai.gami.jp/insights/chatgpt-workplace-adoption-checklist/",
+      "status": 200,
+      "headAndBodyMatch": true,
+      "selfCanonical": true,
+      "indexAllowed": true,
+      "articleCount": 1
+    },
+    {
+      "url": "https://ai.gami.jp/concept/",
+      "status": 200,
+      "headAndBodyMatch": true,
+      "selfCanonical": true,
+      "indexAllowed": true,
+      "articleCount": 0
+    },
+    {
+      "url": "https://ai.gami.jp/insights/saas-or-custom-system-checklist/",
+      "status": 200,
+      "headAndBodyMatch": true,
+      "selfCanonical": true,
+      "indexAllowed": true,
+      "articleCount": 1
+    }
+  ],
+  "completedAt": "2026-10-22T22:59:35.408Z",
+  "passed": true
+}

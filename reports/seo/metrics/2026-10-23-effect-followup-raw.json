@@ -1,0 +1,20 @@
+{
+  "observedAt": "2026-10-23T07:58:37.2517750+09:00",
+  "startDate": "2026-09-08",
+  "endDate": "2026-10-20",
+  "timeZone": "America/Los_Angeles",
+  "filterPage": "https://ai.gami.jp/insights/saas-or-custom-system-checklist/",
+  "result": {
+    "siteUrl": "sc-domain:ai.gami.jp",
+    "startDate": "2026-09-08",
+    "endDate": "2026-10-20",
+    "dimensions": [
+      "page"
+    ],
+    "searchType": "web",
+    "dataState": "final",
+    "rowCount": 0,
+    "rows": [],
+    "metadata": null
+  }
+}

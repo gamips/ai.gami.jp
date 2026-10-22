@@ -1,0 +1,24 @@
+{
+  "checkedAt": "2026-10-22T23:10:57.285Z",
+  "passed": true,
+  "baselineCommit": "472c8ebe27a06f246140f2dfdd194753d9bda47b",
+  "activeExperiments": 31,
+  "observationEntries": 40,
+  "inventoryEntries": 32,
+  "appendedExperimentEvents": 9,
+  "appendedRunLogs": 1,
+  "historicalStartsAndChecksPreserved": true,
+  "unaffectedObservationsUnchanged": true,
+  "targetClockUnchanged": true,
+  "rawMetricGroups": 14,
+  "rawMetricRows": 76,
+  "allReferencedEvidencePresent": true,
+  "referenceChecks": 316,
+  "promptAndCadenceUnchanged": true,
+  "scope": "Records and source evidence, not causal SEO effects.",
+  "independentReview": {
+    "agent": "oct23_measure_review",
+    "result": "passed",
+    "scope": "Final record diff, historical clocks and scheduled reviews; no defects found."
+  }
+}

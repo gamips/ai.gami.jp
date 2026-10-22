@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-22T01:22:58.526Z",
+  "updatedAt": "2026-10-22T23:06:38.673Z",
   "rules": {
     "oneOwnerUrlPerIntent": true,
     "publicCopyExcludesOperationalMetadata": true
@@ -102,8 +102,13 @@
       "intent": "GAMIの会社情報と価値観",
       "status": "published",
       "lastModified": "2026-09-20",
-      "experimentId": "about-initial-html-parity-v1",
-      "contentSource": "src/app/content/company.js"
+      "experimentId": "about-case-study-link-v1",
+      "contentSource": "src/app/content/company.js",
+      "previousExperimentIds": [
+        "about-initial-html-parity-v1"
+      ],
+      "relatedCaseStudy": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/",
+      "internalLinkUpdatedAt": "2026-10-22T23:03:15.206Z"
     },
     {
       "url": "https://ai.gami.jp/contact/",

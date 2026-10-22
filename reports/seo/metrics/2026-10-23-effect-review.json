@@ -1,0 +1,85 @@
+{
+  "reviewedAt": "2026-10-22T22:59:36.023Z",
+  "reportingTimeZone": "America/Los_Angeles",
+  "latestFinalizedDate": "2026-10-20",
+  "qualifiedOrganicVisits": null,
+  "organicInquiries": null,
+  "reviews": [
+    {
+      "experimentId": "concept-initial-html-parity-v1",
+      "url": "https://ai.gami.jp/concept/",
+      "startedAt": "2026-09-22T08:10:21.6542972+09:00",
+      "publicationPacificDate": "2026-09-21",
+      "before": {
+        "startDate": "2026-08-24",
+        "endDate": "2026-09-20",
+        "page": {
+          "page": "https://ai.gami.jp/concept/",
+          "clicks": 0,
+          "impressions": 4,
+          "ctr": 0,
+          "position": 8.25
+        },
+        "acquiredAt": "2026-10-21T08:00:17.0451832+09:00",
+        "evidencePath": "reports/seo/metrics/2026-10-21-0800.json"
+      },
+      "first28FullPostDays": {
+        "startDate": "2026-09-22",
+        "endDate": "2026-10-19",
+        "page": {
+          "page": "https://ai.gami.jp/concept/",
+          "clicks": 0,
+          "impressions": 12,
+          "ctr": 0,
+          "position": 6.166666666666667
+        },
+        "acquiredAt": "2026-10-22T10:09:40.2426673+09:00",
+        "evidencePath": "reports/seo/metrics/2026-10-22-1009.json"
+      },
+      "minimumEvidence": {
+        "fullFinalDays": 28,
+        "pageImpressions": 30
+      },
+      "technicalResult": "confirmed",
+      "result": "inconclusive",
+      "decision": "Keep original start/history; retain October27index check; bounded effect followupNovember6.",
+      "indexEvidencePath": "reports/seo/inspections/2026-10-20-due-pages.json",
+      "lastCrawlTime": "2026-09-04T15:32:11Z",
+      "note": "Existing saved groups exactly match Pacific windows; no requery. Recorded crawl predates change; small sample. Original planned JST-based window is not treated as first28fullPacificdays."
+    },
+    {
+      "experimentId": "insight-saas-or-custom-system-checklist-v1",
+      "url": "https://ai.gami.jp/insights/saas-or-custom-system-checklist/",
+      "startedAt": "2026-09-08T08:27:16.2517786+09:00",
+      "publicationPacificDate": "2026-09-07",
+      "historicalFirstReviewEvidencePath": "reports/seo/metrics/2026-10-09-saas-first-28-days-review.json",
+      "historicalReviewWindow": {
+        "startDate": "2026-09-09",
+        "endDate": "2026-10-06",
+        "note": "Historical conservative28fullpostdays, one day after earliest Pacific full-day start; retained unchanged, not relabeled as earliest28."
+      },
+      "cumulativeWindow": {
+        "startDate": "2026-09-08",
+        "endDate": "2026-10-20",
+        "fullFinalDays": 43,
+        "page": null,
+        "acquiredAt": "2026-10-23T07:58:37.2517750+09:00"
+      },
+      "rawEvidencePath": "reports/seo/metrics/2026-10-23-effect-followup-raw.json",
+      "technicalResult": "confirmed",
+      "result": "inconclusive",
+      "decision": "Retain October25index check and bounded November6effect review while discovery-link experiment remains active. Do not rewrite unknown page.",
+      "indexEvidencePath": "reports/seo/inspections/2026-10-18-due-pages.json",
+      "lastCrawlTime": null,
+      "note": "No exactpage row returned even over43fullPacificpostdays; missing not zero. No confirmed indexing or attribution. Existing September30service link is a confound."
+    }
+  ],
+  "liveTechnicalEvidencePath": "reports/seo/inspections/2026-10-23-live-due-pages.json",
+  "extraApiQueries": 1,
+  "independentReview": {
+    "agent": "oct23_measure_review",
+    "reviewedAt": "2026-10-22T23:02:17.098Z",
+    "result": "passed_with_caveats",
+    "notes": "Concept28daypre/postPT and SaaS43fullpostdays verified; null and historicalwindow labels retained; inconclusive results appropriate."
+  }
+}

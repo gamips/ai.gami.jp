@@ -1,0 +1,57 @@
+{
+  "createdAt": "2026-10-22T23:04:57.115Z",
+  "scope": "Internal next-run brief, not drafted/published content or measured demand.",
+  "researchAgent": "oct23_next_content",
+  "titleDirection": "AIで社内FAQを作る｜質問をまとめる前の確認メモ",
+  "readerQuestion": "似た質問をまとめてよいか。対象者や時期で答えが変わる質問、元資料に答えがない質問をどう残すか。",
+  "artifactFields": [
+    "質問の言い換え",
+    "回答が同じになる条件",
+    "回答の元資料",
+    "FAQ案または確認先"
+  ],
+  "exampleRequirement": "Clearly fictional internal rules and4–5questions; show merge, separate and hold examples. Missing source text is a question to resolve, not proof of prohibition.",
+  "scopeEvidence": [
+    {
+      "path": "src/app/content/services.ts",
+      "lines": [
+        232,
+        507,
+        520
+      ],
+      "supports": "Existing scope includes documents/access/freshness and FAQ/previous-response organization; not a new service promise."
+    }
+  ],
+  "differentiation": {
+    "rag-document-inventory-checklist": "Owns source material inventory, not question-group editing.",
+    "rag-answer-review-sheet": "Owns generated answer review, not combining FAQ questions.",
+    "ai-inquiry-classification-checklist": "Owns inquiry routing/categories, not authoring conditional FAQ."
+  },
+  "requirementsBeforePublication": [
+    "Check current live first-party service content.",
+    "Review19existing articles again for intent overlap.",
+    "Use fictional examples only; no real customer questions, identities or confidential documents.",
+    "Consult vendor primary docs only if product-specific features/settings are introduced."
+  ],
+  "notClaimed": [
+    "Measured search demand",
+    "Reduced inquiry volume",
+    "Improved accuracy",
+    "Ranking gains"
+  ],
+  "ready": {
+    "lane": "content",
+    "priority": 1,
+    "status": "brief_ready",
+    "work": "AIで社内FAQを整える短い記入例とテンプレートを作る。",
+    "candidatePath": "/insights/ai-internal-faq-editing-template/",
+    "evidencePaths": [
+      "reports/seo/content/2026-10-23-faq-brief.json",
+      "src/app/content/services.ts",
+      "docs/seo/content-inventory.json"
+    ],
+    "implementation": "Create one useful article only after checking live first-party service scope and all existing article intents. Latest-model subagent writes; root checks. Show explicit fictional source rules and4–5questions demonstrating merge/split/hold decisions, not only generic field descriptions. Existing renderer, no new UI/card/template redesign. Leave all frozen articles/service bodies unchanged; new page may link out to relevant existing service.",
+    "measurement": "Reader-intent hypothesis, not measured search demand. No promises of inquiry reduction, accuracy or ranking. Track as one page package with fresh baseline and Pacific full-day window; preserve all other starts.",
+    "verification": "Build/head/body/Article1/WebPage1/sitemap/list/internal navigation; one scoped production desktop/mobile check. No public references/internal meta."
+  }
+}

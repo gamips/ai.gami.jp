@@ -1,0 +1,66 @@
+{
+  "recordedAt": "2026-10-22T23:00:15.929Z",
+  "experimentId": "about-case-study-link-v1",
+  "sourceUrl": "https://ai.gami.jp/about/",
+  "targetUrl": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/",
+  "variable": "One existing-style text link in business section, shared company source for React and initial HTML.",
+  "copy": {
+    "label": "「育つ見積」の開発事例を見る",
+    "author": "oct23_about_copy",
+    "model": "gpt-6.1-sol",
+    "rootReview": "Shortened label accepted; destination content truthful, no new paragraph or claims."
+  },
+  "baseline": {
+    "sourceExperimentClosed": "about-initial-html-parity-v1",
+    "source28d": {
+      "page": "https://ai.gami.jp/about/",
+      "clicks": 0,
+      "impressions": 39,
+      "ctr": 0,
+      "position": 5.487179487179487
+    },
+    "target28d": {
+      "page": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 4
+    },
+    "metricsEvidencePath": "reports/seo/metrics/2026-10-23-current.json",
+    "liveEvidencePath": "reports/seo/inspections/2026-10-23-live-due-pages.json"
+  },
+  "designEvidence": {
+    "provider": "Lazyweb",
+    "query": "company about case study link",
+    "coverage": "strong",
+    "selectedPage": "https://www.wisdom.ai/resources/case-studies",
+    "privateResearchUrl": "https://www.lazyweb.com/agentic-search/a602acd2-8b76-421e-973b-fee4463b71aa",
+    "applied": "Only contextual case-study discovery principle. Existing cyan text/arrow link style reused. No card/grid/new section or unverified outcome claims copied.",
+    "workflow": "Current live search-screens workflow overrides deprecated report-by-default local routing; no Growth Report requested/generated."
+  },
+  "expectedSignal": "Relevant case discovery and crawl/query pickup. No direct linkclick or qualifiedvisit/inquiry measurement available.",
+  "minimumEvidence": {
+    "technical": "Build; exact link count1 in source initialHTML and renderedDOM; target unchanged; desktop/mobile display and navigation,console; live assets match.",
+    "effect": "28fullfinal Pacific days after release and>=30targetpageimpressions; descriptive only."
+  },
+  "freeze": {
+    "sourceLink": true,
+    "sourceHead": true,
+    "targetContentUnchanged": true,
+    "until": "2026-11-23",
+    "exceptions": [
+      "factual correction",
+      "broken link",
+      "layout/index regression"
+    ]
+  },
+  "reviewAt": [
+    "2026-10-30",
+    "2026-11-23"
+  ],
+  "rollback": "Remove company.caseStudy, source link and About fallbackSection link only.",
+  "relatedTargetExperiment": "case-document-preservation-clarification-v1",
+  "attributionNote": "Inbound discovery change confounds target sentence-clarification effect. Preserve target start and November22 review; never attribute subsequent target impressions solely to either change.",
+  "status": "ready_for_deploy",
+  "result": "not-yet-measurable"
+}

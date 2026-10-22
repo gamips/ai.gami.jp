@@ -1,0 +1,31 @@
+{
+  "checkedAt": "2026-10-22T23:01:54.963Z",
+  "baselineCommit": "472c8ebe27a06f246140f2dfdd194753d9bda47b",
+  "mode": "pre-deploy",
+  "companyFactsUnchanged": true,
+  "all19ArticlesUnchanged": true,
+  "onlyAboutFallbackLinkChanged": true,
+  "pages": [
+    {
+      "path": "/about",
+      "status": 200,
+      "headUnchanged": true,
+      "bodyMatched": true,
+      "articleCount": 0,
+      "selfCanonical": true,
+      "indexAllowed": true
+    },
+    {
+      "path": "/insights/sodatsu-mitsumori-case-study",
+      "status": 200,
+      "headUnchanged": true,
+      "bodyMatched": true,
+      "articleCount": 1,
+      "selfCanonical": true,
+      "indexAllowed": true
+    }
+  ],
+  "sitemapUnchanged": true,
+  "cssUnchanged": true,
+  "passed": true
+}

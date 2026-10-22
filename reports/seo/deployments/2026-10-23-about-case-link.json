@@ -1,0 +1,333 @@
+{
+  "verifiedAt": "2026-10-22T23:05:49.861Z",
+  "status": "verified",
+  "productionCommit": "57c80977fc3b46b2aed8ef3a2580e46476be8f1a",
+  "method": "GitHub Actions normal Xserver deploy",
+  "workflow": {
+    "conclusion": "success",
+    "createdAt": "2026-10-22T23:02:19Z",
+    "headSha": "57c80977fc3b46b2aed8ef3a2580e46476be8f1a",
+    "jobs": [
+      {
+        "completedAt": "2026-10-22T23:02:55Z",
+        "conclusion": "success",
+        "databaseId": 120138757925,
+        "name": "Build and deploy",
+        "startedAt": "2026-10-22T23:02:23Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-10-22T23:02:25Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-10-22T23:02:24Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-22T23:02:26Z",
+            "conclusion": "success",
+            "name": "Checkout",
+            "number": 2,
+            "startedAt": "2026-10-22T23:02:25Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-22T23:02:32Z",
+            "conclusion": "success",
+            "name": "Setup Node.js",
+            "number": 3,
+            "startedAt": "2026-10-22T23:02:26Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-22T23:02:46Z",
+            "conclusion": "success",
+            "name": "Install dependencies",
+            "number": 4,
+            "startedAt": "2026-10-22T23:02:32Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-22T23:02:51Z",
+            "conclusion": "success",
+            "name": "Build",
+            "number": 5,
+            "startedAt": "2026-10-22T23:02:46Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-22T23:02:52Z",
+            "conclusion": "success",
+            "name": "Deploy dist to Xserver",
+            "number": 6,
+            "startedAt": "2026-10-22T23:02:51Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-22T23:02:53Z",
+            "conclusion": "success",
+            "name": "Post Setup Node.js",
+            "number": 11,
+            "startedAt": "2026-10-22T23:02:52Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-22T23:02:53Z",
+            "conclusion": "success",
+            "name": "Post Checkout",
+            "number": 12,
+            "startedAt": "2026-10-22T23:02:53Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-22T23:02:53Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 13,
+            "startedAt": "2026-10-22T23:02:53Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/gamips/ai.gami.jp/actions/runs/39869115886/job/120138757925"
+      }
+    ],
+    "status": "completed",
+    "updatedAt": "2026-10-22T23:02:56Z",
+    "url": "https://github.com/gamips/ai.gami.jp/actions/runs/39869115886"
+  },
+  "publicationFirstObservedAt": "2026-10-22T23:03:15.206Z",
+  "build": {
+    "exitCode": 0,
+    "generatedSeoEntries": 32,
+    "sitemapUrls": 30,
+    "articles": 19
+  },
+  "scope": "One company business-section link shared between React and initialHTML. Existing company facts,19article entries,head,dates,CSS and target content unchanged.",
+  "copyAuthor": "oct23_about_copy",
+  "copyModel": "gpt-6.1-sol",
+  "planEvidencePath": "reports/seo/content/2026-10-23-about-case-plan.json",
+  "preDeploy": {
+    "checkedAt": "2026-10-22T23:01:54.963Z",
+    "baselineCommit": "472c8ebe27a06f246140f2dfdd194753d9bda47b",
+    "mode": "pre-deploy",
+    "companyFactsUnchanged": true,
+    "all19ArticlesUnchanged": true,
+    "onlyAboutFallbackLinkChanged": true,
+    "pages": [
+      {
+        "path": "/about",
+        "status": 200,
+        "headUnchanged": true,
+        "bodyMatched": true,
+        "articleCount": 0,
+        "selfCanonical": true,
+        "indexAllowed": true
+      },
+      {
+        "path": "/insights/sodatsu-mitsumori-case-study",
+        "status": 200,
+        "headUnchanged": true,
+        "bodyMatched": true,
+        "articleCount": 1,
+        "selfCanonical": true,
+        "indexAllowed": true
+      }
+    ],
+    "sitemapUnchanged": true,
+    "cssUnchanged": true,
+    "passed": true
+  },
+  "live": {
+    "checkedAt": "2026-10-22T23:03:15.206Z",
+    "baselineCommit": "472c8ebe27a06f246140f2dfdd194753d9bda47b",
+    "mode": "live",
+    "companyFactsUnchanged": true,
+    "all19ArticlesUnchanged": true,
+    "onlyAboutFallbackLinkChanged": true,
+    "pages": [
+      {
+        "path": "/about",
+        "status": 200,
+        "headUnchanged": true,
+        "bodyMatched": true,
+        "articleCount": 0,
+        "selfCanonical": true,
+        "indexAllowed": true
+      },
+      {
+        "path": "/insights/sodatsu-mitsumori-case-study",
+        "status": 200,
+        "headUnchanged": true,
+        "bodyMatched": true,
+        "articleCount": 1,
+        "selfCanonical": true,
+        "indexAllowed": true
+      }
+    ],
+    "sitemapUnchanged": true,
+    "cssUnchanged": true,
+    "passed": true
+  },
+  "assets": {
+    "checkedAt": "2026-10-22T23:03:16.171Z",
+    "matched": 24,
+    "assets": [
+      {
+        "name": "About-B1lLQGi0.js",
+        "status": 200,
+        "sha256": "1859d2bee503743e74318608a4dce0e9baa8abe317e770f6582b064a7cc7c37e"
+      },
+      {
+        "name": "arrow-right-mZy5Oq0W.js",
+        "status": 200,
+        "sha256": "3b4a46235249d71a8c70f8bbf52bc5b4d0ad9989a8b55470e2fc05be5cacea07"
+      },
+      {
+        "name": "Concept-y8IxSqLM.js",
+        "status": 200,
+        "sha256": "706386aa262168ee0cdb6d1222a82cbed6b15d6f8a366f4cede117aa568427a0"
+      },
+      {
+        "name": "Contact-_7nACmR4.js",
+        "status": 200,
+        "sha256": "b69434dae9e84e1c3dc6e7aa304c94d3d182c0b7df74f2e274794df01835a774"
+      },
+      {
+        "name": "ContactThanks-DfdcmnQy.js",
+        "status": 200,
+        "sha256": "fb889c6fce5dc67e3cc8867204590f39f03900e5ab464345588b716e4901459b"
+      },
+      {
+        "name": "createLucideIcon-V8FUM6LL.js",
+        "status": 200,
+        "sha256": "7b304f29c675db2cd63eaf6b0f0ef9a203f746c8b13752bc8a906f16942cc5e8"
+      },
+      {
+        "name": "Footer-DaCOxfMV.js",
+        "status": 200,
+        "sha256": "d9f567a6952939ba1c6cf812dc6ced9d980b824d8c0bd76b0eeac61e48ba238c"
+      },
+      {
+        "name": "GeometricParticles-CcEie1Yu.js",
+        "status": 200,
+        "sha256": "e9089f41e5e5e6604aa4fddbf5b3a14838298091c306bf962e03a34f80c3327c"
+      },
+      {
+        "name": "Header-HaNe5diR.js",
+        "status": 200,
+        "sha256": "2160a40b05d3d2f7a042758684e423bc690926059570cb77d7473fbe51aab81b"
+      },
+      {
+        "name": "Home-BkDw-bLD.js",
+        "status": 200,
+        "sha256": "030cebf1d54749341aa4735413c528c43a5955ae238de2a324178f1be0f057d0"
+      },
+      {
+        "name": "index-yRb0VwhR.js",
+        "status": 200,
+        "sha256": "19f357225624c8d8b9f47d13c40315339742522c96340a464d3b2070a9a4a10d"
+      },
+      {
+        "name": "InquiryCta-DmBMcMda.js",
+        "status": 200,
+        "sha256": "af07e144f3421dad08f193349d2dc03988e2c2b0ef9542b732e8802af0229362"
+      },
+      {
+        "name": "InsightDetail-JfC9Kh2t.js",
+        "status": 200,
+        "sha256": "908166f7bde6fd81c0057eba4fcce7f6863bb3ce8e9803f60b366f7a7a66c8fb"
+      },
+      {
+        "name": "Insights-Cu1hrRx8.js",
+        "status": 200,
+        "sha256": "c750c8ec8e164687be1b1ab4d74de85497e15267c4eee55f73ba1e20a15eb5ba"
+      },
+      {
+        "name": "News-ZQbAzI4c.js",
+        "status": 200,
+        "sha256": "a89dfcb145c4a870f7b3b057a634e60d43d91799652d439442d8a4ceb8d66c4a"
+      },
+      {
+        "name": "NotFound-COUsYATI.js",
+        "status": 200,
+        "sha256": "263114751c39aa27a05e14e560b3c0ab1c49eb34c340bb787407fc30afe9b651"
+      },
+      {
+        "name": "PageSeo-C3jagmeO.js",
+        "status": 200,
+        "sha256": "28a5596929dcaf87467b0f0ed5d22737b01c8dc13cfc5b781edca7237e698648"
+      },
+      {
+        "name": "Price-BgB5EYH7.js",
+        "status": 200,
+        "sha256": "fce7a0f8619d41c02993031631eff5756eb0a48423a56dd03d0af0a774ab6c33"
+      },
+      {
+        "name": "proxy-yDth1EFi.js",
+        "status": 200,
+        "sha256": "cd1910d9985100b2d8fc5d23685f633c3c9a6e3980838253d8555ffb303e657b"
+      },
+      {
+        "name": "ScrollReveal-DQaUlEqF.js",
+        "status": 200,
+        "sha256": "a90d569b1b8527c1ee07d069d4e49aaf345344662ac509d2e726a407d79c8c5c"
+      },
+      {
+        "name": "ScrollToTopLink-S5wRaomu.js",
+        "status": 200,
+        "sha256": "bb433be76aefa523491a446bfd3634c499cba3a5608582a9b6663fc2a3cac50c"
+      },
+      {
+        "name": "ServiceDetail-ClDpfOrN.js",
+        "status": 200,
+        "sha256": "ef21e59facad008cb91458ab9db975074a4f326190de877c49aad6898466fafb"
+      },
+      {
+        "name": "Services-DlHvpWi0.js",
+        "status": 200,
+        "sha256": "d8c1d66d64951c37a3e4e071ffa07b159194705082b4afa45ecc8953c8689a20"
+      },
+      {
+        "name": "services-gqRaVfO7.js",
+        "status": 200,
+        "sha256": "6a101a0fedcead91820640051706e1614c1cb1a3feb9ee654a8012a0f8d289fb"
+      }
+    ],
+    "passed": true
+  },
+  "browser": {
+    "checkedAt": "2026-10-22T23:05:49.861Z",
+    "tool": "Playwright CLI",
+    "desktop": {
+      "width": 1280,
+      "height": 900,
+      "documentWidth": 1280,
+      "sourceLinkCount": 1,
+      "sourceH1Count": 1,
+      "actualNavigationPassed": true,
+      "targetArticleCount": 1,
+      "targetWebPageCount": 1,
+      "screenshot": "output/playwright/2026-10-23-about-desktop.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "sourceLinkCount": 1,
+      "sourceLinkWidth": 250,
+      "actualNavigationPassed": true,
+      "targetArticleCount": 1,
+      "screenshot": "output/playwright/2026-10-23-about-mobile.png"
+    },
+    "visualReview": "Both screenshots inspected; existing company grid/spacing and readable cyan text link preserved, no added card or visual overflow.",
+    "console": {
+      "errors": 0,
+      "warnings": 0,
+      "messages": 0
+    },
+    "ownSessionClosed": true
+  },
+  "effectResult": "not-yet-measurable",
+  "metricsEvidencePath": "reports/seo/metrics/2026-10-23-current.json"
+}
