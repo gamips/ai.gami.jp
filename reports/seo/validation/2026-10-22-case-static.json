@@ -1,0 +1,19 @@
+{
+  "checkedAt": "2026-10-22T01:17:38.996Z",
+  "baselineCommit": "9988139bf4553c9e287818e80299964d71617659",
+  "url": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/",
+  "mode": "pre-deploy",
+  "onlyOneSentenceChanged": true,
+  "allOtherContentEqual": true,
+  "other18ArticlesUnchanged": true,
+  "headDatesImagesCtaUnchanged": true,
+  "initialArticleCount": 1,
+  "initialWebPageCount": 1,
+  "selfCanonical": true,
+  "indexAllowed": true,
+  "sitemapUnchanged": true,
+  "cssMatchesProduction": true,
+  "imagesMatched": 2,
+  "bodyMatches": true,
+  "passed": true
+}

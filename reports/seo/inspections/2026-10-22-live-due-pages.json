@@ -1,0 +1,49 @@
+{
+  "checkedAt": "2026-10-22T01:15:45.935Z",
+  "sourceBuildCommit": "d4e4afc7ebe88d3ca330c0de435ea968ea2b1205",
+  "scope": "Four due observation URLs plus case baseline; read-only live initial HTML checks against unchanged October21 verified build. No new build or deploy yet.",
+  "pages": [
+    {
+      "url": "https://ai.gami.jp/about/",
+      "status": 200,
+      "headAndBodyMatch": true,
+      "selfCanonical": true,
+      "indexAllowed": true,
+      "articleCount": 0
+    },
+    {
+      "url": "https://ai.gami.jp/contact/",
+      "status": 200,
+      "headAndBodyMatch": true,
+      "selfCanonical": true,
+      "indexAllowed": true,
+      "articleCount": 0
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-meeting-action-items-template/",
+      "status": 200,
+      "headAndBodyMatch": true,
+      "selfCanonical": true,
+      "indexAllowed": true,
+      "articleCount": 1
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-inquiry-classification-checklist/",
+      "status": 200,
+      "headAndBodyMatch": true,
+      "selfCanonical": true,
+      "indexAllowed": true,
+      "articleCount": 1
+    },
+    {
+      "url": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/",
+      "status": 200,
+      "headAndBodyMatch": true,
+      "selfCanonical": true,
+      "indexAllowed": true,
+      "articleCount": 1
+    }
+  ],
+  "completedAt": "2026-10-22T01:15:46.562Z",
+  "passed": true
+}

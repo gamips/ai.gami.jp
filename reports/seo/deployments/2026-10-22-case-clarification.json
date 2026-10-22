@@ -1,0 +1,278 @@
+{
+  "verifiedAt": "2026-10-22T01:20:58.984Z",
+  "status": "verified",
+  "productionCommit": "86118b988751b54e97e64ae973470cf70625a869",
+  "method": "GitHub Actions normal Xserver deploy",
+  "workflow": {
+    "conclusion": "success",
+    "createdAt": "2026-10-22T01:19:34Z",
+    "headSha": "86118b988751b54e97e64ae973470cf70625a869",
+    "jobs": [
+      {
+        "completedAt": "2026-10-22T01:20:05Z",
+        "conclusion": "success",
+        "databaseId": 119582910779,
+        "name": "Build and deploy",
+        "startedAt": "2026-10-22T01:19:37Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-10-22T01:19:39Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-10-22T01:19:38Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-22T01:19:41Z",
+            "conclusion": "success",
+            "name": "Checkout",
+            "number": 2,
+            "startedAt": "2026-10-22T01:19:39Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-22T01:19:43Z",
+            "conclusion": "success",
+            "name": "Setup Node.js",
+            "number": 3,
+            "startedAt": "2026-10-22T01:19:41Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-22T01:19:56Z",
+            "conclusion": "success",
+            "name": "Install dependencies",
+            "number": 4,
+            "startedAt": "2026-10-22T01:19:43Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-22T01:20:01Z",
+            "conclusion": "success",
+            "name": "Build",
+            "number": 5,
+            "startedAt": "2026-10-22T01:19:56Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-22T01:20:02Z",
+            "conclusion": "success",
+            "name": "Deploy dist to Xserver",
+            "number": 6,
+            "startedAt": "2026-10-22T01:20:01Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-22T01:20:02Z",
+            "conclusion": "success",
+            "name": "Post Setup Node.js",
+            "number": 11,
+            "startedAt": "2026-10-22T01:20:02Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-22T01:20:02Z",
+            "conclusion": "success",
+            "name": "Post Checkout",
+            "number": 12,
+            "startedAt": "2026-10-22T01:20:02Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-22T01:20:02Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 13,
+            "startedAt": "2026-10-22T01:20:02Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/gamips/ai.gami.jp/actions/runs/39705015647/job/119582910779"
+      }
+    ],
+    "status": "completed",
+    "updatedAt": "2026-10-22T01:20:05Z",
+    "url": "https://github.com/gamips/ai.gami.jp/actions/runs/39705015647"
+  },
+  "publicationFirstObservedAt": "2026-10-22T01:20:52.313Z",
+  "build": {
+    "exitCode": 0,
+    "generatedSeoEntries": 32,
+    "sitemapUrls": 30,
+    "articles": 19
+  },
+  "scope": "One sentence in existing case paragraph. No template, UI, CSS, image, link, heading or date changes.",
+  "copyAuthor": "oct22_case_copy",
+  "copyModel": "gpt-6.1-sol",
+  "sourceEvidencePath": "reports/seo/content/2026-10-22-case-facts.json",
+  "preDeploy": {
+    "checkedAt": "2026-10-22T01:17:38.996Z",
+    "baselineCommit": "9988139bf4553c9e287818e80299964d71617659",
+    "url": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/",
+    "mode": "pre-deploy",
+    "onlyOneSentenceChanged": true,
+    "allOtherContentEqual": true,
+    "other18ArticlesUnchanged": true,
+    "headDatesImagesCtaUnchanged": true,
+    "initialArticleCount": 1,
+    "initialWebPageCount": 1,
+    "selfCanonical": true,
+    "indexAllowed": true,
+    "sitemapUnchanged": true,
+    "cssMatchesProduction": true,
+    "imagesMatched": 2,
+    "bodyMatches": true,
+    "passed": true
+  },
+  "live": {
+    "checkedAt": "2026-10-22T01:20:52.313Z",
+    "baselineCommit": "9988139bf4553c9e287818e80299964d71617659",
+    "url": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/",
+    "mode": "live",
+    "onlyOneSentenceChanged": true,
+    "allOtherContentEqual": true,
+    "other18ArticlesUnchanged": true,
+    "headDatesImagesCtaUnchanged": true,
+    "initialArticleCount": 1,
+    "initialWebPageCount": 1,
+    "selfCanonical": true,
+    "indexAllowed": true,
+    "sitemapUnchanged": true,
+    "cssMatchesProduction": true,
+    "imagesMatched": 2,
+    "bodyMatches": true,
+    "passed": true
+  },
+  "assets": {
+    "checkedAt": "2026-10-22T01:20:53.352Z",
+    "matched": 24,
+    "assets": [
+      {
+        "name": "About-BGSTmPTJ.js",
+        "status": 200,
+        "sha256": "123b995bdc52ca0524dbbe6bb32f13ae7c1479943917e2ccee6fcc55a97b4180"
+      },
+      {
+        "name": "arrow-right-FDUtCzRK.js",
+        "status": 200,
+        "sha256": "be4c9d870e0e7319698bb8e93516332723fa06e775ac91b633254cc4b5de2f9b"
+      },
+      {
+        "name": "Concept-C-bdirHz.js",
+        "status": 200,
+        "sha256": "1f3ecc8db5b75858aa4d1fb4c5bb6f055ed565610b77ff59b6b7a948369a1daa"
+      },
+      {
+        "name": "Contact-DuerqSpz.js",
+        "status": 200,
+        "sha256": "8cd51ad590a02fc6a4601fed41671aa7481fa4f522f7bc46bd9676408055f156"
+      },
+      {
+        "name": "ContactThanks-D-IcuSjF.js",
+        "status": 200,
+        "sha256": "a38b8cc785ae5dab81674a71199d09f6a4f39cc20f05b245ce0261c55a4d94f7"
+      },
+      {
+        "name": "createLucideIcon-Bi-8bBK1.js",
+        "status": 200,
+        "sha256": "95a6ccaf110ae4b808d387ee1943c4828e514948874bb15d9ced9c8ced1e9dc4"
+      },
+      {
+        "name": "Footer-D-Ptea1a.js",
+        "status": 200,
+        "sha256": "54531022818f788b3460b384d16c6ce0ffc575616fb993b1dbf079aea8b7653d"
+      },
+      {
+        "name": "GeometricParticles-C4waSyLp.js",
+        "status": 200,
+        "sha256": "de7f2b9a785f9bffc2474a46b3859b990b3adc9342fb80a09355b30a826f3441"
+      },
+      {
+        "name": "Header-9onTr4Wh.js",
+        "status": 200,
+        "sha256": "eb505c495a007cdac3cb906e208d85b29f3f8a2ae80bad2cb9a4ff9115cd1bc9"
+      },
+      {
+        "name": "Home-Cih_oTn4.js",
+        "status": 200,
+        "sha256": "a9b9f869c1e78cad8ad75c66e1f8b61b523616ce4c779bf75e6c0f0ab4b42271"
+      },
+      {
+        "name": "index-KOI-3_xi.js",
+        "status": 200,
+        "sha256": "f8738019b429c4eecaec1fefb174d14c76225636b05f3c1d9d45cad7767eb779"
+      },
+      {
+        "name": "InquiryCta-m6fL3VT0.js",
+        "status": 200,
+        "sha256": "cdedaf3f3fc396af6df1782c44570058665b06ff7d0b6829f55a844910163949"
+      },
+      {
+        "name": "InsightDetail-C3rfGjuj.js",
+        "status": 200,
+        "sha256": "22fa71d050e461465ebdc2631dfe139db9e2ce9d25f4e5bcfe5b692dc541020d"
+      },
+      {
+        "name": "Insights-CEaJeKNa.js",
+        "status": 200,
+        "sha256": "87f028fa7e83acdc222de91127252ae7402955ae000e80ac70902bac3435e389"
+      },
+      {
+        "name": "News-C8TEtyjw.js",
+        "status": 200,
+        "sha256": "ced4137d06a64e2ebb55cd8583e1d6e90a365e3b455f90932b7f442b9c4914ed"
+      },
+      {
+        "name": "NotFound-DNTKcOXg.js",
+        "status": 200,
+        "sha256": "af372ec9da4d634e0c63da15fabdd014772d1c48b498baa9807b0e7b74bada1a"
+      },
+      {
+        "name": "PageSeo-hdhTmZvQ.js",
+        "status": 200,
+        "sha256": "797007e2cfc24e8fb74eab8837bd64b41e54157c175cf829a38503738e99c647"
+      },
+      {
+        "name": "Price-CJZaEBqS.js",
+        "status": 200,
+        "sha256": "d19a8501d57e5329259984a1d5588b9617a7a60b373ae98df272e89c0a64d1be"
+      },
+      {
+        "name": "proxy-CO1Kehgr.js",
+        "status": 200,
+        "sha256": "12a24a9ef99afe9d20a0343b77d66e216b00890876b6eb87c9be5860505a296f"
+      },
+      {
+        "name": "ScrollReveal-JOZJkIEc.js",
+        "status": 200,
+        "sha256": "ec8b5036358eee39ede2697fbbc80b7436c982bc44ce45ed1ae90d3e2bdd6bc4"
+      },
+      {
+        "name": "ScrollToTopLink-B7RJ_Ngs.js",
+        "status": 200,
+        "sha256": "c312da4e917f6f98b6071788420aef053878b12caaf66ec98840d1cfef385f75"
+      },
+      {
+        "name": "ServiceDetail-RcQPlR4y.js",
+        "status": 200,
+        "sha256": "512aeda611cf57cba0d8489fa5695e32ac7251ed681c52b35b551e6cf893f42b"
+      },
+      {
+        "name": "services-BF4J3o4w.js",
+        "status": 200,
+        "sha256": "4fe859fce73d420a4b174b7243344181e5d30867510695fce27d07b23ed40b4d"
+      },
+      {
+        "name": "Services-CekHtCyA.js",
+        "status": 200,
+        "sha256": "a5b6379e66e35aa0d0a7c2a8b0d622abc1b8dd2dd0dbed0027b0f7d8fb0235ba"
+      }
+    ],
+    "passed": true
+  },
+  "verificationScopeNote": "Proportionate minor-copy verification: build, static diff, live head/body/schema/indexability/CSS/images and serving JS byte hashes. No new desktop/mobile screenshot or rendered DOM test; UI/shared renderer unchanged. Previous rendering checks are not reported as fresh.",
+  "effectResult": "not-yet-measurable",
+  "metricsEvidencePath": "reports/seo/metrics/2026-10-22-1009.json"
+}

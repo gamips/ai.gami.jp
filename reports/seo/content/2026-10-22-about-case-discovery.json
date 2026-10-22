@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-10-22T01:21:57.261Z",
+  "reviewAgent": "oct22_case_facts",
+  "rootCodeReview": true,
+  "findings": [
+    "About describes planning/implementation/operation but no contextual case link in company business section.",
+    "Service detail already links to case; gap specific to company-reader entry.",
+    "Existing fallback section.link support can be reused; no generator change required."
+  ],
+  "ready": {
+    "lane": "internal-links",
+    "priority": 1,
+    "status": "ready",
+    "work": "会社紹介の事業内容から、既存の開発事例へ自然な案内を1本追加する。",
+    "sourceUrl": "https://ai.gami.jp/about/",
+    "targetUrl": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/",
+    "evidencePaths": [
+      "src/app/pages/About.tsx",
+      "src/app/content/company.js",
+      "src/app/seo/pageSeo.js",
+      "reports/seo/inspections/2026-10-22-live-due-pages.json"
+    ],
+    "implementation": "Old About parity experiment is closed inconclusive. Recheck source and current worktree before acting. Add one existing-style text link in COMPANY INFO business section from shared company source; render identical link in initialHTML and React. No new card/section. Latest-model copy and root review; use applicable UI guidance if layout changes. Do not alter frozen case body, head, images or dates.",
+    "measurement": "This is a separate source-link variable; preserve all prior clocks. Adding an inbound discovery path is a confound for current case clarification, so log its date separately and do not attribute case impressions to text alone. No direct navigation or inquiry outcome without analytics.",
+    "verification": "Build, source initialHTML/renderedDOM link count1, target200, real navigation and narrow desktop/mobile overflow checks; no generator redesign."
+  },
+  "publicCopyDrafted": false,
+  "implementationPerformed": false
+}

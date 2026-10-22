@@ -1,0 +1,26 @@
+{
+  "checkedAt": "2026-10-22T01:23:51.205Z",
+  "passed": true,
+  "baselineCommit": "9988139bf4553c9e287818e80299964d71617659",
+  "activeExperiments": 30,
+  "observationEntries": 39,
+  "inventoryEntries": 32,
+  "appendedExperimentEvents": 6,
+  "appendedRunLogs": 1,
+  "historicalStartsAndChecksPreserved": true,
+  "unaffectedObservationsUnchanged": true,
+  "targetClockUnchanged": true,
+  "rawMetricGroups": 14,
+  "rawMetricRows": 76,
+  "allReferencedEvidencePresent": true,
+  "referenceChecks": 296,
+  "promptVersionUpdated": true,
+  "cadenceUnchanged": true,
+  "scope": "Records and source evidence, not causal SEO effects.",
+  "independentReview": {
+    "agent": "oct22_measure_review",
+    "result": "passed",
+    "reviewedAt": "2026-10-22T01:25:23.014Z",
+    "notes": "Verified old histories,6events/1run,About-only closure,retained review dates,Pacific case window,30active/39queue and publication/effect distinction."
+  }
+}

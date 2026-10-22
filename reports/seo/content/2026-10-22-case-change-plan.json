@@ -1,0 +1,48 @@
+{
+  "experimentId": "case-document-preservation-clarification-v1",
+  "url": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/",
+  "variable": "One existing sentence clarifies original document retention and separately editable converted document.",
+  "baseline": {
+    "latestFinalizedDate": "2026-10-19",
+    "page28d": {
+      "page": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 4
+    },
+    "previousExperiment": "insight-sodatsu-mitsumori-case-study-v1",
+    "previousResult": "inconclusive",
+    "previousClosedAt": "2026-10-20T23:03:41.786Z",
+    "liveEvidencePath": "reports/seo/inspections/2026-10-22-live-due-pages.json"
+  },
+  "expectedSignal": "Clearer concrete implementation detail and relevant query/page pickup. No inferred reading engagement, linkclicks or inquiries without analytics.",
+  "minimumEvidence": {
+    "technical": "Build, one-sentence-only diff against baseline, unchanged other18articles/head/dates/CSS/images, live HTML and serving JS hashes.",
+    "effect": "First28fullfinal GSC Pacific dates after deployment, >=30pageimpressions; otherwise inconclusive. Publication completion is not acquisition success."
+  },
+  "startedAt": null,
+  "reviewAt": [
+    "2026-10-29",
+    "2026-11-22"
+  ],
+  "freeze": {
+    "urlContent": true,
+    "headAndDates": true,
+    "until": "2026-11-22",
+    "exceptions": [
+      "factual correction",
+      "broken link",
+      "indexing defect",
+      "layout regression"
+    ]
+  },
+  "rollback": "Restore only previous second sentence in quote-to-documents paragraph.",
+  "status": "ready_for_deploy",
+  "result": "not-yet-measurable",
+  "copyAuthorModel": "gpt-6.1-sol",
+  "contentEvidencePath": "reports/seo/content/2026-10-22-case-facts.json",
+  "predeployEvidencePath": "reports/seo/validation/2026-10-22-case-static.json",
+  "dateDecision": "Minor factual clarification does not change displayed article dates or sitemap freshness.",
+  "recordedAt": "2026-10-22T01:19:27.552Z"
+}

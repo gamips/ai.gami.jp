@@ -1,0 +1,64 @@
+{
+  "checkedAt": "2026-10-22T01:16:33.999Z",
+  "scope": "Current official public feature descriptions only. No logged-in runtime or product-repository changes.",
+  "sourceReviewAgent": "oct22_case_facts",
+  "writerAgent": "oct22_case_copy",
+  "writerModel": "gpt-6.1-sol",
+  "rootReview": "Official document-workflow and ai-quote-generation pages independently read by root; short replacement accepted.",
+  "sources": [
+    {
+      "url": "https://sodatsu-mitsumori.net/features/ai-quote-generation/",
+      "fetchedAt": "2026-10-22T10:09:36.0945467+09:00",
+      "status": 200,
+      "supports": [
+        "Text/material input",
+        "Draft detail/work/price",
+        "Questions and revised draft",
+        "Human editing"
+      ]
+    },
+    {
+      "url": "https://sodatsu-mitsumori.net/features/document-workflow/",
+      "fetchedAt": "2026-10-22T10:09:36.1613611+09:00",
+      "status": 200,
+      "supports": [
+        "Conversion to order/delivery/invoice",
+        "Original retained",
+        "New converted document saved and editable separately"
+      ]
+    },
+    {
+      "url": "https://sodatsu-mitsumori.net/features/pdf-output/",
+      "fetchedAt": "2026-10-22T10:09:36.2117431+09:00",
+      "status": 200,
+      "supports": [
+        "PDF from document preview"
+      ]
+    },
+    {
+      "url": "https://sodatsu-mitsumori.net/features/share-and-compliance/",
+      "fetchedAt": "2026-10-22T10:09:36.2698205+09:00",
+      "status": 200,
+      "supports": [
+        "Shared document link"
+      ]
+    },
+    {
+      "url": "https://sodatsu-mitsumori.net/aboutus/",
+      "fetchedAt": "2026-10-22T10:09:36.3230298+09:00",
+      "status": 200,
+      "supports": [
+        "Gami owned SaaS design/development/operation"
+      ]
+    }
+  ],
+  "requiredFactualCorrections": [],
+  "selectedClarification": "元の書類を残したまま、引き継ぎ先を別の書類として編集できます。",
+  "limits": [
+    "Published functionality only, not runtime test or measured customer outcome.",
+    "No claims of free/no-login, performance, learning improvement, delivery history or customer counts.",
+    "Current home is MCP-oriented; existing case remains a particular implementation example, not a full current product guide."
+  ],
+  "publicationScope": "Replace one sentence in existing paragraph; no added section/reference list/date refresh/CTA/image/design changes.",
+  "historicalExperiment": "Original September5 case experiment closed inconclusive October21; this clarification is a separate variable."
+}

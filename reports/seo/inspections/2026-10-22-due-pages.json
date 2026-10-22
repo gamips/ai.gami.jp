@@ -1,0 +1,46 @@
+{
+  "observedAt": "2026-10-22T01:10:30.470Z",
+  "inspections": [
+    {
+      "siteUrl": "sc-domain:ai.gami.jp",
+      "inspectionUrl": "https://ai.gami.jp/contact/",
+      "fetchedAt": "2026-10-22T01:10:27.5330737+00:00",
+      "source": "google-index",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:ai.gami.jp&id=sD-LLGVNc8SopUDEqb_SHQ&utm_medium=link&utm_source=api",
+      "verdict": "PASS",
+      "coverageState": "送信して登録されました",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-09-10T03:44:01Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://ai.gami.jp/contact/",
+      "userCanonical": "https://ai.gami.jp/contact/"
+    },
+    {
+      "siteUrl": "sc-domain:ai.gami.jp",
+      "inspectionUrl": "https://ai.gami.jp/insights/ai-inquiry-classification-checklist/",
+      "fetchedAt": "2026-10-22T01:10:30.3252600+00:00",
+      "source": "google-index",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:ai.gami.jp&id=UU0npUhojRC8H7s3exi2pw&utm_medium=link&utm_source=api",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL が Google に認識されていません",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "googleCanonical": null,
+      "userCanonical": null
+    }
+  ],
+  "reusedIndexEvidence": [
+    {
+      "url": "https://ai.gami.jp/about/",
+      "evidencePath": "reports/seo/inspections/2026-10-11-due-pages.json"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-meeting-action-items-template/",
+      "evidencePath": "reports/seo/inspections/2026-10-19-due-pages.json"
+    }
+  ],
+  "note": "Two due index/crawl checks. Two effect-review URLs reuse recent index evidence without repeat acquisition. Google-index is not a live test."
+}

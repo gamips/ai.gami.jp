@@ -1,0 +1,105 @@
+{
+  "reviewedAt": "2026-10-22T01:15:37.471Z",
+  "latestFinalizedDate": "2026-10-19",
+  "method": "Reuse complete stored page groups whose date ranges exactly match the required fixed periods. Acquisition timestamps preserved. No repeat API query. Page aggregation is distinct from property aggregation. Publication instants converted to GSC Pacific dates; exclude publication partial day from before/after. Saved historical starts, baseline snapshots and review dates are not rewritten.",
+  "reviews": [
+    {
+      "experimentId": "about-initial-html-parity-v1",
+      "url": "https://ai.gami.jp/about/",
+      "startedAt": "2026-09-20T08:18:40.7259541+09:00",
+      "originalReviewOnOrAfter": "2026-10-22",
+      "before": {
+        "startDate": "2026-08-22",
+        "endDate": "2026-09-18",
+        "fullFinalDays": 28,
+        "page": {
+          "page": "https://ai.gami.jp/about/",
+          "clicks": 3,
+          "impressions": 26,
+          "ctr": 0.11538461538461539,
+          "position": 9.76923076923077
+        },
+        "acquiredAt": "2026-10-19T07:59:22.5107726+09:00",
+        "evidencePath": "reports/seo/metrics/2026-10-19-0759.json",
+        "group": "previous28dPages"
+      },
+      "after": {
+        "startDate": "2026-09-20",
+        "endDate": "2026-10-17",
+        "fullFinalDays": 28,
+        "page": {
+          "page": "https://ai.gami.jp/about/",
+          "clicks": 0,
+          "impressions": 40,
+          "ctr": 0,
+          "position": 5.4
+        },
+        "acquiredAt": "2026-10-20T08:06:13.1207614+09:00",
+        "evidencePath": "reports/seo/metrics/2026-10-20-0806.json",
+        "group": "current28dPages"
+      },
+      "minimumEvidenceMet": true,
+      "technicalResult": "confirmed",
+      "result": "inconclusive",
+      "decision": "Close original acquisition experiment; retain verified initial HTML.",
+      "indexEvidencePath": "reports/seo/inspections/2026-10-11-due-pages.json",
+      "lastCrawlTime": "2026-10-10T23:33:02Z",
+      "interpretation": "Pacific-date aligned page impressions26→40, clicks3→0, position9.769→5.4; descriptive before/after only. Threshold met but not evidence of causality or qualified demand. Confirmed recrawl late in window, other site changes coexist and outcomes are sparse. Historical baseline endingSeptember16 unchanged.",
+      "publicationPacificDate": "2026-09-19"
+    },
+    {
+      "experimentId": "insight-ai-meeting-action-items-template-v1",
+      "url": "https://ai.gami.jp/insights/ai-meeting-action-items-template/",
+      "startedAt": "2026-09-21T08:05:06.8299556+09:00",
+      "originalReviewOnOrAfter": "2026-10-22",
+      "after": {
+        "startDate": "2026-09-21",
+        "endDate": "2026-10-18",
+        "fullFinalDays": 28,
+        "page": null,
+        "acquiredAt": "2026-10-21T08:00:17.0451832+09:00",
+        "evidencePath": "reports/seo/metrics/2026-10-21-0800.json",
+        "group": "current28dPages"
+      },
+      "minimumEvidenceMet": false,
+      "technicalResult": "confirmed",
+      "result": "inconclusive",
+      "decision": "Keep original start and first28day result. Bounded low-volume followupNovember5; retain index followupOctober26. Do not rewrite for unknown index.",
+      "indexEvidencePath": "reports/seo/inspections/2026-10-19-due-pages.json",
+      "lastCrawlTime": null,
+      "interpretation": "Exact-URL page row is absent, not zero clicks or impressions. Latest available inspection unknown; no confirmed index or measurable acquisition effect. Preserve page and consider natural internal links only after source freeze ends.",
+      "publicationPacificDate": "2026-09-20"
+    }
+  ],
+  "qualifiedOrganicVisits": null,
+  "organicInquiries": null,
+  "liveTechnicalEvidencePath": "reports/seo/inspections/2026-10-22-live-due-pages.json",
+  "timeZone": "America/Los_Angeles",
+  "timeZoneSource": "https://developers.google.com/webmaster-tools/v1/searchanalytics/query",
+  "dateBoundaryCorrection": {
+    "identifiedAt": "2026-10-22T01:19:27.508Z",
+    "reason": "Earlier planned windows used Japan calendar dates. These were valid conservative28fullpostday windows but not earliest28. About prior window included part of deployment day.",
+    "previousDraftWindows": {
+      "aboutBefore": [
+        "2026-08-23",
+        "2026-09-19"
+      ],
+      "aboutAfter": [
+        "2026-09-21",
+        "2026-10-18"
+      ],
+      "meetingAfter": [
+        "2026-09-22",
+        "2026-10-19"
+      ]
+    },
+    "sourceHistoryUnchanged": true,
+    "extraApiQueries": 0
+  },
+  "independentReview": {
+    "agent": "oct22_measure_review",
+    "reviewedAt": "2026-10-22T01:21:28.043Z",
+    "result": "passed_with_caveats",
+    "notes": "Three corrected Pacific-aligned windows, raw/normalized values and actual acquisition times independently match; both inconclusive decisions appropriate."
+  }
+}

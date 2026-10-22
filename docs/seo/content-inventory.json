@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-20T23:09:09.706Z",
+  "updatedAt": "2026-10-22T01:22:58.526Z",
   "rules": {
     "oneOwnerUrlPerIntent": true,
     "publicCopyExcludesOperationalMetadata": true
@@ -179,10 +179,16 @@
       "status": "published",
       "lastModified": "2026-09-05",
       "schema": "Article",
-      "experimentId": "insight-sodatsu-mitsumori-case-study-v1",
+      "experimentId": "case-document-preservation-clarification-v1",
       "evidencePath": "docs/seo/case-studies/sodatsu-mitsumori-evidence.md",
       "relatedService": "https://ai.gami.jp/services/ai-saas/",
-      "externalProduct": "https://sodatsu-mitsumori.net/"
+      "externalProduct": "https://sodatsu-mitsumori.net/",
+      "previousExperimentIds": [
+        "insight-sodatsu-mitsumori-case-study-v1"
+      ],
+      "contentClarifiedAt": "2026-10-22T01:20:52.313Z",
+      "currentFactEvidencePath": "reports/seo/content/2026-10-22-case-facts.json",
+      "displayedArticleDatesUnchanged": true
     },
     {
       "url": "https://ai.gami.jp/insights/rag-document-inventory-checklist/",
