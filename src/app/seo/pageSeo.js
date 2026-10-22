@@ -1034,7 +1034,7 @@ export const pageSeoByPath = {
       { title: "代表取締役", body: companyInfo.representative },
       { title: "設立", body: companyInfo.established },
       { title: "所在地", paragraphs: companyInfo.address },
-      { title: "事業内容", items: companyInfo.services },
+      { title: "事業内容", items: companyInfo.services, link: companyInfo.caseStudy },
     ],
     schemas: [
       organizationSchema,

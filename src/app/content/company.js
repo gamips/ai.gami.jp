@@ -10,4 +10,8 @@ export const companyInfo = {
     "AI運用型Web制作",
     "業務フロー改善支援",
   ],
+  caseStudy: {
+    label: "「育つ見積」の開発事例を見る",
+    href: "/insights/sodatsu-mitsumori-case-study/",
+  },
 };

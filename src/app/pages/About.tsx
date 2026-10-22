@@ -1,6 +1,8 @@
 import { InquiryCta } from "../components/InquiryCta";
+import { ArrowRight } from "lucide-react";
 import { PageSeo } from "../components/PageSeo";
 import { ScrollReveal } from "../components/ScrollReveal";
+import { ScrollToTopLink } from "../components/ScrollToTopLink";
 import { companyInfo } from "../content/company.js";
 
 type ValueIllustration = "speed" | "quality" | "continuity";
@@ -228,6 +230,13 @@ export function About() {
                     {companyInfo.services.map((service) => (
                       <p key={service}>・{service}</p>
                     ))}
+                    <ScrollToTopLink
+                      to={companyInfo.caseStudy.href}
+                      className="inline-flex items-center gap-2 text-cyan-600 transition-colors hover:text-cyan-700"
+                    >
+                      <span>{companyInfo.caseStudy.label}</span>
+                      <ArrowRight size={18} className="shrink-0" aria-hidden="true" />
+                    </ScrollToTopLink>
                   </dd>
                 </div>
               </dl>
