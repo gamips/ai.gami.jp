@@ -1,0 +1,35 @@
+{
+  "checkedAt": "2026-10-23T23:10:14.144Z",
+  "experimentId": "insight-rag-answer-review-sheet-v1",
+  "originalStartedAt": "2026-09-23T08:06:22.8197618+09:00",
+  "reportingTimeZone": "America/Los_Angeles",
+  "publicationPacificDate": "2026-09-22",
+  "first28FullPostDays": {
+    "startDate": "2026-09-23",
+    "endDate": "2026-10-20",
+    "fullFinalDays": 28,
+    "page": null,
+    "acquiredAt": "2026-10-23T07:57:15.3574963+09:00",
+    "evidencePath": "reports/seo/metrics/2026-10-23-current.json",
+    "group": "current28dPages"
+  },
+  "minimumEvidenceMet": false,
+  "result": "inconclusive",
+  "indexEvidencePath": "reports/seo/inspections/2026-10-21-due-pages.json",
+  "indexResult": "not-confirmed",
+  "liveEvidencePath": "reports/seo/inspections/2026-10-24-live-due-pages.json",
+  "decision": "Preserve original start and October28 index review; bounded low-volume followup November7. No rewrite for unknown index or absent rows.",
+  "caveats": [
+    "Exact-page row absent, not zero clicks or impressions.",
+    "Use Pacific full days, not original Japan-day assumption; historical plan unchanged.",
+    "October9 inventory-to-review inbound link confounds attribution. No direct linkclick/qualifiedvisit/inquiry measurement."
+  ],
+  "nextEffectReviewOnOrAfter": "2026-11-07",
+  "indexReviewRetained": "2026-10-28",
+  "independentReview": {
+    "agent": "oct24_review",
+    "reviewedAt": "2026-10-23T23:11:24.588Z",
+    "result": "passed_with_caveats",
+    "notes": "Independently reconciled all14groups/76rows, key normalization, device weighting and exact brand exclusion. Pacific window, null row and dated reused inspection verified. No causal acquisition claim."
+  }
+}

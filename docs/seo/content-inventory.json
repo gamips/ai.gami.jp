@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-22T23:06:38.673Z",
+  "updatedAt": "2026-10-23T23:16:17.946Z",
   "rules": {
     "oneOwnerUrlPerIntent": true,
     "publicCopyExcludesOperationalMetadata": true
@@ -124,11 +124,11 @@
       "type": "insight-index",
       "intent": "AI導入と生成AI活用の実践ガイド一覧",
       "status": "published",
-      "lastModified": "2026-10-18",
+      "lastModified": "2026-10-24",
       "experimentId": "insights-initial-listing-parity-v1",
       "technicalUpdatedAt": "2026-10-07T01:13:35Z",
       "contentSource": "src/app/content/insights.js",
-      "note": "Index sitemap lastmod derives from article updatedAt; October18 newarticle row added (19total) using unchanged listing mapping. Original listing experiment dates retained."
+      "note": "Index sitemap lastmod derives from article updatedAt; October24 new FAQ article added (20total) with unchanged listing mapping. Original listing experiment dates retained; article additions confound acquisition attribution."
     },
     {
       "url": "https://ai.gami.jp/insights/ai-introduction-support/",
@@ -375,6 +375,16 @@
       "lastModified": "2026-10-18",
       "schema": "Article",
       "experimentId": "insight-ai-table-cleanup-checklist-v1",
+      "relatedService": "https://ai.gami.jp/services/ai-saas/"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-internal-faq-editing-template/",
+      "type": "insight",
+      "intent": "似た社内質問を、同じ回答になる条件でまとめる・分ける・保留する4欄メモ。架空の4質問と規程でFAQ案を作る。",
+      "status": "published",
+      "lastModified": "2026-10-24",
+      "schema": "Article",
+      "experimentId": "insight-ai-internal-faq-editing-template-v1",
       "relatedService": "https://ai.gami.jp/services/ai-saas/"
     }
   ]

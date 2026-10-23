@@ -1,0 +1,25 @@
+{
+  "checkedAt": "2026-10-23T23:24:00.498Z",
+  "passed": true,
+  "baselineCommit": "1ae30db80c0a2d0f2e560c9a1c898a1b875aef72",
+  "activeExperiments": 32,
+  "observationEntries": 41,
+  "inventoryEntries": 33,
+  "appendedExperimentEvents": 5,
+  "appendedRunLogs": 1,
+  "historicalStartsAndChecksPreserved": true,
+  "unaffectedObservationsUnchanged": true,
+  "rawMetricGroups": 14,
+  "rawMetricRows": 76,
+  "allReferencedEvidencePresent": true,
+  "referenceChecks": 325,
+  "promptAndCadenceUnchanged": true,
+  "fullAuditCompleted": true,
+  "scope": "Records and source evidence, not causal SEO effects.",
+  "independentReview": {
+    "agent": "oct24_review",
+    "result": "passed",
+    "reviewedAt": "2026-10-23T23:23:59.809Z",
+    "scope": "Independent baseline comparison: historical JSONL prefix, all starts and prior checks, unchanged observations, new Pacific window and cadence."
+  }
+}

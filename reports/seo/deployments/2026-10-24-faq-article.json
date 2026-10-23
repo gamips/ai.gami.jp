@@ -1,0 +1,147 @@
+{
+  "verifiedAt": "2026-10-23T23:15:28.954Z",
+  "status": "verified",
+  "productionCommit": "5bfb5ba703a6a21f5b3522300b66d05f5f4d3ecb",
+  "method": "GitHub Actions normal Xserver deploy",
+  "workflow": {
+    "conclusion": "success",
+    "status": "completed",
+    "createdAt": "2026-10-23T23:11:09Z",
+    "completedAt": "2026-10-23T23:11:42Z",
+    "headSha": "5bfb5ba703a6a21f5b3522300b66d05f5f4d3ecb",
+    "url": "https://github.com/gamips/ai.gami.jp/actions/runs/40038200972",
+    "buildStep": "success",
+    "deployStep": "success",
+    "deployCompletedAt": "2026-10-23T23:11:40Z"
+  },
+  "publicationFirstObservedAt": "2026-10-23T23:13:11.775Z",
+  "build": {
+    "exitCode": 0,
+    "generatedSeoEntries": 33,
+    "sitemapUrls": 31,
+    "articles": 20
+  },
+  "scope": "One new FAQ article using existing renderer; prior19articles,sharedUI,CSS and service copy unchanged.",
+  "copyAuthor": "oct24_faq_copy",
+  "copyModel": "gpt-6.1-sol",
+  "planEvidencePath": "reports/seo/content/2026-10-24-faq-plan.json",
+  "preDeploy": {
+    "checkedAt": "2026-10-23T23:09:53.447Z",
+    "mode": "static",
+    "baselineCommit": "1ae30db80c0a2d0f2e560c9a1c898a1b875aef72",
+    "articles": 20,
+    "prior19ArticlesUnchanged": true,
+    "seoEntries": 33,
+    "pages": [
+      {
+        "path": "/insights/ai-internal-faq-editing-template",
+        "status": null,
+        "canonical": true,
+        "indexAllowed": true,
+        "headAndBodyMatch": true,
+        "articleCount": 1,
+        "webPageCount": 1
+      },
+      {
+        "path": "/insights",
+        "status": null,
+        "canonical": true,
+        "indexAllowed": true,
+        "headAndBodyMatch": true,
+        "articleCount": 0,
+        "webPageCount": 0
+      },
+      {
+        "path": "/services/ai-saas",
+        "status": null,
+        "canonical": true,
+        "indexAllowed": true,
+        "headAndBodyMatch": true,
+        "articleCount": 0,
+        "webPageCount": 1
+      }
+    ],
+    "sitemapUrls": 31,
+    "passed": true
+  },
+  "live": {
+    "checkedAt": "2026-10-23T23:13:11.775Z",
+    "mode": "live",
+    "baselineCommit": "1ae30db80c0a2d0f2e560c9a1c898a1b875aef72",
+    "articles": 20,
+    "prior19ArticlesUnchanged": true,
+    "seoEntries": 33,
+    "pages": [
+      {
+        "path": "/insights/ai-internal-faq-editing-template",
+        "status": 200,
+        "canonical": true,
+        "indexAllowed": true,
+        "headAndBodyMatch": true,
+        "articleCount": 1,
+        "webPageCount": 1
+      },
+      {
+        "path": "/insights",
+        "status": 200,
+        "canonical": true,
+        "indexAllowed": true,
+        "headAndBodyMatch": true,
+        "articleCount": 0,
+        "webPageCount": 0
+      },
+      {
+        "path": "/services/ai-saas",
+        "status": 200,
+        "canonical": true,
+        "indexAllowed": true,
+        "headAndBodyMatch": true,
+        "articleCount": 0,
+        "webPageCount": 1
+      }
+    ],
+    "sitemapUrls": 31,
+    "assetsMatched": 25,
+    "passed": true
+  },
+  "effectResult": "not-yet-measurable",
+  "metricsEvidencePath": "reports/seo/metrics/2026-10-24-current.json",
+  "browser": {
+    "checkedAt": "2026-10-23T23:15:28.954Z",
+    "tool": "Playwright CLI",
+    "desktop": {
+      "width": 1280,
+      "height": 900,
+      "documentWidth": 1280,
+      "listArticles": 20,
+      "listToArticleNavigation": true,
+      "articleSections": 6,
+      "articleSchema": 1,
+      "webPageSchema": 1,
+      "articleToServiceNavigation": true,
+      "screenshot": "output/playwright/2026-10-24-faq-desktop.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "listArticles": 20,
+      "listToArticleNavigation": true,
+      "articleSections": 6,
+      "articleSchema": 1,
+      "webPageSchema": 1,
+      "articleToServiceNavigation": true,
+      "screenshots": [
+        "output/playwright/2026-10-24-faq-mobile.png",
+        "output/playwright/2026-10-24-faq-mobile-example.png"
+      ]
+    },
+    "visualReview": "All three screenshots inspected; existing typography, single-column sections and ruled lists preserved; readable header/example and no horizontal overflow.",
+    "console": {
+      "messages": 0,
+      "errors": 0,
+      "warnings": 0
+    },
+    "ownSessionClosed": true
+  }
+}

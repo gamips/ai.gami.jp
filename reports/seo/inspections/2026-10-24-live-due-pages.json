@@ -1,0 +1,40 @@
+{
+  "checkedAt": "2026-10-23T23:07:49.073Z",
+  "baselineCommit": "1ae30db80c0a2d0f2e560c9a1c898a1b875aef72",
+  "buildCommit": "57c80977fc3b46b2aed8ef3a2580e46476be8f1a",
+  "pages": [
+    {
+      "url": "https://ai.gami.jp/services/ai-saas/",
+      "status": 200,
+      "headAndBodyMatch": true,
+      "indexAllowed": true,
+      "title": "AI × SaaS / AI × DX | AI導入支援・RAG・業務システム開発 | GAMI",
+      "faqSourcePresent": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-project-proposal-comparison-sheet/",
+      "status": 200,
+      "headAndBodyMatch": true,
+      "indexAllowed": true,
+      "title": "AI導入の見積もりを比べる｜提案ごとに埋める比較シート | GAMI",
+      "faqSourcePresent": null
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-customer-reply-template/",
+      "status": 200,
+      "headAndBodyMatch": true,
+      "indexAllowed": true,
+      "title": "AIで問い合わせ返信を下書きする｜記入式テンプレート | GAMI",
+      "faqSourcePresent": null
+    },
+    {
+      "url": "https://ai.gami.jp/insights/rag-answer-review-sheet/",
+      "status": 200,
+      "headAndBodyMatch": true,
+      "indexAllowed": true,
+      "title": "RAGの回答を確かめる｜質問ごとに残す5つの欄 | GAMI",
+      "faqSourcePresent": null
+    }
+  ],
+  "passed": true
+}

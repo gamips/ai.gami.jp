@@ -1,0 +1,52 @@
+{
+  "observedAt": "2026-10-23T23:06:40Z",
+  "researchAgent": "oct24_audit",
+  "scope": "Read-only HTTP and code discovery; browser reproduction pending, not an implemented fix.",
+  "httpFindings": [
+    {
+      "path": "/",
+      "status": 200,
+      "canonical": "/",
+      "phpShell": true
+    },
+    {
+      "path": "/index.html",
+      "status": 200,
+      "canonical": "/",
+      "phpShell": false
+    },
+    {
+      "path": "/index.php",
+      "status": 404,
+      "canonical": null,
+      "phpShell": true
+    },
+    {
+      "path": "/about/index.html",
+      "status": 200,
+      "canonical": "/about/",
+      "phpShell": false
+    }
+  ],
+  "codeReview": "Root confirmed .htaccess serves existing files directly; React * route renders NotFound with noindex and no canonical. Only /index.html is selected for next investigation.",
+  "sourceUrls": [
+    "https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls",
+    "https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics"
+  ],
+  "ready": {
+    "lane": "technical-seo",
+    "priority": 1,
+    "status": "ready_to_verify",
+    "work": "トップの別名 /index.html の起動後表示を確認し、再現した場合に正規トップへ揃える。",
+    "sourceUrl": "https://ai.gami.jp/index.html",
+    "targetUrl": "https://ai.gami.jp/",
+    "implementation": "First reproduce in browser: URL, H1, canonical and robots after React mounts. Only if confirmed, use a local existing .htaccess redirect for this alias; preserve query string. Do not broaden to other aliases or redesign routing. Keep home start and November9 effect review, record technical confound.",
+    "verification": "Single301 hop, query preservation, normal home display, assets and existing404 unchanged. No traffic gain claim.",
+    "evidencePaths": [
+      "reports/seo/technical/2026-10-24-alias-discovery.json",
+      "public/.htaccess",
+      "src/app/routes.ts",
+      "src/app/pages/NotFound.tsx"
+    ]
+  }
+}

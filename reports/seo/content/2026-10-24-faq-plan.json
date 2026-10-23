@@ -1,0 +1,37 @@
+{
+  "createdAt": "2026-10-23T23:10:14.145Z",
+  "experimentId": "insight-ai-internal-faq-editing-template-v1",
+  "url": "https://ai.gami.jp/insights/ai-internal-faq-editing-template/",
+  "variable": "One complete page package in existing article renderer",
+  "copyAuthor": "oct24_faq_copy",
+  "copyModel": "gpt-6.1-sol",
+  "rootReview": "Four fictional questions; merge identical answer, separate employment condition, hold absent cancellation instructions. No performance or acquisition promises. No reference list or internal metadata. Final service link uses active ai-saas rather than retired rag-chatbot alias.",
+  "sourceEvidencePath": "reports/seo/inspections/2026-10-24-live-due-pages.json",
+  "baseline": {
+    "page28d": null,
+    "metricsEvidencePath": "reports/seo/metrics/2026-10-24-current.json",
+    "note": "New page not published at collection; missing row is not zero."
+  },
+  "expectedSignal": "Google recognition and relevant query/page pickup; no measured demand or causal guarantee.",
+  "minimumEvidence": {
+    "technical": "Build, source/list head and content, Article1/WebPage1, sitemap31, desktop/mobile navigation and no overflow/console errors.",
+    "effect": "28 full finalized Pacific days after publication and at least30 page impressions; otherwise inconclusive."
+  },
+  "reviewAt": [
+    "2026-10-31",
+    "2026-11-24"
+  ],
+  "freeze": {
+    "contentAndHead": true,
+    "until": "2026-11-24",
+    "exceptions": [
+      "factual correction",
+      "broken link",
+      "layout/index regression"
+    ]
+  },
+  "rollback": "Remove only new insight entry, rebuild and verify generated listing/sitemap.",
+  "status": "ready_for_deploy",
+  "result": "not-yet-measurable",
+  "predeployEvidencePath": "reports/seo/validation/2026-10-24-faq-static.json"
+}

@@ -1,0 +1,39 @@
+{
+  "checkedAt": "2026-10-23T23:09:53.447Z",
+  "mode": "static",
+  "baselineCommit": "1ae30db80c0a2d0f2e560c9a1c898a1b875aef72",
+  "articles": 20,
+  "prior19ArticlesUnchanged": true,
+  "seoEntries": 33,
+  "pages": [
+    {
+      "path": "/insights/ai-internal-faq-editing-template",
+      "status": null,
+      "canonical": true,
+      "indexAllowed": true,
+      "headAndBodyMatch": true,
+      "articleCount": 1,
+      "webPageCount": 1
+    },
+    {
+      "path": "/insights",
+      "status": null,
+      "canonical": true,
+      "indexAllowed": true,
+      "headAndBodyMatch": true,
+      "articleCount": 0,
+      "webPageCount": 0
+    },
+    {
+      "path": "/services/ai-saas",
+      "status": null,
+      "canonical": true,
+      "indexAllowed": true,
+      "headAndBodyMatch": true,
+      "articleCount": 0,
+      "webPageCount": 1
+    }
+  ],
+  "sitemapUrls": 31,
+  "passed": true
+}
