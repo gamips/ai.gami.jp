@@ -1,0 +1,32 @@
+{
+  "checkedAt": "2026-10-25T04:22:23.441Z",
+  "baselineCommit": "4b2f5c0eac4dff3ff02aea91ceb287ed2590ae13",
+  "checks": {
+    "docs/seo/experiments.jsonl": {
+      "historyPreserved": true,
+      "appended": 10
+    },
+    "reports/seo/runs/2026-10.jsonl": {
+      "historyPreserved": true,
+      "appended": 1
+    },
+    "priorStartsPreserved": 41,
+    "unaffectedObservationsUnchanged": 33,
+    "dueChecks": 7,
+    "homeNovember9Retained": true,
+    "active": 33,
+    "observationQueue": 42,
+    "inventory": 34,
+    "recordsJsonParse": true,
+    "metricClaimsMatch": true,
+    "publicationEvidenceMatches": true,
+    "promptAndScheduleUnchanged": true
+  },
+  "passed": true,
+  "independentReview": {
+    "agent": "oct25_metrics_review",
+    "reviewedAt": "2026-10-25T04:23:27.708Z",
+    "status": "passed",
+    "notes": "oct25_redirect_review approved exact rule/order. oct25_metrics_review final PASS:14groups/67rows,7inspections,41priorstarts/history retained,33unaffected observations,7indexfollowups,homeNovember9 retained,33active/42queue/34inventory,10events/1run. Pacificwindow,publicationSHA,timestamps and evidence consistent."
+  }
+}

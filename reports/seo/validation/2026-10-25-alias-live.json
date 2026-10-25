@@ -1,0 +1,294 @@
+{
+  "checkedAt": "2026-10-25T04:19:40.742Z",
+  "mode": "live",
+  "baselineCommit": "4b2f5c0eac4dff3ff02aea91ceb287ed2590ae13",
+  "pages": [
+    {
+      "url": "https://ai.gami.jp/",
+      "status": 200,
+      "headAndBodyMatch": true,
+      "indexAllowed": true,
+      "redirect": false
+    },
+    {
+      "url": "https://ai.gami.jp/about/",
+      "status": 200,
+      "headAndBodyMatch": true,
+      "indexAllowed": true,
+      "redirect": false
+    },
+    {
+      "url": "https://ai.gami.jp/insights/",
+      "status": 200,
+      "headAndBodyMatch": true,
+      "indexAllowed": true,
+      "redirect": false
+    },
+    {
+      "url": "https://ai.gami.jp/insights/saas-or-custom-system-checklist/",
+      "status": 200,
+      "headAndBodyMatch": true,
+      "indexAllowed": true,
+      "redirect": false
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-article-fact-check-template/",
+      "status": 200,
+      "headAndBodyMatch": true,
+      "indexAllowed": true,
+      "redirect": false
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-website-brief-template/",
+      "status": 200,
+      "headAndBodyMatch": true,
+      "indexAllowed": true,
+      "redirect": false
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-website-change-request-template/",
+      "status": 200,
+      "headAndBodyMatch": true,
+      "indexAllowed": true,
+      "redirect": false
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-work-time-comparison-sheet/",
+      "status": 200,
+      "headAndBodyMatch": true,
+      "indexAllowed": true,
+      "redirect": false
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-introduction-support/",
+      "status": 200,
+      "headAndBodyMatch": true,
+      "indexAllowed": true,
+      "redirect": false
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-table-cleanup-checklist/",
+      "status": 200,
+      "headAndBodyMatch": true,
+      "indexAllowed": true,
+      "redirect": false
+    }
+  ],
+  "redirects": [
+    {
+      "url": "http://ai.gami.jp/index.html",
+      "status": 301,
+      "location": "https://ai.gami.jp/",
+      "finalStatus": 200,
+      "hops": 1,
+      "queryPreserved": true
+    },
+    {
+      "url": "http://ai.gami.jp/index.html?seo_check=oct25&value=a%20b%26c",
+      "status": 301,
+      "location": "https://ai.gami.jp/?seo_check=oct25&value=a%20b%26c",
+      "finalStatus": 200,
+      "hops": 1,
+      "queryPreserved": true
+    },
+    {
+      "url": "https://ai.gami.jp/index.html",
+      "status": 301,
+      "location": "https://ai.gami.jp/",
+      "finalStatus": 200,
+      "hops": 1,
+      "queryPreserved": true
+    },
+    {
+      "url": "https://ai.gami.jp/index.html?seo_check=oct25&value=a%20b%26c",
+      "status": 301,
+      "location": "https://ai.gami.jp/?seo_check=oct25&value=a%20b%26c",
+      "finalStatus": 200,
+      "hops": 1,
+      "queryPreserved": true
+    },
+    {
+      "url": "https://ai.gami.jp/services/ai-implementation/",
+      "status": 301,
+      "location": "https://ai.gami.jp/services/ai-saas/",
+      "unchanged": true
+    },
+    {
+      "url": "https://ai.gami.jp/services/rag-chatbot/",
+      "status": 301,
+      "location": "https://ai.gami.jp/services/ai-saas/",
+      "unchanged": true
+    },
+    {
+      "url": "https://ai.gami.jp/services/ai-agent/",
+      "status": 301,
+      "location": "https://ai.gami.jp/services/ai-marketing/",
+      "unchanged": true
+    }
+  ],
+  "assets": [
+    {
+      "file": "About-DzBjTlBT.js",
+      "status": 200,
+      "sha256": "66140fdd03a33200384ae0b40ed602017e0b3b10d5a894963d7b616f2445b858",
+      "match": true
+    },
+    {
+      "file": "arrow-right-CWi6xJSJ.js",
+      "status": 200,
+      "sha256": "7264bc185707418328fc8e55ba1828bd10204c66dd5f7927127f321c1ff5fc67",
+      "match": true
+    },
+    {
+      "file": "Concept-Bz08JrlZ.js",
+      "status": 200,
+      "sha256": "5a9536a2dbf2fa26ff2eeb71f766e08d9315a00dbe5686f3ffd43c3c142ad1c8",
+      "match": true
+    },
+    {
+      "file": "Contact-B8m7V7ng.js",
+      "status": 200,
+      "sha256": "e5f6a43c00a3de278d7d66608cf522d818ec410d63be4a76b73655a5c4e4ca32",
+      "match": true
+    },
+    {
+      "file": "ContactThanks-DxsvV_rC.js",
+      "status": 200,
+      "sha256": "d4f075e88dd4076794dd3470695d9e551be79f771bbc4b2914a6bf23f915528b",
+      "match": true
+    },
+    {
+      "file": "createLucideIcon-BnNgnvPx.js",
+      "status": 200,
+      "sha256": "d900e6050ce0398db09dc9ceb206569f89ac801ae91855d9853ca0c09d377ff4",
+      "match": true
+    },
+    {
+      "file": "Footer-C3BG6RET.js",
+      "status": 200,
+      "sha256": "e09d61384fe5e793bca0b23e063a16e93d5015bf6daa5a89a2dd044989a00393",
+      "match": true
+    },
+    {
+      "file": "GeometricParticles-qidaJJlg.js",
+      "status": 200,
+      "sha256": "2b322b6a0b39c30cde3a020aed0037bbc3c0eb6d6fc0de3c928df349105afb77",
+      "match": true
+    },
+    {
+      "file": "Header-B4yQCkeY.js",
+      "status": 200,
+      "sha256": "a5ce88b2066e171c766e49919b4b99033b936af869c7dc58dca531511848720a",
+      "match": true
+    },
+    {
+      "file": "Home-njV--gVq.js",
+      "status": 200,
+      "sha256": "adc4dad11520922584c8686f7a45a8af417e8666ecef2a8512841617bc3eacea",
+      "match": true
+    },
+    {
+      "file": "index-BSUbwp1T.css",
+      "status": 200,
+      "sha256": "f64e0ace97d75ca48b6f02738a4ee41ac0423211d866589eb463ef390411b651",
+      "match": true
+    },
+    {
+      "file": "index-YKY1Oug9.js",
+      "status": 200,
+      "sha256": "e91a013429f010ab665237c622c71547ccd5437930457ddab128778423814eab",
+      "match": true
+    },
+    {
+      "file": "InquiryCta-CkRapvn3.js",
+      "status": 200,
+      "sha256": "f179a76ee6689cf3b7c92bdbd916b5da7d8779a1bd52d92d680b44e57c47c682",
+      "match": true
+    },
+    {
+      "file": "InsightDetail-Wc6NKlZV.js",
+      "status": 200,
+      "sha256": "115faf065ef0a3929798216fff27dab3494b9dda8198ff1dbd1b38c3ecfc7fa1",
+      "match": true
+    },
+    {
+      "file": "Insights-powucYGO.js",
+      "status": 200,
+      "sha256": "d8932c335e31be984850446cd3e568ac8587d010fcb96c25dd0310bd174c263e",
+      "match": true
+    },
+    {
+      "file": "News-FXjpcple.js",
+      "status": 200,
+      "sha256": "0f99809ac73bd7ec21c57028241f38eeea61ddc2bf376d266b8a732c0bf4a055",
+      "match": true
+    },
+    {
+      "file": "NotFound-7MQiKpSB.js",
+      "status": 200,
+      "sha256": "404ba99bfb24eb48912acd0e21b0c8a40f2160b133170d0daaffbd9a5b162d07",
+      "match": true
+    },
+    {
+      "file": "PageSeo-YkJ5FK9M.js",
+      "status": 200,
+      "sha256": "e69430298c8a544771811c4d96e4ce99a74647f727756443b247baa4013ccbbd",
+      "match": true
+    },
+    {
+      "file": "Price-i9sBMdC3.js",
+      "status": 200,
+      "sha256": "74f1debf8a3e1c6f5e8253d331f8c3db83af6ab11c8dad33e483bc8477ad53a3",
+      "match": true
+    },
+    {
+      "file": "proxy-oKW01ATN.js",
+      "status": 200,
+      "sha256": "a7c447f9a68557e6f64ef1b306ffdf2df79fc9fe061b3266d14cd43dab76b2c0",
+      "match": true
+    },
+    {
+      "file": "ScrollReveal-9GwZsIvc.js",
+      "status": 200,
+      "sha256": "4d36c429f591a14f4dee305573722a6b1fca6242703a3ec95169e595bd7dae5a",
+      "match": true
+    },
+    {
+      "file": "ScrollToTopLink-D2favotO.js",
+      "status": 200,
+      "sha256": "6d4482d49f302534c751d4dcd0376e384cf9d6509f7bb1de52d9ecdb68ac92f6",
+      "match": true
+    },
+    {
+      "file": "ServiceDetail-Bl99YJWB.js",
+      "status": 200,
+      "sha256": "4b7293cd2414e459a96c4aaea01728d9529b653703f307700a7589549767563d",
+      "match": true
+    },
+    {
+      "file": "Services-DXNToauR.js",
+      "status": 200,
+      "sha256": "64877cc24e5857bbc1e7c325802ab607c7285bced906ba7ac97001317ee45aff",
+      "match": true
+    },
+    {
+      "file": "services-KWVvtKZ6.js",
+      "status": 200,
+      "sha256": "e52bb1fc1caf400afd343ff70b0f50fefc5942b55476865f0e55edf8254c61b4",
+      "match": true
+    }
+  ],
+  "onlyExactAliasRuleAdded": true,
+  "missingPathStatus": 404,
+  "indexPhpStatus": 404,
+  "robots.txt": {
+    "status": 200,
+    "exactBuildMatch": true
+  },
+  "sitemap.xml": {
+    "status": 200,
+    "exactBuildMatch": true
+  },
+  "sitemapUrls": 31,
+  "passed": true
+}

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T23:16:17.946Z",
+  "updatedAt": "2026-10-25T04:21:20.157Z",
   "rules": {
     "oneOwnerUrlPerIntent": true,
     "publicCopyExcludesOperationalMetadata": true
@@ -15,7 +15,9 @@
       "featuredCaseStudy": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/",
       "technicalUpdatedAt": "2026-10-07T23:31:53.1502878Z",
       "experimentId": "home-initial-service-parity-v1",
-      "contentSource": "src/app/content/serviceSummaries.js"
+      "contentSource": "src/app/content/serviceSummaries.js",
+      "aliasRepairUpdatedAt": "2026-10-25T04:19:40.742Z",
+      "aliasRepairExperimentId": "root-index-alias-redirect-v1"
     },
     {
       "url": "https://ai.gami.jp/favicon.ico",
@@ -386,6 +388,19 @@
       "schema": "Article",
       "experimentId": "insight-ai-internal-faq-editing-template-v1",
       "relatedService": "https://ai.gami.jp/services/ai-saas/"
+    },
+    {
+      "url": "https://ai.gami.jp/index.html",
+      "type": "redirect-alias",
+      "intent": "トップの旧別名から正規トップへ案内",
+      "status": "redirected",
+      "redirectTarget": "https://ai.gami.jp/",
+      "redirectStatus": 301,
+      "queryPreserved": true,
+      "technicalUpdatedAt": "2026-10-25T04:19:40.742Z",
+      "experimentId": "root-index-alias-redirect-v1",
+      "indexable": false,
+      "note": "Exact alias only; not a content page or sitemap entry. Home original experiment/dates preserved."
     }
   ]
 }

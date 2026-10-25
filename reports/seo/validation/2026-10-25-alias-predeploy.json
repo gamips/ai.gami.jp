@@ -1,0 +1,92 @@
+{
+  "checkedAt": "2026-10-25T04:18:42.347Z",
+  "mode": "predeploy",
+  "baselineCommit": "4b2f5c0eac4dff3ff02aea91ceb287ed2590ae13",
+  "pages": [
+    {
+      "url": "https://ai.gami.jp/",
+      "status": 200,
+      "headAndBodyMatch": true,
+      "indexAllowed": true,
+      "redirect": false
+    },
+    {
+      "url": "https://ai.gami.jp/about/",
+      "status": 200,
+      "headAndBodyMatch": true,
+      "indexAllowed": true,
+      "redirect": false
+    },
+    {
+      "url": "https://ai.gami.jp/insights/",
+      "status": 200,
+      "headAndBodyMatch": true,
+      "indexAllowed": true,
+      "redirect": false
+    },
+    {
+      "url": "https://ai.gami.jp/insights/saas-or-custom-system-checklist/",
+      "status": 200,
+      "headAndBodyMatch": true,
+      "indexAllowed": true,
+      "redirect": false
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-article-fact-check-template/",
+      "status": 200,
+      "headAndBodyMatch": true,
+      "indexAllowed": true,
+      "redirect": false
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-website-brief-template/",
+      "status": 200,
+      "headAndBodyMatch": true,
+      "indexAllowed": true,
+      "redirect": false
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-website-change-request-template/",
+      "status": 200,
+      "headAndBodyMatch": true,
+      "indexAllowed": true,
+      "redirect": false
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-work-time-comparison-sheet/",
+      "status": 200,
+      "headAndBodyMatch": true,
+      "indexAllowed": true,
+      "redirect": false
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-introduction-support/",
+      "status": 200,
+      "headAndBodyMatch": true,
+      "indexAllowed": true,
+      "redirect": false
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-table-cleanup-checklist/",
+      "status": 200,
+      "headAndBodyMatch": true,
+      "indexAllowed": true,
+      "redirect": false
+    }
+  ],
+  "redirects": [],
+  "assets": [],
+  "onlyExactAliasRuleAdded": true,
+  "missingPathStatus": 404,
+  "indexPhpStatus": 404,
+  "robots.txt": {
+    "status": 200,
+    "exactBuildMatch": true
+  },
+  "sitemap.xml": {
+    "status": 200,
+    "exactBuildMatch": true
+  },
+  "sitemapUrls": 31,
+  "passed": true
+}

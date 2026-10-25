@@ -1,0 +1,19 @@
+{
+  "observedAt": "2026-10-25T04:17:06.776Z",
+  "baselineCommit": "4b2f5c0eac4dff3ff02aea91ceb287ed2590ae13",
+  "url": "https://ai.gami.jp/index.html",
+  "browser": {
+    "url": "https://ai.gami.jp/index.html",
+    "title": "404 | GAMI",
+    "h1": [
+      "404"
+    ],
+    "canonical": null,
+    "robots": "noindex,nofollow"
+  },
+  "previousHttpEvidence": "reports/seo/technical/2026-10-24-alias-discovery.json",
+  "confirmedDefect": "Initial static home HTML on alias becomes NotFound after React mounts. Redirect exact root alias to canonical homepage; do not change content/design.",
+  "scope": "Only root /index.html",
+  "expected": "One 301 hop for HTTP and HTTPS; preserve query; normal /, assets, existing404 and retired service redirects unchanged",
+  "attribution": "Technical repair only, traffic effect unmeasured. Preserve home original start and November9 review."
+}

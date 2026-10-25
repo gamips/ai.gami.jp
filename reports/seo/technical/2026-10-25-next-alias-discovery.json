@@ -1,0 +1,37 @@
+{
+  "observedAt": "2026-10-25T04:16:58Z",
+  "reviewer": "oct25_redirect_review",
+  "source": "Read-only HTTP and code",
+  "findings": [
+    {
+      "url": "https://ai.gami.jp/about/",
+      "status": 200,
+      "canonical": "https://ai.gami.jp/about/",
+      "phpShell": true
+    },
+    {
+      "url": "https://ai.gami.jp/about/index.html",
+      "status": 200,
+      "canonical": "https://ai.gami.jp/about/",
+      "phpShell": false
+    }
+  ],
+  "browserConfirmed": false,
+  "inference": "Routes define about, not about/index.html; wildcard NotFound likely reproduces. Must verify mounted result before changing.",
+  "ready": {
+    "lane": "technical-seo",
+    "priority": 1,
+    "status": "ready_to_verify",
+    "work": "会社紹介の別名 /about/index.html をブラウザで確認し、再現した場合だけ正規URLへ揃える。",
+    "sourceUrl": "https://ai.gami.jp/about/index.html",
+    "targetUrl": "https://ai.gami.jp/about/",
+    "implementation": "Browser reproduce first; inspect current rewrite architecture and verify exact alias fix only if mounted NotFound/noindex confirmed. Do not broaden routing or change copy/design. Preserve existing About observation starts/effect dates; record repair as confound.",
+    "verification": "One-hop redirect, query preservation, normal /about/, homepage, assets and404; no acquisition claim.",
+    "evidencePaths": [
+      "reports/seo/technical/2026-10-25-next-alias-discovery.json",
+      "public/.htaccess",
+      "src/app/routes.ts",
+      "src/app/pages/NotFound.tsx"
+    ]
+  }
+}

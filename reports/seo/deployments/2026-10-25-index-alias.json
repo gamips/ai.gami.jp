@@ -1,0 +1,88 @@
+{
+  "verifiedAt": "2026-10-25T04:20:40.427Z",
+  "status": "verified",
+  "productionCommit": "6d31302686f38e13660098aee258e9a03ae53d8f",
+  "method": "GitHub Actions normal Xserver deploy",
+  "workflow": {
+    "status": "completed",
+    "conclusion": "success",
+    "url": "https://github.com/gamips/ai.gami.jp/actions/runs/40161423482",
+    "headSha": "6d31302686f38e13660098aee258e9a03ae53d8f",
+    "createdAt": "2026-10-25T04:18:49Z",
+    "completedAt": "2026-10-25T04:19:23Z",
+    "buildStep": "success",
+    "deployStep": "success"
+  },
+  "publicationFirstObservedAt": "2026-10-25T04:19:40.742Z",
+  "build": {
+    "exitCode": 0,
+    "articles": 20,
+    "generatedSeoEntries": 33,
+    "sitemapUrls": 31
+  },
+  "scope": "Only exact /index.html permanent redirect; all copy/head/components/CSS unchanged.",
+  "predeployEvidencePath": "reports/seo/validation/2026-10-25-alias-predeploy.json",
+  "liveEvidencePath": "reports/seo/validation/2026-10-25-alias-live.json",
+  "liveSummary": {
+    "pages": 10,
+    "aliasCombinations": 4,
+    "aliasHops": 1,
+    "queryPreserved": true,
+    "retiredServiceRedirects": 3,
+    "assetHashes": 25,
+    "sitemapUrls": 31,
+    "missingPath404": true
+  },
+  "browser": {
+    "desktop": {
+      "checkedAt": "2026-10-25T04:19:54.828Z",
+      "url": "https://ai.gami.jp/",
+      "title": "GAMI | AI導入支援・生成AI導入支援・AI開発会社",
+      "h1": [
+        "AI速度、人間品質。"
+      ],
+      "canonical": "https://ai.gami.jp/",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "overflow": false,
+      "hasNotFound": false
+    },
+    "mobile": {
+      "checkedAt": "2026-10-25T04:20:01.485Z",
+      "url": "https://ai.gami.jp/",
+      "title": "GAMI | AI導入支援・生成AI導入支援・AI開発会社",
+      "h1": [
+        "AI速度、人間品質。"
+      ],
+      "canonical": "https://ai.gami.jp/",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "overflow": false,
+      "hasNotFound": false
+    },
+    "console": {
+      "messages": 0,
+      "errors": 0,
+      "warnings": 0
+    },
+    "visualReview": "Both screenshots checked; original homepage display restored after alias navigation; no overflow or NotFound.",
+    "screenshots": [
+      "output/playwright/2026-10-25-alias-desktop.png",
+      "output/playwright/2026-10-25-alias-mobile.png"
+    ],
+    "sessionClosed": true
+  },
+  "technicalResult": "confirmed",
+  "acquisitionResult": "not-yet-measurable",
+  "relatedHomeExperiment": {
+    "originalStartedAt": "2026-10-07T23:31:53.1502878Z",
+    "effectReviewRetained": "2026-11-09",
+    "confound": "Exact root alias repair can affect destination signals; not isolated from home content change."
+  }
+}

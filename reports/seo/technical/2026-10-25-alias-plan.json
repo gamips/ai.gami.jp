@@ -1,0 +1,52 @@
+{
+  "createdAt": "2026-10-25T04:19:16.440Z",
+  "experimentId": "root-index-alias-redirect-v1",
+  "url": "https://ai.gami.jp/index.html",
+  "target": "https://ai.gami.jp/",
+  "variable": "Exact root alias permanent redirect only; home content and head unchanged.",
+  "baseline": {
+    "evidencePath": "reports/seo/technical/2026-10-25-index-alias-before.json",
+    "browserH1": "404",
+    "robots": "noindex,nofollow",
+    "canonical": null,
+    "page28d": null,
+    "metricsEvidencePath": "reports/seo/metrics/2026-10-25-current.json"
+  },
+  "expectedSignal": "Direct successful access to canonical home; eventual Google recognition of redirect. No traffic attribution promise.",
+  "minimumEvidence": {
+    "technical": "Build; exact diff; HTTP+HTTPS with/without query single301 to / then200; homepage canonical/indexallow; existing404, assets and retired redirects unchanged; mounteddesktop/mobile.",
+    "effect": "Technical defect resolution can be confirmed immediately. Search effect descriptive only; 28 full Pacific days plus >=30 destination impressions before traffic assessment, otherwise inconclusive."
+  },
+  "reviewAt": [
+    "2026-11-01",
+    "2026-11-25"
+  ],
+  "freeze": {
+    "scope": "Exact alias rule; preserve homepage body/head and original home experiment",
+    "until": "2026-11-25"
+  },
+  "rollback": "Remove only the two added lines in public/.htaccess, rebuild and redeploy; only if redirect regression is confirmed.",
+  "relatedExperiment": {
+    "id": "home-initial-service-parity-v1",
+    "originalStartedAt": "2026-10-07T23:31:53.1502878Z",
+    "effectReview": "2026-11-09",
+    "note": "Retain clock and history; alias repair is an additional technical confound."
+  },
+  "primaryReferences": [
+    "https://httpd.apache.org/docs/2.4/mod/mod_rewrite.html",
+    "https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls"
+  ],
+  "review": "oct25_redirect_review approved minimal exact rule and order; root confirmed mounted defect.",
+  "status": "published_verified",
+  "verifiedAt": "2026-10-25T04:20:40.427Z",
+  "publicationFirstObservedAt": "2026-10-25T04:19:40.742Z",
+  "technicalResult": "confirmed",
+  "acquisitionResult": "not-yet-measurable",
+  "reportingTimeZone": "America/Los_Angeles",
+  "publicationPacificDate": "2026-10-24",
+  "firstFullPostChangeWindow": {
+    "startDate": "2026-10-25",
+    "endDate": "2026-11-21"
+  },
+  "deploymentEvidencePath": "reports/seo/deployments/2026-10-25-index-alias.json"
+}
