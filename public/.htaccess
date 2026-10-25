@@ -2,6 +2,8 @@
   RewriteEngine On
   RewriteBase /
 
+  RewriteRule ^index\.html$ https://ai.gami.jp/ [R=301,L]
+
   RewriteCond %{HTTPS} !=on
   RewriteRule ^ https://ai.gami.jp%{REQUEST_URI} [R=301,L,NE]
 
