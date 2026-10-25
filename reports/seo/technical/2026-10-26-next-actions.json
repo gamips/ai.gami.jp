@@ -1,0 +1,71 @@
+{
+  "recordedAt": "2026-10-25T23:04:50.049Z",
+  "aliasAudit": {
+    "reviewer": "oct25_redirect_review",
+    "observedAt": "2026-10-25T23:00:53Z",
+    "generatedSeoEntries": 33,
+    "indexableEntries": 31,
+    "remainingIndexableAliases": 29,
+    "groups": {
+      "generalPages": 6,
+      "serviceDetails": 3,
+      "articles": 20
+    },
+    "representativeHttp": [
+      {
+        "canonical": "https://ai.gami.jp/concept/",
+        "alias": "https://ai.gami.jp/concept/index.html",
+        "canonicalStatus": 200,
+        "aliasStatus": 200,
+        "canonicalMatches": true,
+        "aliasPhpShell": false,
+        "mountedResult": "not-yet-verified"
+      },
+      {
+        "canonical": "https://ai.gami.jp/services/ai-saas/",
+        "alias": "https://ai.gami.jp/services/ai-saas/index.html",
+        "canonicalStatus": 200,
+        "aliasStatus": 200,
+        "canonicalMatches": true,
+        "aliasPhpShell": false,
+        "mountedResult": "not-yet-verified"
+      },
+      {
+        "canonical": "https://ai.gami.jp/insights/",
+        "alias": "https://ai.gami.jp/insights/index.html",
+        "canonicalStatus": 200,
+        "aliasStatus": 200,
+        "canonicalMatches": true,
+        "aliasPhpShell": false,
+        "mountedResult": "not-yet-verified"
+      },
+      {
+        "canonical": "https://ai.gami.jp/insights/ai-internal-faq-editing-template/",
+        "alias": "https://ai.gami.jp/insights/ai-internal-faq-editing-template/index.html",
+        "canonicalStatus": 200,
+        "aliasStatus": 200,
+        "canonicalMatches": true,
+        "aliasPhpShell": false,
+        "mountedResult": "not-yet-verified"
+      }
+    ],
+    "scope": "Finite29generatedindexablealiases; exclude404,contact/thanks,3retiredservices,unknownpaths from candidate changes. Browser representative groups first; preserve regressions. Do not infer mounted404 from HTTPalone."
+  },
+  "priceCandidate": {
+    "reviewer": "oct26_effect_review",
+    "sourceUrl": "https://ai.gami.jp/price/",
+    "targetUrl": "https://ai.gami.jp/insights/ai-introduction-support-pricing/",
+    "evidencePath": "reports/seo/metrics/2026-10-25-current.json",
+    "sourcePage": {
+      "clicks": 0,
+      "impressions": 60
+    },
+    "intentEvidence": "Disclosed costqueries35impressions atOctober25, not proven qualified demand or expectedlift.",
+    "codeEvidence": [
+      "src/app/pages/Price.tsx",
+      "src/app/content/pricing.js"
+    ],
+    "currentLinkGap": "Service links exist; no link to existing costguide.",
+    "prerequisite": "Complete October27 Pricefollowup and decide whether to close original variable before copy/link change. Preserve dates and targetNovember12; add inboundconfound if implemented. Do not force-close for the sake of publishing."
+  }
+}

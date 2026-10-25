@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "promptVersion": "1.0.13",
+  "promptVersion": "1.0.14",
   "automation": {
     "name": "AI.GAMI SEO成長PDCA",
     "id": "ai-gami-seo-pdca",
     "currentCadenceHours": 24,
     "status": "ACTIVE",
     "currentSchedule": "毎日8:00（Asia/Tokyo）",
-    "scheduleObservedAt": "2026-10-25T04:21:20.157Z",
-    "scheduleSource": "October25 saved automation.toml: ACTIVE daily08 Asia/Tokyo. Canonical1.0.13 launcher and schedule unchanged."
+    "scheduleObservedAt": "2026-10-25T23:05:42.240Z",
+    "scheduleSource": "October26 saved automation.toml and automation view: ACTIVE daily08. Existing launcher reads canonical;1.0.14 change requires no duplicated launcher text or schedule change."
   },
-  "lastActualRunAt": "2026-10-25T04:21:20.157Z",
-  "lastPromptAuditAt": "2026-10-23T23:16:17.946Z",
+  "lastActualRunAt": "2026-10-25T23:05:42.240Z",
+  "lastPromptAuditAt": "2026-10-25T23:05:42.240Z",
   "measurement": {
     "searchConsole": {
       "siteUrl": "sc-domain:ai.gami.jp",
       "status": "connected",
-      "latestFinalizedDate": "2026-10-22",
-      "lastRecordedAt": "2026-10-25T04:17:11.136Z",
-      "latestMetricsPath": "reports/seo/metrics/2026-10-25-current.json",
+      "latestFinalizedDate": "2026-10-23",
+      "lastRecordedAt": "2026-10-25T23:00:32.945Z",
+      "latestMetricsPath": "reports/seo/metrics/2026-10-26-current.json",
       "urlInspection": {
         "status": "available",
         "source": "google-index",
-        "verifiedAt": "2026-10-25T04:17:56.779Z",
-        "latestInspectionPath": "reports/seo/inspections/2026-10-25-due-pages.json",
+        "verifiedAt": "2026-10-25T23:00:32.966Z",
+        "latestInspectionPath": "reports/seo/inspections/2026-10-26-due-pages.json",
         "implementationCommit": "6ea352c25bb87684a0b337ad0a51ba66d5f48bd4"
       },
       "sitemap": {
@@ -32,8 +32,8 @@
         "latestEvidencePath": "reports/seo/inspections/2026-10-25-sitemap.json",
         "liveUrlCount": 31,
         "nextReadOnlyCheckOnOrAfter": "2026-11-01",
-        "liveVerifiedAt": "2026-10-25T04:19:40.742Z",
-        "liveEvidencePath": "reports/seo/validation/2026-10-25-alias-live.json"
+        "liveVerifiedAt": "2026-10-25T23:02:59.381Z",
+        "liveEvidencePath": "reports/seo/validation/2026-10-26-about-alias-live.json"
       },
       "attributionCaveat": "All Insights received a shared WebPage schema-type correction on2026-09-13. Article copy/dates and observation dates are unchanged, but later before/after signals cannot isolate content-only effects. See current deployment evidence and experiments log.",
       "nonBrandDefinition": {
@@ -46,8 +46,8 @@
         "note": "New exact query gami classified as brand. Both current and previous windows use the same rule; original snapshots unchanged.",
         "evidencePath": "reports/seo/metrics/2026-09-21-0803.json"
       },
-      "lastFreshnessCheckPath": "reports/seo/metrics/2026-10-25-freshness.json",
-      "latestObservationPath": "reports/seo/metrics/2026-10-25-current.json",
+      "lastFreshnessCheckPath": "reports/seo/metrics/2026-10-26-freshness.json",
+      "latestObservationPath": "reports/seo/metrics/2026-10-26-current.json",
       "reportingTimeZone": "America/Los_Angeles",
       "dateBoundaryEvidencePath": "reports/seo/metrics/2026-10-22-fixed-period-review.json"
     },
@@ -90,18 +90,19 @@
     "case-document-preservation-clarification-v1",
     "about-case-study-link-v1",
     "insight-ai-internal-faq-editing-template-v1",
-    "root-index-alias-redirect-v1"
+    "root-index-alias-redirect-v1",
+    "about-index-alias-redirect-v1"
   ],
   "deployment": {
-    "lastSuccessfulAt": "2026-10-25T04:19:40.742Z",
-    "commit": "6d31302686f38e13660098aee258e9a03ae53d8f",
-    "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/40161423482",
+    "lastSuccessfulAt": "2026-10-25T23:02:59.381Z",
+    "commit": "95032a7c04568930e132db9dbb89ee18fdfaa62a",
+    "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/40242880194",
     "method": "GitHub Actions normal Xserver deploy",
-    "evidencePath": "reports/seo/deployments/2026-10-25-index-alias.json",
+    "evidencePath": "reports/seo/deployments/2026-10-26-about-alias.json",
     "liveVerification": "passed",
-    "actionsStatus": "Normal Actions success. HTTP+HTTPS alias with/without query: one301 to canonical home200;10pages/25assets,3retiredredirects,404,sitemap verified. Desktop/mobile restored home, nooverflow,console0.",
+    "actionsStatus": "Normal Actions success. ExactAboutalias HTTP+HTTPS/query combinations one301→200;10pages/25assets,rootand3serviceredirects,404,robots/sitemap unchanged. Desktop/mobile existingAbout/caselink/nooverflow/console0 verified.",
     "priorFailedActionsRun": "https://github.com/gamips/ai.gami.jp/actions/runs/36357667097",
-    "lastSuccessfulActionsRun": "https://github.com/gamips/ai.gami.jp/actions/runs/40161423482",
+    "lastSuccessfulActionsRun": "https://github.com/gamips/ai.gami.jp/actions/runs/40242880194",
     "normalPathRecheckOnOrAfter": null,
     "returnToNormalCondition": "Resume normal Actions after a successful normal-route build/deploy and live verification.",
     "normalRouteRecoveredAt": "2026-10-04T23:11:26.247Z",
@@ -788,8 +789,8 @@
           "check": "Bounded Google-index followup; reuse current valid live checks and shared target inspection. Preserve original start/effect date; no rewrite solely for unknown."
         },
         {
-          "onOrAfter": "2026-10-26",
-          "check": "Bounded followup after first28finaldayreview inconclusive with no disclosed page row. Preserve original start; indexcheck October18 remains; no rewrite for unknown."
+          "onOrAfter": "2026-11-09",
+          "check": "Bounded lowvolume effectfollowup; preserve originalstart and fixedPacificperiodreview. Reuse latestindex; missingrows notzero."
         }
       ],
       "completedChecks": [
@@ -904,9 +905,40 @@
           "metricsEvidencePath": "reports/seo/metrics/2026-10-25-current.json",
           "liveTechnicalEvidencePath": "reports/seo/validation/2026-10-25-alias-live.json",
           "note": "Google-index snapshot is not a live test. Live200/head/body/indexallow pass. Unknown/oldcrawl and missing page rows do not establish technical failure or SEO effect."
+        },
+        {
+          "onOrAfter": "2026-10-26",
+          "check": "Bounded followup after first28finaldayreview inconclusive with no disclosed page row. Preserve original start; indexcheck October18 remains; no rewrite for unknown.",
+          "checkedAt": "2026-10-25T23:02:28.946Z",
+          "queryPageEffect": "inconclusive",
+          "technicalResult": "confirmed",
+          "reportingTimeZone": "America/Los_Angeles",
+          "effectReviewEvidencePath": "reports/seo/metrics/2026-10-26-effect-review.json",
+          "first28FullDays": {
+            "startDate": "2026-09-11",
+            "endDate": "2026-10-08",
+            "fullFinalDays": 28,
+            "page": null,
+            "noSlash": null,
+            "acquiredAt": "2026-10-25T23:01:23.7854960+00:00"
+          },
+          "inspectionEvidencePath": "reports/seo/inspections/2026-10-25-due-pages.json",
+          "liveTechnicalEvidencePath": "reports/seo/validation/2026-10-26-about-alias-live.json",
+          "minimumEvidenceMet": false,
+          "note": "No page row in first28 or cumulative43fullfinaldays. Missing is not zero. Existing September29service link and shared schema change confound content-only effect. No rewrite solely for unknown index.",
+          "cumulative": {
+            "startDate": "2026-09-11",
+            "endDate": "2026-10-23",
+            "fullFinalDays": 43,
+            "page": null,
+            "noSlash": null,
+            "acquiredAt": "2026-10-25T23:01:23.7855182+00:00"
+          },
+          "correction": "October12firstreview used Sept12–Oct9; preserve original result/history and append exactPacific Sept11–Oct8 now. Search of saved periods found no exact reusable window."
         }
       ],
-      "result": "inconclusive"
+      "result": "inconclusive",
+      "lastEffectResult": "inconclusive"
     },
     {
       "experimentId": "price-initial-html-parity-v1",
@@ -1203,8 +1235,8 @@
       "startedAt": "2026-09-21T08:05:06.8299556+09:00",
       "nextChecks": [
         {
-          "onOrAfter": "2026-10-26",
-          "check": "Bounded crawl/index followup; reuse target and recent live evidence where applicable. Retain original start/effect dates; do not rewrite for unknown index."
+          "onOrAfter": "2026-11-02",
+          "check": "Bounded sourcecrawl/index followup; reuse target and validlive checks. Retain original start/effect dates; no rewrite solely for unknown."
         },
         {
           "onOrAfter": "2026-11-05",
@@ -1292,6 +1324,22 @@
           "inspectionEvidencePath": "reports/seo/inspections/2026-10-19-due-pages.json",
           "liveTechnicalEvidencePath": "reports/seo/inspections/2026-10-22-live-due-pages.json",
           "note": "Exact-URL page row is absent, not zero clicks or impressions. Latest available inspection unknown; no confirmed index or measurable acquisition effect. Preserve page and consider natural internal links only after source freeze ends."
+        },
+        {
+          "onOrAfter": "2026-10-26",
+          "check": "Bounded crawl/index followup; reuse target and recent live evidence where applicable. Retain original start/effect dates; do not rewrite for unknown index.",
+          "checkedAt": "2026-10-25T23:00:41.8889718+00:00",
+          "indexResult": "not-confirmed",
+          "indexVerdict": "NEUTRAL",
+          "coverageState": "URL が Google に認識されていません",
+          "lastCrawlTime": null,
+          "postChangeRecrawl": null,
+          "queryPageEffect": "not-yet-measurable",
+          "page28d": null,
+          "inspectionEvidencePath": "reports/seo/inspections/2026-10-26-due-pages.json",
+          "metricsEvidencePath": "reports/seo/metrics/2026-10-26-current.json",
+          "liveTechnicalEvidencePath": "reports/seo/validation/2026-10-26-about-alias-live.json",
+          "note": "Google-index is not a live test. Missing rows/unknown or oldcrawl do not establish technicalfailure or effect. Livehead/body/indexallow200 verified."
         }
       ],
       "lastEffectResult": "inconclusive"
@@ -1530,8 +1578,8 @@
           "check": "Bounded source crawl/index followup; retain original start/effect date, reuse recent target evidence when applicable. No rewrite solely for unknown/old crawl."
         },
         {
-          "onOrAfter": "2026-10-26",
-          "check": "28 finalized full post-change days and at least30 page impressions; otherwise insufficient evidence. Date assumes observed three-day data lag."
+          "onOrAfter": "2026-11-09",
+          "check": "Bounded lowvolume effectfollowup; preserve originalstart and fixedPacificperiodreview. Reuse latestindex; missingrows notzero."
         }
       ],
       "completedChecks": [
@@ -1606,8 +1654,54 @@
           "metricsEvidencePath": "reports/seo/metrics/2026-10-23-current.json",
           "liveTechnicalEvidencePath": "reports/seo/inspections/2026-10-23-live-due-pages.json",
           "note": "Google-index snapshot is not live. Current live initialHTML/head/indexallow pass; old crawl/unknown does not establish production defect. Rolling window not fixed causal effect."
+        },
+        {
+          "onOrAfter": "2026-10-26",
+          "check": "28 finalized full post-change days and at least30 page impressions; otherwise insufficient evidence. Date assumes observed three-day data lag.",
+          "checkedAt": "2026-10-25T23:02:28.946Z",
+          "queryPageEffect": "inconclusive",
+          "technicalResult": "confirmed",
+          "reportingTimeZone": "America/Los_Angeles",
+          "effectReviewEvidencePath": "reports/seo/metrics/2026-10-26-effect-review.json",
+          "first28FullDays": {
+            "path": "reports/seo/metrics/2026-10-25-current.json",
+            "group": "current28dPages",
+            "acquiredAt": "2026-10-25T04:17:11.136Z",
+            "startDate": "2026-09-25",
+            "endDate": "2026-10-22",
+            "page": {
+              "page": "https://ai.gami.jp/services/",
+              "clicks": 0,
+              "impressions": 4,
+              "ctr": 0,
+              "position": 24.75
+            },
+            "noSlash": null,
+            "fullFinalDays": 28
+          },
+          "inspectionEvidencePath": "reports/seo/inspections/2026-10-23-due-pages.json",
+          "liveTechnicalEvidencePath": "reports/seo/validation/2026-10-26-about-alias-live.json",
+          "minimumEvidenceMet": false,
+          "note": "Exact slash-page impressions2→4 and clicks0→0 are descriptive and too small. No-slash absent, not zero. Original starts/initialbaseline preserved; Pacificcorrected windows separate. No content rewrite.",
+          "comparisonBefore": {
+            "path": "reports/seo/metrics/2026-10-24-current.json",
+            "group": "previous28dPages",
+            "acquiredAt": "2026-10-23T23:05:54.698Z",
+            "startDate": "2026-08-27",
+            "endDate": "2026-09-23",
+            "page": {
+              "page": "https://ai.gami.jp/services/",
+              "clicks": 0,
+              "impressions": 2,
+              "ctr": 0,
+              "position": 36
+            },
+            "noSlash": null,
+            "fullFinalDays": 28
+          }
         }
-      ]
+      ],
+      "lastEffectResult": "inconclusive"
     },
     {
       "experimentId": "insight-ai-website-change-request-template-v1",
@@ -1694,8 +1788,8 @@
       "startedAt": "2026-09-28T08:18:34.7290309+09:00",
       "nextChecks": [
         {
-          "onOrAfter": "2026-10-26",
-          "check": "Bounded crawl/index followup; reuse target and recent live evidence where applicable. Retain original start/effect dates; do not rewrite for unknown index."
+          "onOrAfter": "2026-11-02",
+          "check": "Bounded sourcecrawl/index followup; reuse target and validlive checks. Retain original start/effect dates; no rewrite solely for unknown."
         },
         {
           "onOrAfter": "2026-10-29",
@@ -1751,6 +1845,23 @@
           "liveTechnicalEvidencePath": "reports/seo/inspections/2026-10-19-live-due-pages.json",
           "note": "Google-index snapshot is not a live test. Exact-URL page row only; missing is null, variants remain separate. Live body/head/indexallow normal. Original effect review retained; no production defect or causal effect inferred.",
           "targetInspectionReusedFrom": "reports/seo/inspections/2026-10-18-due-pages.json"
+        },
+        {
+          "onOrAfter": "2026-10-26",
+          "check": "Bounded crawl/index followup; reuse target and recent live evidence where applicable. Retain original start/effect dates; do not rewrite for unknown index.",
+          "checkedAt": "2026-10-25T23:00:41.4219509+00:00",
+          "indexResult": "indexed-crawl-predates-change",
+          "indexVerdict": "PASS",
+          "coverageState": "送信して登録されました",
+          "lastCrawlTime": "2026-08-28T01:01:36Z",
+          "postChangeRecrawl": false,
+          "queryPageEffect": "not-yet-measurable",
+          "page28d": null,
+          "inspectionEvidencePath": "reports/seo/inspections/2026-10-26-due-pages.json",
+          "metricsEvidencePath": "reports/seo/metrics/2026-10-26-current.json",
+          "liveTechnicalEvidencePath": "reports/seo/validation/2026-10-26-about-alias-live.json",
+          "note": "Google-index is not a live test. Missing rows/unknown or oldcrawl do not establish technicalfailure or effect. Livehead/body/indexallow200 verified.",
+          "targetInspectionReusedFrom": "reports/seo/inspections/2026-10-25-due-pages.json"
         }
       ]
     },
@@ -2118,8 +2229,8 @@
       "startedAt": "2026-10-04T23:09:20Z",
       "nextChecks": [
         {
-          "onOrAfter": "2026-10-26",
-          "check": "Bounded crawl/index followup; reuse target and recent live evidence where applicable. Retain original start/effect dates; do not rewrite for unknown index."
+          "onOrAfter": "2026-11-02",
+          "check": "Bounded sourcecrawl/index followup; reuse target and validlive checks. Retain original start/effect dates; no rewrite solely for unknown."
         },
         {
           "onOrAfter": "2026-11-05",
@@ -2170,6 +2281,28 @@
           "metricsEvidencePath": "reports/seo/metrics/2026-10-19-0759.json",
           "liveTechnicalEvidencePath": "reports/seo/inspections/2026-10-19-live-due-pages.json",
           "note": "Google-index snapshot is not a live test. Exact-URL page row only; missing is null, variants remain separate. Live body/head/indexallow normal. Original effect review retained; no production defect or causal effect inferred."
+        },
+        {
+          "onOrAfter": "2026-10-26",
+          "check": "Bounded crawl/index followup; reuse target and recent live evidence where applicable. Retain original start/effect dates; do not rewrite for unknown index.",
+          "checkedAt": "2026-10-25T23:00:41.0176713+00:00",
+          "indexResult": "indexed-crawl-predates-change",
+          "indexVerdict": "PASS",
+          "coverageState": "送信して登録されました",
+          "lastCrawlTime": "2026-07-18T02:10:54Z",
+          "postChangeRecrawl": false,
+          "queryPageEffect": "not-yet-measurable",
+          "page28d": {
+            "page": "https://ai.gami.jp/news/",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 1
+          },
+          "inspectionEvidencePath": "reports/seo/inspections/2026-10-26-due-pages.json",
+          "metricsEvidencePath": "reports/seo/metrics/2026-10-26-current.json",
+          "liveTechnicalEvidencePath": "reports/seo/validation/2026-10-26-about-alias-live.json",
+          "note": "Google-index is not a live test. Missing rows/unknown or oldcrawl do not establish technicalfailure or effect. Livehead/body/indexallow200 verified."
         }
       ]
     },
@@ -2460,8 +2593,8 @@
       "startedAt": "2026-10-11T23:27:27.9504413Z",
       "nextChecks": [
         {
-          "onOrAfter": "2026-10-26",
-          "check": "Bounded crawl/index followup; reuse target and recent live evidence where applicable. Retain original start/effect dates; do not rewrite for unknown index."
+          "onOrAfter": "2026-11-02",
+          "check": "Bounded sourcecrawl/index followup; reuse target and validlive checks. Retain original start/effect dates; no rewrite solely for unknown."
         },
         {
           "onOrAfter": "2026-11-12",
@@ -2485,6 +2618,23 @@
           "liveTechnicalEvidencePath": "reports/seo/inspections/2026-10-19-live-due-pages.json",
           "note": "Google-index snapshot is not a live test. Exact-URL page row only; missing is null, variants remain separate. Live body/head/indexallow normal. Original effect review retained; no production defect or causal effect inferred.",
           "targetInspectionReusedFrom": "reports/seo/inspections/2026-10-17-due-pages.json"
+        },
+        {
+          "onOrAfter": "2026-10-26",
+          "check": "Bounded crawl/index followup; reuse target and recent live evidence where applicable. Retain original start/effect dates; do not rewrite for unknown index.",
+          "checkedAt": "2026-10-25T23:00:41.2490179+00:00",
+          "indexResult": "indexed-crawl-predates-change",
+          "indexVerdict": "PASS",
+          "coverageState": "送信して登録されました",
+          "lastCrawlTime": "2026-09-04T21:15:37Z",
+          "postChangeRecrawl": false,
+          "queryPageEffect": "not-yet-measurable",
+          "page28d": null,
+          "inspectionEvidencePath": "reports/seo/inspections/2026-10-26-due-pages.json",
+          "metricsEvidencePath": "reports/seo/metrics/2026-10-26-current.json",
+          "liveTechnicalEvidencePath": "reports/seo/validation/2026-10-26-about-alias-live.json",
+          "note": "Google-index is not a live test. Missing rows/unknown or oldcrawl do not establish technicalfailure or effect. Livehead/body/indexallow200 verified.",
+          "targetInspectionReusedFrom": "reports/seo/inspections/2026-10-24-due-pages.json"
         }
       ]
     },
@@ -2728,6 +2878,15 @@
           "onOrAfter": "2026-11-23",
           "check": "28fullfinalPacificdates October23–November19 and>=30targetpageimpressions; actual freshness controls. Preserve target originalNovember22review; no causal/linkclick/qualifiedvisit/inquiry claim."
         }
+      ],
+      "confounds": [
+        {
+          "recordedAt": "2026-10-25T23:05:42.240Z",
+          "changedAt": "2026-10-25T23:02:59.381Z",
+          "experimentId": "about-index-alias-redirect-v1",
+          "description": "ExactAboutalias301 repair restores originalAbout; copy/head/CTA unchanged. Destination signals may be affected; existinglink observation not isolated.",
+          "evidencePath": "reports/seo/deployments/2026-10-26-about-alias.json"
+        }
       ]
     },
     {
@@ -2775,23 +2934,64 @@
       ],
       "planEvidencePath": "reports/seo/technical/2026-10-25-alias-plan.json",
       "deploymentEvidencePath": "reports/seo/deployments/2026-10-25-index-alias.json"
+    },
+    {
+      "experimentId": "about-index-alias-redirect-v1",
+      "status": "observing",
+      "startedAt": "2026-10-25T23:02:59.381Z",
+      "technicalResult": "confirmed",
+      "result": "not-yet-measurable",
+      "reportingTimeZone": "America/Los_Angeles",
+      "publicationPacificDate": "2026-10-25",
+      "firstFullPostChangeWindow": {
+        "startDate": "2026-10-26",
+        "endDate": "2026-11-22"
+      },
+      "nextChecks": [
+        {
+          "onOrAfter": "2026-11-02",
+          "check": "Aliasrecognition/crawl; reuse currentAboutinspection when available. Technical301 verified; no acquisitioninference."
+        },
+        {
+          "onOrAfter": "2026-11-26",
+          "check": "Descriptive effect after28fullPacificdays October26–November22 finalized and>=30targetpageimpressions. ExistingAboutlink confounds attribution."
+        }
+      ],
+      "planEvidencePath": "reports/seo/technical/2026-10-26-about-alias-plan.json",
+      "deploymentEvidencePath": "reports/seo/deployments/2026-10-26-about-alias.json"
     }
   ],
   "readyQueue": [
     {
-      "lane": "technical-seo",
+      "lane": "internal-link",
       "priority": 1,
-      "status": "ready_to_verify",
-      "work": "会社紹介の別名 /about/index.html をブラウザで確認し、再現した場合だけ正規URLへ揃える。",
-      "sourceUrl": "https://ai.gami.jp/about/index.html",
-      "targetUrl": "https://ai.gami.jp/about/",
-      "implementation": "Browser reproduce first; inspect current rewrite architecture and verify exact alias fix only if mounted NotFound/noindex confirmed. Do not broaden routing or change copy/design. Preserve existing About observation starts/effect dates; record repair as confound.",
-      "verification": "One-hop redirect, query preservation, normal /about/, homepage, assets and404; no acquisition claim.",
+      "status": "ready_after_measurement",
+      "notBefore": "2026-10-27",
+      "work": "料金ページの予定した効果確認を終え、既存の費用ガイドへ案内できるか判断する。",
+      "sourceUrl": "https://ai.gami.jp/price/",
+      "targetUrl": "https://ai.gami.jp/insights/ai-introduction-support-pricing/",
+      "implementation": "Complete October27 Pricefollowup and decide whether to close original variable before copy/link change. Preserve dates and targetNovember12; add inboundconfound if implemented. Do not force-close for the sake of publishing.",
+      "verification": "If implemented: latest-model draft reviewed by root; existingdesign,React/staticlinkparity,briefproductioncheck. No pricing or servicepromise change.",
       "evidencePaths": [
-        "reports/seo/technical/2026-10-25-next-alias-discovery.json",
+        "reports/seo/technical/2026-10-26-next-actions.json",
+        "reports/seo/metrics/2026-10-25-current.json",
+        "src/app/pages/Price.tsx",
+        "src/app/content/pricing.js"
+      ]
+    },
+    {
+      "lane": "technical-seo",
+      "priority": 2,
+      "status": "ready_to_investigate",
+      "work": "残り29件の生成済み別名URLをまとめて調査し、共通原因と修正範囲を判断する。",
+      "implementation": "Finite29generatedindexablealiases; exclude404,contact/thanks,3retiredservices,unknownpaths from candidate changes. Browser representative groups first; preserve regressions. Do not infer mounted404 from HTTPalone.",
+      "verification": "HTTP/canonical/robots29pairs, mounted representative4types. No universalredirect or unrelatedAPI/filechanges. Currentroot/Aboutredirects must remain.",
+      "evidencePaths": [
+        "reports/seo/technical/2026-10-26-next-actions.json",
+        "src/app/seo/pageSeo.js",
         "public/.htaccess",
-        "src/app/routes.ts",
-        "src/app/pages/NotFound.tsx"
+        "public/index.php",
+        "src/app/routes.ts"
       ]
     }
   ],
@@ -2859,16 +3059,16 @@
     "singleWriterConflict": false,
     "verificationGap": false,
     "cadenceChangeNeeded": false,
-    "nextFullAuditAfterCompletedRuns": 3,
+    "nextFullAuditAfterCompletedRuns": 2,
     "actualPromptReadback": "passed",
-    "changeApplied": false,
-    "operatingPolicyUpdated": false,
+    "changeApplied": true,
+    "operatingPolicyUpdated": true,
     "launcherPromptUpdated": false,
     "writingModelConfigured": "gpt-6.1-sol",
     "normalRouteStillHealthy": true,
-    "changeReason": "One bounded redirect repair completed with build and livebrowser verification. No repeated operational failure, new user policy or cadence trigger. Existing1.0.13 covers nulls and proportional verification; no new guard needed.",
-    "laneAssessment": "Technical alias defect repaired after distinct FAQ article. Next bounded About alias verification ready; no observation-only stall or blocked publicity retry.",
-    "newReusableLearning": "Explicit API zero-denominator row retained but derivedCTR/position not applicable; positive-denominator validation separate. Recorded in learnings, no metric-definition change.",
+    "changeReason": "Two same-cause alias defects and29remaining candidates justify bounded batchinvestigation rule in1.0.14. Existinglauncher reads canonical, so no redundant prompt/schedule mutation.",
+    "laneAssessment": "Second confirmed aliasrepair completed; avoid serial onealias/day. Next PriceOctober27review then eligibleguide-link decision; remainingaliases onefinite audit.",
+    "newReusableLearning": "Same-cause URL issues should be investigated together before selecting a correction scope; actual mutation remains evidence-bounded.",
     "auditedRunDates": [
       "2026-10-19",
       "2026-10-20",
@@ -2876,7 +3076,7 @@
       "2026-10-22",
       "2026-10-23"
     ],
-    "independentReview": "oct25_redirect_review approved exact rule/order. oct25_metrics_review final PASS:14groups/67rows,7inspections,41priorstarts/history retained,33unaffected observations,7indexfollowups,homeNovember9 retained,33active/42queue/34inventory,10events/1run. Pacificwindow,publicationSHA,timestamps and evidence consistent."
+    "independentReview": "oct25_redirect_review approved the minimal rule and batch-audit scope. oct26_effect_review passed final reconciliation: 42 prior starts and histories preserved, 35 unaffected observations unchanged, due checks and About dates retained, 34 active / 43 queue / 35 inventory, 10 events and 1 run appended, metrics and deployment matched, prompt 1.0.14 and daily 08:00 schedule consistent."
   },
   "retiredBlockers": [
     {

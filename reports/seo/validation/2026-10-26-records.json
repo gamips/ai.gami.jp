@@ -1,0 +1,31 @@
+{
+  "checkedAt": "2026-10-25T23:08:50.127Z",
+  "baselineCommit": "919e9f42e0faa62a6e54c753898aaa4a683c691d",
+  "checks": {
+    "docs/seo/experiments.jsonl": {
+      "historyPreserved": true,
+      "appended": 10
+    },
+    "reports/seo/runs/2026-10.jsonl": {
+      "historyPreserved": true,
+      "appended": 1
+    },
+    "priorStartsPreserved": 42,
+    "unaffectedObservationsUnchanged": 35,
+    "indexChecks": 4,
+    "effectReviews": 2,
+    "aboutOriginalDatesRetained": true,
+    "active": 34,
+    "observationQueue": 43,
+    "inventory": 35,
+    "metricsAndPublicationMatch": true,
+    "canonicalUpdated": "1.0.14",
+    "launcherAndScheduleUnchanged": true
+  },
+  "passed": true,
+  "independentReview": {
+    "agent": "oct26_effect_review",
+    "status": "passed",
+    "notes": "Final state, inventory, experiment history, run log, metrics, deployment and prompt reconciliation passed. All 42 prior starts and histories preserved; 35 unaffected observations unchanged."
+  }
+}

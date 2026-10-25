@@ -1,0 +1,87 @@
+{
+  "observedAt": "2026-10-25T23:01:22.846Z",
+  "source": "Google Search Console API",
+  "reason": "No saved exact first28Pacificwindow; cumulative followup dueOctober26. Return page dimension so absent row remains absent, not fabricated zero.",
+  "groups": [
+    {
+      "name": "first28",
+      "acquiredAt": "2026-10-25T23:01:23.7854960+00:00",
+      "result": {
+        "siteUrl": "sc-domain:ai.gami.jp",
+        "startDate": "2026-09-11",
+        "endDate": "2026-10-08",
+        "dimensions": [
+          "page"
+        ],
+        "searchType": "web",
+        "dataState": "final",
+        "rowCount": 0,
+        "rows": [],
+        "metadata": null
+      },
+      "request": {
+        "startDate": "2026-09-11",
+        "endDate": "2026-10-08",
+        "dimensions": [
+          "page"
+        ],
+        "searchType": "web",
+        "dataState": "final",
+        "rowLimit": 1000,
+        "dimensionFilterGroups": [
+          {
+            "groupType": "and",
+            "filters": [
+              {
+                "dimension": "page",
+                "operator": "contains",
+                "expression": "https://ai.gami.jp/insights/ai-article-fact-check-template"
+              }
+            ]
+          }
+        ],
+        "note": "Actual executed request; captures slash/no-slash variants separately. Original response preserved."
+      }
+    },
+    {
+      "name": "cumulative",
+      "acquiredAt": "2026-10-25T23:01:23.7855182+00:00",
+      "result": {
+        "siteUrl": "sc-domain:ai.gami.jp",
+        "startDate": "2026-09-11",
+        "endDate": "2026-10-23",
+        "dimensions": [
+          "page"
+        ],
+        "searchType": "web",
+        "dataState": "final",
+        "rowCount": 0,
+        "rows": [],
+        "metadata": null
+      },
+      "request": {
+        "startDate": "2026-09-11",
+        "endDate": "2026-10-23",
+        "dimensions": [
+          "page"
+        ],
+        "searchType": "web",
+        "dataState": "final",
+        "rowLimit": 1000,
+        "dimensionFilterGroups": [
+          {
+            "groupType": "and",
+            "filters": [
+              {
+                "dimension": "page",
+                "operator": "contains",
+                "expression": "https://ai.gami.jp/insights/ai-article-fact-check-template"
+              }
+            ]
+          }
+        ],
+        "note": "Actual executed request; captures slash/no-slash variants separately. Original response preserved."
+      }
+    }
+  ]
+}

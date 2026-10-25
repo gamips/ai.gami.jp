@@ -1,0 +1,59 @@
+{
+  "createdAt": "2026-10-25T23:02:28.396Z",
+  "experimentId": "about-index-alias-redirect-v1",
+  "url": "https://ai.gami.jp/about/index.html",
+  "target": "https://ai.gami.jp/about/",
+  "variable": "Exact alias permanent redirect; no Aboutcopy/head/style/CTA changes.",
+  "baseline": {
+    "browser": {
+      "title": "404 | GAMI",
+      "h1": [
+        "404"
+      ],
+      "canonical": null,
+      "robots": "noindex,nofollow",
+      "hasNotFound": true
+    },
+    "page28d": null,
+    "evidencePath": "reports/seo/technical/2026-10-26-about-alias-before.json",
+    "metricsEvidencePath": "reports/seo/metrics/2026-10-26-current.json"
+  },
+  "expectedSignal": "Direct access to canonical About without mounted404/noindex. Google recognition and search effect observed separately.",
+  "minimumEvidence": {
+    "technical": "Build,exactdiff,10pages,HTTP/HTTPS with/withoutquery single301→200,25asset hashes,rootalias and3retiredredirects,robots/sitemap404,desktop/mobile.",
+    "effect": "28fullPacificdays and >=30targetpageimpressions; descriptive only given existing Aboutlink change."
+  },
+  "reviewAt": [
+    "2026-11-02",
+    "2026-11-26"
+  ],
+  "freeze": {
+    "scope": "Alias rule; About public content and current link experiment unchanged",
+    "until": "2026-11-26"
+  },
+  "rollback": "Remove only added Aboutalias rule, rebuild/deploy and verify if a regression is demonstrated.",
+  "relatedExperiment": {
+    "id": "about-case-study-link-v1",
+    "startedAt": "2026-10-22T23:03:15.206Z",
+    "indexReview": "2026-10-30",
+    "effectReview": "2026-11-23",
+    "note": "Preserve all history/dates; log technical confound."
+  },
+  "review": "oct25_redirect_review independently approved exact rule/order in October26 followup.",
+  "primaryReferences": [
+    "https://httpd.apache.org/docs/2.4/rewrite/flags.html#flag_qsd",
+    "https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls"
+  ],
+  "status": "published_verified",
+  "verifiedAt": "2026-10-25T23:04:10.947Z",
+  "publicationFirstObservedAt": "2026-10-25T23:02:59.381Z",
+  "technicalResult": "confirmed",
+  "acquisitionResult": "not-yet-measurable",
+  "reportingTimeZone": "America/Los_Angeles",
+  "publicationPacificDate": "2026-10-25",
+  "firstFullPostChangeWindow": {
+    "startDate": "2026-10-26",
+    "endDate": "2026-11-22"
+  },
+  "deploymentEvidencePath": "reports/seo/deployments/2026-10-26-about-alias.json"
+}

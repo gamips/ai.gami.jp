@@ -1,0 +1,16 @@
+{
+  "observedAt": "2026-10-25T22:59:59.115Z",
+  "baselineCommit": "919e9f42e0faa62a6e54c753898aaa4a683c691d",
+  "url": "https://ai.gami.jp/about/index.html",
+  "browser": {
+    "title": "404 | GAMI",
+    "h1": [
+      "404"
+    ],
+    "canonical": null,
+    "robots": "noindex,nofollow",
+    "hasNotFound": true
+  },
+  "previousHttpEvidencePath": "reports/seo/technical/2026-10-25-next-alias-discovery.json",
+  "scope": "Exact /about/index.html redirect only; preserve About content/head and current link experiment dates."
+}

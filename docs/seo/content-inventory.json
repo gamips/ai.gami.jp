@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T04:21:20.157Z",
+  "updatedAt": "2026-10-25T23:05:42.240Z",
   "rules": {
     "oneOwnerUrlPerIntent": true,
     "publicCopyExcludesOperationalMetadata": true
@@ -110,7 +110,9 @@
         "about-initial-html-parity-v1"
       ],
       "relatedCaseStudy": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/",
-      "internalLinkUpdatedAt": "2026-10-22T23:03:15.206Z"
+      "internalLinkUpdatedAt": "2026-10-22T23:03:15.206Z",
+      "aliasRepairUpdatedAt": "2026-10-25T23:02:59.381Z",
+      "aliasRepairExperimentId": "about-index-alias-redirect-v1"
     },
     {
       "url": "https://ai.gami.jp/contact/",
@@ -401,6 +403,19 @@
       "experimentId": "root-index-alias-redirect-v1",
       "indexable": false,
       "note": "Exact alias only; not a content page or sitemap entry. Home original experiment/dates preserved."
+    },
+    {
+      "url": "https://ai.gami.jp/about/index.html",
+      "type": "redirect-alias",
+      "intent": "会社紹介の別名から正規ページへ案内",
+      "status": "redirected",
+      "redirectTarget": "https://ai.gami.jp/about/",
+      "redirectStatus": 301,
+      "queryPreserved": true,
+      "technicalUpdatedAt": "2026-10-25T23:02:59.381Z",
+      "experimentId": "about-index-alias-redirect-v1",
+      "indexable": false,
+      "note": "Exact alias only; not sitemapcontent. Aboutlink observationdates retained."
     }
   ]
 }

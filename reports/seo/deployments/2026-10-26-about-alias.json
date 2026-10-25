@@ -1,0 +1,104 @@
+{
+  "verifiedAt": "2026-10-25T23:04:10.947Z",
+  "status": "verified",
+  "productionCommit": "95032a7c04568930e132db9dbb89ee18fdfaa62a",
+  "method": "GitHub Actions normal Xserver deploy",
+  "workflow": {
+    "status": "completed",
+    "conclusion": "success",
+    "url": "https://github.com/gamips/ai.gami.jp/actions/runs/40242880194",
+    "headSha": "95032a7c04568930e132db9dbb89ee18fdfaa62a",
+    "createdAt": "2026-10-25T23:01:49Z",
+    "completedAt": "2026-10-25T23:02:25Z",
+    "buildStep": "success",
+    "deployStep": "success"
+  },
+  "publicationFirstObservedAt": "2026-10-25T23:02:59.381Z",
+  "build": {
+    "exitCode": 0,
+    "articles": 20,
+    "generatedSeoEntries": 33,
+    "sitemapUrls": 31
+  },
+  "scope": "Only exact /about/index.html301; all publiccopy/head/components/CSS unchanged.",
+  "beforeEvidencePath": "reports/seo/technical/2026-10-26-about-alias-before.json",
+  "predeployEvidencePath": "reports/seo/validation/2026-10-26-about-alias-predeploy.json",
+  "liveEvidencePath": "reports/seo/validation/2026-10-26-about-alias-live.json",
+  "liveSummary": {
+    "pages": 10,
+    "aliasCombinations": 4,
+    "aliasHops": 1,
+    "queryPreserved": true,
+    "rootAliasUnchanged": true,
+    "retiredServiceRedirects": 3,
+    "assetHashes": 25,
+    "sitemapUrls": 31,
+    "missingPath404": true
+  },
+  "browser": {
+    "desktop": {
+      "checkedAt": "2026-10-25T23:03:06.764Z",
+      "url": "https://ai.gami.jp/about/",
+      "title": "About | AI導入支援会社・AI開発会社 GAMIについて",
+      "h1": [
+        "AI導入支援会社GAMI"
+      ],
+      "canonical": "https://ai.gami.jp/about/",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "overflow": false,
+      "hasNotFound": false,
+      "caseLinks": [
+        {
+          "text": "「育つ見積」の開発事例を見る",
+          "href": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/"
+        }
+      ]
+    },
+    "mobile": {
+      "checkedAt": "2026-10-25T23:03:21.111Z",
+      "url": "https://ai.gami.jp/about/",
+      "title": "About | AI導入支援会社・AI開発会社 GAMIについて",
+      "h1": [
+        "AI導入支援会社GAMI"
+      ],
+      "canonical": "https://ai.gami.jp/about/",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "overflow": false,
+      "hasNotFound": false,
+      "caseLinks": [
+        {
+          "text": "「育つ見積」の開発事例を見る",
+          "href": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/"
+        }
+      ]
+    },
+    "console": {
+      "messages": 0,
+      "errors": 0,
+      "warnings": 0
+    },
+    "visualReview": "Desktop/mobile screenshots reviewed; original About display and existing case-study link retained after alias navigation. Nooverflow/NotFound.",
+    "screenshots": [
+      "output/playwright/2026-10-26-about-desktop.png",
+      "output/playwright/2026-10-26-about-mobile.png"
+    ],
+    "sessionClosed": true
+  },
+  "technicalResult": "confirmed",
+  "acquisitionResult": "not-yet-measurable",
+  "relatedExperiment": {
+    "id": "about-case-study-link-v1",
+    "startedAt": "2026-10-22T23:03:15.206Z",
+    "indexReviewRetained": "2026-10-30",
+    "effectReviewRetained": "2026-11-23",
+    "confound": "Alias repair may change destination signals; no isolated linkeffect."
+  }
+}
