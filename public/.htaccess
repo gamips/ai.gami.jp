@@ -2,8 +2,10 @@
   RewriteEngine On
   RewriteBase /
 
+  # SEO_ALIAS_REDIRECTS_START
   RewriteRule ^index\.html$ https://ai.gami.jp/ [R=301,L]
   RewriteRule ^about/index\.html$ https://ai.gami.jp/about/ [R=301,L]
+  # SEO_ALIAS_REDIRECTS_END
 
   RewriteCond %{HTTPS} !=on
   RewriteRule ^ https://ai.gami.jp%{REQUEST_URI} [R=301,L,NE]

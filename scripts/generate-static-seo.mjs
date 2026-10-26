@@ -286,6 +286,34 @@ ${urls}
 `;
 }
 
+async function writeAliasRedirects(entries) {
+  const htaccessPath = path.join(distDir, ".htaccess");
+  const htaccess = await fs.readFile(htaccessPath, "utf8");
+  const block = /  # SEO_ALIAS_REDIRECTS_START[\s\S]*?  # SEO_ALIAS_REDIRECTS_END/;
+  const rules = entries
+    .filter((entry) => !entry.noindex && entry.canonical !== null)
+    .map((entry) => {
+      const route = entry.path.replace(/^\/|\/$/g, "");
+      const alias = `${route ? `${route}/` : ""}index.html`;
+      const pattern = alias.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+      return `  RewriteRule ^${pattern}$ ${toCanonicalUrl(entry.canonical ?? entry.path)} [R=301,L]`;
+    });
+
+  if (!block.test(htaccess)) {
+    throw new Error("SEO alias markers were not found in dist/.htaccess");
+  }
+
+  await fs.writeFile(
+    htaccessPath,
+    htaccess.replace(block, [
+      "  # SEO_ALIAS_REDIRECTS_START",
+      ...rules,
+      "  # SEO_ALIAS_REDIRECTS_END",
+    ].join("\n")),
+    "utf8",
+  );
+}
+
 async function main() {
   const template = await fs.readFile(templatePath, "utf8");
 
@@ -298,6 +326,7 @@ async function main() {
   }
 
   await fs.writeFile(path.join(distDir, "sitemap.xml"), buildSitemap(staticSeoEntries), "utf8");
+  await writeAliasRedirects(staticSeoEntries);
 }
 
 main().catch((error) => {
