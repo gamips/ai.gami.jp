@@ -1,0 +1,133 @@
+{
+  "results": [
+    {
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "checkedAt": "2026-10-26T23:42:18.347Z",
+      "url": "https://ai.gami.jp/concept/",
+      "title": "Concept | 生成AI導入支援とAI開発の進め方 | GAMI",
+      "h1": [
+        "AI Base,Human Craft."
+      ],
+      "canonical": "https://ai.gami.jp/concept/",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "overflow": false,
+      "articleSchemas": 0
+    },
+    {
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "checkedAt": "2026-10-26T23:42:18.497Z",
+      "url": "https://ai.gami.jp/services/ai-saas/",
+      "title": "AI × SaaS / AI × DX | AI導入支援・RAG・業務システム開発 | GAMI",
+      "h1": [
+        "AI × SaaSAI × DX"
+      ],
+      "canonical": "https://ai.gami.jp/services/ai-saas/",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "overflow": false,
+      "articleSchemas": 0
+    },
+    {
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "checkedAt": "2026-10-26T23:42:18.644Z",
+      "url": "https://ai.gami.jp/insights/",
+      "title": "Insights | AI導入・生成AI活用の実践ガイド | GAMI",
+      "h1": [
+        "AI導入を、わかりやすく。"
+      ],
+      "canonical": "https://ai.gami.jp/insights/",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "overflow": false,
+      "articleSchemas": 0
+    },
+    {
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "checkedAt": "2026-10-26T23:42:18.730Z",
+      "url": "https://ai.gami.jp/insights/ai-internal-faq-editing-template/",
+      "title": "AIで社内FAQを作る｜質問をまとめる前の確認メモ | GAMI",
+      "h1": [
+        "AIで社内FAQを作る｜質問をまとめる前の確認メモ"
+      ],
+      "canonical": "https://ai.gami.jp/insights/ai-internal-faq-editing-template/",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "overflow": false,
+      "articleSchemas": 1
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "checkedAt": "2026-10-26T23:42:19.126Z",
+      "url": "https://ai.gami.jp/concept/",
+      "title": "Concept | 生成AI導入支援とAI開発の進め方 | GAMI",
+      "h1": [
+        "AI Base,Human Craft."
+      ],
+      "canonical": "https://ai.gami.jp/concept/",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "overflow": false,
+      "articleSchemas": 0
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "checkedAt": "2026-10-26T23:42:19.245Z",
+      "url": "https://ai.gami.jp/services/ai-saas/",
+      "title": "AI × SaaS / AI × DX | AI導入支援・RAG・業務システム開発 | GAMI",
+      "h1": [
+        "AI × SaaSAI × DX"
+      ],
+      "canonical": "https://ai.gami.jp/services/ai-saas/",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "overflow": false,
+      "articleSchemas": 0
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "checkedAt": "2026-10-26T23:42:19.352Z",
+      "url": "https://ai.gami.jp/insights/",
+      "title": "Insights | AI導入・生成AI活用の実践ガイド | GAMI",
+      "h1": [
+        "AI導入を、わかりやすく。"
+      ],
+      "canonical": "https://ai.gami.jp/insights/",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "overflow": false,
+      "articleSchemas": 0
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "checkedAt": "2026-10-26T23:42:19.443Z",
+      "url": "https://ai.gami.jp/insights/ai-internal-faq-editing-template/",
+      "title": "AIで社内FAQを作る｜質問をまとめる前の確認メモ | GAMI",
+      "h1": [
+        "AIで社内FAQを作る｜質問をまとめる前の確認メモ"
+      ],
+      "canonical": "https://ai.gami.jp/insights/ai-internal-faq-editing-template/",
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "overflow": false,
+      "articleSchemas": 1
+    }
+  ],
+  "errors": []
+}

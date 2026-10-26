@@ -1,0 +1,62 @@
+{
+  "status": "verified",
+  "productionCommit": "6038fe45fbbb265905223676be2fc18ff982f14c",
+  "firstVerifiedAt": "2026-10-26T23:42:07.415Z",
+  "workflow": {
+    "conclusion": "success",
+    "databaseId": 40421375054,
+    "headSha": "6038fe45fbbb265905223676be2fc18ff982f14c",
+    "status": "completed",
+    "url": "https://github.com/gamips/ai.gami.jp/actions/runs/40421375054"
+  },
+  "method": "GitHub Actions normal Xserver deploy",
+  "build": {
+    "passed": true,
+    "modules": 2043,
+    "staticSeoEntries": 33,
+    "indexablePages": 31
+  },
+  "technicalResult": "confirmed",
+  "acquisitionEffect": "not-yet-measurable",
+  "changes": {
+    "files": [
+      "public/.htaccess",
+      "scripts/generate-static-seo.mjs"
+    ],
+    "newAliases": 29,
+    "existingAliasesPreserved": 2,
+    "generatedExactRules": 31,
+    "publicCopyOrDesignChanged": false
+  },
+  "verification": {
+    "predeploy": "reports/seo/validation/2026-10-27-alias-predeploy.json",
+    "live": "reports/seo/validation/2026-10-27-alias-live.json",
+    "browser": "reports/seo/validation/2026-10-27-alias-browser.json",
+    "canonicalPagesMatched": 31,
+    "singleHopProtocolQueryChecks": 124,
+    "assetsMatched": 25,
+    "excludedLiveRegressionsUnchanged": 13,
+    "representativeBrowserChecks": 8,
+    "console": {
+      "messages": 0,
+      "errors": 0,
+      "warnings": 0
+    },
+    "screenshots": [
+      {
+        "path": "output/playwright/2026-10-27-alias-1280.png",
+        "checkedAt": "2026-10-26T23:42:59.429Z"
+      },
+      {
+        "path": "output/playwright/2026-10-27-alias-390.png",
+        "checkedAt": "2026-10-26T23:42:59.583Z"
+      }
+    ],
+    "visualReview": "Desktop/mobile screenshots inspected after hero opacity reached1; existing article layout intact. Initial animation-frame screenshots replaced.",
+    "browserClosed": true
+  },
+  "sourceReview": {
+    "agent": "oct27_alias_review",
+    "status": "passed"
+  }
+}

@@ -1,0 +1,267 @@
+{
+  "checkedAt": "2026-10-26T23:36:25.472Z",
+  "rows": [
+    {
+      "canonical": "https://ai.gami.jp/concept/",
+      "alias": "https://ai.gami.jp/concept/index.html",
+      "canonicalStatus": 200,
+      "aliasStatus": 200,
+      "canonicalHeadAndBodyMatchBuild": true,
+      "aliasHeadAndBodyMatchCanonical": true,
+      "indexAllowed": true
+    },
+    {
+      "canonical": "https://ai.gami.jp/services/",
+      "alias": "https://ai.gami.jp/services/index.html",
+      "canonicalStatus": 200,
+      "aliasStatus": 200,
+      "canonicalHeadAndBodyMatchBuild": true,
+      "aliasHeadAndBodyMatchCanonical": true,
+      "indexAllowed": true
+    },
+    {
+      "canonical": "https://ai.gami.jp/services/ai-saas/",
+      "alias": "https://ai.gami.jp/services/ai-saas/index.html",
+      "canonicalStatus": 200,
+      "aliasStatus": 200,
+      "canonicalHeadAndBodyMatchBuild": true,
+      "aliasHeadAndBodyMatchCanonical": true,
+      "indexAllowed": true
+    },
+    {
+      "canonical": "https://ai.gami.jp/services/ai-marketing/",
+      "alias": "https://ai.gami.jp/services/ai-marketing/index.html",
+      "canonicalStatus": 200,
+      "aliasStatus": 200,
+      "canonicalHeadAndBodyMatchBuild": true,
+      "aliasHeadAndBodyMatchCanonical": true,
+      "indexAllowed": true
+    },
+    {
+      "canonical": "https://ai.gami.jp/services/ai-web/",
+      "alias": "https://ai.gami.jp/services/ai-web/index.html",
+      "canonicalStatus": 200,
+      "aliasStatus": 200,
+      "canonicalHeadAndBodyMatchBuild": true,
+      "aliasHeadAndBodyMatchCanonical": true,
+      "indexAllowed": true
+    },
+    {
+      "canonical": "https://ai.gami.jp/price/",
+      "alias": "https://ai.gami.jp/price/index.html",
+      "canonicalStatus": 200,
+      "aliasStatus": 200,
+      "canonicalHeadAndBodyMatchBuild": true,
+      "aliasHeadAndBodyMatchCanonical": true,
+      "indexAllowed": true
+    },
+    {
+      "canonical": "https://ai.gami.jp/news/",
+      "alias": "https://ai.gami.jp/news/index.html",
+      "canonicalStatus": 200,
+      "aliasStatus": 200,
+      "canonicalHeadAndBodyMatchBuild": true,
+      "aliasHeadAndBodyMatchCanonical": true,
+      "indexAllowed": true
+    },
+    {
+      "canonical": "https://ai.gami.jp/contact/",
+      "alias": "https://ai.gami.jp/contact/index.html",
+      "canonicalStatus": 200,
+      "aliasStatus": 200,
+      "canonicalHeadAndBodyMatchBuild": true,
+      "aliasHeadAndBodyMatchCanonical": true,
+      "indexAllowed": true
+    },
+    {
+      "canonical": "https://ai.gami.jp/insights/",
+      "alias": "https://ai.gami.jp/insights/index.html",
+      "canonicalStatus": 200,
+      "aliasStatus": 200,
+      "canonicalHeadAndBodyMatchBuild": true,
+      "aliasHeadAndBodyMatchCanonical": true,
+      "indexAllowed": true
+    },
+    {
+      "canonical": "https://ai.gami.jp/insights/ai-internal-faq-editing-template/",
+      "alias": "https://ai.gami.jp/insights/ai-internal-faq-editing-template/index.html",
+      "canonicalStatus": 200,
+      "aliasStatus": 200,
+      "canonicalHeadAndBodyMatchBuild": true,
+      "aliasHeadAndBodyMatchCanonical": true,
+      "indexAllowed": true
+    },
+    {
+      "canonical": "https://ai.gami.jp/insights/ai-table-cleanup-checklist/",
+      "alias": "https://ai.gami.jp/insights/ai-table-cleanup-checklist/index.html",
+      "canonicalStatus": 200,
+      "aliasStatus": 200,
+      "canonicalHeadAndBodyMatchBuild": true,
+      "aliasHeadAndBodyMatchCanonical": true,
+      "indexAllowed": true
+    },
+    {
+      "canonical": "https://ai.gami.jp/insights/ai-inquiry-classification-checklist/",
+      "alias": "https://ai.gami.jp/insights/ai-inquiry-classification-checklist/index.html",
+      "canonicalStatus": 200,
+      "aliasStatus": 200,
+      "canonicalHeadAndBodyMatchBuild": true,
+      "aliasHeadAndBodyMatchCanonical": true,
+      "indexAllowed": true
+    },
+    {
+      "canonical": "https://ai.gami.jp/insights/ai-work-procedure-template/",
+      "alias": "https://ai.gami.jp/insights/ai-work-procedure-template/index.html",
+      "canonicalStatus": 200,
+      "aliasStatus": 200,
+      "canonicalHeadAndBodyMatchBuild": true,
+      "aliasHeadAndBodyMatchCanonical": true,
+      "indexAllowed": true
+    },
+    {
+      "canonical": "https://ai.gami.jp/insights/ai-project-proposal-comparison-sheet/",
+      "alias": "https://ai.gami.jp/insights/ai-project-proposal-comparison-sheet/index.html",
+      "canonicalStatus": 200,
+      "aliasStatus": 200,
+      "canonicalHeadAndBodyMatchBuild": true,
+      "aliasHeadAndBodyMatchCanonical": true,
+      "indexAllowed": true
+    },
+    {
+      "canonical": "https://ai.gami.jp/insights/ai-work-time-comparison-sheet/",
+      "alias": "https://ai.gami.jp/insights/ai-work-time-comparison-sheet/index.html",
+      "canonicalStatus": 200,
+      "aliasStatus": 200,
+      "canonicalHeadAndBodyMatchBuild": true,
+      "aliasHeadAndBodyMatchCanonical": true,
+      "indexAllowed": true
+    },
+    {
+      "canonical": "https://ai.gami.jp/insights/ai-work-handoff-template/",
+      "alias": "https://ai.gami.jp/insights/ai-work-handoff-template/index.html",
+      "canonicalStatus": 200,
+      "aliasStatus": 200,
+      "canonicalHeadAndBodyMatchBuild": true,
+      "aliasHeadAndBodyMatchCanonical": true,
+      "indexAllowed": true
+    },
+    {
+      "canonical": "https://ai.gami.jp/insights/ai-website-change-request-template/",
+      "alias": "https://ai.gami.jp/insights/ai-website-change-request-template/index.html",
+      "canonicalStatus": 200,
+      "aliasStatus": 200,
+      "canonicalHeadAndBodyMatchBuild": true,
+      "aliasHeadAndBodyMatchCanonical": true,
+      "indexAllowed": true
+    },
+    {
+      "canonical": "https://ai.gami.jp/insights/rag-answer-review-sheet/",
+      "alias": "https://ai.gami.jp/insights/rag-answer-review-sheet/index.html",
+      "canonicalStatus": 200,
+      "aliasStatus": 200,
+      "canonicalHeadAndBodyMatchBuild": true,
+      "aliasHeadAndBodyMatchCanonical": true,
+      "indexAllowed": true
+    },
+    {
+      "canonical": "https://ai.gami.jp/insights/ai-meeting-action-items-template/",
+      "alias": "https://ai.gami.jp/insights/ai-meeting-action-items-template/index.html",
+      "canonicalStatus": 200,
+      "aliasStatus": 200,
+      "canonicalHeadAndBodyMatchBuild": true,
+      "aliasHeadAndBodyMatchCanonical": true,
+      "indexAllowed": true
+    },
+    {
+      "canonical": "https://ai.gami.jp/insights/ai-website-brief-template/",
+      "alias": "https://ai.gami.jp/insights/ai-website-brief-template/index.html",
+      "canonicalStatus": 200,
+      "aliasStatus": 200,
+      "canonicalHeadAndBodyMatchBuild": true,
+      "aliasHeadAndBodyMatchCanonical": true,
+      "indexAllowed": true
+    },
+    {
+      "canonical": "https://ai.gami.jp/insights/ai-article-fact-check-template/",
+      "alias": "https://ai.gami.jp/insights/ai-article-fact-check-template/index.html",
+      "canonicalStatus": 200,
+      "aliasStatus": 200,
+      "canonicalHeadAndBodyMatchBuild": true,
+      "aliasHeadAndBodyMatchCanonical": true,
+      "indexAllowed": true
+    },
+    {
+      "canonical": "https://ai.gami.jp/insights/saas-or-custom-system-checklist/",
+      "alias": "https://ai.gami.jp/insights/saas-or-custom-system-checklist/index.html",
+      "canonicalStatus": 200,
+      "aliasStatus": 200,
+      "canonicalHeadAndBodyMatchBuild": true,
+      "aliasHeadAndBodyMatchCanonical": true,
+      "indexAllowed": true
+    },
+    {
+      "canonical": "https://ai.gami.jp/insights/ai-customer-reply-template/",
+      "alias": "https://ai.gami.jp/insights/ai-customer-reply-template/index.html",
+      "canonicalStatus": 200,
+      "aliasStatus": 200,
+      "canonicalHeadAndBodyMatchBuild": true,
+      "aliasHeadAndBodyMatchCanonical": true,
+      "indexAllowed": true
+    },
+    {
+      "canonical": "https://ai.gami.jp/insights/ai-website-launch-checklist/",
+      "alias": "https://ai.gami.jp/insights/ai-website-launch-checklist/index.html",
+      "canonicalStatus": 200,
+      "aliasStatus": 200,
+      "canonicalHeadAndBodyMatchBuild": true,
+      "aliasHeadAndBodyMatchCanonical": true,
+      "indexAllowed": true
+    },
+    {
+      "canonical": "https://ai.gami.jp/insights/rag-document-inventory-checklist/",
+      "alias": "https://ai.gami.jp/insights/rag-document-inventory-checklist/index.html",
+      "canonicalStatus": 200,
+      "aliasStatus": 200,
+      "canonicalHeadAndBodyMatchBuild": true,
+      "aliasHeadAndBodyMatchCanonical": true,
+      "indexAllowed": true
+    },
+    {
+      "canonical": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/",
+      "alias": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/index.html",
+      "canonicalStatus": 200,
+      "aliasStatus": 200,
+      "canonicalHeadAndBodyMatchBuild": true,
+      "aliasHeadAndBodyMatchCanonical": true,
+      "indexAllowed": true
+    },
+    {
+      "canonical": "https://ai.gami.jp/insights/chatgpt-workplace-adoption-checklist/",
+      "alias": "https://ai.gami.jp/insights/chatgpt-workplace-adoption-checklist/index.html",
+      "canonicalStatus": 200,
+      "aliasStatus": 200,
+      "canonicalHeadAndBodyMatchBuild": true,
+      "aliasHeadAndBodyMatchCanonical": true,
+      "indexAllowed": true
+    },
+    {
+      "canonical": "https://ai.gami.jp/insights/ai-introduction-support-pricing/",
+      "alias": "https://ai.gami.jp/insights/ai-introduction-support-pricing/index.html",
+      "canonicalStatus": 200,
+      "aliasStatus": 200,
+      "canonicalHeadAndBodyMatchBuild": true,
+      "aliasHeadAndBodyMatchCanonical": true,
+      "indexAllowed": true
+    },
+    {
+      "canonical": "https://ai.gami.jp/insights/ai-introduction-support/",
+      "alias": "https://ai.gami.jp/insights/ai-introduction-support/index.html",
+      "canonicalStatus": 200,
+      "aliasStatus": 200,
+      "canonicalHeadAndBodyMatchBuild": true,
+      "aliasHeadAndBodyMatchCanonical": true,
+      "indexAllowed": true
+    }
+  ],
+  "passed": true
+}

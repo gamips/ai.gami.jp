@@ -1,0 +1,161 @@
+{
+  "plannedAt": "2026-10-26T23:40:30.108Z",
+  "status": "published_verified",
+  "experimentId": "generated-index-alias-redirects-v1",
+  "variable": "Generate exact permanent redirects for indexable static SEO entries; retain existing root/About behavior and repair remaining29 aliases. No canonical page content/head/schema/CTA/design changes.",
+  "sourceFiles": [
+    "public/.htaccess",
+    "scripts/generate-static-seo.mjs"
+  ],
+  "targets": [
+    {
+      "url": "https://ai.gami.jp/concept/index.html",
+      "target": "https://ai.gami.jp/concept/"
+    },
+    {
+      "url": "https://ai.gami.jp/services/index.html",
+      "target": "https://ai.gami.jp/services/"
+    },
+    {
+      "url": "https://ai.gami.jp/services/ai-saas/index.html",
+      "target": "https://ai.gami.jp/services/ai-saas/"
+    },
+    {
+      "url": "https://ai.gami.jp/services/ai-marketing/index.html",
+      "target": "https://ai.gami.jp/services/ai-marketing/"
+    },
+    {
+      "url": "https://ai.gami.jp/services/ai-web/index.html",
+      "target": "https://ai.gami.jp/services/ai-web/"
+    },
+    {
+      "url": "https://ai.gami.jp/price/index.html",
+      "target": "https://ai.gami.jp/price/"
+    },
+    {
+      "url": "https://ai.gami.jp/news/index.html",
+      "target": "https://ai.gami.jp/news/"
+    },
+    {
+      "url": "https://ai.gami.jp/contact/index.html",
+      "target": "https://ai.gami.jp/contact/"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/index.html",
+      "target": "https://ai.gami.jp/insights/"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-internal-faq-editing-template/index.html",
+      "target": "https://ai.gami.jp/insights/ai-internal-faq-editing-template/"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-table-cleanup-checklist/index.html",
+      "target": "https://ai.gami.jp/insights/ai-table-cleanup-checklist/"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-inquiry-classification-checklist/index.html",
+      "target": "https://ai.gami.jp/insights/ai-inquiry-classification-checklist/"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-work-procedure-template/index.html",
+      "target": "https://ai.gami.jp/insights/ai-work-procedure-template/"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-project-proposal-comparison-sheet/index.html",
+      "target": "https://ai.gami.jp/insights/ai-project-proposal-comparison-sheet/"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-work-time-comparison-sheet/index.html",
+      "target": "https://ai.gami.jp/insights/ai-work-time-comparison-sheet/"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-work-handoff-template/index.html",
+      "target": "https://ai.gami.jp/insights/ai-work-handoff-template/"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-website-change-request-template/index.html",
+      "target": "https://ai.gami.jp/insights/ai-website-change-request-template/"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/rag-answer-review-sheet/index.html",
+      "target": "https://ai.gami.jp/insights/rag-answer-review-sheet/"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-meeting-action-items-template/index.html",
+      "target": "https://ai.gami.jp/insights/ai-meeting-action-items-template/"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-website-brief-template/index.html",
+      "target": "https://ai.gami.jp/insights/ai-website-brief-template/"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-article-fact-check-template/index.html",
+      "target": "https://ai.gami.jp/insights/ai-article-fact-check-template/"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/saas-or-custom-system-checklist/index.html",
+      "target": "https://ai.gami.jp/insights/saas-or-custom-system-checklist/"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-customer-reply-template/index.html",
+      "target": "https://ai.gami.jp/insights/ai-customer-reply-template/"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-website-launch-checklist/index.html",
+      "target": "https://ai.gami.jp/insights/ai-website-launch-checklist/"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/rag-document-inventory-checklist/index.html",
+      "target": "https://ai.gami.jp/insights/rag-document-inventory-checklist/"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/index.html",
+      "target": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/chatgpt-workplace-adoption-checklist/index.html",
+      "target": "https://ai.gami.jp/insights/chatgpt-workplace-adoption-checklist/"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-introduction-support-pricing/index.html",
+      "target": "https://ai.gami.jp/insights/ai-introduction-support-pricing/"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-introduction-support/index.html",
+      "target": "https://ai.gami.jp/insights/ai-introduction-support/"
+    }
+  ],
+  "baseline": {
+    "httpEvidencePath": "reports/seo/technical/2026-10-27-alias-http-before.json",
+    "browserEvidencePath": "reports/seo/technical/2026-10-27-alias-browser-before.json",
+    "metricsEvidencePath": "reports/seo/metrics/2026-10-27-current.json",
+    "representativeMounted404": 4,
+    "aliasHttp200": 29
+  },
+  "expectedSignal": "All selected aliases reach their canonical page in one301 without mounted404/noindex; new indexable entries inherit exact redirects from SSOT. Search effects observed separately.",
+  "minimumEvidence": {
+    "technical": "Build,31rules,31canonicalhead/bodyparity,13excludedcases,124protocol/query redirects,25assets,13live regressions,robots/sitemap,representative desktop/mobile.",
+    "effect": "28 full Pacific days and at least30 target-page impressions; descriptive only due existing experiments and no link analytics."
+  },
+  "reviewAt": [
+    "2026-11-03",
+    "2026-11-27"
+  ],
+  "freeze": {
+    "scope": "Generated alias behavior; preserve all original content experiments and schedules",
+    "until": "2026-11-27"
+  },
+  "rollback": "Revert only the generator function/call and source marker lines, rebuild/deploy to retain old root/About rules if a regression is demonstrated.",
+  "independentReview": {
+    "agent": "oct27_alias_review",
+    "status": "passed",
+    "notes": "31 finite rules aligned with SSOT; exact root/About retained; block outside unchanged;13 exclusion probes pass; no loop or extra query flags."
+  },
+  "predeployEvidencePath": "reports/seo/validation/2026-10-27-alias-predeploy.json",
+  "sources": [
+    "https://httpd.apache.org/docs/2.4/rewrite/flags.html#flag_qsd",
+    "https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls"
+  ],
+  "productionCommit": "6038fe45fbbb265905223676be2fc18ff982f14c",
+  "deploymentEvidencePath": "reports/seo/deployments/2026-10-27-generated-aliases.json"
+}

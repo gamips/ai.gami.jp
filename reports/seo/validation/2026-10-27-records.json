@@ -1,0 +1,32 @@
+{
+  "checkedAt": "2026-10-26T23:48:21.635Z",
+  "baselineCommit": "a24900a2340ac646a8253939e1dc1cf1c4085338",
+  "checks": {
+    "docs/seo/experiments.jsonl": {
+      "historyPreserved": true,
+      "appended": 8
+    },
+    "reports/seo/runs/2026-10.jsonl": {
+      "historyPreserved": true,
+      "appended": 1
+    },
+    "priorStartsPreserved": 43,
+    "unaffectedObservationsUnchanged": 13,
+    "prospectiveConfounds": 30,
+    "indexChecks": 3,
+    "closedInconclusive": 1,
+    "originalOtherEffectDatesRetained": true,
+    "active": 34,
+    "observationQueue": 44,
+    "inventory": 64,
+    "metricsAndPublicationMatch": true,
+    "canonicalVersionUnchanged": "1.0.14",
+    "launcherAndScheduleUnchanged": true
+  },
+  "passed": true,
+  "independentReview": {
+    "agent": "oct27_effect_review",
+    "status": "passed",
+    "notes": "oct27_alias_review passed finite generated rule review. oct27_effect_review passed final independent reconciliation: 43 prior starts and histories preserved, 13 unrelated observations unchanged, 30 prospective confounds, 3 index followups and Price closure, 34 active / 44 queue / 64 inventory, 8 events and 1 run appended; metrics, publication and unchanged schedule match."
+  }
+}

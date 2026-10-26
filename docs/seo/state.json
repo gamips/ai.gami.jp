@@ -7,23 +7,23 @@
     "currentCadenceHours": 24,
     "status": "ACTIVE",
     "currentSchedule": "毎日8:00（Asia/Tokyo）",
-    "scheduleObservedAt": "2026-10-25T23:05:42.240Z",
-    "scheduleSource": "October26 saved automation.toml and automation view: ACTIVE daily08. Existing launcher reads canonical;1.0.14 change requires no duplicated launcher text or schedule change."
+    "scheduleObservedAt": "2026-10-26T23:44:57.156Z",
+    "scheduleSource": "October27 automation view and saved TOML: ACTIVE daily08, same canonical-reading launcher. No update required."
   },
-  "lastActualRunAt": "2026-10-25T23:05:42.240Z",
-  "lastPromptAuditAt": "2026-10-25T23:05:42.240Z",
+  "lastActualRunAt": "2026-10-26T23:44:57.156Z",
+  "lastPromptAuditAt": "2026-10-26T23:44:57.156Z",
   "measurement": {
     "searchConsole": {
       "siteUrl": "sc-domain:ai.gami.jp",
       "status": "connected",
-      "latestFinalizedDate": "2026-10-23",
-      "lastRecordedAt": "2026-10-25T23:00:32.945Z",
-      "latestMetricsPath": "reports/seo/metrics/2026-10-26-current.json",
+      "latestFinalizedDate": "2026-10-24",
+      "lastRecordedAt": "2026-10-26T23:33:43.405Z",
+      "latestMetricsPath": "reports/seo/metrics/2026-10-27-current.json",
       "urlInspection": {
         "status": "available",
         "source": "google-index",
-        "verifiedAt": "2026-10-25T23:00:32.966Z",
-        "latestInspectionPath": "reports/seo/inspections/2026-10-26-due-pages.json",
+        "verifiedAt": "2026-10-26T23:37:03.9147696+00:00",
+        "latestInspectionPath": "reports/seo/inspections/2026-10-27-due-pages.json",
         "implementationCommit": "6ea352c25bb87684a0b337ad0a51ba66d5f48bd4"
       },
       "sitemap": {
@@ -32,8 +32,8 @@
         "latestEvidencePath": "reports/seo/inspections/2026-10-25-sitemap.json",
         "liveUrlCount": 31,
         "nextReadOnlyCheckOnOrAfter": "2026-11-01",
-        "liveVerifiedAt": "2026-10-25T23:02:59.381Z",
-        "liveEvidencePath": "reports/seo/validation/2026-10-26-about-alias-live.json"
+        "liveVerifiedAt": "2026-10-26T23:42:07.415Z",
+        "liveEvidencePath": "reports/seo/validation/2026-10-27-alias-live.json"
       },
       "attributionCaveat": "All Insights received a shared WebPage schema-type correction on2026-09-13. Article copy/dates and observation dates are unchanged, but later before/after signals cannot isolate content-only effects. See current deployment evidence and experiments log.",
       "nonBrandDefinition": {
@@ -46,8 +46,8 @@
         "note": "New exact query gami classified as brand. Both current and previous windows use the same rule; original snapshots unchanged.",
         "evidencePath": "reports/seo/metrics/2026-09-21-0803.json"
       },
-      "lastFreshnessCheckPath": "reports/seo/metrics/2026-10-26-freshness.json",
-      "latestObservationPath": "reports/seo/metrics/2026-10-26-current.json",
+      "lastFreshnessCheckPath": "reports/seo/metrics/2026-10-27-freshness.json",
+      "latestObservationPath": "reports/seo/metrics/2026-10-27-current.json",
       "reportingTimeZone": "America/Los_Angeles",
       "dateBoundaryEvidencePath": "reports/seo/metrics/2026-10-22-fixed-period-review.json"
     },
@@ -60,7 +60,6 @@
   "activeExperimentIds": [
     "insight-saas-or-custom-system-checklist-v1",
     "insight-ai-article-fact-check-template-v1",
-    "price-initial-html-parity-v1",
     "insight-ai-website-brief-template-v1",
     "insight-ai-meeting-action-items-template-v1",
     "concept-initial-html-parity-v1",
@@ -91,18 +90,19 @@
     "about-case-study-link-v1",
     "insight-ai-internal-faq-editing-template-v1",
     "root-index-alias-redirect-v1",
-    "about-index-alias-redirect-v1"
+    "about-index-alias-redirect-v1",
+    "generated-index-alias-redirects-v1"
   ],
   "deployment": {
-    "lastSuccessfulAt": "2026-10-25T23:02:59.381Z",
-    "commit": "95032a7c04568930e132db9dbb89ee18fdfaa62a",
-    "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/40242880194",
+    "lastSuccessfulAt": "2026-10-26T23:42:07.415Z",
+    "commit": "6038fe45fbbb265905223676be2fc18ff982f14c",
+    "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/40421375054",
     "method": "GitHub Actions normal Xserver deploy",
-    "evidencePath": "reports/seo/deployments/2026-10-26-about-alias.json",
+    "evidencePath": "reports/seo/deployments/2026-10-27-generated-aliases.json",
     "liveVerification": "passed",
-    "actionsStatus": "Normal Actions success. ExactAboutalias HTTP+HTTPS/query combinations one301→200;10pages/25assets,rootand3serviceredirects,404,robots/sitemap unchanged. Desktop/mobile existingAbout/caselink/nooverflow/console0 verified.",
+    "actionsStatus": "Normal Actions completed successfully. 31 canonical pages and25 assets matched;124 protocol/query redirects,13 excluded live regressions and8 representative browser checks passed.",
     "priorFailedActionsRun": "https://github.com/gamips/ai.gami.jp/actions/runs/36357667097",
-    "lastSuccessfulActionsRun": "https://github.com/gamips/ai.gami.jp/actions/runs/40242880194",
+    "lastSuccessfulActionsRun": "https://github.com/gamips/ai.gami.jp/actions/runs/40421375054",
     "normalPathRecheckOnOrAfter": null,
     "returnToNormalCondition": "Resume normal Actions after a successful normal-route build/deploy and live verification.",
     "normalRouteRecoveredAt": "2026-10-04T23:11:26.247Z",
@@ -777,7 +777,15 @@
           "note": "Google-index snapshot is not a live test. Live200/head/body/indexallow pass. Unknown/oldcrawl and missing page rows do not establish technical failure or SEO effect."
         }
       ],
-      "lastEffectResult": "inconclusive"
+      "lastEffectResult": "inconclusive",
+      "confounds": [
+        {
+          "experimentId": "generated-index-alias-redirects-v1",
+          "changedAt": "2026-10-26T23:42:07.415Z",
+          "description": "Generated index-alias redirects changed for this page or its linked target; canonical copy/head/CTA unchanged. Applies only to observations after this repair, not historical fixed periods.",
+          "evidencePath": "reports/seo/deployments/2026-10-27-generated-aliases.json"
+        }
+      ]
     },
     {
       "experimentId": "insight-ai-article-fact-check-template-v1",
@@ -938,18 +946,21 @@
         }
       ],
       "result": "inconclusive",
-      "lastEffectResult": "inconclusive"
+      "lastEffectResult": "inconclusive",
+      "confounds": [
+        {
+          "experimentId": "generated-index-alias-redirects-v1",
+          "changedAt": "2026-10-26T23:42:07.415Z",
+          "description": "Generated index-alias redirects changed for this page or its linked target; canonical copy/head/CTA unchanged. Applies only to observations after this repair, not historical fixed periods.",
+          "evidencePath": "reports/seo/deployments/2026-10-27-generated-aliases.json"
+        }
+      ]
     },
     {
       "experimentId": "price-initial-html-parity-v1",
-      "status": "observing",
+      "status": "completed",
       "startedAt": "2026-09-12T09:46:58Z",
-      "nextChecks": [
-        {
-          "onOrAfter": "2026-10-27",
-          "check": "Bounded insufficient-volume followup after first28finaldayreview0clicks/15exactslashimpressions. Keep slashvariants separate, preserve original start/content; no causal inference."
-        }
-      ],
+      "nextChecks": [],
       "completedChecks": [
         {
           "onOrAfter": "2026-09-19",
@@ -994,10 +1005,46 @@
           "effectReviewEvidencePath": "reports/seo/metrics/2026-10-13-price-review.json",
           "liveTechnicalEvidencePath": "reports/seo/deployments/2026-10-13-procedure-article.json",
           "note": "Full28days,15exactslashpageimpressions below30minimum. Trailing-slash variants remain separate; no causal/qualifiedvisit/inquiry lift claim. Original start/implementation retained."
+        },
+        {
+          "onOrAfter": "2026-10-27",
+          "check": "Bounded insufficient-volume followup after first28finaldayreview0clicks/15exactslashimpressions. Keep slashvariants separate, preserve original start/content; no causal inference.",
+          "checkedAt": "2026-10-26T23:39:08.773Z",
+          "queryPageEffect": "inconclusive",
+          "technicalResult": "confirmed",
+          "effectReviewEvidencePath": "reports/seo/metrics/2026-10-27-price-review.json",
+          "metricsEvidencePath": "reports/seo/metrics/2026-10-27-current.json",
+          "reportingTimeZone": "America/Los_Angeles",
+          "first28FullDays": {
+            "startDate": "2026-09-13",
+            "endDate": "2026-10-10",
+            "pageImpressions": 15,
+            "pageClicks": 0,
+            "minimumImpressionsMet": false
+          },
+          "boundedFollowup": {
+            "startDate": "2026-09-27",
+            "endDate": "2026-10-24",
+            "pageImpressions": 63,
+            "pageClicks": 0,
+            "minimumImpressionsMet": true
+          },
+          "note": "Planned first-28-day review and bounded followup are complete. Current exact-slash page has 63 impressions, but 0 clicks, tiny pre-period, differing query mix and no control prevent causal attribution. Qualified visits and inquiries remain unknown. Preserve implementation and all original dates/history; allow a separately scoped next experiment."
         }
       ],
       "result": "inconclusive",
-      "freezeContinuedThrough": "2026-10-27"
+      "freezeContinuedThrough": "2026-10-27",
+      "technicalResult": "confirmed",
+      "closedAt": "2026-10-26T23:39:08.773Z",
+      "closeReason": "Scheduled first-28-day review and bounded followup completed; preserve implementation, original start and history. Current 63 impressions do not establish acquisition impact. Future changes use a separate measurement boundary.",
+      "confounds": [
+        {
+          "experimentId": "generated-index-alias-redirects-v1",
+          "changedAt": "2026-10-26T23:42:07.415Z",
+          "description": "Generated index-alias redirects changed for this page or its linked target; canonical copy/head/CTA unchanged. Applies only to observations after this repair, not historical fixed periods.",
+          "evidencePath": "reports/seo/deployments/2026-10-27-generated-aliases.json"
+        }
+      ]
     },
     {
       "experimentId": "insight-ai-website-brief-template-v1",
@@ -1123,7 +1170,15 @@
           "note": "Google-index snapshot is not a live test. Live200/head/body/indexallow pass. Unknown/oldcrawl and missing page rows do not establish technical failure or SEO effect."
         }
       ],
-      "freezeUntil": "2026-10-28"
+      "freezeUntil": "2026-10-28",
+      "confounds": [
+        {
+          "experimentId": "generated-index-alias-redirects-v1",
+          "changedAt": "2026-10-26T23:42:07.415Z",
+          "description": "Generated index-alias redirects changed for this page or its linked target; canonical copy/head/CTA unchanged. Applies only to observations after this repair, not historical fixed periods.",
+          "evidencePath": "reports/seo/deployments/2026-10-27-generated-aliases.json"
+        }
+      ]
     },
     {
       "experimentId": "about-initial-html-parity-v1",
@@ -1342,7 +1397,15 @@
           "note": "Google-index is not a live test. Missing rows/unknown or oldcrawl do not establish technicalfailure or effect. Livehead/body/indexallow200 verified."
         }
       ],
-      "lastEffectResult": "inconclusive"
+      "lastEffectResult": "inconclusive",
+      "confounds": [
+        {
+          "experimentId": "generated-index-alias-redirects-v1",
+          "changedAt": "2026-10-26T23:42:07.415Z",
+          "description": "Generated index-alias redirects changed for this page or its linked target; canonical copy/head/CTA unchanged. Applies only to observations after this repair, not historical fixed periods.",
+          "evidencePath": "reports/seo/deployments/2026-10-27-generated-aliases.json"
+        }
+      ]
     },
     {
       "experimentId": "concept-initial-html-parity-v1",
@@ -1350,8 +1413,8 @@
       "startedAt": "2026-09-22T08:10:21.6542972+09:00",
       "nextChecks": [
         {
-          "onOrAfter": "2026-10-27",
-          "check": "Bounded crawl/index followup; reuse target and recent live evidence where applicable. Retain original start/effect dates; do not rewrite for unknown index."
+          "onOrAfter": "2026-11-03",
+          "check": "Bounded crawl/index followup. Reuse existing target evidence; retain original start/effect dates. Alias technical repair recorded separately."
         },
         {
           "onOrAfter": "2026-11-06",
@@ -1467,9 +1530,39 @@
             "evidencePath": "reports/seo/metrics/2026-10-21-0800.json"
           },
           "note": "Existing saved groups exactly match Pacific windows; no requery. Recorded crawl predates change; small sample. Original planned JST-based window is not treated as first28fullPacificdays."
+        },
+        {
+          "onOrAfter": "2026-10-27",
+          "check": "Bounded crawl/index followup; reuse target and recent live evidence where applicable. Retain original start/effect dates; do not rewrite for unknown index.",
+          "checkedAt": "2026-10-26T23:36:33.5817273+00:00",
+          "indexResult": "indexed-crawl-predates-change",
+          "indexVerdict": "PASS",
+          "coverageState": "送信して登録されました",
+          "lastCrawlTime": "2026-09-04T15:32:11Z",
+          "postChangeRecrawl": false,
+          "queryPageEffect": "not-yet-measurable",
+          "page28d": {
+            "page": "https://ai.gami.jp/concept/",
+            "clicks": 0,
+            "impressions": 16,
+            "ctr": 0,
+            "position": 5.9375
+          },
+          "inspectionEvidencePath": "reports/seo/inspections/2026-10-27-due-pages.json",
+          "metricsEvidencePath": "reports/seo/metrics/2026-10-27-current.json",
+          "liveTechnicalEvidencePath": "reports/seo/validation/2026-10-27-alias-live.json",
+          "note": "Google-index snapshot is not a live test. Exact URL only; absent rows remain null. Preserve original content, start and effect date."
         }
       ],
-      "lastEffectResult": "inconclusive"
+      "lastEffectResult": "inconclusive",
+      "confounds": [
+        {
+          "experimentId": "generated-index-alias-redirects-v1",
+          "changedAt": "2026-10-26T23:42:07.415Z",
+          "description": "Generated index-alias redirects changed for this page or its linked target; canonical copy/head/CTA unchanged. Applies only to observations after this repair, not historical fixed periods.",
+          "evidencePath": "reports/seo/deployments/2026-10-27-generated-aliases.json"
+        }
+      ]
     },
     {
       "experimentId": "insight-rag-answer-review-sheet-v1",
@@ -1565,6 +1658,14 @@
           "inspectionEvidencePath": "reports/seo/inspections/2026-10-21-due-pages.json",
           "liveTechnicalEvidencePath": "reports/seo/inspections/2026-10-24-live-due-pages.json",
           "note": "Saved window matches first28fullPacificdays. Missing page row remains null; low evidence and additional inbound link prevent causal inference."
+        }
+      ],
+      "confounds": [
+        {
+          "experimentId": "generated-index-alias-redirects-v1",
+          "changedAt": "2026-10-26T23:42:07.415Z",
+          "description": "Generated index-alias redirects changed for this page or its linked target; canonical copy/head/CTA unchanged. Applies only to observations after this repair, not historical fixed periods.",
+          "evidencePath": "reports/seo/deployments/2026-10-27-generated-aliases.json"
         }
       ]
     },
@@ -1701,7 +1802,15 @@
           }
         }
       ],
-      "lastEffectResult": "inconclusive"
+      "lastEffectResult": "inconclusive",
+      "confounds": [
+        {
+          "experimentId": "generated-index-alias-redirects-v1",
+          "changedAt": "2026-10-26T23:42:07.415Z",
+          "description": "Generated index-alias redirects changed for this page or its linked target; canonical copy/head/CTA unchanged. Applies only to observations after this repair, not historical fixed periods.",
+          "evidencePath": "reports/seo/deployments/2026-10-27-generated-aliases.json"
+        }
+      ]
     },
     {
       "experimentId": "insight-ai-website-change-request-template-v1",
@@ -1779,6 +1888,14 @@
           "metricsEvidencePath": "reports/seo/metrics/2026-10-25-current.json",
           "liveTechnicalEvidencePath": "reports/seo/validation/2026-10-25-alias-live.json",
           "note": "Google-index snapshot is not a live test. Live200/head/body/indexallow pass. Unknown/oldcrawl and missing page rows do not establish technical failure or SEO effect."
+        }
+      ],
+      "confounds": [
+        {
+          "experimentId": "generated-index-alias-redirects-v1",
+          "changedAt": "2026-10-26T23:42:07.415Z",
+          "description": "Generated index-alias redirects changed for this page or its linked target; canonical copy/head/CTA unchanged. Applies only to observations after this repair, not historical fixed periods.",
+          "evidencePath": "reports/seo/deployments/2026-10-27-generated-aliases.json"
         }
       ]
     },
@@ -1863,6 +1980,14 @@
           "note": "Google-index is not a live test. Missing rows/unknown or oldcrawl do not establish technicalfailure or effect. Livehead/body/indexallow200 verified.",
           "targetInspectionReusedFrom": "reports/seo/inspections/2026-10-25-due-pages.json"
         }
+      ],
+      "confounds": [
+        {
+          "experimentId": "generated-index-alias-redirects-v1",
+          "changedAt": "2026-10-26T23:42:07.415Z",
+          "description": "Generated index-alias redirects changed for this page or its linked target; canonical copy/head/CTA unchanged. Applies only to observations after this repair, not historical fixed periods.",
+          "evidencePath": "reports/seo/deployments/2026-10-27-generated-aliases.json"
+        }
       ]
     },
     {
@@ -1871,8 +1996,8 @@
       "startedAt": "2026-09-29T08:04:30.2703158+09:00",
       "nextChecks": [
         {
-          "onOrAfter": "2026-10-27",
-          "check": "Bounded crawl/index followup; reuse target and recent live evidence where applicable. Retain original start/effect dates; do not rewrite for unknown index."
+          "onOrAfter": "2026-11-03",
+          "check": "Bounded crawl/index followup. Reuse existing target evidence; retain original start/effect dates. Alias technical repair recorded separately."
         },
         {
           "onOrAfter": "2026-10-30",
@@ -1940,6 +2065,37 @@
           "liveTechnicalEvidencePath": "reports/seo/inspections/2026-10-20-live-due-pages.json",
           "note": "Google-index snapshot is not a live test. Exact-URL page row only; missing is null, variants remain separate. Live body/head/indexallow normal. Original effect review retained; no production defect or causal effect inferred.",
           "targetInspectionReusedFrom": "reports/seo/inspections/2026-10-18-due-pages.json"
+        },
+        {
+          "onOrAfter": "2026-10-27",
+          "check": "Bounded crawl/index followup; reuse target and recent live evidence where applicable. Retain original start/effect dates; do not rewrite for unknown index.",
+          "checkedAt": "2026-10-26T23:36:52.8336994+00:00",
+          "indexResult": "indexed-crawl-predates-change",
+          "indexVerdict": "PASS",
+          "coverageState": "送信して登録されました",
+          "lastCrawlTime": "2026-09-24T13:28:17Z",
+          "postChangeRecrawl": false,
+          "queryPageEffect": "not-yet-measurable",
+          "page28d": {
+            "page": "https://ai.gami.jp/services/ai-marketing/",
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "position": 30.666666666666668
+          },
+          "inspectionEvidencePath": "reports/seo/inspections/2026-10-27-due-pages.json",
+          "metricsEvidencePath": "reports/seo/metrics/2026-10-27-current.json",
+          "liveTechnicalEvidencePath": "reports/seo/validation/2026-10-27-alias-live.json",
+          "note": "Google-index snapshot is not a live test. Exact URL only; absent rows remain null. Preserve original content, start and effect date.",
+          "targetInspectionReusedFrom": "reports/seo/inspections/2026-10-25-due-pages.json"
+        }
+      ],
+      "confounds": [
+        {
+          "experimentId": "generated-index-alias-redirects-v1",
+          "changedAt": "2026-10-26T23:42:07.415Z",
+          "description": "Generated index-alias redirects changed for this page or its linked target; canonical copy/head/CTA unchanged. Applies only to observations after this repair, not historical fixed periods.",
+          "evidencePath": "reports/seo/deployments/2026-10-27-generated-aliases.json"
         }
       ]
     },
@@ -2019,6 +2175,14 @@
           "note": "Google-index snapshot is not live. Current live initial body/head/indexability normal. Exact-URL absent row null; old or unknown crawl does not prove production defect.",
           "targetInspectionReusedFrom": "reports/seo/inspections/2026-10-18-due-pages.json"
         }
+      ],
+      "confounds": [
+        {
+          "experimentId": "generated-index-alias-redirects-v1",
+          "changedAt": "2026-10-26T23:42:07.415Z",
+          "description": "Generated index-alias redirects changed for this page or its linked target; canonical copy/head/CTA unchanged. Applies only to observations after this repair, not historical fixed periods.",
+          "evidencePath": "reports/seo/deployments/2026-10-27-generated-aliases.json"
+        }
       ]
     },
     {
@@ -2093,6 +2257,14 @@
           "liveTechnicalEvidencePath": "reports/seo/inspections/2026-10-22-live-due-pages.json",
           "note": "Google-index snapshot is not live. InitialHTML/head/indexability pass; absent row remains null, no production defect or causal effect inferred."
         }
+      ],
+      "confounds": [
+        {
+          "experimentId": "generated-index-alias-redirects-v1",
+          "changedAt": "2026-10-26T23:42:07.415Z",
+          "description": "Generated index-alias redirects changed for this page or its linked target; canonical copy/head/CTA unchanged. Applies only to observations after this repair, not historical fixed periods.",
+          "evidencePath": "reports/seo/deployments/2026-10-27-generated-aliases.json"
+        }
       ]
     },
     {
@@ -2155,6 +2327,14 @@
           "metricsEvidencePath": "reports/seo/metrics/2026-10-23-current.json",
           "liveTechnicalEvidencePath": "reports/seo/inspections/2026-10-23-live-due-pages.json",
           "note": "Google-index snapshot is not live. Current live initialHTML/head/indexallow pass; old crawl/unknown does not establish production defect. Rolling window not fixed causal effect."
+        }
+      ],
+      "confounds": [
+        {
+          "experimentId": "generated-index-alias-redirects-v1",
+          "changedAt": "2026-10-26T23:42:07.415Z",
+          "description": "Generated index-alias redirects changed for this page or its linked target; canonical copy/head/CTA unchanged. Applies only to observations after this repair, not historical fixed periods.",
+          "evidencePath": "reports/seo/deployments/2026-10-27-generated-aliases.json"
         }
       ]
     },
@@ -2220,6 +2400,14 @@
           "metricsEvidencePath": "reports/seo/metrics/2026-10-25-current.json",
           "liveTechnicalEvidencePath": "reports/seo/validation/2026-10-25-alias-live.json",
           "note": "Google-index snapshot is not a live test. Live200/head/body/indexallow pass. Unknown/oldcrawl and missing page rows do not establish technical failure or SEO effect."
+        }
+      ],
+      "confounds": [
+        {
+          "experimentId": "generated-index-alias-redirects-v1",
+          "changedAt": "2026-10-26T23:42:07.415Z",
+          "description": "Generated index-alias redirects changed for this page or its linked target; canonical copy/head/CTA unchanged. Applies only to observations after this repair, not historical fixed periods.",
+          "evidencePath": "reports/seo/deployments/2026-10-27-generated-aliases.json"
         }
       ]
     },
@@ -2304,6 +2492,14 @@
           "liveTechnicalEvidencePath": "reports/seo/validation/2026-10-26-about-alias-live.json",
           "note": "Google-index is not a live test. Missing rows/unknown or oldcrawl do not establish technicalfailure or effect. Livehead/body/indexallow200 verified."
         }
+      ],
+      "confounds": [
+        {
+          "experimentId": "generated-index-alias-redirects-v1",
+          "changedAt": "2026-10-26T23:42:07.415Z",
+          "description": "Generated index-alias redirects changed for this page or its linked target; canonical copy/head/CTA unchanged. Applies only to observations after this repair, not historical fixed periods.",
+          "evidencePath": "reports/seo/deployments/2026-10-27-generated-aliases.json"
+        }
       ]
     },
     {
@@ -2366,6 +2562,14 @@
           "metricsEvidencePath": "reports/seo/metrics/2026-10-21-0800.json",
           "liveTechnicalEvidencePath": "reports/seo/inspections/2026-10-21-live-due-pages.json",
           "note": "Google-index snapshot is not live. Current live initial body/head/indexability normal. Exact-URL absent row null; old or unknown crawl does not prove production defect."
+        }
+      ],
+      "confounds": [
+        {
+          "experimentId": "generated-index-alias-redirects-v1",
+          "changedAt": "2026-10-26T23:42:07.415Z",
+          "description": "Generated index-alias redirects changed for this page or its linked target; canonical copy/head/CTA unchanged. Applies only to observations after this repair, not historical fixed periods.",
+          "evidencePath": "reports/seo/deployments/2026-10-27-generated-aliases.json"
         }
       ]
     },
@@ -2474,6 +2678,14 @@
           "note": "Google-index snapshot is not live. Current live initialHTML/head/indexallow pass; old crawl/unknown does not establish production defect. Rolling window not fixed causal effect.",
           "targetInspectionReusedFrom": "reports/seo/inspections/2026-10-21-due-pages.json"
         }
+      ],
+      "confounds": [
+        {
+          "experimentId": "generated-index-alias-redirects-v1",
+          "changedAt": "2026-10-26T23:42:07.415Z",
+          "description": "Generated index-alias redirects changed for this page or its linked target; canonical copy/head/CTA unchanged. Applies only to observations after this repair, not historical fixed periods.",
+          "evidencePath": "reports/seo/deployments/2026-10-27-generated-aliases.json"
+        }
       ]
     },
     {
@@ -2522,6 +2734,14 @@
           "metricsEvidencePath": "reports/seo/metrics/2026-10-24-current.json",
           "liveTechnicalEvidencePath": "reports/seo/inspections/2026-10-24-live-due-pages.json",
           "note": "Google-index is not a live test. Old/unknown crawl and absent rows do not establish production failure or SEO effect."
+        }
+      ],
+      "confounds": [
+        {
+          "experimentId": "generated-index-alias-redirects-v1",
+          "changedAt": "2026-10-26T23:42:07.415Z",
+          "description": "Generated index-alias redirects changed for this page or its linked target; canonical copy/head/CTA unchanged. Applies only to observations after this repair, not historical fixed periods.",
+          "evidencePath": "reports/seo/deployments/2026-10-27-generated-aliases.json"
         }
       ]
     },
@@ -2585,6 +2805,14 @@
             "evidencePath": "reports/seo/inspections/2026-10-25-due-pages.json"
           }
         }
+      ],
+      "confounds": [
+        {
+          "experimentId": "generated-index-alias-redirects-v1",
+          "changedAt": "2026-10-26T23:42:07.415Z",
+          "description": "Generated index-alias redirects changed for this page or its linked target; canonical copy/head/CTA unchanged. Applies only to observations after this repair, not historical fixed periods.",
+          "evidencePath": "reports/seo/deployments/2026-10-27-generated-aliases.json"
+        }
       ]
     },
     {
@@ -2636,6 +2864,14 @@
           "note": "Google-index is not a live test. Missing rows/unknown or oldcrawl do not establish technicalfailure or effect. Livehead/body/indexallow200 verified.",
           "targetInspectionReusedFrom": "reports/seo/inspections/2026-10-24-due-pages.json"
         }
+      ],
+      "confounds": [
+        {
+          "experimentId": "generated-index-alias-redirects-v1",
+          "changedAt": "2026-10-26T23:42:07.415Z",
+          "description": "Generated index-alias redirects changed for this page or its linked target; canonical copy/head/CTA unchanged. Applies only to observations after this repair, not historical fixed periods.",
+          "evidencePath": "reports/seo/deployments/2026-10-27-generated-aliases.json"
+        }
       ]
     },
     {
@@ -2644,8 +2880,8 @@
       "startedAt": "2026-10-12T23:08:13.0809832Z",
       "nextChecks": [
         {
-          "onOrAfter": "2026-10-27",
-          "check": "Bounded crawl/index followup; reuse target and recent live evidence where applicable. Retain original start/effect dates; do not rewrite for unknown index."
+          "onOrAfter": "2026-11-03",
+          "check": "Bounded crawl/index followup. Reuse existing target evidence; retain original start/effect dates. Alias technical repair recorded separately."
         },
         {
           "onOrAfter": "2026-11-13",
@@ -2668,6 +2904,30 @@
           "metricsEvidencePath": "reports/seo/metrics/2026-10-20-0806.json",
           "liveTechnicalEvidencePath": "reports/seo/inspections/2026-10-20-live-due-pages.json",
           "note": "Google-index snapshot is not a live test. Exact-URL page row only; missing is null, variants remain separate. Live body/head/indexallow normal. Original effect review retained; no production defect or causal effect inferred."
+        },
+        {
+          "onOrAfter": "2026-10-27",
+          "check": "Bounded crawl/index followup; reuse target and recent live evidence where applicable. Retain original start/effect dates; do not rewrite for unknown index.",
+          "checkedAt": "2026-10-26T23:37:03.9147696+00:00",
+          "indexResult": "not-confirmed",
+          "indexVerdict": "NEUTRAL",
+          "coverageState": "URL が Google に認識されていません",
+          "lastCrawlTime": null,
+          "postChangeRecrawl": null,
+          "queryPageEffect": "not-yet-measurable",
+          "page28d": null,
+          "inspectionEvidencePath": "reports/seo/inspections/2026-10-27-due-pages.json",
+          "metricsEvidencePath": "reports/seo/metrics/2026-10-27-current.json",
+          "liveTechnicalEvidencePath": "reports/seo/validation/2026-10-27-alias-live.json",
+          "note": "Google-index snapshot is not a live test. Exact URL only; absent rows remain null. Preserve original content, start and effect date."
+        }
+      ],
+      "confounds": [
+        {
+          "experimentId": "generated-index-alias-redirects-v1",
+          "changedAt": "2026-10-26T23:42:07.415Z",
+          "description": "Generated index-alias redirects changed for this page or its linked target; canonical copy/head/CTA unchanged. Applies only to observations after this repair, not historical fixed periods.",
+          "evidencePath": "reports/seo/deployments/2026-10-27-generated-aliases.json"
         }
       ]
     },
@@ -2716,6 +2976,14 @@
           "liveTechnicalEvidencePath": "reports/seo/inspections/2026-10-22-live-due-pages.json",
           "note": "Google-index snapshot is not live. InitialHTML/head/indexability pass; absent row remains null, no production defect or causal effect inferred."
         }
+      ],
+      "confounds": [
+        {
+          "experimentId": "generated-index-alias-redirects-v1",
+          "changedAt": "2026-10-26T23:42:07.415Z",
+          "description": "Generated index-alias redirects changed for this page or its linked target; canonical copy/head/CTA unchanged. Applies only to observations after this repair, not historical fixed periods.",
+          "evidencePath": "reports/seo/deployments/2026-10-27-generated-aliases.json"
+        }
       ]
     },
     {
@@ -2749,6 +3017,14 @@
           "liveTechnicalEvidencePath": "reports/seo/inspections/2026-10-23-live-due-pages.json",
           "note": "Google-index snapshot is not live. Current live initialHTML/head/indexallow pass; old crawl/unknown does not establish production defect. Rolling window not fixed causal effect.",
           "targetInspectionReusedFrom": "reports/seo/inspections/2026-10-20-due-pages.json"
+        }
+      ],
+      "confounds": [
+        {
+          "experimentId": "generated-index-alias-redirects-v1",
+          "changedAt": "2026-10-26T23:42:07.415Z",
+          "description": "Generated index-alias redirects changed for this page or its linked target; canonical copy/head/CTA unchanged. Applies only to observations after this repair, not historical fixed periods.",
+          "evidencePath": "reports/seo/deployments/2026-10-27-generated-aliases.json"
         }
       ]
     },
@@ -2784,6 +3060,14 @@
           "note": "Google-index is not a live test. Old/unknown crawl and absent rows do not establish production failure or SEO effect.",
           "targetInspectionReusedFrom": "reports/seo/inspections/2026-10-23-due-pages.json"
         }
+      ],
+      "confounds": [
+        {
+          "experimentId": "generated-index-alias-redirects-v1",
+          "changedAt": "2026-10-26T23:42:07.415Z",
+          "description": "Generated index-alias redirects changed for this page or its linked target; canonical copy/head/CTA unchanged. Applies only to observations after this repair, not historical fixed periods.",
+          "evidencePath": "reports/seo/deployments/2026-10-27-generated-aliases.json"
+        }
       ]
     },
     {
@@ -2818,6 +3102,14 @@
           "liveTechnicalEvidencePath": "reports/seo/validation/2026-10-25-alias-live.json",
           "note": "Google-index snapshot is not a live test. Live200/head/body/indexallow pass. Unknown/oldcrawl and missing page rows do not establish technical failure or SEO effect."
         }
+      ],
+      "confounds": [
+        {
+          "experimentId": "generated-index-alias-redirects-v1",
+          "changedAt": "2026-10-26T23:42:07.415Z",
+          "description": "Generated index-alias redirects changed for this page or its linked target; canonical copy/head/CTA unchanged. Applies only to observations after this repair, not historical fixed periods.",
+          "evidencePath": "reports/seo/deployments/2026-10-27-generated-aliases.json"
+        }
       ]
     },
     {
@@ -2835,6 +3127,14 @@
         {
           "onOrAfter": "2026-11-21",
           "check": "28fullfinaldays October22–November18 and >=30targetpageimpressions; actuallatestfinal>=November18. No causal,linkclick,qualifiedvisit or inquiry claim."
+        }
+      ],
+      "confounds": [
+        {
+          "experimentId": "generated-index-alias-redirects-v1",
+          "changedAt": "2026-10-26T23:42:07.415Z",
+          "description": "Generated index-alias redirects changed for this page or its linked target; canonical copy/head/CTA unchanged. Applies only to observations after this repair, not historical fixed periods.",
+          "evidencePath": "reports/seo/deployments/2026-10-27-generated-aliases.json"
         }
       ]
     },
@@ -2862,6 +3162,14 @@
           "note": "Inbound discovery change confounds target sentence-clarification effect. Preserve target start and November22 review; never attribute subsequent target impressions solely to either change.",
           "evidencePath": "reports/seo/deployments/2026-10-23-about-case-link.json"
         }
+      ],
+      "confounds": [
+        {
+          "experimentId": "generated-index-alias-redirects-v1",
+          "changedAt": "2026-10-26T23:42:07.415Z",
+          "description": "Generated index-alias redirects changed for this page or its linked target; canonical copy/head/CTA unchanged. Applies only to observations after this repair, not historical fixed periods.",
+          "evidencePath": "reports/seo/deployments/2026-10-27-generated-aliases.json"
+        }
       ]
     },
     {
@@ -2886,6 +3194,12 @@
           "experimentId": "about-index-alias-redirect-v1",
           "description": "ExactAboutalias301 repair restores originalAbout; copy/head/CTA unchanged. Destination signals may be affected; existinglink observation not isolated.",
           "evidencePath": "reports/seo/deployments/2026-10-26-about-alias.json"
+        },
+        {
+          "experimentId": "generated-index-alias-redirects-v1",
+          "changedAt": "2026-10-26T23:42:07.415Z",
+          "description": "Case-study target alias now redirects correctly; About content and its existing alias are unchanged. Future target signals may be affected.",
+          "evidencePath": "reports/seo/deployments/2026-10-27-generated-aliases.json"
         }
       ]
     },
@@ -2908,7 +3222,15 @@
       "firstFullPostChangeWindow": {
         "startDate": "2026-10-24",
         "endDate": "2026-11-20"
-      }
+      },
+      "confounds": [
+        {
+          "experimentId": "generated-index-alias-redirects-v1",
+          "changedAt": "2026-10-26T23:42:07.415Z",
+          "description": "Generated index-alias redirects changed for this page or its linked target; canonical copy/head/CTA unchanged. Applies only to observations after this repair, not historical fixed periods.",
+          "evidencePath": "reports/seo/deployments/2026-10-27-generated-aliases.json"
+        }
+      ]
     },
     {
       "experimentId": "root-index-alias-redirect-v1",
@@ -2959,40 +3281,64 @@
       ],
       "planEvidencePath": "reports/seo/technical/2026-10-26-about-alias-plan.json",
       "deploymentEvidencePath": "reports/seo/deployments/2026-10-26-about-alias.json"
+    },
+    {
+      "experimentId": "generated-index-alias-redirects-v1",
+      "status": "observing",
+      "startedAt": "2026-10-26T23:42:07.415Z",
+      "technicalResult": "confirmed",
+      "result": "not-yet-measurable",
+      "reportingTimeZone": "America/Los_Angeles",
+      "publicationPacificDate": "2026-10-26",
+      "firstFullPostChangeWindow": {
+        "startDate": "2026-10-27",
+        "endDate": "2026-11-23"
+      },
+      "freezeScope": "Generated alias redirect rules only; no causal isolation from current content/link experiments.",
+      "nextChecks": [
+        {
+          "onOrAfter": "2026-11-03",
+          "check": "Bounded alias/canonical crawl recognition; reuse due canonical inspections, sample representative aliases without daily full reinspection."
+        },
+        {
+          "onOrAfter": "2026-11-27",
+          "check": "Descriptive effect after October27–November23 finalized and >=30 relevant target-page impressions. Existing and later content/link changes are confounds; no aggregate causal attribution."
+        }
+      ],
+      "planEvidencePath": "reports/seo/technical/2026-10-27-alias-plan.json",
+      "deploymentEvidencePath": "reports/seo/deployments/2026-10-27-generated-aliases.json"
     }
   ],
   "readyQueue": [
     {
       "lane": "internal-link",
       "priority": 1,
-      "status": "ready_after_measurement",
-      "notBefore": "2026-10-27",
-      "work": "料金ページの予定した効果確認を終え、既存の費用ガイドへ案内できるか判断する。",
+      "status": "ready",
+      "notBefore": "2026-10-28",
+      "work": "予定した料金ページ評価は完了。既存費用ガイドへの短い案内を、別の変更として追加する。",
       "sourceUrl": "https://ai.gami.jp/price/",
       "targetUrl": "https://ai.gami.jp/insights/ai-introduction-support-pricing/",
-      "implementation": "Complete October27 Pricefollowup and decide whether to close original variable before copy/link change. Preserve dates and targetNovember12; add inboundconfound if implemented. Do not force-close for the sake of publishing.",
-      "verification": "If implemented: latest-model draft reviewed by root; existingdesign,React/staticlinkparity,briefproductioncheck. No pricing or servicepromise change.",
+      "implementation": "Original Price variable completed/inconclusive; do not claim success. Alias repair is a shared technical confound, not a reason to freeze all content. Keep generated alias rules and existing target text unchanged; record new link separately and preserve target November12 review.",
+      "verification": "Latest-model subagent draft, root review, existing design plus Lazyweb, React/static link parity, scoped production verification. No pricing or promise changes.",
       "evidencePaths": [
+        "reports/seo/metrics/2026-10-27-price-review.json",
         "reports/seo/technical/2026-10-26-next-actions.json",
-        "reports/seo/metrics/2026-10-25-current.json",
-        "src/app/pages/Price.tsx",
-        "src/app/content/pricing.js"
+        "reports/seo/deployments/2026-10-27-generated-aliases.json"
       ]
     },
     {
-      "lane": "technical-seo",
+      "lane": "internal-link",
       "priority": 2,
       "status": "ready_to_investigate",
-      "work": "残り29件の生成済み別名URLをまとめて調査し、共通原因と修正範囲を判断する。",
-      "implementation": "Finite29generatedindexablealiases; exclude404,contact/thanks,3retiredservices,unknownpaths from candidate changes. Browser representative groups first; preserve regressions. Do not infer mounted404 from HTTPalone.",
-      "verification": "HTTP/canonical/robots29pairs, mounted representative4types. No universalredirect or unrelatedAPI/filechanges. Currentroot/Aboutredirects must remain.",
+      "work": "手順書記事の2回目の未認識を受け、既存の関連記事からの案内とサービス本文の説明を確認する。",
+      "targetUrl": "https://ai.gami.jp/insights/ai-work-procedure-template/",
+      "implementation": "Do not repeat an existing ChatGPT-to-procedure link or rewrite for unknown index. Read current service scope and freeze dates before proposing one natural route. If no independent source is available, choose a distinct new article intent instead.",
       "evidencePaths": [
-        "reports/seo/technical/2026-10-26-next-actions.json",
-        "src/app/seo/pageSeo.js",
-        "public/.htaccess",
-        "public/index.php",
-        "src/app/routes.ts"
-      ]
+        "reports/seo/inspections/2026-10-27-due-pages.json",
+        "src/app/content/services.ts",
+        "src/app/content/insights.js"
+      ],
+      "existingLinkExperiment": "insight-chatgpt-procedure-link-v1"
     }
   ],
   "blocked": [
@@ -3059,16 +3405,16 @@
     "singleWriterConflict": false,
     "verificationGap": false,
     "cadenceChangeNeeded": false,
-    "nextFullAuditAfterCompletedRuns": 2,
+    "nextFullAuditAfterCompletedRuns": 1,
     "actualPromptReadback": "passed",
-    "changeApplied": true,
-    "operatingPolicyUpdated": true,
+    "changeApplied": false,
+    "operatingPolicyUpdated": false,
     "launcherPromptUpdated": false,
     "writingModelConfigured": "gpt-6.1-sol",
     "normalRouteStillHealthy": true,
-    "changeReason": "Two same-cause alias defects and29remaining candidates justify bounded batchinvestigation rule in1.0.14. Existinglauncher reads canonical, so no redundant prompt/schedule mutation.",
-    "laneAssessment": "Second confirmed aliasrepair completed; avoid serial onealias/day. Next PriceOctober27review then eligibleguide-link decision; remainingaliases onefinite audit.",
-    "newReusableLearning": "Same-cause URL issues should be investigated together before selecting a correction scope; actual mutation remains evidence-bounded.",
+    "changeReason": "Canonical1.0.14 already directs same-cause batch work and immediate result persistence. Completed finite29-alias repair with SSOT generation; no new recurring process failure or cadence condition.",
+    "laneAssessment": "Batch technical lane completed; next return to measured Price guide-link or bounded procedure-route discovery rather than more one-alias runs.",
+    "newReusableLearning": null,
     "auditedRunDates": [
       "2026-10-19",
       "2026-10-20",
@@ -3076,7 +3422,7 @@
       "2026-10-22",
       "2026-10-23"
     ],
-    "independentReview": "oct25_redirect_review approved the minimal rule and batch-audit scope. oct26_effect_review passed final reconciliation: 42 prior starts and histories preserved, 35 unaffected observations unchanged, due checks and About dates retained, 34 active / 43 queue / 35 inventory, 10 events and 1 run appended, metrics and deployment matched, prompt 1.0.14 and daily 08:00 schedule consistent."
+    "independentReview": "oct27_alias_review passed finite generated rule review. oct27_effect_review passed final independent reconciliation: 43 prior starts and histories preserved, 13 unrelated observations unchanged, 30 prospective confounds, 3 index followups and Price closure, 34 active / 44 queue / 64 inventory, 8 events and 1 run appended; metrics, publication and unchanged schedule match."
   },
   "retiredBlockers": [
     {

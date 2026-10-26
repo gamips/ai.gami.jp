@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T23:05:42.240Z",
+  "updatedAt": "2026-10-27",
   "rules": {
     "oneOwnerUrlPerIntent": true,
     "publicCopyExcludesOperationalMetadata": true
@@ -36,7 +36,9 @@
       "status": "published",
       "lastModified": "2026-09-22",
       "experimentId": "concept-initial-html-parity-v1",
-      "contentSource": "src/app/content/concept.js"
+      "contentSource": "src/app/content/concept.js",
+      "aliasRepairUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "aliasRepairExperimentId": "generated-index-alias-redirects-v1"
     },
     {
       "url": "https://ai.gami.jp/services/",
@@ -45,7 +47,9 @@
       "status": "published",
       "lastModified": "2026-09-25",
       "experimentId": "services-initial-html-parity-v1",
-      "contentSource": "src/app/content/serviceSummaries.js"
+      "contentSource": "src/app/content/serviceSummaries.js",
+      "aliasRepairUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "aliasRepairExperimentId": "generated-index-alias-redirects-v1"
     },
     {
       "url": "https://ai.gami.jp/services/ai-saas/",
@@ -57,7 +61,9 @@
       "relatedGuide": "https://ai.gami.jp/insights/ai-introduction-support/",
       "relatedRagGuide": "https://ai.gami.jp/insights/rag-document-inventory-checklist/",
       "relatedComparisonGuide": "https://ai.gami.jp/insights/saas-or-custom-system-checklist/",
-      "experimentId": "service-ai-saas-comparison-link-v1"
+      "experimentId": "service-ai-saas-comparison-link-v1",
+      "aliasRepairUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "aliasRepairExperimentId": "generated-index-alias-redirects-v1"
     },
     {
       "url": "https://ai.gami.jp/services/ai-marketing/",
@@ -67,7 +73,9 @@
       "lastModified": "2026-09-29",
       "relatedGuide": "https://ai.gami.jp/insights/ai-customer-reply-template/",
       "relatedFactCheckGuide": "https://ai.gami.jp/insights/ai-article-fact-check-template/",
-      "experimentId": "service-ai-marketing-fact-check-link-v1"
+      "experimentId": "service-ai-marketing-fact-check-link-v1",
+      "aliasRepairUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "aliasRepairExperimentId": "generated-index-alias-redirects-v1"
     },
     {
       "url": "https://ai.gami.jp/services/ai-web/",
@@ -77,7 +85,9 @@
       "lastModified": "2026-09-28",
       "relatedGuide": "https://ai.gami.jp/insights/ai-website-launch-checklist/",
       "relatedBriefGuide": "https://ai.gami.jp/insights/ai-website-brief-template/",
-      "experimentId": "service-ai-web-brief-link-v1"
+      "experimentId": "service-ai-web-brief-link-v1",
+      "aliasRepairUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "aliasRepairExperimentId": "generated-index-alias-redirects-v1"
     },
     {
       "url": "https://ai.gami.jp/price/",
@@ -86,7 +96,9 @@
       "status": "published",
       "lastModified": "2026-09-12",
       "experimentId": "price-initial-html-parity-v1",
-      "contentSource": "src/app/content/pricing.js"
+      "contentSource": "src/app/content/pricing.js",
+      "aliasRepairUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "aliasRepairExperimentId": "generated-index-alias-redirects-v1"
     },
     {
       "url": "https://ai.gami.jp/news/",
@@ -96,7 +108,9 @@
       "lastModified": "2026-10-05",
       "featuredCaseStudy": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/",
       "experimentId": "news-initial-html-parity-v1",
-      "contentSource": "src/app/content/news.js"
+      "contentSource": "src/app/content/news.js",
+      "aliasRepairUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "aliasRepairExperimentId": "generated-index-alias-redirects-v1"
     },
     {
       "url": "https://ai.gami.jp/about/",
@@ -121,7 +135,9 @@
       "status": "published",
       "lastModified": "2026-10-01",
       "experimentId": "contact-initial-html-parity-v1",
-      "contentSource": "src/app/content/contact.js"
+      "contentSource": "src/app/content/contact.js",
+      "aliasRepairUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "aliasRepairExperimentId": "generated-index-alias-redirects-v1"
     },
     {
       "url": "https://ai.gami.jp/insights/",
@@ -132,7 +148,9 @@
       "experimentId": "insights-initial-listing-parity-v1",
       "technicalUpdatedAt": "2026-10-07T01:13:35Z",
       "contentSource": "src/app/content/insights.js",
-      "note": "Index sitemap lastmod derives from article updatedAt; October24 new FAQ article added (20total) with unchanged listing mapping. Original listing experiment dates retained; article additions confound acquisition attribution."
+      "note": "Index sitemap lastmod derives from article updatedAt; October24 new FAQ article added (20total) with unchanged listing mapping. Original listing experiment dates retained; article additions confound acquisition attribution.",
+      "aliasRepairUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "aliasRepairExperimentId": "generated-index-alias-redirects-v1"
     },
     {
       "url": "https://ai.gami.jp/insights/ai-introduction-support/",
@@ -147,7 +165,9 @@
         "insight-ai-introduction-support-v1"
       ],
       "internalLinkUpdatedAt": "2026-10-11T00:25:53.6773167Z",
-      "relatedGuide": "https://ai.gami.jp/insights/ai-work-time-comparison-sheet/"
+      "relatedGuide": "https://ai.gami.jp/insights/ai-work-time-comparison-sheet/",
+      "aliasRepairUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "aliasRepairExperimentId": "generated-index-alias-redirects-v1"
     },
     {
       "url": "https://ai.gami.jp/insights/ai-introduction-support-pricing/",
@@ -163,7 +183,9 @@
         "insight-ai-introduction-support-pricing-v1"
       ],
       "internalLinkUpdatedAt": "2026-10-11T23:27:27.9504413Z",
-      "relatedGuide": "https://ai.gami.jp/insights/ai-project-proposal-comparison-sheet/"
+      "relatedGuide": "https://ai.gami.jp/insights/ai-project-proposal-comparison-sheet/",
+      "aliasRepairUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "aliasRepairExperimentId": "generated-index-alias-redirects-v1"
     },
     {
       "url": "https://ai.gami.jp/insights/chatgpt-workplace-adoption-checklist/",
@@ -179,7 +201,9 @@
         "insight-chatgpt-adoption-checklist-v1"
       ],
       "internalLinkUpdatedAt": "2026-10-15T23:06:45.0185739Z",
-      "relatedGuide": "https://ai.gami.jp/insights/ai-work-procedure-template/"
+      "relatedGuide": "https://ai.gami.jp/insights/ai-work-procedure-template/",
+      "aliasRepairUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "aliasRepairExperimentId": "generated-index-alias-redirects-v1"
     },
     {
       "url": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/",
@@ -197,7 +221,9 @@
       ],
       "contentClarifiedAt": "2026-10-22T01:20:52.313Z",
       "currentFactEvidencePath": "reports/seo/content/2026-10-22-case-facts.json",
-      "displayedArticleDatesUnchanged": true
+      "displayedArticleDatesUnchanged": true,
+      "aliasRepairUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "aliasRepairExperimentId": "generated-index-alias-redirects-v1"
     },
     {
       "url": "https://ai.gami.jp/insights/rag-document-inventory-checklist/",
@@ -212,7 +238,9 @@
         "insight-rag-document-inventory-checklist-v1"
       ],
       "internalLinkUpdatedAt": "2026-10-08T23:10:23.2420626Z",
-      "relatedGuide": "https://ai.gami.jp/insights/rag-answer-review-sheet/"
+      "relatedGuide": "https://ai.gami.jp/insights/rag-answer-review-sheet/",
+      "aliasRepairUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "aliasRepairExperimentId": "generated-index-alias-redirects-v1"
     },
     {
       "url": "https://ai.gami.jp/insights/ai-website-launch-checklist/",
@@ -227,7 +255,9 @@
         "insight-ai-website-launch-checklist-v1"
       ],
       "internalLinkUpdatedAt": "2026-10-20T23:05:33.9214865Z",
-      "relatedGuide": "https://ai.gami.jp/insights/ai-website-change-request-template/"
+      "relatedGuide": "https://ai.gami.jp/insights/ai-website-change-request-template/",
+      "aliasRepairUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "aliasRepairExperimentId": "generated-index-alias-redirects-v1"
     },
     {
       "url": "https://ai.gami.jp/insights/ai-customer-reply-template/",
@@ -242,7 +272,9 @@
         "insight-ai-customer-reply-template-v1"
       ],
       "internalLinkUpdatedAt": "2026-10-16T23:10:58.5950235Z",
-      "relatedGuide": "https://ai.gami.jp/insights/ai-work-handoff-template/"
+      "relatedGuide": "https://ai.gami.jp/insights/ai-work-handoff-template/",
+      "aliasRepairUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "aliasRepairExperimentId": "generated-index-alias-redirects-v1"
     },
     {
       "url": "https://github.com/gamips/ai.gami.jp",
@@ -266,7 +298,9 @@
       "lastModified": "2026-09-08",
       "schema": "Article",
       "experimentId": "insight-saas-or-custom-system-checklist-v1",
-      "relatedService": "https://ai.gami.jp/services/ai-saas/"
+      "relatedService": "https://ai.gami.jp/services/ai-saas/",
+      "aliasRepairUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "aliasRepairExperimentId": "generated-index-alias-redirects-v1"
     },
     {
       "url": "https://ai.gami.jp/insights/ai-article-fact-check-template/",
@@ -276,7 +310,9 @@
       "lastModified": "2026-09-11",
       "schema": "Article",
       "experimentId": "insight-ai-article-fact-check-template-v1",
-      "relatedService": "https://ai.gami.jp/services/ai-marketing/"
+      "relatedService": "https://ai.gami.jp/services/ai-marketing/",
+      "aliasRepairUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "aliasRepairExperimentId": "generated-index-alias-redirects-v1"
     },
     {
       "url": "https://ai.gami.jp/insights/ai-website-brief-template/",
@@ -286,7 +322,9 @@
       "lastModified": "2026-09-13",
       "schema": "Article",
       "experimentId": "insight-ai-website-brief-template-v1",
-      "relatedService": "https://ai.gami.jp/services/ai-web/"
+      "relatedService": "https://ai.gami.jp/services/ai-web/",
+      "aliasRepairUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "aliasRepairExperimentId": "generated-index-alias-redirects-v1"
     },
     {
       "url": "https://ai.gami.jp/insights/ai-meeting-action-items-template/",
@@ -296,7 +334,9 @@
       "lastModified": "2026-09-21",
       "schema": "Article",
       "experimentId": "insight-ai-meeting-action-items-template-v1",
-      "relatedService": "https://ai.gami.jp/services/ai-saas/"
+      "relatedService": "https://ai.gami.jp/services/ai-saas/",
+      "aliasRepairUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "aliasRepairExperimentId": "generated-index-alias-redirects-v1"
     },
     {
       "url": "https://ai.gami.jp/insights/rag-answer-review-sheet/",
@@ -307,7 +347,9 @@
       "schema": "Article",
       "experimentId": "insight-rag-answer-review-sheet-v1",
       "relatedService": "https://ai.gami.jp/services/ai-saas/",
-      "relatedArticle": "https://ai.gami.jp/insights/rag-document-inventory-checklist/"
+      "relatedArticle": "https://ai.gami.jp/insights/rag-document-inventory-checklist/",
+      "aliasRepairUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "aliasRepairExperimentId": "generated-index-alias-redirects-v1"
     },
     {
       "url": "https://ai.gami.jp/insights/ai-website-change-request-template/",
@@ -317,7 +359,9 @@
       "lastModified": "2026-09-27",
       "schema": "Article",
       "experimentId": "insight-ai-website-change-request-template-v1",
-      "relatedService": "https://ai.gami.jp/services/ai-web/"
+      "relatedService": "https://ai.gami.jp/services/ai-web/",
+      "aliasRepairUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "aliasRepairExperimentId": "generated-index-alias-redirects-v1"
     },
     {
       "url": "https://ai.gami.jp/insights/ai-work-handoff-template/",
@@ -327,7 +371,9 @@
       "lastModified": "2026-10-02",
       "schema": "Article",
       "experimentId": "insight-ai-work-handoff-template-v1",
-      "relatedService": "https://ai.gami.jp/services/ai-marketing/"
+      "relatedService": "https://ai.gami.jp/services/ai-marketing/",
+      "aliasRepairUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "aliasRepairExperimentId": "generated-index-alias-redirects-v1"
     },
     {
       "url": "https://ai.gami.jp/insights/ai-work-time-comparison-sheet/",
@@ -339,7 +385,9 @@
       "relatedArticle": "https://ai.gami.jp/insights/ai-introduction-support/",
       "lastModified": "2026-10-04",
       "schema": "Article",
-      "experimentId": "insight-ai-work-time-comparison-sheet-v1"
+      "experimentId": "insight-ai-work-time-comparison-sheet-v1",
+      "aliasRepairUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "aliasRepairExperimentId": "generated-index-alias-redirects-v1"
     },
     {
       "url": "https://ai.gami.jp/insights/ai-project-proposal-comparison-sheet/",
@@ -349,7 +397,9 @@
       "lastModified": "2026-10-10",
       "schema": "Article",
       "experimentId": "insight-ai-project-proposal-comparison-sheet-v1",
-      "relatedArticle": "https://ai.gami.jp/insights/ai-introduction-support-pricing/"
+      "relatedArticle": "https://ai.gami.jp/insights/ai-introduction-support-pricing/",
+      "aliasRepairUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "aliasRepairExperimentId": "generated-index-alias-redirects-v1"
     },
     {
       "url": "https://ai.gami.jp/insights/ai-work-procedure-template/",
@@ -359,7 +409,9 @@
       "lastModified": "2026-10-13",
       "schema": "Article",
       "experimentId": "insight-ai-work-procedure-template-v1",
-      "relatedGuide": "https://ai.gami.jp/insights/rag-document-inventory-checklist/"
+      "relatedGuide": "https://ai.gami.jp/insights/rag-document-inventory-checklist/",
+      "aliasRepairUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "aliasRepairExperimentId": "generated-index-alias-redirects-v1"
     },
     {
       "url": "https://ai.gami.jp/insights/ai-inquiry-classification-checklist/",
@@ -369,7 +421,9 @@
       "lastModified": "2026-10-15",
       "schema": "Article",
       "experimentId": "insight-ai-inquiry-classification-checklist-v1",
-      "relatedService": "https://ai.gami.jp/services/ai-marketing/"
+      "relatedService": "https://ai.gami.jp/services/ai-marketing/",
+      "aliasRepairUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "aliasRepairExperimentId": "generated-index-alias-redirects-v1"
     },
     {
       "url": "https://ai.gami.jp/insights/ai-table-cleanup-checklist/",
@@ -379,7 +433,9 @@
       "lastModified": "2026-10-18",
       "schema": "Article",
       "experimentId": "insight-ai-table-cleanup-checklist-v1",
-      "relatedService": "https://ai.gami.jp/services/ai-saas/"
+      "relatedService": "https://ai.gami.jp/services/ai-saas/",
+      "aliasRepairUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "aliasRepairExperimentId": "generated-index-alias-redirects-v1"
     },
     {
       "url": "https://ai.gami.jp/insights/ai-internal-faq-editing-template/",
@@ -389,7 +445,9 @@
       "lastModified": "2026-10-24",
       "schema": "Article",
       "experimentId": "insight-ai-internal-faq-editing-template-v1",
-      "relatedService": "https://ai.gami.jp/services/ai-saas/"
+      "relatedService": "https://ai.gami.jp/services/ai-saas/",
+      "aliasRepairUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "aliasRepairExperimentId": "generated-index-alias-redirects-v1"
     },
     {
       "url": "https://ai.gami.jp/index.html",
@@ -416,6 +474,383 @@
       "experimentId": "about-index-alias-redirect-v1",
       "indexable": false,
       "note": "Exact alias only; not sitemapcontent. Aboutlink observationdates retained."
+    },
+    {
+      "url": "https://ai.gami.jp/concept/index.html",
+      "type": "redirect-alias",
+      "intent": "生成済みページの別名から正規ページへ案内",
+      "status": "redirected",
+      "redirectTarget": "https://ai.gami.jp/concept/",
+      "redirectStatus": 301,
+      "queryPreserved": true,
+      "technicalUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "experimentId": "generated-index-alias-redirects-v1",
+      "indexable": false,
+      "note": "Generated exact rule from staticSeoEntries; not sitemap content. Canonical publication dates and content experiments retained."
+    },
+    {
+      "url": "https://ai.gami.jp/services/index.html",
+      "type": "redirect-alias",
+      "intent": "生成済みページの別名から正規ページへ案内",
+      "status": "redirected",
+      "redirectTarget": "https://ai.gami.jp/services/",
+      "redirectStatus": 301,
+      "queryPreserved": true,
+      "technicalUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "experimentId": "generated-index-alias-redirects-v1",
+      "indexable": false,
+      "note": "Generated exact rule from staticSeoEntries; not sitemap content. Canonical publication dates and content experiments retained."
+    },
+    {
+      "url": "https://ai.gami.jp/services/ai-saas/index.html",
+      "type": "redirect-alias",
+      "intent": "生成済みページの別名から正規ページへ案内",
+      "status": "redirected",
+      "redirectTarget": "https://ai.gami.jp/services/ai-saas/",
+      "redirectStatus": 301,
+      "queryPreserved": true,
+      "technicalUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "experimentId": "generated-index-alias-redirects-v1",
+      "indexable": false,
+      "note": "Generated exact rule from staticSeoEntries; not sitemap content. Canonical publication dates and content experiments retained."
+    },
+    {
+      "url": "https://ai.gami.jp/services/ai-marketing/index.html",
+      "type": "redirect-alias",
+      "intent": "生成済みページの別名から正規ページへ案内",
+      "status": "redirected",
+      "redirectTarget": "https://ai.gami.jp/services/ai-marketing/",
+      "redirectStatus": 301,
+      "queryPreserved": true,
+      "technicalUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "experimentId": "generated-index-alias-redirects-v1",
+      "indexable": false,
+      "note": "Generated exact rule from staticSeoEntries; not sitemap content. Canonical publication dates and content experiments retained."
+    },
+    {
+      "url": "https://ai.gami.jp/services/ai-web/index.html",
+      "type": "redirect-alias",
+      "intent": "生成済みページの別名から正規ページへ案内",
+      "status": "redirected",
+      "redirectTarget": "https://ai.gami.jp/services/ai-web/",
+      "redirectStatus": 301,
+      "queryPreserved": true,
+      "technicalUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "experimentId": "generated-index-alias-redirects-v1",
+      "indexable": false,
+      "note": "Generated exact rule from staticSeoEntries; not sitemap content. Canonical publication dates and content experiments retained."
+    },
+    {
+      "url": "https://ai.gami.jp/price/index.html",
+      "type": "redirect-alias",
+      "intent": "生成済みページの別名から正規ページへ案内",
+      "status": "redirected",
+      "redirectTarget": "https://ai.gami.jp/price/",
+      "redirectStatus": 301,
+      "queryPreserved": true,
+      "technicalUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "experimentId": "generated-index-alias-redirects-v1",
+      "indexable": false,
+      "note": "Generated exact rule from staticSeoEntries; not sitemap content. Canonical publication dates and content experiments retained."
+    },
+    {
+      "url": "https://ai.gami.jp/news/index.html",
+      "type": "redirect-alias",
+      "intent": "生成済みページの別名から正規ページへ案内",
+      "status": "redirected",
+      "redirectTarget": "https://ai.gami.jp/news/",
+      "redirectStatus": 301,
+      "queryPreserved": true,
+      "technicalUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "experimentId": "generated-index-alias-redirects-v1",
+      "indexable": false,
+      "note": "Generated exact rule from staticSeoEntries; not sitemap content. Canonical publication dates and content experiments retained."
+    },
+    {
+      "url": "https://ai.gami.jp/contact/index.html",
+      "type": "redirect-alias",
+      "intent": "生成済みページの別名から正規ページへ案内",
+      "status": "redirected",
+      "redirectTarget": "https://ai.gami.jp/contact/",
+      "redirectStatus": 301,
+      "queryPreserved": true,
+      "technicalUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "experimentId": "generated-index-alias-redirects-v1",
+      "indexable": false,
+      "note": "Generated exact rule from staticSeoEntries; not sitemap content. Canonical publication dates and content experiments retained."
+    },
+    {
+      "url": "https://ai.gami.jp/insights/index.html",
+      "type": "redirect-alias",
+      "intent": "生成済みページの別名から正規ページへ案内",
+      "status": "redirected",
+      "redirectTarget": "https://ai.gami.jp/insights/",
+      "redirectStatus": 301,
+      "queryPreserved": true,
+      "technicalUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "experimentId": "generated-index-alias-redirects-v1",
+      "indexable": false,
+      "note": "Generated exact rule from staticSeoEntries; not sitemap content. Canonical publication dates and content experiments retained."
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-internal-faq-editing-template/index.html",
+      "type": "redirect-alias",
+      "intent": "生成済みページの別名から正規ページへ案内",
+      "status": "redirected",
+      "redirectTarget": "https://ai.gami.jp/insights/ai-internal-faq-editing-template/",
+      "redirectStatus": 301,
+      "queryPreserved": true,
+      "technicalUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "experimentId": "generated-index-alias-redirects-v1",
+      "indexable": false,
+      "note": "Generated exact rule from staticSeoEntries; not sitemap content. Canonical publication dates and content experiments retained."
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-table-cleanup-checklist/index.html",
+      "type": "redirect-alias",
+      "intent": "生成済みページの別名から正規ページへ案内",
+      "status": "redirected",
+      "redirectTarget": "https://ai.gami.jp/insights/ai-table-cleanup-checklist/",
+      "redirectStatus": 301,
+      "queryPreserved": true,
+      "technicalUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "experimentId": "generated-index-alias-redirects-v1",
+      "indexable": false,
+      "note": "Generated exact rule from staticSeoEntries; not sitemap content. Canonical publication dates and content experiments retained."
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-inquiry-classification-checklist/index.html",
+      "type": "redirect-alias",
+      "intent": "生成済みページの別名から正規ページへ案内",
+      "status": "redirected",
+      "redirectTarget": "https://ai.gami.jp/insights/ai-inquiry-classification-checklist/",
+      "redirectStatus": 301,
+      "queryPreserved": true,
+      "technicalUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "experimentId": "generated-index-alias-redirects-v1",
+      "indexable": false,
+      "note": "Generated exact rule from staticSeoEntries; not sitemap content. Canonical publication dates and content experiments retained."
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-work-procedure-template/index.html",
+      "type": "redirect-alias",
+      "intent": "生成済みページの別名から正規ページへ案内",
+      "status": "redirected",
+      "redirectTarget": "https://ai.gami.jp/insights/ai-work-procedure-template/",
+      "redirectStatus": 301,
+      "queryPreserved": true,
+      "technicalUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "experimentId": "generated-index-alias-redirects-v1",
+      "indexable": false,
+      "note": "Generated exact rule from staticSeoEntries; not sitemap content. Canonical publication dates and content experiments retained."
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-project-proposal-comparison-sheet/index.html",
+      "type": "redirect-alias",
+      "intent": "生成済みページの別名から正規ページへ案内",
+      "status": "redirected",
+      "redirectTarget": "https://ai.gami.jp/insights/ai-project-proposal-comparison-sheet/",
+      "redirectStatus": 301,
+      "queryPreserved": true,
+      "technicalUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "experimentId": "generated-index-alias-redirects-v1",
+      "indexable": false,
+      "note": "Generated exact rule from staticSeoEntries; not sitemap content. Canonical publication dates and content experiments retained."
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-work-time-comparison-sheet/index.html",
+      "type": "redirect-alias",
+      "intent": "生成済みページの別名から正規ページへ案内",
+      "status": "redirected",
+      "redirectTarget": "https://ai.gami.jp/insights/ai-work-time-comparison-sheet/",
+      "redirectStatus": 301,
+      "queryPreserved": true,
+      "technicalUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "experimentId": "generated-index-alias-redirects-v1",
+      "indexable": false,
+      "note": "Generated exact rule from staticSeoEntries; not sitemap content. Canonical publication dates and content experiments retained."
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-work-handoff-template/index.html",
+      "type": "redirect-alias",
+      "intent": "生成済みページの別名から正規ページへ案内",
+      "status": "redirected",
+      "redirectTarget": "https://ai.gami.jp/insights/ai-work-handoff-template/",
+      "redirectStatus": 301,
+      "queryPreserved": true,
+      "technicalUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "experimentId": "generated-index-alias-redirects-v1",
+      "indexable": false,
+      "note": "Generated exact rule from staticSeoEntries; not sitemap content. Canonical publication dates and content experiments retained."
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-website-change-request-template/index.html",
+      "type": "redirect-alias",
+      "intent": "生成済みページの別名から正規ページへ案内",
+      "status": "redirected",
+      "redirectTarget": "https://ai.gami.jp/insights/ai-website-change-request-template/",
+      "redirectStatus": 301,
+      "queryPreserved": true,
+      "technicalUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "experimentId": "generated-index-alias-redirects-v1",
+      "indexable": false,
+      "note": "Generated exact rule from staticSeoEntries; not sitemap content. Canonical publication dates and content experiments retained."
+    },
+    {
+      "url": "https://ai.gami.jp/insights/rag-answer-review-sheet/index.html",
+      "type": "redirect-alias",
+      "intent": "生成済みページの別名から正規ページへ案内",
+      "status": "redirected",
+      "redirectTarget": "https://ai.gami.jp/insights/rag-answer-review-sheet/",
+      "redirectStatus": 301,
+      "queryPreserved": true,
+      "technicalUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "experimentId": "generated-index-alias-redirects-v1",
+      "indexable": false,
+      "note": "Generated exact rule from staticSeoEntries; not sitemap content. Canonical publication dates and content experiments retained."
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-meeting-action-items-template/index.html",
+      "type": "redirect-alias",
+      "intent": "生成済みページの別名から正規ページへ案内",
+      "status": "redirected",
+      "redirectTarget": "https://ai.gami.jp/insights/ai-meeting-action-items-template/",
+      "redirectStatus": 301,
+      "queryPreserved": true,
+      "technicalUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "experimentId": "generated-index-alias-redirects-v1",
+      "indexable": false,
+      "note": "Generated exact rule from staticSeoEntries; not sitemap content. Canonical publication dates and content experiments retained."
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-website-brief-template/index.html",
+      "type": "redirect-alias",
+      "intent": "生成済みページの別名から正規ページへ案内",
+      "status": "redirected",
+      "redirectTarget": "https://ai.gami.jp/insights/ai-website-brief-template/",
+      "redirectStatus": 301,
+      "queryPreserved": true,
+      "technicalUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "experimentId": "generated-index-alias-redirects-v1",
+      "indexable": false,
+      "note": "Generated exact rule from staticSeoEntries; not sitemap content. Canonical publication dates and content experiments retained."
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-article-fact-check-template/index.html",
+      "type": "redirect-alias",
+      "intent": "生成済みページの別名から正規ページへ案内",
+      "status": "redirected",
+      "redirectTarget": "https://ai.gami.jp/insights/ai-article-fact-check-template/",
+      "redirectStatus": 301,
+      "queryPreserved": true,
+      "technicalUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "experimentId": "generated-index-alias-redirects-v1",
+      "indexable": false,
+      "note": "Generated exact rule from staticSeoEntries; not sitemap content. Canonical publication dates and content experiments retained."
+    },
+    {
+      "url": "https://ai.gami.jp/insights/saas-or-custom-system-checklist/index.html",
+      "type": "redirect-alias",
+      "intent": "生成済みページの別名から正規ページへ案内",
+      "status": "redirected",
+      "redirectTarget": "https://ai.gami.jp/insights/saas-or-custom-system-checklist/",
+      "redirectStatus": 301,
+      "queryPreserved": true,
+      "technicalUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "experimentId": "generated-index-alias-redirects-v1",
+      "indexable": false,
+      "note": "Generated exact rule from staticSeoEntries; not sitemap content. Canonical publication dates and content experiments retained."
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-customer-reply-template/index.html",
+      "type": "redirect-alias",
+      "intent": "生成済みページの別名から正規ページへ案内",
+      "status": "redirected",
+      "redirectTarget": "https://ai.gami.jp/insights/ai-customer-reply-template/",
+      "redirectStatus": 301,
+      "queryPreserved": true,
+      "technicalUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "experimentId": "generated-index-alias-redirects-v1",
+      "indexable": false,
+      "note": "Generated exact rule from staticSeoEntries; not sitemap content. Canonical publication dates and content experiments retained."
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-website-launch-checklist/index.html",
+      "type": "redirect-alias",
+      "intent": "生成済みページの別名から正規ページへ案内",
+      "status": "redirected",
+      "redirectTarget": "https://ai.gami.jp/insights/ai-website-launch-checklist/",
+      "redirectStatus": 301,
+      "queryPreserved": true,
+      "technicalUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "experimentId": "generated-index-alias-redirects-v1",
+      "indexable": false,
+      "note": "Generated exact rule from staticSeoEntries; not sitemap content. Canonical publication dates and content experiments retained."
+    },
+    {
+      "url": "https://ai.gami.jp/insights/rag-document-inventory-checklist/index.html",
+      "type": "redirect-alias",
+      "intent": "生成済みページの別名から正規ページへ案内",
+      "status": "redirected",
+      "redirectTarget": "https://ai.gami.jp/insights/rag-document-inventory-checklist/",
+      "redirectStatus": 301,
+      "queryPreserved": true,
+      "technicalUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "experimentId": "generated-index-alias-redirects-v1",
+      "indexable": false,
+      "note": "Generated exact rule from staticSeoEntries; not sitemap content. Canonical publication dates and content experiments retained."
+    },
+    {
+      "url": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/index.html",
+      "type": "redirect-alias",
+      "intent": "生成済みページの別名から正規ページへ案内",
+      "status": "redirected",
+      "redirectTarget": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/",
+      "redirectStatus": 301,
+      "queryPreserved": true,
+      "technicalUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "experimentId": "generated-index-alias-redirects-v1",
+      "indexable": false,
+      "note": "Generated exact rule from staticSeoEntries; not sitemap content. Canonical publication dates and content experiments retained."
+    },
+    {
+      "url": "https://ai.gami.jp/insights/chatgpt-workplace-adoption-checklist/index.html",
+      "type": "redirect-alias",
+      "intent": "生成済みページの別名から正規ページへ案内",
+      "status": "redirected",
+      "redirectTarget": "https://ai.gami.jp/insights/chatgpt-workplace-adoption-checklist/",
+      "redirectStatus": 301,
+      "queryPreserved": true,
+      "technicalUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "experimentId": "generated-index-alias-redirects-v1",
+      "indexable": false,
+      "note": "Generated exact rule from staticSeoEntries; not sitemap content. Canonical publication dates and content experiments retained."
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-introduction-support-pricing/index.html",
+      "type": "redirect-alias",
+      "intent": "生成済みページの別名から正規ページへ案内",
+      "status": "redirected",
+      "redirectTarget": "https://ai.gami.jp/insights/ai-introduction-support-pricing/",
+      "redirectStatus": 301,
+      "queryPreserved": true,
+      "technicalUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "experimentId": "generated-index-alias-redirects-v1",
+      "indexable": false,
+      "note": "Generated exact rule from staticSeoEntries; not sitemap content. Canonical publication dates and content experiments retained."
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-introduction-support/index.html",
+      "type": "redirect-alias",
+      "intent": "生成済みページの別名から正規ページへ案内",
+      "status": "redirected",
+      "redirectTarget": "https://ai.gami.jp/insights/ai-introduction-support/",
+      "redirectStatus": 301,
+      "queryPreserved": true,
+      "technicalUpdatedAt": "2026-10-26T23:42:07.415Z",
+      "experimentId": "generated-index-alias-redirects-v1",
+      "indexable": false,
+      "note": "Generated exact rule from staticSeoEntries; not sitemap content. Canonical publication dates and content experiments retained."
     }
   ]
 }

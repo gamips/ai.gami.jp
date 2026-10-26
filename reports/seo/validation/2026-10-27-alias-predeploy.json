@@ -1,0 +1,300 @@
+{
+  "checkedAt": "2026-10-26T23:39:54.739Z",
+  "mode": "predeploy",
+  "generatedRules": 31,
+  "excludedRuleCases": [
+    "404/index.html",
+    "contact/thanks/index.html",
+    "services/ai-implementation/index.html",
+    "services/rag-chatbot/index.html",
+    "services/ai-agent/index.html",
+    "unknown/index.html",
+    "insights/unknown/index.html",
+    "index.php",
+    "api/contact.php",
+    "assets/index.html",
+    "concept/indexXhtml",
+    "concept/index.html/",
+    "Concept/index.html"
+  ],
+  "pages": [
+    {
+      "url": "https://ai.gami.jp/",
+      "status": 200,
+      "headAndBodyMatchBuild": true,
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/concept/",
+      "status": 200,
+      "headAndBodyMatchBuild": true,
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/services/",
+      "status": 200,
+      "headAndBodyMatchBuild": true,
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/services/ai-saas/",
+      "status": 200,
+      "headAndBodyMatchBuild": true,
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/services/ai-marketing/",
+      "status": 200,
+      "headAndBodyMatchBuild": true,
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/services/ai-web/",
+      "status": 200,
+      "headAndBodyMatchBuild": true,
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/price/",
+      "status": 200,
+      "headAndBodyMatchBuild": true,
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/news/",
+      "status": 200,
+      "headAndBodyMatchBuild": true,
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/about/",
+      "status": 200,
+      "headAndBodyMatchBuild": true,
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/contact/",
+      "status": 200,
+      "headAndBodyMatchBuild": true,
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/",
+      "status": 200,
+      "headAndBodyMatchBuild": true,
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-internal-faq-editing-template/",
+      "status": 200,
+      "headAndBodyMatchBuild": true,
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-table-cleanup-checklist/",
+      "status": 200,
+      "headAndBodyMatchBuild": true,
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-inquiry-classification-checklist/",
+      "status": 200,
+      "headAndBodyMatchBuild": true,
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-work-procedure-template/",
+      "status": 200,
+      "headAndBodyMatchBuild": true,
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-project-proposal-comparison-sheet/",
+      "status": 200,
+      "headAndBodyMatchBuild": true,
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-work-time-comparison-sheet/",
+      "status": 200,
+      "headAndBodyMatchBuild": true,
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-work-handoff-template/",
+      "status": 200,
+      "headAndBodyMatchBuild": true,
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-website-change-request-template/",
+      "status": 200,
+      "headAndBodyMatchBuild": true,
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/rag-answer-review-sheet/",
+      "status": 200,
+      "headAndBodyMatchBuild": true,
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-meeting-action-items-template/",
+      "status": 200,
+      "headAndBodyMatchBuild": true,
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-website-brief-template/",
+      "status": 200,
+      "headAndBodyMatchBuild": true,
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-article-fact-check-template/",
+      "status": 200,
+      "headAndBodyMatchBuild": true,
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/saas-or-custom-system-checklist/",
+      "status": 200,
+      "headAndBodyMatchBuild": true,
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-customer-reply-template/",
+      "status": 200,
+      "headAndBodyMatchBuild": true,
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-website-launch-checklist/",
+      "status": 200,
+      "headAndBodyMatchBuild": true,
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/rag-document-inventory-checklist/",
+      "status": 200,
+      "headAndBodyMatchBuild": true,
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/",
+      "status": 200,
+      "headAndBodyMatchBuild": true,
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/chatgpt-workplace-adoption-checklist/",
+      "status": 200,
+      "headAndBodyMatchBuild": true,
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-introduction-support-pricing/",
+      "status": 200,
+      "headAndBodyMatchBuild": true,
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-introduction-support/",
+      "status": 200,
+      "headAndBodyMatchBuild": true,
+      "indexAllowed": true
+    }
+  ],
+  "redirects": [],
+  "regressions": [
+    {
+      "path": "/404/",
+      "status": 200,
+      "location": null,
+      "seoHead": "<!-- SEO_HEAD_START -->\n    <title>404 | GAMI</title>\n    <meta name=\"description\" content=\"お探しのページは見つかりませんでした。\" />\n    <meta name=\"robots\" content=\"noindex,nofollow\" />\n    <meta name=\"author\" content=\"GAMI\" />\n    <meta name=\"application-name\" content=\"GAMI\" />\n    \n    <meta property=\"og:locale\" content=\"ja_JP\" />\n    <meta property=\"og:site_name\" content=\"GAMI\" />\n    <meta property=\"og:type\" content=\"website\" />\n    \n    <meta property=\"og:title\" content=\"404 | GAMI\" />\n    <meta property=\"og:description\" content=\"お探しのページは見つかりませんでした。\" />\n    <meta property=\"og:image\" content=\"https://ai.gami.jp/og/home.png\" />\n    <meta property=\"og:image:secure_url\" content=\"https://ai.gami.jp/og/home.png\" />\n    <meta property=\"og:image:type\" content=\"image/png\" />\n    <meta property=\"og:image:width\" content=\"1200\" />\n    <meta property=\"og:image:height\" content=\"630\" />\n    <meta property=\"og:image:alt\" content=\"404 page open graph image\" />\n    <meta name=\"twitter:card\" content=\"summary_large_image\" />\n    <meta name=\"twitter:title\" content=\"404 | GAMI\" />\n    <meta name=\"twitter:description\" content=\"お探しのページは見つかりませんでした。\" />\n    <meta name=\"twitter:image\" content=\"https://ai.gami.jp/og/home.png\" />\n    <meta name=\"twitter:image:alt\" content=\"404 page open graph image\" />\n    \n    \n    <!-- SEO_HEAD_END -->"
+    },
+    {
+      "path": "/404/index.html",
+      "status": 200,
+      "location": null,
+      "seoHead": "<!-- SEO_HEAD_START -->\n    <title>404 | GAMI</title>\n    <meta name=\"description\" content=\"お探しのページは見つかりませんでした。\" />\n    <meta name=\"robots\" content=\"noindex,nofollow\" />\n    <meta name=\"author\" content=\"GAMI\" />\n    <meta name=\"application-name\" content=\"GAMI\" />\n    \n    <meta property=\"og:locale\" content=\"ja_JP\" />\n    <meta property=\"og:site_name\" content=\"GAMI\" />\n    <meta property=\"og:type\" content=\"website\" />\n    \n    <meta property=\"og:title\" content=\"404 | GAMI\" />\n    <meta property=\"og:description\" content=\"お探しのページは見つかりませんでした。\" />\n    <meta property=\"og:image\" content=\"https://ai.gami.jp/og/home.png\" />\n    <meta property=\"og:image:secure_url\" content=\"https://ai.gami.jp/og/home.png\" />\n    <meta property=\"og:image:type\" content=\"image/png\" />\n    <meta property=\"og:image:width\" content=\"1200\" />\n    <meta property=\"og:image:height\" content=\"630\" />\n    <meta property=\"og:image:alt\" content=\"404 page open graph image\" />\n    <meta name=\"twitter:card\" content=\"summary_large_image\" />\n    <meta name=\"twitter:title\" content=\"404 | GAMI\" />\n    <meta name=\"twitter:description\" content=\"お探しのページは見つかりませんでした。\" />\n    <meta name=\"twitter:image\" content=\"https://ai.gami.jp/og/home.png\" />\n    <meta name=\"twitter:image:alt\" content=\"404 page open graph image\" />\n    \n    \n    <!-- SEO_HEAD_END -->"
+    },
+    {
+      "path": "/contact/thanks/",
+      "status": 200,
+      "location": null,
+      "seoHead": "<!-- SEO_HEAD_START -->\n    <title>送信完了 | Contact | GAMI</title>\n    <meta name=\"description\" content=\"お問い合わせフォームからのお問い合わせを受け付けました。担当者よりご連絡いたします。\" />\n    <meta name=\"robots\" content=\"noindex,nofollow\" />\n    <meta name=\"author\" content=\"GAMI\" />\n    <meta name=\"application-name\" content=\"GAMI\" />\n    <link rel=\"canonical\" href=\"https://ai.gami.jp/contact/thanks/\" />\n    <meta property=\"og:locale\" content=\"ja_JP\" />\n    <meta property=\"og:site_name\" content=\"GAMI\" />\n    <meta property=\"og:type\" content=\"website\" />\n    <meta property=\"og:url\" content=\"https://ai.gami.jp/contact/thanks/\" />\n    <meta property=\"og:title\" content=\"送信完了 | Contact | GAMI\" />\n    <meta property=\"og:description\" content=\"お問い合わせフォームからのお問い合わせを受け付けました。担当者よりご連絡いたします。\" />\n    <meta property=\"og:image\" content=\"https://ai.gami.jp/og/contact.png\" />\n    <meta property=\"og:image:secure_url\" content=\"https://ai.gami.jp/og/contact.png\" />\n    <meta property=\"og:image:type\" content=\"image/png\" />\n    <meta property=\"og:image:width\" content=\"1200\" />\n    <meta property=\"og:image:height\" content=\"630\" />\n    <meta property=\"og:image:alt\" content=\"Contact thanks page open graph image\" />\n    <meta name=\"twitter:card\" content=\"summary_large_image\" />\n    <meta name=\"twitter:title\" content=\"送信完了 | Contact | GAMI\" />\n    <meta name=\"twitter:description\" content=\"お問い合わせフォームからのお問い合わせを受け付けました。担当者よりご連絡いたします。\" />\n    <meta name=\"twitter:image\" content=\"https://ai.gami.jp/og/contact.png\" />\n    <meta name=\"twitter:image:alt\" content=\"Contact thanks page open graph image\" />\n    \n    <script type=\"application/ld+json\" data-seo-schema=\"true\">{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"name\":\"株式会社Gami\",\"alternateName\":\"GAMI\",\"url\":\"https://ai.gami.jp\",\"image\":\"https://ai.gami.jp/og/home.png\",\"description\":\"中小企業向けの生成AI導入支援、RAG構築、AIエージェント導入支援、AI開発、AIマーケティング、AI Web制作までをAI基準で再設計する開発パートナーです。\"}</script>\n    <script type=\"application/ld+json\" data-seo-schema=\"true\">{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"name\":\"送信完了 | GAMI\",\"description\":\"GAMIへのお問い合わせを受け付けた後のサンクスページです。折り返しご連絡いたします。\",\"url\":\"https://ai.gami.jp/contact/thanks/\",\"inLanguage\":\"ja-JP\",\"isPartOf\":{\"@type\":\"WebSite\",\"name\":\"GAMI\",\"url\":\"https://ai.gami.jp\"},\"about\":{\"@type\":\"Organization\",\"name\":\"株式会社Gami\",\"alternateName\":\"GAMI\",\"url\":\"https://ai.gami.jp\"}}</script>\n    <script type=\"application/ld+json\" data-seo-schema=\"true\">{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://ai.gami.jp/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Contact\",\"item\":\"https://ai.gami.jp/contact/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Thanks\",\"item\":\"https://ai.gami.jp/contact/thanks/\"}]}</script>\n    <!-- SEO_HEAD_END -->"
+    },
+    {
+      "path": "/contact/thanks/index.html",
+      "status": 200,
+      "location": null,
+      "seoHead": "<!-- SEO_HEAD_START -->\n    <title>送信完了 | Contact | GAMI</title>\n    <meta name=\"description\" content=\"お問い合わせフォームからのお問い合わせを受け付けました。担当者よりご連絡いたします。\" />\n    <meta name=\"robots\" content=\"noindex,nofollow\" />\n    <meta name=\"author\" content=\"GAMI\" />\n    <meta name=\"application-name\" content=\"GAMI\" />\n    <link rel=\"canonical\" href=\"https://ai.gami.jp/contact/thanks/\" />\n    <meta property=\"og:locale\" content=\"ja_JP\" />\n    <meta property=\"og:site_name\" content=\"GAMI\" />\n    <meta property=\"og:type\" content=\"website\" />\n    <meta property=\"og:url\" content=\"https://ai.gami.jp/contact/thanks/\" />\n    <meta property=\"og:title\" content=\"送信完了 | Contact | GAMI\" />\n    <meta property=\"og:description\" content=\"お問い合わせフォームからのお問い合わせを受け付けました。担当者よりご連絡いたします。\" />\n    <meta property=\"og:image\" content=\"https://ai.gami.jp/og/contact.png\" />\n    <meta property=\"og:image:secure_url\" content=\"https://ai.gami.jp/og/contact.png\" />\n    <meta property=\"og:image:type\" content=\"image/png\" />\n    <meta property=\"og:image:width\" content=\"1200\" />\n    <meta property=\"og:image:height\" content=\"630\" />\n    <meta property=\"og:image:alt\" content=\"Contact thanks page open graph image\" />\n    <meta name=\"twitter:card\" content=\"summary_large_image\" />\n    <meta name=\"twitter:title\" content=\"送信完了 | Contact | GAMI\" />\n    <meta name=\"twitter:description\" content=\"お問い合わせフォームからのお問い合わせを受け付けました。担当者よりご連絡いたします。\" />\n    <meta name=\"twitter:image\" content=\"https://ai.gami.jp/og/contact.png\" />\n    <meta name=\"twitter:image:alt\" content=\"Contact thanks page open graph image\" />\n    \n    <script type=\"application/ld+json\" data-seo-schema=\"true\">{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"name\":\"株式会社Gami\",\"alternateName\":\"GAMI\",\"url\":\"https://ai.gami.jp\",\"image\":\"https://ai.gami.jp/og/home.png\",\"description\":\"中小企業向けの生成AI導入支援、RAG構築、AIエージェント導入支援、AI開発、AIマーケティング、AI Web制作までをAI基準で再設計する開発パートナーです。\"}</script>\n    <script type=\"application/ld+json\" data-seo-schema=\"true\">{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"name\":\"送信完了 | GAMI\",\"description\":\"GAMIへのお問い合わせを受け付けた後のサンクスページです。折り返しご連絡いたします。\",\"url\":\"https://ai.gami.jp/contact/thanks/\",\"inLanguage\":\"ja-JP\",\"isPartOf\":{\"@type\":\"WebSite\",\"name\":\"GAMI\",\"url\":\"https://ai.gami.jp\"},\"about\":{\"@type\":\"Organization\",\"name\":\"株式会社Gami\",\"alternateName\":\"GAMI\",\"url\":\"https://ai.gami.jp\"}}</script>\n    <script type=\"application/ld+json\" data-seo-schema=\"true\">{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://ai.gami.jp/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Contact\",\"item\":\"https://ai.gami.jp/contact/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Thanks\",\"item\":\"https://ai.gami.jp/contact/thanks/\"}]}</script>\n    <!-- SEO_HEAD_END -->"
+    },
+    {
+      "path": "/services/ai-implementation/",
+      "status": 301,
+      "location": "https://ai.gami.jp/services/ai-saas/",
+      "seoHead": null
+    },
+    {
+      "path": "/services/rag-chatbot/",
+      "status": 301,
+      "location": "https://ai.gami.jp/services/ai-saas/",
+      "seoHead": null
+    },
+    {
+      "path": "/services/ai-agent/",
+      "status": 301,
+      "location": "https://ai.gami.jp/services/ai-marketing/",
+      "seoHead": null
+    },
+    {
+      "path": "/services/ai-implementation/index.html",
+      "status": 404,
+      "location": null,
+      "seoHead": "<!-- SEO_HEAD_START -->\n    <title>404 | GAMI</title>\n    <meta name=\"description\" content=\"お探しのページは見つかりませんでした。\" />\n    <meta name=\"robots\" content=\"noindex,nofollow\" />\n    <meta name=\"author\" content=\"GAMI\" />\n    <meta name=\"application-name\" content=\"GAMI\" />\n    \n    <meta property=\"og:locale\" content=\"ja_JP\" />\n    <meta property=\"og:site_name\" content=\"GAMI\" />\n    <meta property=\"og:type\" content=\"website\" />\n    \n    <meta property=\"og:title\" content=\"404 | GAMI\" />\n    <meta property=\"og:description\" content=\"お探しのページは見つかりませんでした。\" />\n    <meta property=\"og:image\" content=\"https://ai.gami.jp/og/home.png\" />\n    <meta property=\"og:image:secure_url\" content=\"https://ai.gami.jp/og/home.png\" />\n    <meta property=\"og:image:type\" content=\"image/png\" />\n    <meta property=\"og:image:width\" content=\"1200\" />\n    <meta property=\"og:image:height\" content=\"630\" />\n    <meta property=\"og:image:alt\" content=\"404 page open graph image\" />\n    <meta name=\"twitter:card\" content=\"summary_large_image\" />\n    <meta name=\"twitter:title\" content=\"404 | GAMI\" />\n    <meta name=\"twitter:description\" content=\"お探しのページは見つかりませんでした。\" />\n    <meta name=\"twitter:image\" content=\"https://ai.gami.jp/og/home.png\" />\n    <meta name=\"twitter:image:alt\" content=\"404 page open graph image\" />\n    \n    \n    <!-- SEO_HEAD_END -->"
+    },
+    {
+      "path": "/services/rag-chatbot/index.html",
+      "status": 404,
+      "location": null,
+      "seoHead": "<!-- SEO_HEAD_START -->\n    <title>404 | GAMI</title>\n    <meta name=\"description\" content=\"お探しのページは見つかりませんでした。\" />\n    <meta name=\"robots\" content=\"noindex,nofollow\" />\n    <meta name=\"author\" content=\"GAMI\" />\n    <meta name=\"application-name\" content=\"GAMI\" />\n    \n    <meta property=\"og:locale\" content=\"ja_JP\" />\n    <meta property=\"og:site_name\" content=\"GAMI\" />\n    <meta property=\"og:type\" content=\"website\" />\n    \n    <meta property=\"og:title\" content=\"404 | GAMI\" />\n    <meta property=\"og:description\" content=\"お探しのページは見つかりませんでした。\" />\n    <meta property=\"og:image\" content=\"https://ai.gami.jp/og/home.png\" />\n    <meta property=\"og:image:secure_url\" content=\"https://ai.gami.jp/og/home.png\" />\n    <meta property=\"og:image:type\" content=\"image/png\" />\n    <meta property=\"og:image:width\" content=\"1200\" />\n    <meta property=\"og:image:height\" content=\"630\" />\n    <meta property=\"og:image:alt\" content=\"404 page open graph image\" />\n    <meta name=\"twitter:card\" content=\"summary_large_image\" />\n    <meta name=\"twitter:title\" content=\"404 | GAMI\" />\n    <meta name=\"twitter:description\" content=\"お探しのページは見つかりませんでした。\" />\n    <meta name=\"twitter:image\" content=\"https://ai.gami.jp/og/home.png\" />\n    <meta name=\"twitter:image:alt\" content=\"404 page open graph image\" />\n    \n    \n    <!-- SEO_HEAD_END -->"
+    },
+    {
+      "path": "/services/ai-agent/index.html",
+      "status": 404,
+      "location": null,
+      "seoHead": "<!-- SEO_HEAD_START -->\n    <title>404 | GAMI</title>\n    <meta name=\"description\" content=\"お探しのページは見つかりませんでした。\" />\n    <meta name=\"robots\" content=\"noindex,nofollow\" />\n    <meta name=\"author\" content=\"GAMI\" />\n    <meta name=\"application-name\" content=\"GAMI\" />\n    \n    <meta property=\"og:locale\" content=\"ja_JP\" />\n    <meta property=\"og:site_name\" content=\"GAMI\" />\n    <meta property=\"og:type\" content=\"website\" />\n    \n    <meta property=\"og:title\" content=\"404 | GAMI\" />\n    <meta property=\"og:description\" content=\"お探しのページは見つかりませんでした。\" />\n    <meta property=\"og:image\" content=\"https://ai.gami.jp/og/home.png\" />\n    <meta property=\"og:image:secure_url\" content=\"https://ai.gami.jp/og/home.png\" />\n    <meta property=\"og:image:type\" content=\"image/png\" />\n    <meta property=\"og:image:width\" content=\"1200\" />\n    <meta property=\"og:image:height\" content=\"630\" />\n    <meta property=\"og:image:alt\" content=\"404 page open graph image\" />\n    <meta name=\"twitter:card\" content=\"summary_large_image\" />\n    <meta name=\"twitter:title\" content=\"404 | GAMI\" />\n    <meta name=\"twitter:description\" content=\"お探しのページは見つかりませんでした。\" />\n    <meta name=\"twitter:image\" content=\"https://ai.gami.jp/og/home.png\" />\n    <meta name=\"twitter:image:alt\" content=\"404 page open graph image\" />\n    \n    \n    <!-- SEO_HEAD_END -->"
+    },
+    {
+      "path": "/seo-nonexistent-oct27/",
+      "status": 404,
+      "location": null,
+      "seoHead": "<!-- SEO_HEAD_START -->\n    <title>404 | GAMI</title>\n    <meta name=\"description\" content=\"お探しのページは見つかりませんでした。\" />\n    <meta name=\"robots\" content=\"noindex,nofollow\" />\n    <meta name=\"author\" content=\"GAMI\" />\n    <meta name=\"application-name\" content=\"GAMI\" />\n    \n    <meta property=\"og:locale\" content=\"ja_JP\" />\n    <meta property=\"og:site_name\" content=\"GAMI\" />\n    <meta property=\"og:type\" content=\"website\" />\n    \n    <meta property=\"og:title\" content=\"404 | GAMI\" />\n    <meta property=\"og:description\" content=\"お探しのページは見つかりませんでした。\" />\n    <meta property=\"og:image\" content=\"https://ai.gami.jp/og/home.png\" />\n    <meta property=\"og:image:secure_url\" content=\"https://ai.gami.jp/og/home.png\" />\n    <meta property=\"og:image:type\" content=\"image/png\" />\n    <meta property=\"og:image:width\" content=\"1200\" />\n    <meta property=\"og:image:height\" content=\"630\" />\n    <meta property=\"og:image:alt\" content=\"404 page open graph image\" />\n    <meta name=\"twitter:card\" content=\"summary_large_image\" />\n    <meta name=\"twitter:title\" content=\"404 | GAMI\" />\n    <meta name=\"twitter:description\" content=\"お探しのページは見つかりませんでした。\" />\n    <meta name=\"twitter:image\" content=\"https://ai.gami.jp/og/home.png\" />\n    <meta name=\"twitter:image:alt\" content=\"404 page open graph image\" />\n    \n    \n    <!-- SEO_HEAD_END -->"
+    },
+    {
+      "path": "/insights/seo-nonexistent-oct27/index.html",
+      "status": 404,
+      "location": null,
+      "seoHead": "<!-- SEO_HEAD_START -->\n    <title>404 | GAMI</title>\n    <meta name=\"description\" content=\"お探しのページは見つかりませんでした。\" />\n    <meta name=\"robots\" content=\"noindex,nofollow\" />\n    <meta name=\"author\" content=\"GAMI\" />\n    <meta name=\"application-name\" content=\"GAMI\" />\n    \n    <meta property=\"og:locale\" content=\"ja_JP\" />\n    <meta property=\"og:site_name\" content=\"GAMI\" />\n    <meta property=\"og:type\" content=\"website\" />\n    \n    <meta property=\"og:title\" content=\"404 | GAMI\" />\n    <meta property=\"og:description\" content=\"お探しのページは見つかりませんでした。\" />\n    <meta property=\"og:image\" content=\"https://ai.gami.jp/og/home.png\" />\n    <meta property=\"og:image:secure_url\" content=\"https://ai.gami.jp/og/home.png\" />\n    <meta property=\"og:image:type\" content=\"image/png\" />\n    <meta property=\"og:image:width\" content=\"1200\" />\n    <meta property=\"og:image:height\" content=\"630\" />\n    <meta property=\"og:image:alt\" content=\"404 page open graph image\" />\n    <meta name=\"twitter:card\" content=\"summary_large_image\" />\n    <meta name=\"twitter:title\" content=\"404 | GAMI\" />\n    <meta name=\"twitter:description\" content=\"お探しのページは見つかりませんでした。\" />\n    <meta name=\"twitter:image\" content=\"https://ai.gami.jp/og/home.png\" />\n    <meta name=\"twitter:image:alt\" content=\"404 page open graph image\" />\n    \n    \n    <!-- SEO_HEAD_END -->"
+    },
+    {
+      "path": "/index.php",
+      "status": 404,
+      "location": null,
+      "seoHead": "<!-- SEO_HEAD_START -->\n    <title>404 | GAMI</title>\n    <meta name=\"description\" content=\"お探しのページは見つかりませんでした。\" />\n    <meta name=\"robots\" content=\"noindex,nofollow\" />\n    <meta name=\"author\" content=\"GAMI\" />\n    <meta name=\"application-name\" content=\"GAMI\" />\n    \n    <meta property=\"og:locale\" content=\"ja_JP\" />\n    <meta property=\"og:site_name\" content=\"GAMI\" />\n    <meta property=\"og:type\" content=\"website\" />\n    \n    <meta property=\"og:title\" content=\"404 | GAMI\" />\n    <meta property=\"og:description\" content=\"お探しのページは見つかりませんでした。\" />\n    <meta property=\"og:image\" content=\"https://ai.gami.jp/og/home.png\" />\n    <meta property=\"og:image:secure_url\" content=\"https://ai.gami.jp/og/home.png\" />\n    <meta property=\"og:image:type\" content=\"image/png\" />\n    <meta property=\"og:image:width\" content=\"1200\" />\n    <meta property=\"og:image:height\" content=\"630\" />\n    <meta property=\"og:image:alt\" content=\"404 page open graph image\" />\n    <meta name=\"twitter:card\" content=\"summary_large_image\" />\n    <meta name=\"twitter:title\" content=\"404 | GAMI\" />\n    <meta name=\"twitter:description\" content=\"お探しのページは見つかりませんでした。\" />\n    <meta name=\"twitter:image\" content=\"https://ai.gami.jp/og/home.png\" />\n    <meta name=\"twitter:image:alt\" content=\"404 page open graph image\" />\n    \n    \n    <!-- SEO_HEAD_END -->"
+    }
+  ],
+  "assets": [],
+  "robots.txt": {
+    "status": 200,
+    "exactBuildMatch": true
+  },
+  "sitemap.xml": {
+    "status": 200,
+    "exactBuildMatch": true
+  },
+  "sitemapUrls": 31,
+  "passed": true
+}

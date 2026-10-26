@@ -1,0 +1,65 @@
+{
+  "observedAt": "2026-10-26T23:36:44.855Z",
+  "source": "google-index",
+  "note": "An earlier concept inspection returned no complete tool output; only the complete retry below is used.",
+  "inspections": [
+    {
+      "url": "https://ai.gami.jp/concept/",
+      "acquiredAt": "2026-10-26T23:36:33.5817273+00:00",
+      "result": {
+        "siteUrl": "sc-domain:ai.gami.jp",
+        "inspectionUrl": "https://ai.gami.jp/concept/",
+        "fetchedAt": "2026-10-26T23:36:33.5817273+00:00",
+        "source": "google-index",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:ai.gami.jp&id=xnM2GTzhjuZc2PdxTy-D5Q&utm_medium=link&utm_source=api",
+        "verdict": "PASS",
+        "coverageState": "送信して登録されました",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-09-04T15:32:11Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://ai.gami.jp/concept/",
+        "userCanonical": "https://ai.gami.jp/concept/"
+      }
+    },
+    {
+      "url": "https://ai.gami.jp/services/ai-marketing/",
+      "acquiredAt": "2026-10-26T23:36:52.8336994+00:00",
+      "result": {
+        "siteUrl": "sc-domain:ai.gami.jp",
+        "inspectionUrl": "https://ai.gami.jp/services/ai-marketing/",
+        "fetchedAt": "2026-10-26T23:36:52.8336994+00:00",
+        "source": "google-index",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:ai.gami.jp&id=jG8lgTUU58_Y_ia6aAZVFw&utm_medium=link&utm_source=api",
+        "verdict": "PASS",
+        "coverageState": "送信して登録されました",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-09-24T13:28:17Z",
+        "pageFetchState": "SUCCESSFUL",
+        "googleCanonical": "https://ai.gami.jp/services/ai-marketing/",
+        "userCanonical": "https://ai.gami.jp/services/ai-marketing/"
+      }
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-work-procedure-template/",
+      "acquiredAt": "2026-10-26T23:37:03.9147696+00:00",
+      "result": {
+        "siteUrl": "sc-domain:ai.gami.jp",
+        "inspectionUrl": "https://ai.gami.jp/insights/ai-work-procedure-template/",
+        "fetchedAt": "2026-10-26T23:37:03.9147696+00:00",
+        "source": "google-index",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:ai.gami.jp&id=veCh0pLZGFJZBcA-o5DDeg&utm_medium=link&utm_source=api",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL が Google に認識されていません",
+        "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": null,
+        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "googleCanonical": null,
+        "userCanonical": null
+      }
+    }
+  ],
+  "completedAt": "2026-10-26T23:37:03.9147696+00:00"
+}

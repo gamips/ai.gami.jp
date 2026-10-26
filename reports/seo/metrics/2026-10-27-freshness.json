@@ -1,0 +1,131 @@
+{
+  "siteUrl": "sc-domain:ai.gami.jp",
+  "requestedStartDate": "2026-10-13",
+  "requestedEndDate": "2026-10-27",
+  "searchType": "web",
+  "dataState": "final",
+  "latestReturnedDate": "2026-10-24",
+  "lagDaysFromRequestedEnd": 3,
+  "currentWindow": {
+    "startDate": "2026-09-27",
+    "endDate": "2026-10-24"
+  },
+  "previousWindow": {
+    "startDate": "2026-08-30",
+    "endDate": "2026-09-26"
+  },
+  "rowCount": 12,
+  "rows": [
+    {
+      "keys": [
+        "2026-10-13"
+      ],
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 25.333333333333332
+    },
+    {
+      "keys": [
+        "2026-10-14"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 75
+    },
+    {
+      "keys": [
+        "2026-10-15"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 42.4
+    },
+    {
+      "keys": [
+        "2026-10-16"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 40.8
+    },
+    {
+      "keys": [
+        "2026-10-17"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 2.4
+    },
+    {
+      "keys": [
+        "2026-10-18"
+      ],
+      "clicks": 0,
+      "impressions": 14,
+      "ctr": 0,
+      "position": 28.928571428571427
+    },
+    {
+      "keys": [
+        "2026-10-19"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 21
+    },
+    {
+      "keys": [
+        "2026-10-20"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 43
+    },
+    {
+      "keys": [
+        "2026-10-21"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 17.333333333333332
+    },
+    {
+      "keys": [
+        "2026-10-22"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 17
+    },
+    {
+      "keys": [
+        "2026-10-23"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 16.333333333333336
+    },
+    {
+      "keys": [
+        "2026-10-24"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 26.5
+    }
+  ],
+  "metadata": null,
+  "recordedAt": "2026-10-26T23:32:48.1948911Z",
+  "timestampNote": "Timestamp is the immediate result file creation time (UTC); exact API response time was not separately captured."
+}

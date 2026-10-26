@@ -1,0 +1,83 @@
+{
+  "checkedAt": "2026-10-26T23:39:08.773Z",
+  "experimentId": "price-initial-html-parity-v1",
+  "originalStartedAt": "2026-09-12T09:46:58Z",
+  "publicationPacificDate": "2026-09-12",
+  "reportingTimeZone": "America/Los_Angeles",
+  "comparisonBefore": {
+    "file": "2026-10-12-0824.json",
+    "key": "previous28dPages",
+    "observedAt": "2026-10-12T08:24:32.4958829+09:00",
+    "window": {
+      "startDate": "2026-08-15",
+      "endDate": "2026-09-11"
+    },
+    "page": {
+      "page": "https://ai.gami.jp/price/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5
+    },
+    "noSlash": null,
+    "note": "Correct pre-change window excludes publication day. Retained original historical snapshots."
+  },
+  "first28FullDays": {
+    "file": "2026-10-13-0804.json",
+    "key": "current28dPages",
+    "observedAt": "2026-10-13T08:04:48.9178467+09:00",
+    "window": {
+      "startDate": "2026-09-13",
+      "endDate": "2026-10-10"
+    },
+    "page": {
+      "page": "https://ai.gami.jp/price/",
+      "clicks": 0,
+      "impressions": 15,
+      "ctr": 0,
+      "position": 36.733333333333334
+    },
+    "noSlash": {
+      "page": "https://ai.gami.jp/price",
+      "clicks": 0,
+      "impressions": 11,
+      "ctr": 0,
+      "position": 50.81818181818182
+    },
+    "fullFinalDays": 28,
+    "minimumImpressionsMet": false
+  },
+  "boundedFollowup": {
+    "path": "reports/seo/metrics/2026-10-27-current.json",
+    "acquiredAt": "2026-10-26T23:33:43.405Z",
+    "window": {
+      "startDate": "2026-09-27",
+      "endDate": "2026-10-24"
+    },
+    "page": {
+      "clicks": 0,
+      "impressions": 63,
+      "ctr": 0,
+      "position": 47.06349206349206
+    },
+    "noSlash": {
+      "clicks": 0,
+      "impressions": 0,
+      "ctr": 0,
+      "position": 0
+    },
+    "minimumImpressionsMet": true,
+    "note": "Rolling 28-day followup, not the first 28 full post-change days. No-slash API 0/0 preserved; rate and position uninterpretable."
+  },
+  "technicalResult": "confirmed",
+  "effectResult": "inconclusive",
+  "decision": "complete_observation_without_causal_claim",
+  "reason": "Planned first-28-day review and bounded followup are complete. Current exact-slash page has 63 impressions, but 0 clicks, tiny pre-period, differing query mix and no control prevent causal attribution. Qualified visits and inquiries remain unknown. Preserve implementation and all original dates/history; allow a separately scoped next experiment.",
+  "nextWork": "Keep today's production change limited to generated alias redirects. Price-to-cost-guide link remains ready for a separate run; preserve target November12 observation and record new inbound confound if implemented.",
+  "independentReview": {
+    "agent": "oct27_effect_review",
+    "status": "passed_with_caveats",
+    "fixedPeriodsReused": true,
+    "additionalQueries": 0
+  }
+}
