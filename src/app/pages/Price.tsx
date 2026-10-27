@@ -159,7 +159,18 @@ export function Price() {
                   className="grid grid-cols-1 gap-8 border-b border-zinc-200 py-10 xl:grid-cols-[320px_minmax(0,1fr)] xl:gap-10"
                 >
                   <h3 className="text-2xl font-bold leading-tight text-zinc-900">{note.title}</h3>
-                  <p className="text-lg leading-[2] text-zinc-600">{note.body}</p>
+                  <div>
+                    <p className="text-lg leading-[2] text-zinc-600">{note.body}</p>
+                    {note.link ? (
+                      <ScrollToTopLink
+                        to={note.link.href}
+                        className="mt-6 inline-flex items-center gap-2 font-medium text-cyan-500 transition-colors hover:text-cyan-600"
+                      >
+                        {note.link.label}
+                        <ArrowRight size={18} className="shrink-0" aria-hidden="true" />
+                      </ScrollToTopLink>
+                    ) : null}
+                  </div>
                 </div>
               ))}
             </div>

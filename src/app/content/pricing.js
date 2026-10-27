@@ -64,6 +64,10 @@ export const projectNotes = [
     title: "月2万円〜で始めるAI導入支援の対象範囲",
     body:
       "月2万円〜の範囲では、相談テーマを絞ったヒアリング、プロンプト改善、テンプレート整備、使い方の整理、定例相談を中心に進めます。作成物の量、実装作業、運用代行、AIエージェント化が必要な場合は、別途範囲を決めます。",
+    link: {
+      href: "/insights/ai-introduction-support-pricing/",
+      label: "AI導入の費用を左右する5つの要素を見る",
+    },
   },
   {
     title: "既存ツールと社内データの扱い",

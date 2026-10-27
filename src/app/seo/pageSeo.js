@@ -939,7 +939,7 @@ export const pageSeoByPath = {
   },
   "/price": {
     path: "/price",
-    lastModified: "2026-09-12",
+    lastModified: "2026-10-28",
     fallbackHeading: "AI導入支援・AI開発の料金",
     fallbackLabel: "PRICE",
     fallbackSections: [
@@ -963,6 +963,7 @@ export const pageSeoByPath = {
       ...projectNotes.map((note) => ({
         title: note.title,
         body: note.body,
+        link: note.link,
       })),
     ],
     title: "AI導入支援の料金 | 月2万円〜・AI開発費用 | GAMI",
