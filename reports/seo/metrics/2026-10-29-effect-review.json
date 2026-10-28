@@ -1,0 +1,66 @@
+{
+  "checkedAt": "2026-10-28T23:12:53.492Z",
+  "experimentId": "service-ai-web-brief-link-v1",
+  "originalStartedAt": "2026-09-28T08:18:34.7290309+09:00",
+  "publicationPacificDate": "2026-09-27",
+  "reportingTimeZone": "America/Los_Angeles",
+  "comparisonBefore": {
+    "path": "reports/seo/metrics/2026-10-27-current.json",
+    "group": "previous28dPages",
+    "startDate": "2026-08-30",
+    "endDate": "2026-09-26",
+    "sourceSlash": null,
+    "sourceNoSlash": null,
+    "targetSlash": null,
+    "targetNoSlash": null
+  },
+  "first28FullDays": {
+    "path": "reports/seo/metrics/2026-10-28-current.json",
+    "group": "current28dPages",
+    "startDate": "2026-09-28",
+    "endDate": "2026-10-25",
+    "fullFinalDays": 28,
+    "sourceSlash": null,
+    "sourceNoSlash": {
+      "page": "https://ai.gami.jp/services/ai-web",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 4.4
+    },
+    "targetSlash": null,
+    "targetNoSlash": null
+  },
+  "latestRolling": {
+    "path": "reports/seo/metrics/2026-10-29-current.json",
+    "window": {
+      "startDate": "2026-09-29",
+      "endDate": "2026-10-26"
+    },
+    "sourceSlash": null,
+    "sourceNoSlash": {
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 4.4,
+      "page": "https://ai.gami.jp/services/ai-web"
+    },
+    "targetSlash": null,
+    "targetNoSlash": null
+  },
+  "minimumEvidence": {
+    "requiredTargetPageImpressions": 30,
+    "met": false
+  },
+  "effectResult": "inconclusive",
+  "technicalResult": "confirmed",
+  "dateWindowCorrection": "Original schedule required latestfinalOct26. Actual first28fullPTdays endOct25; retain original due date/history and use correct saved window.",
+  "additionalFixedPeriodApiQueries": 0,
+  "inspectionEvidenceReusedFrom": "reports/seo/inspections/2026-10-26-due-pages.json",
+  "targetInspectionReusedFrom": "reports/seo/inspections/2026-10-25-due-pages.json",
+  "liveTechnicalEvidencePath": "reports/seo/inspections/2026-10-29-live-due-pages.json",
+  "confounds": "Site-wide alias repair Oct27 JST is after the fixed period; applies prospectively. Source URL variants are separate observations; missing row is null.",
+  "nextIndexCheck": "2026-11-02",
+  "nextEffectCheck": "2026-11-12",
+  "interpretation": "Insufficient target evidence. Do not attribute link use, qualified visits or inquiries; no copy rewrite for unknown index."
+}

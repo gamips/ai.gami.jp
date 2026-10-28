@@ -1,0 +1,45 @@
+{
+  "checkedAt": "2026-10-28T23:10:15.471Z",
+  "pages": [
+    {
+      "url": "https://ai.gami.jp/price/",
+      "status": 200,
+      "headAndBodyMatchPublishedBuild": true,
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/",
+      "status": 200,
+      "headAndBodyMatchPublishedBuild": true,
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/contact/",
+      "status": 200,
+      "headAndBodyMatchPublishedBuild": true,
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-inquiry-classification-checklist/",
+      "status": 200,
+      "headAndBodyMatchPublishedBuild": true,
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/",
+      "status": 200,
+      "headAndBodyMatchPublishedBuild": true,
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/services/ai-web/",
+      "status": 200,
+      "headAndBodyMatchPublishedBuild": true,
+      "indexAllowed": true
+    }
+  ],
+  "readmeSingleInsightsLink": true,
+  "websiteBuildRun": false,
+  "websiteDeployRun": false,
+  "passed": true
+}

@@ -1,0 +1,108 @@
+{
+  "checkedAt": "2026-10-27T23:04:09.549Z",
+  "reportingTimeZone": "America/Los_Angeles",
+  "additionalFixedPeriodApiQueries": 0,
+  "latestFinalReturnedDate": "2026-10-25",
+  "reviews": [
+    {
+      "experimentId": "insight-ai-website-brief-template-v1",
+      "url": "https://ai.gami.jp/insights/ai-website-brief-template/",
+      "originalStartedAt": "2026-09-12T23:08:35Z",
+      "publicationPacificDate": "2026-09-12",
+      "comparisonBefore": {
+        "path": "reports/seo/metrics/2026-10-12-0824.json",
+        "group": "previous28dPages",
+        "originalObservedAt": "2026-10-12T08:24:32.4958829+09:00",
+        "window": {
+          "startDate": "2026-08-15",
+          "endDate": "2026-09-11"
+        },
+        "page": null
+      },
+      "first28FullDays": {
+        "path": "reports/seo/metrics/2026-10-13-0804.json",
+        "group": "current28dPages",
+        "originalObservedAt": "2026-10-13T08:04:48.9178467+09:00",
+        "window": {
+          "startDate": "2026-09-13",
+          "endDate": "2026-10-10"
+        },
+        "page": null,
+        "fullFinalDays": 28
+      },
+      "correction": "Oct14 historical review used Sep14–Oct11. Preserve it and record corrected first28fullPTdays Sep13–Oct10 here.",
+      "confounds": [
+        "Sep28 ai-web service inbound link within post window.",
+        "Shared schema correction Sep13.",
+        "Oct27 alias repair applies to future observations, after fixed window."
+      ],
+      "rollingFollowup": {
+        "path": "reports/seo/metrics/2026-10-28-current.json",
+        "observedAt": "2026-10-27T23:01:39.168Z",
+        "window": {
+          "startDate": "2026-09-28",
+          "endDate": "2026-10-25"
+        },
+        "page": null
+      },
+      "minimumEvidence": {
+        "requiredPageImpressions": 30,
+        "met": false
+      },
+      "effectResult": "inconclusive",
+      "indexEvidenceReusedFrom": "reports/seo/inspections/2026-10-25-due-pages.json",
+      "nextIndexCheck": "2026-11-01",
+      "nextEffectCheck": "2026-11-11",
+      "interpretation": "No exact page row in compared full property-page responses. Missing is null, not zero. Neither traffic impact nor lack of impact is established."
+    },
+    {
+      "experimentId": "insight-ai-website-change-request-template-v1",
+      "url": "https://ai.gami.jp/insights/ai-website-change-request-template/",
+      "originalStartedAt": "2026-09-27T08:04:45.6861843+09:00",
+      "publicationPacificDate": "2026-09-26",
+      "comparisonBefore": {
+        "path": "reports/seo/metrics/2026-10-26-current.json",
+        "group": "previous28dPages",
+        "originalObservedAt": "2026-10-25T23:00:32.945Z",
+        "window": {
+          "startDate": "2026-08-29",
+          "endDate": "2026-09-25"
+        },
+        "page": null
+      },
+      "first28FullDays": {
+        "path": "reports/seo/metrics/2026-10-27-current.json",
+        "group": "current28dPages",
+        "originalObservedAt": "2026-10-26T23:33:43.405Z",
+        "window": {
+          "startDate": "2026-09-27",
+          "endDate": "2026-10-24"
+        },
+        "page": null,
+        "fullFinalDays": 28
+      },
+      "confounds": [
+        "Oct21 JST launch-checklist inbound link falls within post window.",
+        "Oct27 alias repair applies to future observations, after fixed window."
+      ],
+      "rollingFollowup": {
+        "path": "reports/seo/metrics/2026-10-28-current.json",
+        "observedAt": "2026-10-27T23:01:39.168Z",
+        "window": {
+          "startDate": "2026-09-28",
+          "endDate": "2026-10-25"
+        },
+        "page": null
+      },
+      "minimumEvidence": {
+        "requiredPageImpressions": 30,
+        "met": false
+      },
+      "effectResult": "inconclusive",
+      "indexEvidenceReusedFrom": "reports/seo/inspections/2026-10-25-due-pages.json",
+      "nextIndexCheck": "2026-11-01",
+      "nextEffectCheck": "2026-11-11",
+      "interpretation": "No exact page row in compared full property-page responses. Missing is null, not zero. Neither traffic impact nor lack of impact is established."
+    }
+  ]
+}

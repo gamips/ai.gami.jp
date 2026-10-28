@@ -1,0 +1,342 @@
+{
+  "checkedAt": "2026-10-28T23:07:47.844Z",
+  "responses": [
+    {
+      "endpoint": "repos/gamips/ai.gami.jp",
+      "acquiredAt": "2026-10-28T23:07:47.844Z",
+      "response": {
+        "id": 1185345143,
+        "node_id": "R_kgDORqbudw",
+        "name": "ai.gami.jp",
+        "full_name": "gamips/ai.gami.jp",
+        "private": false,
+        "owner": {
+          "login": "gamips",
+          "id": 5562246,
+          "node_id": "MDQ6VXNlcjU1NjIyNDY=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/5562246?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/gamips",
+          "html_url": "https://github.com/gamips",
+          "followers_url": "https://api.github.com/users/gamips/followers",
+          "following_url": "https://api.github.com/users/gamips/following{/other_user}",
+          "gists_url": "https://api.github.com/users/gamips/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/gamips/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/gamips/subscriptions",
+          "organizations_url": "https://api.github.com/users/gamips/orgs",
+          "repos_url": "https://api.github.com/users/gamips/repos",
+          "events_url": "https://api.github.com/users/gamips/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/gamips/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "html_url": "https://github.com/gamips/ai.gami.jp",
+        "description": "GAMI公式サイトのソースコード。AI導入支援、AIを活用した業務システム開発、Web制作を紹介しています。",
+        "fork": false,
+        "url": "https://api.github.com/repos/gamips/ai.gami.jp",
+        "forks_url": "https://api.github.com/repos/gamips/ai.gami.jp/forks",
+        "keys_url": "https://api.github.com/repos/gamips/ai.gami.jp/keys{/key_id}",
+        "collaborators_url": "https://api.github.com/repos/gamips/ai.gami.jp/collaborators{/collaborator}",
+        "teams_url": "https://api.github.com/repos/gamips/ai.gami.jp/teams",
+        "hooks_url": "https://api.github.com/repos/gamips/ai.gami.jp/hooks",
+        "issue_events_url": "https://api.github.com/repos/gamips/ai.gami.jp/issues/events{/number}",
+        "events_url": "https://api.github.com/repos/gamips/ai.gami.jp/events",
+        "assignees_url": "https://api.github.com/repos/gamips/ai.gami.jp/assignees{/user}",
+        "branches_url": "https://api.github.com/repos/gamips/ai.gami.jp/branches{/branch}",
+        "tags_url": "https://api.github.com/repos/gamips/ai.gami.jp/tags",
+        "blobs_url": "https://api.github.com/repos/gamips/ai.gami.jp/git/blobs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/gamips/ai.gami.jp/git/tags{/sha}",
+        "git_refs_url": "https://api.github.com/repos/gamips/ai.gami.jp/git/refs{/sha}",
+        "trees_url": "https://api.github.com/repos/gamips/ai.gami.jp/git/trees{/sha}",
+        "statuses_url": "https://api.github.com/repos/gamips/ai.gami.jp/statuses/{sha}",
+        "languages_url": "https://api.github.com/repos/gamips/ai.gami.jp/languages",
+        "stargazers_url": "https://api.github.com/repos/gamips/ai.gami.jp/stargazers",
+        "contributors_url": "https://api.github.com/repos/gamips/ai.gami.jp/contributors",
+        "subscribers_url": "https://api.github.com/repos/gamips/ai.gami.jp/subscribers",
+        "subscription_url": "https://api.github.com/repos/gamips/ai.gami.jp/subscription",
+        "commits_url": "https://api.github.com/repos/gamips/ai.gami.jp/commits{/sha}",
+        "git_commits_url": "https://api.github.com/repos/gamips/ai.gami.jp/git/commits{/sha}",
+        "comments_url": "https://api.github.com/repos/gamips/ai.gami.jp/comments{/number}",
+        "issue_comment_url": "https://api.github.com/repos/gamips/ai.gami.jp/issues/comments{/number}",
+        "contents_url": "https://api.github.com/repos/gamips/ai.gami.jp/contents/{+path}",
+        "compare_url": "https://api.github.com/repos/gamips/ai.gami.jp/compare/{base}...{head}",
+        "merges_url": "https://api.github.com/repos/gamips/ai.gami.jp/merges",
+        "archive_url": "https://api.github.com/repos/gamips/ai.gami.jp/{archive_format}{/ref}",
+        "downloads_url": "https://api.github.com/repos/gamips/ai.gami.jp/downloads",
+        "issues_url": "https://api.github.com/repos/gamips/ai.gami.jp/issues{/number}",
+        "pulls_url": "https://api.github.com/repos/gamips/ai.gami.jp/pulls{/number}",
+        "milestones_url": "https://api.github.com/repos/gamips/ai.gami.jp/milestones{/number}",
+        "notifications_url": "https://api.github.com/repos/gamips/ai.gami.jp/notifications{?since,all,participating}",
+        "labels_url": "https://api.github.com/repos/gamips/ai.gami.jp/labels{/name}",
+        "releases_url": "https://api.github.com/repos/gamips/ai.gami.jp/releases{/id}",
+        "deployments_url": "https://api.github.com/repos/gamips/ai.gami.jp/deployments",
+        "created_at": "2026-03-18T13:42:56Z",
+        "updated_at": "2026-10-27T23:03:17Z",
+        "pushed_at": "2026-10-27T23:03:13Z",
+        "git_url": "git://github.com/gamips/ai.gami.jp.git",
+        "ssh_url": "git@github.com:gamips/ai.gami.jp.git",
+        "clone_url": "https://github.com/gamips/ai.gami.jp.git",
+        "svn_url": "https://github.com/gamips/ai.gami.jp",
+        "homepage": "https://ai.gami.jp/",
+        "size": 17342,
+        "stargazers_count": 0,
+        "watchers_count": 0,
+        "language": "TypeScript",
+        "has_issues": true,
+        "has_projects": true,
+        "has_downloads": false,
+        "has_wiki": true,
+        "has_pages": false,
+        "has_discussions": false,
+        "forks_count": 0,
+        "mirror_url": null,
+        "archived": false,
+        "disabled": false,
+        "open_issues_count": 0,
+        "license": null,
+        "allow_forking": true,
+        "is_template": false,
+        "web_commit_signoff_required": false,
+        "has_pull_requests": true,
+        "pull_request_creation_policy": "all",
+        "topics": [],
+        "visibility": "public",
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "default_branch": "master",
+        "permissions": {
+          "admin": true,
+          "maintain": true,
+          "push": true,
+          "triage": true,
+          "pull": true
+        },
+        "temp_clone_token": "",
+        "allow_squash_merge": true,
+        "allow_merge_commit": true,
+        "allow_rebase_merge": true,
+        "allow_auto_merge": false,
+        "delete_branch_on_merge": false,
+        "allow_update_branch": false,
+        "use_squash_pr_title_as_default": false,
+        "squash_merge_commit_message": "COMMIT_MESSAGES",
+        "squash_merge_commit_title": "COMMIT_OR_PR_TITLE",
+        "merge_commit_message": "PR_TITLE",
+        "merge_commit_title": "MERGE_MESSAGE",
+        "security_and_analysis": {
+          "secret_scanning": {
+            "status": "enabled"
+          },
+          "secret_scanning_push_protection": {
+            "status": "enabled"
+          },
+          "dependabot_security_updates": {
+            "status": "disabled"
+          },
+          "secret_scanning_non_provider_patterns": {
+            "status": "disabled"
+          },
+          "secret_scanning_validity_checks": {
+            "status": "disabled"
+          }
+        },
+        "network_count": 0,
+        "subscribers_count": 0
+      }
+    },
+    {
+      "endpoint": "repos/gamips/ai.gami.jp/traffic/views",
+      "acquiredAt": "2026-10-28T23:07:47.844Z",
+      "response": {
+        "count": 0,
+        "uniques": 0,
+        "views": [
+          {
+            "timestamp": "2026-10-14T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-10-15T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-10-16T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-10-17T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-10-18T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-10-19T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-10-20T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-10-21T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-10-22T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-10-23T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-10-24T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-10-25T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-10-26T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          },
+          {
+            "timestamp": "2026-10-27T00:00:00Z",
+            "count": 0,
+            "uniques": 0
+          }
+        ]
+      }
+    },
+    {
+      "endpoint": "repos/gamips/ai.gami.jp/traffic/clones",
+      "acquiredAt": "2026-10-28T23:07:47.845Z",
+      "response": {
+        "count": 228,
+        "uniques": 93,
+        "clones": [
+          {
+            "timestamp": "2026-10-14T00:00:00Z",
+            "count": 7,
+            "uniques": 5
+          },
+          {
+            "timestamp": "2026-10-15T00:00:00Z",
+            "count": 27,
+            "uniques": 13
+          },
+          {
+            "timestamp": "2026-10-16T00:00:00Z",
+            "count": 7,
+            "uniques": 4
+          },
+          {
+            "timestamp": "2026-10-17T00:00:00Z",
+            "count": 18,
+            "uniques": 9
+          },
+          {
+            "timestamp": "2026-10-18T00:00:00Z",
+            "count": 13,
+            "uniques": 8
+          },
+          {
+            "timestamp": "2026-10-19T00:00:00Z",
+            "count": 5,
+            "uniques": 4
+          },
+          {
+            "timestamp": "2026-10-20T00:00:00Z",
+            "count": 16,
+            "uniques": 8
+          },
+          {
+            "timestamp": "2026-10-21T00:00:00Z",
+            "count": 25,
+            "uniques": 13
+          },
+          {
+            "timestamp": "2026-10-22T00:00:00Z",
+            "count": 23,
+            "uniques": 10
+          },
+          {
+            "timestamp": "2026-10-23T00:00:00Z",
+            "count": 13,
+            "uniques": 8
+          },
+          {
+            "timestamp": "2026-10-24T00:00:00Z",
+            "count": 12,
+            "uniques": 7
+          },
+          {
+            "timestamp": "2026-10-25T00:00:00Z",
+            "count": 17,
+            "uniques": 8
+          },
+          {
+            "timestamp": "2026-10-26T00:00:00Z",
+            "count": 21,
+            "uniques": 10
+          },
+          {
+            "timestamp": "2026-10-27T00:00:00Z",
+            "count": 24,
+            "uniques": 11
+          }
+        ]
+      }
+    },
+    {
+      "endpoint": "repos/gamips/ai.gami.jp/traffic/popular/referrers",
+      "acquiredAt": "2026-10-28T23:07:47.845Z",
+      "response": []
+    },
+    {
+      "endpoint": "repos/gamips/ai.gami.jp/traffic/popular/paths",
+      "acquiredAt": "2026-10-28T23:07:47.845Z",
+      "response": []
+    },
+    {
+      "endpoint": "repos/gamips/ai.gami.jp/contents/README.md",
+      "acquiredAt": "2026-10-28T23:07:47.845Z",
+      "response": {
+        "name": "README.md",
+        "path": "README.md",
+        "sha": "03f78e68fe378036742b55de14b0e12f2df1856e",
+        "size": 1525,
+        "url": "https://api.github.com/repos/gamips/ai.gami.jp/contents/README.md?ref=master",
+        "html_url": "https://github.com/gamips/ai.gami.jp/blob/master/README.md",
+        "git_url": "https://api.github.com/repos/gamips/ai.gami.jp/git/blobs/03f78e68fe378036742b55de14b0e12f2df1856e",
+        "download_url": "https://raw.githubusercontent.com/gamips/ai.gami.jp/master/README.md",
+        "type": "file",
+        "content": "IyBHQU1JCgpHQU1J44Gu5YWs5byP44K144Kk44OI44Gu44K944O844K544Kz\n44O844OJ44Gn44GZ44CCQUnlsI7lhaXmlK/mj7TjgIFBSeOCkua0u+eUqOOB\nl+OBn+alreWLmeOCt+OCueODhuODoOmWi+eZuuOAgVdlYuWItuS9nOOCkue0\nueS7i+OBl+OBpuOBhOOBvuOBmeOAggoKW+WFrOmWi+OCteOCpOODiOOCkuim\ni+OCi10oaHR0cHM6Ly9haS5nYW1pLmpwLykKClRoaXMgaXMgYSBjb2RlIGJ1\nbmRsZSBmb3Ig44Kq44Oq44K444OK44Or44OH44K244Kk44Oz5L2c5oiQLiBU\naGUgb3JpZ2luYWwgcHJvamVjdCBpcyBhdmFpbGFibGUgYXQgaHR0cHM6Ly93\nd3cuZmlnbWEuY29tL2Rlc2lnbi9qd3E0WjdLdXUxUlZ3cXhQclFzSDRRLyVF\nMyU4MiVBQSVFMyU4MyVBQSVFMyU4MiVCOCVFMyU4MyU4QSVFMyU4MyVBQiVF\nMyU4MyU4NyVFMyU4MiVCNiVFMyU4MiVBNCVFMyU4MyVCMyVFNCVCRCU5QyVF\nNiU4OCU5MC4KCiMjIFJ1bm5pbmcgdGhlIGNvZGUKClJ1biBgbnBtIGlgIHRv\nIGluc3RhbGwgdGhlIGRlcGVuZGVuY2llcy4KClJ1biBgbnBtIHJ1biBkZXZg\nIHRvIHN0YXJ0IHRoZSBkZXZlbG9wbWVudCBzZXJ2ZXIuCgojIyBMb2NhbCBQ\nSFAgcHJldmlldwoKQWZ0ZXIgYG5wbSBydW4gYnVpbGRgLCBydW46Ci0gYG5w\nbSBydW4gcHJldmlldzpwaHBgCgpUaGlzIHN0YXJ0cyBQSFAgYnVpbHQtaW4g\nc2VydmVyIG9uIGBodHRwOi8vMTI3LjAuMC4xOjQxNzNgIGFuZCBzZXJ2ZXMg\nYGRpc3QvYCB3aXRoIHNoYXJlZCBgaGVhZGVyLnBocGAgLyBgZm9vdGVyLnBo\ncGAgaW5qZWN0aW9uLgoKIyMgRGVwbG95aW5nIHRvIFhzZXJ2ZXIKClJ1biBg\nbnBtIHJ1biBidWlsZGAgYW5kIHVwbG9hZCB0aGUgY29udGVudHMgb2YgYGRp\nc3QvYCB0byB5b3VyIGRvbWFpbidzIGBwdWJsaWNfaHRtbC9gLgpUaGUgZGVw\nbG95ZWQgYGRpc3QvYCB1c2VzIGEgUEhQIGZyb250LWNvbnRyb2xsZXIgKGBp\nbmRleC5waHBgKSBmb3Igcm91dGUgZGlzcGF0Y2guClJlcXVlc3RzIGFyZSBy\nZXNvbHZlZCBpbiB0aGlzIG9yZGVyOgoxLiBUaGUgcmVxdWVzdGVkIHJvdXRl\nIGlzIG1hdGNoZWQgdG8gYSBwcmUtcmVuZGVyZWQgSFRNTCBmaWxlIChmb3Ig\nZXhhbXBsZSBgZGlzdC9hYm91dC9pbmRleC5odG1sYCkuCjIuIFNoYXJlZCBw\nYXJ0aWFscyBhcmUgaW5jbHVkZWQgZnJvbSBgcHVibGljL3BhcnRpYWxzYCAo\nYGhlYWRlci5waHBgLCBgZm9vdGVyLnBocGApIHNvIGV2ZXJ5IHBhZ2Uga2Vl\ncHMgdGhlIGNvbW1vbiBmcmFtZS4KMy4gSWYgbm8gcm91dGUgZmlsZSBleGlz\ndHMsIGBkaXN0L2luZGV4Lmh0bWxgIGlzIHVzZWQgYXMgZmFsbGJhY2suCgpU\naGlzIHByb2plY3QgdXNlcyBSZWFjdCBSb3V0ZXIgd2l0aCBicm93c2VyIGhp\nc3RvcnksIGFuZCBhIGAuaHRhY2Nlc3NgIGZpbGUgaXMgaW5jbHVkZWQgaW4g\nYHB1YmxpYy9gIGFuZCBjb3BpZWQgdG8gYGRpc3QvYCBkdXJpbmcgYnVpbGQu\nCmBwdWJsaWMvLmh0YWNjZXNzYCByZXdyaXRlcyBub24tZmlsZSByZXF1ZXN0\ncyB0byBgaW5kZXgucGhwYCBmb3IgUEhQLXNpZGUgZGlzcGF0Y2guCg==\n",
+        "encoding": "base64",
+        "_links": {
+          "self": "https://api.github.com/repos/gamips/ai.gami.jp/contents/README.md?ref=master",
+          "git": "https://api.github.com/repos/gamips/ai.gami.jp/git/blobs/03f78e68fe378036742b55de14b0e12f2df1856e",
+          "html": "https://github.com/gamips/ai.gami.jp/blob/master/README.md"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "checkedAt": "2026-10-28T23:11:43.098Z",
+  "publicCommit": "8919127ce42c5aec60d56ea11c083280120e70a2",
+  "readmeBlobSha": "533301864c7c8e1ebbf0db6862774867fa4c1dde",
+  "exactPublicReadback": true,
+  "onlyPlannedSentenceAdded": true,
+  "metadataUnchanged": true,
+  "sourceUrl": "https://github.com/gamips/ai.gami.jp/blob/master/README.md",
+  "targetUrl": "https://ai.gami.jp/insights/",
+  "technicalResult": "confirmed",
+  "acquisitionEffect": "not-yet-measurable",
+  "websiteBuildRun": false,
+  "websiteDeployRun": false,
+  "websiteProductionCommit": "40237846b6633a35f859168815d5aa4d80dd6d72",
+  "passed": true
+}

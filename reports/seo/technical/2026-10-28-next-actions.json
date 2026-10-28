@@ -1,0 +1,22 @@
+{
+  "checkedAt": "2026-10-27T23:04:09.562Z",
+  "reviewAgent": "oct28_price_copy",
+  "procedureGuide": {
+    "url": "https://ai.gami.jp/insights/ai-work-procedure-template/",
+    "candidateSource": "https://ai.gami.jp/insights/ai-introduction-support/",
+    "sourceSection": "small-start",
+    "status": "deferred_existing_source_observation",
+    "reason": "Source already observes introduction-to-time-sheet link through Nov13. ChatGPT source already links to procedure; SaaS source frozen through Oct31. Do not duplicate or add another variable on same source URL.",
+    "revisitAfter": "2026-11-13"
+  },
+  "nextIndependent": {
+    "lane": "free-publicity-owned",
+    "status": "ready",
+    "target": "https://github.com/gamips/ai.gami.jp/blob/master/README.md",
+    "change": "Add one short Japanese introduction and link to the existing Insights collection in the public repository README.",
+    "publicationEvidence": "gh repo view confirmed PUBLIC; README currently links only official home.",
+    "scope": "README introduction only; preserve build instructions, repository description, existing website pages, URLs and pricing.",
+    "measurement": "Discoverability/referral hypothesis only; Search Console cannot attribute README link usage. No backlink-ranking guarantee. GA4 remains unavailable.",
+    "requiredNextRun": "Latest-model subagent draft, inspect current README and active freeze, one concise factual link, markdown/link validation; check workflow paths-ignore because README-only change can trigger build."
+  }
+}

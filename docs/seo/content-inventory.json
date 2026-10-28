@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-27",
+  "updatedAt": "2026-10-28T23:13:59.591Z",
   "rules": {
     "oneOwnerUrlPerIntent": true,
     "publicCopyExcludesOperationalMetadata": true
@@ -94,11 +94,16 @@
       "type": "pricing",
       "intent": "GAMIの支援料金と契約単位",
       "status": "published",
-      "lastModified": "2026-09-12",
-      "experimentId": "price-initial-html-parity-v1",
+      "lastModified": "2026-10-28",
+      "experimentId": "price-cost-guide-link-v1",
       "contentSource": "src/app/content/pricing.js",
       "aliasRepairUpdatedAt": "2026-10-26T23:42:07.415Z",
-      "aliasRepairExperimentId": "generated-index-alias-redirects-v1"
+      "aliasRepairExperimentId": "generated-index-alias-redirects-v1",
+      "previousExperimentIds": [
+        "price-initial-html-parity-v1"
+      ],
+      "internalLinkUpdatedAt": "2026-10-27T23:04:20.247Z",
+      "relatedGuide": "https://ai.gami.jp/insights/ai-introduction-support-pricing/"
     },
     {
       "url": "https://ai.gami.jp/news/",
@@ -185,7 +190,9 @@
       "internalLinkUpdatedAt": "2026-10-11T23:27:27.9504413Z",
       "relatedGuide": "https://ai.gami.jp/insights/ai-project-proposal-comparison-sheet/",
       "aliasRepairUpdatedAt": "2026-10-26T23:42:07.415Z",
-      "aliasRepairExperimentId": "generated-index-alias-redirects-v1"
+      "aliasRepairExperimentId": "generated-index-alias-redirects-v1",
+      "inboundLinkUpdatedAt": "2026-10-27T23:04:20.247Z",
+      "inboundLinkExperimentId": "price-cost-guide-link-v1"
     },
     {
       "url": "https://ai.gami.jp/insights/chatgpt-workplace-adoption-checklist/",
@@ -851,6 +858,17 @@
       "experimentId": "generated-index-alias-redirects-v1",
       "indexable": false,
       "note": "Generated exact rule from staticSeoEntries; not sitemap content. Canonical publication dates and content experiments retained."
+    },
+    {
+      "url": "https://github.com/gamips/ai.gami.jp/blob/master/README.md",
+      "type": "owned-publicity",
+      "intent": "公開リポジトリから実務向けInsights記事・テンプレートを案内する",
+      "status": "published",
+      "lastModified": "2026-10-29",
+      "experimentId": "github-readme-insights-link-v1",
+      "contentSource": "README.md",
+      "targetUrl": "https://ai.gami.jp/insights/",
+      "publicationEvidencePath": "reports/seo/publicity/2026-10-29-readme-published.json"
     }
   ]
 }

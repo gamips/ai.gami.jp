@@ -1,0 +1,37 @@
+{
+  "checkedAt": "2026-10-28T23:12:53.505Z",
+  "sourceAgent": "oct29_readme_copy",
+  "status": "ready_to_draft",
+  "lane": "content",
+  "slug": "ai-image-alt-text-template",
+  "title": "AIで画像の代替テキストを作る｜用途と周りの文章を渡す確認メモ",
+  "intent": "Web担当者が画像の用途と掲載文脈をAIへ渡し、代替テキスト案を人が判断する具体的な作業。",
+  "sections": [
+    "画像の見た目より、ページでの役割を確認する",
+    "コピーして使う4つの欄",
+    "同じ椅子の写真を、二つの場所で使う例",
+    "実際のページと照らして仕上げる"
+  ],
+  "worksheet": [
+    "画像と掲載箇所",
+    "画像の役割・伝えたいこと",
+    "近くの文章・リンク先",
+    "AIの案と人の採否・理由"
+  ],
+  "example": "Clearly labeled fictional chair example; describe only observable confirmed attributes. Decorative use may use empty alt when appropriate. Do not infer material, comfort or durability from an image.",
+  "overlapReview": "All20article titles/sections checked by agent. Launch checklist mentions finalized images but not purpose-based alt decisions, request fields or a worked example. Separate from brief/change-request/fact-check tasks.",
+  "primaryEvidence": "https://www.w3.org/WAI/tutorials/images/decision-tree/",
+  "requirements": [
+    "Recheck W3C primary guidance before publication; latest-model subagent full draft and root fact review.",
+    "No accessibility-compliance, SEO-ranking or productivity guarantees; fictional example must not be described as actual customer outcome.",
+    "No public reference list or internal planning metadata.",
+    "New page package plus normal listing/sitemap only; record shared listing confound, preserve existing article/source freezes."
+  ],
+  "relatedService": "https://ai.gami.jp/services/ai-web/",
+  "deferredProcedureRoute": {
+    "target": "https://ai.gami.jp/insights/ai-work-procedure-template/",
+    "source": "https://ai.gami.jp/insights/ai-introduction-support/",
+    "revisitAfter": "2026-11-13",
+    "reason": "Same source observes time-sheet link; existing ChatGPT link already covers route."
+  }
+}

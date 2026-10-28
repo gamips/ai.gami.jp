@@ -1,0 +1,42 @@
+{
+  "checkedAt": "2026-10-27T23:05:23.541Z",
+  "target": {
+    "url": "https://ai.gami.jp/insights/ai-introduction-support-pricing/",
+    "title": "AI導入の費用は何で変わる？見積もりを左右する5要素 | GAMI",
+    "h1": "AI導入の費用は何で変わる？見積もりを左右する5要素",
+    "h1Count": 1,
+    "viewport": 390,
+    "scrollWidth": 390,
+    "canonical": "https://ai.gami.jp/insights/ai-introduction-support-pricing/",
+    "articleCount": 1
+  },
+  "source": [
+    {
+      "viewport": 1280,
+      "scrollWidth": 1280,
+      "h1Count": 1,
+      "canonical": "https://ai.gami.jp/price/",
+      "linkCount": 1
+    },
+    {
+      "viewport": 390,
+      "scrollWidth": 390,
+      "h1Count": 1,
+      "canonical": "https://ai.gami.jp/price/",
+      "linkCount": 1
+    }
+  ],
+  "console": {
+    "messages": 0,
+    "errors": 0,
+    "warnings": 0
+  },
+  "actualLinkClickPassed": true,
+  "visualReview": "Desktop1280x900 and mobile390x844 Price screenshots inspected: existing note layout and readable single link intact, no overflow. Target title/H1/canonical and single Article checked after navigation.",
+  "screenshots": [
+    "output/playwright/2026-10-28-price-1280.png",
+    "output/playwright/2026-10-28-price-390.png"
+  ],
+  "browserClosed": true,
+  "passed": true
+}

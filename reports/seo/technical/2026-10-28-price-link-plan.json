@@ -1,0 +1,46 @@
+{
+  "experimentId": "price-cost-guide-link-v1",
+  "plannedAt": "2026-10-27T23:03:10.017Z",
+  "status": "ready_to_publish",
+  "sourceUrl": "https://ai.gami.jp/price/",
+  "targetUrl": "https://ai.gami.jp/insights/ai-introduction-support-pricing/",
+  "variable": "One contextual link below the existing AI introduction scope note, shared by React and static HTML.",
+  "hypothesis": "Readers checking the monthly support scope can reach the existing cost guide; search discovery of the guide may improve after recrawl.",
+  "label": "AI導入の費用を左右する5つの要素を見る",
+  "baseline": {
+    "metricsPath": "reports/seo/metrics/2026-10-28-current.json",
+    "window": {
+      "startDate": "2026-09-28",
+      "endDate": "2026-10-25"
+    },
+    "source": {
+      "clicks": 0,
+      "impressions": 63,
+      "ctr": 0,
+      "position": 47.06349206349206
+    },
+    "target": null,
+    "linkPresent": false,
+    "originalPriceExperiment": "price-initial-html-parity-v1 completed/inconclusive on Oct27"
+  },
+  "minimumEvidence": {
+    "fullFinalPostDays": 28,
+    "pageImpressions": 30,
+    "note": "Diagnostic threshold only; not statistical proof. Missing rows remain null. GA4 unavailable so link use and qualified inquiries are unmeasured."
+  },
+  "freeze": {
+    "source": "Price note/link, headline and prices",
+    "target": "Keep existing cost guide text and pricing-to-proposal link unchanged."
+  },
+  "confounds": [
+    "Generated alias repair Oct27 is a prospective shared technical change.",
+    "Target retains pricing-to-proposal link experiment and Nov12 effect review; add inbound-link confound without resetting dates."
+  ],
+  "rollback": "Remove only new note.link and its Price renderer/SEO mapping; restore Price date if fully reverting. Do not touch guide or alias rules.",
+  "validation": {
+    "build": "passed",
+    "predeploy": "reports/seo/validation/2026-10-28-price-predeploy.json",
+    "review": "oct28_price_copy passed",
+    "design": "Reuse Price service-detail text-link style; Lazyweb pricing FAQ preflight, no report generated."
+  }
+}

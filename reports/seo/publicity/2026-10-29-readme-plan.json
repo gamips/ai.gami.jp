@@ -1,0 +1,38 @@
+{
+  "experimentId": "github-readme-insights-link-v1",
+  "plannedAt": "2026-10-28T23:10:15.562Z",
+  "variable": "One factual README sentence linking existing Insights collection.",
+  "copy": "仕事でAIを活用するための記事やテンプレートを[Insights](https://ai.gami.jp/insights/)で公開しています。",
+  "sourceUrl": "https://github.com/gamips/ai.gami.jp/blob/master/README.md",
+  "targetUrl": "https://ai.gami.jp/insights/",
+  "baseline": {
+    "evidencePath": "reports/seo/publicity/2026-10-29-github-before.json",
+    "readmeBlobSha": "03f78e68fe378036742b55de14b0e12f2df1856e",
+    "linkPresent": false,
+    "repositoryViews": {
+      "count": 0,
+      "uniques": 0,
+      "startDate": "2026-10-14",
+      "endDate": "2026-10-27",
+      "timezone": "UTC"
+    },
+    "websiteReferralClicks": null
+  },
+  "priorDescriptionReview": "reports/seo/publicity/2026-10-29-github-description-review.json",
+  "hypothesis": "Make existing practical articles discoverable to repository readers. No asserted SEO ranking or referral improvement.",
+  "minimumEvidence": {
+    "technical": "Exact public README readback and live destination200, unchanged repository metadata and site.",
+    "effect": "14fullUTCdates after publication. Confirm returned window; without identifiable site referral data, audience totals cannot establish qualified traffic."
+  },
+  "freeze": "README introductory Insights sentence only; preserve repository description/homepage/topics/visibility and existing site content.",
+  "rollback": "Remove only the added README sentence.",
+  "writingModel": "gpt-6.1-sol",
+  "copyAgent": "oct29_readme_copy",
+  "review": "Root confirmed factual existing article/template inventory, concise prose and single matching link.",
+  "verification": {
+    "prepublish": "reports/seo/inspections/2026-10-29-live-due-pages.json",
+    "websiteBuildRun": false,
+    "websiteDeployRun": false,
+    "reason": "README prose-only; publish commit skips website workflow, existing site production remains40237846."
+  }
+}

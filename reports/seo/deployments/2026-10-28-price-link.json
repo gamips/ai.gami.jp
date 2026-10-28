@@ -1,0 +1,51 @@
+{
+  "status": "verified",
+  "productionCommit": "40237846b6633a35f859168815d5aa4d80dd6d72",
+  "firstVerifiedAt": "2026-10-27T23:04:20.247Z",
+  "workflow": {
+    "conclusion": "success",
+    "databaseId": 40599369269,
+    "headSha": "40237846b6633a35f859168815d5aa4d80dd6d72",
+    "status": "completed",
+    "url": "https://github.com/gamips/ai.gami.jp/actions/runs/40599369269"
+  },
+  "method": "GitHub Actions normal Xserver deploy",
+  "build": {
+    "passed": true,
+    "modules": 2043,
+    "staticSeoEntries": 33,
+    "indexablePages": 31
+  },
+  "technicalResult": "confirmed",
+  "acquisitionEffect": "not-yet-measurable",
+  "changes": {
+    "files": [
+      "src/app/content/pricing.js",
+      "src/app/pages/Price.tsx",
+      "src/app/seo/pageSeo.js"
+    ],
+    "scope": "One contextual pricing-to-cost-guide link; existing pricing and guide unchanged.",
+    "priceLastModified": "2026-10-28"
+  },
+  "verification": {
+    "predeploy": "reports/seo/validation/2026-10-28-price-predeploy.json",
+    "live": "reports/seo/validation/2026-10-28-price-live.json",
+    "browser": "reports/seo/validation/2026-10-28-price-browser.json",
+    "pagesMatched": 8,
+    "assetsMatched": 25,
+    "representativeAliasRedirects": 2,
+    "generatedExactAliasRules": 31,
+    "desktopMobile": true,
+    "console": {
+      "messages": 0,
+      "errors": 0,
+      "warnings": 0
+    },
+    "visualReview": "Desktop1280x900 and mobile390x844 Price screenshots inspected: existing note layout and readable single link intact, no overflow. Target title/H1/canonical and single Article checked after navigation.",
+    "browserClosed": true
+  },
+  "sourceReview": {
+    "agent": "oct28_price_copy",
+    "status": "passed"
+  }
+}

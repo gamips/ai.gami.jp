@@ -1,0 +1,208 @@
+{
+  "checkedAt": "2026-10-27T23:04:20.247Z",
+  "mode": "live",
+  "pages": [
+    {
+      "url": "https://ai.gami.jp/price/",
+      "status": 200,
+      "headAndBodyMatchBuild": true,
+      "indexAllowed": true,
+      "articleCount": 0
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-introduction-support-pricing/",
+      "status": 200,
+      "headAndBodyMatchBuild": true,
+      "indexAllowed": true,
+      "articleCount": 1
+    },
+    {
+      "url": "https://ai.gami.jp/insights/rag-answer-review-sheet/",
+      "status": 200,
+      "headAndBodyMatchBuild": true,
+      "indexAllowed": true,
+      "articleCount": 1
+    },
+    {
+      "url": "https://ai.gami.jp/services/ai-saas/",
+      "status": 200,
+      "headAndBodyMatchBuild": true,
+      "indexAllowed": true,
+      "articleCount": 0
+    },
+    {
+      "url": "https://ai.gami.jp/insights/",
+      "status": 200,
+      "headAndBodyMatchBuild": true,
+      "indexAllowed": true,
+      "articleCount": 0
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-website-launch-checklist/",
+      "status": 200,
+      "headAndBodyMatchBuild": true,
+      "indexAllowed": true,
+      "articleCount": 1
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-website-brief-template/",
+      "status": 200,
+      "headAndBodyMatchBuild": true,
+      "indexAllowed": true,
+      "articleCount": 1
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-website-change-request-template/",
+      "status": 200,
+      "headAndBodyMatchBuild": true,
+      "indexAllowed": true,
+      "articleCount": 1
+    }
+  ],
+  "assets": [
+    {
+      "file": "About-XmAXz3K8.js",
+      "sha256": "0947a76d4fe7512aa71f9d5b1a53d27ee8e0238745f7f9cecb645ab855445544",
+      "match": true
+    },
+    {
+      "file": "arrow-right-DeuRz3qw.js",
+      "sha256": "4de659f49111c636e6f639f356e10901b2f3e64e61a9411d0957eaa57c960f69",
+      "match": true
+    },
+    {
+      "file": "Concept-CxsAwVAZ.js",
+      "sha256": "45b3f4f2f9cc7298726b29d4f2bed55ec0d314d7226f4b1e5d32b26a1f1a3fc3",
+      "match": true
+    },
+    {
+      "file": "Contact-CJgz2E72.js",
+      "sha256": "041a62e9747aa327efbe6dfb33d0ef88027a68432d3c2e19b1a0e8d66272a281",
+      "match": true
+    },
+    {
+      "file": "ContactThanks-CX268kyh.js",
+      "sha256": "e328c3618449227667efc928f5fccf91db9c2663d2820c096fca53b9c6533b30",
+      "match": true
+    },
+    {
+      "file": "createLucideIcon-DunZQA3D.js",
+      "sha256": "73e342577b706b3b02fab85df772d443998c31ec7c83fb5ed6fde876ded66fea",
+      "match": true
+    },
+    {
+      "file": "Footer-B5Cm-Fj_.js",
+      "sha256": "466f6f75da5daad96508b20dfe806bfe65d3e9c9b2c63417df3013bd799616b3",
+      "match": true
+    },
+    {
+      "file": "GeometricParticles-BSE43OgG.js",
+      "sha256": "47f1aa37c6b829266413a3ce1d46363f4410b5b64d46433b46fbb7667a793af3",
+      "match": true
+    },
+    {
+      "file": "Header-DTT559pU.js",
+      "sha256": "05ed1514ede1980bc4020a6c1cdf07f64390e233a27cf8a24bef65781780b91d",
+      "match": true
+    },
+    {
+      "file": "Home-Dr56Wpq7.js",
+      "sha256": "61d0fa79a088b56e57f588ee98166a9547e5cfab4b0680c791d6e04adc8c85a9",
+      "match": true
+    },
+    {
+      "file": "index-BSUbwp1T.css",
+      "sha256": "f64e0ace97d75ca48b6f02738a4ee41ac0423211d866589eb463ef390411b651",
+      "match": true
+    },
+    {
+      "file": "index-DQ9H40mv.js",
+      "sha256": "f9c174f06cd45eae1b00aa79c594256655c520a45d1f817c7892dfa7d2a4490f",
+      "match": true
+    },
+    {
+      "file": "InquiryCta-Bu2Kf4n9.js",
+      "sha256": "3b38e77f045e1259e8ac9adf3f87fbab64aed4b34539f2b3cb53b059a9183a75",
+      "match": true
+    },
+    {
+      "file": "InsightDetail-CZD8STcT.js",
+      "sha256": "14ca812c6e309c6f535354021b32c69896f5128da31b56eeb1a63ecf3f430774",
+      "match": true
+    },
+    {
+      "file": "Insights-5idU_m1c.js",
+      "sha256": "51c6a216a84f146691c4b1c2d7b3db34109c7ffe789c2a032c115af986e60e67",
+      "match": true
+    },
+    {
+      "file": "News-DjyQA_FD.js",
+      "sha256": "e01ad4ffe61dc5fd6d57d50a68bf07936227bef2a604efe0be437a94203425d5",
+      "match": true
+    },
+    {
+      "file": "NotFound-BTvrWSxP.js",
+      "sha256": "d459d029a665fe4a692ce73b56b20915721f222f5f73bdec7650fd2cc7c09bf5",
+      "match": true
+    },
+    {
+      "file": "PageSeo-D9tkyHXC.js",
+      "sha256": "cb17da4f9cc595ac2fd1108b067dfeaff4eb7433e3228a62ef004e79727b5274",
+      "match": true
+    },
+    {
+      "file": "Price-DiykIjI0.js",
+      "sha256": "ca915e4c692d330eea1326656e78a0e2d75b83b610ece55e5fdb883f6db46ce6",
+      "match": true
+    },
+    {
+      "file": "proxy-01AwSOVN.js",
+      "sha256": "c8bfbc9cb7e1c441285c433f1dc406f40b4853278b9ebb31bc2a8220a4fc5393",
+      "match": true
+    },
+    {
+      "file": "ScrollReveal-CNkuBZQ5.js",
+      "sha256": "122aa6b46e318aca147f60dedf2583b69dcb088e39913c15099203d0296b35e5",
+      "match": true
+    },
+    {
+      "file": "ScrollToTopLink-Byy19G-z.js",
+      "sha256": "b60871ab4425936421ff6f29d73de3aa56b5f1eff008120a0d462490c2eaffdb",
+      "match": true
+    },
+    {
+      "file": "ServiceDetail-B9iCfTzn.js",
+      "sha256": "c9e2afc79ac05e792e4e5128c594a1f3dd503f739a5c690a2d4761464f8f47de",
+      "match": true
+    },
+    {
+      "file": "services-BIzLvni6.js",
+      "sha256": "31166969922dc1b1aa127549abe86b7d01bf30bb8de5e52c138bc6d41a962b85",
+      "match": true
+    },
+    {
+      "file": "Services-UUYncwpz.js",
+      "sha256": "f6bf4a8a60f1207fd6793b6340e2235e30132b51d66582dd67589ff7a35610b5",
+      "match": true
+    }
+  ],
+  "redirects": [
+    {
+      "url": "https://ai.gami.jp/price/index.html?check=oct28",
+      "status": 301,
+      "location": "https://ai.gami.jp/price/?check=oct28"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-introduction-support-pricing/index.html?check=oct28",
+      "status": 301,
+      "location": "https://ai.gami.jp/insights/ai-introduction-support-pricing/?check=oct28"
+    }
+  ],
+  "sitemap": {
+    "urls": 31,
+    "priceLastModified": "2026-10-28",
+    "onlyPriceDateChanged": false,
+    "exactBuildMatch": true
+  },
+  "passed": true
+}

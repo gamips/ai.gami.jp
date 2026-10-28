@@ -1,0 +1,38 @@
+{
+  "experimentId": "github-repository-description-v1",
+  "checkedAt": "2026-10-28T23:08:55.648Z",
+  "source": "reports/seo/publicity/2026-10-29-github-before.json",
+  "plannedWindow": {
+    "startDate": "2026-10-14",
+    "endDate": "2026-10-27",
+    "timezone": "UTC",
+    "fullDays": 14
+  },
+  "actualWindow": {
+    "startDate": "2026-10-14T00:00:00Z",
+    "endDate": "2026-10-27T00:00:00Z",
+    "rows": 14,
+    "plannedDatesMatch": true
+  },
+  "descriptionReadback": "GAMI公式サイトのソースコード。AI導入支援、AIを活用した業務システム開発、Web制作を紹介しています。",
+  "descriptionUnchanged": true,
+  "readmeBlobSha": "03f78e68fe378036742b55de14b0e12f2df1856e",
+  "readmeUnchanged": true,
+  "views": {
+    "count": 0,
+    "uniques": 0
+  },
+  "clones": {
+    "count": 228,
+    "uniques": 93,
+    "interpretation": "Repository clones may include automation; not human site visits or inquiries."
+  },
+  "websiteReferralClicks": null,
+  "qualifiedOrganicVisits": null,
+  "organicInquiries": null,
+  "technicalResult": "confirmed",
+  "effectResult": "inconclusive",
+  "decision": "complete_observation",
+  "reason": "Planned14fullUTCdates observed; repository views explicitly0, no attributable website data. More waiting alone will not establish referral causality. Keep description unchanged and allow separately recorded README link.",
+  "nextAction": "One factual README sentence to existing Insights collection; preserve description/homepage/topics/visibility and website."
+}

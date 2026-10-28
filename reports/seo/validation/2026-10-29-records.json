@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-10-28T23:15:47.583Z",
+  "baseline": "e611720a6dcbaa2fed6cc4ee25b46c536cae0c6b",
+  "priorStartsAndHistoryPreserved": 44,
+  "unchangedObservations": 31,
+  "active": 35,
+  "queue": 46,
+  "inventory": 65,
+  "unchangedPriorInventory": 62,
+  "appended": {
+    "docs/seo/experiments.jsonl": 18,
+    "reports/seo/runs/2026-10.jsonl": 2
+  },
+  "metricChecks": [
+    {
+      "date": "2026-10-28",
+      "groups": 14,
+      "rows": 67,
+      "ctrRows": 66,
+      "deviceTotalsMatched": true
+    },
+    {
+      "date": "2026-10-29",
+      "groups": 14,
+      "rows": 67,
+      "ctrRows": 66,
+      "deviceTotalsMatched": true
+    }
+  ],
+  "websiteProductionCommit": "40237846b6633a35f859168815d5aa4d80dd6d72",
+  "publicReadmeCommit": "8919127ce42c5aec60d56ea11c083280120e70a2",
+  "originalReviewDatesPreserved": true,
+  "scheduleUnchanged": true,
+  "passed": true,
+  "independentReview": {
+    "agent": "oct29_metrics_review",
+    "status": "passed",
+    "reviewedAt": "2026-10-28T23:17:38.871Z",
+    "summary": "All44 prior starts/history and all remaining due dates preserved;31 observations unchanged;18event payloads match state,2logs match evidence, publication versus website deployment and observation windows correct. No substantive issue."
+  }
+}
