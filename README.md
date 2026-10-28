@@ -4,6 +4,8 @@ GAMIの公式サイトのソースコードです。AI導入支援、AIを活用
 
 [公開サイトを見る](https://ai.gami.jp/)
 
+仕事でAIを活用するための記事やテンプレートを[Insights](https://ai.gami.jp/insights/)で公開しています。
+
 This is a code bundle for オリジナルデザイン作成. The original project is available at https://www.figma.com/design/jwq4Z7Kuu1RVwqxPrQsH4Q/%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E4%BD%9C%E6%88%90.
 
 ## Running the code
