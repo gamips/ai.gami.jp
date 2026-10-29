@@ -1,0 +1,95 @@
+{
+  "checkedAt": "2026-10-29T23:16:33.776Z",
+  "session": "ai-gami-oct30",
+  "desktop": {
+    "url": "https://ai.gami.jp/insights/ai-image-alt-text-template/",
+    "title": "AIで画像の代替テキストを作る｜用途を伝える確認メモ | GAMI",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "overflow": false,
+    "h1": [
+      "AIで画像の代替テキストを作る｜用途を伝える確認メモ"
+    ],
+    "h2": [
+      "まず、ページでの役割を確認する",
+      "コピーして使う4つの欄",
+      "同じ椅子の写真を、二つの場所で使う例",
+      "実際のページと照らして仕上げる"
+    ],
+    "schemaTypes": {
+      "Organization": 4,
+      "WebPage": 1,
+      "WebSite": 1,
+      "Article": 1,
+      "BreadcrumbList": 1,
+      "ListItem": 3
+    },
+    "canonical": "https://ai.gami.jp/insights/ai-image-alt-text-template/",
+    "altLiteralCount": 2,
+    "links": [
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "AIを活用したWeb制作の支援を見る",
+        "href": "/services/ai-web/"
+      }
+    ]
+  },
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "overflow": false,
+    "h1": "AIで画像の代替テキストを作る｜用途を伝える確認メモ",
+    "sectionCount": 4,
+    "bodyOverflow": false
+  },
+  "listing": {
+    "url": "https://ai.gami.jp/insights/",
+    "count": 21,
+    "firstArticle": "AIで画像の代替テキストを作る｜用途を伝える確認メモ",
+    "firstHref": "/insights/ai-image-alt-text-template/",
+    "overflow": false,
+    "itemListCounts": [
+      21
+    ],
+    "desktopOverflow": false
+  },
+  "articleToService": {
+    "url": "https://ai.gami.jp/services/ai-web/",
+    "h1": "AI × Brand\nAI × Site",
+    "overflow": false
+  },
+  "listingToArticle": {
+    "clicked": true,
+    "destination": "https://ai.gami.jp/insights/ai-image-alt-text-template/"
+  },
+  "console": {
+    "totalMessages": 0,
+    "errors": 0,
+    "warnings": 0
+  },
+  "visualReview": {
+    "reviewed": true,
+    "sharedTemplatePreserved": true,
+    "articleAndListingTextReadable": true,
+    "horizontalOverflow": false,
+    "note": "Existing fixed transparent header can overlay content while scrolled, unchanged shared behavior; no redesign in this content-only run."
+  },
+  "screenshots": [
+    "output/playwright/2026-10-30-alt-desktop.png",
+    "output/playwright/2026-10-30-alt-desktop-fields.png",
+    "output/playwright/2026-10-30-alt-mobile.png",
+    "output/playwright/2026-10-30-alt-mobile-fields.png",
+    "output/playwright/2026-10-30-alt-mobile-example.png",
+    "output/playwright/2026-10-30-list-mobile.png",
+    "output/playwright/2026-10-30-list-desktop.png"
+  ],
+  "sessionClosed": true,
+  "passed": true
+}

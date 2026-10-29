@@ -1,0 +1,33 @@
+{
+  "checkedAt": "2026-10-29T23:19:53.941Z",
+  "baseline": "5a571d5c9f3f40aad5dbdde525c6309b7000b773",
+  "priorStartsAndHistoryPreserved": 46,
+  "unchangedObservations": 36,
+  "active": 36,
+  "queue": 47,
+  "inventory": 67,
+  "unchangedPriorInventory": 64,
+  "appended": {
+    "docs/seo/experiments.jsonl": 12,
+    "reports/seo/runs/2026-10.jsonl": 1
+  },
+  "metricChecks": {
+    "groups": 14,
+    "rows": 72,
+    "ctrRows": 71,
+    "deviceTotalsMatched": true
+  },
+  "effectFixedPeriodMatchedSavedData": true,
+  "aliasFinalPartialDayConfoundRecorded": true,
+  "websiteProductionCommit": "98696ed326d5f950b885ef794f9f32fb5b96707b",
+  "originalReviewDatesPreserved": true,
+  "scheduleUnchanged": true,
+  "missingEvidencePaths": [],
+  "passed": true,
+  "independentReview": {
+    "agent": "oct30_article_review",
+    "result": "passed",
+    "checkedReports": 13,
+    "notes": "Prior46queue histories and unchanged36observations verified,6due updates/4confounds, append-only logs,67inventory, all report JSON and evidence paths valid."
+  }
+}

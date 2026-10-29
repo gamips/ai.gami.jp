@@ -1,0 +1,93 @@
+{
+  "checkedAt": "2026-10-29T23:11:43.441Z",
+  "mode": "predeploy",
+  "existing20ArticlesUnchanged": true,
+  "staticEntries": 34,
+  "indexableEntries": 32,
+  "articleCount": 21,
+  "pages": [
+    {
+      "url": "https://ai.gami.jp/insights/ai-image-alt-text-template/",
+      "httpStatus": null,
+      "headAndBodyMatchBuild": null,
+      "schemaTypes": {
+        "Organization": 4,
+        "WebPage": 1,
+        "WebSite": 1,
+        "Article": 1,
+        "BreadcrumbList": 1,
+        "ListItem": 3
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/",
+      "httpStatus": null,
+      "headAndBodyMatchBuild": null,
+      "schemaTypes": {
+        "Organization": 2,
+        "CollectionPage": 1,
+        "WebSite": 1,
+        "ItemList": 1,
+        "ListItem": 23,
+        "BreadcrumbList": 1
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/services/ai-web/",
+      "httpStatus": 200,
+      "headAndBodyMatchBuild": true,
+      "schemaTypes": {
+        "Organization": 3,
+        "WebPage": 1,
+        "WebSite": 1,
+        "Service": 1,
+        "Country": 1,
+        "BreadcrumbList": 1,
+        "ListItem": 3
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-work-handoff-template/",
+      "httpStatus": 200,
+      "headAndBodyMatchBuild": true,
+      "schemaTypes": {
+        "Organization": 4,
+        "WebPage": 1,
+        "WebSite": 1,
+        "Article": 1,
+        "BreadcrumbList": 1,
+        "ListItem": 3
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/price/",
+      "httpStatus": 200,
+      "headAndBodyMatchBuild": true,
+      "schemaTypes": {
+        "Organization": 2,
+        "CollectionPage": 1,
+        "WebSite": 1,
+        "OfferCatalog": 1,
+        "Offer": 3,
+        "Service": 3,
+        "BreadcrumbList": 1,
+        "ListItem": 2
+      },
+      "indexAllowed": true
+    }
+  ],
+  "assets": [],
+  "redirects": [],
+  "sitemap": {
+    "urlCount": 32,
+    "articleAndListingLastmod": "2026-10-30",
+    "priorDatesPreserved": true,
+    "exactLiveMatch": false
+  },
+  "aliasRules": 32,
+  "passed": true
+}

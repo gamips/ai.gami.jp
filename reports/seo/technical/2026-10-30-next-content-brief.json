@@ -1,0 +1,80 @@
+{
+  "preparedAt": "2026-10-29T23:16:33.777Z",
+  "reviewAgent": "oct30_effect_review",
+  "lane": "content",
+  "status": "ready_to_draft",
+  "slug": "ai-translation-glossary-template",
+  "workingTitle": "AIで翻訳する前に、用語の訳し方をそろえる",
+  "intent": "短い案内文を翻訳する前に、固有名詞・業務用語の意味と指定表記を整理し、原文と翻訳案を照合する。",
+  "overlapReview": {
+    "articleCount": 21,
+    "result": "No existing translation/glossary intent. Table-cleanup concerns same-language original values; fact-check concerns source accuracy; FAQ concerns question grouping."
+  },
+  "primaryResearch": {
+    "checkedOn": "2026-10-30",
+    "sources": [
+      {
+        "url": "https://translation.ec.europa.eu/languages-and-translation-european-commission/terminology_en",
+        "supports": "Meaning, context and multilingual terminology."
+      },
+      {
+        "url": "https://translation.ec.europa.eu/languages-and-translation-european-commission/translation-quality_en",
+        "supports": "Purpose, reader, context and comparison with original."
+      }
+    ],
+    "boundary": "Original worksheet, not an EU form. No promised AI features, automatic consistency or translation accuracy."
+  },
+  "worksheetFields": [
+    "原語・固有名詞",
+    "今回の意味・使う場面",
+    "使う訳語・残す表記",
+    "確認元・未確認点"
+  ],
+  "fictionalExample": {
+    "sentence": "DEMO-01の体験会は10:00に受付を開始します。",
+    "rows": [
+      [
+        "受付",
+        "来場確認",
+        "check-in",
+        "この架空案件の既存案内"
+      ],
+      [
+        "体験会",
+        "製品を試すイベント",
+        "demo session",
+        "この架空案件の担当者が決めた呼び方"
+      ],
+      [
+        "DEMO-01",
+        "識別番号",
+        "DEMO-01",
+        "原文どおり保持"
+      ]
+    ],
+    "review": "reception versus specified check-in, or changed DEMO-1, prompts checking whole sentence; no universal best translation or blind replacement."
+  },
+  "outline": [
+    "文章・翻訳する言語・読者を決める",
+    "用語を4欄に整理する",
+    "架空の案内文で照合する",
+    "翻訳案を原文と比べる"
+  ],
+  "publicCopyRules": [
+    "Latest available model subagent writes; coordinator checks.",
+    "No reference list, internal planning metadata or invented service offering.",
+    "Link only to confirmed existing writing-support scope."
+  ],
+  "possibleServiceDestination": "/services/ai-marketing/",
+  "handoffLinkReview": {
+    "agent": "oct30_article_review",
+    "status": "deferred_existing_source_observation",
+    "source": "https://ai.gami.jp/services/ai-marketing/",
+    "target": "https://ai.gami.jp/insights/ai-work-handoff-template/",
+    "existingRoute": "Service → customer-reply article → handoff article",
+    "reason": "Source experiment remains observing; first evaluate/close or revise that experiment before introducing another variable. Original freeze endsOct30, not automatically extended toNov13.",
+    "reconsiderOnOrAfter": "2026-11-13",
+    "targetOriginalEffectCheck": "2026-11-03"
+  },
+  "implementation": "New page package only, preserve existing URL experiments. Record prospective listing/README destination and service-inbound confounds."
+}

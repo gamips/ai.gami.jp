@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-28T23:13:59.591Z",
+  "updatedAt": "2026-10-29T23:18:00.824Z",
   "rules": {
     "oneOwnerUrlPerIntent": true,
     "publicCopyExcludesOperationalMetadata": true
@@ -149,11 +149,11 @@
       "type": "insight-index",
       "intent": "AI導入と生成AI活用の実践ガイド一覧",
       "status": "published",
-      "lastModified": "2026-10-24",
+      "lastModified": "2026-10-30",
       "experimentId": "insights-initial-listing-parity-v1",
       "technicalUpdatedAt": "2026-10-07T01:13:35Z",
       "contentSource": "src/app/content/insights.js",
-      "note": "Index sitemap lastmod derives from article updatedAt; October24 new FAQ article added (20total) with unchanged listing mapping. Original listing experiment dates retained; article additions confound acquisition attribution.",
+      "note": "Index sitemap lastmod derives from article updatedAt; October30 alt-text article added (21total) with unchanged listing mapping. Original listing experiment dates retained; article additions confound acquisition attribution.",
       "aliasRepairUpdatedAt": "2026-10-26T23:42:07.415Z",
       "aliasRepairExperimentId": "generated-index-alias-redirects-v1"
     },
@@ -869,6 +869,30 @@
       "contentSource": "README.md",
       "targetUrl": "https://ai.gami.jp/insights/",
       "publicationEvidencePath": "reports/seo/publicity/2026-10-29-readme-published.json"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-image-alt-text-template/",
+      "type": "insight",
+      "intent": "画像・用途・周りの文章・リンク先を4欄で整理し、AIの代替テキスト案を架空例で確認する。",
+      "status": "published",
+      "lastModified": "2026-10-30",
+      "schema": "Article",
+      "experimentId": "insight-ai-image-alt-text-template-v1",
+      "relatedService": "https://ai.gami.jp/services/ai-web/",
+      "contentSource": "src/app/content/insights.js"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-image-alt-text-template/index.html",
+      "type": "redirect-alias",
+      "intent": "新記事の別名から正規記事へ案内",
+      "status": "redirected",
+      "redirectTarget": "https://ai.gami.jp/insights/ai-image-alt-text-template/",
+      "redirectStatus": 301,
+      "queryPreserved": true,
+      "technicalUpdatedAt": "2026-10-29T23:13:50.094Z",
+      "experimentId": "insight-ai-image-alt-text-template-v1",
+      "indexable": false,
+      "note": "Generated exact rule from staticSeoEntries as part of new article package; not a sitemap content entry."
     }
   ]
 }

@@ -1,0 +1,27 @@
+{
+  "verifiedAt": "2026-10-29T23:13:50.094Z",
+  "commit": "98696ed326d5f950b885ef794f9f32fb5b96707b",
+  "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/40971494832",
+  "workflowCompletedAt": "2026-10-29T23:12:45Z",
+  "actionsStatus": "completed",
+  "actionsConclusion": "success",
+  "method": "GitHub Actions normal Xserver deploy",
+  "publicationResult": "verified",
+  "technicalResult": "confirmed",
+  "acquisitionEffect": "not-yet-measurable",
+  "articleUrl": "https://ai.gami.jp/insights/ai-image-alt-text-template/",
+  "articleCount": 21,
+  "indexableUrlCount": 32,
+  "staticSeoEntries": 34,
+  "matchedLivePages": 11,
+  "matchedAssetCount": 25,
+  "aliasChecks": 6,
+  "predeployEvidencePath": "reports/seo/validation/2026-10-30-article-predeploy.json",
+  "liveEvidencePath": "reports/seo/validation/2026-10-30-article-live.json",
+  "browserEvidencePath": "reports/seo/validation/2026-10-30-article-browser.json",
+  "notes": [
+    "Only one public source object added; old20articles preserved.",
+    "Normal Actions successful; no fallback or site/server setting change.",
+    "Build success, live content/assets and browser behavior are separate from SEO effect."
+  ]
+}

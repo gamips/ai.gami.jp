@@ -1,0 +1,23 @@
+{
+  "checkedAt": "2026-10-29T23:18:00.824Z",
+  "status": "passed_with_caveats",
+  "groups": 14,
+  "rows": 72,
+  "positiveCtrRowsMatched": 71,
+  "explicitZeroDenominatorRows": 1,
+  "normalizedValueDimensionCountMismatches": 0,
+  "deviceTotalsAndWeightedPositionMatch": true,
+  "windowsMatchFreshness": true,
+  "exactExcludedBrandQueries": [
+    "gami ai",
+    "gami"
+  ],
+  "completeNonBrandTraffic": false,
+  "qualifiedOrganicVisits": null,
+  "organicInquiries": null,
+  "independentReviewer": "oct30_effect_review",
+  "caveats": [
+    "Search Console query disclosure incomplete; smartbank-related query intent uncertain.",
+    "Current Price no-slash raw zero impressions retained, interpreted CTR/position null."
+  ]
+}

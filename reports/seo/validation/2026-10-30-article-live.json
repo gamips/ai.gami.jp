@@ -1,0 +1,336 @@
+{
+  "checkedAt": "2026-10-29T23:13:50.094Z",
+  "mode": "live",
+  "existing20ArticlesUnchanged": true,
+  "staticEntries": 34,
+  "indexableEntries": 32,
+  "articleCount": 21,
+  "pages": [
+    {
+      "url": "https://ai.gami.jp/insights/ai-image-alt-text-template/",
+      "httpStatus": 200,
+      "headAndBodyMatchBuild": true,
+      "schemaTypes": {
+        "Organization": 4,
+        "WebPage": 1,
+        "WebSite": 1,
+        "Article": 1,
+        "BreadcrumbList": 1,
+        "ListItem": 3
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/",
+      "httpStatus": 200,
+      "headAndBodyMatchBuild": true,
+      "schemaTypes": {
+        "Organization": 2,
+        "CollectionPage": 1,
+        "WebSite": 1,
+        "ItemList": 1,
+        "ListItem": 23,
+        "BreadcrumbList": 1
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/services/ai-web/",
+      "httpStatus": 200,
+      "headAndBodyMatchBuild": true,
+      "schemaTypes": {
+        "Organization": 3,
+        "WebPage": 1,
+        "WebSite": 1,
+        "Service": 1,
+        "Country": 1,
+        "BreadcrumbList": 1,
+        "ListItem": 3
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-work-handoff-template/",
+      "httpStatus": 200,
+      "headAndBodyMatchBuild": true,
+      "schemaTypes": {
+        "Organization": 4,
+        "WebPage": 1,
+        "WebSite": 1,
+        "Article": 1,
+        "BreadcrumbList": 1,
+        "ListItem": 3
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/price/",
+      "httpStatus": 200,
+      "headAndBodyMatchBuild": true,
+      "schemaTypes": {
+        "Organization": 2,
+        "CollectionPage": 1,
+        "WebSite": 1,
+        "OfferCatalog": 1,
+        "Offer": 3,
+        "Service": 3,
+        "BreadcrumbList": 1,
+        "ListItem": 2
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/services/",
+      "httpStatus": 200,
+      "headAndBodyMatchBuild": true,
+      "schemaTypes": {
+        "Organization": 2,
+        "CollectionPage": 1,
+        "WebSite": 1,
+        "ItemList": 1,
+        "ListItem": 5,
+        "Service": 3,
+        "BreadcrumbList": 1
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/about/",
+      "httpStatus": 200,
+      "headAndBodyMatchBuild": true,
+      "schemaTypes": {
+        "Organization": 2,
+        "AboutPage": 1,
+        "WebSite": 1,
+        "BreadcrumbList": 1,
+        "ListItem": 2
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/rag-document-inventory-checklist/",
+      "httpStatus": 200,
+      "headAndBodyMatchBuild": true,
+      "schemaTypes": {
+        "Organization": 4,
+        "WebPage": 1,
+        "WebSite": 1,
+        "Article": 1,
+        "BreadcrumbList": 1,
+        "ListItem": 3
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/chatgpt-workplace-adoption-checklist/",
+      "httpStatus": 200,
+      "headAndBodyMatchBuild": true,
+      "schemaTypes": {
+        "Organization": 4,
+        "WebPage": 1,
+        "WebSite": 1,
+        "Article": 1,
+        "BreadcrumbList": 1,
+        "ListItem": 3
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/services/ai-marketing/",
+      "httpStatus": 200,
+      "headAndBodyMatchBuild": true,
+      "schemaTypes": {
+        "Organization": 3,
+        "WebPage": 1,
+        "WebSite": 1,
+        "Service": 1,
+        "Country": 1,
+        "BreadcrumbList": 1,
+        "ListItem": 3
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-article-fact-check-template/",
+      "httpStatus": 200,
+      "headAndBodyMatchBuild": true,
+      "schemaTypes": {
+        "Organization": 4,
+        "WebPage": 1,
+        "WebSite": 1,
+        "Article": 1,
+        "BreadcrumbList": 1,
+        "ListItem": 3
+      },
+      "indexAllowed": true
+    }
+  ],
+  "assets": [
+    {
+      "file": "About-BWK3DYhU.js",
+      "sha256": "4734e428235a7e3d6051c5396ca9bdaa2ec48a4d4ca5425fc19a2a056c096808",
+      "match": true
+    },
+    {
+      "file": "arrow-right-BkrW9-LD.js",
+      "sha256": "b2f3bb1f6216d0d98548de042fe21033020030018bc59af1f65d391c3ae9d988",
+      "match": true
+    },
+    {
+      "file": "Concept-CATeij8L.js",
+      "sha256": "9cf30efb8a0427144f8e4ba728cd7fd48f0c621acea5e639bb0ba6718f832a44",
+      "match": true
+    },
+    {
+      "file": "Contact-BjwwxoIU.js",
+      "sha256": "f8d9c9a58a3f37a9b4d18b3fb5231314e0f3c8b8d13a032c97213bfc27e7bb84",
+      "match": true
+    },
+    {
+      "file": "ContactThanks-DnUMHyxW.js",
+      "sha256": "290da7455b640d775557540f099b8747d8ae144d153bc6a85697ed32c4186ab1",
+      "match": true
+    },
+    {
+      "file": "createLucideIcon-BtAKgHZD.js",
+      "sha256": "0d4911e6b8a96a312ea80097f2ce3c1cc60c251289803293f87c200f3de259d2",
+      "match": true
+    },
+    {
+      "file": "Footer-BTpcKYPN.js",
+      "sha256": "385e17c2106f47c563686c6fe63f78f57adad3fe564745a1a2354c95dc650623",
+      "match": true
+    },
+    {
+      "file": "GeometricParticles-BI-IAdD2.js",
+      "sha256": "201ec497437f864402e183a1e791f020e5d3e59995f9951bb06b1ddabaf54037",
+      "match": true
+    },
+    {
+      "file": "Header-Blg396Xm.js",
+      "sha256": "43cebf3b8ba5be07fb7e4bf8d05953e9f4cb52bf7f55135307e80a37dea60b1b",
+      "match": true
+    },
+    {
+      "file": "Home-DiJVupdN.js",
+      "sha256": "6436f286efba66a3dd930af889629e5aa572040c0f7ba27ee1ea3d957b67f005",
+      "match": true
+    },
+    {
+      "file": "index-BeCOId9A.js",
+      "sha256": "28d4592386c36da010e7c3b42a233f61d55eccd5cf7fc2aef1398c7aed11b20f",
+      "match": true
+    },
+    {
+      "file": "index-BSUbwp1T.css",
+      "sha256": "f64e0ace97d75ca48b6f02738a4ee41ac0423211d866589eb463ef390411b651",
+      "match": true
+    },
+    {
+      "file": "InquiryCta-Dk1gDOIO.js",
+      "sha256": "9db85cae79803df148ad83312f9531a493a97adea23136f05994b2ec681ab374",
+      "match": true
+    },
+    {
+      "file": "InsightDetail-DhNga0Na.js",
+      "sha256": "711513fdb1bd5b4e7a030f51e4df65ad6ce29fb25d29ba46fea1c0802502885a",
+      "match": true
+    },
+    {
+      "file": "Insights-CUyWg-Q7.js",
+      "sha256": "d231c2d5fdebc3c59f2c423cfc169adf312c6afa3041775981b549097bf6b3e1",
+      "match": true
+    },
+    {
+      "file": "News-DpFmwdIw.js",
+      "sha256": "f2e2fe51c08e94c31030508f611f42faa984b3ae4a3aa1a898cf7be4bb1e6e27",
+      "match": true
+    },
+    {
+      "file": "NotFound-0VPXR73e.js",
+      "sha256": "7a4288d9a51fe2826594233f661b2cbd48fccf69cbde30d8fbe11a41879da3dc",
+      "match": true
+    },
+    {
+      "file": "PageSeo-BpEAxuyP.js",
+      "sha256": "57665d82e674802c26d4d59c907a5e7a60cb58b1d2f85dc7f455f0a9a7bc3a75",
+      "match": true
+    },
+    {
+      "file": "Price-Kqu_l__K.js",
+      "sha256": "9fa919097e638b3ceb05fe2b2c87329a1704b74f82143cf0c837f1303d30f1eb",
+      "match": true
+    },
+    {
+      "file": "proxy-DZrkUAWA.js",
+      "sha256": "bd76e8f62e49c55047f386fd829dc1f16f8bf80a19e8e7c2a789a46db45f7821",
+      "match": true
+    },
+    {
+      "file": "ScrollReveal-BoXWy0O1.js",
+      "sha256": "b3665c372bacfbfe62108ef0adb2468e9b4c60d350f3e307cce641920da7b2a9",
+      "match": true
+    },
+    {
+      "file": "ScrollToTopLink-0C1qfLN9.js",
+      "sha256": "38bec6b31addcaeb5519f05056a36042190b042e77516a7925e889962429e39c",
+      "match": true
+    },
+    {
+      "file": "ServiceDetail-Cu2LoyW1.js",
+      "sha256": "daad7500345e14bb85fc726c9e0f458c7fcd68000a0c75c9e9f7094bcd4826a1",
+      "match": true
+    },
+    {
+      "file": "Services-C5uVG9rz.js",
+      "sha256": "bcdf4289fd1d9a17a3239aec35f851164c32d259cf2689d2a5c29548f05454d5",
+      "match": true
+    },
+    {
+      "file": "services-DpBnIGmb.js",
+      "sha256": "8e8dfacbfc130a008789ae918948402bed08968bb92b5d40c2303b0a0a5ea930",
+      "match": true
+    }
+  ],
+  "redirects": [
+    {
+      "url": "https://ai.gami.jp/insights/ai-image-alt-text-template/index.html",
+      "status": 301,
+      "location": "https://ai.gami.jp/insights/ai-image-alt-text-template/"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-image-alt-text-template/index.html?check=oct30",
+      "status": 301,
+      "location": "https://ai.gami.jp/insights/ai-image-alt-text-template/?check=oct30"
+    },
+    {
+      "url": "http://ai.gami.jp/insights/ai-image-alt-text-template/index.html",
+      "status": 301,
+      "location": "https://ai.gami.jp/insights/ai-image-alt-text-template/"
+    },
+    {
+      "url": "http://ai.gami.jp/insights/ai-image-alt-text-template/index.html?check=oct30",
+      "status": 301,
+      "location": "https://ai.gami.jp/insights/ai-image-alt-text-template/?check=oct30"
+    },
+    {
+      "url": "https://ai.gami.jp/price/index.html?check=oct30",
+      "status": 301,
+      "location": "https://ai.gami.jp/price/?check=oct30"
+    },
+    {
+      "url": "https://ai.gami.jp/index.html?check=oct30",
+      "status": 301,
+      "location": "https://ai.gami.jp/?check=oct30"
+    }
+  ],
+  "sitemap": {
+    "urlCount": 32,
+    "articleAndListingLastmod": "2026-10-30",
+    "priorDatesPreserved": true,
+    "exactLiveMatch": true,
+    "priorDatesEvidencePath": "reports/seo/validation/2026-10-30-article-predeploy.json"
+  },
+  "aliasRules": 32,
+  "passed": true
+}

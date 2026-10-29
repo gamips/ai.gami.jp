@@ -1,0 +1,71 @@
+{
+  "preparedAt": "2026-10-29T23:12:10.438Z",
+  "experimentId": "insight-ai-image-alt-text-template-v1",
+  "mode": "implement",
+  "source": "/insights/ai-image-alt-text-template/",
+  "lane": "content",
+  "scope": "One complete new article package using existing Insights renderer; 20 existing article objects unchanged.",
+  "hypothesis": "A practical context-aware worksheet may answer specific alt-text drafting questions and lead relevant visitors to AI Web production support.",
+  "baseline": {
+    "liveArticle": "not_published",
+    "currentMetricsPath": "reports/seo/metrics/2026-10-30-current.json",
+    "targetPageRow": null,
+    "qualifiedOrganicVisits": null,
+    "organicInquiries": null
+  },
+  "deliverable": {
+    "title": "AIで画像の代替テキストを作る｜用途を伝える確認メモ",
+    "sections": 4,
+    "worksheetFields": 4,
+    "example": "Explicitly fictional chair; no invented client experience, image asset, material or performance.",
+    "serviceTarget": "https://ai.gami.jp/services/ai-web/"
+  },
+  "factChecks": [
+    {
+      "url": "https://www.w3.org/WAI/tutorials/images/decision-tree/",
+      "supports": "Context and role determine suitable alternative."
+    },
+    {
+      "url": "https://www.w3.org/WAI/tutorials/images/decorative/",
+      "supports": "Purely decorative purpose may use empty alt; do not omit attribute."
+    },
+    {
+      "url": "https://www.w3.org/WAI/tutorials/images/functional/",
+      "supports": "Image-only controls describe destination/action; same-link text context matters."
+    },
+    {
+      "url": "https://www.w3.org/WAI/tutorials/images/complex/",
+      "supports": "Complex information needs sufficient description beyond short alt."
+    }
+  ],
+  "publicReferenceList": false,
+  "writer": {
+    "agent": "oct30_alt_text_draft",
+    "model": "gpt-6.1-sol"
+  },
+  "review": {
+    "agent": "oct30_article_review",
+    "result": "passed",
+    "coordinatorCopyReview": "passed",
+    "existingRendererNuance": "Static introduction uses description; hydrated introduction uses lead. Body sections share SSOT; not claiming identical whole rendered text."
+  },
+  "freezeScope": "New article title, description, lead, sections and service link as one package until effect review; no concurrent edits to this URL.",
+  "minimumEvidence": {
+    "finalizedFullPacificDays": 28,
+    "targetPageImpressions": 30
+  },
+  "firstIndexCheckOnOrAfter": "2026-11-06",
+  "firstEffectCheckOnOrAfter": "2026-11-30",
+  "effectClassificationAtPublication": "not-yet-measurable",
+  "rollback": "Revert only this new object in insights.js and rebuild; auto listing, sitemap and alias drop together. Preserve unrelated changes.",
+  "prospectiveConfoundExperimentIds": [
+    "insights-initial-listing-parity-v1",
+    "service-ai-web-brief-link-v1",
+    "github-readme-insights-link-v1",
+    "generated-index-alias-redirects-v1"
+  ],
+  "predeployEvidencePath": "reports/seo/validation/2026-10-30-article-predeploy.json",
+  "technicalVerificationCorrections": [
+    "Verifier uses section.title from actual schema and CollectionPage for collection pages; corrected test assumptions, no product changes."
+  ]
+}

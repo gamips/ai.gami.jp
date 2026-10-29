@@ -1,0 +1,73 @@
+{
+  "checkedAt": "2026-10-29T23:13:13.456Z",
+  "experimentId": "service-ai-marketing-fact-check-link-v1",
+  "originalStartedAt": "2026-09-29T08:04:30.2703158+09:00",
+  "publicationPacificDate": "2026-09-28",
+  "reportingTimeZone": "America/Los_Angeles",
+  "comparisonBefore": {
+    "path": "reports/seo/metrics/2026-10-28-current.json",
+    "group": "previous28dPages",
+    "startDate": "2026-08-31",
+    "endDate": "2026-09-27",
+    "sourceSlash": null,
+    "sourceNoSlash": null,
+    "targetSlash": null,
+    "targetNoSlash": null
+  },
+  "first28FullDays": {
+    "path": "reports/seo/metrics/2026-10-29-current.json",
+    "group": "current28dPages",
+    "startDate": "2026-09-29",
+    "endDate": "2026-10-26",
+    "fullFinalDays": 28,
+    "sourceSlash": {
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 30.666666666666668,
+      "page": "https://ai.gami.jp/services/ai-marketing/"
+    },
+    "sourceNoSlash": null,
+    "targetSlash": null,
+    "targetNoSlash": null
+  },
+  "latestRolling": {
+    "path": "reports/seo/metrics/2026-10-30-current.json",
+    "window": {
+      "startDate": "2026-09-30",
+      "endDate": "2026-10-27"
+    },
+    "sourceSlash": {
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 30.666666666666668,
+      "page": "https://ai.gami.jp/services/ai-marketing/"
+    },
+    "sourceNoSlash": null,
+    "targetSlash": null,
+    "targetNoSlash": null
+  },
+  "minimumEvidence": {
+    "requiredTargetPageImpressions": 30,
+    "met": false
+  },
+  "effectResult": "inconclusive",
+  "technicalResult": "confirmed",
+  "dateWindowCorrection": "Original schedule stated September30–October27. Publication was September28 PDT; first28fullPTdates are September29–October26. Original schedule and start retained in completed-check history.",
+  "additionalFixedPeriodApiQueries": 0,
+  "inspectionEvidenceReusedFrom": "reports/seo/inspections/2026-10-27-due-pages.json",
+  "targetInspectionReusedFrom": "reports/seo/inspections/2026-10-25-due-pages.json",
+  "liveTechnicalEvidencePath": "reports/seo/validation/2026-10-30-article-live.json",
+  "confounds": [
+    {
+      "experimentId": "generated-index-alias-redirects-v1",
+      "changedAt": "2026-10-26T23:42:07.415Z",
+      "publicationPacificLocal": "2026-10-26 16:42 PDT",
+      "description": "Alias repair overlaps the final partial day of this corrected fixed window. It is not entirely after the window; no isolated causal link effect can be inferred."
+    }
+  ],
+  "nextIndexCheck": "2026-11-03",
+  "nextEffectCheck": "2026-11-13",
+  "interpretation": "Target rows absent in both periods, not zero. Source0clicks/3impressions too small; insufficient evidence of relevant visits, link use or inquiries."
+}
