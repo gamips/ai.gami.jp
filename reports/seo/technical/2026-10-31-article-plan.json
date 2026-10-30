@@ -1,0 +1,55 @@
+{
+  "preparedAt": "2026-10-30T23:04:20.424Z",
+  "experimentId": "insight-ai-translation-glossary-template-v1",
+  "mode": "implement",
+  "lane": "content",
+  "source": "/insights/ai-translation-glossary-template/",
+  "scope": "One original four-field translation glossary worksheet and fictional bilingual example in existing article layout. No existing21article changes.",
+  "baseline": {
+    "metricsPath": "reports/seo/metrics/2026-10-31-current.json",
+    "targetPageRow": null,
+    "qualifiedOrganicVisits": null,
+    "organicInquiries": null,
+    "liveArticle": "not_published"
+  },
+  "hypothesis": "Help readers preparing short AI translations check names, terminology and numbers, then discover confirmed AI writing support.",
+  "writer": {
+    "agent": "oct31_translation_draft",
+    "model": "gpt-6.1-sol"
+  },
+  "review": {
+    "agent": "oct31_article_review",
+    "result": "passed",
+    "coordinator": "Verified EC primary guidance and existing service scope; changed label to 架空の翻訳案 to avoid implied real tool output."
+  },
+  "factChecks": [
+    {
+      "url": "https://translation.ec.europa.eu/languages-and-translation-european-commission/terminology_en",
+      "supports": "Terminology meaning, context and equivalents."
+    },
+    {
+      "url": "https://translation.ec.europa.eu/languages-and-translation-european-commission/translation-quality_en",
+      "supports": "Reader, purpose and bilingual comparison with original."
+    }
+  ],
+  "originalWorksheet": true,
+  "publicReferenceList": false,
+  "fictionalExample": true,
+  "serviceTarget": "https://ai.gami.jp/services/ai-marketing/",
+  "claimBoundaries": "No translationservice, universal translation, AIfeature, accuracy or time-savings guarantee.",
+  "freezeScope": "New article title, description, lead, sections and service link as one package through effect review; preserve all earlier observations.",
+  "minimumEvidence": {
+    "finalizedFullPacificDays": 28,
+    "targetPageImpressions": 30
+  },
+  "firstIndexCheckOnOrAfter": "2026-11-07",
+  "firstEffectCheckOnOrAfter": "2026-12-01",
+  "prospectiveConfoundExperimentIds": [
+    "insights-initial-listing-parity-v1",
+    "github-readme-insights-link-v1",
+    "service-ai-marketing-fact-check-link-v1",
+    "generated-index-alias-redirects-v1"
+  ],
+  "rollback": "Remove only newlyadded object and rebuild; generated listing/sitemap/alias follow SSOT.",
+  "predeployEvidencePath": "reports/seo/validation/2026-10-31-article-predeploy.json"
+}

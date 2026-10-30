@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-29T23:18:00.824Z",
+  "updatedAt": "2026-10-30T23:11:24.678Z",
   "rules": {
     "oneOwnerUrlPerIntent": true,
     "publicCopyExcludesOperationalMetadata": true
@@ -149,11 +149,11 @@
       "type": "insight-index",
       "intent": "AI導入と生成AI活用の実践ガイド一覧",
       "status": "published",
-      "lastModified": "2026-10-30",
+      "lastModified": "2026-10-31",
       "experimentId": "insights-initial-listing-parity-v1",
       "technicalUpdatedAt": "2026-10-07T01:13:35Z",
       "contentSource": "src/app/content/insights.js",
-      "note": "Index sitemap lastmod derives from article updatedAt; October30 alt-text article added (21total) with unchanged listing mapping. Original listing experiment dates retained; article additions confound acquisition attribution.",
+      "note": "Index sitemap lastmod derives from article updatedAt; October31 translation-glossary article added (22total) with unchanged listing mapping. Original listing experiment dates retained; article additions confound acquisition attribution.",
       "aliasRepairUpdatedAt": "2026-10-26T23:42:07.415Z",
       "aliasRepairExperimentId": "generated-index-alias-redirects-v1"
     },
@@ -891,6 +891,30 @@
       "queryPreserved": true,
       "technicalUpdatedAt": "2026-10-29T23:13:50.094Z",
       "experimentId": "insight-ai-image-alt-text-template-v1",
+      "indexable": false,
+      "note": "Generated exact rule from staticSeoEntries as part of new article package; not a sitemap content entry."
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-translation-glossary-template/",
+      "type": "insight",
+      "intent": "AI翻訳前に用語の意味・指定表記を4欄で整理し、短い架空の日英翻訳で原文との照合方法を伝える。",
+      "status": "published",
+      "lastModified": "2026-10-31",
+      "schema": "Article",
+      "experimentId": "insight-ai-translation-glossary-template-v1",
+      "relatedService": "https://ai.gami.jp/services/ai-marketing/",
+      "contentSource": "src/app/content/insights.js"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-translation-glossary-template/index.html",
+      "type": "redirect-alias",
+      "intent": "新記事の別名から正規記事へ案内",
+      "status": "redirected",
+      "redirectTarget": "https://ai.gami.jp/insights/ai-translation-glossary-template/",
+      "redirectStatus": 301,
+      "queryPreserved": true,
+      "technicalUpdatedAt": "2026-10-30T23:05:33.465Z",
+      "experimentId": "insight-ai-translation-glossary-template-v1",
       "indexable": false,
       "note": "Generated exact rule from staticSeoEntries as part of new article package; not a sitemap content entry."
     }

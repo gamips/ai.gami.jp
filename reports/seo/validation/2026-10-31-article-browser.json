@@ -1,0 +1,101 @@
+{
+  "checkedAt": "2026-10-30T23:10:22.923Z",
+  "session": "ai-gami-oct31",
+  "desktop": {
+    "url": "https://ai.gami.jp/insights/ai-translation-glossary-template/",
+    "title": "AIで翻訳する前に、用語の訳し方をそろえる | GAMI",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "overflow": false,
+    "h1": [
+      "AIで翻訳する前に、用語の訳し方をそろえる"
+    ],
+    "h2": [
+      "文章・翻訳する言語・読者を決める",
+      "用語を4つの欄に整理する",
+      "架空の案内文で照合する",
+      "翻訳案を原文と比べて仕上げる"
+    ],
+    "schemaTypes": {
+      "Organization": 4,
+      "WebPage": 1,
+      "WebSite": 1,
+      "Article": 1,
+      "BreadcrumbList": 1,
+      "ListItem": 3
+    },
+    "canonical": "https://ai.gami.jp/insights/ai-translation-glossary-template/",
+    "links": [
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "AIライティング・SEO記事作成の支援を見る",
+        "href": "/services/ai-marketing/"
+      }
+    ]
+  },
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "overflow": false,
+    "articleSections": 4,
+    "fictionalDraftPresent": true,
+    "correctedSamplePresent": true
+  },
+  "listing": {
+    "count": 22,
+    "views": [
+      {
+        "viewport": "mobile",
+        "url": "https://ai.gami.jp/insights/",
+        "articles": 22,
+        "itemListCount": 22,
+        "firstArticle": "/insights/ai-translation-glossary-template/",
+        "overflow": false,
+        "h1": "AI導入を、\nわかりやすく。"
+      },
+      {
+        "viewport": "desktop",
+        "url": "https://ai.gami.jp/insights/",
+        "articles": 22,
+        "itemListCount": 22,
+        "firstArticle": "/insights/ai-translation-glossary-template/",
+        "overflow": false,
+        "h1": "AI導入を、\nわかりやすく。"
+      }
+    ],
+    "realClickToArticle": true
+  },
+  "serviceNavigation": {
+    "url": "https://ai.gami.jp/services/ai-marketing/",
+    "h1": "AI × Growth\nAI × Support",
+    "overflow": false,
+    "realClick": true
+  },
+  "console": {
+    "messages": 0,
+    "errors": 0,
+    "warnings": 0
+  },
+  "visualReview": {
+    "passed": true,
+    "viewedImages": 6,
+    "note": "Existing article and listing layout at desktop1440/mobile390. Existing transparent fixed header unchanged; no whole-site redesign or subjective perfection claim."
+  },
+  "screenshots": [
+    "output/playwright/2026-10-31-translation-desktop.png",
+    "output/playwright/2026-10-31-translation-desktop-example.png",
+    "output/playwright/2026-10-31-translation-mobile.png",
+    "output/playwright/2026-10-31-translation-mobile-example.png",
+    "output/playwright/2026-10-31-insights-desktop.png",
+    "output/playwright/2026-10-31-insights-mobile.png"
+  ],
+  "sessionClosed": true,
+  "passed": true
+}

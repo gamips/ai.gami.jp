@@ -1,0 +1,27 @@
+{
+  "recordedAt": "2026-10-30T23:05:12.459Z",
+  "issue": "Initial parallel index acquisition batch threw before saving its returned results or running-session identifiers.",
+  "firstBatch": {
+    "requestedUniqueUrls": 3,
+    "outputsRetained": false,
+    "completionState": "unknown"
+  },
+  "recovery": {
+    "retriedUnresolvedUrls": 3,
+    "finalUniqueUrlResults": 3,
+    "savedPath": "reports/seo/inspections/2026-10-31-due-pages.json",
+    "pendingRetrySession": 96170,
+    "resumedToCompletion": true
+  },
+  "possibleDuplicateReads": true,
+  "metricsDuplicateCollection": false,
+  "effectFixedWindowApiQueries": 0,
+  "lesson": "Persist execution identifiers before parsing asynchronous results; resume the original acquisition before deciding to repeat it.",
+  "scope": "Acquisition orchestration only, no product restrictions, measurement-definition or schedule changes.",
+  "promptChange": {
+    "from": "1.0.14",
+    "to": "1.0.15",
+    "reason": "Same progress-loss class as October4/6; existing1.0.11 persistence rule did not explicitly cover running handles.",
+    "rollback": "Remove only this sentence when pending execution state is reliably retained elsewhere."
+  }
+}

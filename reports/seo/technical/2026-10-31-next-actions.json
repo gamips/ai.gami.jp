@@ -1,0 +1,57 @@
+{
+  "preparedAt": "2026-10-30T23:11:24.678Z",
+  "lane": "internal-link",
+  "status": "ready_for_scope_review",
+  "sourceUrl": "https://ai.gami.jp/services/ai-saas/",
+  "targetUrl": "https://ai.gami.jp/insights/ai-work-procedure-template/",
+  "hypothesis": "A contextual link from AI introduction support helps readers find the existing practical procedure worksheet.",
+  "evidence": [
+    "Current AI IMPLEMENTATION text discusses prompts, templates and review procedures.",
+    "No direct SaaS-to-procedure link. Existing introduction article link must remain.",
+    "Only empty approach.link is AUTOMATION; its autonomous execution/tool/log context is weak for this worksheet and static section is absent."
+  ],
+  "scope": [
+    {
+      "path": "src/app/content/services.ts",
+      "change": "Optional multiple links in ServiceApproach; one procedure link in AI IMPLEMENTATION while preserving current single link."
+    },
+    {
+      "path": "src/app/pages/ServiceDetail.tsx",
+      "change": "Render additional links using existing style; retain existing single link."
+    },
+    {
+      "path": "src/app/seo/pageSeo.js",
+      "change": "Matching initial-HTML link in existing AI IMPLEMENTATION section using supported links array."
+    }
+  ],
+  "isDataOnly": false,
+  "noArticleOrCssChangeNeeded": true,
+  "sourceObservation": {
+    "experimentId": "service-ai-saas-comparison-link-v1",
+    "firstFreezeEnds": "2026-10-31",
+    "firstEffectReview": "inconclusive",
+    "indexCheckPreserved": "2026-11-04",
+    "effectFollowupPreserved": "2026-11-14",
+    "beforeImplementation": "Explicitly close/reprioritize the initial comparison-link experiment after reviewing saved outcome. A new observation date does not automatically extend original freeze. If retained, advance another independent asset."
+  },
+  "targetObservationsPreserved": [
+    {
+      "experimentId": "insight-ai-work-procedure-template-v1",
+      "reviewAt": "2026-11-13"
+    },
+    {
+      "experimentId": "insight-chatgpt-procedure-link-v1",
+      "reviewAt": "2026-11-16"
+    }
+  ],
+  "prospectiveConfoundRequired": true,
+  "verification": [
+    "Full build",
+    "New and retained links once each in static HTML and hydrated React",
+    "SaaS desktop/mobile and actual navigation",
+    "Retain links in other two services sharing renderer"
+  ],
+  "nextOnOrAfter": "2026-11-01",
+  "reviewer": "oct31_article_review",
+  "implementationStatus": "not_implemented"
+}

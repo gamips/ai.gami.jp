@@ -1,0 +1,85 @@
+{
+  "checkedAt": "2026-10-30T23:02:53.584Z",
+  "experimentId": "service-ai-saas-comparison-link-v1",
+  "originalStartedAt": "2026-09-30T08:05:01.6146930+09:00",
+  "publicationPacificDate": "2026-09-29",
+  "reportingTimeZone": "America/Los_Angeles",
+  "comparisonBefore": {
+    "path": "reports/seo/metrics/2026-10-29-current.json",
+    "group": "previous28dPages",
+    "startDate": "2026-09-01",
+    "endDate": "2026-09-28",
+    "sourceSlash": {
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 21,
+      "page": "https://ai.gami.jp/services/ai-saas/"
+    },
+    "sourceNoSlash": null,
+    "targetSlash": null,
+    "targetNoSlash": null
+  },
+  "first28FullDays": {
+    "path": "reports/seo/metrics/2026-10-30-current.json",
+    "group": "current28dPages",
+    "startDate": "2026-09-30",
+    "endDate": "2026-10-27",
+    "fullFinalDays": 28,
+    "sourceSlash": {
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 15,
+      "page": "https://ai.gami.jp/services/ai-saas/"
+    },
+    "sourceNoSlash": null,
+    "targetSlash": null,
+    "targetNoSlash": null
+  },
+  "latestRolling": {
+    "path": "reports/seo/metrics/2026-10-31-current.json",
+    "window": {
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-28"
+    },
+    "sourceSlash": {
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 15,
+      "page": "https://ai.gami.jp/services/ai-saas/"
+    },
+    "sourceNoSlash": null,
+    "targetSlash": null,
+    "targetNoSlash": null
+  },
+  "minimumEvidence": {
+    "requiredTargetPageImpressions": 30,
+    "met": false
+  },
+  "effectResult": "inconclusive",
+  "technicalResult": "confirmed",
+  "dateWindowCorrection": "Original schedule October1–28 retained in completed history. Publication September29 PDT means first28fullPTdates September30–October27.",
+  "additionalFixedPeriodApiQueries": 0,
+  "inspectionEvidenceReusedFrom": "reports/seo/inspections/2026-10-28-due-pages.json",
+  "targetInspectionReusedFrom": "reports/seo/inspections/2026-10-25-due-pages.json",
+  "liveTechnicalEvidencePath": "reports/seo/validation/2026-10-31-article-live.json",
+  "confounds": [
+    {
+      "experimentId": "generated-index-alias-redirects-v1",
+      "changedAt": "2026-10-26T23:42:07.415Z",
+      "publicationPacificLocal": "2026-10-26 16:42 PDT",
+      "description": "Repair overlaps partial October26 and fullOctober27 of the fixed window."
+    },
+    {
+      "description": "Insights initial-HTML parity October7, home service-link parity October8JST, table-cleanup inbound link October18JST and FAQ inbound link October24JST affect discovery within window; cannot isolate link causality."
+    },
+    {
+      "description": "Target article publication September7 PDT falls inside comparison-before period, so target was not available for all28baseline dates."
+    }
+  ],
+  "nextIndexCheck": "2026-11-04",
+  "nextEffectCheck": "2026-11-14",
+  "interpretation": "Source0/1→0/4 is descriptive, not demonstrated lift. Target rows absent rather than zero; no attributable link use, qualified visit or inquiry. Original freeze not automatically extended."
+}

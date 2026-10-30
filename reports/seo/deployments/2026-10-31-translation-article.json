@@ -1,0 +1,30 @@
+{
+  "verifiedAt": "2026-10-30T23:05:33.465Z",
+  "commit": "9b32fc7b0b646dea3dbcebacab1e50aa55a39e86",
+  "previousProductionCommit": "98696ed326d5f950b885ef794f9f32fb5b96707b",
+  "method": "GitHub Actions normal Xserver deploy",
+  "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/41142193586",
+  "actionsStatus": "completed",
+  "actionsConclusion": "success",
+  "actionsCompletedAt": "2026-10-30T23:04:48Z",
+  "publicationResult": "verified",
+  "technicalResult": "confirmed",
+  "acquisitionEffect": "not-yet-measurable",
+  "articleUrl": "https://ai.gami.jp/insights/ai-translation-glossary-template/",
+  "localBuild": "passed",
+  "existing21ArticleDataAndDatesUnchanged": true,
+  "counts": {
+    "articles": 22,
+    "indexable": 33,
+    "staticSeoEntries": 35,
+    "exactAliasRules": 33
+  },
+  "predeployEvidencePath": "reports/seo/validation/2026-10-31-article-predeploy.json",
+  "liveEvidencePath": "reports/seo/validation/2026-10-31-article-live.json",
+  "browserEvidencePath": "reports/seo/validation/2026-10-31-article-browser.json",
+  "scope": "One article object; existing CSS, templates and old content unchanged.",
+  "limitations": [
+    "Search Console traffic and inquiries cannot yet demonstrate effect of this new publication.",
+    "HTTP/head/body/assets/redirects and browser verified. Xserver application logs are not available as a connector; no server-log health claim."
+  ]
+}

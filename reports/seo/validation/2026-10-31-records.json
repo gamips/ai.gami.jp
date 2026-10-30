@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-30T23:12:22.186Z",
+  "baseline": "62be753cf8425dcf21af626f1a5158aef040ea9b",
+  "priorStartsAndHistoryPreserved": 47,
+  "unchangedObservations": 39,
+  "active": 37,
+  "queue": 48,
+  "inventory": 69,
+  "unchangedPriorInventory": 66,
+  "appended": {
+    "docs/seo/experiments.jsonl": 10,
+    "reports/seo/runs/2026-10.jsonl": 1
+  },
+  "metricChecks": {
+    "groups": 14,
+    "rows": 74,
+    "ctrRows": 73,
+    "deviceTotalsMatched": true
+  },
+  "effectFixedPeriodMatchedSavedData": true,
+  "aliasFinalTwoDatesConfoundRecorded": true,
+  "websiteProductionCommit": "9b32fc7b0b646dea3dbcebacab1e50aa55a39e86",
+  "originalReviewDatesPreserved": true,
+  "scheduleUnchanged": true,
+  "missingEvidencePaths": [],
+  "passed": true
+}
