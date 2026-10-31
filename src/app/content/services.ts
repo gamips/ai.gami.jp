@@ -50,10 +50,10 @@ type ServiceApproach = {
   title: string;
   description: string;
   items: string[];
-  link?: {
+  links?: {
     label: string;
     href: string;
-  };
+  }[];
 };
 
 type ServiceDetailBox =
@@ -222,10 +222,16 @@ export const services: ServiceContent[] = [
           "プロンプト、テンプレート、確認手順、社内ルールの整備",
           "RAG、AIエージェント、業務システム開発へ広げる条件の整理",
         ],
-        link: {
-          label: "AI導入前に整理する5項目を見る",
-          href: "/insights/ai-introduction-support/",
-        },
+        links: [
+          {
+            label: "AI導入前に整理する5項目を見る",
+            href: "/insights/ai-introduction-support/",
+          },
+          {
+            label: "AIで社内手順書を作る作業メモを見る",
+            href: "/insights/ai-work-procedure-template/",
+          },
+        ],
       },
       {
         label: "RAG / KNOWLEDGE",
@@ -237,10 +243,12 @@ export const services: ServiceContent[] = [
           "回答範囲、参照元表示、保留条件の設計",
           "小さな検証から社内AIチャットボットや業務補助へ拡張",
         ],
-        link: {
-          label: "社内資料の棚卸しチェックリストを見る",
-          href: "/insights/rag-document-inventory-checklist/",
-        },
+        links: [
+          {
+            label: "社内資料の棚卸しチェックリストを見る",
+            href: "/insights/rag-document-inventory-checklist/",
+          },
+        ],
       },
       {
         label: "SYSTEM BUILD",
@@ -252,10 +260,12 @@ export const services: ServiceContent[] = [
           "権限、承認、ログ、データ連携を含む運用基盤の設計",
           "使える最小構成から立ち上げて段階的に拡張",
         ],
-        link: {
-          label: "既存SaaSと独自開発を比べる6つの欄を見る",
-          href: "/insights/saas-or-custom-system-checklist/",
-        },
+        links: [
+          {
+            label: "既存SaaSと独自開発を比べる6つの欄を見る",
+            href: "/insights/saas-or-custom-system-checklist/",
+          },
+        ],
       },
       {
         label: "AUTOMATION",
@@ -634,10 +644,12 @@ export const services: ServiceContent[] = [
           "AIで構成案と下書きを作り、人間が事実確認と表現を調整",
           "公開後の表示回数、クリック、問い合わせ導線を見て改善",
         ],
-        link: {
-          label: "AI記事の事実確認に使う4つの欄を見る",
-          href: "/insights/ai-article-fact-check-template/",
-        },
+        links: [
+          {
+            label: "AI記事の事実確認に使う4つの欄を見る",
+            href: "/insights/ai-article-fact-check-template/",
+          },
+        ],
       },
       {
         label: "AGENT / SUPPORT",
@@ -649,10 +661,12 @@ export const services: ServiceContent[] = [
           "社外送信や公開前に人間が確認する条件の設計",
           "ログと失敗例を使ったプロンプト・権限・運用ルールの改善",
         ],
-        link: {
-          label: "問い合わせ返信のテンプレートを見る",
-          href: "/insights/ai-customer-reply-template/",
-        },
+        links: [
+          {
+            label: "問い合わせ返信のテンプレートを見る",
+            href: "/insights/ai-customer-reply-template/",
+          },
+        ],
       },
       {
         label: "AI SEARCH",
@@ -783,10 +797,12 @@ export const services: ServiceContent[] = [
           "AIで初期構成と実装の土台を作り、公開までの時間を短縮",
           "公開後に実データを見ながら足りないページや表現を追加",
         ],
-        link: {
-          label: "公開前に確認する6項目を見る",
-          href: "/insights/ai-website-launch-checklist/",
-        },
+        links: [
+          {
+            label: "公開前に確認する6項目を見る",
+            href: "/insights/ai-website-launch-checklist/",
+          },
+        ],
       },
       {
         label: "SERVICE SEO",
@@ -798,10 +814,12 @@ export const services: ServiceContent[] = [
           "個別ページでは、そのページだけで分かる具体的な内容を用意",
           "ページ名、要約、内部リンク、構造化データを同時に調整",
         ],
-        link: {
-          label: "サイト制作の依頼をまとめる5つの欄を見る",
-          href: "/insights/ai-website-brief-template/",
-        },
+        links: [
+          {
+            label: "サイト制作の依頼をまとめる5つの欄を見る",
+            href: "/insights/ai-website-brief-template/",
+          },
+        ],
       },
       {
         label: "HUMAN CRAFT",

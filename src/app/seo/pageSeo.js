@@ -674,7 +674,7 @@ export const pageSeoByPath = {
   },
   "/services/ai-saas": {
     path: "/services/ai-saas",
-    lastModified: "2026-09-30",
+    lastModified: "2026-11-01",
     fallbackHeading: "AI導入支援から業務システム開発まで",
     title: "AI × SaaS / AI × DX | AI導入支援・RAG・業務システム開発 | GAMI",
     description:
@@ -694,10 +694,16 @@ export const pageSeoByPath = {
           "プロンプト、テンプレート、確認手順の整備",
           "RAGや業務システム開発へ広げる条件の整理",
         ],
-        link: {
-          label: "AI導入前に整理する5項目を見る",
-          href: "/insights/ai-introduction-support/",
-        },
+        links: [
+          {
+            label: "AI導入前に整理する5項目を見る",
+            href: "/insights/ai-introduction-support/",
+          },
+          {
+            label: "AIで社内手順書を作る作業メモを見る",
+            href: "/insights/ai-work-procedure-template/",
+          },
+        ],
       },
       {
         title: "RAG・社内AIチャットボットへつなぐ",

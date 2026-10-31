@@ -425,14 +425,20 @@ export function ServiceDetail() {
                             </li>
                           ))}
                         </ul>
-                        {approach.link ? (
-                          <ScrollToTopLink
-                            to={approach.link.href}
-                            className="mt-6 inline-flex items-center gap-2 font-medium text-cyan-600 transition-all hover:gap-3 hover:text-cyan-700"
-                          >
-                            {approach.link.label}
-                            <ArrowRight size={18} aria-hidden="true" />
-                          </ScrollToTopLink>
+                        {approach.links ? (
+                          <ul className="mt-6 space-y-3">
+                            {approach.links.map((link) => (
+                              <li key={link.href}>
+                                <ScrollToTopLink
+                                  to={link.href}
+                                  className="inline-flex items-center gap-2 font-medium text-cyan-600 transition-all hover:gap-3 hover:text-cyan-700"
+                                >
+                                  {link.label}
+                                  <ArrowRight size={18} aria-hidden="true" />
+                                </ScrollToTopLink>
+                              </li>
+                            ))}
+                          </ul>
                         ) : null}
                       </div>
                     </article>
