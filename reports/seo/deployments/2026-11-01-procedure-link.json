@@ -1,0 +1,32 @@
+{
+  "verifiedAt": "2026-10-31T23:06:54.481Z",
+  "commit": "56dbba5f721c18aabc864990d8955bb2910fe029",
+  "previousProductionCommit": "9b32fc7b0b646dea3dbcebacab1e50aa55a39e86",
+  "method": "GitHub Actions normal Xserver deploy",
+  "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/41251081236",
+  "actionsStatus": "completed",
+  "actionsConclusion": "success",
+  "actionsCompletedAt": "2026-10-31T23:06:34Z",
+  "publicationResult": "verified",
+  "technicalResult": "confirmed",
+  "acquisitionEffect": "not-yet-measurable",
+  "sourceUrl": "https://ai.gami.jp/services/ai-saas/",
+  "targetUrl": "https://ai.gami.jp/insights/ai-work-procedure-template/",
+  "localBuild": "passed",
+  "counts": {
+    "articles": 22,
+    "indexable": 33,
+    "staticSeoEntries": 35,
+    "exactAliasRules": 33
+  },
+  "existing7ApproachLinksPreserved": true,
+  "existing22ArticlesUnchanged": true,
+  "predeployEvidencePath": "reports/seo/validation/2026-11-01-link-predeploy.json",
+  "liveEvidencePath": "reports/seo/validation/2026-11-01-link-live.json",
+  "browserEvidencePath": "reports/seo/validation/2026-11-01-link-browser.json",
+  "scope": "One service-to-article link plus shared approach link-array renderer. Existing link destinations/labels unchanged, static firstsection uses existing list styling. No article/CSS changes.",
+  "limitations": [
+    "No attributable link-click, qualified-visit or inquiry evidence; SEO impact unmeasured.",
+    "Xserver application logs not accessible; no claim about unobserved server logs."
+  ]
+}

@@ -1,0 +1,1062 @@
+{
+  "observedAt": "2026-10-31T23:02:22.663Z",
+  "siteUrl": "sc-domain:ai.gami.jp",
+  "reportingTimeZone": "America/Los_Angeles",
+  "groups": [
+    {
+      "name": "current28dProperty",
+      "request": {
+        "name": "current28dProperty",
+        "period": "current",
+        "startDate": "2026-10-02",
+        "endDate": "2026-10-29",
+        "dimensions": [],
+        "filter": null
+      },
+      "acquiredAt": "2026-10-31T23:02:21.7035034Z",
+      "result": {
+        "siteUrl": "sc-domain:ai.gami.jp",
+        "startDate": "2026-10-02",
+        "endDate": "2026-10-29",
+        "dimensions": [],
+        "searchType": "web",
+        "dataState": "final",
+        "rowCount": 1,
+        "rows": [
+          {
+            "clicks": 0,
+            "impressions": 121,
+            "ctr": 0,
+            "position": 33.752066115702476
+          }
+        ],
+        "metadata": null
+      }
+    },
+    {
+      "name": "current28dQueries",
+      "request": {
+        "name": "current28dQueries",
+        "period": "current",
+        "startDate": "2026-10-02",
+        "endDate": "2026-10-29",
+        "dimensions": [
+          "query"
+        ],
+        "filter": null
+      },
+      "acquiredAt": "2026-10-31T23:02:21.9691997Z",
+      "result": {
+        "siteUrl": "sc-domain:ai.gami.jp",
+        "startDate": "2026-10-02",
+        "endDate": "2026-10-29",
+        "dimensions": [
+          "query"
+        ],
+        "searchType": "web",
+        "dataState": "final",
+        "rowCount": 20,
+        "rows": [
+          {
+            "keys": [
+              "ai 導入 費用"
+            ],
+            "clicks": 0,
+            "impressions": 19,
+            "ctr": 0,
+            "position": 52
+          },
+          {
+            "keys": [
+              "gami ai"
+            ],
+            "clicks": 0,
+            "impressions": 13,
+            "ctr": 0,
+            "position": 2.6923076923076925
+          },
+          {
+            "keys": [
+              "ai導入 費用"
+            ],
+            "clicks": 0,
+            "impressions": 9,
+            "ctr": 0,
+            "position": 52.77777777777778
+          },
+          {
+            "keys": [
+              "aiエージェント 開発 費用"
+            ],
+            "clicks": 0,
+            "impressions": 6,
+            "ctr": 0,
+            "position": 62.666666666666664
+          },
+          {
+            "keys": [
+              "ai 導入費用"
+            ],
+            "clicks": 0,
+            "impressions": 4,
+            "ctr": 0,
+            "position": 58
+          },
+          {
+            "keys": [
+              "ai 開発 費用"
+            ],
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "position": 81
+          },
+          {
+            "keys": [
+              "ai導入 相談"
+            ],
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 21.5
+          },
+          {
+            "keys": [
+              "メニナルaiの料金・導入費用を教えてください。"
+            ],
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 3
+          },
+          {
+            "keys": [
+              "ai 開発 導入支援"
+            ],
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 71.5
+          },
+          {
+            "keys": [
+              "ai 費用"
+            ],
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 64
+          },
+          {
+            "keys": [
+              "ai 開発費用"
+            ],
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 73
+          },
+          {
+            "keys": [
+              "スマート バンク gami"
+            ],
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 37
+          },
+          {
+            "keys": [
+              "ai活用 相談"
+            ],
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 80
+          },
+          {
+            "keys": [
+              "ai開発 費用"
+            ],
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 76
+          },
+          {
+            "keys": [
+              "ai開発費用"
+            ],
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 75
+          },
+          {
+            "keys": [
+              "ai顧問 料金"
+            ],
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 82
+          },
+          {
+            "keys": [
+              "ai 導入 費用 相場"
+            ],
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 84
+          },
+          {
+            "keys": [
+              "smartbank gami"
+            ],
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 19
+          },
+          {
+            "keys": [
+              "aiエージェント 導入 費用 愛知"
+            ],
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 13
+          },
+          {
+            "keys": [
+              "aiミライデザイナー 料金"
+            ],
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 9
+          }
+        ],
+        "metadata": null
+      }
+    },
+    {
+      "name": "current28dPages",
+      "request": {
+        "name": "current28dPages",
+        "period": "current",
+        "startDate": "2026-10-02",
+        "endDate": "2026-10-29",
+        "dimensions": [
+          "page"
+        ],
+        "filter": null
+      },
+      "acquiredAt": "2026-10-31T23:02:21.7223599Z",
+      "result": {
+        "siteUrl": "sc-domain:ai.gami.jp",
+        "startDate": "2026-10-02",
+        "endDate": "2026-10-29",
+        "dimensions": [
+          "page"
+        ],
+        "searchType": "web",
+        "dataState": "final",
+        "rowCount": 13,
+        "rows": [
+          {
+            "keys": [
+              "https://ai.gami.jp/price/"
+            ],
+            "clicks": 0,
+            "impressions": 77,
+            "ctr": 0,
+            "position": 46.33766233766234
+          },
+          {
+            "keys": [
+              "https://ai.gami.jp/"
+            ],
+            "clicks": 0,
+            "impressions": 24,
+            "ctr": 0,
+            "position": 3.125
+          },
+          {
+            "keys": [
+              "https://ai.gami.jp/concept/"
+            ],
+            "clicks": 0,
+            "impressions": 16,
+            "ctr": 0,
+            "position": 5.9375
+          },
+          {
+            "keys": [
+              "https://ai.gami.jp/contact/"
+            ],
+            "clicks": 0,
+            "impressions": 10,
+            "ctr": 0,
+            "position": 17.6
+          },
+          {
+            "keys": [
+              "https://ai.gami.jp/about/"
+            ],
+            "clicks": 0,
+            "impressions": 9,
+            "ctr": 0,
+            "position": 9.777777777777779
+          },
+          {
+            "keys": [
+              "https://ai.gami.jp/services/ai-saas/"
+            ],
+            "clicks": 0,
+            "impressions": 5,
+            "ctr": 0,
+            "position": 12.2
+          },
+          {
+            "keys": [
+              "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/"
+            ],
+            "clicks": 0,
+            "impressions": 4,
+            "ctr": 0,
+            "position": 5.5
+          },
+          {
+            "keys": [
+              "https://ai.gami.jp/services/"
+            ],
+            "clicks": 0,
+            "impressions": 4,
+            "ctr": 0,
+            "position": 24.75
+          },
+          {
+            "keys": [
+              "https://ai.gami.jp/services/ai-web"
+            ],
+            "clicks": 0,
+            "impressions": 4,
+            "ctr": 0,
+            "position": 5
+          },
+          {
+            "keys": [
+              "https://ai.gami.jp/insights/"
+            ],
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "position": 9
+          },
+          {
+            "keys": [
+              "https://ai.gami.jp/services/ai-marketing/"
+            ],
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "position": 30.666666666666668
+          },
+          {
+            "keys": [
+              "https://ai.gami.jp/news/"
+            ],
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 1
+          },
+          {
+            "keys": [
+              "https://ai.gami.jp/insights/ai-website-launch-checklist/"
+            ],
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 8
+          }
+        ],
+        "metadata": null
+      }
+    },
+    {
+      "name": "current28dDevices",
+      "request": {
+        "name": "current28dDevices",
+        "period": "current",
+        "startDate": "2026-10-02",
+        "endDate": "2026-10-29",
+        "dimensions": [
+          "device"
+        ],
+        "filter": null
+      },
+      "acquiredAt": "2026-10-31T23:02:21.9709767Z",
+      "result": {
+        "siteUrl": "sc-domain:ai.gami.jp",
+        "startDate": "2026-10-02",
+        "endDate": "2026-10-29",
+        "dimensions": [
+          "device"
+        ],
+        "searchType": "web",
+        "dataState": "final",
+        "rowCount": 2,
+        "rows": [
+          {
+            "keys": [
+              "DESKTOP"
+            ],
+            "clicks": 0,
+            "impressions": 93,
+            "ctr": 0,
+            "position": 36.67741935483871
+          },
+          {
+            "keys": [
+              "MOBILE"
+            ],
+            "clicks": 0,
+            "impressions": 28,
+            "ctr": 0,
+            "position": 24.035714285714285
+          }
+        ],
+        "metadata": null
+      }
+    },
+    {
+      "name": "current28dInsightsQueryPages",
+      "request": {
+        "name": "current28dInsightsQueryPages",
+        "period": "current",
+        "startDate": "2026-10-02",
+        "endDate": "2026-10-29",
+        "dimensions": [
+          "query",
+          "page"
+        ],
+        "filter": {
+          "dimension": "page",
+          "operator": "contains",
+          "expression": "/insights/"
+        }
+      },
+      "acquiredAt": "2026-10-31T23:02:22.3721094Z",
+      "result": {
+        "siteUrl": "sc-domain:ai.gami.jp",
+        "startDate": "2026-10-02",
+        "endDate": "2026-10-29",
+        "dimensions": [
+          "query",
+          "page"
+        ],
+        "searchType": "web",
+        "dataState": "final",
+        "rowCount": 0,
+        "rows": [],
+        "metadata": null
+      }
+    },
+    {
+      "name": "current28dPriceSlash",
+      "request": {
+        "name": "current28dPriceSlash",
+        "period": "current",
+        "startDate": "2026-10-02",
+        "endDate": "2026-10-29",
+        "dimensions": [],
+        "filter": {
+          "dimension": "page",
+          "operator": "equals",
+          "expression": "https://ai.gami.jp/price/"
+        }
+      },
+      "acquiredAt": "2026-10-31T23:02:22.2813787Z",
+      "result": {
+        "siteUrl": "sc-domain:ai.gami.jp",
+        "startDate": "2026-10-02",
+        "endDate": "2026-10-29",
+        "dimensions": [],
+        "searchType": "web",
+        "dataState": "final",
+        "rowCount": 1,
+        "rows": [
+          {
+            "clicks": 0,
+            "impressions": 77,
+            "ctr": 0,
+            "position": 46.33766233766234
+          }
+        ],
+        "metadata": null
+      }
+    },
+    {
+      "name": "current28dPriceNoSlash",
+      "request": {
+        "name": "current28dPriceNoSlash",
+        "period": "current",
+        "startDate": "2026-10-02",
+        "endDate": "2026-10-29",
+        "dimensions": [],
+        "filter": {
+          "dimension": "page",
+          "operator": "equals",
+          "expression": "https://ai.gami.jp/price"
+        }
+      },
+      "acquiredAt": "2026-10-31T23:02:21.8856563Z",
+      "result": {
+        "siteUrl": "sc-domain:ai.gami.jp",
+        "startDate": "2026-10-02",
+        "endDate": "2026-10-29",
+        "dimensions": [],
+        "searchType": "web",
+        "dataState": "final",
+        "rowCount": 1,
+        "rows": [
+          {
+            "clicks": 0,
+            "impressions": 0,
+            "ctr": 0,
+            "position": 0
+          }
+        ],
+        "metadata": null
+      }
+    },
+    {
+      "name": "previous28dProperty",
+      "request": {
+        "name": "previous28dProperty",
+        "period": "previous",
+        "startDate": "2026-09-04",
+        "endDate": "2026-10-01",
+        "dimensions": [],
+        "filter": null
+      },
+      "acquiredAt": "2026-10-31T23:02:22.1947349Z",
+      "result": {
+        "siteUrl": "sc-domain:ai.gami.jp",
+        "startDate": "2026-09-04",
+        "endDate": "2026-10-01",
+        "dimensions": [],
+        "searchType": "web",
+        "dataState": "final",
+        "rowCount": 1,
+        "rows": [
+          {
+            "clicks": 3,
+            "impressions": 116,
+            "ctr": 0.02586206896551724,
+            "position": 17.24137931034483
+          }
+        ],
+        "metadata": null
+      }
+    },
+    {
+      "name": "previous28dQueries",
+      "request": {
+        "name": "previous28dQueries",
+        "period": "previous",
+        "startDate": "2026-09-04",
+        "endDate": "2026-10-01",
+        "dimensions": [
+          "query"
+        ],
+        "filter": null
+      },
+      "acquiredAt": "2026-10-31T23:02:22.5615824Z",
+      "result": {
+        "siteUrl": "sc-domain:ai.gami.jp",
+        "startDate": "2026-09-04",
+        "endDate": "2026-10-01",
+        "dimensions": [
+          "query"
+        ],
+        "searchType": "web",
+        "dataState": "final",
+        "rowCount": 11,
+        "rows": [
+          {
+            "keys": [
+              "gami ai"
+            ],
+            "clicks": 0,
+            "impressions": 32,
+            "ctr": 0,
+            "position": 2.34375
+          },
+          {
+            "keys": [
+              "chatgpt 社内 定着しない"
+            ],
+            "clicks": 0,
+            "impressions": 13,
+            "ctr": 0,
+            "position": 21.076923076923077
+          },
+          {
+            "keys": [
+              "ai 費用"
+            ],
+            "clicks": 0,
+            "impressions": 5,
+            "ctr": 0,
+            "position": 40.2
+          },
+          {
+            "keys": [
+              "ai導入 費用"
+            ],
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "position": 58
+          },
+          {
+            "keys": [
+              "ai 導入費用"
+            ],
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 56
+          },
+          {
+            "keys": [
+              "ai 開発 費用"
+            ],
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 70.5
+          },
+          {
+            "keys": [
+              "ai 導入 相談 窓口"
+            ],
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 48
+          },
+          {
+            "keys": [
+              "ai 開発 導入支援"
+            ],
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 66
+          },
+          {
+            "keys": [
+              "ai導入 運用支援"
+            ],
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 79
+          },
+          {
+            "keys": [
+              "dx rag チェックリスト"
+            ],
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 34
+          },
+          {
+            "keys": [
+              "gami"
+            ],
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 11
+          }
+        ],
+        "metadata": null
+      }
+    },
+    {
+      "name": "previous28dPages",
+      "request": {
+        "name": "previous28dPages",
+        "period": "previous",
+        "startDate": "2026-09-04",
+        "endDate": "2026-10-01",
+        "dimensions": [
+          "page"
+        ],
+        "filter": null
+      },
+      "acquiredAt": "2026-10-31T23:02:22.4109652Z",
+      "result": {
+        "siteUrl": "sc-domain:ai.gami.jp",
+        "startDate": "2026-09-04",
+        "endDate": "2026-10-01",
+        "dimensions": [
+          "page"
+        ],
+        "searchType": "web",
+        "dataState": "final",
+        "rowCount": 17,
+        "rows": [
+          {
+            "keys": [
+              "https://ai.gami.jp/about/"
+            ],
+            "clicks": 2,
+            "impressions": 52,
+            "ctr": 0.038461538461538464,
+            "position": 7.4423076923076925
+          },
+          {
+            "keys": [
+              "https://ai.gami.jp/"
+            ],
+            "clicks": 0,
+            "impressions": 39,
+            "ctr": 0,
+            "position": 2.666666666666667
+          },
+          {
+            "keys": [
+              "https://ai.gami.jp/insights/chatgpt-workplace-adoption-checklist/"
+            ],
+            "clicks": 0,
+            "impressions": 17,
+            "ctr": 0,
+            "position": 18.352941176470587
+          },
+          {
+            "keys": [
+              "https://ai.gami.jp/price"
+            ],
+            "clicks": 0,
+            "impressions": 11,
+            "ctr": 0,
+            "position": 50.81818181818182
+          },
+          {
+            "keys": [
+              "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/"
+            ],
+            "clicks": 1,
+            "impressions": 10,
+            "ctr": 0.1,
+            "position": 7.4
+          },
+          {
+            "keys": [
+              "https://ai.gami.jp/contact/"
+            ],
+            "clicks": 0,
+            "impressions": 7,
+            "ctr": 0,
+            "position": 31.714285714285715
+          },
+          {
+            "keys": [
+              "https://ai.gami.jp/concept/"
+            ],
+            "clicks": 0,
+            "impressions": 5,
+            "ctr": 0,
+            "position": 8.2
+          },
+          {
+            "keys": [
+              "https://ai.gami.jp/insights/rag-document-inventory-checklist/"
+            ],
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "position": 14.333333333333334
+          },
+          {
+            "keys": [
+              "https://ai.gami.jp/insights/ai-website-launch-checklist/"
+            ],
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "position": 13.666666666666666
+          },
+          {
+            "keys": [
+              "https://ai.gami.jp/insights/ai-introduction-support-pricing/"
+            ],
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "position": 71.33333333333333
+          },
+          {
+            "keys": [
+              "https://ai.gami.jp/insights/"
+            ],
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 6
+          },
+          {
+            "keys": [
+              "https://ai.gami.jp/price/"
+            ],
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 37
+          },
+          {
+            "keys": [
+              "https://ai.gami.jp/services/"
+            ],
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 36
+          },
+          {
+            "keys": [
+              "https://ai.gami.jp/insights/ai-introduction-support/"
+            ],
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 79
+          },
+          {
+            "keys": [
+              "https://ai.gami.jp/news/"
+            ],
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 10
+          },
+          {
+            "keys": [
+              "https://ai.gami.jp/services/ai-saas/"
+            ],
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 21
+          },
+          {
+            "keys": [
+              "https://ai.gami.jp/services/ai-web"
+            ],
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 2
+          }
+        ],
+        "metadata": null
+      }
+    },
+    {
+      "name": "previous28dDevices",
+      "request": {
+        "name": "previous28dDevices",
+        "period": "previous",
+        "startDate": "2026-09-04",
+        "endDate": "2026-10-01",
+        "dimensions": [
+          "device"
+        ],
+        "filter": null
+      },
+      "acquiredAt": "2026-10-31T23:02:22.0128098Z",
+      "result": {
+        "siteUrl": "sc-domain:ai.gami.jp",
+        "startDate": "2026-09-04",
+        "endDate": "2026-10-01",
+        "dimensions": [
+          "device"
+        ],
+        "searchType": "web",
+        "dataState": "final",
+        "rowCount": 3,
+        "rows": [
+          {
+            "keys": [
+              "DESKTOP"
+            ],
+            "clicks": 1,
+            "impressions": 61,
+            "ctr": 0.01639344262295082,
+            "position": 25.704918032786885
+          },
+          {
+            "keys": [
+              "MOBILE"
+            ],
+            "clicks": 2,
+            "impressions": 54,
+            "ctr": 0.037037037037037035,
+            "position": 7.796296296296297
+          },
+          {
+            "keys": [
+              "TABLET"
+            ],
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 11
+          }
+        ],
+        "metadata": null
+      }
+    },
+    {
+      "name": "previous28dInsightsQueryPages",
+      "request": {
+        "name": "previous28dInsightsQueryPages",
+        "period": "previous",
+        "startDate": "2026-09-04",
+        "endDate": "2026-10-01",
+        "dimensions": [
+          "query",
+          "page"
+        ],
+        "filter": {
+          "dimension": "page",
+          "operator": "contains",
+          "expression": "/insights/"
+        }
+      },
+      "acquiredAt": "2026-10-31T23:02:22.2567169Z",
+      "result": {
+        "siteUrl": "sc-domain:ai.gami.jp",
+        "startDate": "2026-09-04",
+        "endDate": "2026-10-01",
+        "dimensions": [
+          "query",
+          "page"
+        ],
+        "searchType": "web",
+        "dataState": "final",
+        "rowCount": 3,
+        "rows": [
+          {
+            "keys": [
+              "chatgpt 社内 定着しない",
+              "https://ai.gami.jp/insights/chatgpt-workplace-adoption-checklist/"
+            ],
+            "clicks": 0,
+            "impressions": 13,
+            "ctr": 0,
+            "position": 21.076923076923077
+          },
+          {
+            "keys": [
+              "ai導入 運用支援",
+              "https://ai.gami.jp/insights/ai-introduction-support/"
+            ],
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 79
+          },
+          {
+            "keys": [
+              "dx rag チェックリスト",
+              "https://ai.gami.jp/insights/rag-document-inventory-checklist/"
+            ],
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 34
+          }
+        ],
+        "metadata": null
+      }
+    },
+    {
+      "name": "previous28dPriceSlash",
+      "request": {
+        "name": "previous28dPriceSlash",
+        "period": "previous",
+        "startDate": "2026-09-04",
+        "endDate": "2026-10-01",
+        "dimensions": [],
+        "filter": {
+          "dimension": "page",
+          "operator": "equals",
+          "expression": "https://ai.gami.jp/price/"
+        }
+      },
+      "acquiredAt": "2026-10-31T23:02:22.0198980Z",
+      "result": {
+        "siteUrl": "sc-domain:ai.gami.jp",
+        "startDate": "2026-09-04",
+        "endDate": "2026-10-01",
+        "dimensions": [],
+        "searchType": "web",
+        "dataState": "final",
+        "rowCount": 1,
+        "rows": [
+          {
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 37
+          }
+        ],
+        "metadata": null
+      }
+    },
+    {
+      "name": "previous28dPriceNoSlash",
+      "request": {
+        "name": "previous28dPriceNoSlash",
+        "period": "previous",
+        "startDate": "2026-09-04",
+        "endDate": "2026-10-01",
+        "dimensions": [],
+        "filter": {
+          "dimension": "page",
+          "operator": "equals",
+          "expression": "https://ai.gami.jp/price"
+        }
+      },
+      "acquiredAt": "2026-10-31T23:02:21.9958862Z",
+      "result": {
+        "siteUrl": "sc-domain:ai.gami.jp",
+        "startDate": "2026-09-04",
+        "endDate": "2026-10-01",
+        "dimensions": [],
+        "searchType": "web",
+        "dataState": "final",
+        "rowCount": 1,
+        "rows": [
+          {
+            "clicks": 0,
+            "impressions": 11,
+            "ctr": 0,
+            "position": 50.81818181818182
+          }
+        ],
+        "metadata": null
+      }
+    }
+  ]
+}

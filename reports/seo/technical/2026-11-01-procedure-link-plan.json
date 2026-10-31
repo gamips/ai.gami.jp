@@ -1,0 +1,77 @@
+{
+  "preparedAt": "2026-10-31T23:05:51.364Z",
+  "experimentId": "service-ai-saas-procedure-link-v1",
+  "mode": "implement",
+  "lane": "internal-link",
+  "source": "https://ai.gami.jp/services/ai-saas/",
+  "target": "https://ai.gami.jp/insights/ai-work-procedure-template/",
+  "label": "AIで社内手順書を作る作業メモを見る",
+  "scope": "Add one contextual link under AI IMPLEMENTATION. Normalize seven existing approach links to one array renderer, preserving href/label/order and existing anchor style. Initial HTML uses the existing links-list rendering; article and CSS unchanged.",
+  "writer": {
+    "agent": "nov1_link_copy",
+    "model": "gpt-6.1-sol"
+  },
+  "reviewer": "nov1_impl_review",
+  "hypothesis": "Readers considering AI introduction can find the existing procedure worksheet from its relevant service section.",
+  "baseline": {
+    "metricsPath": "reports/seo/metrics/2026-11-01-current.json",
+    "sourcePage": {
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 12.2,
+      "page": "https://ai.gami.jp/services/ai-saas/"
+    },
+    "targetPage": null,
+    "qualifiedOrganicVisits": null,
+    "organicInquiries": null
+  },
+  "priorSourceDecision": {
+    "experimentId": "service-ai-saas-comparison-link-v1",
+    "decidedAt": "2026-10-31T23:05:51.364Z",
+    "decision": "close_initial_experiment_and_reprioritize",
+    "result": "inconclusive",
+    "evidencePath": "reports/seo/metrics/2026-10-31-effect-review.json",
+    "reason": "First28fullPTdays complete; target minimum evidence unavailable. Preserve comparison link, stop treating the original freeze as an indefinite same-source block.",
+    "originalStartedAt": "2026-09-30T08:05:01.6146930+09:00",
+    "retainedHistoricalFollowups": [
+      {
+        "onOrAfter": "2026-11-04",
+        "check": "Bounded source index/crawl followup; preserve original start and effect dates, reuse recent target inspection. No rewrite solely for unknown or old crawl."
+      },
+      {
+        "onOrAfter": "2026-11-14",
+        "check": "Bounded low-volume effect followup; retain corrected first28PTdates and original start. Review closure/reprioritization before a new same-source change; original freeze not automatically extended."
+      }
+    ],
+    "futureInterpretation": "Followups remain bounded historical observations with new-link confound; not an isolated ongoing comparison-link experiment."
+  },
+  "freezeScope": "AI SaaS approach links through first effect review. Target copy unchanged; target Nov13 and existing ChatGPT-link Nov16 review retained.",
+  "minimumEvidence": {
+    "finalizedFullPacificDays": 28,
+    "targetPageImpressions": 30
+  },
+  "firstIndexCheckOnOrAfter": "2026-11-08",
+  "firstEffectCheckOnOrAfter": "2026-12-02",
+  "rollback": "Revert only the three scoped source files and rebuild; existing comparison and introduction links remain.",
+  "designEvidence": {
+    "tool": "Lazyweb",
+    "searchUrl": "https://www.lazyweb.com/agentic-search/0db7a31b-cbca-4f80-80fb-723eeea9d89a",
+    "candidates": [
+      "https://zylo.com/resources/",
+      "https://rewind.com/resources/",
+      "https://www.docuwriter.ai/guides",
+      "https://www.mintlify.com/library"
+    ],
+    "decision": "Reference search completed; card-library patterns not adopted. Use existing service typography, borders and cyan arrow links; no report or paid action."
+  },
+  "prospectiveConfoundExperimentIds": [
+    "insight-ai-work-procedure-template-v1",
+    "insight-chatgpt-procedure-link-v1",
+    "service-ai-saas-comparison-link-v1",
+    "service-ai-marketing-fact-check-link-v1",
+    "service-ai-web-brief-link-v1",
+    "generated-index-alias-redirects-v1",
+    "home-initial-service-parity-v1"
+  ]
+}

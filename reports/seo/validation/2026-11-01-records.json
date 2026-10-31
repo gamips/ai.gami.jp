@@ -1,0 +1,28 @@
+{
+  "checkedAt": "2026-10-31T23:10:02.964Z",
+  "baseline": "d25916a60eecb3276e77ad974d8b6403001ae8d6",
+  "priorStartsAndHistoryPreserved": 48,
+  "unchangedObservations": 32,
+  "active": 37,
+  "queue": 49,
+  "inventory": 69,
+  "unchangedPriorInventory": 68,
+  "appendedExperiments": 19,
+  "newNovemberRuns": 1,
+  "octoberRunsUnchanged": true,
+  "metricChecks": {
+    "groups": 14,
+    "rows": 75,
+    "ctrRows": 74,
+    "zeroDenominators": 1,
+    "deviceTotalsMatched": true
+  },
+  "effectFixedPeriodMatchedSavedData": true,
+  "publicationDateExcludedFromBefore": true,
+  "oldSourceClosedWithHistoricalChecksPreserved": true,
+  "websiteProductionCommit": "56dbba5f721c18aabc864990d8955bb2910fe029",
+  "originalTargetReviewDatesPreserved": true,
+  "scheduleAndPromptUnchanged": true,
+  "missingEvidencePaths": [],
+  "passed": true
+}

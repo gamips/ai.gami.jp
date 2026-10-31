@@ -1,0 +1,58 @@
+{
+  "preparedAt": "2026-10-31T23:06:47.913Z",
+  "status": "ready_to_draft",
+  "slug": "ai-text-shortening-checklist",
+  "title": "AIで文章を短くする｜残す情報を決める編集メモ",
+  "lane": "content",
+  "intent": "既存文の必要な情報を保ち、重複や長い前置きを削る方法。",
+  "overlapReview": {
+    "articlesChecked": 22,
+    "closest": [
+      "ai-article-fact-check-template",
+      "ai-customer-reply-template",
+      "ai-internal-faq-editing-template"
+    ],
+    "distinction": "Claim verification, reply drafting and FAQ question consolidation differ from reducing existing prose while retaining essential details.",
+    "reviewer": "nov1_link_copy"
+  },
+  "fields": [
+    "読者：誰が読み、次に何をするか",
+    "残す事実：対象・日時・条件・行動",
+    "削れる箇所：重複・長い前置き・意味のない飾り",
+    "長さ条件：上限と文字数の数え方"
+  ],
+  "fictionalExample": {
+    "before": "社内研修の実施についてお知らせいたします。今回の社内研修は、参加を希望する社員を対象として、11月12日の14時から15時まで、第2会議室で行います。参加を希望する社員の方は、11月8日までに社内フォームからお申し込みください。",
+    "after": "希望する社員向けの研修を11月12日14〜15時に第2会議室で行います。参加希望者は11月8日までに社内フォームから申し込んでください。",
+    "beforeCodePointCount": 114,
+    "afterCodePointCount": 68,
+    "limit": 80,
+    "countingRule": "句読点・数字・記号を各1字、改行なし",
+    "preserve": [
+      "対象",
+      "開催日",
+      "開始・終了時刻",
+      "場所",
+      "申込期限",
+      "申込先"
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.archives.gov/open/plain-writing/checklist.html",
+      "supports": "Audience, main point first, unnecessary-word deletion, short sentences."
+    },
+    {
+      "url": "https://www.bunka.go.jp/koho_hodo_oshirase/hodohappyo/93650001.html",
+      "supports": "Reader-oriented official Japanese writing guidance; independent worksheet is not official format."
+    }
+  ],
+  "publicReferenceList": false,
+  "serviceLink": {
+    "label": "AIライティングの支援内容を見る",
+    "href": "/services/ai-marketing/"
+  },
+  "claimBoundaries": "No AI guarantee of exact length, complete meaning retention, readability gain or time saved. Independently count final draft and compare preserved facts.",
+  "nextAction": "Latest-model full draft then coordinator review. New page package; no change to existing article/source observations.",
+  "modelUsedForBrief": "gpt-6.1-sol"
+}

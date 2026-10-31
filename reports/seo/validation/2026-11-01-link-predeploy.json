@@ -1,0 +1,135 @@
+{
+  "checkedAt": "2026-10-31T23:05:51.947Z",
+  "baseline": "d25916a60eecb3276e77ad974d8b6403001ae8d6",
+  "mode": "predeploy",
+  "existingApproachLinksPreserved": 7,
+  "existing22ArticlesUnchanged": true,
+  "pages": [
+    {
+      "url": "https://ai.gami.jp/services/ai-saas/",
+      "status": 200,
+      "headMatchesBuild": true,
+      "bodyMatchesBuild": false,
+      "indexAllowed": true,
+      "articleCount": 0
+    },
+    {
+      "url": "https://ai.gami.jp/services/ai-marketing/",
+      "status": 200,
+      "headMatchesBuild": true,
+      "bodyMatchesBuild": true,
+      "indexAllowed": true,
+      "articleCount": 0
+    },
+    {
+      "url": "https://ai.gami.jp/services/ai-web/",
+      "status": 200,
+      "headMatchesBuild": true,
+      "bodyMatchesBuild": true,
+      "indexAllowed": true,
+      "articleCount": 0
+    },
+    {
+      "url": "https://ai.gami.jp/services/",
+      "status": 200,
+      "headMatchesBuild": true,
+      "bodyMatchesBuild": true,
+      "indexAllowed": true,
+      "articleCount": 0
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-work-procedure-template/",
+      "status": 200,
+      "headMatchesBuild": true,
+      "bodyMatchesBuild": true,
+      "indexAllowed": true,
+      "articleCount": 1
+    },
+    {
+      "url": "https://ai.gami.jp/contact/",
+      "status": 200,
+      "headMatchesBuild": true,
+      "bodyMatchesBuild": true,
+      "indexAllowed": true,
+      "articleCount": 0
+    },
+    {
+      "url": "https://ai.gami.jp/insights/saas-or-custom-system-checklist/",
+      "status": 200,
+      "headMatchesBuild": true,
+      "bodyMatchesBuild": true,
+      "indexAllowed": true,
+      "articleCount": 1
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-article-fact-check-template/",
+      "status": 200,
+      "headMatchesBuild": true,
+      "bodyMatchesBuild": true,
+      "indexAllowed": true,
+      "articleCount": 1
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-website-brief-template/",
+      "status": 200,
+      "headMatchesBuild": true,
+      "bodyMatchesBuild": true,
+      "indexAllowed": true,
+      "articleCount": 1
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-website-change-request-template/",
+      "status": 200,
+      "headMatchesBuild": true,
+      "bodyMatchesBuild": true,
+      "indexAllowed": true,
+      "articleCount": 1
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-work-time-comparison-sheet/",
+      "status": 200,
+      "headMatchesBuild": true,
+      "bodyMatchesBuild": true,
+      "indexAllowed": true,
+      "articleCount": 1
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-introduction-support/",
+      "status": 200,
+      "headMatchesBuild": true,
+      "bodyMatchesBuild": true,
+      "indexAllowed": true,
+      "articleCount": 1
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-table-cleanup-checklist/",
+      "status": 200,
+      "headMatchesBuild": true,
+      "bodyMatchesBuild": true,
+      "indexAllowed": true,
+      "articleCount": 1
+    },
+    {
+      "url": "https://ai.gami.jp/",
+      "status": 200,
+      "headMatchesBuild": true,
+      "bodyMatchesBuild": true,
+      "indexAllowed": true,
+      "articleCount": 0
+    }
+  ],
+  "assets": [],
+  "redirects": [],
+  "sourceBefore": {
+    "headSha256": "bfbdadefbd7c5e25b91d8f0e988f1b5f86890c0084ff801a879e5dbb8fc49d66",
+    "bodySha256": "2544ef46d0dc2bc692cf7740d1c1ba71ed94f3bba14cc3a40045b068652c8506",
+    "newTargetAbsent": true
+  },
+  "sitemap": {
+    "urls": 33,
+    "sourceLastModified": "2026-11-01",
+    "onlySourceDateChanged": true,
+    "exactBuildMatch": false
+  },
+  "passed": true
+}

@@ -1,0 +1,62 @@
+{
+  "checkedAt": "2026-10-31T23:06:22.145Z",
+  "experimentId": "contact-initial-html-parity-v1",
+  "originalStartedAt": "2026-10-01T08:09:01.6572165+09:00",
+  "publicationPacificDate": "2026-09-30",
+  "reportingTimeZone": "America/Los_Angeles",
+  "comparisonBefore": {
+    "path": "reports/seo/metrics/2026-10-30-current.json",
+    "group": "previous28dPages",
+    "startDate": "2026-09-02",
+    "endDate": "2026-09-29",
+    "sourceSlash": {
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 31.714285714285715,
+      "page": "https://ai.gami.jp/contact/"
+    },
+    "sourceNoSlash": null
+  },
+  "first28FullDays": {
+    "path": "reports/seo/metrics/2026-10-31-current.json",
+    "group": "current28dPages",
+    "startDate": "2026-10-01",
+    "endDate": "2026-10-28",
+    "fullFinalDays": 28,
+    "sourceSlash": {
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": 0,
+      "position": 17.6,
+      "page": "https://ai.gami.jp/contact/"
+    },
+    "sourceNoSlash": null
+  },
+  "minimumEvidence": {
+    "requiredPageImpressions": 30,
+    "met": false
+  },
+  "effectResult": "inconclusive",
+  "technicalResult": "confirmed",
+  "dateWindowCorrection": "Original scheduled Nov1 note October2–29 retained in completed history. Publication September30 PDT means first28fullPTdates October1–28, before September2–29 excludes publication day.",
+  "additionalFixedPeriodApiQueries": 0,
+  "inspectionEvidenceReusedFrom": "reports/seo/inspections/2026-10-29-due-pages.json",
+  "liveTechnicalEvidencePath": "reports/seo/validation/2026-11-01-link-live.json",
+  "confounds": [
+    {
+      "experimentId": "generated-index-alias-redirects-v1",
+      "changedAt": "2026-10-26T23:42:07.415Z",
+      "publicationPacificLocal": "2026-10-26 16:42 PDT",
+      "description": "Repair overlaps partialOctober26 and fullOctober27–28 of fixed post window."
+    },
+    {
+      "description": "Concurrent site content/navigation changes may influence page discovery; aggregate page signals do not isolate initial HTML effect."
+    }
+  ],
+  "nextIndexCheck": "2026-11-05",
+  "nextEffectCheck": "2026-11-15",
+  "qualifiedOrganicVisits": null,
+  "organicInquiries": null,
+  "interpretation": "0click/7impressions→0/10 is descriptive and below minimum30. Missing no-slash row is null. No inquiry/qualified-visit evidence; do not infer effect from publication."
+}

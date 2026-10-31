@@ -1,0 +1,145 @@
+{
+  "checkedAt": "2026-10-31T23:08:16.171Z",
+  "session": "ai-gami-nov1",
+  "sourceViews": [
+    {
+      "viewport": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "url": "https://ai.gami.jp/services/ai-saas/",
+      "h1": "AI × SaaS\nAI × DX",
+      "overflow": false,
+      "links": [
+        {
+          "label": "AI導入前に整理する5項目を見る",
+          "href": "/insights/ai-introduction-support/"
+        },
+        {
+          "label": "AIで社内手順書を作る作業メモを見る",
+          "href": "/insights/ai-work-procedure-template/"
+        }
+      ],
+      "canonical": "https://ai.gami.jp/services/ai-saas/"
+    },
+    {
+      "viewport": "mobile",
+      "width": 390,
+      "height": 844,
+      "url": "https://ai.gami.jp/services/ai-saas/",
+      "h1": "AI × SaaS\nAI × DX",
+      "overflow": false,
+      "links": [
+        {
+          "label": "AI導入前に整理する5項目を見る",
+          "href": "/insights/ai-introduction-support/"
+        },
+        {
+          "label": "AIで社内手順書を作る作業メモを見る",
+          "href": "/insights/ai-work-procedure-template/"
+        }
+      ],
+      "canonical": "https://ai.gami.jp/services/ai-saas/"
+    }
+  ],
+  "target": {
+    "url": "https://ai.gami.jp/insights/ai-work-procedure-template/",
+    "h1": "AIで社内手順書を作る｜作業メモのテンプレート",
+    "canonical": "https://ai.gami.jp/insights/ai-work-procedure-template/",
+    "types": {
+      "Organization": 4,
+      "WebPage": 1,
+      "WebSite": 1,
+      "Article": 1,
+      "BreadcrumbList": 1,
+      "ListItem": 3
+    },
+    "overflow": false
+  },
+  "regressions": [
+    {
+      "slug": "ai-marketing",
+      "viewport": "desktop",
+      "url": "https://ai.gami.jp/services/ai-marketing/",
+      "overflow": false,
+      "approachLinks": [
+        {
+          "label": "AI記事の事実確認に使う4つの欄を見る",
+          "href": "/insights/ai-article-fact-check-template/"
+        },
+        {
+          "label": "問い合わせ返信のテンプレートを見る",
+          "href": "/insights/ai-customer-reply-template/"
+        }
+      ]
+    },
+    {
+      "slug": "ai-marketing",
+      "viewport": "mobile",
+      "url": "https://ai.gami.jp/services/ai-marketing/",
+      "overflow": false,
+      "approachLinks": [
+        {
+          "label": "AI記事の事実確認に使う4つの欄を見る",
+          "href": "/insights/ai-article-fact-check-template/"
+        },
+        {
+          "label": "問い合わせ返信のテンプレートを見る",
+          "href": "/insights/ai-customer-reply-template/"
+        }
+      ]
+    },
+    {
+      "slug": "ai-web",
+      "viewport": "desktop",
+      "url": "https://ai.gami.jp/services/ai-web/",
+      "overflow": false,
+      "approachLinks": [
+        {
+          "label": "公開前に確認する6項目を見る",
+          "href": "/insights/ai-website-launch-checklist/"
+        },
+        {
+          "label": "サイト制作の依頼をまとめる5つの欄を見る",
+          "href": "/insights/ai-website-brief-template/"
+        }
+      ]
+    },
+    {
+      "slug": "ai-web",
+      "viewport": "mobile",
+      "url": "https://ai.gami.jp/services/ai-web/",
+      "overflow": false,
+      "approachLinks": [
+        {
+          "label": "公開前に確認する6項目を見る",
+          "href": "/insights/ai-website-launch-checklist/"
+        },
+        {
+          "label": "サイト制作の依頼をまとめる5つの欄を見る",
+          "href": "/insights/ai-website-brief-template/"
+        }
+      ]
+    }
+  ],
+  "realLinkClick": true,
+  "console": {
+    "messages": 0,
+    "errors": 0,
+    "warnings": 0
+  },
+  "visualReview": {
+    "passed": true,
+    "viewedImages": 6,
+    "note": "Existing typography/borders/cyan links preserved in3services at1440and390width. Existing transparent fixed header overlays scrolled content; header unchanged and not a new defect."
+  },
+  "screenshots": [
+    "output/playwright/2026-11-01-saas-desktop.png",
+    "output/playwright/2026-11-01-saas-mobile.png",
+    "output/playwright/2026-11-01-ai-marketing-desktop.png",
+    "output/playwright/2026-11-01-ai-marketing-mobile.png",
+    "output/playwright/2026-11-01-ai-web-desktop.png",
+    "output/playwright/2026-11-01-ai-web-mobile.png"
+  ],
+  "sessionClosed": true,
+  "passed": true
+}
