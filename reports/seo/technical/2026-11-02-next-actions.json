@@ -1,0 +1,85 @@
+{
+  "preparedAt": "2026-11-01T23:09:49.453Z",
+  "status": "ready_to_implement",
+  "lane": "technical-seo",
+  "scope": "Correct stale sitemap lastmod for Home andAbout together; no new public copy or UI.",
+  "changes": [
+    {
+      "url": "https://ai.gami.jp/",
+      "currentLastmod": "2026-09-05",
+      "correctLastmod": "2026-10-08",
+      "evidencePath": "reports/seo/deployments/2026-10-08-home-parity.json",
+      "publishedAt": "2026-10-07T23:31:53.1502878Z",
+      "commit": "50816be0d0f2bba80bf963ae2b2b4244210e3541",
+      "reason": "Main service text/bullets/links added to initialHTML."
+    },
+    {
+      "url": "https://ai.gami.jp/about/",
+      "currentLastmod": "2026-09-20",
+      "correctLastmod": "2026-10-23",
+      "evidencePath": "reports/seo/deployments/2026-10-23-about-case-link.json",
+      "publishedAt": "2026-10-22T23:03:15.206Z",
+      "commit": "57c80977fc3b46b2aed8ef3a2580e46476be8f1a",
+      "reason": "Visible and initialHTML case link added."
+    }
+  ],
+  "otherNonArticlePagesReviewed": [
+    {
+      "path": "/concept/",
+      "lastmod": "2026-09-22",
+      "status": "matches confirmed latest body/link update"
+    },
+    {
+      "path": "/services/",
+      "lastmod": "2026-09-25",
+      "status": "matches confirmed latest body/link update"
+    },
+    {
+      "path": "/services/ai-web/",
+      "lastmod": "2026-09-28",
+      "status": "matches confirmed latest body/link update"
+    },
+    {
+      "path": "/services/ai-marketing/",
+      "lastmod": "2026-09-29",
+      "status": "matches confirmed latest body/link update"
+    },
+    {
+      "path": "/contact/",
+      "lastmod": "2026-10-01",
+      "status": "matches confirmed latest body/link update"
+    },
+    {
+      "path": "/news/",
+      "lastmod": "2026-10-05",
+      "status": "matches confirmed latest body/link update"
+    },
+    {
+      "path": "/price/",
+      "lastmod": "2026-10-28",
+      "status": "matches confirmed latest body/link update"
+    },
+    {
+      "path": "/services/ai-saas/",
+      "lastmod": "2026-11-01",
+      "status": "matches confirmed latest body/link update"
+    }
+  ],
+  "evidence": {
+    "source": "src/app/seo/pageSeo.js",
+    "consumer": "scripts/generate-static-seo.mjs:276",
+    "primaryGuidance": "https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap",
+    "checkedOn": "2026-11-02",
+    "guidanceSummary": "Accurate lastmod reflects significant main content, structured data or link changes; publishing sitemap does not guarantee crawl."
+  },
+  "freezeReview": "Sitemap-only twofield correction preserves Home service composition andAbout source link/head/target content. Preserve starts/history/review dates; record prospective technical confounds after actual publication.",
+  "verificationPlan": [
+    "Full build for source change; exact2sitemap date changes",
+    "All prior URL set and initial head/body unchanged",
+    "Live sitemap exact readback"
+  ],
+  "exclusions": "Do not change all-site defaults, article dates, or use alias-only/rebuild/downstream-target updates as content dates.",
+  "implementationDeferredReason": "One authorized website deploy already complete for this run; next ready action.",
+  "reviewer": "nov2_review_next",
+  "rootReview": "Confirmed source lastModified uses, both deployment records, live sitemap exactbuild check andGoogle primary guidance. No acquisition-effect assertion."
+}

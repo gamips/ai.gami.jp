@@ -1,0 +1,134 @@
+{
+  "checkedAt": "2026-11-01T23:06:00.228Z",
+  "mode": "predeploy",
+  "existing22ArticlesUnchanged": true,
+  "staticEntries": 36,
+  "indexableEntries": 34,
+  "articleCount": 23,
+  "pages": [
+    {
+      "url": "https://ai.gami.jp/insights/ai-text-shortening-checklist/",
+      "httpStatus": null,
+      "headAndBodyMatchBuild": null,
+      "schemaTypes": {
+        "Organization": 4,
+        "WebPage": 1,
+        "WebSite": 1,
+        "Article": 1,
+        "BreadcrumbList": 1,
+        "ListItem": 3
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/",
+      "httpStatus": null,
+      "headAndBodyMatchBuild": null,
+      "schemaTypes": {
+        "Organization": 2,
+        "CollectionPage": 1,
+        "WebSite": 1,
+        "ItemList": 1,
+        "ListItem": 25,
+        "BreadcrumbList": 1
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/services/ai-marketing/",
+      "httpStatus": 200,
+      "headAndBodyMatchBuild": true,
+      "schemaTypes": {
+        "Organization": 3,
+        "WebPage": 1,
+        "WebSite": 1,
+        "Service": 1,
+        "Country": 1,
+        "BreadcrumbList": 1,
+        "ListItem": 3
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/services/ai-web/",
+      "httpStatus": 200,
+      "headAndBodyMatchBuild": true,
+      "schemaTypes": {
+        "Organization": 3,
+        "WebPage": 1,
+        "WebSite": 1,
+        "Service": 1,
+        "Country": 1,
+        "BreadcrumbList": 1,
+        "ListItem": 3
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/news/",
+      "httpStatus": 200,
+      "headAndBodyMatchBuild": true,
+      "schemaTypes": {
+        "Organization": 2,
+        "CollectionPage": 2,
+        "WebSite": 1,
+        "Article": 1,
+        "NewsArticle": 2,
+        "BreadcrumbList": 1,
+        "ListItem": 2
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/about/",
+      "httpStatus": 200,
+      "headAndBodyMatchBuild": true,
+      "schemaTypes": {
+        "Organization": 2,
+        "AboutPage": 1,
+        "WebSite": 1,
+        "BreadcrumbList": 1,
+        "ListItem": 2
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-meeting-action-items-template/",
+      "httpStatus": 200,
+      "headAndBodyMatchBuild": true,
+      "schemaTypes": {
+        "Organization": 4,
+        "WebPage": 1,
+        "WebSite": 1,
+        "Article": 1,
+        "BreadcrumbList": 1,
+        "ListItem": 3
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-introduction-support-pricing/",
+      "httpStatus": 200,
+      "headAndBodyMatchBuild": true,
+      "schemaTypes": {
+        "Organization": 4,
+        "WebPage": 1,
+        "WebSite": 1,
+        "Article": 1,
+        "BreadcrumbList": 1,
+        "ListItem": 3
+      },
+      "indexAllowed": true
+    }
+  ],
+  "assets": [],
+  "redirects": [],
+  "sitemap": {
+    "urlCount": 34,
+    "articleAndListingLastmod": "2026-11-02",
+    "priorDatesPreserved": true,
+    "exactLiveMatch": false
+  },
+  "aliasRules": 34,
+  "passed": true
+}

@@ -1,0 +1,122 @@
+{
+  "plannedAt": "2026-11-01T23:06:29.320Z",
+  "experimentId": "insight-ai-text-shortening-checklist-v1",
+  "status": "validated_ready_to_publish",
+  "lane": "content",
+  "url": "https://ai.gami.jp/insights/ai-text-shortening-checklist/",
+  "variable": "One new complete article package; existing article template unchanged.",
+  "baseline": {
+    "articleAbsent": true,
+    "sourceCommit": "68628ff7654e179cc09bb80ffea9f4744a192f03",
+    "page28d": null,
+    "metricsEvidencePath": "reports/seo/metrics/2026-11-02-current.json"
+  },
+  "hypothesis": "A practical editing worksheet can provide an additional relevant search entry and route readers to AI writing support; effect not assumed.",
+  "writing": {
+    "model": "gpt-6.1-sol",
+    "authorAgent": "nov2_article_copy",
+    "reviewer": "root",
+    "publicReferenceList": false,
+    "internalMetadata": false,
+    "example": {
+      "before": "社内研修の実施についてお知らせいたします。今回の社内研修は、参加を希望する社員を対象として、11月12日の14時から15時まで、第2会議室で行います。参加を希望する社員の方は、11月8日までに社内フォームからお申し込みください。",
+      "after": "希望する社員向けの研修を11月12日14〜15時に第2会議室で行います。参加希望者は11月8日までに社内フォームから申し込んでください。",
+      "beforeCodePointCount": 114,
+      "afterCodePointCount": 68,
+      "limit": 80,
+      "countingRule": "句読点・数字・記号を各1字、改行なし",
+      "preserve": [
+        "対象",
+        "開催日",
+        "開始・終了時刻",
+        "場所",
+        "申込期限",
+        "申込先"
+      ],
+      "verifiedCodePoints": true
+    },
+    "sources": [
+      {
+        "url": "https://www.archives.gov/open/plain-writing/checklist.html",
+        "supports": "Audience, main point first, unnecessary-word deletion, short sentences.",
+        "checkedOn": "2026-11-02"
+      },
+      {
+        "url": "https://www.bunka.go.jp/koho_hodo_oshirase/hodohappyo/93650001.html",
+        "supports": "Reader-oriented official Japanese writing guidance; independent worksheet is not official format.",
+        "checkedOn": "2026-11-02"
+      }
+    ],
+    "overlapReview": {
+      "articlesChecked": 22,
+      "closest": [
+        "ai-article-fact-check-template",
+        "ai-customer-reply-template",
+        "ai-internal-faq-editing-template"
+      ],
+      "distinction": "Claim verification, reply drafting and FAQ question consolidation differ from reducing existing prose while retaining essential details.",
+      "reviewer": "nov1_link_copy"
+    }
+  },
+  "design": {
+    "sharedComponentsChanged": false,
+    "existingTemplate": "InsightDetail numbered one-column sections and text lists",
+    "lazywebSearchId": "9c4bfe89-aa30-4187-9d47-a73e4936c871",
+    "considered": [
+      {
+        "resultRef": "screens:f7bc1b90b0da8365cf5b5a3c",
+        "url": "https://www.mozi.app/hidden/template/style-guide",
+        "company": "mozi"
+      },
+      {
+        "resultRef": "screens:4afa0bd2d6017e84ebe65643",
+        "url": null,
+        "company": "crisp"
+      }
+    ],
+    "decision": "Typography/rich-text references reviewed; keep existing GAMI layout, no new cards or shared UI."
+  },
+  "freezeScope": "New article title/description/lead/sections/service link through initial effect review, except factual or technical defects.",
+  "minimumEvidence": {
+    "fullFinalizedPacificDates": 28,
+    "targetPageImpressions": 30,
+    "causalEffectNotProvenByThreshold": true
+  },
+  "expectedSignal": [
+    "Google recognition/crawl",
+    "Relevant disclosed query-page pickup",
+    "Organic clicks"
+  ],
+  "reportingTimeZone": "America/Los_Angeles",
+  "publicationPacificDateExpected": "2026-11-01",
+  "firstFullPostChangeWindow": {
+    "startDate": "2026-11-02",
+    "endDate": "2026-11-29"
+  },
+  "reviewAt": [
+    {
+      "onOrAfter": "2026-11-09",
+      "check": "First index/crawl and descriptive query-page signal."
+    },
+    {
+      "onOrAfter": "2026-12-03",
+      "check": "28fullPacificdates finalized and >=30pageimpressions; actual freshness controls."
+    }
+  ],
+  "prospectiveConfoundIds": [
+    "insights-initial-listing-parity-v1",
+    "github-readme-insights-link-v1",
+    "service-ai-marketing-fact-check-link-v1",
+    "generated-index-alias-redirects-v1"
+  ],
+  "rollback": "Remove only new article object and rebuild/deploy if factual or technical defects are found; retain measurement history.",
+  "verification": {
+    "build": "passed",
+    "predeployEvidencePath": "reports/seo/validation/2026-11-02-article-predeploy.json",
+    "old22ArticlesUnchanged": true,
+    "articleCount": 23,
+    "indexable": 34,
+    "staticSeoEntries": 36
+  },
+  "newAccountsOrPaidActions": false
+}

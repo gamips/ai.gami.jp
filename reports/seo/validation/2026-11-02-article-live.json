@@ -1,0 +1,291 @@
+{
+  "checkedAt": "2026-11-01T23:07:12.773Z",
+  "mode": "live",
+  "existing22ArticlesUnchanged": true,
+  "staticEntries": 36,
+  "indexableEntries": 34,
+  "articleCount": 23,
+  "pages": [
+    {
+      "url": "https://ai.gami.jp/insights/ai-text-shortening-checklist/",
+      "httpStatus": 200,
+      "headAndBodyMatchBuild": true,
+      "schemaTypes": {
+        "Organization": 4,
+        "WebPage": 1,
+        "WebSite": 1,
+        "Article": 1,
+        "BreadcrumbList": 1,
+        "ListItem": 3
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/",
+      "httpStatus": 200,
+      "headAndBodyMatchBuild": true,
+      "schemaTypes": {
+        "Organization": 2,
+        "CollectionPage": 1,
+        "WebSite": 1,
+        "ItemList": 1,
+        "ListItem": 25,
+        "BreadcrumbList": 1
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/services/ai-marketing/",
+      "httpStatus": 200,
+      "headAndBodyMatchBuild": true,
+      "schemaTypes": {
+        "Organization": 3,
+        "WebPage": 1,
+        "WebSite": 1,
+        "Service": 1,
+        "Country": 1,
+        "BreadcrumbList": 1,
+        "ListItem": 3
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/services/ai-web/",
+      "httpStatus": 200,
+      "headAndBodyMatchBuild": true,
+      "schemaTypes": {
+        "Organization": 3,
+        "WebPage": 1,
+        "WebSite": 1,
+        "Service": 1,
+        "Country": 1,
+        "BreadcrumbList": 1,
+        "ListItem": 3
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/news/",
+      "httpStatus": 200,
+      "headAndBodyMatchBuild": true,
+      "schemaTypes": {
+        "Organization": 2,
+        "CollectionPage": 2,
+        "WebSite": 1,
+        "Article": 1,
+        "NewsArticle": 2,
+        "BreadcrumbList": 1,
+        "ListItem": 2
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/about/",
+      "httpStatus": 200,
+      "headAndBodyMatchBuild": true,
+      "schemaTypes": {
+        "Organization": 2,
+        "AboutPage": 1,
+        "WebSite": 1,
+        "BreadcrumbList": 1,
+        "ListItem": 2
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-meeting-action-items-template/",
+      "httpStatus": 200,
+      "headAndBodyMatchBuild": true,
+      "schemaTypes": {
+        "Organization": 4,
+        "WebPage": 1,
+        "WebSite": 1,
+        "Article": 1,
+        "BreadcrumbList": 1,
+        "ListItem": 3
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-introduction-support-pricing/",
+      "httpStatus": 200,
+      "headAndBodyMatchBuild": true,
+      "schemaTypes": {
+        "Organization": 4,
+        "WebPage": 1,
+        "WebSite": 1,
+        "Article": 1,
+        "BreadcrumbList": 1,
+        "ListItem": 3
+      },
+      "indexAllowed": true
+    }
+  ],
+  "assets": [
+    {
+      "file": "About-ClC6Sf0u.js",
+      "sha256": "f7ef58b5ec4865c73b20621d11cab532cb69f681f83002137f3b1cce1f153943",
+      "match": true
+    },
+    {
+      "file": "arrow-right-DqdrSqX-.js",
+      "sha256": "83d469f40d3fc4f6bbb8ce1b33942004bc53693040297bc1e2e74e6c8e55a321",
+      "match": true
+    },
+    {
+      "file": "Concept-Dm0nzu_e.js",
+      "sha256": "36137caccf926a85e21689f794f6eabb01a7d1b82eb5b13065ca72a96b293baf",
+      "match": true
+    },
+    {
+      "file": "Contact-Zh0Ka29a.js",
+      "sha256": "a21985acee10cdd1ea785acc1cd443ab87786a0c3e594aa3d6fe93ff3dbeb63a",
+      "match": true
+    },
+    {
+      "file": "ContactThanks-CqQmfmeI.js",
+      "sha256": "32407785b62270dead1afaf55e2c33f5ea32f65e3d53f8cbf82d608af96113c7",
+      "match": true
+    },
+    {
+      "file": "createLucideIcon-Dupruoh9.js",
+      "sha256": "6553c3b0d96e4e79e28c3f190178dc027bc0682a703b599cd9536fec155ff49a",
+      "match": true
+    },
+    {
+      "file": "Footer-DfRElfnk.js",
+      "sha256": "23a77829e969b629ff440d0f2148992dfefbaefd4e55fa614ab4b26ba687be70",
+      "match": true
+    },
+    {
+      "file": "GeometricParticles-BSCClLRk.js",
+      "sha256": "0746a4b4190da0ec527d5c8e0beb8c9ca79c3f474d98f7eb69403c0a945915bc",
+      "match": true
+    },
+    {
+      "file": "Header-YHS0_u_y.js",
+      "sha256": "e7f2ae0734ac424f7cc5c4ce1ed4ccad9600d4b2d63528db33b1d0ae26e57636",
+      "match": true
+    },
+    {
+      "file": "Home-BeHMEX2j.js",
+      "sha256": "f091bbbec473780bc1c06965201eefc70c162d3d4f25f50b6d7ae1c119eab1ae",
+      "match": true
+    },
+    {
+      "file": "index-BSUbwp1T.css",
+      "sha256": "f64e0ace97d75ca48b6f02738a4ee41ac0423211d866589eb463ef390411b651",
+      "match": true
+    },
+    {
+      "file": "index-Bzi-JMdz.js",
+      "sha256": "20da953d6b8ef9b74e4ca297075960cd2d06fca9737f98d4f267cb27f72e13b1",
+      "match": true
+    },
+    {
+      "file": "InquiryCta-Cagzz6Rl.js",
+      "sha256": "f9eee3d88b7614c417600d813af389bc3d97d9c925440bb2220f78d88c126959",
+      "match": true
+    },
+    {
+      "file": "InsightDetail-fu8UDHw4.js",
+      "sha256": "9582a0d558a4bc66986be7df663cd6f9f45f1a4c946702e7795d0ea91655b58d",
+      "match": true
+    },
+    {
+      "file": "Insights-CJgSx8_X.js",
+      "sha256": "ea26c493ad0abf1b233392e39d18afb8ced0fb3f44f287e8741e9663187e62da",
+      "match": true
+    },
+    {
+      "file": "News-CP4Dh6Zx.js",
+      "sha256": "25c7a8066ee1645d6bcd0e9aa3ed50399051bb1033208b1728ed735f188c0167",
+      "match": true
+    },
+    {
+      "file": "NotFound-BfX0pSC5.js",
+      "sha256": "70f20f9d27fbe3de1dbbbfbd23616bc5814d682661f871904932fbf275b73bfe",
+      "match": true
+    },
+    {
+      "file": "PageSeo-BnmC5O3y.js",
+      "sha256": "43531ce603d6f0f9e6cebffb5664616a9ed59f2fc4b8d804bfd453691f079a9e",
+      "match": true
+    },
+    {
+      "file": "Price-DrnwV2dD.js",
+      "sha256": "11f57f899b46eb4ba7f691c96665ffab285f9d10abe7a3e0b8f7e18d09b1da3b",
+      "match": true
+    },
+    {
+      "file": "proxy-DkwFrn5d.js",
+      "sha256": "285f0d62db15bcb3abca61cd9da6416af443f1b016a58357cd174047284e287b",
+      "match": true
+    },
+    {
+      "file": "ScrollReveal-DSUE4KeX.js",
+      "sha256": "89f901c96a7d5f321008db722cce49a7156e3b898c26998820eb4480a1e8c722",
+      "match": true
+    },
+    {
+      "file": "ScrollToTopLink-D5R_5m8A.js",
+      "sha256": "4b4ed24a1680ac6515870750d61910da151fe7ea7e58db240077ffe8b3915b73",
+      "match": true
+    },
+    {
+      "file": "ServiceDetail-DhxuToeb.js",
+      "sha256": "60b34e958a9c87234221bd699d8112eba06e2e084bb45518bd7e3b727472704c",
+      "match": true
+    },
+    {
+      "file": "services-CaevByDx.js",
+      "sha256": "e6d7e6d3e1ade193ec7dc2550eae2e47d996d3478dddd31ab289a0b23a40d803",
+      "match": true
+    },
+    {
+      "file": "Services-CZ-6Kp_F.js",
+      "sha256": "20ff38ac8d4a5fb505936c249100caeb9e28f59f0c97e0890092ce88c27c7d6a",
+      "match": true
+    }
+  ],
+  "redirects": [
+    {
+      "url": "https://ai.gami.jp/insights/ai-text-shortening-checklist/index.html",
+      "status": 301,
+      "location": "https://ai.gami.jp/insights/ai-text-shortening-checklist/"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-text-shortening-checklist/index.html?check=nov2",
+      "status": 301,
+      "location": "https://ai.gami.jp/insights/ai-text-shortening-checklist/?check=nov2"
+    },
+    {
+      "url": "http://ai.gami.jp/insights/ai-text-shortening-checklist/index.html",
+      "status": 301,
+      "location": "https://ai.gami.jp/insights/ai-text-shortening-checklist/"
+    },
+    {
+      "url": "http://ai.gami.jp/insights/ai-text-shortening-checklist/index.html?check=nov2",
+      "status": 301,
+      "location": "https://ai.gami.jp/insights/ai-text-shortening-checklist/?check=nov2"
+    },
+    {
+      "url": "https://ai.gami.jp/about/index.html?check=nov2",
+      "status": 301,
+      "location": "https://ai.gami.jp/about/?check=nov2"
+    },
+    {
+      "url": "https://ai.gami.jp/index.html?check=nov2",
+      "status": 301,
+      "location": "https://ai.gami.jp/?check=nov2"
+    }
+  ],
+  "sitemap": {
+    "urlCount": 34,
+    "articleAndListingLastmod": "2026-11-02",
+    "priorDatesPreserved": false,
+    "exactLiveMatch": true
+  },
+  "aliasRules": 34,
+  "passed": true
+}

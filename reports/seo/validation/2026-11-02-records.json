@@ -1,0 +1,25 @@
+{
+  "checkedAt": "2026-11-01T23:11:27.058Z",
+  "status": "passed",
+  "active": 38,
+  "queue": 50,
+  "inventory": 71,
+  "prior49StartsAndHistoriesPreserved": true,
+  "identicalPriorQueueEntries": 40,
+  "unchangedPriorInventoryEntries": 68,
+  "appendedExperimentEvents": 11,
+  "rawGroups": 14,
+  "rawRows": 75,
+  "positiveCtrRows": 74,
+  "zeroDenominatorRows": 1,
+  "referencedFilesExist": 157,
+  "promptVersion": "1.0.16",
+  "scheduleChanged": false,
+  "newArticleFirst28FullPacificDates": {
+    "startDate": "2026-11-02",
+    "endDate": "2026-11-29"
+  },
+  "sitePublicationVerified": true,
+  "acquisitionEffect": "not-yet-measurable",
+  "nextTechnicalChangesPublished": false
+}

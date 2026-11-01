@@ -1,0 +1,29 @@
+{
+  "verifiedAt": "2026-11-01T23:09:03.855Z",
+  "liveVerifiedAt": "2026-11-01T23:07:12.773Z",
+  "commit": "a80e3e253462d97a7fd5e48c0169a5c0a955b54b",
+  "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/41360460402",
+  "actions": {
+    "status": "completed",
+    "conclusion": "success",
+    "completedAt": "2026-11-01T23:07:05Z"
+  },
+  "method": "GitHub Actions normal Xserver deploy",
+  "url": "https://ai.gami.jp/insights/ai-text-shortening-checklist/",
+  "publicationResult": "verified",
+  "technicalResult": "confirmed",
+  "acquisitionEffect": "not-yet-measurable",
+  "build": "passed",
+  "diffCheck": "passed",
+  "predeployEvidencePath": "reports/seo/validation/2026-11-02-article-predeploy.json",
+  "liveEvidencePath": "reports/seo/validation/2026-11-02-article-live.json",
+  "browserEvidencePath": "reports/seo/validation/2026-11-02-article-browser.json",
+  "pageCount": 8,
+  "assetsMatched": 25,
+  "redirectsMatched": 6,
+  "articleCount": 23,
+  "indexableCount": 34,
+  "existing22ArticlesUnchanged": true,
+  "serverLogEvidence": null,
+  "serverLogCaveat": "Xserver application logs unavailable; verification covers Actions, HTTP, content/asset hashes and browser."
+}

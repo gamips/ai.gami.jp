@@ -1,0 +1,133 @@
+{
+  "checkedAt": "2026-11-01T23:09:03.855Z",
+  "status": "passed",
+  "article": [
+    {
+      "url": "https://ai.gami.jp/insights/ai-text-shortening-checklist/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1": [
+        "AIで文章を短くする｜残す情報を決める編集メモ"
+      ],
+      "sectionCount": 4,
+      "canonical": "https://ai.gami.jp/insights/ai-text-shortening-checklist/",
+      "schemaTypes": {
+        "Organization": 4,
+        "WebPage": 1,
+        "WebSite": 1,
+        "Article": 1,
+        "BreadcrumbList": 1,
+        "ListItem": 3
+      },
+      "exampleCounts": [
+        114,
+        68
+      ],
+      "links": [
+        {
+          "text": "Insights",
+          "href": "/insights/"
+        },
+        {
+          "text": "AIライティングの支援内容を見る",
+          "href": "/services/ai-marketing/"
+        }
+      ],
+      "commaBr": false
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-text-shortening-checklist/",
+      "width": 390,
+      "scrollWidth": 390,
+      "h1": [
+        "AIで文章を短くする｜残す情報を決める編集メモ"
+      ],
+      "sectionCount": 4,
+      "canonical": "https://ai.gami.jp/insights/ai-text-shortening-checklist/",
+      "schemaTypes": {
+        "Organization": 4,
+        "WebPage": 1,
+        "WebSite": 1,
+        "Article": 1,
+        "BreadcrumbList": 1,
+        "ListItem": 3
+      },
+      "exampleCounts": [
+        114,
+        68
+      ],
+      "links": [
+        {
+          "text": "Insights",
+          "href": "/insights/"
+        },
+        {
+          "text": "AIライティングの支援内容を見る",
+          "href": "/services/ai-marketing/"
+        }
+      ],
+      "commaBr": false
+    }
+  ],
+  "listingAndServiceNavigation": {
+    "target": {
+      "url": "https://ai.gami.jp/services/ai-marketing/",
+      "h1": [
+        "AI × GrowthAI × Support"
+      ]
+    },
+    "listing": [
+      {
+        "url": "https://ai.gami.jp/insights/",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "h1": [
+          "AI導入を、わかりやすく。"
+        ],
+        "newLinks": [
+          {
+            "text": "2026.11.02AI活用AIで文章を短くする｜残す情報を決める編集メモAIで文章を短くする前に、読者、残す事実、削れる箇所、長さ条件を4つの欄に整理します。架空の研修案内を114字から68字に縮める例で、情報の抜けと文字数を確認する方法を紹介します。読む",
+            "href": "https://ai.gami.jp/insights/ai-text-shortening-checklist/"
+          }
+        ],
+        "articleLinks": 23
+      },
+      {
+        "url": "https://ai.gami.jp/insights/",
+        "width": 390,
+        "scrollWidth": 390,
+        "h1": [
+          "AI導入を、わかりやすく。"
+        ],
+        "newLinks": [
+          {
+            "text": "2026.11.02AI活用AIで文章を短くする｜残す情報を決める編集メモAIで文章を短くする前に、読者、残す事実、削れる箇所、長さ条件を4つの欄に整理します。架空の研修案内を114字から68字に縮める例で、情報の抜けと文字数を確認する方法を紹介します。読む",
+            "href": "https://ai.gami.jp/insights/ai-text-shortening-checklist/"
+          }
+        ],
+        "articleLinks": 23
+      }
+    ]
+  },
+  "listingLinkNavigation": {
+    "url": "https://ai.gami.jp/insights/ai-text-shortening-checklist/",
+    "h1": [
+      "AIで文章を短くする｜残す情報を決める編集メモ"
+    ]
+  },
+  "screenshotsViewed": [
+    "output/playwright/2026-11-02-article-desktop.png",
+    "output/playwright/2026-11-02-article-mobile.png",
+    "output/playwright/2026-11-02-example-desktop.png",
+    "output/playwright/2026-11-02-example-mobile.png",
+    "output/playwright/2026-11-02-listing-desktop.png",
+    "output/playwright/2026-11-02-listing-mobile.png"
+  ],
+  "visualReview": "Existing one-column article/list design retained. No horizontal overflow; final screenshots captured after entrance animation. Existing transparent fixed header can overlap prior section during scrolling; unchanged.",
+  "console": {
+    "messages": 0,
+    "errors": 0,
+    "warnings": 0
+  },
+  "browserClosed": true
+}

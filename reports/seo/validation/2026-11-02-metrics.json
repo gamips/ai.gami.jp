@@ -1,0 +1,24 @@
+{
+  "checkedAt": "2026-11-01T23:07:03.201Z",
+  "status": "passed_with_caveats",
+  "groups": 14,
+  "rows": 75,
+  "positiveCtrRowsMatched": 74,
+  "explicitZeroDenominatorRows": 1,
+  "normalizedValueDimensionCountMismatches": 0,
+  "deviceTotalsAndWeightedPositionMatch": true,
+  "windowsMatchFreshness": true,
+  "exactExcludedBrandQueries": [
+    "gami ai",
+    "gami"
+  ],
+  "completeNonBrandTraffic": false,
+  "qualifiedOrganicVisits": null,
+  "organicInquiries": null,
+  "independentReviewer": "nov2_measurement_review",
+  "caveats": [
+    "Disclosed query set incomplete; smartbank query intent uncertain.",
+    "Price no-slash raw zero denominator retained; interpreted CTR/position null.",
+    "No effect review due Nov2; no extra fixed-window acquisition."
+  ]
+}
