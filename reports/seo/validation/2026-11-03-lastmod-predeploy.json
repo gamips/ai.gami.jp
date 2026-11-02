@@ -1,0 +1,25 @@
+{
+  "checkedAt": "2026-11-02T23:10:45.926Z",
+  "mode": "predeploy",
+  "passed": true,
+  "indexablePages": 34,
+  "all34SeoHeadAndBodiesUnchanged": true,
+  "articlesUnchanged": true,
+  "aliasFileUnchanged": true,
+  "sitemapChanges": [
+    {
+      "url": "https://ai.gami.jp/",
+      "before": "2026-09-05",
+      "after": "2026-10-08"
+    },
+    {
+      "url": "https://ai.gami.jp/about/",
+      "before": "2026-09-20",
+      "after": "2026-10-23"
+    }
+  ],
+  "livePages": [],
+  "assets": [],
+  "aliases": [],
+  "liveSitemapMatches": "baseline before publication"
+}

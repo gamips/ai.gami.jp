@@ -1,0 +1,28 @@
+{
+  "checkedAt": "2026-11-02T23:21:21.000Z",
+  "status": "passed_with_caveats",
+  "rawEvidencePath": "reports/seo/metrics/2026-11-03-raw-collection.json",
+  "normalizedEvidencePath": "reports/seo/metrics/2026-11-03-current.json",
+  "groups": 14,
+  "rows": 76,
+  "positiveCtrRowsMatched": 75,
+  "explicitZeroDenominatorRows": 1,
+  "normalizedValueDimensionCountMismatches": 0,
+  "deviceTotalsAndWeightedPositionMatch": true,
+  "windowsMatchFreshness": true,
+  "exactExcludedBrandQueries": [
+    "gami ai",
+    "gami"
+  ],
+  "completeNonBrandTraffic": false,
+  "qualifiedOrganicVisits": null,
+  "organicInquiries": null,
+  "independentReviewer": "nov3_measurement",
+  "effectReview": "passed: saved Oct2–29 and Sep3–30 PT windows reused, absent exact-page rows null, 30impression threshold not met; correct reply-link confound ID recorded",
+  "effectEvidencePath": "reports/seo/metrics/2026-11-03-effect-review.json",
+  "caveats": [
+    "Disclosed queries do not cover all non-brand traffic; smartbank-related query intent uncertain.",
+    "Price no-slash raw zero row retained; interpreted CTR/position null.",
+    "Handoff effect inconclusive, not zero. No additional fixed-period API query."
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "plannedAt": "2026-11-02T23:11:29.659Z",
+  "experimentId": "sitemap-content-lastmod-correction-v1",
+  "mode": "implement",
+  "lane": "technical-seo",
+  "scope": "Two sitemap lastmod dates only; Home2026-10-08/About2026-10-23 reflect confirmed content/link publication.",
+  "baselineCommit": "82efd48da701aa8e39cdf3bdd86eee835c38ad78",
+  "evidencePath": "reports/seo/technical/2026-11-02-next-actions.json",
+  "changes": [
+    {
+      "url": "https://ai.gami.jp/",
+      "currentLastmod": "2026-09-05",
+      "correctLastmod": "2026-10-08",
+      "evidencePath": "reports/seo/deployments/2026-10-08-home-parity.json",
+      "publishedAt": "2026-10-07T23:31:53.1502878Z",
+      "commit": "50816be0d0f2bba80bf963ae2b2b4244210e3541",
+      "reason": "Main service text/bullets/links added to initialHTML."
+    },
+    {
+      "url": "https://ai.gami.jp/about/",
+      "currentLastmod": "2026-09-20",
+      "correctLastmod": "2026-10-23",
+      "evidencePath": "reports/seo/deployments/2026-10-23-about-case-link.json",
+      "publishedAt": "2026-10-22T23:03:15.206Z",
+      "commit": "57c80977fc3b46b2aed8ef3a2580e46476be8f1a",
+      "reason": "Visible and initialHTML case link added."
+    }
+  ],
+  "baselineMetricsPath": "reports/seo/metrics/2026-11-03-current.json",
+  "hypothesis": "Accurate modification dates restore consistency with published content. Recrawl or acquisition effect is not guaranteed.",
+  "freezeScope": "Only Home/About sitemap date metadata; retain existing page copy/head/links and original experiments dates.",
+  "verification": {
+    "build": "passed",
+    "all34InitialHeadsBodiesUnchanged": true,
+    "articlesAndAliasRulesUnchanged": true,
+    "predeployEvidencePath": "reports/seo/validation/2026-11-03-lastmod-predeploy.json",
+    "browserChecks": "not_required: no visual change; exactsemantic equality verified"
+  },
+  "minimumEvidence": {
+    "fullFinalizedPacificDates": 28,
+    "relevantPageImpressions": 30,
+    "causalAttributionUnavailable": true
+  },
+  "reportingTimeZone": "America/Los_Angeles",
+  "expectedPublicationPacificDate": "2026-11-02",
+  "firstFullPostChangeWindow": {
+    "startDate": "2026-11-03",
+    "endDate": "2026-11-30"
+  },
+  "nextChecks": [
+    {
+      "onOrAfter": "2026-11-10",
+      "check": "Bounded Home/About crawl followup, reuse already due canonical inspections. No registration or traffic promise."
+    },
+    {
+      "onOrAfter": "2026-12-04",
+      "check": "Descriptive page signals after28fullPacificdates November3–30 finalized and >=30 relevant pageimpressions; concurrent changes prevent isolated attribution."
+    }
+  ],
+  "rollback": "Revert only two lastModified fields if publication evidence changes; do not change article dates or rewrite history.",
+  "reviewer": "nov3_scope_next",
+  "prospectiveConfoundIds": [
+    "home-initial-service-parity-v1",
+    "about-case-study-link-v1",
+    "root-index-alias-redirect-v1",
+    "about-index-alias-redirect-v1",
+    "generated-index-alias-redirects-v1",
+    "case-document-preservation-clarification-v1"
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-01T23:10:34.142Z",
+  "updatedAt": "2026-11-02T23:23:08.241Z",
   "rules": {
     "oneOwnerUrlPerIntent": true,
     "publicCopyExcludesOperationalMetadata": true
@@ -11,7 +11,7 @@
       "type": "home",
       "intent": "GAMIのAI導入支援・AI開発全体",
       "status": "published",
-      "lastModified": "2026-09-05",
+      "lastModified": "2026-10-08",
       "featuredCaseStudy": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/",
       "technicalUpdatedAt": "2026-10-07T23:31:53.1502878Z",
       "experimentId": "home-initial-service-parity-v1",
@@ -124,7 +124,7 @@
       "type": "company",
       "intent": "GAMIの会社情報と価値観",
       "status": "published",
-      "lastModified": "2026-09-20",
+      "lastModified": "2026-10-23",
       "experimentId": "about-case-study-link-v1",
       "contentSource": "src/app/content/company.js",
       "previousExperimentIds": [

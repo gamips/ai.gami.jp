@@ -1,0 +1,59 @@
+{
+  "verifiedAt": "2026-11-02T23:13:38.142Z",
+  "experimentId": "sitemap-content-lastmod-correction-v1",
+  "commit": "4260caaf062f6dfb7dca83828187c233cba1a718",
+  "baselineCommit": "82efd48da701aa8e39cdf3bdd86eee835c38ad78",
+  "method": "GitHub Actions normal Xserver deploy",
+  "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/41543469448",
+  "actionsStatus": "completed",
+  "actionsConclusion": "success",
+  "actionsCompletedAt": "2026-11-02T23:12:05Z",
+  "publicationResult": "verified",
+  "technicalResult": "confirmed",
+  "acquisitionEffect": "not-yet-measurable",
+  "changes": [
+    {
+      "url": "https://ai.gami.jp/",
+      "before": "2026-09-05",
+      "after": "2026-10-08"
+    },
+    {
+      "url": "https://ai.gami.jp/about/",
+      "before": "2026-09-20",
+      "after": "2026-10-23"
+    }
+  ],
+  "scope": "Only two lastModified fields in src/app/seo/pageSeo.js. Align sitemap with actual Home/About content publication; no new content modification implied.",
+  "build": "passed",
+  "diffCheck": "passed",
+  "indexablePages": 34,
+  "unchangedInitialHeadAndBodyPages": 34,
+  "livePages": 6,
+  "liveAssets": 25,
+  "liveAliasRedirects": 3,
+  "articleDataUnchanged": true,
+  "aliasRulesUnchanged": true,
+  "planEvidencePath": "reports/seo/technical/2026-11-03-lastmod-plan.json",
+  "predeployEvidencePath": "reports/seo/validation/2026-11-03-lastmod-predeploy.json",
+  "liveEvidencePath": "reports/seo/validation/2026-11-03-lastmod-live.json",
+  "browserVerification": "Not required for metadata-only change; exact head/body equality verified for all34indexable pages and6livepages. No UI or shared renderer changed.",
+  "limitations": [
+    "Google recrawl and acquisition effect unconfirmed.",
+    "Xserver application logs unavailable; no server-log verification claim."
+  ],
+  "publicationPacificDate": "2026-11-02",
+  "firstFullPostChangeWindow": {
+    "startDate": "2026-11-03",
+    "endDate": "2026-11-30"
+  },
+  "nextChecks": [
+    {
+      "onOrAfter": "2026-11-10",
+      "check": "Bounded Home/About crawl followup, reuse already due canonical inspections. No registration or traffic promise."
+    },
+    {
+      "onOrAfter": "2026-12-04",
+      "check": "Descriptive page signals after28fullPacificdates November3–30 finalized and >=30 relevant pageimpressions; concurrent changes prevent isolated attribution."
+    }
+  ]
+}

@@ -7,7 +7,7 @@
 - 学び: sitemapの更新日は、実際に本文やリンクを公開した日と照合する。
   - 根拠: Homeの初期本文は10月8日、Aboutの事例リンクは10月23日に公開したが、sitemapには9月5日・20日が残っていた。非記事10ページを調べ、訂正対象を2件へ絞った。
   - 適用範囲: 手動のlastModified値。再ビルドや別名URLの修正だけで本文の更新日を進めない。
-  - 証跡: `reports/seo/technical/2026-11-02-next-actions.json`。訂正は次のready施策であり、まだ公開していない。
+  - 証跡: `reports/seo/technical/2026-11-02-next-actions.json`。11月3日に2件を訂正し、本番の一致を確認した。本文・headは34ページとも不変。`reports/seo/deployments/2026-11-03-sitemap-dates.json`。検索流入への効果は未確認。
   - 見直し条件: 公開履歴から正しい更新日を生成する仕組みへ移行したとき。
 
 ## 2026-09-04

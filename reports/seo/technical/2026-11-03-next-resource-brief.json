@@ -1,0 +1,70 @@
+{
+  "preparedAt": "2026-11-02T23:21:21.000Z",
+  "status": "ready_to_prepare",
+  "lane": "original-resource",
+  "slug": "ai-pdf-extraction-checklist",
+  "work": "PDFから取り出した表を原本と照合する練習セットを作る。",
+  "articleDrafted": false,
+  "published": false,
+  "searchDemandValidated": false,
+  "acquisitionEffect": "not-yet-measurable",
+  "hypothesis": "A small reusable source-and-answer kit may help readers detect PDF table extraction mistakes. Editorial hypothesis, not measured demand.",
+  "deliverable": {
+    "source": "Original fictional two-page PDF with four supply rows and repeated table headers.",
+    "answer": "Expected answer CSV with page/row/item/quantity/unit fields.",
+    "worksheet": "Blank reconciliation TSV for comparing page/row/column to extracted value.",
+    "article": "Short practical article after asset validation, written by latest available model subagent and reviewed by coordinator."
+  },
+  "examples": [
+    {
+      "item": "封筒",
+      "quantity": 2,
+      "unit": "箱",
+      "pack": "100枚入"
+    },
+    {
+      "item": "クリアファイル",
+      "quantity": 4,
+      "unit": "袋",
+      "pack": "10枚入"
+    }
+  ],
+  "remainingRows": "Choose two distinct fictional supply rows during authoring; no real business or personal data.",
+  "deliberateErrorExamples": [
+    "Repeated table header treated as a data row.",
+    "Quantity taken from the neighboring row.",
+    "Unit 箱 changed to 枚."
+  ],
+  "claimsBoundary": "Clearly label fictional practice data and deliberate errors. Do not call these observed AI output, benchmark results or accuracy claims.",
+  "overlapReview": {
+    "existingArticles": 23,
+    "tableCleanup": "Owns normalizing an existing table; preserve its content and observation through Nov18. Do not reuse leading-zero, blank or duplicate examples.",
+    "ragInventory": "Owns document scope/inventory; preserve observation through Nov9. Extraction reconciliation is a different reader task."
+  },
+  "freezeScope": "No changes to existing article bodies, dates, shared UI, service procedure link or GitHub README. New article/listing/resource package only after validation.",
+  "serviceDestination": "https://ai.gami.jp/services/ai-saas/",
+  "futureConfound": "Any new inbound service link and collection addition must be recorded prospectively at publication.",
+  "sources": [
+    {
+      "url": "https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/prebuilt/layout?view=doc-intel-4.0.0",
+      "checkedOn": "2026-11-03",
+      "supports": "Model-specific extraction represents table rows, columns and page regions. Do not generalize to all AI tools."
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/concept/accuracy-confidence?view=doc-intel-4.0.0",
+      "checkedOn": "2026-11-03",
+      "supports": "Confidence estimates are not a substitute for checking output against source; review requirements depend on use."
+    }
+  ],
+  "internalSourcesOnly": true,
+  "publicReferenceList": false,
+  "cost": "No account or paid API needed. Original local assets.",
+  "validationPlan": [
+    "Read PDF skill before authoring.",
+    "Render both PDF pages and verify all four rows, quantities, units and page references against answer CSV.",
+    "Check TSV can record all three deliberate errors; distinguish source, answer and practice errors.",
+    "Latest-model article draft, coordinator facts/style/overlap review, existing article package build and live checks on publication."
+  ],
+  "reviewer": "nov3_scope_next",
+  "coordinatorReview": "Accepted distinct scope and zero-cost path; assets and public copy not created this run."
+}

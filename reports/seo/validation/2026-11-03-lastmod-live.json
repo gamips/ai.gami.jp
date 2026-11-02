@@ -1,0 +1,198 @@
+{
+  "checkedAt": "2026-11-02T23:13:38.142Z",
+  "mode": "live",
+  "passed": true,
+  "indexablePages": 34,
+  "all34SeoHeadAndBodiesUnchanged": true,
+  "articlesUnchanged": true,
+  "aliasFileUnchanged": true,
+  "sitemapChanges": [
+    {
+      "url": "https://ai.gami.jp/",
+      "before": "2026-09-05",
+      "after": "2026-10-08"
+    },
+    {
+      "url": "https://ai.gami.jp/about/",
+      "before": "2026-09-20",
+      "after": "2026-10-23"
+    }
+  ],
+  "livePages": [
+    {
+      "url": "https://ai.gami.jp/",
+      "status": 200,
+      "headAndBodyUnchanged": true
+    },
+    {
+      "url": "https://ai.gami.jp/concept/",
+      "status": 200,
+      "headAndBodyUnchanged": true
+    },
+    {
+      "url": "https://ai.gami.jp/services/ai-marketing/",
+      "status": 200,
+      "headAndBodyUnchanged": true
+    },
+    {
+      "url": "https://ai.gami.jp/about/",
+      "status": 200,
+      "headAndBodyUnchanged": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-work-procedure-template/",
+      "status": 200,
+      "headAndBodyUnchanged": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-work-handoff-template/",
+      "status": 200,
+      "headAndBodyUnchanged": true
+    }
+  ],
+  "assets": [
+    {
+      "file": "About-Clz0tJa6.js",
+      "sha256": "3c45753208798273cac78c98f16938da748c960c50fdc084a73ebcd3898d9ce1",
+      "match": true
+    },
+    {
+      "file": "arrow-right-BYc4yrWJ.js",
+      "sha256": "4d33e79c0870993a3f55b2ca6a2061b755306d3fdfeff9d0599d1ed35a70cc4c",
+      "match": true
+    },
+    {
+      "file": "Concept-BB9vvdcv.js",
+      "sha256": "c7e171f78153dfdcf8bbd86a1038ee775d135e867580622dfc56451c8ac60ca7",
+      "match": true
+    },
+    {
+      "file": "Contact-CmzgG2ym.js",
+      "sha256": "0841bd837ed1dcbf2080672eefc23cae5fc31215dab597913beb579434092df2",
+      "match": true
+    },
+    {
+      "file": "ContactThanks-Dhq4HXuY.js",
+      "sha256": "e200edd6c009ccdef79e0f47c06e891dc89967cdc9e76ce8ea51a0e7b4f9db93",
+      "match": true
+    },
+    {
+      "file": "createLucideIcon-DM4wT34g.js",
+      "sha256": "95171d7f6da87f3d939d1f4d73e0695dffa1f0d18cc1a62ba58b79cf383d9869",
+      "match": true
+    },
+    {
+      "file": "Footer-DRO_ldjV.js",
+      "sha256": "df6ba02eedf428e392847826bbf713541d07f226b6fe7e55e8a662ddd51b9034",
+      "match": true
+    },
+    {
+      "file": "GeometricParticles-BEr5fbE1.js",
+      "sha256": "2e718189bb6e79765b8f8e0299b0c3dc8cfc05a345efb31a3a1fd36281fe8dc1",
+      "match": true
+    },
+    {
+      "file": "Header-bBN9BP9B.js",
+      "sha256": "17582f4d01577c592986dd4dbe648538db09c96dc8cb92859046f553ea2808a1",
+      "match": true
+    },
+    {
+      "file": "Home-AExTOAXG.js",
+      "sha256": "3708800f35063318c7a5aee2411c096222beaaa7bb2b1acdbe03add9d07cabd7",
+      "match": true
+    },
+    {
+      "file": "index-BSUbwp1T.css",
+      "sha256": "f64e0ace97d75ca48b6f02738a4ee41ac0423211d866589eb463ef390411b651",
+      "match": true
+    },
+    {
+      "file": "index-dJ78OcrU.js",
+      "sha256": "96f5543f6ad5d33bc61a5e5eca13d80a5939fc05a1b77340cfc0ec3ed73429f8",
+      "match": true
+    },
+    {
+      "file": "InquiryCta-DJN1EAZu.js",
+      "sha256": "f9c3a43a4e3e122080134ebcfd6657c1ec07b8f93b1f3d3460a9481349102e17",
+      "match": true
+    },
+    {
+      "file": "InsightDetail-Bx9frBuy.js",
+      "sha256": "4c59d29e02ab3d2f4349b5754517671b2957b3f724be75721f47013deb823004",
+      "match": true
+    },
+    {
+      "file": "Insights-BYrs6tDX.js",
+      "sha256": "55e8f10465cf72006526fd3acdd88409d952767b644f342515ccb17aa563867b",
+      "match": true
+    },
+    {
+      "file": "News-D3QYFF0B.js",
+      "sha256": "9738f7b4e06231fdfe0860b88398b5a8d1cce0c1d5888a4e470dd12731d755f7",
+      "match": true
+    },
+    {
+      "file": "NotFound-oJzT-fYd.js",
+      "sha256": "e513347dbdcf2402b1f0f382a8c8c5f1962471cbf750d1676f4139efc2924f25",
+      "match": true
+    },
+    {
+      "file": "PageSeo-DDTNftj6.js",
+      "sha256": "ca82bdc8f6ed9f40fa90f094ab8e59f5c51236e21e019acc6e805e769cf6cc7e",
+      "match": true
+    },
+    {
+      "file": "Price-Bkf0EeVk.js",
+      "sha256": "a14b54c7b604111d2e384887b89d44aa00889cc5d944fb0a8ec33aca95186533",
+      "match": true
+    },
+    {
+      "file": "proxy-DMXsnNmb.js",
+      "sha256": "888cb653469c73cfbf0d6749a34ff03e242801372881444d626ec777a14ad9c2",
+      "match": true
+    },
+    {
+      "file": "ScrollReveal-DAyDl66S.js",
+      "sha256": "7e2566bb8fc5dd022069132ca8ebcbd05206edf0261667b3a659a28966568207",
+      "match": true
+    },
+    {
+      "file": "ScrollToTopLink-CABIfiCU.js",
+      "sha256": "7333cb612e639535923d7a28c5a0b9dd058d9781c6bcd3c4030c2bbacd4c0ebb",
+      "match": true
+    },
+    {
+      "file": "ServiceDetail-cnlOaU1n.js",
+      "sha256": "ab3e1aa61998aa22d609639b855637deb83105a8a0a4372acc9588b3dfc5d4db",
+      "match": true
+    },
+    {
+      "file": "services-CclETEtK.js",
+      "sha256": "be060273d2a94f88f1a3b74046c635fd281632b78240f42ddd8badfd0469ac47",
+      "match": true
+    },
+    {
+      "file": "Services-E1l3rhQA.js",
+      "sha256": "2a313f01dd203f28256fe16f195a018a07b6e54d9435f275e3fa5f80925f9cfa",
+      "match": true
+    }
+  ],
+  "aliases": [
+    {
+      "url": "https://ai.gami.jp/concept/index.html?check=nov3",
+      "status": 301,
+      "location": "https://ai.gami.jp/concept/?check=nov3"
+    },
+    {
+      "url": "https://ai.gami.jp/services/ai-marketing/index.html?check=nov3",
+      "status": 301,
+      "location": "https://ai.gami.jp/services/ai-marketing/?check=nov3"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-work-procedure-template/index.html?check=nov3",
+      "status": 301,
+      "location": "https://ai.gami.jp/insights/ai-work-procedure-template/?check=nov3"
+    }
+  ],
+  "liveSitemapMatches": "updated build"
+}

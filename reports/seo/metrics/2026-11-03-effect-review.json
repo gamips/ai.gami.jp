@@ -1,0 +1,53 @@
+{
+  "reviewedAt": "2026-11-02T23:11:13.913Z",
+  "experimentId": "insight-ai-work-handoff-template-v1",
+  "result": "inconclusive",
+  "technicalResult": "confirmed",
+  "originalStartedAt": "2026-10-02T08:07:34.6590549+09:00",
+  "reportingTimeZone": "America/Los_Angeles",
+  "publicationPacificDate": "2026-10-01",
+  "scheduledOnOrAfter": "2026-11-03",
+  "scheduledWindowPreserved": "October3–30 original note retained; actual first fullPTwindow is October2–29.",
+  "comparisonBefore": {
+    "path": "reports/seo/metrics/2026-10-31-current.json",
+    "group": "previous28dPages",
+    "startDate": "2026-09-03",
+    "endDate": "2026-09-30",
+    "sourceSlash": null,
+    "sourceNoSlash": null
+  },
+  "first28FullDays": {
+    "path": "reports/seo/metrics/2026-11-01-current.json",
+    "group": "current28dPages",
+    "startDate": "2026-10-02",
+    "endDate": "2026-10-29",
+    "fullFinalDays": 28,
+    "sourceSlash": null,
+    "sourceNoSlash": null
+  },
+  "minimumEvidence": {
+    "requiredFullFinalizedDays": 28,
+    "requiredPageImpressions": 30,
+    "met": false
+  },
+  "inspectionReusedFrom": "reports/seo/inspections/2026-10-30-due-pages.json",
+  "lastKnownIndex": "NEUTRAL / unknown, no crawl",
+  "confounds": [
+    {
+      "experimentId": "insight-reply-handoff-link-v1",
+      "changedAt": "2026-10-16T23:10:58.595Z",
+      "description": "Customer reply article inbound link overlaps partialOct16 andfullOct17–29; reuse original experiments log."
+    },
+    {
+      "experimentId": "generated-index-alias-redirects-v1",
+      "changedAt": "2026-10-26T23:42:07.415Z",
+      "description": "Aliasrepair overlaps partialOct26 andfullOct27–29."
+    }
+  ],
+  "additionalFixedPeriodQueries": 0,
+  "qualifiedOrganicVisits": null,
+  "organicInquiries": null,
+  "nextBoundedEffectCheck": "2026-11-17",
+  "retainedNextIndexCheck": "2026-11-06",
+  "note": "Missing slash/noslash rows are null, notzero. No acquisitionor inquiry conclusion. No rewrite solely for unknown; preserve original publication/history."
+}
