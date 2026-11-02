@@ -350,7 +350,7 @@ function createInsightSchemas(insight) {
 export const pageSeoByPath = {
   "/": {
     path: "/",
-    lastModified: "2026-09-05",
+    lastModified: "2026-10-08",
     fallbackHeading: "AI速度、人間品質。",
     fallbackSections: [
       ...["ai-saas", "ai-marketing", "ai-web"].map((slug) => {
@@ -1027,7 +1027,7 @@ export const pageSeoByPath = {
   },
   "/about": {
     path: "/about",
-    lastModified: "2026-09-20",
+    lastModified: "2026-10-23",
     fallbackHeading: "AI導入支援会社 GAMIについて",
     title: "About | AI導入支援会社・AI開発会社 GAMIについて",
     description:
