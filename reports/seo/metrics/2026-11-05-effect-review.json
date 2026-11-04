@@ -1,0 +1,119 @@
+{
+  "checkedAt": "2026-11-04T23:12:28.280Z",
+  "latestFinalizedDate": "2026-11-02",
+  "additionalFixedPeriodApiQueries": 0,
+  "qualifiedOrganicVisits": null,
+  "organicInquiries": null,
+  "reviews": [
+    {
+      "experimentId": "news-initial-html-parity-v1",
+      "originalStartedAt": "2026-10-04T23:09:20Z",
+      "publicationPacificDate": "2026-10-04",
+      "reportingTimeZone": "America/Los_Angeles",
+      "comparisonBefore": {
+        "path": "reports/seo/metrics/2026-11-03-current.json",
+        "group": "previous28dPages",
+        "startDate": "2026-09-06",
+        "endDate": "2026-10-03",
+        "sourceSlash": {
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 10,
+          "page": "https://ai.gami.jp/news/"
+        },
+        "sourceNoSlash": null
+      },
+      "first28FullDays": {
+        "path": "reports/seo/metrics/2026-11-04-current.json",
+        "group": "current28dPages",
+        "startDate": "2026-10-05",
+        "endDate": "2026-11-01",
+        "fullFinalDays": 28,
+        "sourceSlash": {
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": 0,
+          "position": 1,
+          "page": "https://ai.gami.jp/news/"
+        },
+        "sourceNoSlash": null
+      },
+      "latestRolling": {
+        "path": "reports/seo/metrics/2026-11-05-current.json",
+        "window": {
+          "startDate": "2026-10-06",
+          "endDate": "2026-11-02",
+          "clicks": 0,
+          "impressions": 134,
+          "ctr": 0,
+          "position": 39.14179104477612
+        },
+        "sourceSlash": {
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": 0,
+          "position": 1,
+          "page": "https://ai.gami.jp/news/"
+        },
+        "sourceNoSlash": null
+      },
+      "dateWindowCorrection": "Original Nov5 schedule note October6–November2 remains in history. UTC publication Oct4 23:09 maps to Oct4 PDT, so first28fullPTdates October5–November1 and before September6–October3 exclude publication day.",
+      "minimumEvidence": {
+        "requiredPageImpressions": 30,
+        "met": false
+      },
+      "technicalResult": "confirmed",
+      "effectResult": "inconclusive",
+      "inspectionEvidenceReusedFrom": "reports/seo/inspections/2026-11-02-due-pages.json",
+      "liveTechnicalEvidencePath": "reports/seo/validation/2026-11-05-article-dates-live.json",
+      "confounds": [
+        {
+          "experimentId": "generated-index-alias-redirects-v1",
+          "changedAt": "2026-10-26T23:42:07.415Z",
+          "description": "Alias correction overlaps partial Oct26 and full Oct27–Nov1 in the fixed post window; no isolated causal attribution."
+        },
+        {
+          "description": "Other content/navigation publication can affect discovery, with no qualified visit attribution."
+        }
+      ],
+      "nextEffectCheck": "2026-11-19",
+      "note": "0 clicks/1 impression before and0/2 after are below30; positions not useful at this volume. Missing slashless rows remain null."
+    },
+    {
+      "experimentId": "insight-ai-meeting-action-items-template-v1",
+      "originalStartedAt": "2026-09-21T08:05:06.8299556+09:00",
+      "reportingTimeZone": "America/Los_Angeles",
+      "originalFixedReviewPath": "reports/seo/metrics/2026-10-22-fixed-period-review.json",
+      "originalFixedWindow": {
+        "startDate": "2026-09-21",
+        "endDate": "2026-10-18",
+        "page": null
+      },
+      "latestRolling": {
+        "path": "reports/seo/metrics/2026-11-05-current.json",
+        "window": {
+          "startDate": "2026-10-06",
+          "endDate": "2026-11-02",
+          "clicks": 0,
+          "impressions": 134,
+          "ctr": 0,
+          "position": 39.14179104477612
+        },
+        "page": null,
+        "pageNoSlash": null,
+        "previousPage": null
+      },
+      "minimumEvidence": {
+        "requiredPageImpressions": 30,
+        "met": false
+      },
+      "technicalResult": "confirmed",
+      "effectResult": "inconclusive",
+      "inspectionEvidenceReusedFrom": "reports/seo/inspections/2026-11-02-due-pages.json",
+      "liveTechnicalEvidencePath": "reports/seo/validation/2026-11-05-article-dates-live.json",
+      "nextEffectCheck": "2026-11-19",
+      "note": "No exact-page rows returned; missing not zero. Original fixed result and source/service freeze preserved; no article rewrite solely for unknown index."
+    }
+  ]
+}

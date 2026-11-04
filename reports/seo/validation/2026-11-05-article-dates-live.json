@@ -1,0 +1,280 @@
+{
+  "checkedAt": "2026-11-04T23:12:41.528Z",
+  "mode": "live",
+  "passed": true,
+  "indexablePages": 35,
+  "articleCount": 24,
+  "onlySixSourceUpdatedAtChanged": true,
+  "all35BodiesUnchanged": true,
+  "other29HeadsUnchanged": true,
+  "sixHeadsOnlyModifiedDateChanged": true,
+  "publishedAndDisplayedDatesUnchanged": true,
+  "aliasFileUnchanged": true,
+  "sitemapChanges": [
+    {
+      "url": "https://ai.gami.jp/insights/ai-customer-reply-template/",
+      "before": "2026-09-06",
+      "after": "2026-10-17"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-website-launch-checklist/",
+      "before": "2026-09-06",
+      "after": "2026-10-21"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/rag-document-inventory-checklist/",
+      "before": "2026-09-05",
+      "after": "2026-10-09"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/chatgpt-workplace-adoption-checklist/",
+      "before": "2026-09-04",
+      "after": "2026-10-16"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-introduction-support-pricing/",
+      "before": "2026-09-04",
+      "after": "2026-10-12"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-introduction-support/",
+      "before": "2026-09-04",
+      "after": "2026-10-11"
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://ai.gami.jp/news/",
+      "status": 200,
+      "headBodyMatchBuild": true,
+      "bodyUnchanged": true,
+      "modifiedAt": null
+    },
+    {
+      "url": "https://ai.gami.jp/contact/",
+      "status": 200,
+      "headBodyMatchBuild": true,
+      "bodyUnchanged": true,
+      "modifiedAt": null
+    },
+    {
+      "url": "https://ai.gami.jp/insights/",
+      "status": 200,
+      "headBodyMatchBuild": true,
+      "bodyUnchanged": true,
+      "modifiedAt": null
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-inquiry-classification-checklist/",
+      "status": 200,
+      "headBodyMatchBuild": true,
+      "bodyUnchanged": true,
+      "modifiedAt": null
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-meeting-action-items-template/",
+      "status": 200,
+      "headBodyMatchBuild": true,
+      "bodyUnchanged": true,
+      "modifiedAt": null
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-customer-reply-template/",
+      "status": 200,
+      "headBodyMatchBuild": true,
+      "bodyUnchanged": true,
+      "modifiedAt": "2026-10-17"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-website-launch-checklist/",
+      "status": 200,
+      "headBodyMatchBuild": true,
+      "bodyUnchanged": true,
+      "modifiedAt": "2026-10-21"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/rag-document-inventory-checklist/",
+      "status": 200,
+      "headBodyMatchBuild": true,
+      "bodyUnchanged": true,
+      "modifiedAt": "2026-10-09"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/sodatsu-mitsumori-case-study/",
+      "status": 200,
+      "headBodyMatchBuild": true,
+      "bodyUnchanged": true,
+      "modifiedAt": null
+    },
+    {
+      "url": "https://ai.gami.jp/insights/chatgpt-workplace-adoption-checklist/",
+      "status": 200,
+      "headBodyMatchBuild": true,
+      "bodyUnchanged": true,
+      "modifiedAt": "2026-10-16"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-introduction-support-pricing/",
+      "status": 200,
+      "headBodyMatchBuild": true,
+      "bodyUnchanged": true,
+      "modifiedAt": "2026-10-12"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-introduction-support/",
+      "status": 200,
+      "headBodyMatchBuild": true,
+      "bodyUnchanged": true,
+      "modifiedAt": "2026-10-11"
+    }
+  ],
+  "assets": [
+    {
+      "file": "About-Dj6Ph6Gy.js",
+      "sha256": "447cb46f2f99165c38b7e9a4e082795d7eb5f02788564dcf481f5b9654465101",
+      "match": true
+    },
+    {
+      "file": "arrow-right-Dv3Noc9W.js",
+      "sha256": "b4fc16ca5e501862d33e099f5940196ae7d06c4fb086fd1b5b177f45350470d5",
+      "match": true
+    },
+    {
+      "file": "Concept-CPUW2naW.js",
+      "sha256": "3316dab3b557fc093e92a2a71663107b897c2b19ce08f00e87169b085c38ba01",
+      "match": true
+    },
+    {
+      "file": "Contact-Byh1EP4e.js",
+      "sha256": "afa49678abd412acfbecfd0e367689527ed8b52a8ff8d3fc037959ec22709cab",
+      "match": true
+    },
+    {
+      "file": "ContactThanks-CfB5ZGeR.js",
+      "sha256": "0b2131f9d3430f2adfe06054602192795803b17b3d0b342c5560c4346e623849",
+      "match": true
+    },
+    {
+      "file": "createLucideIcon-ktPKowAY.js",
+      "sha256": "28f49f6066d44b8cac311aa9224c025099e337f2e315b01aa3df6be50c7b69f5",
+      "match": true
+    },
+    {
+      "file": "Footer-Cm6gOxA8.js",
+      "sha256": "6249e631cb9447ad978293c737b66b7dc9677bf88e79cf040598f17211c50ff9",
+      "match": true
+    },
+    {
+      "file": "GeometricParticles-BSQ9CPYf.js",
+      "sha256": "7316ff85466445e459ab23f83613483ca9895d47f21c7698f06400f05ce84811",
+      "match": true
+    },
+    {
+      "file": "Header-CmV6zITs.js",
+      "sha256": "013ff6c9e6cb53b42e45f9610894720a788d492c41893142c053410e04cf728a",
+      "match": true
+    },
+    {
+      "file": "Home-C_IrMm0m.js",
+      "sha256": "bff2ee3bdd37e54a9f30d0fe8c70f86b79cdc623ffcf8b1192c43fbb7551f182",
+      "match": true
+    },
+    {
+      "file": "index-BSUbwp1T.css",
+      "sha256": "f64e0ace97d75ca48b6f02738a4ee41ac0423211d866589eb463ef390411b651",
+      "match": true
+    },
+    {
+      "file": "index-BZSyN3q_.js",
+      "sha256": "970a07e979b6e43eee8a9e8a3f84f75ea47a976d3c1aa1e7276db9970f142c5e",
+      "match": true
+    },
+    {
+      "file": "InquiryCta-DguqLaHP.js",
+      "sha256": "3c21f1a7fc540734f2f5f74bfbdadc22ae0c1f08ff12b3718cfa29306bfdc30b",
+      "match": true
+    },
+    {
+      "file": "InsightDetail-CBqzIXXY.js",
+      "sha256": "dcc8f36db8e0eed85b55c778d8e7b0822a523e238472ce1fffdb1e123f40c79a",
+      "match": true
+    },
+    {
+      "file": "Insights-rFV7h3E7.js",
+      "sha256": "810a7985832cd745c133084fb31433f88cc8292a2a1f95c03c336de065fa865a",
+      "match": true
+    },
+    {
+      "file": "News-CET6nNBr.js",
+      "sha256": "ff16c7ee4392c0139153ed9234d046b7a7115ea4b96c6f0be3ab7303cf64e4ac",
+      "match": true
+    },
+    {
+      "file": "NotFound-DZWV0Gwf.js",
+      "sha256": "0296deb0976187f8aae0588401c72b915375e69d98f0c95e33b86331a2b123d0",
+      "match": true
+    },
+    {
+      "file": "PageSeo-DB40ryeo.js",
+      "sha256": "a6288ead4fc3571966443b640e9908e22dc77d46c77eebac0a9d733398b154b8",
+      "match": true
+    },
+    {
+      "file": "Price-B7VtA6r4.js",
+      "sha256": "c1f663811be4dcc9ee366a9c15e1cb22bf8f7b8f4f001f1dca5c8469f0341662",
+      "match": true
+    },
+    {
+      "file": "proxy-ncDTtpxq.js",
+      "sha256": "93c58e59b10a71d0de23c0e2f815c7a198592b0c1b11cc45ca10ac8b167c8701",
+      "match": true
+    },
+    {
+      "file": "ScrollReveal-DzMmAmp3.js",
+      "sha256": "46c7fab9b28f6c6c352418f0e0819eedbb03d6335b5f44710b34033a49b95134",
+      "match": true
+    },
+    {
+      "file": "ScrollToTopLink-COvFxe5R.js",
+      "sha256": "b4b4f041fd8fe8f9cd4d833375695edbc3c733cb981049e6b0aca0e87b40997e",
+      "match": true
+    },
+    {
+      "file": "ServiceDetail-DOphZJSb.js",
+      "sha256": "2fee8f7c059a42db1a5208136c4bfb051af8a052b7b5abca2c238c09c0c3cc23",
+      "match": true
+    },
+    {
+      "file": "Services-4hE7APxt.js",
+      "sha256": "45ee0a0fe97172c8854f0520f9344963a9519c5a33b064ccdd6e68c77da6f302",
+      "match": true
+    },
+    {
+      "file": "services-7tbH4XXE.js",
+      "sha256": "2eb2940e15242abb2bd3ed87fd93c03341b370ef2962a809a84a5ee603573a52",
+      "match": true
+    }
+  ],
+  "resources": [
+    {
+      "file": "source.pdf",
+      "status": 200,
+      "sha256": "ff365eb42be7b57d15486e6ac53e2ec53499cce123ca739d6f668713b92c7ef3",
+      "match": true
+    },
+    {
+      "file": "answer.csv",
+      "status": 200,
+      "sha256": "ac16576e4135235fe432306a361cc188845b5d6d0ab8e5523f7bc01780b22647",
+      "match": true
+    },
+    {
+      "file": "check.tsv",
+      "status": 200,
+      "sha256": "d1dca6bb067e62213a8f052d37bd5154ceda70dd3571764045551977b8396842",
+      "match": true
+    }
+  ],
+  "liveSitemapMatches": "updated build",
+  "browserDecision": "No layout, copy, display date or renderer change; all35 initial bodies exact unchanged. No redundant desktop/mobile screenshots for six metadata-only fields."
+}

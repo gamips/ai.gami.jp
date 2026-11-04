@@ -1,0 +1,87 @@
+{
+  "verifiedAt": "2026-11-04T23:12:41.528Z",
+  "experimentId": "article-content-lastmod-correction-v1",
+  "commit": "a0d06baad7df73c4c07475436e27159466ba627a",
+  "baselineCommit": "1f848b7a0e019d820c184d23af574204c8e56d6a",
+  "method": "GitHub Actions normal Xserver deploy",
+  "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/41931672798",
+  "actionsStatus": "completed",
+  "actionsConclusion": "success",
+  "actionsCompletedAt": "2026-11-04T23:11:43Z",
+  "publicationResult": "verified",
+  "technicalResult": "confirmed",
+  "acquisitionEffect": "not-yet-measurable",
+  "changes": [
+    {
+      "url": "https://ai.gami.jp/insights/ai-customer-reply-template/",
+      "before": "2026-09-06",
+      "after": "2026-10-17"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-website-launch-checklist/",
+      "before": "2026-09-06",
+      "after": "2026-10-21"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/rag-document-inventory-checklist/",
+      "before": "2026-09-05",
+      "after": "2026-10-09"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/chatgpt-workplace-adoption-checklist/",
+      "before": "2026-09-04",
+      "after": "2026-10-16"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-introduction-support-pricing/",
+      "before": "2026-09-04",
+      "after": "2026-10-12"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-introduction-support/",
+      "before": "2026-09-04",
+      "after": "2026-10-11"
+    }
+  ],
+  "scope": "Six updatedAt fields only. Historical section-link publication dates reflected in dateModified/article:modified_time/sitemap. No new content update implied.",
+  "build": "passed after npm ci restored missing local dependencies",
+  "buildRecovery": {
+    "initialFailure": "vite executable missing",
+    "action": "npm ci --no-audit --no-fund from existing lockfile",
+    "packageAndLockUnchanged": true,
+    "secondBuild": "passed"
+  },
+  "diffCheck": "passed before commit and push",
+  "sourceArticleCount": 24,
+  "indexablePages": 35,
+  "unchangedInitialBodies": 35,
+  "unchangedOtherHeads": 29,
+  "livePages": 12,
+  "liveAssets": 25,
+  "liveResources": 3,
+  "aliasRulesUnchanged": true,
+  "planEvidencePath": "reports/seo/technical/2026-11-05-article-dates-plan.json",
+  "predeployEvidencePath": "reports/seo/validation/2026-11-05-article-dates-predeploy.json",
+  "liveEvidencePath": "reports/seo/validation/2026-11-05-article-dates-live.json",
+  "browserVerification": "No layout, copy, display date or renderer change; all35 initial bodies exact unchanged. No redundant desktop/mobile screenshots for six metadata-only fields.",
+  "reviewer": "nov5_metadata_review",
+  "limitations": [
+    "Google recrawl and acquisition effect unconfirmed.",
+    "Xserver application logs unavailable; no server-log verification claim."
+  ],
+  "publicationPacificDate": "2026-11-04",
+  "firstFullPostChangeWindow": {
+    "startDate": "2026-11-05",
+    "endDate": "2026-12-02"
+  },
+  "nextChecks": [
+    {
+      "onOrAfter": "2026-11-12",
+      "check": "Bounded six-page crawl followup; reuse already due canonical inspections. Dates in metadata do not prove recrawl."
+    },
+    {
+      "onOrAfter": "2026-12-06",
+      "check": "Descriptive page signals after28fullPacificdates November5–December2 finalized and >=30 relevant pageimpressions. Keep existing article/link changes as confounds; no isolated causal attribution."
+    }
+  ]
+}

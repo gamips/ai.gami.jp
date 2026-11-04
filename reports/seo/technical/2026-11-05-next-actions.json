@@ -1,0 +1,75 @@
+{
+  "preparedAt": "2026-11-04T23:12:28.442Z",
+  "status": "ready_to_implement",
+  "lane": "internal-link",
+  "work": "AIマーケティングの問い合わせ一次整理から、既存の分類基準シートへ1リンクを加える。",
+  "sourceUrl": "https://ai.gami.jp/services/ai-marketing/",
+  "targetUrl": "https://ai.gami.jp/insights/ai-inquiry-classification-checklist/",
+  "evidence": [
+    "reports/seo/inspections/2026-10-22-due-pages.json",
+    "reports/seo/inspections/2026-10-29-due-pages.json",
+    "reports/seo/inspections/2026-11-05-due-pages.json",
+    "reports/seo/metrics/2026-10-30-effect-review.json"
+  ],
+  "live": [
+    {
+      "url": "https://ai.gami.jp/services/ai-marketing/",
+      "status": 200,
+      "selfCanonical": true,
+      "indexAllowed": true,
+      "classificationLinks": 0,
+      "replyLinks": 1,
+      "factCheckLinks": 1
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-inquiry-classification-checklist/",
+      "status": 200,
+      "selfCanonical": true,
+      "indexAllowed": true,
+      "classificationLinks": 0,
+      "replyLinks": 0,
+      "factCheckLinks": 0
+    }
+  ],
+  "reason": "Target unknown in3scheduled inspections, source200/indexable with natural AGENT/SUPPORT fit and no current target link. Preserve target article; improve one relevant entry point without assuming indexing cause.",
+  "insertion": "AGENT / SUPPORT: after 問い合わせ一次整理、営業メール、FAQ回答の下書き化",
+  "anchorDraft": "問い合わせの分類基準シートを見る",
+  "draftModel": "gpt-6.1-sol",
+  "draftAgent": "nov5_link_copy",
+  "rootReview": "Concise, accurate destination label; existing link presentation only, no additional explanation.",
+  "implementation": [
+    "Use existing section links in src/app/content/services.ts.",
+    "In src/app/seo/pageSeo.js use existing links support for this section, keeping reply link alongside classification link.",
+    "Set service lastModified to actual publication day; retain title/description, other copy, article dates, CSS and renderer."
+  ],
+  "existingExperimentDecision": {
+    "experimentId": "service-ai-marketing-fact-check-link-v1",
+    "originalFreezeEnded": "2026-10-30",
+    "first28FullDayResult": "inconclusive",
+    "sourceImpressions": 3,
+    "targetPage": null,
+    "actionBeforeNextPublication": "Explicitly close/reprioritize existing source experiment while retaining existing link and historical followups Nov10/13. Follow Nov1 SaaS precedent; no indefinite freeze extension.",
+    "nextChecksPreserved": [
+      "2026-11-10",
+      "2026-11-13"
+    ],
+    "notClosedToday": true
+  },
+  "confoundsToRecord": [
+    "service-ai-marketing-fact-check-link-v1",
+    "insight-ai-inquiry-classification-checklist-v1",
+    "generated-index-alias-redirects-v1"
+  ],
+  "targetObservationDateRetained": "2026-11-15",
+  "validation": [
+    "Before UI implementation use existing design and targeted Lazyweb reference per canonical policy.",
+    "Build; initial/hydrated target link1 and oldreply/factlinks1each; realclick; scopeddesktop/mobile.",
+    "Start nextfullPTday28daywindow; >=30targetimpressions before descriptive effect review. Missing remainsnull."
+  ],
+  "effect": "not-yet-measurable",
+  "implemented": false,
+  "noExternalSubmission": true,
+  "reviewer": "nov5_next_action",
+  "liveChecksCompletedAt": "2026-11-04T23:12:28.442Z",
+  "liveEvidenceNote": "Root HTTP checks completed immediately before preparedAt; distinct from earlier subagent spot checks."
+}

@@ -1,0 +1,50 @@
+{
+  "checkedAt": "2026-11-04T23:10:56.733Z",
+  "mode": "predeploy",
+  "passed": true,
+  "indexablePages": 35,
+  "articleCount": 24,
+  "onlySixSourceUpdatedAtChanged": true,
+  "all35BodiesUnchanged": true,
+  "other29HeadsUnchanged": true,
+  "sixHeadsOnlyModifiedDateChanged": true,
+  "publishedAndDisplayedDatesUnchanged": true,
+  "aliasFileUnchanged": true,
+  "sitemapChanges": [
+    {
+      "url": "https://ai.gami.jp/insights/ai-customer-reply-template/",
+      "before": "2026-09-06",
+      "after": "2026-10-17"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-website-launch-checklist/",
+      "before": "2026-09-06",
+      "after": "2026-10-21"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/rag-document-inventory-checklist/",
+      "before": "2026-09-05",
+      "after": "2026-10-09"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/chatgpt-workplace-adoption-checklist/",
+      "before": "2026-09-04",
+      "after": "2026-10-16"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-introduction-support-pricing/",
+      "before": "2026-09-04",
+      "after": "2026-10-12"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-introduction-support/",
+      "before": "2026-09-04",
+      "after": "2026-10-11"
+    }
+  ],
+  "pages": [],
+  "assets": [],
+  "resources": [],
+  "liveSitemapMatches": "baseline",
+  "browserDecision": "No layout, copy, display date or renderer change; all35 initial bodies exact unchanged. No redundant desktop/mobile screenshots for six metadata-only fields."
+}

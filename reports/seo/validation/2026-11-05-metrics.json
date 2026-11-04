@@ -1,0 +1,23 @@
+{
+  "checkedAt": "2026-11-04T23:12:28.278Z",
+  "status": "passed_with_caveats",
+  "independentReviewer": "nov5_next_action",
+  "groups": 14,
+  "rows": 75,
+  "positiveCtrRowsMatched": 74,
+  "explicitZeroDenominatorRows": 1,
+  "normalizedValueDimensionCountMismatches": 0,
+  "deviceTotalsAndWeightedPositionMatch": true,
+  "windowsMatchFreshness": true,
+  "qualifiedOrganicVisits": null,
+  "organicInquiries": null,
+  "completeNonBrandTraffic": false,
+  "uniqueInspections": 3,
+  "effectReviews": 2,
+  "additionalFixedPeriodQueries": 0,
+  "caveats": [
+    "Disclosed nonbrand queries incomplete; brand-exclusion does not confirm intent.",
+    "Zero-denominator PriceNoSlash row retained; interpreted CTR/position null.",
+    "Two old crawls and one unknown do not prove post-change recognition."
+  ]
+}

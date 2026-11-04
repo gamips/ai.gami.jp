@@ -1,0 +1,107 @@
+{
+  "preparedAt": "2026-11-04T23:08:49.315Z",
+  "status": "implemented_pending_validation",
+  "lane": "technical-seo",
+  "work": "本文の節へリンクを追加した既存6記事の更新日を、確認済みの公開日に合わせる。",
+  "audit": {
+    "existingArticlesReviewed": 23,
+    "currentArticleCount": 24,
+    "candidateCount": 6,
+    "newPdfArticleDatesCorrect": true
+  },
+  "candidates": [
+    {
+      "slug": "rag-document-inventory-checklist",
+      "url": "https://ai.gami.jp/insights/rag-document-inventory-checklist/",
+      "currentUpdatedAt": "2026-09-05",
+      "correctUpdatedAt": "2026-10-09",
+      "evidencePath": "reports/seo/deployments/2026-10-09-rag-review-link.json",
+      "publishedAt": "2026-10-08T23:10:23.2420626Z",
+      "commit": "aaba66eabbf8187743f0da3e7be255dc517ebcd3"
+    },
+    {
+      "slug": "ai-introduction-support",
+      "url": "https://ai.gami.jp/insights/ai-introduction-support/",
+      "currentUpdatedAt": "2026-09-04",
+      "correctUpdatedAt": "2026-10-11",
+      "evidencePath": "reports/seo/deployments/2026-10-11-time-sheet-link.json",
+      "publishedAt": "2026-10-11T00:25:53.6773167Z",
+      "commit": "634be01edff54dfdf7e8c3dc308e599639d439d1"
+    },
+    {
+      "slug": "ai-introduction-support-pricing",
+      "url": "https://ai.gami.jp/insights/ai-introduction-support-pricing/",
+      "currentUpdatedAt": "2026-09-04",
+      "correctUpdatedAt": "2026-10-12",
+      "evidencePath": "reports/seo/deployments/2026-10-12-pricing-link.json",
+      "publishedAt": "2026-10-11T23:27:27.9504413Z",
+      "commit": "568b92997a0a73e8ef6f2306e4389b2df6e2c3e6"
+    },
+    {
+      "slug": "chatgpt-workplace-adoption-checklist",
+      "url": "https://ai.gami.jp/insights/chatgpt-workplace-adoption-checklist/",
+      "currentUpdatedAt": "2026-09-04",
+      "correctUpdatedAt": "2026-10-16",
+      "evidencePath": "reports/seo/deployments/2026-10-16-adoption-procedure-link.json",
+      "publishedAt": "2026-10-15T23:06:45.0185739Z",
+      "commit": "e44715f72e435b7f5027901ee41adef7d95104bb"
+    },
+    {
+      "slug": "ai-customer-reply-template",
+      "url": "https://ai.gami.jp/insights/ai-customer-reply-template/",
+      "currentUpdatedAt": "2026-09-06",
+      "correctUpdatedAt": "2026-10-17",
+      "evidencePath": "reports/seo/deployments/2026-10-17-reply-handoff-link.json",
+      "publishedAt": "2026-10-16T23:10:58.5950235Z",
+      "commit": "84868700e3069a52343526075c44141cb0d8e79d"
+    },
+    {
+      "slug": "ai-website-launch-checklist",
+      "url": "https://ai.gami.jp/insights/ai-website-launch-checklist/",
+      "currentUpdatedAt": "2026-09-06",
+      "correctUpdatedAt": "2026-10-21",
+      "evidencePath": "reports/seo/deployments/2026-10-21-launch-change-link.json",
+      "publishedAt": "2026-10-20T23:05:33.9214865Z",
+      "commit": "d4e4afc7ebe88d3ca330c0de435ea968ea2b1205"
+    }
+  ],
+  "scope": "Only six updatedAt fields. Existing single source updates sitemap lastmod, Article dateModified and article:modified_time. PublishedAt/dateLabel/body/head title-description/links stay unchanged.",
+  "excluded": {
+    "slug": "sodatsu-mitsumori-case-study",
+    "reason": "Original case-document-preservation-clarification-v1 explicitly classified change as minor and preserved dates. No new evidence to overturn that decision.",
+    "evidencePath": "docs/seo/experiments.jsonl"
+  },
+  "freezeHandling": "Correct confirmed metadata inconsistency, not discretionary content rewrite during observation. Preserve starts, baselines and scheduled checks. Record prospective confounds and assess existing dates/head freeze notes before release.",
+  "plannedValidation": [
+    "Confirm actual deployed content/link date for all six; never use rebuild date.",
+    "Build and confirm exactly six updatedAt values change expected dateModified/modified_time/sitemap.",
+    "Verify unchanged body, displayed publication dates and all other article dates.",
+    "Verify live metadata after one normal deploy."
+  ],
+  "rollback": "Revert only affected updatedAt values if the historical publication basis is disproved.",
+  "sourcesCheckedOn": "2026-11-05",
+  "sourceUrls": [
+    "https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap",
+    "https://developers.google.com/search/docs/appearance/publication-dates"
+  ],
+  "reviewer": "nov5_metadata_review",
+  "rootReview": "Accepted six-item correction; seventh initial candidate excluded after checking explicit minor-edit decision. Not yet implemented.",
+  "acquisitionEffect": "not-yet-measurable",
+  "indexingCauseEstablished": false,
+  "baselineCommit": "1f848b7a0e019d820c184d23af574204c8e56d6a",
+  "experimentId": "article-content-lastmod-correction-v1",
+  "dateDecision": "Six substantive contextual section-link additions; correct historical updatedAt only. Explicit metadata-correction exception to dates/head freeze. Keep source/target starts, old windows, review dates and publication display unchanged. Minor case-study date intentionally untouched.",
+  "officialSources": {
+    "sitemap": {
+      "url": "https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap",
+      "checked": true,
+      "summary": "lastmod reflects last significant content, structured data or link update; use verified historical date, never rebuild date."
+    },
+    "publicationDates": {
+      "url": "https://developers.google.com/search/docs/appearance/publication-dates",
+      "checkedToday": false,
+      "reason": "Web fetch timed out; prior Nov4 evidence retained, not represented as fresh."
+    }
+  },
+  "technicalResult": "pending"
+}
