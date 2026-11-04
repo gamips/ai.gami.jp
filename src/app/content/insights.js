@@ -1140,7 +1140,7 @@ export const insights = [
     path: "/insights/ai-customer-reply-template",
     category: "AI活用",
     publishedAt: "2026-09-06",
-    updatedAt: "2026-09-06",
+    updatedAt: "2026-10-17",
     dateLabel: "2026.09.06",
     title: "AIで問い合わせ返信を下書きする｜記入式テンプレート",
     description:
@@ -1214,7 +1214,7 @@ export const insights = [
     path: "/insights/ai-website-launch-checklist",
     category: "AI Web制作",
     publishedAt: "2026-09-06",
-    updatedAt: "2026-09-06",
+    updatedAt: "2026-10-21",
     dateLabel: "2026.09.06",
     title: "AIで作ったサイトを公開する前に｜6つのチェック",
     description:
@@ -1285,7 +1285,7 @@ export const insights = [
     path: "/insights/rag-document-inventory-checklist",
     category: "AI導入",
     publishedAt: "2026-09-05",
-    updatedAt: "2026-09-05",
+    updatedAt: "2026-10-09",
     dateLabel: "2026.09.05",
     title: "RAG導入前の社内資料整理｜棚卸しチェックリスト",
     description:
@@ -1443,7 +1443,7 @@ export const insights = [
     path: "/insights/chatgpt-workplace-adoption-checklist",
     category: "AI活用",
     publishedAt: "2026-09-04",
-    updatedAt: "2026-09-04",
+    updatedAt: "2026-10-16",
     dateLabel: "2026.09.04",
     title: "ChatGPTが社内で使われない理由｜定着を確認する7項目",
     description:
@@ -1531,7 +1531,7 @@ export const insights = [
     path: "/insights/ai-introduction-support-pricing",
     category: "AI導入",
     publishedAt: "2026-09-04",
-    updatedAt: "2026-09-04",
+    updatedAt: "2026-10-12",
     dateLabel: "2026.09.04",
     title: "AI導入の費用は何で変わる？見積もりを左右する5要素",
     description:
@@ -1628,7 +1628,7 @@ export const insights = [
     path: "/insights/ai-introduction-support",
     category: "AI導入",
     publishedAt: "2026-09-04",
-    updatedAt: "2026-09-04",
+    updatedAt: "2026-10-11",
     dateLabel: "2026.09.04",
     title: "AI導入支援とは？小さく始めるための5つの整理",
     description:
