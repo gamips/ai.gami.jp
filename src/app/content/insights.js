@@ -2,6 +2,93 @@ export const insightsIntro = "仕事にAIを取り入れる前に知っておき
 
 export const insights = [
   {
+    "slug": "ai-pdf-extraction-checklist",
+    "path": "/insights/ai-pdf-extraction-checklist",
+    "category": "AI活用",
+    "publishedAt": "2026-11-04",
+    "updatedAt": "2026-11-04",
+    "dateLabel": "2026.11.04",
+    "title": "AIでPDFの表を読み取った後に｜原本と照合する練習セット",
+    "description": "AIでPDFから取り出した表を、ページ・行・項目ごとに原本と比べる練習セットです。架空の2ページPDF、正解CSV、照合用TSVを使い、見出しの混入、数量の取り違え、単位の変更を確認します。",
+    "lead": "PDFから取り出した表は、原本と並べて確認します。行の数が合っていても、数量や単位が別の行と入れ替わっているかもしれません。架空の備品一覧を使い、どこが違うかを記録する練習セットを用意しました。",
+    "sections": [
+      {
+        "id": "source-pdf",
+        "title": "原本PDF：2ページ、4行の備品一覧",
+        "paragraphs": [
+          "練習用PDFには、各ページに同じ列見出しと2行の備品を載せています。すべて架空のデータです。まず原本を開き、各行の品名、数量、単位、入数を確認してください。"
+        ],
+        "items": [
+          "1ページ目・1行目：封筒、2箱、100枚入。",
+          "1ページ目・2行目：クリアファイル、4袋、10枚入。",
+          "2ページ目・1行目：ノート、3冊。",
+          "2ページ目・2行目：付箋、5個。"
+        ],
+        "link": {
+          "label": "練習用の原本PDFを開く",
+          "href": "/assets/files/insights/ai-pdf-extraction-checklist/source.pdf",
+          "external": true
+        }
+      },
+      {
+        "id": "answer-csv",
+        "title": "正解CSV：数量と単位を原本どおりに残す",
+        "paragraphs": [
+          "正解CSVには、ページ番号、ページ内の行番号、品名、数量、単位、入数を記録しています。行番号は各ページの明細を上から数え、見出しは含めません。入数がない欄は「-」としています。",
+          "封筒の数量は「2」、単位は「箱」です。「100枚入」は1箱の入数なので、この練習では「200枚」へ換算せず、原本の数量と単位をそのまま残します。"
+        ],
+        "link": {
+          "label": "正解CSVを開く",
+          "href": "/assets/files/insights/ai-pdf-extraction-checklist/answer.csv",
+          "external": true
+        }
+      },
+      {
+        "id": "reconciliation-tsv",
+        "title": "照合TSV：違った場所と直す値を記録する",
+        "paragraphs": [
+          "照合用TSVは、確認結果を書き込む空欄のシートです。表計算ソフトで開き、原本のページ・行・項目、取り出した値、原本の値、対応を残します。",
+          "AIで試す場合は、使うツールがPDF入力に対応しているかを確認し、原本の数量と単位を変えずに表へ取り出すよう伝えます。AIを使わず、次の誤り例をシートへ記録する練習にも使えます。"
+        ],
+        "link": {
+          "label": "空欄の照合用TSVを開く",
+          "href": "/assets/files/insights/ai-pdf-extraction-checklist/check.tsv",
+          "external": true
+        }
+      },
+      {
+        "id": "deliberate-errors",
+        "title": "意図的に作った3つの誤りを見つける",
+        "paragraphs": [
+          "次の3つは、照合を練習するために意図的に作った誤りです。実際のAI出力や、AIの精度を示す結果ではありません。原本と正解CSVには、この誤りを入れていません。"
+        ],
+        "items": [
+          "見出しの混入：2ページ目の列見出しを、備品の明細として追加してしまう。原本の明細は全4行なので、追加された見出し行を除く。",
+          "隣の行の数量：1ページ目・1行目の封筒の数量を「4」にしてしまう。原本では「2」で、「4」は次のクリアファイルの数量。",
+          "単位の変更：封筒の単位を「箱」から「枚」にしてしまう。原本どおり「箱」へ直し、入数と数量を分けて扱う。"
+        ]
+      },
+      {
+        "id": "compare-with-source",
+        "title": "使う前に確認する5項目",
+        "paragraphs": [
+          "最後に、取り出した表の全4行を原本と比べます。違いがあれば照合用TSVへ残し、修正後にその箇所をもう一度確認します。"
+        ],
+        "items": [
+          "明細が4行あり、抜けや余分な行がないか。",
+          "ページごとの繰り返し見出しが明細に混ざっていないか。",
+          "品名と数量が、原本の同じ行に対応しているか。",
+          "数量、単位、入数を取り違えていないか。",
+          "元のページと行へ戻り、修正した値を確かめられるか。"
+        ],
+        "link": {
+          "label": "AIを業務に取り入れる支援を見る",
+          "href": "/services/ai-saas/"
+        }
+      }
+    ]
+  },
+  {
     "slug": "ai-text-shortening-checklist",
     "path": "/insights/ai-text-shortening-checklist",
     "category": "AI活用",
