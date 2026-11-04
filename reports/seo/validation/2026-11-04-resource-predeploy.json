@@ -1,0 +1,144 @@
+{
+  "checkedAt": "2026-11-04T00:04:57.814Z",
+  "mode": "predeploy",
+  "existing23ArticlesUnchanged": true,
+  "staticEntries": 37,
+  "indexableEntries": 35,
+  "articleCount": 24,
+  "pages": [
+    {
+      "url": "https://ai.gami.jp/insights/ai-pdf-extraction-checklist/",
+      "httpStatus": null,
+      "headAndBodyMatchBuild": null,
+      "schemaTypes": {
+        "Organization": 4,
+        "WebPage": 1,
+        "WebSite": 1,
+        "Article": 1,
+        "BreadcrumbList": 1,
+        "ListItem": 3
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/",
+      "httpStatus": null,
+      "headAndBodyMatchBuild": null,
+      "schemaTypes": {
+        "Organization": 2,
+        "CollectionPage": 1,
+        "WebSite": 1,
+        "ItemList": 1,
+        "ListItem": 26,
+        "BreadcrumbList": 1
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/services/ai-saas/",
+      "httpStatus": 200,
+      "headAndBodyMatchBuild": true,
+      "schemaTypes": {
+        "Organization": 3,
+        "WebPage": 1,
+        "WebSite": 1,
+        "Service": 1,
+        "Country": 1,
+        "BreadcrumbList": 1,
+        "ListItem": 3
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/rag-answer-review-sheet/",
+      "httpStatus": 200,
+      "headAndBodyMatchBuild": true,
+      "schemaTypes": {
+        "Organization": 4,
+        "WebPage": 1,
+        "WebSite": 1,
+        "Article": 1,
+        "BreadcrumbList": 1,
+        "ListItem": 3
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-website-launch-checklist/",
+      "httpStatus": 200,
+      "headAndBodyMatchBuild": true,
+      "schemaTypes": {
+        "Organization": 4,
+        "WebPage": 1,
+        "WebSite": 1,
+        "Article": 1,
+        "BreadcrumbList": 1,
+        "ListItem": 3
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/price/",
+      "httpStatus": 200,
+      "headAndBodyMatchBuild": true,
+      "schemaTypes": {
+        "Organization": 2,
+        "CollectionPage": 1,
+        "WebSite": 1,
+        "OfferCatalog": 1,
+        "Offer": 3,
+        "Service": 3,
+        "BreadcrumbList": 1,
+        "ListItem": 2
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-introduction-support-pricing/",
+      "httpStatus": 200,
+      "headAndBodyMatchBuild": true,
+      "schemaTypes": {
+        "Organization": 4,
+        "WebPage": 1,
+        "WebSite": 1,
+        "Article": 1,
+        "BreadcrumbList": 1,
+        "ListItem": 3
+      },
+      "indexAllowed": true
+    }
+  ],
+  "assets": [],
+  "redirects": [],
+  "sitemap": {
+    "urlCount": 35,
+    "articleAndListingLastmod": "2026-11-04",
+    "priorDatesPreserved": true,
+    "exactLiveMatch": false
+  },
+  "aliasRules": 35,
+  "resources": [
+    {
+      "path": "/assets/files/insights/ai-pdf-extraction-checklist/source.pdf",
+      "bytes": 36605,
+      "sha256": "ff365eb42be7b57d15486e6ac53e2ec53499cce123ca739d6f668713b92c7ef3",
+      "status": null,
+      "contentType": null
+    },
+    {
+      "path": "/assets/files/insights/ai-pdf-extraction-checklist/answer.csv",
+      "bytes": 159,
+      "sha256": "352a2ea2c9d3812f4684318b32fa3326881369d3774b319402ded70a764a1b74",
+      "status": null,
+      "contentType": null
+    },
+    {
+      "path": "/assets/files/insights/ai-pdf-extraction-checklist/check.tsv",
+      "bytes": 138,
+      "sha256": "9b0fe0fdeb1ca2d0227f43eba292d032cfd59999046129d25fe6fa6d1f148b35",
+      "status": null,
+      "contentType": null
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "pdfPages": 2,
+  "answerRows": 4,
+  "columns": 6,
+  "worksheetBlankRows": 8,
+  "pdfTextMatchesAnswer": true,
+  "allPagesVisuallyReviewed": true,
+  "deliberateErrorsRepresentable": 3,
+  "fictionalSourceAndErrorsLabeled": true,
+  "files": [
+    {
+      "name": "answer.csv",
+      "bytes": 154,
+      "sha256": "ac16576e4135235fe432306a361cc188845b5d6d0ab8e5523f7bc01780b22647"
+    },
+    {
+      "name": "check.tsv",
+      "bytes": 129,
+      "sha256": "d1dca6bb067e62213a8f052d37bd5154ceda70dd3571764045551977b8396842"
+    },
+    {
+      "name": "source.pdf",
+      "bytes": 36605,
+      "sha256": "ff365eb42be7b57d15486e6ac53e2ec53499cce123ca739d6f668713b92c7ef3"
+    }
+  ],
+  "renderingNote": "Poppler emitted unused fallback-font warnings; Japanese font embedded and both final page images reviewed without glyph/layout defects."
+}

@@ -1,0 +1,50 @@
+{
+  "verifiedAt": "2026-11-04T00:06:54.186Z",
+  "recordedAt": "2026-11-04T00:10:32.689Z",
+  "experimentId": "insight-ai-pdf-extraction-checklist-v1",
+  "commit": "1558c8495986b38a5d66ecdf2c588bd31a26f3f5",
+  "baselineCommit": "e35ada4901b3d695050adf66a8922fdf0cd74a2d",
+  "method": "GitHub Actions normal Xserver deploy",
+  "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/41744247843",
+  "actionsStatus": "completed",
+  "actionsConclusion": "success",
+  "actionsCompletedAt": "2026-11-04T00:06:35Z",
+  "publicationResult": "verified",
+  "technicalResult": "confirmed",
+  "acquisitionEffect": "not-yet-measurable",
+  "articleUrl": "https://ai.gami.jp/insights/ai-pdf-extraction-checklist/",
+  "articleCount": 24,
+  "indexablePages": 35,
+  "aliasEntries": 35,
+  "livePages": 7,
+  "assets": 25,
+  "resources": 3,
+  "predeployEvidencePath": "reports/seo/validation/2026-11-04-resource-predeploy.json",
+  "liveEvidencePath": "reports/seo/validation/2026-11-04-resource-live.json",
+  "browserEvidencePath": "reports/seo/validation/2026-11-04-resource-browser.json",
+  "resourceEvidencePath": "reports/seo/validation/2026-11-04-resource-files.json",
+  "build": "passed",
+  "diffCheck": "passed with reviewed data-format exceptions",
+  "formatReview": "Default cached diff check flagged intentional empty TSV cells and final blank line in generator. Commit/push proceeded before reviewing that nonzero result. After review, only those nonfunctional whitespace warnings were present; explicit whitespace exception check passed. No product defect found. Future dependent publication commands must follow review of check exit results.",
+  "byteReview": "Git normalizes CSV/TSV CRLF to LF. Local/public/dist text files normalized to committed bytes before final live hash and browser download comparison; predeploy report retains original local byte hashes.",
+  "publicationPacificDate": "2026-11-03",
+  "firstFullPostChangeWindow": {
+    "startDate": "2026-11-04",
+    "endDate": "2026-12-01"
+  },
+  "nextChecks": [
+    {
+      "onOrAfter": "2026-11-11",
+      "check": "First Google-index/crawl and descriptive query/page pickup."
+    },
+    {
+      "onOrAfter": "2026-12-05",
+      "check": "First28fullPacificdates November4–December1 finalized and >=30pageimpressions. Actual freshness controls; no causal/download/inquiry attribution."
+    }
+  ],
+  "limitations": [
+    "Google recognition and acquisition effect not yet measured.",
+    "Synthetic browser downloads are validation, not customer usage.",
+    "Xserver application logs unavailable; no server-log claim."
+  ]
+}

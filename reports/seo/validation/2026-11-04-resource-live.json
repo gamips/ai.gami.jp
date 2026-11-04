@@ -1,0 +1,301 @@
+{
+  "checkedAt": "2026-11-04T00:06:54.186Z",
+  "mode": "live",
+  "existing23ArticlesUnchanged": true,
+  "staticEntries": 37,
+  "indexableEntries": 35,
+  "articleCount": 24,
+  "pages": [
+    {
+      "url": "https://ai.gami.jp/insights/ai-pdf-extraction-checklist/",
+      "httpStatus": 200,
+      "headAndBodyMatchBuild": true,
+      "schemaTypes": {
+        "Organization": 4,
+        "WebPage": 1,
+        "WebSite": 1,
+        "Article": 1,
+        "BreadcrumbList": 1,
+        "ListItem": 3
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/",
+      "httpStatus": 200,
+      "headAndBodyMatchBuild": true,
+      "schemaTypes": {
+        "Organization": 2,
+        "CollectionPage": 1,
+        "WebSite": 1,
+        "ItemList": 1,
+        "ListItem": 26,
+        "BreadcrumbList": 1
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/services/ai-saas/",
+      "httpStatus": 200,
+      "headAndBodyMatchBuild": true,
+      "schemaTypes": {
+        "Organization": 3,
+        "WebPage": 1,
+        "WebSite": 1,
+        "Service": 1,
+        "Country": 1,
+        "BreadcrumbList": 1,
+        "ListItem": 3
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/rag-answer-review-sheet/",
+      "httpStatus": 200,
+      "headAndBodyMatchBuild": true,
+      "schemaTypes": {
+        "Organization": 4,
+        "WebPage": 1,
+        "WebSite": 1,
+        "Article": 1,
+        "BreadcrumbList": 1,
+        "ListItem": 3
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-website-launch-checklist/",
+      "httpStatus": 200,
+      "headAndBodyMatchBuild": true,
+      "schemaTypes": {
+        "Organization": 4,
+        "WebPage": 1,
+        "WebSite": 1,
+        "Article": 1,
+        "BreadcrumbList": 1,
+        "ListItem": 3
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/price/",
+      "httpStatus": 200,
+      "headAndBodyMatchBuild": true,
+      "schemaTypes": {
+        "Organization": 2,
+        "CollectionPage": 1,
+        "WebSite": 1,
+        "OfferCatalog": 1,
+        "Offer": 3,
+        "Service": 3,
+        "BreadcrumbList": 1,
+        "ListItem": 2
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-introduction-support-pricing/",
+      "httpStatus": 200,
+      "headAndBodyMatchBuild": true,
+      "schemaTypes": {
+        "Organization": 4,
+        "WebPage": 1,
+        "WebSite": 1,
+        "Article": 1,
+        "BreadcrumbList": 1,
+        "ListItem": 3
+      },
+      "indexAllowed": true
+    }
+  ],
+  "assets": [
+    {
+      "file": "About-C2Lp3xX_.js",
+      "sha256": "170d5fd5954c7bab0255bf17f20fa643ef5f1ad0d2e88f95376daa0a1af73dac",
+      "match": true
+    },
+    {
+      "file": "arrow-right-DzDvClQr.js",
+      "sha256": "0c982c24b14e3b65464148fb7b780082613b639700adbcc373dd7cabfa26e17c",
+      "match": true
+    },
+    {
+      "file": "Concept-DvWLKAhE.js",
+      "sha256": "43226ac582917438b78065f0e19d34a479f8e00330c077f7aee838b28601e81b",
+      "match": true
+    },
+    {
+      "file": "Contact-BMKZuIRk.js",
+      "sha256": "4e548fc055bb42692b6528a1f4aae7ae545d1e8ef708553f464dd40c7e1d2015",
+      "match": true
+    },
+    {
+      "file": "ContactThanks-C8rndkdk.js",
+      "sha256": "156b4ff3981f64ffa69325f666416a2a30340c493a2d53ffb34e384862225bfd",
+      "match": true
+    },
+    {
+      "file": "createLucideIcon-DNwGuewo.js",
+      "sha256": "088e6d5e2b1dffc2bffd74a36809b1d9f7819d8c3d8abeeb3a17c7ad31ba1286",
+      "match": true
+    },
+    {
+      "file": "Footer-JQehobW4.js",
+      "sha256": "d97349960af2e9e7cf08f95742486a4d7fcddb6c42dd1294fd126326b30190de",
+      "match": true
+    },
+    {
+      "file": "GeometricParticles-CdeW3zI4.js",
+      "sha256": "d3db9e1dc3488a2b37d4eee2398d1430ee8192c0de75527707390246e42fbd6a",
+      "match": true
+    },
+    {
+      "file": "Header-DJYYJI20.js",
+      "sha256": "9e132fac840508fa2778a7508df02f144d2db5b065e2a0af128dd2aeccc0778c",
+      "match": true
+    },
+    {
+      "file": "Home-B6YKOcYZ.js",
+      "sha256": "fad8ace3b3f73bcdf38dd218ec17b6e0060a637a8ff34e0c016801db591e873c",
+      "match": true
+    },
+    {
+      "file": "index-BSUbwp1T.css",
+      "sha256": "f64e0ace97d75ca48b6f02738a4ee41ac0423211d866589eb463ef390411b651",
+      "match": true
+    },
+    {
+      "file": "index-lfG6lMpH.js",
+      "sha256": "ba11f522eee6cc15af93c858d6d65419ebb1a0db5404e5e43bd43136aabf1c23",
+      "match": true
+    },
+    {
+      "file": "InquiryCta-IDISwysj.js",
+      "sha256": "837f45853beb72ee992e777b22bc587d7df6719bfd47987323305a420ffb5eb3",
+      "match": true
+    },
+    {
+      "file": "InsightDetail-CxGAIJD6.js",
+      "sha256": "c9caebf98607efe81da986e0359d5599c3415e730110014d1763919fd829b041",
+      "match": true
+    },
+    {
+      "file": "Insights-BAc5-ef1.js",
+      "sha256": "7a983b49f58b741ac75a34ac23a2e40c8b77cc06db91a7061774f1f15e205271",
+      "match": true
+    },
+    {
+      "file": "News-CGmti74X.js",
+      "sha256": "9df71115306b10f29f86ca57a149659cb28f3d5ec7ac55c7d4f16d597ad403e9",
+      "match": true
+    },
+    {
+      "file": "NotFound-DhF16fNG.js",
+      "sha256": "aebc64d553cf0d41b2f7c8c7552ccc462331ee3db91e000dcd1c7e96e6b16445",
+      "match": true
+    },
+    {
+      "file": "PageSeo-DPdGQPeq.js",
+      "sha256": "135fb44d611d1414ddda7fbe8ee37758b55fef504c3de9c68ee92f0343f47fbf",
+      "match": true
+    },
+    {
+      "file": "Price-mjHgvzZ6.js",
+      "sha256": "9a54745fbc57fb01287a8776711e71cd081d1339a02ba2900d80af9c6cc5b45c",
+      "match": true
+    },
+    {
+      "file": "proxy-CjcQ5xlW.js",
+      "sha256": "58b0b9aa8cafb4a884de716f5beed4d29b45f4406394bf816642724c48c6b658",
+      "match": true
+    },
+    {
+      "file": "ScrollReveal-DwliE8Cz.js",
+      "sha256": "1ddcc3d439c550d80315c064eee0a534eaa4dc00f6245af645549ef400de0e5c",
+      "match": true
+    },
+    {
+      "file": "ScrollToTopLink-DmczJmhg.js",
+      "sha256": "a798b3e5d52dc6eacdd7a11e4db2d7692d509b2a5857c0e2cdc8d509763497f0",
+      "match": true
+    },
+    {
+      "file": "ServiceDetail-YXYiAxZR.js",
+      "sha256": "43e8b21c92b152c4238739ef8be7d20e9ceb87badaf22a79e0c5a9aca309b78c",
+      "match": true
+    },
+    {
+      "file": "Services-D8mnjWPr.js",
+      "sha256": "68e2c7b6d0439897c9f29845205ca0a8e80f01fbadc64eefe2c62b9a551163d9",
+      "match": true
+    },
+    {
+      "file": "services-DXYWWWGj.js",
+      "sha256": "39871857780b893f8c69664caf78bfc619538186c3471ae667d97dbda4e677d3",
+      "match": true
+    }
+  ],
+  "redirects": [
+    {
+      "url": "https://ai.gami.jp/insights/ai-pdf-extraction-checklist/index.html",
+      "status": 301,
+      "location": "https://ai.gami.jp/insights/ai-pdf-extraction-checklist/"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-pdf-extraction-checklist/index.html?check=nov4",
+      "status": 301,
+      "location": "https://ai.gami.jp/insights/ai-pdf-extraction-checklist/?check=nov4"
+    },
+    {
+      "url": "http://ai.gami.jp/insights/ai-pdf-extraction-checklist/index.html",
+      "status": 301,
+      "location": "https://ai.gami.jp/insights/ai-pdf-extraction-checklist/"
+    },
+    {
+      "url": "http://ai.gami.jp/insights/ai-pdf-extraction-checklist/index.html?check=nov4",
+      "status": 301,
+      "location": "https://ai.gami.jp/insights/ai-pdf-extraction-checklist/?check=nov4"
+    },
+    {
+      "url": "https://ai.gami.jp/about/index.html?check=nov4",
+      "status": 301,
+      "location": "https://ai.gami.jp/about/?check=nov4"
+    },
+    {
+      "url": "https://ai.gami.jp/index.html?check=nov4",
+      "status": 301,
+      "location": "https://ai.gami.jp/?check=nov4"
+    }
+  ],
+  "sitemap": {
+    "urlCount": 35,
+    "articleAndListingLastmod": "2026-11-04",
+    "priorDatesPreserved": false,
+    "exactLiveMatch": true
+  },
+  "aliasRules": 35,
+  "resources": [
+    {
+      "path": "/assets/files/insights/ai-pdf-extraction-checklist/source.pdf",
+      "bytes": 36605,
+      "sha256": "ff365eb42be7b57d15486e6ac53e2ec53499cce123ca739d6f668713b92c7ef3",
+      "status": 200,
+      "contentType": "application/pdf"
+    },
+    {
+      "path": "/assets/files/insights/ai-pdf-extraction-checklist/answer.csv",
+      "bytes": 154,
+      "sha256": "ac16576e4135235fe432306a361cc188845b5d6d0ab8e5523f7bc01780b22647",
+      "status": 200,
+      "contentType": "text/csv"
+    },
+    {
+      "path": "/assets/files/insights/ai-pdf-extraction-checklist/check.tsv",
+      "bytes": 129,
+      "sha256": "d1dca6bb067e62213a8f052d37bd5154ceda70dd3571764045551977b8396842",
+      "status": 200,
+      "contentType": "text/tab-separated-values"
+    }
+  ],
+  "passed": true
+}

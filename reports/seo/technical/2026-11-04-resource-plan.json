@@ -1,0 +1,49 @@
+{
+  "plannedAt": "2026-11-04T00:05:40.995Z",
+  "experimentId": "insight-ai-pdf-extraction-checklist-v1",
+  "lane": "original-resource",
+  "baselineCommit": "e35ada4901b3d695050adf66a8922fdf0cd74a2d",
+  "baselineMetricsPath": "reports/seo/metrics/2026-11-04-current.json",
+  "draftEvidencePath": "reports/seo/technical/2026-11-04-resource-draft.json",
+  "resourceValidationPath": "reports/seo/validation/2026-11-04-resource-files.json",
+  "predeployEvidencePath": "reports/seo/validation/2026-11-04-resource-predeploy.json",
+  "url": "https://ai.gami.jp/insights/ai-pdf-extraction-checklist/",
+  "hypothesis": "A usable fictional source/answer/reconciliation kit addresses checking extracted PDF table values and may attract relevant visitors; demand and effect unverified.",
+  "scope": "One new article with three original files, generated listing/head/schema/sitemap/alias. Existing23articles and shared UI unchanged.",
+  "freezeScope": "New article text/head/service link and resource data through initial review, except factual or technical corrections.",
+  "expectedSignal": "Google recognition and relevant query/page impressions. Download usage, qualified visits and inquiries cannot be attributed without analytics.",
+  "minimumEvidence": {
+    "fullFinalizedPacificDates": 28,
+    "relevantPageImpressions": 30
+  },
+  "publicationPacificDateExpected": "2026-11-03",
+  "firstFullPostChangeWindow": {
+    "startDate": "2026-11-04",
+    "endDate": "2026-12-01"
+  },
+  "nextChecks": [
+    {
+      "onOrAfter": "2026-11-11",
+      "check": "First Google-index/crawl and descriptive query/page pickup."
+    },
+    {
+      "onOrAfter": "2026-12-05",
+      "check": "First28fullPacificdates November4–December1 finalized and >=30pageimpressions. Actual freshness controls; no causal/download/inquiry attribution."
+    }
+  ],
+  "rollback": "Remove only new article and its three files if a material defect cannot be corrected; preserve existing article/date history.",
+  "prospectiveConfoundIds": [
+    "insights-initial-listing-parity-v1",
+    "github-readme-insights-link-v1",
+    "generated-index-alias-redirects-v1",
+    "service-ai-saas-procedure-link-v1",
+    "service-ai-saas-comparison-link-v1"
+  ],
+  "reviews": [
+    "gpt-6.1-sol / nov4_resource_copy draft, coordinator pack clarification",
+    "nov4_resource_review: PDF/CSV/TSV/source copy and existing23articles passed",
+    "nov4_measurement_review:14groups76rows passed"
+  ],
+  "publicReferenceList": false,
+  "paidActions": false
+}

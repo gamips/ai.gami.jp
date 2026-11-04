@@ -1,0 +1,30 @@
+{
+  "checkedAt": "2026-11-04T00:05:40.995Z",
+  "status": "passed_with_caveats",
+  "independentReviewer": "nov4_measurement_review",
+  "groups": 14,
+  "rows": 76,
+  "positiveCtrRowsMatched": 75,
+  "explicitZeroDenominatorRows": 1,
+  "normalizedValueDimensionCountMismatches": 0,
+  "deviceTotalsAndWeightedPositionMatch": true,
+  "windowsMatchFreshness": true,
+  "exactExcludedBrandQueries": [
+    "gami ai",
+    "gami"
+  ],
+  "completeNonBrandTraffic": false,
+  "qualifiedOrganicVisits": null,
+  "organicInquiries": null,
+  "effectReviewDue": false,
+  "uniqueInspections": 5,
+  "reusedTargetInspectionDates": [
+    "2026-11-01",
+    "2026-11-02"
+  ],
+  "caveats": [
+    "Disclosed nonbrand queries incomplete and intent not guaranteed.",
+    "Price no-slash explicit zero denominator retained, interpreted CTR/position null.",
+    "Four old crawls and one unknown do not prove post-change recognition."
+  ]
+}
