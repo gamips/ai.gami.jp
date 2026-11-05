@@ -666,6 +666,10 @@ export const services: ServiceContent[] = [
             label: "問い合わせ返信のテンプレートを見る",
             href: "/insights/ai-customer-reply-template/",
           },
+          {
+            label: "問い合わせの分類基準シートを見る",
+            href: "/insights/ai-inquiry-classification-checklist/",
+          },
         ],
       },
       {
