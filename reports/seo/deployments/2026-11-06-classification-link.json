@@ -1,0 +1,54 @@
+{
+  "verifiedAt": "2026-11-05T23:04:28.659Z",
+  "experimentId": "service-ai-marketing-classification-link-v1",
+  "commit": "160874dd74c2def063bfc8526cccd6393e7a2255",
+  "baselineCommit": "df6fe36292a9d64ae3330ca5c7fe2cd6dc96c322",
+  "method": "GitHub Actions normal Xserver deploy",
+  "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/42126635427",
+  "actionsStatus": "completed",
+  "actionsConclusion": "success",
+  "actionsStartedAt": "2026-11-05T23:03:45Z",
+  "actionsCompletedAt": "2026-11-05T23:04:17Z",
+  "publicationResult": "verified",
+  "technicalResult": "confirmed",
+  "acquisitionEffect": "not-yet-measurable",
+  "source": "https://ai.gami.jp/services/ai-marketing/",
+  "target": "https://ai.gami.jp/insights/ai-inquiry-classification-checklist/",
+  "label": "問い合わせの分類基準シートを見る",
+  "scope": "One contextual link in existing AGENT/SUPPORT array and matching initial HTML; preserve reply/fact-check links, all24articles and sharedrenderer/CSS. Source sitemap date updated to actual publication JSTday.",
+  "build": "passed; 2043 modules and25assets; no dependency installation",
+  "diffCheck": "passed before commit and push",
+  "sourceArticleCount": 24,
+  "indexablePages": 35,
+  "unchangedOtherBodies": 34,
+  "unchangedHeads": 35,
+  "livePages": 11,
+  "liveAssets": 25,
+  "liveAliases": 2,
+  "aliasRulesUnchanged": true,
+  "planEvidencePath": "reports/seo/technical/2026-11-06-classification-link-plan.json",
+  "predeployEvidencePath": "reports/seo/validation/2026-11-06-link-predeploy.json",
+  "liveEvidencePath": "reports/seo/validation/2026-11-06-link-live.json",
+  "browserEvidencePath": "reports/seo/validation/2026-11-06-link-browser.json",
+  "browserClosed": true,
+  "reviewer": "nov6_link_review",
+  "limitations": [
+    "Google recognition of new link and acquisition effect unconfirmed.",
+    "Xserver application logs unavailable; no server-log verification claim."
+  ],
+  "publicationPacificDate": "2026-11-05",
+  "firstFullPostChangeWindow": {
+    "startDate": "2026-11-06",
+    "endDate": "2026-12-03"
+  },
+  "nextChecks": [
+    {
+      "onOrAfter": "2026-11-13",
+      "check": "Bounded source/target Google-index and crawl followup; reuse already due canonical inspections. No repeat solely for already confirmed recrawl."
+    },
+    {
+      "onOrAfter": "2026-12-07",
+      "check": "First28fullPacificdates November6–December3 finalized and >=30target-page impressions. Actual freshness controls; no isolated causal, linkclick, qualifiedvisit or inquiry claim. Preserve target originalNovember15review."
+    }
+  ]
+}

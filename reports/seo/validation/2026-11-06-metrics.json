@@ -1,0 +1,23 @@
+{
+  "checkedAt": "2026-11-05T23:08:44.092Z",
+  "status": "passed_with_caveats",
+  "independentReviewer": "nov6_measurement",
+  "groups": 14,
+  "rows": 71,
+  "positiveCtrRowsMatched": 70,
+  "explicitZeroDenominatorRows": 1,
+  "normalizedValueDimensionCountMismatches": 0,
+  "deviceTotalsAndWeightedPositionMatch": true,
+  "windowsMatchFreshness": true,
+  "qualifiedOrganicVisits": null,
+  "organicInquiries": null,
+  "completeNonBrandTraffic": false,
+  "uniqueInspections": 6,
+  "effectReviews": 3,
+  "additionalFixedPeriodQueries": 0,
+  "caveats": [
+    "Disclosed nonbrand queries incomplete; exact brand exclusion does not confirm intent.",
+    "Zero-denominator PriceNoSlash row retained; interpreted CTR/position null.",
+    "Post-change recrawl confirmed for Services and ChatGPT source. Two old crawls and two unknown pages remain unconfirmed."
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "checkedAt": "2026-11-05T23:11:13.714Z",
+  "status": "passed",
+  "baselineCommit": "df6fe36292a9d64ae3330ca5c7fe2cd6dc96c322",
+  "activeExperiments": 41,
+  "observationQueue": 54,
+  "inventoryEntries": 76,
+  "originalStartsAndHistoryPreserved": 53,
+  "unchangedOldQueueEntries": 40,
+  "changedOldQueueEntries": 13,
+  "oneOldExperimentExplicitlyClosed": true,
+  "nonDueChecksPreserved": true,
+  "inventoryEntriesChanged": 1,
+  "otherInventoryEntriesPreserved": 75,
+  "priorExperimentRecordsPreserved": 354,
+  "appendedExperimentRecords": 16,
+  "priorMonthlyRecordsPreserved": 5,
+  "metricsAndDeploymentMatch": true,
+  "livePages": 11,
+  "liveAssets": 25,
+  "liveAliases": 2,
+  "browserViews": 4,
+  "actualBrowserLinkClicks": 2,
+  "sourceArticles": 24,
+  "indexablePages": 35,
+  "promptVersion": "1.0.17",
+  "launcherAndScheduleUnchanged": true,
+  "sitemapApiScheduleUnchanged": true,
+  "ga4AndBlockersUnchanged": true,
+  "packageAndLockUnchanged": true,
+  "targetOriginalEffectDatePreserved": true,
+  "nextActionNotImplemented": true,
+  "independentFinalReviews": {
+    "reviewedAt": "2026-11-05T23:11:46.917Z",
+    "measurement": {
+      "agent": "nov6_measurement",
+      "status": "passed",
+      "scope": "Nine due checks, history and non-due preservation, two completed recrawl checks, fourNov13 and threeNov20 followups, Pacific correction and null metrics."
+    },
+    "publication": {
+      "agent": "nov6_link_review",
+      "status": "passed",
+      "scope": "Old experiment closure, preserved dates, four confounds, new Pacific window, one inventory change,24articles, deployment/live/browser evidence."
+    }
+  }
+}

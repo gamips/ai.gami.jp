@@ -1,0 +1,88 @@
+{
+  "preparedAt": "2026-11-05T23:01:45.866Z",
+  "experimentId": "service-ai-marketing-classification-link-v1",
+  "mode": "implement",
+  "lane": "internal-link",
+  "source": "https://ai.gami.jp/services/ai-marketing/",
+  "target": "https://ai.gami.jp/insights/ai-inquiry-classification-checklist/",
+  "label": "問い合わせの分類基準シートを見る",
+  "scope": "One contextual link in existing AGENT/SUPPORT array and matching initial HTML; preserve reply/fact-check links, all24articles and sharedrenderer/CSS. Source sitemap date updated to actual publication JSTday.",
+  "writer": {
+    "agent": "nov5_link_copy",
+    "model": "gpt-6.1-sol",
+    "draftEvidencePath": "reports/seo/technical/2026-11-05-next-actions.json"
+  },
+  "reviewer": "nov6_link_review",
+  "hypothesis": "Readers considering inquiry support can find the existing classification sheet in its service context.",
+  "baseline": {
+    "metricsPath": "reports/seo/metrics/2026-11-06-current.json",
+    "sourcePage": {
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 3,
+      "page": "https://ai.gami.jp/services/ai-marketing/"
+    },
+    "targetPage": null,
+    "qualifiedOrganicVisits": null,
+    "organicInquiries": null
+  },
+  "priorSourceDecision": {
+    "experimentId": "service-ai-marketing-fact-check-link-v1",
+    "decidedAt": "2026-11-05T23:01:45.866Z",
+    "decision": "close_initial_experiment_and_reprioritize",
+    "result": "inconclusive",
+    "evidencePath": "reports/seo/metrics/2026-10-30-effect-review.json",
+    "reason": "Originalfreeze endedOct30 andfixed28PTreview complete with source3impressions/targetnull. Preserve original fact-checklink; new ready link becomes one current source variable.",
+    "originalStartedAt": "2026-09-29T08:04:30.2703158+09:00",
+    "retainedHistoricalFollowups": [
+      {
+        "onOrAfter": "2026-11-13",
+        "check": "Bounded low-volume effect followup, retain corrected first28PTdates and original start. Review evidence and decide whether to close/reprioritize; original freeze not automatically extended."
+      },
+      {
+        "onOrAfter": "2026-11-10",
+        "check": "Bounded crawl/index followup; reuse recent target evidence. Preserve original start/effect dates; no copy rewrite solely for unknown or old crawl."
+      }
+    ],
+    "futureInterpretation": "Historical followups remain with prospective confound; do not reopen an isolated old source experiment."
+  },
+  "freezeScope": "Source approach links through firsteffectreview except factual/technical corrections. Targetbody andNov15review preserved.",
+  "minimumEvidence": {
+    "finalizedFullPacificDays": 28,
+    "targetPageImpressions": 30
+  },
+  "firstIndexCheckOnOrAfter": "2026-11-13",
+  "firstEffectCheckOnOrAfter": "2026-12-07",
+  "rollback": "Revert only new link in two datafiles and source lastModified, rebuild; preserve existing two links.",
+  "designEvidence": {
+    "tool": "Lazyweb MCP",
+    "connection": "Existing official MCP endpoint and stored credential; runtime tools absent, no setup/account/token changes.",
+    "acquiredAt": "2026-11-05T23:00:16.965Z",
+    "searchUrl": "https://www.lazyweb.com/agentic-search/736e824f-5fa0-4b4d-af8e-537f57747b90",
+    "coverage": {
+      "strength": "moderate",
+      "top_similarity": 0.505
+    },
+    "warnings": [],
+    "candidates": [
+      {
+        "url": "https://www.paturnpike.com/about-us/resource-library",
+        "description": "Resource library page showing a searchable, filterable table of documents with columns for title, category, date, and a “Download” action for each item. Includes category dropdown, keyword search bar, pagination and per-page controls, plus links to related business resources like leadership and media resources."
+      },
+      {
+        "url": "https://deepgram.com/learn",
+        "description": "Resources page in a developer-focused web app with a prominent top navigation bar including Products, Resources, Enterprise, Contact Us, and Login; features a left sidebar categorizing content by topics like Search, AI, Video, Audio, ASR, and Use Cases, alongside a top tab bar for Learn, Articles, Podcasts, Apps, and Discover, displaying a grid of featured cards with thumbnails, titles, publication dates, and excerpts for articles, case studies, and media resources."
+      }
+    ],
+    "decision": "Use existing cyan-arrow links under their relevant section. Explicit destination labels from resource examples; no newcards,report or sharedUI change."
+  },
+  "prospectiveConfoundExperimentIds": [
+    "service-ai-marketing-fact-check-link-v1",
+    "insight-ai-inquiry-classification-checklist-v1",
+    "generated-index-alias-redirects-v1",
+    "home-initial-service-parity-v1"
+  ],
+  "technicalResult": "pending",
+  "acquisitionEffect": "not-yet-measurable"
+}

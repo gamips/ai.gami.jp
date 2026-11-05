@@ -1,0 +1,55 @@
+{
+  "preparedAt": "2026-11-05T23:08:44.092Z",
+  "status": "ready_to_prepare",
+  "lane": "original-resource",
+  "work": "AIが作ったJSONを業務ツールへ渡す前の確認用セットを作る。",
+  "proposedUrl": "https://ai.gami.jp/insights/ai-json-output-checklist/",
+  "reviewer": "nov6_next_asset",
+  "implemented": false,
+  "reason": "Existing24articles do not own JSON required-field/type checking intent. Separate from PDF extraction and table cleanup. Translation CSV would overlap frozen article; inquiry practice overlaps today’s link.",
+  "scope": "One short article and three downloadable files using existing resource-link presentation. No validator app, new public dependency or shared UI change. Existing24articles and service copy/dates unchanged.",
+  "files": [
+    {
+      "format": "TXT",
+      "content": "Fictional request with identifier, quantity, and delivery date explicitly unknown."
+    },
+    {
+      "format": "JSON",
+      "content": "Correct example plus three intentionally constructed errors: missing required field, numeric value as string, invented delivery date."
+    },
+    {
+      "format": "JSON Schema",
+      "content": "Minimal required fields and types for the three items. Unknown date allowed; invented string date intentionally passes format to separate provenance from schema."
+    }
+  ],
+  "editorialRules": [
+    "Latest available model subagent drafts short plain Japanese; root reviews.",
+    "Clearly label the request and mistakes as fictional constructed examples, never actual AI outputs or an accuracy comparison.",
+    "Explain JSON syntax, agreed format, and source-content fidelity separately.",
+    "No public reference list or internal SEO notes."
+  ],
+  "primaryFacts": [
+    {
+      "url": "https://www.rfc-editor.org/info/rfc8259/",
+      "fact": "JSON syntax defines a text data-interchange format."
+    },
+    {
+      "url": "https://json-schema.org/understanding-json-schema/reference/object",
+      "fact": "Properties and required support explicit object field and type checks."
+    }
+  ],
+  "validation": [
+    "Parse all example JSON.",
+    "Correct example meets schema; missing field and type mismatch fail.",
+    "Invented date passes format but is independently shown absent from the source.",
+    "Verify real downloads, page metadata and scoped desktop/mobile rendering."
+  ],
+  "prospectiveConfoundsToRecord": [
+    "Insights listing membership",
+    "GitHub README linked Insights destination collection",
+    "Generated index aliases",
+    "New inbound path to SaaS service; SaaS source frozen copy/links unchanged"
+  ],
+  "measurement": "After first28fullPTdays and >=30target-page impressions. Demand and acquisition effect unknown; preserve null for missing.",
+  "noExternalSubmission": true
+}

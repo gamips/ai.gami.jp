@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-04T23:14:20.950Z",
+  "updatedAt": "2026-11-05T23:10:15.101Z",
   "rules": {
     "oneOwnerUrlPerIntent": true,
     "publicCopyExcludesOperationalMetadata": true
@@ -72,12 +72,14 @@
       "type": "service",
       "intent": "AIマーケティング、AIライティング、AIサポート",
       "status": "published",
-      "lastModified": "2026-09-29",
+      "lastModified": "2026-11-06",
       "relatedGuide": "https://ai.gami.jp/insights/ai-customer-reply-template/",
       "relatedFactCheckGuide": "https://ai.gami.jp/insights/ai-article-fact-check-template/",
-      "experimentId": "service-ai-marketing-fact-check-link-v1",
+      "experimentId": "service-ai-marketing-classification-link-v1",
       "aliasRepairUpdatedAt": "2026-10-26T23:42:07.415Z",
-      "aliasRepairExperimentId": "generated-index-alias-redirects-v1"
+      "aliasRepairExperimentId": "generated-index-alias-redirects-v1",
+      "relatedClassificationGuide": "https://ai.gami.jp/insights/ai-inquiry-classification-checklist/",
+      "previousLinkExperimentId": "service-ai-marketing-fact-check-link-v1"
     },
     {
       "url": "https://ai.gami.jp/services/ai-web/",

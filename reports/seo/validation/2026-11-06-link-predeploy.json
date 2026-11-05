@@ -1,0 +1,99 @@
+{
+  "checkedAt": "2026-11-05T23:02:39.620Z",
+  "passed": true,
+  "mode": "predeploy",
+  "baselineCommit": "df6fe36292a9d64ae3330ca5c7fe2cd6dc96c322",
+  "onlyOneServiceLinkAdded": true,
+  "all24ArticlesUnchanged": true,
+  "all35HeadsUnchanged": true,
+  "other34BodiesUnchanged": true,
+  "sourceLinksPreserved": true,
+  "sharedRendererAndCssUnchanged": true,
+  "pages": [
+    {
+      "url": "https://ai.gami.jp/concept/",
+      "status": 200,
+      "headMatchesBuild": true,
+      "bodyMatches": "baseline",
+      "articleCount": 0
+    },
+    {
+      "url": "https://ai.gami.jp/services/",
+      "status": 200,
+      "headMatchesBuild": true,
+      "bodyMatches": "baseline",
+      "articleCount": 0
+    },
+    {
+      "url": "https://ai.gami.jp/services/ai-marketing/",
+      "status": 200,
+      "headMatchesBuild": true,
+      "bodyMatches": "baseline",
+      "articleCount": 0
+    },
+    {
+      "url": "https://ai.gami.jp/about/",
+      "status": 200,
+      "headMatchesBuild": true,
+      "bodyMatches": "baseline",
+      "articleCount": 0
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-image-alt-text-template/",
+      "status": 200,
+      "headMatchesBuild": true,
+      "bodyMatches": "baseline",
+      "articleCount": 1
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-inquiry-classification-checklist/",
+      "status": 200,
+      "headMatchesBuild": true,
+      "bodyMatches": "baseline",
+      "articleCount": 1
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-work-time-comparison-sheet/",
+      "status": 200,
+      "headMatchesBuild": true,
+      "bodyMatches": "baseline",
+      "articleCount": 1
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-work-handoff-template/",
+      "status": 200,
+      "headMatchesBuild": true,
+      "bodyMatches": "baseline",
+      "articleCount": 1
+    },
+    {
+      "url": "https://ai.gami.jp/insights/saas-or-custom-system-checklist/",
+      "status": 200,
+      "headMatchesBuild": true,
+      "bodyMatches": "baseline",
+      "articleCount": 1
+    },
+    {
+      "url": "https://ai.gami.jp/insights/rag-document-inventory-checklist/",
+      "status": 200,
+      "headMatchesBuild": true,
+      "bodyMatches": "baseline",
+      "articleCount": 1
+    },
+    {
+      "url": "https://ai.gami.jp/insights/chatgpt-workplace-adoption-checklist/",
+      "status": 200,
+      "headMatchesBuild": true,
+      "bodyMatches": "baseline",
+      "articleCount": 1
+    }
+  ],
+  "assets": [],
+  "aliases": [],
+  "sitemap": {
+    "urlCount": 35,
+    "onlyMarketingDateChanged": true,
+    "sourceLastModified": "2026-11-06",
+    "liveMatches": "baseline"
+  }
+}

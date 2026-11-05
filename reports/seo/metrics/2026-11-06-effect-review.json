@@ -1,0 +1,246 @@
+{
+  "checkedAt": "2026-11-05T23:08:44.092Z",
+  "latestFinalizedDate": "2026-11-03",
+  "additionalFixedPeriodApiQueries": 0,
+  "qualifiedOrganicVisits": null,
+  "organicInquiries": null,
+  "reviews": [
+    {
+      "experimentId": "insight-saas-or-custom-system-checklist-v1",
+      "url": "https://ai.gami.jp/insights/saas-or-custom-system-checklist/",
+      "originalStartedAt": "2026-09-08T08:27:16.2517786+09:00",
+      "reportingTimeZone": "America/Los_Angeles",
+      "latestRolling": {
+        "path": "reports/seo/metrics/2026-11-06-current.json",
+        "currentWindow": {
+          "startDate": "2026-10-07",
+          "endDate": "2026-11-03",
+          "clicks": 0,
+          "impressions": 135,
+          "ctr": 0,
+          "position": 39.6
+        },
+        "previousWindow": {
+          "startDate": "2026-09-09",
+          "endDate": "2026-10-06",
+          "clicks": 2,
+          "impressions": 107,
+          "ctr": 0.018691588785046728,
+          "position": 14.962616822429906
+        },
+        "page": null,
+        "pageNoSlash": null,
+        "previousPage": null,
+        "previousPageNoSlash": null
+      },
+      "minimumEvidence": {
+        "requiredPageImpressions": 30,
+        "met": false
+      },
+      "technicalResult": "confirmed",
+      "effectResult": "inconclusive",
+      "inspectionEvidenceReusedFrom": "reports/seo/inspections/2026-11-01-due-pages.json",
+      "liveTechnicalEvidencePath": "reports/seo/validation/2026-11-06-link-live.json",
+      "nextEffectCheck": "2026-11-20",
+      "originalFixedReviewPath": "reports/seo/metrics/2026-10-23-effect-review.json",
+      "historicalReviewPreserved": {
+        "experimentId": "insight-saas-or-custom-system-checklist-v1",
+        "url": "https://ai.gami.jp/insights/saas-or-custom-system-checklist/",
+        "startedAt": "2026-09-08T08:27:16.2517786+09:00",
+        "publicationPacificDate": "2026-09-07",
+        "historicalFirstReviewEvidencePath": "reports/seo/metrics/2026-10-09-saas-first-28-days-review.json",
+        "historicalReviewWindow": {
+          "startDate": "2026-09-09",
+          "endDate": "2026-10-06",
+          "note": "Historical conservative28fullpostdays, one day after earliest Pacific full-day start; retained unchanged, not relabeled as earliest28."
+        },
+        "cumulativeWindow": {
+          "startDate": "2026-09-08",
+          "endDate": "2026-10-20",
+          "fullFinalDays": 43,
+          "page": null,
+          "acquiredAt": "2026-10-23T07:58:37.2517750+09:00"
+        },
+        "rawEvidencePath": "reports/seo/metrics/2026-10-23-effect-followup-raw.json",
+        "technicalResult": "confirmed",
+        "result": "inconclusive",
+        "decision": "Retain October25index check and bounded November6effect review while discovery-link experiment remains active. Do not rewrite unknown page.",
+        "indexEvidencePath": "reports/seo/inspections/2026-10-18-due-pages.json",
+        "lastCrawlTime": null,
+        "note": "No exactpage row returned even over43fullPacificpostdays; missing not zero. No confirmed indexing or attribution. Existing September30service link is a confound."
+      },
+      "note": "No exact-page rows. Historical conservative28day review and43day cumulative result retained; missing not zero."
+    },
+    {
+      "experimentId": "concept-initial-html-parity-v1",
+      "url": "https://ai.gami.jp/concept/",
+      "originalStartedAt": "2026-09-22T08:10:21.6542972+09:00",
+      "reportingTimeZone": "America/Los_Angeles",
+      "latestRolling": {
+        "path": "reports/seo/metrics/2026-11-06-current.json",
+        "currentWindow": {
+          "startDate": "2026-10-07",
+          "endDate": "2026-11-03",
+          "clicks": 0,
+          "impressions": 135,
+          "ctr": 0,
+          "position": 39.6
+        },
+        "previousWindow": {
+          "startDate": "2026-09-09",
+          "endDate": "2026-10-06",
+          "clicks": 2,
+          "impressions": 107,
+          "ctr": 0.018691588785046728,
+          "position": 14.962616822429906
+        },
+        "page": {
+          "clicks": 0,
+          "impressions": 14,
+          "ctr": 0,
+          "position": 5.928571428571429,
+          "page": "https://ai.gami.jp/concept/"
+        },
+        "pageNoSlash": null,
+        "previousPage": {
+          "clicks": 0,
+          "impressions": 6,
+          "ctr": 0,
+          "position": 7.333333333333333,
+          "page": "https://ai.gami.jp/concept/"
+        },
+        "previousPageNoSlash": null
+      },
+      "minimumEvidence": {
+        "requiredPageImpressions": 30,
+        "met": false
+      },
+      "technicalResult": "confirmed",
+      "effectResult": "inconclusive",
+      "inspectionEvidenceReusedFrom": "reports/seo/inspections/2026-11-03-due-pages.json",
+      "liveTechnicalEvidencePath": "reports/seo/validation/2026-11-06-link-live.json",
+      "nextEffectCheck": "2026-11-20",
+      "originalFixedReviewPath": "reports/seo/metrics/2026-10-23-effect-review.json",
+      "historicalReviewPreserved": {
+        "experimentId": "concept-initial-html-parity-v1",
+        "url": "https://ai.gami.jp/concept/",
+        "startedAt": "2026-09-22T08:10:21.6542972+09:00",
+        "publicationPacificDate": "2026-09-21",
+        "before": {
+          "startDate": "2026-08-24",
+          "endDate": "2026-09-20",
+          "page": {
+            "page": "https://ai.gami.jp/concept/",
+            "clicks": 0,
+            "impressions": 4,
+            "ctr": 0,
+            "position": 8.25
+          },
+          "acquiredAt": "2026-10-21T08:00:17.0451832+09:00",
+          "evidencePath": "reports/seo/metrics/2026-10-21-0800.json"
+        },
+        "first28FullPostDays": {
+          "startDate": "2026-09-22",
+          "endDate": "2026-10-19",
+          "page": {
+            "page": "https://ai.gami.jp/concept/",
+            "clicks": 0,
+            "impressions": 12,
+            "ctr": 0,
+            "position": 6.166666666666667
+          },
+          "acquiredAt": "2026-10-22T10:09:40.2426673+09:00",
+          "evidencePath": "reports/seo/metrics/2026-10-22-1009.json"
+        },
+        "minimumEvidence": {
+          "fullFinalDays": 28,
+          "pageImpressions": 30
+        },
+        "technicalResult": "confirmed",
+        "result": "inconclusive",
+        "decision": "Keep original start/history; retain October27index check; bounded effect followupNovember6.",
+        "indexEvidencePath": "reports/seo/inspections/2026-10-20-due-pages.json",
+        "lastCrawlTime": "2026-09-04T15:32:11Z",
+        "note": "Existing saved groups exactly match Pacific windows; no requery. Recorded crawl predates change; small sample. Original planned JST-based window is not treated as first28fullPacificdays."
+      },
+      "note": "Rolling14vs6impressions and historical fixed12vs4 are below30. Historical periods unchanged; no causal attribution."
+    },
+    {
+      "experimentId": "insight-ai-work-time-comparison-sheet-v1",
+      "url": "https://ai.gami.jp/insights/ai-work-time-comparison-sheet/",
+      "originalStartedAt": "2026-10-04T08:08:55.1657180+09:00",
+      "reportingTimeZone": "America/Los_Angeles",
+      "latestRolling": {
+        "path": "reports/seo/metrics/2026-11-06-current.json",
+        "currentWindow": {
+          "startDate": "2026-10-07",
+          "endDate": "2026-11-03",
+          "clicks": 0,
+          "impressions": 135,
+          "ctr": 0,
+          "position": 39.6
+        },
+        "previousWindow": {
+          "startDate": "2026-09-09",
+          "endDate": "2026-10-06",
+          "clicks": 2,
+          "impressions": 107,
+          "ctr": 0.018691588785046728,
+          "position": 14.962616822429906
+        },
+        "page": null,
+        "pageNoSlash": null,
+        "previousPage": null,
+        "previousPageNoSlash": null
+      },
+      "minimumEvidence": {
+        "requiredPageImpressions": 30,
+        "met": false
+      },
+      "technicalResult": "confirmed",
+      "effectResult": "inconclusive",
+      "inspectionEvidenceReusedFrom": "reports/seo/inspections/2026-11-01-due-pages.json",
+      "liveTechnicalEvidencePath": "reports/seo/validation/2026-11-06-link-live.json",
+      "nextEffectCheck": "2026-11-20",
+      "publicationPacificDate": "2026-10-03",
+      "comparisonBefore": {
+        "path": "reports/seo/metrics/2026-11-02-current.json",
+        "group": "previous28dPages",
+        "startDate": "2026-09-05",
+        "endDate": "2026-10-02",
+        "page": null,
+        "pageNoSlash": null
+      },
+      "first28FullDays": {
+        "path": "reports/seo/metrics/2026-11-03-current.json",
+        "group": "current28dPages",
+        "startDate": "2026-10-04",
+        "endDate": "2026-10-31",
+        "fullFinalDays": 28,
+        "page": null,
+        "pageNoSlash": null
+      },
+      "dateWindowCorrection": "Original October5–November1 schedule note retained. Publication October4JST maps to October3PT; earliest28fullPTdates October4–31, with September5–October2 comparison excluding publication day.",
+      "confounds": [
+        {
+          "experimentId": "insight-ai-introduction-time-sheet-link-v1",
+          "changedAt": "2026-10-11T00:25:53.677Z",
+          "publicationPacificDate": "2026-10-10",
+          "appliesToFixedWindow": true
+        },
+        {
+          "experimentId": "generated-index-alias-redirects-v1",
+          "changedAt": "2026-10-26T23:42:07.415Z",
+          "appliesToFixedWindow": true
+        },
+        {
+          "experimentId": "article-content-lastmod-correction-v1",
+          "changedAt": "2026-11-04T23:12:41.528Z",
+          "appliesToFixedWindow": false,
+          "note": "Inbound source metadata correction after fixed window; prospective only."
+        }
+      ],
+      "note": "No exact-page rows in either saved fixed period or current rolling periods. Missing is not zero; no isolated causal or qualified-visit attribution."
+    }
+  ]
+}
