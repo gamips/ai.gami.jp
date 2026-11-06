@@ -1,0 +1,37 @@
+[
+  {
+    "id": "correct",
+    "label": "正解例",
+    "data": {
+      "request_id": "REQ-001",
+      "quantity": 3,
+      "delivery_date": null
+    }
+  },
+  {
+    "id": "missing_quantity",
+    "label": "誤り例：必須のquantityがない",
+    "data": {
+      "request_id": "REQ-001",
+      "delivery_date": null
+    }
+  },
+  {
+    "id": "quantity_as_string",
+    "label": "誤り例：quantityが文字列",
+    "data": {
+      "request_id": "REQ-001",
+      "quantity": "3",
+      "delivery_date": null
+    }
+  },
+  {
+    "id": "invented_delivery_date",
+    "label": "誤り例：原文にない納品日",
+    "data": {
+      "request_id": "REQ-001",
+      "quantity": 3,
+      "delivery_date": "2026-12-01"
+    }
+  }
+]

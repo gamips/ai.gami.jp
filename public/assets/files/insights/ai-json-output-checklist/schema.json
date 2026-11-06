@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "request_id": { "type": "string" },
+    "quantity": { "type": "number" },
+    "delivery_date": { "type": ["string", "null"] }
+  },
+  "required": ["request_id", "quantity", "delivery_date"]
+}

@@ -2,6 +2,98 @@ export const insightsIntro = "仕事にAIを取り入れる前に知っておき
 
 export const insights = [
   {
+    "slug": "ai-json-output-checklist",
+    "path": "/insights/ai-json-output-checklist",
+    "category": "AI活用",
+    "publishedAt": "2026-11-07",
+    "updatedAt": "2026-11-07",
+    "dateLabel": "2026.11.07",
+    "title": "AIが作ったJSONを確認する｜構文・項目・原文を比べる練習セット",
+    "description": "AIが作ったJSONを業務ツールへ渡す前に、構文、必須項目と型、原文との一致を分けて確認します。架空の依頼文、4つのJSON例、JSON Schemaを使う練習セットです。",
+    "lead": "JSONとして読み込めても、必要な項目や内容が正しいとは限りません。業務ツールへ渡す前に、構文、項目と型、原文との一致を順に確認します。",
+    "sections": [
+      {
+        "id": "source-request",
+        "title": "原文TXT：依頼の内容を確かめる",
+        "paragraphs": [
+          "練習用の依頼文には、識別番号、数量、未定の納品日を記載しています。データは架空で、誤り例も意図的に作ったものです。実際のAI出力や精度の測定結果ではありません。",
+          "この練習では、原文の3項目を次の値にします。納品日が未定なら、日付を補わずnullにします。"
+        ],
+        "items": [
+          "request_id：文字列の「REQ-001」",
+          "quantity：数値の3",
+          "delivery_date：null"
+        ],
+        "link": {
+          "label": "練習用の依頼文TXTを開く",
+          "href": "/assets/files/insights/ai-json-output-checklist/source.txt",
+          "external": true
+        }
+      },
+      {
+        "id": "json-examples",
+        "title": "JSON例：4つの違いを見つける",
+        "paragraphs": [
+          "例題JSONには、正解例と3つの誤り例があります。4例ともJSONの構文は正しいため、読み込めるかの確認だけでは違いを見つけられません。"
+        ],
+        "items": [
+          "正解例：3項目の値が原文と一致する。",
+          "必須項目の欠落：quantityがない。",
+          "型の違い：quantityが数値の3ではなく文字列の「3」になっている。",
+          "原文にない日付：未定の納品日が「2026-12-01」になっている。"
+        ],
+        "link": {
+          "label": "4つのJSON例を開く",
+          "href": "/assets/files/insights/ai-json-output-checklist/examples.json",
+          "external": true
+        }
+      },
+      {
+        "id": "required-fields-and-types",
+        "title": "JSON Schema：必須項目と型を確認する",
+        "paragraphs": [
+          "JSON Schemaは、データの項目や型を決めるための形式です。このスキーマでは3項目を必須にし、request_idは文字列、quantityは数値、delivery_dateは文字列またはnullとしています。",
+          "スキーマは各例のdataに適用します。例題ファイル全体や、例の名前を含む外側のオブジェクトには適用しません。"
+        ],
+        "items": [
+          "正解例：必須項目と型の条件を満たす。",
+          "quantityがない例：必須項目の条件を満たさない。",
+          "quantityが文字列の例：型の条件を満たさない。",
+          "日付を補った例：文字列なので、このスキーマの条件を満たす。"
+        ],
+        "link": {
+          "label": "確認用のJSON Schemaを開く",
+          "href": "/assets/files/insights/ai-json-output-checklist/schema.json",
+          "external": true
+        }
+      },
+      {
+        "id": "compare-with-source",
+        "title": "原文との照合：形式が合っても内容を確かめる",
+        "paragraphs": [
+          "このスキーマは、納品日が原文に書かれているかまでは確認しません。「2026-12-01」は文字列として条件を満たしますが、原文にない日付です。原文と比べ、nullへ直します。",
+          "識別番号や数量も同じです。文字列や数値という型だけでなく、値が原文と一致しているかを確認します。"
+        ]
+      },
+      {
+        "id": "before-handoff",
+        "title": "業務ツールへ渡す前の3つの確認",
+        "paragraphs": [
+          "実際の業務では、受け渡し先が求める項目と型を先に確認します。修正した後は、そのJSONをもう一度読み込み、項目と原文を確かめてから渡します。"
+        ],
+        "items": [
+          "構文：JSONとして読み込めるか。",
+          "項目と型：必須項目がそろい、受け渡し先が求める型になっているか。",
+          "原文との一致：識別番号や数量が正しく、未定の情報を補っていないか。"
+        ],
+        "link": {
+          "label": "AIを業務に取り入れる支援を見る",
+          "href": "/services/ai-saas/"
+        }
+      }
+    ]
+  },
+  {
     "slug": "ai-pdf-extraction-checklist",
     "path": "/insights/ai-pdf-extraction-checklist",
     "category": "AI活用",
