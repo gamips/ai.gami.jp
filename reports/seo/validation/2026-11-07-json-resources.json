@@ -1,0 +1,53 @@
+{
+  "checkedAt": "2026-11-06T23:11:40.221078+00:00",
+  "status": "passed",
+  "schemaDialect": "2020-12",
+  "validationTarget": "Each example.data, not the wrapper or file array",
+  "schemaSelfValidation": "passed",
+  "examples": [
+    {
+      "id": "correct",
+      "jsonParse": "passed",
+      "schemaValid": true,
+      "validationErrors": [],
+      "matchesSource": true
+    },
+    {
+      "id": "missing_quantity",
+      "jsonParse": "passed",
+      "schemaValid": false,
+      "validationErrors": [
+        {
+          "keyword": "required",
+          "path": []
+        }
+      ],
+      "matchesSource": false
+    },
+    {
+      "id": "quantity_as_string",
+      "jsonParse": "passed",
+      "schemaValid": false,
+      "validationErrors": [
+        {
+          "keyword": "type",
+          "path": [
+            "quantity"
+          ]
+        }
+      ],
+      "matchesSource": false
+    },
+    {
+      "id": "invented_delivery_date",
+      "jsonParse": "passed",
+      "schemaValid": true,
+      "validationErrors": [],
+      "matchesSource": false
+    }
+  ],
+  "fictionalFixtureOnly": true,
+  "actualAiExecutionOrAccuracyClaim": false,
+  "sourceAndInventedDateIndependentlyCompared": true,
+  "newDependenciesInstalled": false
+}

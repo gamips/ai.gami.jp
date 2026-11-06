@@ -1,0 +1,78 @@
+{
+  "verifiedAt": "2026-11-06T23:13:20.160Z",
+  "experimentId": "insight-ai-json-output-checklist-v1",
+  "commit": "6e824c5bf9d4c213f4d55a834845c9336a6ae00b",
+  "baselineCommit": "f658d2ca5bcdd563de785068fd464749e650a948",
+  "method": "GitHub Actions normal Xserver deploy",
+  "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/42310272939",
+  "actionsStatus": "completed",
+  "actionsConclusion": "success",
+  "actionsStartedAt": "2026-11-06T23:12:17Z",
+  "actionsCompletedAt": "2026-11-06T23:12:47Z",
+  "publicationResult": "verified",
+  "technicalResult": "confirmed",
+  "acquisitionEffect": "not-yet-measurable",
+  "scope": "One article package and3fictional practice files. Existing24articles,service copy/dates,sharedrenderer/CSS unchanged.",
+  "build": "Initial and corrective builds passed;2043modules/25assets; no dependencies installed.",
+  "diffCheck": "Passed and exit reviewed before both commit/push operations.",
+  "articleCount": 25,
+  "indexablePages": 36,
+  "existing24ArticlesUnchanged": true,
+  "existing34PageHeadsAndBodiesUnchanged": true,
+  "livePages": 8,
+  "liveAssets": 25,
+  "liveResources": 3,
+  "liveAliases": 6,
+  "planEvidencePath": "reports/seo/technical/2026-11-07-json-plan.json",
+  "predeployEvidencePath": "reports/seo/validation/2026-11-07-json-predeploy.json",
+  "liveEvidencePath": "reports/seo/validation/2026-11-07-json-live.json",
+  "browserEvidencePath": "reports/seo/validation/2026-11-07-json-browser.json",
+  "resourceEvidencePath": "reports/seo/validation/2026-11-07-json-resources.json",
+  "reviewer": "nov7_json_review",
+  "publicationPacificDate": "2026-11-06",
+  "firstFullPostChangeWindow": {
+    "startDate": "2026-11-07",
+    "endDate": "2026-12-04"
+  },
+  "nextChecks": [
+    {
+      "onOrAfter": "2026-11-14",
+      "check": "First bounded Google-index/crawl and descriptive page/query pickup; no immediate repeated inspection."
+    },
+    {
+      "onOrAfter": "2026-12-08",
+      "check": "First28fullPacificdates November7–December4 finalized and >=30target-page impressions; actual freshness controls. No qualified-visit/inquiry inference without attribution."
+    }
+  ],
+  "initialPublication": {
+    "commit": "d1f21e170fbd488d268791f70f23b77c1103b295",
+    "workflowRun": "https://github.com/gamips/ai.gami.jp/actions/runs/42309728881",
+    "actionsStatus": "success",
+    "actionsStartedAt": "2026-11-06T23:07:39Z",
+    "actionsCompletedAt": "2026-11-06T23:08:03Z",
+    "byteVerificationAt": "2026-11-06T23:08:15.974Z",
+    "predeployEvidencePath": "reports/seo/validation/2026-11-07-json-initial-predeploy.json",
+    "liveEvidencePath": "reports/seo/validation/2026-11-07-json-initial-live.json",
+    "publicationResult": "deployed_with_text_display_defect"
+  },
+  "correctiveRelease": {
+    "reason": "TXT direct view misdecoded UTF-8 despite exact bytes. Three-byte UTF-8 BOM added to source.txt only; original Japanese content unchanged.",
+    "beforeBytes": 85,
+    "afterBytes": 88,
+    "jsonAndArticleUnchanged": true,
+    "serverSettingsUnchanged": true,
+    "precedingDeploymentCompletedBeforePush": true,
+    "finalRenderedTextAndUtf8Confirmed": true
+  },
+  "verificationCorrections": [
+    "Predeploy report key corrected from existing25 to existing24 before first publication.",
+    "Browser selector trailing slash corrected from observed href.",
+    "Corrective predeploy compares saved run-start sitemap baseline35 rather than already-published current36. Failed assertion reflected test baseline drift, not a sitemap defect."
+  ],
+  "websiteDeploys": 2,
+  "extraDeployReason": "Corrective publication for observed TXT display defect; no overlapping deployment.",
+  "limitations": [
+    "Google registration and acquisition for new article not yet measured.",
+    "Xserver application logs unavailable; no server-log claim."
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "checkedAt": "2026-11-06T23:17:09.548Z",
+  "status": "passed",
+  "baselineCommit": "f658d2ca5bcdd563de785068fd464749e650a948",
+  "activeExperiments": 42,
+  "observationQueue": 55,
+  "inventoryEntries": 81,
+  "originalStartsStatusesAndHistoryPreserved": 54,
+  "unchangedOldQueueEntries": 44,
+  "changedOldQueueEntries": 10,
+  "nonDueChecksPreserved": true,
+  "oldInventoryEntriesPreserved": 76,
+  "newInventoryEntries": 5,
+  "priorExperimentRecordsPreserved": 370,
+  "appendedExperimentRecords": 13,
+  "priorMonthlyRecordsPreserved": 6,
+  "metricsAndDeploymentMatch": true,
+  "livePages": 8,
+  "liveAssets": 25,
+  "liveResources": 3,
+  "liveAliases": 6,
+  "browserViews": 4,
+  "actualResourceClicks": 3,
+  "sourceArticles": 25,
+  "indexablePages": 36,
+  "promptVersion": "1.0.18",
+  "launcherAndScheduleUnchanged": true,
+  "sitemapApiScheduleUnchanged": true,
+  "ga4Unchanged": true,
+  "packageAndLockUnchanged": true,
+  "oldWebExperimentUntouched": true,
+  "nextActionNotImplemented": true,
+  "sourceTxtUtf8BomAndRenderedJapaneseConfirmed": true,
+  "twoDeploysJustifiedAndNonOverlapping": true,
+  "existing34SitemapDatesAnd35AliasesPreserved": true,
+  "independentFinalReviews": {
+    "reviewedAt": "2026-11-06T23:17:27.688Z",
+    "measurement": {
+      "agent": "nov7_measurement",
+      "status": "passed",
+      "scope": "6duechecks,5confounds,history,PTwindows,null andnextwork verified."
+    },
+    "publication": {
+      "agent": "nov7_json_review",
+      "status": "passed",
+      "scope": "Two deploys,3byteBOMfix,UTF8browsertext,old76inventory/new5 andevidence match. Derived sitemap preservation field corrected using savedbaseline."
+    }
+  }
+}

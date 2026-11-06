@@ -1,0 +1,84 @@
+{
+  "preparedAt": "2026-11-06T23:06:30.598Z",
+  "experimentId": "insight-ai-json-output-checklist-v1",
+  "baselineCommit": "f658d2ca5bcdd563de785068fd464749e650a948",
+  "mode": "implement",
+  "lane": "original-resource",
+  "url": "https://ai.gami.jp/insights/ai-json-output-checklist/",
+  "scope": "One article package and3fictional practice files. Existing24articles,service copy/dates,sharedrenderer/CSS unchanged.",
+  "hypothesis": "A concrete JSON practice set helps readers distinguish syntax, agreed fields/types, and source fidelity before integrating AI outputs into work.",
+  "baseline": {
+    "metricsPath": "reports/seo/metrics/2026-11-07-current.json",
+    "page": null,
+    "publicationState": "new_url",
+    "qualifiedOrganicVisits": null,
+    "organicInquiries": null
+  },
+  "writer": {
+    "agent": "nov7_json_copy",
+    "model": "gpt-6.1-sol"
+  },
+  "rootReview": "Short natural Japanese and explicit fictional examples. Schema applies to each case.data; invented date passes format but fails source comparison. No reference list or internal metadata in public prose.",
+  "reviewer": "nov7_json_review",
+  "primaryEvidence": [
+    {
+      "url": "https://www.rfc-editor.org/info/rfc8259/",
+      "verifiedOn": "2026-11-07",
+      "supports": "JSON syntax defines a text data format; parsing does not establish source truth."
+    },
+    {
+      "url": "https://json-schema.org/understanding-json-schema/reference/object",
+      "verifiedOn": "2026-11-07",
+      "supports": "properties and required validate fields and types, not provenance."
+    }
+  ],
+  "designEvidence": {
+    "tool": "Lazyweb MCP existing connection",
+    "acquiredAt": "2026-11-06T23:03:55.823Z",
+    "ok": true,
+    "coverage": {
+      "strength": "weak",
+      "top_similarity": 0.355
+    },
+    "warnings": [],
+    "results": [
+      {
+        "url": "https://origami.design/patterns/animation_condition",
+        "description": "Documentation/learn landing page for an animation pattern called “Condition,” explaining how to set events based on time positions and offering a primary action to download the pattern. The page also lists related patterns, tutorials, examples, and patches with “See pattern” and “View tutorial” links for further exploration."
+      },
+      {
+        "url": "https://www.mintlify.com/docs/guides/assistant-embed",
+        "description": null
+      }
+    ],
+    "decision": "Weak external match; existing PDF article and section link style are design source. Related download examples support explicit file labels; no new component."
+  },
+  "validation": {
+    "build": "passed",
+    "resourceEvidencePath": "reports/seo/validation/2026-11-07-json-resources.json",
+    "predeployEvidencePath": "reports/seo/validation/2026-11-07-json-predeploy.json",
+    "diffCheck": "passed before commit"
+  },
+  "minimumEvidence": {
+    "finalizedFullPacificDays": 28,
+    "targetPageImpressions": 30
+  },
+  "publicationPacificDate": "2026-11-06",
+  "firstFullPostChangeWindow": {
+    "startDate": "2026-11-07",
+    "endDate": "2026-12-04"
+  },
+  "firstIndexCheckOnOrAfter": "2026-11-14",
+  "firstEffectCheckOnOrAfter": "2026-12-08",
+  "freezeScope": "New article title,description,lead,sections,resources and service link until first effect review except factual/technical fixes. Existing article experiments unchanged.",
+  "rollback": "Remove new article object and3files, then rebuild; preserve existing24articles.",
+  "prospectiveConfoundExperimentIds": [
+    "insights-initial-listing-parity-v1",
+    "github-readme-insights-link-v1",
+    "generated-index-alias-redirects-v1",
+    "service-ai-saas-procedure-link-v1",
+    "service-ai-saas-comparison-link-v1"
+  ],
+  "technicalResult": "predeploy_passed",
+  "acquisitionEffect": "not-yet-measurable"
+}

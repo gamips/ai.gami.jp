@@ -1,0 +1,132 @@
+{
+  "checkedAt": "2026-11-06T23:13:08.609Z",
+  "views": [
+    {
+      "url": "https://ai.gami.jp/insights/ai-json-output-checklist/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1Count": 1,
+      "schemaTypes": {
+        "Organization": 1,
+        "WebPage": 1,
+        "Article": 1,
+        "BreadcrumbList": 1
+      },
+      "resourceLinks": [
+        {
+          "label": "練習用の依頼文TXTを開く",
+          "href": "/assets/files/insights/ai-json-output-checklist/source.txt"
+        },
+        {
+          "label": "4つのJSON例を開く",
+          "href": "/assets/files/insights/ai-json-output-checklist/examples.json"
+        },
+        {
+          "label": "確認用のJSON Schemaを開く",
+          "href": "/assets/files/insights/ai-json-output-checklist/schema.json"
+        }
+      ],
+      "commaBr": false
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-json-output-checklist/",
+      "width": 390,
+      "scrollWidth": 390,
+      "h1Count": 1,
+      "schemaTypes": {
+        "Organization": 1,
+        "WebPage": 1,
+        "Article": 1,
+        "BreadcrumbList": 1
+      },
+      "resourceLinks": [
+        {
+          "label": "練習用の依頼文TXTを開く",
+          "href": "/assets/files/insights/ai-json-output-checklist/source.txt"
+        },
+        {
+          "label": "4つのJSON例を開く",
+          "href": "/assets/files/insights/ai-json-output-checklist/examples.json"
+        },
+        {
+          "label": "確認用のJSON Schemaを開く",
+          "href": "/assets/files/insights/ai-json-output-checklist/schema.json"
+        }
+      ],
+      "commaBr": false
+    },
+    {
+      "url": "https://ai.gami.jp/insights/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1Count": 1,
+      "schemaTypes": {
+        "Organization": 1,
+        "CollectionPage": 1,
+        "ItemList": 1,
+        "BreadcrumbList": 1
+      },
+      "resourceLinks": [],
+      "commaBr": false
+    },
+    {
+      "url": "https://ai.gami.jp/insights/",
+      "width": 390,
+      "scrollWidth": 390,
+      "h1Count": 1,
+      "schemaTypes": {
+        "Organization": 1,
+        "CollectionPage": 1,
+        "ItemList": 1,
+        "BreadcrumbList": 1
+      },
+      "resourceLinks": [],
+      "commaBr": false
+    }
+  ],
+  "files": [
+    {
+      "file": "source.txt",
+      "status": 200,
+      "url": "https://ai.gami.jp/assets/files/insights/ai-json-output-checklist/source.txt",
+      "content": "練習用の架空の依頼文\n\n識別番号：REQ-001\n数量：3\n納品日：未定\n",
+      "renderedText": "練習用の架空の依頼文\n\n識別番号：REQ-001\n数量：3\n納品日：未定\n",
+      "characterSet": "UTF-8"
+    },
+    {
+      "file": "examples.json",
+      "status": 200,
+      "url": "https://ai.gami.jp/assets/files/insights/ai-json-output-checklist/examples.json",
+      "content": "[\n  {\n    \"id\": \"correct\",\n    \"label\": \"正解例\",\n    \"data\": {\n      \"request_id\": \"REQ-001\",\n      \"quantity\": 3,\n      \"delivery_date\": null\n    }\n  },\n  {\n    \"id\": \"missing_quantity\",\n    \"label\": \"誤り例：必須のquantityがない\",\n    \"data\": {\n      \"request_id\": \"REQ-001\",\n      \"delivery_date\": null\n    }\n  },\n  {\n    \"id\": \"quantity_as_string\",\n    \"label\": \"誤り例：quantityが文字列\",\n    \"data\": {\n      \"request_id\": \"REQ-001\",\n      \"quantity\": \"3\",\n      \"delivery_date\": null\n    }\n  },\n  {\n    \"id\": \"invented_delivery_date\",\n    \"label\": \"誤り例：原文にない納品日\",\n    \"data\": {\n      \"request_id\": \"REQ-001\",\n      \"quantity\": 3,\n      \"delivery_date\": \"2026-12-01\"\n    }\n  }\n]\n"
+    },
+    {
+      "file": "schema.json",
+      "status": 200,
+      "url": "https://ai.gami.jp/assets/files/insights/ai-json-output-checklist/schema.json",
+      "content": "{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"request_id\": { \"type\": \"string\" },\n    \"quantity\": { \"type\": \"number\" },\n    \"delivery_date\": { \"type\": [\"string\", \"null\"] }\n  },\n  \"required\": [\"request_id\", \"quantity\", \"delivery_date\"]\n}\n"
+    }
+  ],
+  "errors": [],
+  "serviceNavigation": "https://ai.gami.jp/services/ai-saas/",
+  "listingNavigation": "https://ai.gami.jp/insights/ai-json-output-checklist/",
+  "status": "passed",
+  "visualReview": {
+    "reviewer": "root",
+    "result": "passed",
+    "animationComplete": true,
+    "screenshots": [
+      "output/playwright/2026-11-07-json-desktop.png",
+      "output/playwright/2026-11-07-json-mobile.png",
+      "output/playwright/2026-11-07-source-mobile.png",
+      "output/playwright/2026-11-07-listing-mobile.png",
+      "output/playwright/2026-11-07-listing-desktop.png"
+    ],
+    "note": "Existing typography, cyan links and list layout retained; no overflow. TXT direct display verified as UTF-8."
+  },
+  "browserClosed": true,
+  "recovery": {
+    "initialSelectorIssue": "Listing link has trailing slash; test selector corrected from observed DOM. No product link defect.",
+    "textDisplayIssue": "Initial TXT byte match passed but direct browser view was mojibake with text/plain and no charset. Added BOM only to TXT and verified rendered Japanese after corrective deploy.",
+    "verificationReruns": "Completed browser checks rerun after source encoding fix. Synthetic traffic is not acquisition."
+  }
+}

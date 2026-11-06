@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-05T23:10:15.101Z",
+  "updatedAt": "2026-11-06T23:15:23.254Z",
   "rules": {
     "oneOwnerUrlPerIntent": true,
     "publicCopyExcludesOperationalMetadata": true
@@ -991,6 +991,52 @@
       "experimentId": "insight-ai-pdf-extraction-checklist-v1",
       "source": "scripts/generate-pdf-extraction-kit.py",
       "articleUrl": "https://ai.gami.jp/insights/ai-pdf-extraction-checklist/"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-json-output-checklist/",
+      "type": "insight",
+      "intent": "AI生成JSONの構文・必須項目と型・原文一致を分けて確かめる",
+      "status": "published",
+      "lastModified": "2026-11-07",
+      "experimentId": "insight-ai-json-output-checklist-v1",
+      "contentSource": "src/app/content/insights.js"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-json-output-checklist/index.html",
+      "type": "redirect-alias",
+      "status": "redirected",
+      "indexable": false,
+      "canonicalTarget": "https://ai.gami.jp/insights/ai-json-output-checklist/",
+      "httpStatus": 301,
+      "implementedAt": "2026-11-06T23:13:20.160Z",
+      "experimentId": "insight-ai-json-output-checklist-v1"
+    },
+    {
+      "url": "https://ai.gami.jp/assets/files/insights/ai-json-output-checklist/source.txt",
+      "type": "downloadable-resource",
+      "status": "published",
+      "lastModified": "2026-11-07",
+      "experimentId": "insight-ai-json-output-checklist-v1",
+      "source": "public/assets/files/insights/ai-json-output-checklist/source.txt",
+      "articleUrl": "https://ai.gami.jp/insights/ai-json-output-checklist/"
+    },
+    {
+      "url": "https://ai.gami.jp/assets/files/insights/ai-json-output-checklist/examples.json",
+      "type": "downloadable-resource",
+      "status": "published",
+      "lastModified": "2026-11-07",
+      "experimentId": "insight-ai-json-output-checklist-v1",
+      "source": "public/assets/files/insights/ai-json-output-checklist/examples.json",
+      "articleUrl": "https://ai.gami.jp/insights/ai-json-output-checklist/"
+    },
+    {
+      "url": "https://ai.gami.jp/assets/files/insights/ai-json-output-checklist/schema.json",
+      "type": "downloadable-resource",
+      "status": "published",
+      "lastModified": "2026-11-07",
+      "experimentId": "insight-ai-json-output-checklist-v1",
+      "source": "public/assets/files/insights/ai-json-output-checklist/schema.json",
+      "articleUrl": "https://ai.gami.jp/insights/ai-json-output-checklist/"
     }
   ]
 }

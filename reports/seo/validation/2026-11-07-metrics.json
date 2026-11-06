@@ -1,0 +1,23 @@
+{
+  "checkedAt": "2026-11-06T23:09:58.312Z",
+  "status": "passed_with_caveats",
+  "independentReviewer": "nov7_measurement",
+  "groups": 14,
+  "rows": 72,
+  "positiveCtrRowsMatched": 71,
+  "explicitZeroDenominatorRows": 1,
+  "normalizedValueDimensionCountMismatches": 0,
+  "deviceTotalsAndWeightedPositionMatch": true,
+  "windowsMatchFreshness": true,
+  "qualifiedOrganicVisits": null,
+  "organicInquiries": null,
+  "completeNonBrandTraffic": false,
+  "uniqueInspections": 4,
+  "effectReviews": 2,
+  "additionalFixedPeriodQueries": 0,
+  "caveats": [
+    "Disclosed nonbrand query rows are incomplete; exclusion does not establish relevant intent.",
+    "Explicit zero denominator retained; interpreted CTR andposition null.",
+    "Proposal comparison sheet newlyindexed/post-change recrawl; recognition is not acquisition."
+  ]
+}

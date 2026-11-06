@@ -1,0 +1,80 @@
+{
+  "preparedAt": "2026-11-06T23:09:58.312Z",
+  "status": "ready_to_prepare",
+  "lane": "internal-link",
+  "work": "AI Web制作の公開後の改善から、既存のサイト修正依頼メモへ1リンクを加える。",
+  "sourceUrl": "https://ai.gami.jp/services/ai-web/",
+  "targetUrl": "https://ai.gami.jp/insights/ai-website-change-request-template/",
+  "insertion": "Existing IMPROVE section using existing links array",
+  "anchorDraft": "AIで作ったサイトの修正依頼メモを見る",
+  "draftAgent": "nov7_json_copy",
+  "draftModel": "gpt-6.1-sol",
+  "reviewer": "nov7_measurement",
+  "implemented": false,
+  "live": [
+    {
+      "url": "https://ai.gami.jp/services/ai-web/",
+      "checkedAt": "2026-11-06T23:09:58.457Z",
+      "status": 200,
+      "selfCanonical": true,
+      "indexAllowed": true,
+      "newTargetLinks": 0,
+      "launchLinks": 1,
+      "briefLinks": 1
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-website-change-request-template/",
+      "checkedAt": "2026-11-06T23:09:58.482Z",
+      "status": 200,
+      "selfCanonical": true,
+      "indexAllowed": true,
+      "newTargetLinks": 0,
+      "launchLinks": 0,
+      "briefLinks": 0
+    }
+  ],
+  "evidencePaths": [
+    "reports/seo/inspections/2026-10-25-due-pages.json",
+    "reports/seo/inspections/2026-11-01-due-pages.json",
+    "reports/seo/metrics/2026-10-29-effect-review.json"
+  ],
+  "reason": "Target unknown in two scheduled inspections and live200/indexable; natural related service context has no direct link. Preserve target text and original review dates.",
+  "existingExperimentDecision": {
+    "experimentId": "service-ai-web-brief-link-v1",
+    "originalStartedAt": "2026-09-28T08:18:34.7290309+09:00",
+    "originalFreezeEnded": "2026-10-29",
+    "fixedReview": "inconclusive; target exact-page rows missing",
+    "actionBeforePublication": "Explicit close/reprioritize with prior start/history retained; preserve brief and launch links. Do not treat old freeze as indefinite.",
+    "retainedHistoricalFollowups": [
+      {
+        "onOrAfter": "2026-11-09",
+        "check": "Bounded index/crawl followup; reuse target evidence. Retain original start/effect dates; no rewrite solely for unknown or oldcrawl."
+      },
+      {
+        "onOrAfter": "2026-11-12",
+        "check": "Bounded low-volume effect followup; preserve original start and corrected first28fullPacificdays record. Missing rows null; no causal or direct link-use inference."
+      }
+    ],
+    "notClosedToday": true
+  },
+  "targetDatesRetained": [
+    "2026-11-08",
+    "2026-11-11"
+  ],
+  "scope": "One source section link in runtime/initial data and factual source lastModified. Preserve existing articles, shared renderer/CSS and current JSON package.",
+  "prospectiveConfoundsToRecord": [
+    "service-ai-web-brief-link-v1",
+    "insight-ai-website-change-request-template-v1",
+    "insight-launch-change-request-link-v1",
+    "generated-index-alias-redirects-v1",
+    "home-initial-service-parity-v1"
+  ],
+  "validation": [
+    "Confirm experiment handoff and target/source current state.",
+    "Use existing design and targeted Lazyweb evidence.",
+    "Build, initial/runtime newlink1 and oldlinks1each, actual click and scoped desktop/mobile.",
+    "First28fullPTdays and >=30target-page impressions before descriptive review."
+  ],
+  "acquisitionEffect": "not-yet-measurable",
+  "noExternalSubmission": true
+}

@@ -1,0 +1,162 @@
+{
+  "checkedAt": "2026-11-06T23:06:08.203Z",
+  "mode": "predeploy",
+  "staticEntries": 38,
+  "indexableEntries": 36,
+  "articleCount": 25,
+  "pages": [
+    {
+      "url": "https://ai.gami.jp/insights/ai-json-output-checklist/",
+      "httpStatus": null,
+      "headAndBodyMatchBuild": null,
+      "schemaTypes": {
+        "Organization": 4,
+        "WebPage": 1,
+        "WebSite": 1,
+        "Article": 1,
+        "BreadcrumbList": 1,
+        "ListItem": 3
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/",
+      "httpStatus": null,
+      "headAndBodyMatchBuild": null,
+      "schemaTypes": {
+        "Organization": 2,
+        "CollectionPage": 1,
+        "WebSite": 1,
+        "ItemList": 1,
+        "ListItem": 27,
+        "BreadcrumbList": 1
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/services/ai-saas/",
+      "httpStatus": 200,
+      "headAndBodyMatchBuild": true,
+      "schemaTypes": {
+        "Organization": 3,
+        "WebPage": 1,
+        "WebSite": 1,
+        "Service": 1,
+        "Country": 1,
+        "BreadcrumbList": 1,
+        "ListItem": 3
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/rag-answer-review-sheet/",
+      "httpStatus": 200,
+      "headAndBodyMatchBuild": true,
+      "schemaTypes": {
+        "Organization": 4,
+        "WebPage": 1,
+        "WebSite": 1,
+        "Article": 1,
+        "BreadcrumbList": 1,
+        "ListItem": 3
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-project-proposal-comparison-sheet/",
+      "httpStatus": 200,
+      "headAndBodyMatchBuild": true,
+      "schemaTypes": {
+        "Organization": 4,
+        "WebPage": 1,
+        "WebSite": 1,
+        "Article": 1,
+        "BreadcrumbList": 1,
+        "ListItem": 3
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-customer-reply-template/",
+      "httpStatus": 200,
+      "headAndBodyMatchBuild": true,
+      "schemaTypes": {
+        "Organization": 4,
+        "WebPage": 1,
+        "WebSite": 1,
+        "Article": 1,
+        "BreadcrumbList": 1,
+        "ListItem": 3
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-internal-faq-editing-template/",
+      "httpStatus": 200,
+      "headAndBodyMatchBuild": true,
+      "schemaTypes": {
+        "Organization": 4,
+        "WebPage": 1,
+        "WebSite": 1,
+        "Article": 1,
+        "BreadcrumbList": 1,
+        "ListItem": 3
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-translation-glossary-template/",
+      "httpStatus": 200,
+      "headAndBodyMatchBuild": true,
+      "schemaTypes": {
+        "Organization": 4,
+        "WebPage": 1,
+        "WebSite": 1,
+        "Article": 1,
+        "BreadcrumbList": 1,
+        "ListItem": 3
+      },
+      "indexAllowed": true
+    }
+  ],
+  "assets": [],
+  "redirects": [],
+  "sitemap": {
+    "urlCount": 36,
+    "articleAndListingLastmod": "2026-11-07",
+    "priorDatesPreserved": true,
+    "exactLiveMatch": false
+  },
+  "aliasRules": 36,
+  "resources": [
+    {
+      "path": "/assets/files/insights/ai-json-output-checklist/source.txt",
+      "bytes": 85,
+      "sha256": "4134b9805bdb8c601af369bb0d2aeaef1748bad61692beed8e4a09418716bd7e",
+      "status": null,
+      "contentType": null
+    },
+    {
+      "path": "/assets/files/insights/ai-json-output-checklist/examples.json",
+      "bytes": 730,
+      "sha256": "2d8676b258050f0e3b5011fcc56bae796fa80468e4439233d71c4e494980f4f7",
+      "status": null,
+      "contentType": null
+    },
+    {
+      "path": "/assets/files/insights/ai-json-output-checklist/schema.json",
+      "bytes": 296,
+      "sha256": "2c8f66f9d2d54fe2311a225794c9efea477b393263fcbfeba8bbf39fd8a2cdf2",
+      "status": null,
+      "contentType": null
+    }
+  ],
+  "existing34PageHeadsAndBodiesUnchanged": true,
+  "passed": true,
+  "existing24ArticlesUnchanged": true,
+  "independentReview": {
+    "agent": "nov7_json_review",
+    "status": "passed",
+    "note": "Existing24articles byte-equivalent as parsed data; report label corrected before publication."
+  }
+}
