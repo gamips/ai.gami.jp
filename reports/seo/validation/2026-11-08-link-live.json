@@ -1,0 +1,203 @@
+{
+  "checkedAt": "2026-11-07T23:04:16.670Z",
+  "baseline": "9d0765f90b12ec0b0473b3ed6c96f912f9c7b412",
+  "mode": "live",
+  "runtimeOnlyExpectedLinkAdded": true,
+  "existing25ArticlesUnchanged": true,
+  "existingAliasRulesUnchanged": true,
+  "unchangedHeadCount": 36,
+  "unchangedBodyCount": 35,
+  "pages": [
+    {
+      "url": "https://ai.gami.jp/services/ai-web/",
+      "status": 200,
+      "headMatches": "build",
+      "bodyMatches": "build",
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-website-change-request-template/",
+      "status": 200,
+      "headMatches": "build",
+      "bodyMatches": "build",
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-work-procedure-template/",
+      "status": 200,
+      "headMatches": "build",
+      "bodyMatches": "build",
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/saas-or-custom-system-checklist/",
+      "status": 200,
+      "headMatches": "build",
+      "bodyMatches": "build",
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-article-fact-check-template/",
+      "status": 200,
+      "headMatches": "build",
+      "bodyMatches": "build",
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-website-brief-template/",
+      "status": 200,
+      "headMatches": "build",
+      "bodyMatches": "build",
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-work-time-comparison-sheet/",
+      "status": 200,
+      "headMatches": "build",
+      "bodyMatches": "build",
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-introduction-support/",
+      "status": 200,
+      "headMatches": "build",
+      "bodyMatches": "build",
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-table-cleanup-checklist/",
+      "status": 200,
+      "headMatches": "build",
+      "bodyMatches": "build",
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/",
+      "status": 200,
+      "headMatches": "build",
+      "bodyMatches": "build",
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/services/ai-saas/",
+      "status": 200,
+      "headMatches": "build",
+      "bodyMatches": "build",
+      "indexAllowed": true
+    }
+  ],
+  "assets": [
+    {
+      "file": "About-B0mm_96_.js",
+      "match": true
+    },
+    {
+      "file": "arrow-right-CTL5OpQ2.js",
+      "match": true
+    },
+    {
+      "file": "Concept-CWbvX_n4.js",
+      "match": true
+    },
+    {
+      "file": "Contact-usG5XuQ-.js",
+      "match": true
+    },
+    {
+      "file": "ContactThanks-CHsNCs5G.js",
+      "match": true
+    },
+    {
+      "file": "createLucideIcon-BZoHgzWF.js",
+      "match": true
+    },
+    {
+      "file": "Footer-Cnzw7Ihc.js",
+      "match": true
+    },
+    {
+      "file": "GeometricParticles-qWld61VH.js",
+      "match": true
+    },
+    {
+      "file": "Header-Bx6A-Vpz.js",
+      "match": true
+    },
+    {
+      "file": "Home-BOmBSwTm.js",
+      "match": true
+    },
+    {
+      "file": "index-B3e8x3xP.js",
+      "match": true
+    },
+    {
+      "file": "index-BSUbwp1T.css",
+      "match": true
+    },
+    {
+      "file": "InquiryCta-DIln1S3W.js",
+      "match": true
+    },
+    {
+      "file": "InsightDetail-DWxfWdsa.js",
+      "match": true
+    },
+    {
+      "file": "Insights-BpPCvdP5.js",
+      "match": true
+    },
+    {
+      "file": "News-CJ9zyFI9.js",
+      "match": true
+    },
+    {
+      "file": "NotFound-qFBkzbXT.js",
+      "match": true
+    },
+    {
+      "file": "PageSeo-VjmXv1aJ.js",
+      "match": true
+    },
+    {
+      "file": "Price-BKuH8wtQ.js",
+      "match": true
+    },
+    {
+      "file": "proxy-Casvy0wm.js",
+      "match": true
+    },
+    {
+      "file": "ScrollReveal-BHysJY1j.js",
+      "match": true
+    },
+    {
+      "file": "ScrollToTopLink-C4yzVAlW.js",
+      "match": true
+    },
+    {
+      "file": "ServiceDetail-rTsEhwDT.js",
+      "match": true
+    },
+    {
+      "file": "Services-CFwt3-kf.js",
+      "match": true
+    },
+    {
+      "file": "services-Js7Zr6Mh.js",
+      "match": true
+    }
+  ],
+  "sitemap": {
+    "urls": 36,
+    "onlySourceLastModifiedChanged": true,
+    "newDate": "2026-11-08"
+  },
+  "liveSitemapMatches": "build",
+  "rootAlias": {
+    "url": "https://ai.gami.jp/index.html",
+    "status": 301,
+    "location": "https://ai.gami.jp/"
+  },
+  "passed": true
+}

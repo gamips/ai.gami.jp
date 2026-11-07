@@ -1,0 +1,76 @@
+{
+  "preparedAt": "2026-11-07T23:07:18.668Z",
+  "status": "ready_to_prepare",
+  "lane": "owned-resource",
+  "work": "AIで日程候補を整理する短い記事と架空の練習ファイルを作る。",
+  "draftTitle": "AIで日程候補を整理する｜全員が参加できる時間を確かめる練習セット",
+  "draftAgent": "nov8_copy",
+  "draftModel": "gpt-6.1-sol",
+  "suggestedPath": "/insights/ai-meeting-time-checklist/",
+  "readerBenefit": "三人の空き時間と30分会議の条件から共通候補を出し、見落としを自分で照合する。",
+  "scope": "New article and TXT/CSV only; existing25articles and service pages unchanged. Existing design/renderers only.",
+  "fictionalFixture": {
+    "timeZone": "Asia/Tokyo",
+    "durationMinutes": 30,
+    "days": [
+      {
+        "date": "2026-11-17",
+        "availability": {
+          "A": [
+            "09:00",
+            "11:00"
+          ],
+          "B": [
+            "09:30",
+            "10:30"
+          ],
+          "C": [
+            "10:00",
+            "11:30"
+          ]
+        },
+        "answer": [
+          "10:00",
+          "10:30"
+        ]
+      },
+      {
+        "date": "2026-11-18",
+        "availability": {
+          "A": [
+            "13:00",
+            "15:00"
+          ],
+          "B": [
+            "14:00",
+            "16:00"
+          ],
+          "C": [
+            "13:30",
+            "14:30"
+          ]
+        },
+        "answer": [
+          "14:00",
+          "14:30"
+        ]
+      }
+    ]
+  },
+  "boundaries": [
+    "Fictional exercise, not measured AI output or actual meeting registration.",
+    "No calendar connection, personal schedules or paid tools.",
+    "No broad product claims or real-person data.",
+    "Keep resource text directly readable; TXT encoding/browser and CSV comparisons before publication."
+  ],
+  "duplicateCheck": "Inventory81entries and25article slugs: no meeting-time planning topic. Existing meeting action-items article concerns decisions after a meeting, not availability intersection.",
+  "prospectiveConfounds": [
+    "Insights listing",
+    "README-linked collection",
+    "generated aliases for new page",
+    "inbound service link if added"
+  ],
+  "implemented": false,
+  "acquisitionEffect": "not-yet-measurable",
+  "searchDemand": "unverified; prioritize concrete reader utility, not claimed keyword volume"
+}

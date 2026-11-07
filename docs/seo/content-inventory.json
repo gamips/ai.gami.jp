@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-06T23:15:23.254Z",
+  "updatedAt": "2026-11-07T23:07:18.668Z",
   "rules": {
     "oneOwnerUrlPerIntent": true,
     "publicCopyExcludesOperationalMetadata": true
@@ -86,12 +86,14 @@
       "type": "service",
       "intent": "AI Web制作とブランド品質",
       "status": "published",
-      "lastModified": "2026-09-28",
+      "lastModified": "2026-11-08",
       "relatedGuide": "https://ai.gami.jp/insights/ai-website-launch-checklist/",
       "relatedBriefGuide": "https://ai.gami.jp/insights/ai-website-brief-template/",
-      "experimentId": "service-ai-web-brief-link-v1",
+      "experimentId": "service-ai-web-change-request-link-v1",
       "aliasRepairUpdatedAt": "2026-10-26T23:42:07.415Z",
-      "aliasRepairExperimentId": "generated-index-alias-redirects-v1"
+      "aliasRepairExperimentId": "generated-index-alias-redirects-v1",
+      "previousLinkExperimentId": "service-ai-web-brief-link-v1",
+      "relatedChangeRequestGuide": "https://ai.gami.jp/insights/ai-website-change-request-template/"
     },
     {
       "url": "https://ai.gami.jp/price/",

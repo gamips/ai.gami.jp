@@ -1,0 +1,102 @@
+{
+  "plannedAt": "2026-11-07T23:03:15.484Z",
+  "status": "ready_to_publish",
+  "experimentId": "service-ai-web-change-request-link-v1",
+  "lane": "internal-link",
+  "sourceUrl": "https://ai.gami.jp/services/ai-web/",
+  "targetUrl": "https://ai.gami.jp/insights/ai-website-change-request-template/",
+  "anchor": "AIで作ったサイトの修正依頼メモを見る",
+  "draftAgent": "nov8_copy",
+  "draftModel": "gpt-6.1-sol",
+  "reviewer": "nov8_review",
+  "scope": "One existing IMPROVE link in runtime/static data plus factual source lastModified. Shared renderer/CSS,25articles and two prior source links unchanged.",
+  "existingExperimentDecision": {
+    "experimentId": "service-ai-web-brief-link-v1",
+    "originalStartedAt": "2026-09-28T08:18:34.7290309+09:00",
+    "closedAt": "2026-11-07T23:03:15.484Z",
+    "status": "completed",
+    "result": "inconclusive",
+    "lastEffectResult": "inconclusive",
+    "closureReason": "First28fullPacificdays reviewed with insufficient target evidence. Preserve brief/launch links and historical Nov9/12 followups; release expired source freeze for a separate relevant link.",
+    "closureEvidencePath": "reports/seo/metrics/2026-10-29-effect-review.json",
+    "retainedNextChecks": [
+      {
+        "onOrAfter": "2026-11-09",
+        "check": "Bounded index/crawl followup; reuse target evidence. Retain original start/effect dates; no rewrite solely for unknown or oldcrawl."
+      },
+      {
+        "onOrAfter": "2026-11-12",
+        "check": "Bounded low-volume effect followup; preserve original start and corrected first28fullPacificdays record. Missing rows null; no causal or direct link-use inference."
+      }
+    ]
+  },
+  "baseline": {
+    "metricsPath": "reports/seo/metrics/2026-11-08-current.json",
+    "source": null,
+    "sourceNoSlash": null,
+    "target": null,
+    "qualifiedOrganicVisits": null,
+    "organicInquiries": null
+  },
+  "expectation": "Provide a contextual route from public-site improvement services to the five-field change-request memo. Index pickup is not proof of link use or acquisition.",
+  "minimumEvidence": {
+    "fullFinalPacificDays": 28,
+    "targetPageImpressions": 30
+  },
+  "plannedPublicationPacificDate": "2026-11-07",
+  "firstFullPostChangeWindow": {
+    "startDate": "2026-11-08",
+    "endDate": "2026-12-05"
+  },
+  "nextChecks": [
+    {
+      "onOrAfter": "2026-11-15",
+      "check": "Bounded source index/crawl followup, reuse target due inspection; no daily recheck."
+    },
+    {
+      "onOrAfter": "2026-12-09",
+      "check": "First28fullPacificdays November8–December5 finalized and >=30target-page impressions. Actual freshness controls; no causal or link-use attribution without evidence."
+    }
+  ],
+  "freezeScope": "AI Web source approach links through first effect review except factual/technical corrections. Target text and original start/effect dates remain unchanged.",
+  "rollback": "Remove only the added IMPROVE links from runtime/static data and restore source lastModified; preserve launch/brief links.",
+  "prospectiveConfounds": [
+    "service-ai-web-brief-link-v1",
+    "insight-ai-website-change-request-template-v1",
+    "insight-launch-change-request-link-v1",
+    "generated-index-alias-redirects-v1",
+    "home-initial-service-parity-v1"
+  ],
+  "designEvidence": {
+    "acquiredAt": "2026-11-07T23:02:48.019Z",
+    "query": "service page related guide link",
+    "platform": "desktop",
+    "coverage": {
+      "strength": "moderate",
+      "top_similarity": 0.494
+    },
+    "warnings": [],
+    "sourceUrl": "https://www.lazyweb.com/agentic-search/5069eefa-4938-4edd-b455-a6cd21bb9bab",
+    "results": [
+      {
+        "company": "guidde",
+        "url": "https://www.guidde.com/use-cases/enterprise",
+        "description": "Enterprise landing page for Guidea promoting AI-powered guide creation at scale, seamless knowledge delivery in the flow of work across organizations, trusted by companies like Nubank, and featuring benefit cards with testimonials and product visuals.",
+        "ref": "screens:853e9b9397d58452c430b7ad"
+      },
+      {
+        "company": "newegg-business",
+        "url": "https://www.neweggbusiness.com/sellers/index.php/service-guides/",
+        "description": "Seller portal service guides landing page categorizing resources into Program Introduction (with PDF and video links), Seller Portal Guides (billing and shipping portals), Policy Guides (shipping and returns policies), and Forms & Other, featuring downloadable PDFs, instructional text on servicing orders, top navigation for portal sections like Resources and Help, and a prominent \"Get started\" call-to-action button.",
+        "ref": "screens:0d791cb062a51acc6a24fef2"
+      }
+    ],
+    "use": "Existing inline link component retained. Newegg service-guide grouping supports context-specific guide links; no redesign or report requested."
+  },
+  "validation": {
+    "build": "passed;2043modules",
+    "diffCheck": "passed",
+    "predeploy": "reports/seo/validation/2026-11-08-link-predeploy.json"
+  },
+  "acquisitionEffect": "not-yet-measurable"
+}

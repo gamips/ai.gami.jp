@@ -1,0 +1,24 @@
+{
+  "completedAt": "2026-11-07T23:01:12.7561801+00:00",
+  "observedAt": "2026-11-07T23:01:12.1331193+00:00",
+  "response": {
+    "path": "https://ai.gami.jp/sitemap.xml",
+    "lastSubmitted": "2026-05-07T06:44:37.462Z",
+    "isPending": false,
+    "isSitemapsIndex": false,
+    "type": "sitemap",
+    "lastDownloaded": "2026-05-07T06:44:39.118Z",
+    "warnings": "0",
+    "errors": "0",
+    "contents": [
+      {
+        "type": "web",
+        "submitted": "10",
+        "indexed": "0"
+      }
+    ]
+  },
+  "note": "Read-only; obsolete contents.indexed ignored; no PUT retry.",
+  "method": "GET",
+  "sitemapUrl": "https://ai.gami.jp/sitemap.xml"
+}

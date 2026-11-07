@@ -1,0 +1,63 @@
+{
+  "checkedAt": "2026-11-07T23:04:45.937Z",
+  "views": [
+    {
+      "url": "https://ai.gami.jp/services/ai-web/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1Count": 1,
+      "newLinks": [
+        "AIで作ったサイトの修正依頼メモを見る"
+      ],
+      "oldLinks": [
+        {
+          "href": "/insights/ai-website-launch-checklist/",
+          "count": 1
+        },
+        {
+          "href": "/insights/ai-website-brief-template/",
+          "count": 1
+        }
+      ],
+      "canonical": "https://ai.gami.jp/services/ai-web/",
+      "commaBr": false
+    },
+    {
+      "url": "https://ai.gami.jp/services/ai-web/",
+      "width": 390,
+      "scrollWidth": 390,
+      "h1Count": 1,
+      "newLinks": [
+        "AIで作ったサイトの修正依頼メモを見る"
+      ],
+      "oldLinks": [
+        {
+          "href": "/insights/ai-website-launch-checklist/",
+          "count": 1
+        },
+        {
+          "href": "/insights/ai-website-brief-template/",
+          "count": 1
+        }
+      ],
+      "canonical": "https://ai.gami.jp/services/ai-web/",
+      "commaBr": false
+    }
+  ],
+  "errors": [],
+  "observedHref": "/insights/ai-website-change-request-template/",
+  "navigation": {
+    "url": "https://ai.gami.jp/insights/ai-website-change-request-template/",
+    "h1": "AIで作ったサイトの修正を頼む｜変更内容をまとめるメモ",
+    "canonical": "https://ai.gami.jp/insights/ai-website-change-request-template/",
+    "schemaTypes": {
+      "Organization": 1,
+      "WebPage": 1,
+      "Article": 1,
+      "BreadcrumbList": 1
+    }
+  },
+  "browserClosed": true,
+  "visualReview": "Coordinator reviewed desktop and mobile captures: added link follows existing cyan typography and spacing, readable without overflow. Shared fixed header unchanged; captured top crop is outside changed block.",
+  "syntheticActivityExcludedFromAcquisition": true
+}
