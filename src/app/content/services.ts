@@ -846,6 +846,12 @@ export const services: ServiceContent[] = [
           "問い合わせにつながる見出し、FAQ、CTAを継続改善",
           "必要になった時点で記事、事例、用途別ページを増やす",
         ],
+        links: [
+          {
+            label: "AIで作ったサイトの修正依頼メモを見る",
+            href: "/insights/ai-website-change-request-template/",
+          },
+        ],
       },
     ],
     cards: [
