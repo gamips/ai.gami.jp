@@ -1,0 +1,52 @@
+{
+  "preparedAt": "2026-11-08T23:09:37.625Z",
+  "status": "ready_to_prepare",
+  "lane": "owned-resource",
+  "work": "Web用の画像1枚の制作依頼をまとめる記事とTXT2点を作る。",
+  "draftTitle": "AIにWeb用の画像を頼む前に｜用途・必要な要素・比率をまとめるメモ",
+  "draftAgent": "nov9_copy",
+  "draftModel": "gpt-6.1-sol",
+  "suggestedPath": "/insights/ai-web-image-brief-template/",
+  "scope": "New article and template.txt/example.txt only; existing26articles and design unchanged.",
+  "readerBenefit": "画像の用途、必要な要素、避ける要素、比率を制作前に伝え、できた画像と照合する。",
+  "fictionalExample": {
+    "purpose": "架空の家具工房サイトの見出し画像",
+    "required": "木製の椅子を右側に置き、左側は見出し用の余白",
+    "avoid": "人物、ロゴ、画像内の文字",
+    "aspectRatio": "16:9",
+    "requestedWidth": 1600,
+    "requestedHeight": 900
+  },
+  "duplicateCheck": "Alttext describes existing images; websitebrief covers whole-site requirements; change-request covers existing edits. This covers a one-image creation brief.",
+  "verification": [
+    "Map four fields between template and example.",
+    "Verify1600:900=16:9; dimensions are requested, not generator guarantees.",
+    "Latest-model concise draft; no client or performance claims.",
+    "TXT direct Japanese display and existing template."
+  ],
+  "implemented": false,
+  "acquisitionEffect": "not-yet-measurable",
+  "deferredPublicity": {
+    "status": "deferred_same_surface",
+    "candidate": "Owned GitHub repository topics",
+    "observedInRun": "2026-11-09",
+    "metadata": {
+      "repository": "https://github.com/gamips/ai.gami.jp",
+      "topics": [],
+      "description": "GAMI公式サイトのソースコード。AI導入支援、AIを活用した業務システム開発、Web制作を紹介しています。",
+      "homepage": "https://ai.gami.jp/",
+      "visibility": "public",
+      "archived": false
+    },
+    "draftTopics": [
+      "corporate-website",
+      "react",
+      "vite",
+      "php"
+    ],
+    "officialEvidence": "https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics",
+    "resumeOnOrAfter": "2026-11-29",
+    "reason": "Same external surface as active README experiment. Review existing observation and handoff before writing; no topics changed.",
+    "caveat": "GitHub discovery feature, not a Google ranking or useful traffic guarantee."
+  }
+}

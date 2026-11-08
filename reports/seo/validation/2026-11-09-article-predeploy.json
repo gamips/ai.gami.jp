@@ -1,0 +1,204 @@
+{
+  "checkedAt": "2026-11-08T23:01:14.259Z",
+  "mode": "predeploy",
+  "baselineCommit": "adaa763157a97197a77d402aa3a07ddeaf8c5d6f",
+  "articleCount": 26,
+  "indexableEntries": 37,
+  "staticEntries": 39,
+  "existing25ArticlesUnchanged": true,
+  "existing35HeadsAndBodiesUnchanged": true,
+  "pages": [
+    {
+      "url": "https://ai.gami.jp/insights/ai-meeting-time-checklist/",
+      "status": null,
+      "headAndBodyMatch": "local-new-page",
+      "schemaTypes": {
+        "Organization": 1,
+        "WebPage": 1,
+        "Article": 1,
+        "BreadcrumbList": 1
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/",
+      "status": 200,
+      "headAndBodyMatch": "baseline",
+      "schemaTypes": {
+        "Organization": 1,
+        "CollectionPage": 1,
+        "ItemList": 1,
+        "BreadcrumbList": 1
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/services/ai-saas/",
+      "status": 200,
+      "headAndBodyMatch": "baseline",
+      "schemaTypes": {
+        "Organization": 1,
+        "WebPage": 1,
+        "Service": 1,
+        "BreadcrumbList": 1
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/services/ai-web/",
+      "status": 200,
+      "headAndBodyMatch": "baseline",
+      "schemaTypes": {
+        "Organization": 1,
+        "WebPage": 1,
+        "Service": 1,
+        "BreadcrumbList": 1
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/services/",
+      "status": 200,
+      "headAndBodyMatch": "baseline",
+      "schemaTypes": {
+        "Organization": 1,
+        "CollectionPage": 1,
+        "ItemList": 1,
+        "BreadcrumbList": 1
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/news/",
+      "status": 200,
+      "headAndBodyMatch": "baseline",
+      "schemaTypes": {
+        "Organization": 1,
+        "CollectionPage": 2,
+        "BreadcrumbList": 1
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/about/",
+      "status": 200,
+      "headAndBodyMatch": "baseline",
+      "schemaTypes": {
+        "Organization": 1,
+        "AboutPage": 1,
+        "BreadcrumbList": 1
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/",
+      "status": 200,
+      "headAndBodyMatch": "baseline",
+      "schemaTypes": {
+        "Organization": 1,
+        "WebSite": 1,
+        "WebPage": 1,
+        "ItemList": 1
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-meeting-action-items-template/",
+      "status": 200,
+      "headAndBodyMatch": "baseline",
+      "schemaTypes": {
+        "Organization": 1,
+        "WebPage": 1,
+        "Article": 1,
+        "BreadcrumbList": 1
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-introduction-support-pricing/",
+      "status": 200,
+      "headAndBodyMatch": "baseline",
+      "schemaTypes": {
+        "Organization": 1,
+        "WebPage": 1,
+        "Article": 1,
+        "BreadcrumbList": 1
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-text-shortening-checklist/",
+      "status": 200,
+      "headAndBodyMatch": "baseline",
+      "schemaTypes": {
+        "Organization": 1,
+        "WebPage": 1,
+        "Article": 1,
+        "BreadcrumbList": 1
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-article-fact-check-template/",
+      "status": 200,
+      "headAndBodyMatch": "baseline",
+      "schemaTypes": {
+        "Organization": 1,
+        "WebPage": 1,
+        "Article": 1,
+        "BreadcrumbList": 1
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/rag-document-inventory-checklist/",
+      "status": 200,
+      "headAndBodyMatch": "baseline",
+      "schemaTypes": {
+        "Organization": 1,
+        "WebPage": 1,
+        "Article": 1,
+        "BreadcrumbList": 1
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/rag-answer-review-sheet/",
+      "status": 200,
+      "headAndBodyMatch": "baseline",
+      "schemaTypes": {
+        "Organization": 1,
+        "WebPage": 1,
+        "Article": 1,
+        "BreadcrumbList": 1
+      },
+      "indexAllowed": true
+    }
+  ],
+  "assets": [],
+  "resources": [
+    {
+      "path": "/assets/files/insights/ai-meeting-time-checklist/source.txt",
+      "bytes": 996,
+      "sha256": "5f221b3324d6de4f41451792dcacfe3faf425417f0199dda4996969a5c4ccc64",
+      "status": null,
+      "contentType": null
+    },
+    {
+      "path": "/assets/files/insights/ai-meeting-time-checklist/answer.csv",
+      "bytes": 126,
+      "sha256": "f9c0083944a0f8fa269c4ebddcca5ef47714cbfb5084d1f58cfb2e55cf5eb371",
+      "status": null,
+      "contentType": null
+    }
+  ],
+  "redirects": [],
+  "sitemap": {
+    "urls": 37,
+    "existing35DatesPreserved": true,
+    "newArticleAndListingDate": "2026-11-09",
+    "liveMatches": "baseline"
+  },
+  "existing36AliasRulesPreserved": true,
+  "passed": true
+}

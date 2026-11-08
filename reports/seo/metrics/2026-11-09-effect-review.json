@@ -1,0 +1,253 @@
+{
+  "reviewedAt": "2026-11-08T23:05:53.626Z",
+  "reportingTimeZone": "America/Los_Angeles",
+  "latestFinalizedDate": "2026-11-06",
+  "additionalFixedPeriodApiQueries": 0,
+  "reviews": [
+    {
+      "experimentId": "insight-ai-article-fact-check-template-v1",
+      "originalStartedAt": "2026-09-10T23:09:04Z",
+      "reviewedAt": "2026-11-08T23:05:53.626Z",
+      "result": "inconclusive",
+      "technicalResult": "confirmed",
+      "minimumEvidenceMet": false,
+      "minimumPageImpressions": 30,
+      "first28FullPostDays": {
+        "startDate": "2026-09-11",
+        "endDate": "2026-10-08",
+        "fullFinalDays": 28,
+        "page": null,
+        "noSlash": null,
+        "acquiredAt": "2026-10-25T23:01:23.7854960+00:00"
+      },
+      "comparisonBefore": null,
+      "originalFixedReviewPath": "reports/seo/metrics/2026-10-26-effect-review.json",
+      "currentRolling": {
+        "window": {
+          "startDate": "2026-10-10",
+          "endDate": "2026-11-06",
+          "clicks": 0,
+          "impressions": 145,
+          "ctr": 0,
+          "position": 40.66896551724138
+        },
+        "page": null,
+        "noSlash": null
+      },
+      "inspectionEvidenceReusedFrom": "reports/seo/inspections/2026-11-08-due-pages.json",
+      "liveTechnicalEvidencePath": "reports/seo/validation/2026-11-09-article-live.json",
+      "note": "Missing page rows are null, not zero; available fixed-period impressions below30. Concurrent changes prevent causal attribution. No direct link-use, qualified-visit or inquiry measurement.",
+      "nextEffectReviewOnOrAfter": "2026-11-23",
+      "priorCumulative": {
+        "startDate": "2026-09-11",
+        "endDate": "2026-10-23",
+        "fullFinalDays": 43,
+        "page": null,
+        "noSlash": null,
+        "acquiredAt": "2026-10-25T23:01:23.7855182+00:00"
+      }
+    },
+    {
+      "experimentId": "services-initial-html-parity-v1",
+      "originalStartedAt": "2026-09-25T08:12:21.5059012+09:00",
+      "reviewedAt": "2026-11-08T23:05:53.626Z",
+      "result": "inconclusive",
+      "technicalResult": "confirmed",
+      "minimumEvidenceMet": false,
+      "minimumPageImpressions": 30,
+      "first28FullPostDays": {
+        "path": "reports/seo/metrics/2026-10-25-current.json",
+        "group": "current28dPages",
+        "acquiredAt": "2026-10-25T04:17:11.136Z",
+        "startDate": "2026-09-25",
+        "endDate": "2026-10-22",
+        "page": {
+          "page": "https://ai.gami.jp/services/",
+          "clicks": 0,
+          "impressions": 4,
+          "ctr": 0,
+          "position": 24.75
+        },
+        "noSlash": null,
+        "fullFinalDays": 28
+      },
+      "comparisonBefore": {
+        "path": "reports/seo/metrics/2026-10-24-current.json",
+        "group": "previous28dPages",
+        "acquiredAt": "2026-10-23T23:05:54.698Z",
+        "startDate": "2026-08-27",
+        "endDate": "2026-09-23",
+        "page": {
+          "page": "https://ai.gami.jp/services/",
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": 0,
+          "position": 36
+        },
+        "noSlash": null,
+        "fullFinalDays": 28
+      },
+      "originalFixedReviewPath": "reports/seo/metrics/2026-10-26-effect-review.json",
+      "currentRolling": {
+        "window": {
+          "startDate": "2026-10-10",
+          "endDate": "2026-11-06",
+          "clicks": 0,
+          "impressions": 145,
+          "ctr": 0,
+          "position": 40.66896551724138
+        },
+        "page": {
+          "clicks": 0,
+          "impressions": 14,
+          "ctr": 0,
+          "position": 34.785714285714285,
+          "page": "https://ai.gami.jp/services/"
+        },
+        "noSlash": null
+      },
+      "inspectionEvidenceReusedFrom": "reports/seo/inspections/2026-11-06-due-pages.json",
+      "liveTechnicalEvidencePath": "reports/seo/validation/2026-11-09-article-live.json",
+      "note": "Missing page rows are null, not zero; available fixed-period impressions below30. Concurrent changes prevent causal attribution. No direct link-use, qualified-visit or inquiry measurement.",
+      "nextEffectReviewOnOrAfter": "2026-11-23"
+    },
+    {
+      "experimentId": "home-initial-service-parity-v1",
+      "originalStartedAt": "2026-10-07T23:31:53.1502878Z",
+      "reviewedAt": "2026-11-08T23:05:53.626Z",
+      "result": "inconclusive",
+      "technicalResult": "confirmed",
+      "minimumEvidenceMet": false,
+      "minimumPageImpressions": 30,
+      "first28FullPostDays": {
+        "path": "reports/seo/metrics/2026-11-07-current.json",
+        "group": "current28dPages",
+        "acquiredAt": "2026-11-06T23:02:59.5414832+00:00",
+        "startDate": "2026-10-08",
+        "endDate": "2026-11-04",
+        "fullFinalDays": 28,
+        "page": {
+          "clicks": 0,
+          "impressions": 23,
+          "ctr": 0,
+          "position": 3.4782608695652173,
+          "page": "https://ai.gami.jp/"
+        },
+        "noSlash": null
+      },
+      "comparisonBefore": {
+        "path": "reports/seo/metrics/2026-11-06-current.json",
+        "group": "previous28dPages",
+        "acquiredAt": "2026-11-05T22:59:43.9952705+00:00",
+        "startDate": "2026-09-09",
+        "endDate": "2026-10-06",
+        "fullFinalDays": 28,
+        "page": {
+          "clicks": 0,
+          "impressions": 38,
+          "ctr": 0,
+          "position": 2.552631578947368,
+          "page": "https://ai.gami.jp/"
+        },
+        "noSlash": null
+      },
+      "originalFixedReviewPath": null,
+      "currentRolling": {
+        "window": {
+          "startDate": "2026-10-10",
+          "endDate": "2026-11-06",
+          "clicks": 0,
+          "impressions": 145,
+          "ctr": 0,
+          "position": 40.66896551724138
+        },
+        "page": {
+          "clicks": 0,
+          "impressions": 23,
+          "ctr": 0,
+          "position": 3.4782608695652173,
+          "page": "https://ai.gami.jp/"
+        },
+        "noSlash": null
+      },
+      "inspectionEvidenceReusedFrom": "reports/seo/inspections/2026-11-08-due-pages.json",
+      "liveTechnicalEvidencePath": "reports/seo/validation/2026-11-09-article-live.json",
+      "note": "Missing page rows are null, not zero; available fixed-period impressions below30. Concurrent changes prevent causal attribution. No direct link-use, qualified-visit or inquiry measurement.",
+      "nextEffectReviewOnOrAfter": "2026-11-23",
+      "dateWindowCorrection": "Started2026-10-07T23:31:53Z is October7Pacific. Firstfull28days October8–November4, before September9–October6. OriginalNov9schedule text October9–November5 retained in history; dates corrected here only."
+    },
+    {
+      "experimentId": "insight-rag-inventory-review-link-v1",
+      "originalStartedAt": "2026-10-08T23:10:23.2420626Z",
+      "reviewedAt": "2026-11-08T23:05:53.626Z",
+      "result": "inconclusive",
+      "technicalResult": "confirmed",
+      "minimumEvidenceMet": false,
+      "minimumPageImpressions": 30,
+      "first28FullPostDays": {
+        "path": "reports/seo/metrics/2026-11-08-current.json",
+        "group": "current28dPages",
+        "acquiredAt": "2026-11-07T23:00:26.4384107+00:00",
+        "startDate": "2026-10-09",
+        "endDate": "2026-11-05",
+        "fullFinalDays": 28,
+        "page": null,
+        "noSlash": null
+      },
+      "comparisonBefore": {
+        "path": "reports/seo/metrics/2026-11-07-current.json",
+        "group": "previous28dPages",
+        "acquiredAt": "2026-11-06T23:02:59.5414832+00:00",
+        "startDate": "2026-09-10",
+        "endDate": "2026-10-07",
+        "fullFinalDays": 28,
+        "page": null,
+        "noSlash": null
+      },
+      "originalFixedReviewPath": null,
+      "currentRolling": {
+        "window": {
+          "startDate": "2026-10-10",
+          "endDate": "2026-11-06",
+          "clicks": 0,
+          "impressions": 145,
+          "ctr": 0,
+          "position": 40.66896551724138
+        },
+        "page": null,
+        "noSlash": null
+      },
+      "inspectionEvidenceReusedFrom": "reports/seo/inspections/2026-11-04-due-pages.json",
+      "liveTechnicalEvidencePath": "reports/seo/validation/2026-11-09-article-live.json",
+      "note": "Missing page rows are null, not zero; available fixed-period impressions below30. Concurrent changes prevent causal attribution. No direct link-use, qualified-visit or inquiry measurement.",
+      "nextEffectReviewOnOrAfter": "2026-11-23",
+      "dateWindowCorrection": "Started2026-10-08T23:10:23Z is October8Pacific. Firstfull28days October9–November5, before September10–October7. OriginalNov9schedule text October10–November6 retained; corrected here only.",
+      "sourceFirst28FullPostDays": {
+        "path": "reports/seo/metrics/2026-11-08-current.json",
+        "group": "current28dPages",
+        "acquiredAt": "2026-11-07T23:00:26.4384107+00:00",
+        "startDate": "2026-10-09",
+        "endDate": "2026-11-05",
+        "fullFinalDays": 28,
+        "page": null,
+        "noSlash": null
+      },
+      "sourceComparisonBefore": {
+        "path": "reports/seo/metrics/2026-11-07-current.json",
+        "group": "previous28dPages",
+        "acquiredAt": "2026-11-06T23:02:59.5414832+00:00",
+        "startDate": "2026-09-10",
+        "endDate": "2026-10-07",
+        "fullFinalDays": 28,
+        "page": {
+          "clicks": 0,
+          "impressions": 3,
+          "ctr": 0,
+          "position": 14.333333333333334,
+          "page": "https://ai.gami.jp/insights/rag-document-inventory-checklist/"
+        },
+        "noSlash": null
+      }
+    }
+  ]
+}

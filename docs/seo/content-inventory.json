@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T23:07:18.668Z",
+  "updatedAt": "2026-11-08T23:09:37.625Z",
   "rules": {
     "oneOwnerUrlPerIntent": true,
     "publicCopyExcludesOperationalMetadata": true
@@ -1039,6 +1039,38 @@
       "experimentId": "insight-ai-json-output-checklist-v1",
       "source": "public/assets/files/insights/ai-json-output-checklist/schema.json",
       "articleUrl": "https://ai.gami.jp/insights/ai-json-output-checklist/"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-meeting-time-checklist/",
+      "type": "insight",
+      "intent": "三人の空き時間から30分の共通候補を探し、TXT原文とCSV正解で照合する",
+      "status": "published",
+      "publishedAt": "2026-11-09",
+      "lastModified": "2026-11-09",
+      "experimentId": "insight-ai-meeting-time-checklist-v1"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-meeting-time-checklist/index.html",
+      "type": "alias",
+      "status": "redirected",
+      "canonicalUrl": "https://ai.gami.jp/insights/ai-meeting-time-checklist/",
+      "experimentId": "insight-ai-meeting-time-checklist-v1"
+    },
+    {
+      "url": "https://ai.gami.jp/assets/files/insights/ai-meeting-time-checklist/source.txt",
+      "type": "resource",
+      "status": "published",
+      "publishedAt": "2026-11-09",
+      "relatedArticle": "https://ai.gami.jp/insights/ai-meeting-time-checklist/",
+      "experimentId": "insight-ai-meeting-time-checklist-v1"
+    },
+    {
+      "url": "https://ai.gami.jp/assets/files/insights/ai-meeting-time-checklist/answer.csv",
+      "type": "resource",
+      "status": "published",
+      "publishedAt": "2026-11-09",
+      "relatedArticle": "https://ai.gami.jp/insights/ai-meeting-time-checklist/",
+      "experimentId": "insight-ai-meeting-time-checklist-v1"
     }
   ]
 }

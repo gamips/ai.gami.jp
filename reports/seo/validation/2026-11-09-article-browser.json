@@ -1,0 +1,106 @@
+{
+  "checkedAt": "2026-11-08T23:04:19.444Z",
+  "views": [
+    {
+      "url": "https://ai.gami.jp/insights/ai-meeting-time-checklist/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1Count": 1,
+      "canonical": "https://ai.gami.jp/insights/ai-meeting-time-checklist/",
+      "schemaTypes": {
+        "Organization": 1,
+        "WebPage": 1,
+        "Article": 1,
+        "BreadcrumbList": 1
+      },
+      "resourceLinks": [
+        {
+          "label": "練習用の空き時間TXTを開く",
+          "href": "/assets/files/insights/ai-meeting-time-checklist/source.txt"
+        },
+        {
+          "label": "日程候補の正解CSVを開く",
+          "href": "/assets/files/insights/ai-meeting-time-checklist/answer.csv"
+        }
+      ],
+      "commaBr": false
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-meeting-time-checklist/",
+      "width": 390,
+      "scrollWidth": 390,
+      "h1Count": 1,
+      "canonical": "https://ai.gami.jp/insights/ai-meeting-time-checklist/",
+      "schemaTypes": {
+        "Organization": 1,
+        "WebPage": 1,
+        "Article": 1,
+        "BreadcrumbList": 1
+      },
+      "resourceLinks": [
+        {
+          "label": "練習用の空き時間TXTを開く",
+          "href": "/assets/files/insights/ai-meeting-time-checklist/source.txt"
+        },
+        {
+          "label": "日程候補の正解CSVを開く",
+          "href": "/assets/files/insights/ai-meeting-time-checklist/answer.csv"
+        }
+      ],
+      "commaBr": false
+    },
+    {
+      "url": "https://ai.gami.jp/insights/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1Count": 1,
+      "canonical": "https://ai.gami.jp/insights/",
+      "schemaTypes": {
+        "Organization": 1,
+        "CollectionPage": 1,
+        "ItemList": 1,
+        "BreadcrumbList": 1
+      },
+      "resourceLinks": [],
+      "commaBr": false
+    },
+    {
+      "url": "https://ai.gami.jp/insights/",
+      "width": 390,
+      "scrollWidth": 390,
+      "h1Count": 1,
+      "canonical": "https://ai.gami.jp/insights/",
+      "schemaTypes": {
+        "Organization": 1,
+        "CollectionPage": 1,
+        "ItemList": 1,
+        "BreadcrumbList": 1
+      },
+      "resourceLinks": [],
+      "commaBr": false
+    }
+  ],
+  "files": [
+    {
+      "file": "source.txt",
+      "status": 200,
+      "url": "https://ai.gami.jp/assets/files/insights/ai-meeting-time-checklist/source.txt",
+      "renderedText": "日程候補を整理する練習用データ\n\nこの予定はすべて架空です。\n\n条件\n・参加者：Aさん、Bさん、Cさんの三人全員\n・会議時間：30分\n・タイムゾーン：Asia/Tokyo（日本時間、UTC+09:00）\n・対象日：2026-11-17、2026-11-18\n・会議の開始から終了までを、三人それぞれの空き時間内に収める。\n・空き時間の開始時刻ちょうどに会議を始めてもよい。\n・空き時間の終了時刻ちょうどに会議を終えてもよい。\n・記載した範囲以外の空き時間は補わない。\n\n2026-11-17の空き時間\nAさん：09:00〜11:00\nBさん：09:30〜10:30\nCさん：10:00〜11:30\n\n2026-11-18の空き時間\nAさん：13:00〜15:00\nBさん：14:00〜16:00\nCさん：13:30〜14:30\n\n課題\n全員が参加できる30分の会議候補を日付ごとに探してください。\n日付、開始時刻、終了時刻と、三人の空き時間が重なる範囲を記載してください。\n",
+      "characterSet": "UTF-8"
+    },
+    {
+      "file": "answer.csv",
+      "url": "https://ai.gami.jp/assets/files/insights/ai-meeting-time-checklist/answer.csv",
+      "suggestedFilename": "answer.csv",
+      "failure": null,
+      "savedPath": "output/seo/2026-11-09/browser-answer.csv"
+    }
+  ],
+  "errors": [],
+  "serviceNavigation": "https://ai.gami.jp/services/ai-saas/",
+  "listingNavigation": "https://ai.gami.jp/insights/ai-meeting-time-checklist/",
+  "browserClosed": true,
+  "csvDownloadMatchesPublicBytes": true,
+  "visualReview": "Coordinator reviewed article desktop/mobile and listing. Listing capture repeated after heading animation settled; no product change.",
+  "syntheticActivityExcludedFromAcquisition": true
+}

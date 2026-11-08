@@ -1,0 +1,84 @@
+{
+  "plannedAt": "2026-11-08T23:01:43.804Z",
+  "experimentId": "insight-ai-meeting-time-checklist-v1",
+  "status": "ready_to_publish",
+  "lane": "owned-resource",
+  "sourcePath": "src/app/content/insights.js",
+  "url": "https://ai.gami.jp/insights/ai-meeting-time-checklist/",
+  "scope": "One new article and2fictional practice files using existing article/list templates. Existing25articles, sharedUI, service pages and oldresourcefiles unchanged.",
+  "draftAgent": "nov9_copy",
+  "draftModel": "gpt-6.1-sol",
+  "reviewer": "nov9_review",
+  "coordinatorReview": "Retained short conditions and output items; removed quoted prompt and unnecessary performance disclaimer from public prose. Fictional fixture statement remains.",
+  "baseline": {
+    "metricsPath": "reports/seo/metrics/2026-11-09-current.json",
+    "page": null,
+    "publicationState": "new_url",
+    "qualifiedOrganicVisits": null,
+    "organicInquiries": null
+  },
+  "expectedSignal": "A concrete availability fixture and answer file help readers check AI-suggested meeting times before scheduling. Search demand and acquisition effect unverified.",
+  "minimumEvidence": {
+    "fullFinalPacificDays": 28,
+    "pageImpressions": 30
+  },
+  "publicationPacificDate": "2026-11-08",
+  "firstFullPostChangeWindow": {
+    "startDate": "2026-11-09",
+    "endDate": "2026-12-06"
+  },
+  "nextChecks": [
+    {
+      "onOrAfter": "2026-11-16",
+      "check": "First bounded Google-index/crawl and descriptive page/query pickup. No immediate repeat inspection."
+    },
+    {
+      "onOrAfter": "2026-12-10",
+      "check": "First28fullPacificdates November9–December6 finalized and >=30pageimpressions. Actual freshness controls; no qualifiedvisit/inquiry attribution without measurement."
+    }
+  ],
+  "freezeScope": "Article text/head/service link and resource values through first effect review except factual/technical corrections.",
+  "rollback": "Remove new article object and2files then rebuild; preserve existing25articles.",
+  "resources": [
+    "source.txt",
+    "answer.csv"
+  ],
+  "validation": {
+    "build": "passed2043modules",
+    "predeploy": "reports/seo/validation/2026-11-09-article-predeploy.json",
+    "resourceArithmetic": "reports/seo/validation/2026-11-09-resources.json"
+  },
+  "designEvidence": {
+    "checkedAt": "2026-11-08T23:00:55.669Z",
+    "coverage": {
+      "strength": "weak",
+      "top_similarity": 0.378
+    },
+    "warnings": [],
+    "url": "https://www.lazyweb.com/agentic-search/b5c7e4ff-b843-4c87-81f5-1bfdab272b0a",
+    "results": [
+      {
+        "company": "PA-toll-pay",
+        "url": "https://www.paturnpike.com/about-us/resource-library",
+        "description": "Resource library page showing a searchable, filterable table of documents with columns for title, category, date, and a “Download” action for each item. Includes category dropdown, keyword search bar, pagination and per-page controls, plus links to related business resources like leadership and media resources.",
+        "result_ref": "screens:e8a8513caca5e3679e45f5ee"
+      },
+      {
+        "company": "cathoven",
+        "url": "https://www.cathoven.com/english-teaching-resources/news/",
+        "description": null,
+        "result_ref": "screens:894683937a9da7c4027b789e"
+      }
+    ],
+    "use": "Weak reference coverage; existing editorial article design and ordinary descriptive resource links retained. No report or new UI requested."
+  },
+  "prospectiveConfounds": [
+    "insights-initial-listing-parity-v1",
+    "github-readme-insights-link-v1",
+    "generated-index-alias-redirects-v1",
+    "service-ai-saas-procedure-link-v1",
+    "service-ai-saas-comparison-link-v1"
+  ],
+  "acquisitionEffect": "not-yet-measurable",
+  "noPersonalCalendarOrPaidAction": true
+}

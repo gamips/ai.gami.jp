@@ -1,0 +1,31 @@
+{
+  "checkedAt": "2026-11-08T23:01:15.349Z",
+  "status": "passed",
+  "fixtures": [
+    {
+      "date": "2026-11-17",
+      "commonStart": "10:00",
+      "commonEnd": "10:30",
+      "durationMinutes": 30,
+      "uniqueCandidate": true
+    },
+    {
+      "date": "2026-11-18",
+      "commonStart": "14:00",
+      "commonEnd": "14:30",
+      "durationMinutes": 30,
+      "uniqueCandidate": true
+    }
+  ],
+  "negativeExample": {
+    "start": "10:15",
+    "end": "10:45",
+    "durationMinutes": 30,
+    "exceedsBEndByMinutes": 15,
+    "rejected": true
+  },
+  "sourceUtf8Bom": true,
+  "csvAsciiOnly": true,
+  "fictionalNotObservedAiOutput": true,
+  "reviewer": "nov9_review"
+}
