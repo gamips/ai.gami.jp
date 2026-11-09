@@ -2,6 +2,87 @@ export const insightsIntro = "仕事にAIを取り入れる前に知っておき
 
 export const insights = [
   {
+    "slug": "ai-web-image-brief-template",
+    "path": "/insights/ai-web-image-brief-template",
+    "category": "AI Web制作",
+    "publishedAt": "2026-11-10",
+    "updatedAt": "2026-11-10",
+    "dateLabel": "2026.11.10",
+    "title": "AIにWeb用の画像を頼む前に｜制作依頼をまとめる4つの欄",
+    "description": "Web用の画像をAIに頼む前に、用途、必要な要素、避ける要素、比率を整理する記入メモです。空欄のTXTと架空の家具工房の記入例を使い、できた画像を依頼内容と照合します。",
+    "lead": "Web用の画像は、載せる場所と必要な構図を先に決めます。用途、必要な要素、避ける要素、比率の4欄にまとめると、依頼した内容とできた画像を比べられます。",
+    "sections": [
+      {
+        "id": "four-fields",
+        "title": "画像1枚につき、4つの欄を埋める",
+        "paragraphs": [
+          "「雰囲気のよい画像」だけでなく、何をどこに置くかを書きます。見出しを重ねる画像なら、文字を置く余白も必要な要素に含めます。"
+        ],
+        "items": [
+          "用途：掲載するページと場所、画像で伝えたいこと。",
+          "必要な要素：写すもの、配置、余白。",
+          "避ける要素：入れたくないもの。",
+          "比率：横と縦の比率、希望する幅と高さ。"
+        ],
+        "link": {
+          "label": "空欄の画像依頼メモTXTを開く",
+          "href": "/assets/files/insights/ai-web-image-brief-template/template.txt",
+          "external": true
+        }
+      },
+      {
+        "id": "furniture-workshop-example",
+        "title": "記入例：家具工房の見出し画像",
+        "paragraphs": [
+          "架空の家具工房サイトで使う見出し画像の例です。見出しはWebページ側で重ねるため、画像には文字を入れません。"
+        ],
+        "items": [
+          "用途：家具工房サイトの見出し画像。木製の家具を扱うことを伝える。",
+          "必要な要素：木製の椅子を右側に置く。左側は見出しを置く余白にする。",
+          "避ける要素：人物、ロゴ、画像内の文字。",
+          "比率：16:9。希望サイズは幅1600px、高さ900px。"
+        ],
+        "link": {
+          "label": "家具工房の記入例TXTを開く",
+          "href": "/assets/files/insights/ai-web-image-brief-template/example.txt",
+          "external": true
+        }
+      },
+      {
+        "id": "aspect-ratio-and-size",
+        "title": "比率と希望サイズを分けて伝える",
+        "paragraphs": [
+          "比率は横と縦の関係、サイズは実際の幅と高さです。1600×900pxは16:9になります。",
+          "希望サイズを書いても、その寸法で生成されるとは限りません。使うツールで指定できる範囲を確認し、できたファイルの幅と高さを確かめます。"
+        ]
+      },
+      {
+        "id": "compare-with-brief",
+        "title": "できた画像をメモと照らし合わせる",
+        "paragraphs": [
+          "画像ができたら、4欄と比べます。この例では、椅子が描かれているだけでなく、左側に見出しを置けるかも確認します。"
+        ],
+        "items": [
+          "木製の椅子が右側にあるか。",
+          "左側に見出しを置く余白があるか。",
+          "人物、ロゴ、画像内の文字が入っていないか。",
+          "ファイルの比率とサイズが掲載条件に合っているか。"
+        ]
+      },
+      {
+        "id": "check-on-page",
+        "title": "掲載する画面で仕上がりを見る",
+        "paragraphs": [
+          "最後に、実際の見出しを重ねて確認します。パソコンとスマホで表示し、椅子の切れ方や文字の読みやすさを見ます。直したい点があれば、元のメモの該当欄に追記して伝えます。"
+        ],
+        "link": {
+          "label": "AIを活用したWeb制作の支援を見る",
+          "href": "/services/ai-web/"
+        }
+      }
+    ]
+  },
+  {
     "slug": "ai-meeting-time-checklist",
     "path": "/insights/ai-meeting-time-checklist",
     "category": "AI活用",
