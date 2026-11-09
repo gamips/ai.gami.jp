@@ -1,0 +1,28 @@
+{
+  "checkedAt": "2026-11-09T23:07:17.705Z",
+  "status": "passed",
+  "files": [
+    "template.txt",
+    "example.txt"
+  ],
+  "fields": [
+    "用途",
+    "必要な要素",
+    "避ける要素",
+    "比率"
+  ],
+  "fieldCorrespondence": true,
+  "requestedDimensions": {
+    "width": 1600,
+    "height": 900,
+    "ratio": "16:9"
+  },
+  "fictionalExample": true,
+  "outputGuarantee": false,
+  "utf8Bom": true,
+  "reviewers": [
+    "nov10_copy",
+    "nov10_review",
+    "root"
+  ]
+}

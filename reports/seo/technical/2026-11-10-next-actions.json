@@ -1,0 +1,159 @@
+{
+  "preparedAt": "2026-11-09T23:11:31.844Z",
+  "status": "ready_to_prepare",
+  "lane": "owned-resource",
+  "work": "架空の自由回答8件をテーマ別にまとめ、回答IDと件数を照合する記事と練習ファイルを作る。",
+  "draftTitle": "AIでアンケートをまとめる｜回答IDと件数を確かめる練習セット",
+  "draftAgent": "nov10_copy",
+  "draftModel": "gpt-6.1-sol",
+  "suggestedPath": "/insights/ai-survey-summary-checklist/",
+  "scope": "New article,source.txt and answer.csv only; preserve existing27articles and design.",
+  "readerBenefit": "自由回答を要約した後に、回答の抜け、重複、異なる意見の省略を原文から確かめる。",
+  "fictionalQuestion": "社内研修について、よかった点や改善してほしい点を教えてください。",
+  "responses": [
+    {
+      "id": "R01",
+      "text": "実習が役立ちました。資料は前日に読みたかったです。"
+    },
+    {
+      "id": "R02",
+      "text": "説明が速かったので、実習の時間を増やしてほしいです。"
+    },
+    {
+      "id": "R03",
+      "text": "資料が読みやすかったです。録画でも復習したいです。"
+    },
+    {
+      "id": "R04",
+      "text": "説明の速さはちょうどよかったです。"
+    },
+    {
+      "id": "R05",
+      "text": "実習で操作を試せたのがよかったです。"
+    },
+    {
+      "id": "R06",
+      "text": "資料に用語の説明がほしいです。録画もあると助かります。"
+    },
+    {
+      "id": "R07",
+      "text": "説明が速く、途中からついていけませんでした。"
+    },
+    {
+      "id": "R08",
+      "text": "特にありません。"
+    }
+  ],
+  "themes": [
+    {
+      "theme": "実習",
+      "responseIds": [
+        "R01",
+        "R02",
+        "R05"
+      ],
+      "count": 3,
+      "summary": "役立ったという意見と、時間を増やしてほしいという要望がある。"
+    },
+    {
+      "theme": "資料",
+      "responseIds": [
+        "R01",
+        "R03",
+        "R06"
+      ],
+      "count": 3,
+      "summary": "読みやすさへの評価、事前配布と用語説明の要望がある。"
+    },
+    {
+      "theme": "説明の速さ",
+      "responseIds": [
+        "R02",
+        "R04",
+        "R07"
+      ],
+      "count": 3,
+      "summary": "速いという意見が2件、ちょうどよいという意見が1件ある。"
+    },
+    {
+      "theme": "録画",
+      "responseIds": [
+        "R03",
+        "R06"
+      ],
+      "count": 2,
+      "summary": "復習用の録画を求める意見がある。"
+    },
+    {
+      "theme": "特にない",
+      "responseIds": [
+        "R08"
+      ],
+      "count": 1,
+      "summary": "具体的な意見の記載はない。"
+    }
+  ],
+  "countingRule": "1人1回答。同じ回答を複数テーマに含める。同じテーマ内では1回答1件。テーマ件数合計12と回答者8人を分ける。",
+  "files": [
+    {
+      "name": "source.txt",
+      "contents": "Fictional question, eight responses and counting rule; Japanese UTF-8 BOM."
+    },
+    {
+      "name": "answer.csv",
+      "columns": [
+        "theme",
+        "response_ids",
+        "response_count",
+        "summary"
+      ],
+      "responseIdsSeparator": "|",
+      "rows": 5
+    }
+  ],
+  "outline": [
+    "原文TXT：8件の回答を読む",
+    "テーマごとに回答IDを残す",
+    "正解CSV：IDと件数を照合する",
+    "まとめを原文へ戻って確かめる"
+  ],
+  "serviceTarget": "/services/ai-saas/",
+  "duplicateCheck": "Inquiry classification covers routing and pending decisions; tablecleanup covers preserving original values. This exercise covers multiple themes per response and respondent counts.",
+  "verification": [
+    "All eight IDs covered; no duplicate within a theme.",
+    "Counts3+3+3+2+1=12; distinct respondents8.",
+    "R04 positive pacing remains distinct from two negative pacing comments.",
+    "R08 no comment is not satisfaction or dissatisfaction."
+  ],
+  "caveats": [
+    "This is one fixed classification for a fictional exercise, not the sole valid classification.",
+    "Not actual AI output or real survey results; no generalization beyond the sample."
+  ],
+  "implemented": false,
+  "acquisitionEffect": "not-yet-measurable",
+  "deferredPublicity": {
+    "status": "deferred_same_surface",
+    "candidate": "Owned GitHub repository topics",
+    "observedInRun": "2026-11-09",
+    "metadata": {
+      "repository": "https://github.com/gamips/ai.gami.jp",
+      "topics": [],
+      "description": "GAMI公式サイトのソースコード。AI導入支援、AIを活用した業務システム開発、Web制作を紹介しています。",
+      "homepage": "https://ai.gami.jp/",
+      "visibility": "public",
+      "archived": false
+    },
+    "draftTopics": [
+      "corporate-website",
+      "react",
+      "vite",
+      "php"
+    ],
+    "officialEvidence": "https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics",
+    "resumeOnOrAfter": "2026-11-29",
+    "reason": "Same external surface as active README experiment. Review existing observation and handoff before writing; no topics changed.",
+    "caveat": "GitHub discovery feature, not a Google ranking or useful traffic guarantee.",
+    "reusedFrom": "reports/seo/technical/2026-11-09-next-actions.json",
+    "note": "Prior dated research reused, not rechecked today. No topics or README changed."
+  }
+}

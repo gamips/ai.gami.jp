@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T23:09:37.625Z",
+  "updatedAt": "2026-11-09T23:11:31.844Z",
   "rules": {
     "oneOwnerUrlPerIntent": true,
     "publicCopyExcludesOperationalMetadata": true
@@ -1071,6 +1071,38 @@
       "publishedAt": "2026-11-09",
       "relatedArticle": "https://ai.gami.jp/insights/ai-meeting-time-checklist/",
       "experimentId": "insight-ai-meeting-time-checklist-v1"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-web-image-brief-template/",
+      "type": "insight",
+      "intent": "Web用画像1枚の用途・必要な要素・避ける要素・比率を依頼メモにまとめ、完成画像と照合する",
+      "status": "published",
+      "publishedAt": "2026-11-10",
+      "lastModified": "2026-11-10",
+      "experimentId": "insight-ai-web-image-brief-template-v1"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-web-image-brief-template/index.html",
+      "type": "alias",
+      "status": "redirected",
+      "canonicalUrl": "https://ai.gami.jp/insights/ai-web-image-brief-template/",
+      "experimentId": "insight-ai-web-image-brief-template-v1"
+    },
+    {
+      "url": "https://ai.gami.jp/assets/files/insights/ai-web-image-brief-template/template.txt",
+      "type": "resource",
+      "status": "published",
+      "publishedAt": "2026-11-10",
+      "relatedArticle": "https://ai.gami.jp/insights/ai-web-image-brief-template/",
+      "experimentId": "insight-ai-web-image-brief-template-v1"
+    },
+    {
+      "url": "https://ai.gami.jp/assets/files/insights/ai-web-image-brief-template/example.txt",
+      "type": "resource",
+      "status": "published",
+      "publishedAt": "2026-11-10",
+      "relatedArticle": "https://ai.gami.jp/insights/ai-web-image-brief-template/",
+      "experimentId": "insight-ai-web-image-brief-template-v1"
     }
   ]
 }

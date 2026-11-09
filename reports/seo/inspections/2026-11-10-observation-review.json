@@ -1,0 +1,161 @@
+{
+  "reviewedAt": "2026-11-09T23:11:31.844Z",
+  "dueChecks": 5,
+  "uniqueIndexInspections": 6,
+  "effectReviews": 0,
+  "reviews": [
+    {
+      "experimentId": "concept-initial-html-parity-v1",
+      "onOrAfter": "2026-11-10",
+      "check": "Bounded crawl/index followup; reuse recent target evidence. Preserve original start/effect dates; no copy rewrite solely for unknown or old crawl.",
+      "checkedAt": "2026-11-09T23:04:58.3228011+00:00",
+      "technicalResult": "confirmed",
+      "queryPageEffect": "not-yet-measurable",
+      "metricsEvidencePath": "reports/seo/metrics/2026-11-10-current.json",
+      "liveTechnicalEvidencePath": "reports/seo/validation/2026-11-10-article-live.json",
+      "inspectedUrl": "https://ai.gami.jp/concept/",
+      "indexVerdict": "PASS",
+      "indexResult": "indexed-crawl-predates-change",
+      "coverageState": "送信して登録されました",
+      "lastCrawlTime": "2026-09-04T15:32:11Z",
+      "postChangeRecrawl": false,
+      "page28d": {
+        "clicks": 0,
+        "impressions": 18,
+        "ctr": 0,
+        "position": 6.444444444444445,
+        "page": "https://ai.gami.jp/concept/"
+      },
+      "inspectionEvidencePath": "reports/seo/inspections/2026-11-10-due-pages.json",
+      "note": "Google-index is a historical snapshot, not a live test. Missing page row remains null; index pickup is not traffic or link-use attribution."
+    },
+    {
+      "experimentId": "service-ai-marketing-fact-check-link-v1",
+      "onOrAfter": "2026-11-10",
+      "check": "Bounded crawl/index followup; reuse recent target evidence. Preserve original start/effect dates; no copy rewrite solely for unknown or old crawl.",
+      "checkedAt": "2026-11-09T23:05:06.3567520+00:00",
+      "technicalResult": "confirmed",
+      "queryPageEffect": "not-yet-measurable",
+      "metricsEvidencePath": "reports/seo/metrics/2026-11-10-current.json",
+      "liveTechnicalEvidencePath": "reports/seo/validation/2026-11-10-article-live.json",
+      "inspectedUrl": "https://ai.gami.jp/services/ai-marketing/",
+      "indexVerdict": "PASS",
+      "indexResult": "indexed-crawl-predates-change",
+      "coverageState": "送信して登録されました",
+      "lastCrawlTime": "2026-09-24T13:28:17Z",
+      "postChangeRecrawl": false,
+      "page28d": null,
+      "inspectionEvidencePath": "reports/seo/inspections/2026-11-10-due-pages.json",
+      "note": "Google-index is a historical snapshot, not a live test. Missing page row remains null; index pickup is not traffic or link-use attribution.",
+      "targetInspectionReusedFrom": "reports/seo/inspections/2026-11-08-due-pages.json",
+      "nextIndexHandling": "Completed historical experiment remains completed. Source index followup belongs to current classification-link experiment on November13; no duplicate old source schedule."
+    },
+    {
+      "experimentId": "insight-ai-work-procedure-template-v1",
+      "onOrAfter": "2026-11-10",
+      "check": "Bounded crawl/index followup; reuse recent target evidence. Preserve original start/effect dates; no copy rewrite solely for unknown or old crawl.",
+      "checkedAt": "2026-11-09T23:05:13.7545992+00:00",
+      "technicalResult": "confirmed",
+      "queryPageEffect": "not-yet-measurable",
+      "metricsEvidencePath": "reports/seo/metrics/2026-11-10-current.json",
+      "liveTechnicalEvidencePath": "reports/seo/validation/2026-11-10-article-live.json",
+      "inspectedUrl": "https://ai.gami.jp/insights/ai-work-procedure-template/",
+      "indexVerdict": "PASS",
+      "indexResult": "indexed-post-change-crawl",
+      "coverageState": "送信して登録されました",
+      "lastCrawlTime": "2026-11-05T08:46:01Z",
+      "postChangeRecrawl": true,
+      "page28d": null,
+      "inspectionEvidencePath": "reports/seo/inspections/2026-11-10-due-pages.json",
+      "note": "Google-index is a historical snapshot, not a live test. Missing page row remains null; index pickup is not traffic or link-use attribution. Same canonical URL now PASS; November5 crawl follows article and SaaS link publication. Causality unproven. Retain November13 effect review, no redundant index-only check.",
+      "previousInspectionEvidencePath": "reports/seo/inspections/2026-11-03-due-pages.json",
+      "sameUrlIndexPickupConfirmed": true,
+      "previousVerdict": "NEUTRAL",
+      "googleCanonical": "https://ai.gami.jp/insights/ai-work-procedure-template/"
+    },
+    {
+      "experimentId": "generated-index-alias-redirects-v1",
+      "onOrAfter": "2026-11-10",
+      "check": "Bounded alias/canonical recognition followup; reuse already due canonical observations, sample only representative aliases.",
+      "checkedAt": "2026-11-09T23:11:31.844Z",
+      "technicalResult": "confirmed",
+      "queryPageEffect": "not-yet-measurable",
+      "metricsEvidencePath": "reports/seo/metrics/2026-11-10-current.json",
+      "liveTechnicalEvidencePath": "reports/seo/validation/2026-11-10-article-live.json",
+      "inspectionEvidencePath": "reports/seo/inspections/2026-11-10-due-pages.json",
+      "aliasSamples": [
+        {
+          "url": "https://ai.gami.jp/concept/index.html",
+          "verdict": "NEUTRAL",
+          "lastCrawlTime": null
+        },
+        {
+          "url": "https://ai.gami.jp/services/ai-marketing/index.html",
+          "verdict": "NEUTRAL",
+          "lastCrawlTime": null
+        },
+        {
+          "url": "https://ai.gami.jp/insights/ai-work-procedure-template/index.html",
+          "verdict": "NEUTRAL",
+          "lastCrawlTime": null
+        }
+      ],
+      "canonicalSamples": [
+        {
+          "url": "https://ai.gami.jp/concept/",
+          "verdict": "PASS",
+          "lastCrawlTime": "2026-09-04T15:32:11Z"
+        },
+        {
+          "url": "https://ai.gami.jp/services/ai-marketing/",
+          "verdict": "PASS",
+          "lastCrawlTime": "2026-09-24T13:28:17Z"
+        },
+        {
+          "url": "https://ai.gami.jp/insights/ai-work-procedure-template/",
+          "verdict": "PASS",
+          "lastCrawlTime": "2026-11-05T08:46:01Z"
+        }
+      ],
+      "uniqueAliasQueries": 3,
+      "reusedDueCanonicalQueries": 3,
+      "note": "Actual aliases remain NEUTRAL. Work-procedure canonical pickup is separate, not alias registration. All three live aliases return301 to canonical; acquisition attribution unavailable."
+    },
+    {
+      "experimentId": "sitemap-content-lastmod-correction-v1",
+      "onOrAfter": "2026-11-10",
+      "check": "Bounded Home/About crawl followup, reuse already due canonical inspections. No registration or traffic promise.",
+      "checkedAt": "2026-11-09T23:11:31.844Z",
+      "technicalResult": "confirmed",
+      "queryPageEffect": "not-yet-measurable",
+      "metricsEvidencePath": "reports/seo/metrics/2026-11-10-current.json",
+      "liveTechnicalEvidencePath": "reports/seo/validation/2026-11-10-article-live.json",
+      "reusedObservations": [
+        {
+          "url": "https://ai.gami.jp/",
+          "verdict": "PASS",
+          "fetchedAt": "2026-11-08T08:01:25.223067+09:00",
+          "lastCrawlTime": "2026-11-05T11:41:08Z",
+          "postChangeRecrawl": true,
+          "evidencePath": "reports/seo/inspections/2026-11-08-due-pages.json"
+        },
+        {
+          "url": "https://ai.gami.jp/about/",
+          "verdict": "PASS",
+          "fetchedAt": "2026-11-05T23:00:22.3413940+00:00",
+          "lastCrawlTime": "2026-10-10T23:33:02Z",
+          "postChangeRecrawl": false,
+          "evidencePath": "reports/seo/inspections/2026-11-06-due-pages.json"
+        }
+      ],
+      "additionalIndexQueries": 0,
+      "note": "Home saved November8 evidence confirms a post-change November5 crawl. About November6 evidence remains pre-change; share its November13 existing check. Neither snapshot proves recognition of lastmod or causality."
+    }
+  ],
+  "additionalFixedPeriodQueries": 0,
+  "sourceAliasSeparateFromCanonical": true,
+  "sitemapApiNotDue": true,
+  "independentReviewer": "nov10_analysis",
+  "sameUrlIndexPickup": "https://ai.gami.jp/insights/ai-work-procedure-template/",
+  "acquisitionEffect": "not-yet-measurable"
+}

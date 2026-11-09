@@ -1,0 +1,266 @@
+{
+  "checkedAt": "2026-11-09T23:08:21.585Z",
+  "mode": "live",
+  "baselineCommit": "185e50ef78575d3ac15056b543205cd34524d262",
+  "articleCount": 27,
+  "indexableEntries": 38,
+  "staticEntries": 40,
+  "existing26ArticlesUnchanged": true,
+  "existing36HeadsAndBodiesUnchanged": true,
+  "pages": [
+    {
+      "url": "https://ai.gami.jp/insights/ai-web-image-brief-template/",
+      "status": 200,
+      "headAndBodyMatch": "build",
+      "schemaTypes": {
+        "Organization": 1,
+        "WebPage": 1,
+        "Article": 1,
+        "BreadcrumbList": 1
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/",
+      "status": 200,
+      "headAndBodyMatch": "build",
+      "schemaTypes": {
+        "Organization": 1,
+        "CollectionPage": 1,
+        "ItemList": 1,
+        "BreadcrumbList": 1
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/services/ai-web/",
+      "status": 200,
+      "headAndBodyMatch": "build",
+      "schemaTypes": {
+        "Organization": 1,
+        "WebPage": 1,
+        "Service": 1,
+        "BreadcrumbList": 1
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/concept/",
+      "status": 200,
+      "headAndBodyMatch": "build",
+      "schemaTypes": {
+        "Organization": 1,
+        "WebPage": 1,
+        "BreadcrumbList": 1
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/services/ai-marketing/",
+      "status": 200,
+      "headAndBodyMatch": "build",
+      "schemaTypes": {
+        "Organization": 1,
+        "WebPage": 1,
+        "Service": 1,
+        "BreadcrumbList": 1
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-work-procedure-template/",
+      "status": 200,
+      "headAndBodyMatch": "build",
+      "schemaTypes": {
+        "Organization": 1,
+        "WebPage": 1,
+        "Article": 1,
+        "BreadcrumbList": 1
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/about/",
+      "status": 200,
+      "headAndBodyMatch": "build",
+      "schemaTypes": {
+        "Organization": 1,
+        "AboutPage": 1,
+        "BreadcrumbList": 1
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/",
+      "status": 200,
+      "headAndBodyMatch": "build",
+      "schemaTypes": {
+        "Organization": 1,
+        "WebSite": 1,
+        "WebPage": 1,
+        "ItemList": 1
+      },
+      "indexAllowed": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-image-alt-text-template/",
+      "status": 200,
+      "headAndBodyMatch": "build",
+      "schemaTypes": {
+        "Organization": 1,
+        "WebPage": 1,
+        "Article": 1,
+        "BreadcrumbList": 1
+      },
+      "indexAllowed": true
+    }
+  ],
+  "assets": [
+    {
+      "file": "About-CjsiaUuX.js",
+      "match": true
+    },
+    {
+      "file": "arrow-right-B-k323gJ.js",
+      "match": true
+    },
+    {
+      "file": "Concept-sXs5aJPz.js",
+      "match": true
+    },
+    {
+      "file": "Contact-kNM40TUd.js",
+      "match": true
+    },
+    {
+      "file": "ContactThanks-C_UaQGd2.js",
+      "match": true
+    },
+    {
+      "file": "createLucideIcon-DuDt1LWW.js",
+      "match": true
+    },
+    {
+      "file": "Footer-gHTYX8BD.js",
+      "match": true
+    },
+    {
+      "file": "GeometricParticles-BdaqDCCT.js",
+      "match": true
+    },
+    {
+      "file": "Header-k49Arj1q.js",
+      "match": true
+    },
+    {
+      "file": "Home-BUC5ZS2v.js",
+      "match": true
+    },
+    {
+      "file": "index-BSUbwp1T.css",
+      "match": true
+    },
+    {
+      "file": "index-CB0rr2_2.js",
+      "match": true
+    },
+    {
+      "file": "InquiryCta-C2BEgJjs.js",
+      "match": true
+    },
+    {
+      "file": "InsightDetail-BvLR1tk_.js",
+      "match": true
+    },
+    {
+      "file": "Insights-ls02SJUr.js",
+      "match": true
+    },
+    {
+      "file": "News-BoSfIeot.js",
+      "match": true
+    },
+    {
+      "file": "NotFound-ChGqxtIj.js",
+      "match": true
+    },
+    {
+      "file": "PageSeo-BM-ZA0cT.js",
+      "match": true
+    },
+    {
+      "file": "Price-BU7nSNGO.js",
+      "match": true
+    },
+    {
+      "file": "proxy-BtZCA97X.js",
+      "match": true
+    },
+    {
+      "file": "ScrollReveal-BBVFhe-o.js",
+      "match": true
+    },
+    {
+      "file": "ScrollToTopLink-C5-SF7PE.js",
+      "match": true
+    },
+    {
+      "file": "ServiceDetail-DxUnCZkx.js",
+      "match": true
+    },
+    {
+      "file": "Services-CFU_zV7S.js",
+      "match": true
+    },
+    {
+      "file": "services-CPg-rz5t.js",
+      "match": true
+    }
+  ],
+  "resources": [
+    {
+      "path": "/assets/files/insights/ai-web-image-brief-template/template.txt",
+      "bytes": 285,
+      "sha256": "5dcf2430c2bd5e955e422267d4b66805f59e74e1e116f5938581eecf0557edf7",
+      "status": 200,
+      "contentType": "text/plain"
+    },
+    {
+      "path": "/assets/files/insights/ai-web-image-brief-template/example.txt",
+      "bytes": 460,
+      "sha256": "5ea10c8514ba1cc31f5037bcf59803605a8bacece2982f5e3b8c73abecabe2c9",
+      "status": 200,
+      "contentType": "text/plain"
+    }
+  ],
+  "redirects": [
+    {
+      "url": "https://ai.gami.jp/insights/ai-web-image-brief-template/index.html",
+      "status": 301,
+      "location": "https://ai.gami.jp/insights/ai-web-image-brief-template/"
+    },
+    {
+      "url": "https://ai.gami.jp/concept/index.html",
+      "status": 301,
+      "location": "https://ai.gami.jp/concept/"
+    },
+    {
+      "url": "https://ai.gami.jp/services/ai-marketing/index.html",
+      "status": 301,
+      "location": "https://ai.gami.jp/services/ai-marketing/"
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-work-procedure-template/index.html",
+      "status": 301,
+      "location": "https://ai.gami.jp/insights/ai-work-procedure-template/"
+    }
+  ],
+  "sitemap": {
+    "urls": 38,
+    "existing36DatesPreserved": true,
+    "newArticleAndListingDate": "2026-11-10",
+    "liveMatches": "build"
+  },
+  "existing37AliasRulesPreserved": true,
+  "passed": true
+}

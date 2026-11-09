@@ -1,0 +1,121 @@
+{
+  "checkedAt": "2026-11-09T23:08:31.139Z",
+  "views": [
+    {
+      "url": "https://ai.gami.jp/insights/ai-web-image-brief-template/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1Count": 1,
+      "canonical": "https://ai.gami.jp/insights/ai-web-image-brief-template/",
+      "schemaTypes": {
+        "Organization": 1,
+        "WebPage": 1,
+        "Article": 1,
+        "BreadcrumbList": 1
+      },
+      "resourceLinks": [
+        {
+          "label": "空欄の画像依頼メモTXTを開く",
+          "href": "/assets/files/insights/ai-web-image-brief-template/template.txt"
+        },
+        {
+          "label": "家具工房の記入例TXTを開く",
+          "href": "/assets/files/insights/ai-web-image-brief-template/example.txt"
+        }
+      ],
+      "commaBr": false
+    },
+    {
+      "url": "https://ai.gami.jp/insights/ai-web-image-brief-template/",
+      "width": 390,
+      "scrollWidth": 390,
+      "h1Count": 1,
+      "canonical": "https://ai.gami.jp/insights/ai-web-image-brief-template/",
+      "schemaTypes": {
+        "Organization": 1,
+        "WebPage": 1,
+        "Article": 1,
+        "BreadcrumbList": 1
+      },
+      "resourceLinks": [
+        {
+          "label": "空欄の画像依頼メモTXTを開く",
+          "href": "/assets/files/insights/ai-web-image-brief-template/template.txt"
+        },
+        {
+          "label": "家具工房の記入例TXTを開く",
+          "href": "/assets/files/insights/ai-web-image-brief-template/example.txt"
+        }
+      ],
+      "commaBr": false
+    },
+    {
+      "url": "https://ai.gami.jp/insights/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1Count": 1,
+      "canonical": "https://ai.gami.jp/insights/",
+      "schemaTypes": {
+        "Organization": 1,
+        "CollectionPage": 1,
+        "ItemList": 1,
+        "BreadcrumbList": 1
+      },
+      "resourceLinks": [],
+      "commaBr": false,
+      "headingAndTargetAnimationComplete": true
+    },
+    {
+      "url": "https://ai.gami.jp/insights/",
+      "width": 390,
+      "scrollWidth": 390,
+      "h1Count": 1,
+      "canonical": "https://ai.gami.jp/insights/",
+      "schemaTypes": {
+        "Organization": 1,
+        "CollectionPage": 1,
+        "ItemList": 1,
+        "BreadcrumbList": 1
+      },
+      "resourceLinks": [],
+      "commaBr": false,
+      "headingAndTargetAnimationComplete": true
+    }
+  ],
+  "files": [
+    {
+      "file": "template.txt",
+      "status": 200,
+      "url": "https://ai.gami.jp/assets/files/insights/ai-web-image-brief-template/template.txt",
+      "renderedText": "Web用の画像依頼メモ\n\n用途：\n［掲載するページと場所／画像で伝えたいこと］\n\n必要な要素：\n［写すもの／配置／余白］\n\n避ける要素：\n［入れたくないもの］\n\n比率：\n［横:縦／希望サイズは幅○px、高さ○px］\n",
+      "characterSet": "UTF-8"
+    },
+    {
+      "file": "example.txt",
+      "status": 200,
+      "url": "https://ai.gami.jp/assets/files/insights/ai-web-image-brief-template/example.txt",
+      "renderedText": "Web用の画像依頼メモ：記入例\n\n架空の家具工房サイトの例です。\n\n用途：\n家具工房サイトの見出し画像。\n木製の家具を扱うことを伝える。\n\n必要な要素：\n木製の椅子を右側に置く。\n左側は見出しを置く余白にする。\n見出しはWebページ側で重ねる。\n\n避ける要素：\n人物、ロゴ、画像内の文字。\n\n比率：\n16:9。\n希望サイズは幅1600px、高さ900px。\n",
+      "characterSet": "UTF-8"
+    }
+  ],
+  "errors": [],
+  "serviceNavigation": "https://ai.gami.jp/services/ai-web/",
+  "listingNavigation": "https://ai.gami.jp/insights/ai-web-image-brief-template/",
+  "browserClosed": true,
+  "txtRenderedTextMatches": true,
+  "visualReview": {
+    "reviewer": "root",
+    "articleDesktop": true,
+    "fieldsMobile": true,
+    "listingMobile": true,
+    "noVisibleRegression": true
+  },
+  "screenshots": [
+    "output/playwright/2026-11-10-article-desktop.png",
+    "output/playwright/2026-11-10-article-mobile.png",
+    "output/playwright/2026-11-10-fields-desktop.png",
+    "output/playwright/2026-11-10-fields-mobile.png",
+    "output/playwright/2026-11-10-listing-desktop.png",
+    "output/playwright/2026-11-10-listing-mobile.png"
+  ]
+}

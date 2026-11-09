@@ -1,0 +1,36 @@
+{
+  "plannedAt": "2026-11-09T23:07:17.707Z",
+  "experimentId": "insight-ai-web-image-brief-template-v1",
+  "status": "ready_to_publish",
+  "lane": "owned-resource",
+  "target": "https://ai.gami.jp/insights/ai-web-image-brief-template/",
+  "scope": "New article and template.txt/example.txt using existing renderer; no existing26article, service copy or shared UI changes.",
+  "readerBenefit": "Write four requirements for one Web image and compare the generated image with the brief and actual page.",
+  "writer": {
+    "agent": "nov10_copy",
+    "model": "gpt-6.1-sol"
+  },
+  "reviewer": "nov10_review plus root",
+  "sourceDraft": "reports/seo/technical/2026-11-09-next-actions.json",
+  "rootEdits": "Removed redundant formal guarantee sentence from exampleTXT; article explains requested dimensions versus actual output.",
+  "duplicateCheck": "Existing alttext covers existing image descriptions, site brief whole-site requirements, change request existing-page edits; this covers one-image creation brief.",
+  "facts": "Fictional furnitureworkshop;1600:900 reduces16:9; requirements are requests, no tool-specific output claims.",
+  "design": "Existing editorial article with text links; Lazyweb references consulted, weakcoverage0.42/warnings[]. No card UI or new component.",
+  "baselineMetrics": "reports/seo/metrics/2026-11-10-current.json",
+  "baselinePage": null,
+  "minimumEvidence": {
+    "fullFinalPacificDays": 28,
+    "pageImpressions": 30
+  },
+  "firstIndexCheck": "2026-11-17",
+  "firstEffectCheck": "2026-12-11",
+  "freeze": "Article text/head and files/service link through first effect review except factual/technical fixes.",
+  "rollback": "Remove new article object and2files, rebuild; preserve old26articles.",
+  "prospectiveConfounds": [
+    "insights-initial-listing-parity-v1",
+    "github-readme-insights-link-v1",
+    "generated-index-alias-redirects-v1",
+    "service-ai-web-change-request-link-v1",
+    "service-ai-web-brief-link-v1"
+  ]
+}

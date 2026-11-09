@@ -1,0 +1,19 @@
+{
+  "checkedAt": "2026-11-09T23:07:17.814Z",
+  "status": "passed",
+  "groups": 14,
+  "rows": 77,
+  "positiveDenominatorCtrChecks": 76,
+  "explicitZeroDenominatorRows": 1,
+  "deviceTotalsAndWeightedPositions": true,
+  "normalizationExact": true,
+  "windowBoundariesMatchFreshness": true,
+  "nonBrandExactExclusion": [
+    "gami ai",
+    "gami"
+  ],
+  "missingRowsRemainNull": true,
+  "qualifiedOrganicVisits": null,
+  "organicInquiries": null,
+  "reviewer": "nov10_analysis"
+}
