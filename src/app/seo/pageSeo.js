@@ -1166,6 +1166,7 @@ for (const insight of insights) {
   pageSeoByPath[insight.path] = {
     path: insight.path,
     fallbackHeading: insight.title,
+    fallbackDescription: insight.lead,
     fallbackLabel: `INSIGHTS / ${insight.category}`,
     lastModified: insight.updatedAt,
     title: `${insight.title} | GAMI`,

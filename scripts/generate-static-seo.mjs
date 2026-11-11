@@ -140,7 +140,7 @@ function replaceRootContent(template, html) {
 function buildStaticFallbackBody(entry) {
   const isInsightsIndex = entry.path === "/insights";
   const heading = escapeHtml(entry.fallbackHeading ?? stripTitleSuffix(entry.title) ?? "GAMI");
-  const description = escapeHtml((isInsightsIndex ? entry.fallbackDescription : entry.description) ?? "");
+  const description = escapeHtml(entry.fallbackDescription ?? entry.description ?? "");
 
   if (Array.isArray(entry.fallbackSections) && entry.fallbackSections.length > 0) {
     const sections = entry.fallbackSections
