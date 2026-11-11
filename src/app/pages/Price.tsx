@@ -1,10 +1,11 @@
+import { Fragment } from "react";
 import { ArrowRight } from "lucide-react";
 import { InquiryCta } from "../components/InquiryCta";
 import { PageSeo } from "../components/PageSeo";
 import { ScrollToTopLink } from "../components/ScrollToTopLink";
 import { ScrollReveal } from "../components/ScrollReveal";
 import { getServiceBySlug } from "../content/services";
-import { pricePlans, monthlyModelPoints, projectNotes } from "../content/pricing.js";
+import { pricingIntroLines, pricePlans, monthlyModelPoints, projectNotes } from "../content/pricing.js";
 
 function formatDescriptionWithSentenceBreaks(text: string) {
   return text.replaceAll("。", "。\n").trimEnd();
@@ -25,11 +26,12 @@ export function Price() {
                 <span className="text-cyan-500">料金</span>
               </h1>
               <p className="max-w-5xl text-2xl leading-relaxed text-zinc-600">
-                月2万円〜の生成AI導入支援から、30万円 / 月のAI開発・AI Web制作まで。
-                <br />
-                固定スコープを先に固めるより、まず立ち上げて改善しながら精度を上げます。
-                <br />
-                そのため料金は、柔軟に戦略を組み替えやすい月単位契約を基本にしています。
+                {pricingIntroLines.map((line, index) => (
+                  <Fragment key={line}>
+                    {index > 0 && <br />}
+                    {line}
+                  </Fragment>
+                ))}
               </p>
             </div>
           </ScrollReveal>

@@ -1,6 +1,6 @@
 import { insights, insightsIntro } from "../content/insights.js";
 import { featuredNews, newsItems } from "../content/news.js";
-import { pricePlans, monthlyModelPoints, projectNotes } from "../content/pricing.js";
+import { pricingIntroLines, pricePlans, monthlyModelPoints, projectNotes } from "../content/pricing.js";
 import { companyInfo } from "../content/company.js";
 import { conceptIdeas } from "../content/concept.js";
 import { serviceSummaries } from "../content/serviceSummaries.js";
@@ -957,6 +957,7 @@ export const pageSeoByPath = {
     path: "/price",
     lastModified: "2026-10-28",
     fallbackHeading: "AI導入支援・AI開発の料金",
+    fallbackDescription: pricingIntroLines.join(""),
     fallbackLabel: "PRICE",
     fallbackSections: [
       ...pricePlans.map((plan) => {

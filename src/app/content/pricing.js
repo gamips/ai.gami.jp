@@ -1,3 +1,9 @@
+export const pricingIntroLines = [
+  "月2万円〜の生成AI導入支援から、30万円 / 月のAI開発・AI Web制作まで。",
+  "固定スコープを先に固めるより、まず立ち上げて改善しながら精度を上げます。",
+  "そのため料金は、柔軟に戦略を組み替えやすい月単位契約を基本にしています。",
+];
+
 /** @type {Array<{ slug: import('./services').ServiceSlug, fee: string, secondaryFee?: string, lead: string, description: string, approachItems?: string[] }>} */
 export const pricePlans = [
   {
