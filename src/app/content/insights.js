@@ -2,6 +2,71 @@ export const insightsIntro = "仕事にAIを取り入れる前に知っておき
 
 export const insights = [
   {
+    "slug": "ai-survey-summary-checklist",
+    "path": "/insights/ai-survey-summary-checklist",
+    "category": "AI活用",
+    "publishedAt": "2026-11-11",
+    "updatedAt": "2026-11-11",
+    "dateLabel": "2026.11.11",
+    "title": "AIでアンケートをまとめる｜回答IDと件数を確かめる練習セット",
+    "description": "架空の自由回答8件をテーマ別にまとめる練習セットです。原文TXTと分類例CSVを使って、回答の抜けや二重計上、要約から消えた意見を確かめます。",
+    "lead": "自由回答をAIでまとめるときは、テーマごとに元の回答番号を残しておきます。架空の研修アンケートを使って、8人の回答がテーマ別では延べ12件になる理由を確かめてみましょう。",
+    "sections": [
+      {
+        "id": "source-responses",
+        "title": "8人の回答を読んで分類する",
+        "paragraphs": [
+          "質問は「社内研修について、よかった点や改善してほしい点を教えてください。」です。1人につき1件の回答があり、それぞれにR01〜R08の番号を付けました。",
+          "原文をAIに渡し、「実習」「資料」「説明の速さ」「録画」「特にない」の5つに分けてもらいます。テーマごとに回答番号、件数、短い要約を残します。"
+        ],
+        "link": {
+          "label": "8人の自由回答を読む（TXT）",
+          "href": "/assets/files/insights/ai-survey-summary-checklist/source.txt",
+          "external": true
+        }
+      },
+      {
+        "id": "themes-and-ids",
+        "title": "一つの回答に二つの話題があるとき",
+        "paragraphs": [
+          "R01は「実習が役立ちました。資料は前日に読みたかったです。」と答えています。実習と資料の両方にR01を入れます。同じテーマの中では、同じ番号を1回だけ数えます。"
+        ],
+        "items": [
+          "実習はR01・R02・R05の3件。",
+          "資料はR01・R03・R06の3件。",
+          "説明の速さはR02・R04・R07の3件。",
+          "録画はR03・R06の2件。",
+          "「特にない」はR08の1件。"
+        ]
+      },
+      {
+        "id": "answer-csv",
+        "title": "延べ12件と回答者8人を照合する",
+        "paragraphs": [
+          "各テーマの件数を足すと3＋3＋3＋2＋1＝12件です。実習と資料の両方に入れたR01のように、複数のテーマで数えた人がいます。番号を一度ずつ数えると8人です。",
+          "分類例を開き、R01〜R08がすべてあるか、各行の件数が回答番号の数と合うかを確認してください。"
+        ],
+        "link": {
+          "label": "自由回答の分類例を見る（CSV）",
+          "href": "/assets/files/insights/ai-survey-summary-checklist/answer.csv",
+          "external": true
+        }
+      },
+      {
+        "id": "keep-different-opinions",
+        "title": "少数の意見も要約に残す",
+        "paragraphs": [
+          "説明の速さについて、R02とR07は「速い」、R04は「ちょうどよい」と答えています。「速いという意見が2件、ちょうどよいという意見が1件」と書けば、次の研修で説明の区切りに確認時間を設けるか、両方の声を踏まえて考えられます。",
+          "R08の「特にありません。」には、満足か不満かは書かれていません。原文から読み取れる範囲でまとめます。"
+        ],
+        "link": {
+          "label": "AIを業務に取り入れる支援を見る",
+          "href": "/services/ai-saas/"
+        }
+      }
+    ]
+  },
+  {
     "slug": "ai-web-image-brief-template",
     "path": "/insights/ai-web-image-brief-template",
     "category": "AI Web制作",
