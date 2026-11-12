@@ -2,6 +2,75 @@ export const insightsIntro = "仕事にAIを取り入れる前に知っておき
 
 export const insights = [
   {
+    "slug": "ai-system-integration-brief",
+    "path": "/insights/ai-system-integration-brief",
+    "category": "AI開発",
+    "publishedAt": "2026-11-13",
+    "updatedAt": "2026-11-13",
+    "dateLabel": "2026.11.13",
+    "title": "AI開発の見積もり前に｜既存システムとの連携範囲を伝えるメモ",
+    "description": "AI開発の見積もりを頼む前に、既存システムから読むデータと書き込む範囲を整理できる記入シートです。受注CSVを台帳につなぐ3件の記入例付き。",
+    "lead": "「今のシステムと連携したい」と伝えるときは、読むデータと、変更してよいデータを分けます。受注CSVから登録案を作り、人が確認して台帳へ追加する例で、見積もり前に伝えたい範囲を整理しましょう。",
+    "sections": [
+      {
+        "id": "five-fields",
+        "title": "連携する範囲を5つの欄に書く",
+        "paragraphs": [
+          "空欄のシートに、今の業務に沿って書き込みます。接続方法や権限が分からない欄は「未確認」と書いて相談できます。"
+        ],
+        "items": [
+          "入口には、どのシステムから、どんな形式でデータを受け取るかを書きます。",
+          "参照先には、照合する台帳とID、使える権限を書きます。",
+          "出口には、新しく追加する項目と、元のまま残す項目を書きます。",
+          "人が確認する欄には、誰が何を見て登録を決めるかを書きます。",
+          "例外の欄には、同じIDがある行や、照合できない行の扱いを書きます。"
+        ],
+        "link": {
+          "label": "連携範囲の記入メモを開く（TXT）",
+          "href": "/assets/files/insights/ai-system-integration-brief/integration-brief.txt",
+          "external": true
+        }
+      },
+      {
+        "id": "order-example",
+        "title": "受注CSVの3行で確かめる",
+        "paragraphs": [
+          "架空の受注台帳にCSVを取り込む例です。顧客台帳にはC01とC02があり、受注台帳にはO102が数量7で登録されています。まず、記入例のCSVを見て、3行のうちどれを登録できるか考えてみてください。",
+          "列を転記し、台帳のIDと照合する作業には、決めたルールを使います。AIに頼むのは、連絡欄から希望日を拾い、原文と一緒に候補として示す作業です。"
+        ],
+        "link": {
+          "label": "3行の元データと記入例を開く（TXT）",
+          "href": "/assets/files/insights/ai-system-integration-brief/example.txt",
+          "external": true
+        }
+      },
+      {
+        "id": "separate-results",
+        "title": "新規追加と変更希望を分ける",
+        "items": [
+          "O101は新規受注の候補です。C01は顧客台帳にあります。「10月15日納品希望」は希望日のまま残し、担当者が原文を確認してから登録します。",
+          "O102はすでにある受注です。数量は7のまま残し、「6に変更したい」という依頼を担当者に戻します。",
+          "O103は顧客C99が見つからないため保留します。担当者が顧客IDを確認します。"
+        ],
+        "paragraphs": [
+          "今回頼むのは、担当者が確認した新規受注の追加までです。この条件なら、3行を次のように扱います。"
+        ]
+      },
+      {
+        "id": "confirm-and-rerun",
+        "title": "同じCSVをもう一度取り込んで確かめる",
+        "paragraphs": [
+          "O101を担当者が確定すると、追加は1件、保留は2件です。同じCSVをもう一度読み込むと、O101は受注台帳にあるので追加は0件です。O102の数量は7のままです。",
+          "見積もりを頼むときは、記入したシートにこのような具体例を添えます。接続方法や権限が未確認なら、その調査を見積もりに含めるかも相談できます。"
+        ],
+        "link": {
+          "label": "AIを使う業務システムの開発支援を見る",
+          "href": "/services/ai-saas/"
+        }
+      }
+    ]
+  },
+  {
     "slug": "ai-survey-summary-checklist",
     "path": "/insights/ai-survey-summary-checklist",
     "category": "AI活用",
