@@ -119,8 +119,8 @@ if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
 }
 
 $allowedServices = [
-  'saas' => ['label' => 'AIシステム開発 / SaaS・DX', 'subject' => 'AI SaaS / DX'],
-  'marketing' => ['label' => 'AIマーケティング / AIライティング', 'subject' => 'AI Marketing / Writing'],
+  'saas' => ['label' => 'AI導入支援 / RAG・AIシステム開発', 'subject' => 'AI SaaS / DX'],
+  'marketing' => ['label' => 'AIエージェント / AIマーケティング・AIライティング', 'subject' => 'AI Marketing / Writing'],
   'web' => ['label' => 'AI Web制作 / LP・コーポレートサイト', 'subject' => 'AI Web / Brand Site'],
   'consulting' => ['label' => 'AI導入支援 / コンサルティング', 'subject' => 'AI Consulting'],
   'other' => ['label' => 'その他・相談したい', 'subject' => 'Other inquiry'],

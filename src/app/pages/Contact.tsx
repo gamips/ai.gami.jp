@@ -5,7 +5,7 @@ import { PageSeo } from "../components/PageSeo";
 import { ScrollReveal } from "../components/ScrollReveal";
 import { contactIntro } from "../content/contact.js";
 
-type SubmitState = "idle" | "submitting" | "success" | "error";
+type SubmitState = "idle" | "submitting" | "error";
 
 const CONTACT_FORM_ENDPOINT =
   (typeof import.meta !== "undefined" &&
@@ -72,8 +72,6 @@ export function Contact() {
         throw new Error(data?.message || "送信に失敗しました。");
       }
 
-      setSubmitState("success");
-      setSubmitMessage("送信が完了しました。担当者よりご連絡いたします。");
       navigate("/contact/thanks");
       resetForm();
     } catch (error) {
@@ -265,15 +263,12 @@ export function Contact() {
                     {submitState === "submitting" ? "送信中..." : "送信する"}
                   </button>
 
-                  {submitMessage ? (
-                    <p
-                      className={`text-sm mt-2 leading-relaxed max-w-xl ${
-                        submitState === "error" ? "text-red-600" : "text-zinc-600"
-                      }`}
-                    >
-                      {submitMessage}
-                    </p>
-                  ) : null}
+                  <p
+                    role="alert"
+                    className={submitState === "error" ? "text-sm mt-2 leading-relaxed max-w-xl text-red-600" : "sr-only"}
+                  >
+                    {submitMessage}
+                  </p>
 
                   <p className="text-xs text-zinc-500 leading-relaxed max-w-xl">
                     お送りいただいた情報は、お問い合わせ対応のみに使用し、適切に管理いたします。
