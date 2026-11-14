@@ -4,6 +4,7 @@ import { InquiryCta } from "../components/InquiryCta";
 import { PageSeo } from "../components/PageSeo";
 import { ScrollReveal } from "../components/ScrollReveal";
 import { orderedServices } from "../content/services";
+import { serviceSummaries } from "../content/serviceSummaries.js";
 
 export function Services() {
   return (
@@ -98,7 +99,7 @@ export function Services() {
                           to={service.path}
                           className="inline-flex items-center gap-2 text-cyan-500 hover:text-cyan-600 transition-colors font-medium"
                         >
-                          More
+                          {serviceSummaries[service.slug].detailLinkLabel}
                           <ArrowRight size={20} />
                         </Link>
                       </div>

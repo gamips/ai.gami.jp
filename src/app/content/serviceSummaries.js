@@ -1,6 +1,7 @@
 /**
  * @typedef {Object} ServiceSummary
  * @property {string} path
+ * @property {string} detailLinkLabel
  * @property {[string, string?]} titleLines
  * @property {string} overviewDescription
  * @property {[string, string]} homeDescriptionLines
@@ -11,6 +12,7 @@
 export const serviceSummaries = {
   "ai-saas": {
     path: "/services/ai-saas/",
+    detailLinkLabel: "AI導入支援・業務システム開発を見る",
     titleLines: ["AI × SaaS", "AI × DX"],
     homeDescriptionLines: [
       "自社専用の管理システムをAIで高速開発。",
@@ -26,6 +28,7 @@ export const serviceSummaries = {
   },
   "ai-marketing": {
     path: "/services/ai-marketing/",
+    detailLinkLabel: "AIマーケティング・サポートを見る",
     titleLines: ["AI × Growth", "AI × Support"],
     homeDescriptionLines: [
       "AIマーケティングとAIサポートで発信と対応を軽くする。",
@@ -41,6 +44,7 @@ export const serviceSummaries = {
   },
   "ai-web": {
     path: "/services/ai-web/",
+    detailLinkLabel: "AI Web制作を見る",
     titleLines: ["AI × Brand", "AI × Site"],
     homeDescriptionLines: [
       "AI Web制作で企画設計から実装へ直行し、土台を高速構築。",

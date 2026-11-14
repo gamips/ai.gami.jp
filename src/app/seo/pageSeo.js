@@ -413,13 +413,13 @@ export const pageSeoByPath = {
   },
   "/services": {
     path: "/services",
-    lastModified: "2026-09-25",
+    lastModified: "2026-11-15",
     fallbackHeading: "生成AI導入支援・AI開発サービス",
     fallbackSections: Object.values(serviceSummaries).map((service) => ({
       title: service.titleLines.join(" / "),
       body: service.overviewDescription,
       items: service.homeBullets,
-      link: { label: "More", href: service.path },
+      link: { label: service.detailLinkLabel, href: service.path },
     })),
     title: "Services | 生成AI導入支援・AI開発サービス一覧 | GAMI",
     description:
