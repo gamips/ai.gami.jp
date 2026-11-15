@@ -2,6 +2,73 @@ export const insightsIntro = "仕事にAIを取り入れる前に知っておき
 
 export const insights = [
   {
+    "slug": "ai-document-version-comparison-checklist",
+    "path": "/insights/ai-document-version-comparison-checklist",
+    "category": "AI活用",
+    "publishedAt": "2026-11-16",
+    "updatedAt": "2026-11-16",
+    "dateLabel": "2026.11.16",
+    "title": "社内資料の新旧をAIで比較する｜備品申請ルールで試す練習問題",
+    "description": "架空の備品申請ルールの旧版と新版を使い、AIが見つけた変更点を原文と照合する練習です。2つの資料と4項目の解答例を使えます。",
+    "lead": "社内資料の新旧をAIで比べるときは、変更前後の原文を並べると、意味が変わったのか、言い換えただけなのかを確かめられます。架空の備品申請ルールで試してみましょう。",
+    "sections": [
+      {
+        "id": "read-old-rules",
+        "title": "旧版の4項目を読む",
+        "paragraphs": [
+          "旧版には、申請期限、承認者、見積書、受取報告の4項目があります。まず旧版を読み、期限と金額の条件を確認してください。"
+        ],
+        "link": {
+          "label": "備品申請ルールの旧版を読む（TXT）",
+          "href": "/assets/files/insights/ai-document-version-comparison-checklist/old-version.txt",
+          "external": true
+        }
+      },
+      {
+        "id": "compare-new-rules",
+        "title": "新版と比べて原文も残す",
+        "paragraphs": [
+          "旧版と新版の全文をAIに渡し、次のように頼みます。TSVは、表計算ソフトに貼り付けられるタブ区切りの形式です。",
+          "「同じ番号の項目を比較し、項目・旧版・新版・変更の種類・確認することの5列のTSVにしてください。旧版と新版の欄には原文を写し、変更を『期限変更』『承認者追加』『条件削除』『表現だけ』に分けてください。原文から分からないことは最後の欄に書いてください。」"
+        ],
+        "link": {
+          "label": "備品申請ルールの新版を読む（TXT）",
+          "href": "/assets/files/insights/ai-document-version-comparison-checklist/new-version.txt",
+          "external": true
+        }
+      },
+      {
+        "id": "check-answer",
+        "title": "4行の解答例と照らし合わせる",
+        "paragraphs": [
+          "AIの表を解答例と比べ、原文と変更の種類が合っているかを確認します。特に、見積書を添付する条件に注目してください。"
+        ],
+        "items": [
+          "申請期限は、使用日の3営業日前から5営業日前に変わっています。",
+          "承認者には総務担当者が加わっています。承認の順番は書かれていません。",
+          "見積書は「税込1万円以上」という条件がなくなり、1万円未満の備品も添付の対象になっています。",
+          "受取報告は表現だけの修正です。連絡先は総務、期限は受取当日のままです。"
+        ],
+        "link": {
+          "label": "変更点の解答例を見る（TSV）",
+          "href": "/assets/files/insights/ai-document-version-comparison-checklist/answer.tsv",
+          "external": true
+        }
+      },
+      {
+        "id": "use-updated-documents",
+        "title": "更新後の資料を社内で使うには",
+        "paragraphs": [
+          "社内資料をもとに質問に答えるAIでも、新旧どちらのルールを参照するかで答えが変わります。資料を更新した後は、たとえば「5,000円の備品にも見積書が必要か」と尋ね、回答と参照した版を確かめます。"
+        ],
+        "link": {
+          "label": "RAG・社内AIチャットボットの構築支援を見る",
+          "href": "/services/ai-saas/"
+        }
+      }
+    ]
+  },
+  {
     "slug": "ai-system-integration-brief",
     "path": "/insights/ai-system-integration-brief",
     "category": "AI開発",
