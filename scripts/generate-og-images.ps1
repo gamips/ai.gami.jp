@@ -14,6 +14,7 @@ $items = @(
   @{ File = "service-ai-brand.png"; Eyebrow = "SERVICE 03"; Lines = @("AI × Brand", "AI × Site"); AccentSecond = $true },
   @{ File = "price.png"; Eyebrow = "PRICE"; Lines = @("Start Small,", "Move Monthly."); AccentSecond = $true },
   @{ File = "news.png"; Eyebrow = "NEWS"; Lines = @("Latest", "Updates"); AccentSecond = $true },
+  @{ File = "insights.png"; Eyebrow = "INSIGHTS"; Lines = @("AI at Work", "Guides & Templates"); AccentSecond = $true },
   @{ File = "about.png"; Eyebrow = "ABOUT"; Lines = @("Build for Business,", "Not for Show."); AccentSecond = $true },
   @{ File = "contact.png"; Eyebrow = "CONTACT"; Lines = @("Talk to", "GAMI"); AccentSecond = $true }
 )

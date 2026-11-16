@@ -295,6 +295,11 @@ const featuredNewsSections = featuredNews.map((news) => ({
   href: news.href,
 }));
 
+const insightsShareImage = {
+  image: "/og/insights.png",
+  imageAlt: "仕事でAIを使うための記事とテンプレート | GAMI",
+};
+
 const insightsListSchema = {
   "@context": "https://schema.org",
   "@type": "ItemList",
@@ -310,6 +315,10 @@ const insightsListSchema = {
 };
 
 function createInsightSchemas(insight) {
+  const articleImages = insight.sections
+    .filter((section) => section.image)
+    .map((section) => toAbsoluteUrl(section.image.src));
+
   return [
     organizationSchema,
     createBaseWebPageSchema({
@@ -327,7 +336,7 @@ function createInsightSchemas(insight) {
       articleSection: insight.category,
       inLanguage: "ja-JP",
       mainEntityOfPage: toCanonicalUrl(insight.path),
-      image: toAbsoluteUrl("/og/news.png"),
+      ...(articleImages.length ? { image: articleImages } : {}),
       author: {
         "@type": "Organization",
         name: SITE_LEGAL_NAME,
@@ -1136,8 +1145,7 @@ pageSeoByPath["/insights"] = {
   title: "Insights | AI導入・生成AI活用の実践ガイド | GAMI",
   description:
     "中小企業のAI導入、生成AI活用、RAG、AIエージェント、AI Web制作について、仕事で使うための考え方と手順を短く具体的に紹介します。",
-  image: "/og/news.png",
-  imageAlt: "GAMI Insights open graph image",
+  ...insightsShareImage,
   ogType: "website",
   fallbackSections: insights.map((insight) => ({
     title: insight.title,
@@ -1172,8 +1180,7 @@ for (const insight of insights) {
     lastModified: insight.updatedAt,
     title: `${insight.title} | GAMI`,
     description: insight.description,
-    image: "/og/news.png",
-    imageAlt: `${insight.title} - GAMI Insights`,
+    ...insightsShareImage,
     ogType: "article",
     publishedAt: insight.publishedAt,
     updatedAt: insight.updatedAt,
