@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>同じ写真で練習する画像の代替テキスト | GAMI</title>
+  <meta name="description" content="同じ椅子の写真を商品紹介、装飾、画像リンクで使い、代替テキストの付け方を3つの例で確かめる練習です。">
+  <link rel="canonical" href="https://ai.gami.jp/assets/files/insights/ai-image-alt-text-template/practice.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="GAMI">
+  <meta property="og:title" content="同じ写真で練習する画像の代替テキスト">
+  <meta property="og:description" content="商品紹介、装飾、画像リンク。同じ写真でも、役割に合わせてaltを考えましょう。">
+  <meta property="og:url" content="https://ai.gami.jp/assets/files/insights/ai-image-alt-text-template/practice.html">
+  <meta property="og:image" content="https://ai.gami.jp/og/insights.png">
+  <meta property="og:image:alt" content="仕事でAIを使うための記事とテンプレート | GAMI">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://ai.gami.jp/og/insights.png">
+  <style>
+    :root {
+      --c-text: #18181b;
+      --c-muted: #52525b;
+      --c-link: #0e7490;
+      --c-border: #d4d4d8;
+      --c-paper: #fafafa;
+      --c-white: #fff;
+      --space-2: 2px;
+      --space-4: 4px;
+      --space-8: 8px;
+      --space-16: 16px;
+      --space-24: 24px;
+      --space-32: 32px;
+      --space-48: 48px;
+      --space-64: 64px;
+      --border-width: 1px;
+      --content-width: 960px;
+      --image-width: 360px;
+      --text-base: 18px;
+      --text-small: 14px;
+      --text-heading: clamp(32px, 5vw, 56px);
+      --text-section: clamp(24px, 3vw, 32px);
+      --line-height: 1.85;
+      --line-heading: 1.35;
+      --font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; color: var(--c-text); background: var(--c-white); font: var(--text-base)/var(--line-height) var(--font-family); }
+    a, summary { color: var(--c-link); text-underline-offset: var(--space-4); }
+    a:focus-visible, summary:focus-visible { outline: var(--space-2) solid var(--c-link); outline-offset: var(--space-4); }
+    :where(.l-container) { width: min(100% - var(--space-48), var(--content-width)); margin-inline: auto; }
+    :where(.p-header) {
+      padding-block: var(--space-32) var(--space-64);
+      nav { display: flex; justify-content: space-between; font-size: var(--text-small); }
+      .__brand { font-weight: 800; text-decoration: none; color: var(--c-text); }
+      h1 { max-width: 17em; margin: var(--space-64) 0 var(--space-24); font-size: var(--text-heading); line-height: var(--line-heading); letter-spacing: -.025em; }
+      p { margin: 0; color: var(--c-muted); }
+    }
+    :where(.p-exercise) {
+      padding-block: var(--space-48);
+      border-top: var(--border-width) solid var(--c-border);
+      h2 { margin: 0 0 var(--space-16); font-size: var(--text-section); line-height: var(--line-heading); }
+      p { margin: 0 0 var(--space-24); color: var(--c-muted); }
+      .__practice { display: grid; grid-template-columns: var(--image-width) minmax(0, 1fr); gap: var(--space-48); align-items: center; }
+      img { display: block; width: 100%; height: auto; }
+      .__question { color: var(--c-text); font-weight: 700; }
+      details { border-top: var(--border-width) solid var(--c-border); padding-block: var(--space-16); }
+      summary { cursor: pointer; font-weight: 700; }
+      details[open] summary { margin-bottom: var(--space-16); }
+      code { display: block; padding: var(--space-16); margin-bottom: var(--space-16); background: var(--c-paper); overflow-wrap: anywhere; font-size: var(--text-small); }
+      details p { margin: 0; }
+      .__image-link { display: block; outline: var(--border-width) solid var(--c-border); }
+      .__image-link:hover { outline-color: var(--c-link); }
+    }
+    :where(.p-detail) {
+      border-block: var(--border-width) solid var(--c-border);
+      padding-block: var(--space-32);
+      h2 { margin: 0 0 var(--space-8); font-size: var(--text-section); }
+      p { margin: 0; color: var(--c-muted); }
+    }
+    :where(.p-footer) { padding-block: var(--space-32) var(--space-64); }
+    @media (max-width: 767px) {
+      :where(.p-exercise) .__practice { grid-template-columns: minmax(0, 1fr); gap: var(--space-24); }
+      :where(.p-header) { padding-bottom: var(--space-48); }
+      :where(.p-header) h1 { margin-top: var(--space-48); }
+    }
+  </style>
+</head>
+<body>
+  <div class="l-container">
+    <header class="p-header">
+      <nav aria-label="サイト案内">
+        <a class="__brand" href="https://ai.gami.jp/">GAMI</a>
+        <a href="https://ai.gami.jp/insights/">Insights</a>
+      </nav>
+      <h1>同じ写真で練習する<br>画像の代替テキスト</h1>
+      <p>同じ椅子の写真を、商品紹介、読み物、商品一覧で使います。それぞれの写真にどんな代替テキスト（alt）を付けるか考えてから、答えを開いてみましょう。椅子は練習用の架空の商品です。</p>
+    </header>
+    <main>
+      <section class="p-exercise" aria-labelledby="product-heading">
+        <h2 id="product-heading">商品紹介「椅子A」</h2>
+        <p>食卓に合わせる椅子を探している人に、写真で色と形を伝えます。商品名の近くには、色や肘掛けについての説明がありません。</p>
+        <div class="__practice">
+          <img src="/assets/images/insights/alt-text-practice/chair.png" alt="青い座面と背もたれの、肘掛けのない椅子" width="1448" height="1086">
+          <div>
+            <p class="__question">どんなaltを付けますか？</p>
+            <details>
+              <summary aria-label="商品紹介の答えを見る">答えを見る</summary>
+              <code>alt="青い座面と背もたれの、肘掛けのない椅子"</code>
+              <p>写真で伝えている色と形が、写真を見られない人にも分かります。</p>
+            </details>
+          </div>
+        </div>
+      </section>
+      <section class="p-exercise" aria-labelledby="decorative-heading">
+        <h2 id="decorative-heading">読み物「休憩時間の過ごし方」</h2>
+        <p>作業の合間に席を立ち、窓の外を眺めてひと息つく過ごし方を紹介します。椅子の写真は、記事の雰囲気を添えるために置いています。</p>
+        <div class="__practice">
+          <img src="/assets/images/insights/alt-text-practice/chair.png" alt="" width="1448" height="1086" loading="lazy">
+          <div>
+            <p class="__question">どんなaltを付けますか？</p>
+            <details>
+              <summary aria-label="読み物の答えを見る">答えを見る</summary>
+              <code>alt=""</code>
+              <p>写真がなくても、休憩時間の過ごし方は本文で分かります。altを空にすると、スクリーンリーダーは装飾の写真を読み飛ばせます。</p>
+            </details>
+          </div>
+        </div>
+      </section>
+      <section class="p-exercise" aria-labelledby="link-heading">
+        <h2 id="link-heading">商品一覧の画像リンク</h2>
+        <p>写真を選ぶと、このページの「椅子Aの詳細」に移動します。リンクの中にあるのは写真だけです。</p>
+        <div class="__practice">
+          <a class="__image-link" href="#chair-details">
+            <img src="/assets/images/insights/alt-text-practice/chair.png" alt="椅子Aの詳細を見る" width="1448" height="1086" loading="lazy">
+          </a>
+          <div>
+            <p class="__question">どんなaltを付けますか？</p>
+            <details>
+              <summary aria-label="画像リンクの答えを見る">答えを見る</summary>
+              <code>alt="椅子Aの詳細を見る"</code>
+              <p>写真のaltがリンクの名前になります。商品名と移動先が分かる言葉にします。</p>
+            </details>
+          </div>
+        </div>
+      </section>
+      <section class="p-detail" id="chair-details" aria-labelledby="chair-heading">
+        <h2 id="chair-heading">椅子Aの詳細</h2>
+        <p>座面と背もたれが青い、肘掛けのない椅子です。</p>
+      </section>
+    </main>
+    <footer class="p-footer">
+      <a href="https://ai.gami.jp/insights/ai-image-alt-text-template/">AIで代替テキストを作る</a>
+    </footer>
+  </div>
+</body>
+</html>
