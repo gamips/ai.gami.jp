@@ -36,6 +36,13 @@
     </div>
 
     <div class="border-t mt-12 pt-8 text-center text-sm border-zinc-200 text-zinc-500">
+      <details class="mb-6">
+        <summary class="cursor-pointer">アクセス解析について</summary>
+        <div class="mx-auto mt-4 max-w-3xl space-y-3 text-left leading-relaxed">
+          <p>当サイトでは、サイト改善のため、Google アナリティクスを利用しています。Cookieを使って訪問やお問い合わせの送信完了の回数を計測します。フォームに入力したお名前、メールアドレス、お問い合わせ本文はGoogle アナリティクスに送信しません。</p>
+          <p>収集されたデータの取り扱いは、<a class="underline hover:text-cyan-500" href="https://policies.google.com/technologies/partner-sites?hl=ja">Googleによるデータ利用の説明</a>をご覧ください。計測を無効にするには、お使いのブラウザに<a class="underline hover:text-cyan-500" href="https://tools.google.com/dlpage/gaoptout?hl=ja">Google アナリティクス オプトアウト アドオン</a>をインストールしてください。</p>
+        </div>
+      </details>
       <p>&copy; 2026 Gami, Inc. All rights reserved.</p>
     </div>
   </div>

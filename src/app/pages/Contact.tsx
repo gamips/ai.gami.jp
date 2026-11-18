@@ -4,6 +4,7 @@ import { useNavigate } from "react-router";
 import { PageSeo } from "../components/PageSeo";
 import { ScrollReveal } from "../components/ScrollReveal";
 import { contactIntro } from "../content/contact.js";
+import { trackSuccessfulInquiry } from "../analytics";
 
 type SubmitState = "idle" | "submitting" | "error";
 
@@ -72,6 +73,7 @@ export function Contact() {
         throw new Error(data?.message || "送信に失敗しました。");
       }
 
+      trackSuccessfulInquiry();
       navigate("/contact/thanks");
       resetForm();
     } catch (error) {

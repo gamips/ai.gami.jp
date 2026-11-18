@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { trackPageView } from "../analytics";
 import {
   DEFAULT_OG_IMAGE_HEIGHT,
   DEFAULT_OG_IMAGE_WIDTH,
@@ -144,6 +145,8 @@ export function PageSeo({ path, ...override }: SeoOverride) {
       script.text = JSON.stringify(schema).replace(/</g, "\\u003c");
       document.head.appendChild(script);
     }
+
+    trackPageView(canonicalUrl ?? toCanonicalUrl("/404"), entry.title);
   }, [
     entry.description,
     entry.canonical,
