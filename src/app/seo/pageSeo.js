@@ -1192,6 +1192,7 @@ for (const insight of insights) {
       ordered: section.ordered,
       image: section.image,
       link: section.link,
+      links: section.links,
     })),
     schemas: createInsightSchemas(insight),
   };

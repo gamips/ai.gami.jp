@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>問い合わせ分類の練習 | GAMI</title>
+  <meta name="description" content="架空の問い合わせ4通で練習します。料金や画面の使い方について、何を尋ねているか考えましょう。用件が二つあれば両方を分類し、用件が分からなければ判断を保留します。">
+  <link rel="canonical" href="https://ai.gami.jp/assets/files/insights/ai-inquiry-classification-checklist/practice.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="GAMI">
+  <meta property="og:title" content="問い合わせ分類の練習">
+  <meta property="og:description" content="架空の問い合わせ4通で練習します。料金や画面の使い方について、何を尋ねているか考えましょう。用件が二つあれば両方を分類し、用件が分からなければ判断を保留します。">
+  <meta property="og:url" content="https://ai.gami.jp/assets/files/insights/ai-inquiry-classification-checklist/practice.html">
+  <meta property="og:image" content="https://ai.gami.jp/og/insights.png">
+  <meta property="og:image:alt" content="仕事でAIを使うための記事とテンプレート | GAMI">
+  <meta name="twitter:card" content="summary_large_image">
+  <style>
+    :root {
+      --c-text: #18181b; --c-muted: #52525b; --c-link: #0e7490; --c-border: #d4d4d8; --c-white: #fff;
+      --space-2: 2px; --space-4: 4px; --space-8: 8px; --space-16: 16px; --space-24: 24px; --space-32: 32px; --space-48: 48px; --space-64: 64px;
+      --border-width: 1px; --content-width: 960px; --text-base: 18px; --text-small: 14px;
+      --text-heading: clamp(32px, 5vw, 56px); --text-section: clamp(24px, 3vw, 32px);
+      --line-height: 1.85; --line-heading: 1.35;
+      --font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; color: var(--c-text); background: var(--c-white); font: var(--text-base)/var(--line-height) var(--font-family); }
+    a, summary { color: var(--c-link); text-underline-offset: var(--space-4); }
+    a:focus-visible, summary:focus-visible { outline: var(--space-2) solid var(--c-link); outline-offset: var(--space-4); }
+    :where(.l-container) { width: min(100% - var(--space-48), var(--content-width)); margin-inline: auto; }
+    :where(.p-header) {
+      padding-block: var(--space-32) var(--space-48);
+      nav { display: flex; justify-content: space-between; font-size: var(--text-small); }
+      .__brand { font-weight: 800; text-decoration: none; color: var(--c-text); }
+      h1 { margin: var(--space-64) 0 var(--space-24); font-size: var(--text-heading); line-height: var(--line-heading); letter-spacing: -.025em; }
+      p { margin: 0; color: var(--c-muted); }
+    }
+    :where(.p-exercise) {
+      padding-block: var(--space-48); border-top: var(--border-width) solid var(--c-border);
+      h2 { margin: 0 0 var(--space-16); font-size: var(--text-section); line-height: var(--line-heading); }
+      blockquote { margin: 0 0 var(--space-24); }
+      details { border-top: var(--border-width) solid var(--c-border); padding-top: var(--space-16); }
+      summary { cursor: pointer; font-weight: 700; }
+      details p { margin: var(--space-16) 0 0; color: var(--c-muted); }
+      strong { color: var(--c-text); }
+    }
+    :where(.p-downloads) {
+      border-block: var(--border-width) solid var(--c-border); padding-block: var(--space-32);
+      ul { list-style: none; margin: 0; padding: 0; }
+      li + li { margin-top: var(--space-8); }
+    }
+    :where(.p-footer) { padding-block: var(--space-32) var(--space-64); }
+    @media (max-width: 767px) { :where(.p-header) h1 { margin-top: var(--space-48); } }
+  </style>
+</head>
+<body>
+  <div class="l-container">
+    <header class="p-header">
+      <nav aria-label="サイト案内"><a class="__brand" href="https://ai.gami.jp/">GAMI</a><a href="https://ai.gami.jp/insights/">Insights</a></nav>
+      <h1>問い合わせ分類の練習</h1>
+      <p>架空の問い合わせ4通で練習します。料金や画面の使い方について、何を尋ねているか考えましょう。用件が二つあれば両方を分類し、用件が分からなければ判断を保留します。</p>
+    </header>
+    <main>
+      <section class="p-exercise" aria-labelledby="Q01">
+        <h2 id="Q01">問い合わせ 1</h2>
+        <blockquote>利用人数を増やすと、月額はいくらになりますか。</blockquote>
+        <details>
+          <summary aria-label="問い合わせ 1の答えを見る">答えを見る</summary>
+          <p><strong>料金</strong><br>利用人数を増やした場合の月額を尋ねています。</p>
+        </details>
+      </section>
+      <section class="p-exercise" aria-labelledby="Q02">
+        <h2 id="Q02">問い合わせ 2</h2>
+        <blockquote>管理画面で先月の請求書を表示する手順を教えてください。</blockquote>
+        <details>
+          <summary aria-label="問い合わせ 2の答えを見る">答えを見る</summary>
+          <p><strong>使い方</strong><br>知りたいのは、管理画面で請求書を表示する手順です。</p>
+        </details>
+      </section>
+      <section class="p-exercise" aria-labelledby="Q03">
+        <h2 id="Q03">問い合わせ 3</h2>
+        <blockquote>CSV出力に追加費用はかかりますか。また、管理画面のどこから出力できますか。</blockquote>
+        <details>
+          <summary aria-label="問い合わせ 3の答えを見る">答えを見る</summary>
+          <p><strong>料金、使い方</strong><br>追加費用と、管理画面から出力する手順の両方を尋ねています。</p>
+        </details>
+      </section>
+      <section class="p-exercise" aria-labelledby="Q04">
+        <h2 id="Q04">問い合わせ 4</h2>
+        <blockquote>請求書について確認したいです。</blockquote>
+        <details>
+          <summary aria-label="問い合わせ 4の答えを見る">答えを見る</summary>
+          <p><strong>判断保留</strong><br>請求書について、何を確認したいかを尋ねます。</p>
+        </details>
+      </section>
+      <nav class="p-downloads" aria-label="練習ファイル">
+        <ul><li><a href="practice.txt" download>問い合わせ原文をダウンロード（TXT）</a></li><li><a href="answers.tsv" download>解答表をダウンロード（TSV）</a></li></ul>
+      </nav>
+    </main>
+    <footer class="p-footer"><a href="https://ai.gami.jp/insights/ai-inquiry-classification-checklist/">問い合わせの分類基準を確認する</a></footer>
+  </div>
+</body>
+</html>

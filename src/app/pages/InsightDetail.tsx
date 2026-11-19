@@ -120,6 +120,18 @@ export function InsightDetail() {
                         </figure>
                       ) : null}
 
+                      {section.links?.length ? (
+                        <ul className="mt-8 space-y-3 text-cyan-600">
+                          {section.links.map((link) => (
+                            <li key={link.href}>
+                              <a href={link.href} className="underline underline-offset-4 hover:text-cyan-700">
+                                {link.label}
+                              </a>
+                            </li>
+                          ))}
+                        </ul>
+                      ) : null}
+
                       {section.link ? (
                         section.link.external ? (
                           <a

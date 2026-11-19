@@ -2081,7 +2081,7 @@ export const insights = [
     path: "/insights/ai-introduction-support",
     category: "AI導入",
     publishedAt: "2026-09-04",
-    updatedAt: "2026-10-11",
+    updatedAt: "2026-11-20",
     dateLabel: "2026.09.04",
     title: "AI導入支援とは？小さく始めるための5つの整理",
     description:
@@ -2102,6 +2102,7 @@ export const insights = [
         title: "ツール選びより先に整理する5つ",
         paragraphs: [
           "ツールを比べる前に、次の5つを整理します。ここが決まっていると、どのツールでも試しやすくなります。",
+          "問い合わせ対応で、普段の担当者と、判断に迷ったときの引き継ぎ先を分担シートに整理できます。",
         ],
         ordered: true,
         items: [
@@ -2110,6 +2111,16 @@ export const insights = [
           "AIに任せない判断を決める。金額の確定、契約、社外への送信など、人が持つ判断を先に分けます。",
           "確認する人を決める。誰が、何を見て、どの状態なら使えると判断するかを決めます。",
           "時間と品質の基準値を測る。導入前の作業時間と手戻りを記録し、試した後と同じ条件で比べます。",
+        ],
+        links: [
+          {
+            "label": "問い合わせ対応の分担シート（空欄版・TSV）",
+            "href": "/assets/files/insights/ai-introduction-support/inquiry-roles.tsv"
+          },
+          {
+            "label": "問い合わせ対応の分担シート（記入例・TSV）",
+            "href": "/assets/files/insights/ai-introduction-support/inquiry-roles-example.tsv"
+          }
         ],
         link: {
           label: "AIを使う前後の時間を比べる記録表を見る",
