@@ -119,6 +119,22 @@
   --color-sidebar-ring: var(--sidebar-ring);
 }
 
+:where(.l-header) {
+  background-color: var(--background);
+}
+
+:where(body[data-header-theme="dark"] .l-header) {
+  background-color: var(--color-zinc-950);
+}
+
+:where(
+  body[data-server-shell][data-header-theme="dark"] .l-header > div > div > a,
+  body[data-server-shell][data-header-theme="dark"] .l-header nav[aria-label="Primary"] a:not(:hover),
+  body[data-server-shell][data-header-theme="dark"] .l-header .gami-mobile-menu summary
+) {
+  color: var(--color-zinc-50);
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
