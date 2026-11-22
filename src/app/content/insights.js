@@ -1160,7 +1160,7 @@ export const insights = [
     "path": "/insights/ai-work-handoff-template",
     "category": "AI活用",
     "publishedAt": "2026-10-02",
-    "updatedAt": "2026-10-02",
+    "updatedAt": "2026-11-23",
     "dateLabel": "2026.10.02",
     "title": "AIの作業を人へ引き継ぐ｜済んだこと・残ったことの記入メモ",
     "description": "AIを使った作業を別の担当者へ引き継ぐための記入メモです。済んだ作業、未着手の作業、判断してほしい点、成果物の場所を整理し、次にどこから進めるかを架空の例で紹介します。",
@@ -1178,7 +1178,8 @@ export const insights = [
         "id": "handoff-fields",
         "title": "コピーして使う引き継ぎメモ",
         "paragraphs": [
-          "一件の作業について、次の欄を埋めます。成果物や元資料は、引き継ぐ相手が開ける場所を添えてください。"
+          "一件の作業について、次の欄を埋めます。成果物や元資料は、引き継ぐ相手が開ける場所を添えてください。",
+          "手元で記入するときは、空欄版を使えます。"
         ],
         "items": [
           "対象：［何の作業か／今回扱った範囲］",
@@ -1186,6 +1187,16 @@ export const insights = [
           "残ったこと：［未着手の作業／保留した作業と理由］",
           "判断してほしいこと：［決めてほしい点／判断に使う元資料の場所］",
           "引き継ぎ先と次の作業：［担当者／確認後に誰がどこから進めるか］"
+        ],
+        "links": [
+          {
+            "label": "引き継ぎメモ（空欄版・TXT）",
+            "href": "/assets/files/insights/ai-work-handoff-template/handoff-memo.txt"
+          },
+          {
+            "label": "引き継ぎメモ（記入例・TXT）",
+            "href": "/assets/files/insights/ai-work-handoff-template/handoff-memo-example.txt"
+          }
         ]
       },
       {
