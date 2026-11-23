@@ -180,7 +180,7 @@ function buildStaticFallbackBody(entry) {
           : `<p class="text-sm font-bold tracking-widest text-cyan-500">SECTION ${String(index + 1).padStart(2, "0")}</p>`;
 
         return `
-          <article class="border-t border-zinc-200 py-10">
+          <article${section.id ? ` id="${escapeHtml(section.id)}"` : ""} class="${section.id ? "scroll-mt-24 " : ""}border-t border-zinc-200 py-10">
             ${sectionLabel}
             <h2 class="mt-3 text-2xl md:text-3xl font-bold leading-tight text-zinc-900">${title}</h2>
             ${body}

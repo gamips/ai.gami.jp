@@ -1019,6 +1019,7 @@ export const pageSeoByPath = {
     lastModified: "2026-10-05",
     fallbackHeading: "AI導入支援のお知らせ",
     fallbackSections: newsItems.map((news) => ({
+      id: `news-${news.id}`,
       title: news.title,
       body: news.description,
       href: news.href,

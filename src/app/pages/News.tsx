@@ -1,4 +1,6 @@
 import { Calendar, Tag } from "lucide-react";
+import { useEffect } from "react";
+import { useLocation } from "react-router";
 import { InquiryCta } from "../components/InquiryCta";
 import { PageSeo } from "../components/PageSeo";
 import { ScrollReveal } from "../components/ScrollReveal";
@@ -6,6 +8,19 @@ import { ScrollToTopLink } from "../components/ScrollToTopLink";
 import { newsItems } from "../content/news.js";
 
 export function News() {
+  const { hash } = useLocation();
+
+  useEffect(() => {
+    const news = newsItems.find((item) => hash === `#news-${item.id}`);
+    if (!news) return;
+
+    const frame = window.requestAnimationFrame(() => {
+      document.getElementById(`news-${news.id}`)?.scrollIntoView({ block: "start", behavior: "instant" });
+    });
+
+    return () => window.cancelAnimationFrame(frame);
+  }, [hash]);
+
   return (
     <div className="pt-24">
       <PageSeo path="/news" />
@@ -32,7 +47,7 @@ export function News() {
           <div className="max-w-6xl mx-auto border-t border-zinc-200">
             {newsItems.map((news, index) => (
               <ScrollReveal key={news.id} delay={index * 0.05}>
-                <article id={`news-${news.id}`} className="py-10 border-b border-zinc-200">
+                <article id={`news-${news.id}`} className="scroll-mt-24 py-10 border-b border-zinc-200">
                   <div className="grid grid-cols-1 xl:grid-cols-[220px_minmax(0,1fr)] gap-8 items-start">
                     <div>
                       <div className="flex items-center gap-3 text-zinc-500 mb-3">
