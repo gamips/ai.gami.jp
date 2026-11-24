@@ -141,6 +141,7 @@ echo $headContent . "\n";
 echo "  <script>window.__gamiServerChrome = true;</script>\n";
 echo "</head>\n";
 echo "<body" . $bodyAttributes . ">\n";
+echo '<a href="#main-content" class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:rounded-full focus:bg-zinc-900 focus:px-4 focus:py-2 focus:text-white">コンテンツへスキップ</a>' . "\n";
 
 $headerFile = $documentRoot . "/partials/header.php";
 if (is_file($headerFile)) {

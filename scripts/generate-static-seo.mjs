@@ -87,7 +87,7 @@ function stripTitleSuffix(title = "") {
 }
 
 const contactThanksStaticFallback = `
-  <div class="pt-24">
+  <main id="main-content" tabindex="-1" class="pt-24">
     <header class="bg-white py-16 md:py-20">
       <div class="container mx-auto px-6">
         <p class="text-cyan-500 font-medium tracking-widest mb-6">CONTACT / THANKS</p>
@@ -120,7 +120,7 @@ const contactThanksStaticFallback = `
         </div>
       </div>
     </section>
-  </div>`;
+  </main>`;
 
 function stripFallbackBlock(template) {
   if (!template.includes(bodyMarkerStart) || !template.includes(bodyMarkerEnd)) {
@@ -193,7 +193,7 @@ function buildStaticFallbackBody(entry) {
       .join("");
 
     return `
-      <main id="seo-fallback" class="pt-24">
+      <main id="main-content" tabindex="-1" class="pt-24">
         <section class="container mx-auto px-6 py-20">
           <p class="text-cyan-500 font-medium tracking-widest mb-6">${escapeHtml(entry.fallbackLabel ?? "GAMI")}</p>
           <h1 class="text-4xl md:text-6xl font-bold leading-tight text-zinc-900">${heading}</h1>
@@ -208,7 +208,7 @@ function buildStaticFallbackBody(entry) {
   }
 
   return `
-    <main id="seo-fallback" class="pt-24">
+    <main id="main-content" tabindex="-1" class="pt-24">
       <section class="container mx-auto px-6 py-20">
         <p class="text-cyan-500 font-medium tracking-widest mb-6">GAMI</p>
         <h1 class="text-4xl md:text-6xl font-bold leading-tight text-zinc-900">${heading}</h1>
